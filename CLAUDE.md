@@ -1,0 +1,97 @@
+# CASSCF Literature Mining Agent — Policy
+
+You are running a loop that finds published papers containing CASSCF-family
+calculations on transition-metal complexes, downloads the open-access PDFs,
+and transforms them into rows of `database/literature.csv` — the same schema
+as `claude-casscf/database/literature.csv`, so mined rows can be merged into
+the decision agent's reference database. Follow this policy exactly.
+
+The Python package does the mechanical work (API search, PDF download, text
+extraction). **You do the reading and extraction** — deciding whether a paper
+really contains a usable CASSCF calculation and pulling the fields out of the
+text is judgment work, not regex work.
+
+## Layout
+
+```
+code/mining_agent/            Python implementation (search/fetch/text/csv helpers)
+database/literature.csv       output database (schema identical to claude-casscf)
+database/papers_index.csv     one row per candidate paper: doi, title, status, paths
+papers/<key>.pdf              downloaded PDFs (gitignored — do not commit)
+text/<key>.txt                extracted text (gitignored — do not commit)
+logs/extractions.csv          append-only audit log, one row per decision
+```
+
+Run all `python -m mining_agent ...` commands from `code/` with
+`code/.venv/bin/python`.
+
+## The loop, one paper at a time
+
+1. **Search.** `python -m mining_agent search --query "<terms>" --max N`
+   queries OpenAlex (open-access-filtered) and appends new candidates to
+   `papers_index.csv` with `status=candidate`, deduplicated by DOI. Vary
+   queries across cycles: "CASSCF transition metal complex",
+   "NEVPT2 zero-field splitting", "CASPT2 spin states iron", metal-specific
+   terms, etc. Papers already in the index (any status) are never re-added.
+
+2. **Fetch.** `python -m mining_agent fetch --max N` downloads PDFs for
+   candidates that have an open-access URL → `status=fetched`
+   (or `fetch_failed` with the reason). Only OA locations reported by the
+   API are ever downloaded — never scrape paywalled content or mirrors.
+
+3. **Extract text.** `python -m mining_agent text --key <key>` (or
+   `--all-fetched`) converts the PDF to `text/<key>.txt` → `status=text_ready`.
+
+4. **Read and judge.** Read `text/<key>.txt` yourself. A paper is *usable* if
+   it reports an actual multireference calculation (CASSCF / RASSCF / CASPT2 /
+   NEVPT2 / MRCI) **on a specific transition-metal compound** with at least
+   the active space size (nel, norb) stated. Reviews citing others' numbers,
+   method papers with toy systems only, and papers where the active space is
+   never specified are `status=not_usable` (log why).
+
+5. **Extract rows.** For each distinct compound+method result in a usable
+   paper, build a JSON dict of the schema fields and append it with
+   `python -m mining_agent add-row --json <file>.json`. Rules:
+   - **Copy, never infer.** Every value must be stated in the paper (or be
+     an arithmetic restatement, e.g. eV from cm⁻¹ — note the conversion in
+     `notes`). A field the paper doesn't state stays **empty**. Never
+     estimate, never fill from general chemistry knowledge. d_electron_count
+     from the stated oxidation state is allowed (it's arithmetic), but flag
+     it in `notes` if the paper doesn't state the ox state explicitly.
+   - `entry_id`: the papers_index `key`, plus `-a`, `-b`, ... for multiple
+     compounds from one paper. `structure_file`: empty unless you actually
+     save a geometry to `database/structures/`.
+   - `active_space_protocol`: only if the paper describes its buildup
+     sequence; this column is what the decision agent reads — quote it
+     faithfully, format "(nel,norb) step; (nel,norb) step; ...".
+   - `reference_doi` is mandatory — a row without a DOI is not addable.
+   - `low_lying_states_eV` / `Other`: paste the relevant numbers compactly;
+     state units; SOC-corrected vs SOC-free matters (`soc_included` flag).
+   - One row per compound, not per table — condense.
+   Then `status=extracted` (or `extracted_partial` if key fields were
+   missing but the row is still useful).
+
+6. **Log.** Every status change appends to `logs/extractions.csv`:
+   `timestamp, key, doi, action, result, reasoning`. The audit trail is the
+   review mechanism — write reasoning a chemist can check.
+
+## Give up / escalate conditions
+
+- PDF text extraction garbled (equations/tables shredded beyond reliable
+  reading): `status=text_unreadable`, move on — never guess at garbled
+  numbers.
+- API errors or rate-limit responses: back off (the code already rate-limits;
+  don't hammer), retry next cycle, and stop and report if a source stays
+  down across a whole cycle.
+- Anything that looks like a licensing/access problem beyond "not OA":
+  stop and ask the user.
+
+## Things to never do
+
+- Never fabricate or infer a value the paper doesn't state — empty cell wins.
+- Never commit `papers/` or `text/` (copyrighted content; they're gitignored).
+- Never download from anywhere except the OA URLs the search API returns.
+- Never add a row whose DOI already has rows, unless it's a genuinely
+  different compound from the same paper.
+- Never edit or delete existing `literature.csv` rows without being asked —
+  append-only, corrections go in `notes`.

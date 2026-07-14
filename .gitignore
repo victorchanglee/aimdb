@@ -1,0 +1,8 @@
+# Downloaded papers and extracted text — copyrighted content, never commit
+papers/
+text/
+
+# Python environments and bytecode
+code/.venv/
+__pycache__/
+*.pyc

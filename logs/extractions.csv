@@ -1,0 +1,8 @@
+timestamp,key,doi,action,result,reasoning
+2026-07-14T21:59:29Z,W2996644751,10.1021/acs.jctc.9b01255,search,candidate,query: 'CASSCF transition metal complex active space'
+2026-07-14T21:59:29Z,W2160052848,10.1063/1.2920188,search,candidate,query: 'CASSCF transition metal complex active space'
+2026-07-14T21:59:29Z,W2603410158,10.1039/c7cs00033b,search,candidate,query: 'CASSCF transition metal complex active space'
+2026-07-14T21:59:29Z,W2314654636,10.1021/jp205710e,search,candidate,query: 'CASSCF transition metal complex active space'
+2026-07-14T21:59:29Z,W2467783257,10.1021/acs.chemrev.6b00204,search,candidate,query: 'CASSCF transition metal complex active space'
+2026-07-14T22:00:20Z,W2996644751,10.1021/acs.jctc.9b01255,fetch,fetched,1063067 bytes from https://arxiv.org/pdf/1912.08379
+2026-07-14T22:00:21Z,W2996644751,10.1021/acs.jctc.9b01255,text,text_ready,54 pages -> W2996644751.txt
