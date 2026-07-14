@@ -25,23 +25,18 @@ def cmd_search(args):
 def cmd_import(args):
     dois = _read_doi_column(args.csv)
     print(f"{len(dois)} DOIs in {args.csv}")
-    found = []
-    for doi in dois:
-        hit = search.openalex_by_doi(doi)
-        if hit is None:
-            print(f"  ? {doi}: not found in OpenAlex — skipped")
-            continue
-        if not hit["oa_pdf_url"]:
-            print(f"  ! {doi}: no OA URL known (queued anyway; fetch "
-                  "will fail unless a PDF is provided manually)")
-        found.append(hit)
+    found, not_found = search.openalex_by_dois(dois)
+    for doi in not_found:
+        print(f"  ? {doi}: not found in OpenAlex — skipped")
     added = index.add_candidates(found)
     for row in added:
         index.log_extraction(row["key"], row["doi"], "import", "candidate",
                              f"user DOI list: {args.csv}")
-        print(f"  + {row['key']}  {row['year']}  {row['title'][:80]}")
-    print(f"{len(added)} new candidates added, "
-          f"{len(found) - len(added)} already indexed")
+    n_no_url = sum(1 for r in added if not r["oa_pdf_url"])
+    print(f"{len(added)} new candidates added "
+          f"({n_no_url} without an OA URL), "
+          f"{len(found) - len(added)} already indexed, "
+          f"{len(not_found)} not found")
 
 
 def _read_doi_column(path):

@@ -69,6 +69,43 @@ def openalex_by_doi(doi):
     return hit
 
 
+def openalex_by_dois(dois):
+    """Batch lookup: returns (candidates, not_found_dois). Uses the works
+    filter endpoint, 50 DOIs per request, so large user lists import in
+    seconds-per-thousand rather than seconds-per-DOI."""
+    session = requests.Session()
+    session.headers["User-Agent"] = config.USER_AGENT
+    cleaned = []
+    for doi in dois:
+        doi = doi.strip().replace("https://doi.org/", "")
+        doi = doi.removeprefix("doi:").strip("/")
+        if doi:
+            cleaned.append(doi)
+    candidates, found_dois = [], set()
+    for start in range(0, len(cleaned), 50):
+        chunk = [d for d in cleaned[start:start + 50]
+                 if "|" not in d and "," not in d]
+        if not chunk:
+            continue
+        resp = session.get(config.OPENALEX_WORKS_URL, params={
+            "filter": "doi:" + "|".join(chunk),
+            "per-page": 50,
+            "mailto": config.MAILTO,
+            "select": "id,doi,display_name,publication_year,"
+                      "best_oa_location,open_access",
+        }, timeout=60)
+        resp.raise_for_status()
+        for work in resp.json().get("results", []):
+            hit = _to_candidate(work, require_url=False)
+            if hit:
+                hit["source"] = "doi-import"
+                candidates.append(hit)
+                found_dois.add(hit["doi"].lower())
+        time.sleep(config.REQUEST_INTERVAL)
+    not_found = [d for d in cleaned if d.lower() not in found_dois]
+    return candidates, not_found
+
+
 def _to_candidate(work, require_url=True):
     doi = (work.get("doi") or "").replace("https://doi.org/", "")
     if not doi:
