@@ -49,7 +49,27 @@ def openalex_search(query, max_results=25, from_year=None):
     return found
 
 
-def _to_candidate(work):
+def openalex_by_doi(doi):
+    """Look up a single DOI; returns a candidate dict, or None if OpenAlex
+    doesn't know the work. User-supplied DOIs are kept even without an OA
+    URL (fetch will mark them fetch_failed, preserving the audit trail)."""
+    session = requests.Session()
+    session.headers["User-Agent"] = config.USER_AGENT
+    doi = doi.strip().replace("https://doi.org/", "")
+    doi = doi.removeprefix("doi:").strip("/")
+    resp = session.get(f"{config.OPENALEX_WORKS_URL}/https://doi.org/{doi}",
+                       params={"mailto": config.MAILTO}, timeout=60)
+    if resp.status_code == 404:
+        return None
+    resp.raise_for_status()
+    time.sleep(config.REQUEST_INTERVAL)
+    hit = _to_candidate(resp.json(), require_url=False)
+    if hit:
+        hit["source"] = "doi-import"
+    return hit
+
+
+def _to_candidate(work, require_url=True):
     doi = (work.get("doi") or "").replace("https://doi.org/", "")
     if not doi:
         return None
@@ -59,7 +79,7 @@ def _to_candidate(work):
         # OA but no direct PDF link (e.g. HTML-only) — still indexable;
         # fetch will fail cleanly and mark it, keeping the audit trail.
         pdf_url = (work.get("open_access") or {}).get("oa_url") or ""
-    if not pdf_url:
+    if not pdf_url and require_url:
         return None
     # OpenAlex id like https://openalex.org/W2741809807 -> W2741809807
     key = (work.get("id") or "").rsplit("/", 1)[-1]

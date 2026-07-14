@@ -3,6 +3,7 @@
 Run from code/ with .venv/bin/python -m mining_agent <command>.
 """
 import argparse
+import csv
 import json
 import sys
 from collections import Counter
@@ -19,6 +20,54 @@ def cmd_search(args):
                              f"query: {args.query!r}")
         print(f"  + {row['key']}  {row['year']}  {row['title'][:80]}")
     print(f"{len(found)} results, {len(added)} new candidates added")
+
+
+def cmd_import(args):
+    dois = _read_doi_column(args.csv)
+    print(f"{len(dois)} DOIs in {args.csv}")
+    found = []
+    for doi in dois:
+        hit = search.openalex_by_doi(doi)
+        if hit is None:
+            print(f"  ? {doi}: not found in OpenAlex — skipped")
+            continue
+        if not hit["oa_pdf_url"]:
+            print(f"  ! {doi}: no OA URL known (queued anyway; fetch "
+                  "will fail unless a PDF is provided manually)")
+        found.append(hit)
+    added = index.add_candidates(found)
+    for row in added:
+        index.log_extraction(row["key"], row["doi"], "import", "candidate",
+                             f"user DOI list: {args.csv}")
+        print(f"  + {row['key']}  {row['year']}  {row['title'][:80]}")
+    print(f"{len(added)} new candidates added, "
+          f"{len(found) - len(added)} already indexed")
+
+
+def _read_doi_column(path):
+    """Accept a CSV with a doi column (any capitalization; extra columns
+    ignored) or a headerless one-DOI-per-line file."""
+    with open(path, newline="", encoding="utf-8-sig") as f:
+        rows = list(csv.reader(f))
+    rows = [r for r in rows if any(cell.strip() for cell in r)]
+    if not rows:
+        sys.exit(f"{path} is empty")
+    header = [c.strip().lower() for c in rows[0]]
+    if "doi" in header:
+        col = header.index("doi")
+        body = rows[1:]
+    elif "10." in rows[0][0]:
+        col, body = 0, rows
+    else:
+        sys.exit(f"{path} has no 'doi' column and doesn't look like a "
+                 "plain DOI list")
+    dois, seen = [], set()
+    for r in body:
+        doi = r[col].strip() if col < len(r) else ""
+        if doi and doi not in seen:
+            dois.append(doi)
+            seen.add(doi)
+    return dois
 
 
 def cmd_fetch(args):
@@ -90,6 +139,11 @@ def main():
     p.add_argument("--max", type=int, default=25)
     p.add_argument("--from-year", type=int, default=None)
     p.set_defaults(func=cmd_search)
+
+    p = sub.add_parser("import", help="add candidates from a user CSV "
+                                      "with a doi column (or plain DOI list)")
+    p.add_argument("--csv", required=True)
+    p.set_defaults(func=cmd_import)
 
     p = sub.add_parser("fetch", help="download OA PDFs for candidates")
     p.add_argument("--key")
