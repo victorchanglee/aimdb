@@ -6,3 +6,14 @@ timestamp,key,doi,action,result,reasoning
 2026-07-14T21:59:29Z,W2467783257,10.1021/acs.chemrev.6b00204,search,candidate,query: 'CASSCF transition metal complex active space'
 2026-07-14T22:00:20Z,W2996644751,10.1021/acs.jctc.9b01255,fetch,fetched,1063067 bytes from https://arxiv.org/pdf/1912.08379
 2026-07-14T22:00:21Z,W2996644751,10.1021/acs.jctc.9b01255,text,text_ready,54 pages -> W2996644751.txt
+2026-07-14T22:06:09Z,W2996644751-a,10.1021/acs.jctc.9b01255,add-row,appended,"Usable: state-specific ASCI-SCF(~CASSCF) on Fe(II) porphyrin model with three stated active spaces incl. buildup reasoning; extracted final (40,42) result with full protocol history"
+2026-07-14T22:06:09Z,W2996644751,10.1021/acs.jctc.9b01255,mark,extracted,1 row added (Fe(II) porphyrin); NiC benchmark and periacenes not usable (no TM state ordering / not TM)
+2026-07-14T22:06:25Z,W2160052848,10.1063/1.2920188,fetch,fetched,323698 bytes from https://pubs.aip.org/aip/jcp/article-pdf/doi/10.1063/1.2920188/13482411/204109_1_online.pdf
+2026-07-14T22:06:32Z,W2603410158,10.1039/c7cs00033b,fetch,fetch_failed,ValueError: response is not a PDF (probably an HTML landing page)
+2026-07-14T22:06:33Z,W2314654636,10.1021/jp205710e,fetch,fetch_failed,HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/doi/pdf/10.1021/jp205710e
+2026-07-14T22:06:39Z,W2467783257,10.1021/acs.chemrev.6b00204,fetch,fetch_failed,HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/doi/10.1021/acs.chemrev.6b00204
+2026-07-14T22:06:40Z,W2160052848,10.1063/1.2920188,text,text_ready,10 pages -> W2160052848.txt
+2026-07-14T22:09:42Z,W2160052848-a,10.1063/1.2920188,add-row,appended,RASPT2 benchmark with fully specified active-space buildup on real Cu-O2 chemistry
+2026-07-14T22:09:42Z,W2160052848-b,10.1063/1.2920188,add-row,appended,RASPT2 benchmark with fully specified active-space buildup on real Cu-O2 chemistry
+2026-07-14T22:09:42Z,W2160052848-c,10.1063/1.2920188,add-row,appended,RASPT2 benchmark with fully specified active-space buildup on real Cu-O2 chemistry
+2026-07-14T22:09:42Z,W2160052848,10.1063/1.2920188,mark,extracted,"3 rows: LCuO2 singlet-triplet + [Cu(NH3)n]2O2 2+ isomerization n=2,3; all active spaces and buildup sequences stated"
