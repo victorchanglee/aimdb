@@ -44,10 +44,13 @@ Run all `python -m mining_agent ...` commands from `code/` with
 
 4. **Read and judge.** Read `text/<key>.txt` yourself. A paper is *usable* if
    it reports an actual multireference calculation (CASSCF / RASSCF / CASPT2 /
-   NEVPT2 / MRCI) **on a specific transition-metal compound** with at least
-   the active space size (nel, norb) stated. Reviews citing others' numbers,
-   method papers with toy systems only, and papers where the active space is
-   never specified are `status=not_usable` (log why).
+   NEVPT2 / MRCI) **on a specific chemical compound** — transition-metal
+   complexes and metal-free organic molecules both count (user decision
+   2026-07-14) — with at least the active space size (nel, norb) stated.
+   Reviews citing others' numbers, method papers with toy systems only
+   (diatomics/model Hamiltonians benchmarking an algorithm), and papers
+   where the active space is never specified are `status=not_usable`
+   (log why).
 
 5. **Extract rows.** For each distinct compound+method result in a usable
    paper, build a JSON dict of the schema fields and append it with
@@ -61,6 +64,12 @@ Run all `python -m mining_agent ...` commands from `code/` with
    - `entry_id`: the papers_index `key`, plus `-a`, `-b`, ... for multiple
      compounds from one paper. `structure_file`: empty unless you actually
      save a geometry to `database/structures/`.
+   - **Metal-free organic compounds**: set `metal_center` to `none`
+     (deliberate absence, distinct from empty = not stated); leave
+     `metal_ox_state`, `d_electron_count`, and `ligand_set` empty. All
+     other columns apply as usual (pi/lone-pair active spaces go in
+     `active_space_orbital_description`; `ground_state_term`,
+     excitation energies, etc. as stated).
    - `active_space_protocol`: only if the paper describes its buildup
      sequence; this column is what the decision agent reads — quote it
      faithfully, format "(nel,norb) step; (nel,norb) step; ...".
