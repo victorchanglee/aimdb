@@ -3775,3 +3775,11 @@ timestamp,key,doi,action,result,reasoning
 2026-07-15T18:08:55Z,W1972751374,10.1039/c3cp51440d,add-row,1 row,explicit active-space series with comparison data
 2026-07-15T18:08:58Z,W2969509515,10.1007/s11224-019-01407-9,mark,extracted,"1 row; (6,6)->(8,8)->(10,10) frontier expansion protocol"
 2026-07-15T18:08:58Z,W1972751374,10.1039/c3cp51440d,mark,extracted_partial,1 row; barrier channel labels unresolved in extracted text
+2026-07-15T18:13:25Z,W2803535697,10.1021/acs.jpca.8b00941,add-row,1 row,"FeMoco active-space series [6,6]-[30,30] with literature [54,54]-[65,57] target; ligand-non-innocence cautionary examples"
+2026-07-15T18:13:51Z,W4280532200,10.1021/jacs.2c02818,add-row,1 row,"Pd imido sa-CASSCF(16,11), strongly multireference"
+2026-07-15T18:13:52Z,W2803535697,10.1021/acs.jpca.8b00941,mark,extracted,"1 row; FeMoco [6,6]-[30,30] series and literature [54,54] target"
+2026-07-15T18:13:52Z,W4280532200,10.1021/jacs.2c02818,mark,extracted_partial,"1 row; details in ACS SI, text tab-mangled"
+2026-07-15T18:16:47Z,W2171054233,10.1039/c5dt00600g,add-row,1 row,"CAS(n,5) d-only ZFS recipe with experimental D"
+2026-07-15T18:16:47Z,W1924454284,10.1039/c5dt02162f,add-row,1 row,"CAS(n,5) d-only ZFS recipe with experimental D"
+2026-07-15T18:16:50Z,W2171054233,10.1039/c5dt00600g,mark,extracted,"1 row; minimal d-only CAS(n,5) ZFS/NEVPT2 recipe"
+2026-07-15T18:16:50Z,W1924454284,10.1039/c5dt02162f,mark,extracted,"1 row; minimal d-only CAS(n,5) ZFS/NEVPT2 recipe"
