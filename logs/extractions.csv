@@ -3692,3 +3692,9 @@ timestamp,key,doi,action,result,reasoning
 2026-07-15T00:31:27Z,W4405528429,10.2172/2481274,text,text_ready,5 pages -> W4405528429.txt
 2026-07-15T14:22:39Z,W2069560102,10.1063/1.2883976,add-row,6 rows appended,"usable: DMRG-CASSCF (true CASSCF energies) on 5 polyenes + beta-carotene, complete pi-valence active spaces stated per compound"
 2026-07-15T14:22:39Z,W2069560102,10.1063/1.2883976,mark,extracted,"6 rows: polyene series C8-C24 (n,n) pi spaces + beta-carotene (22,22); organic scope per updated policy"
+2026-07-15T14:35:24Z,W1969087239,10.1063/1.451238,mark,not_usable,FCI benchmark on HF/NH2 diatomic/triatomic toy systems for algorithm validation; no chemistry-precedent active space
+2026-07-15T14:35:24Z,W4231247751,10.1063/1.451034,mark,not_usable,FCI benchmark on H2O/F/F- toy systems for algorithm validation
+2026-07-15T14:35:24Z,W2022686920,10.1063/1.459634,mark,not_usable,"reaction-path-following algorithm paper; CASSCF used only as generic wavefunction, no compound-specific active space study"
+2026-07-15T14:35:24Z,W2154956774,10.1103/physreva.88.023402,mark,not_usable,TD-CASSCF method for intense-laser electron dynamics of atoms; no chemistry-precedent active space
+2026-07-15T14:40:06Z,W2794279393-a,10.1021/acs.jpclett.8b00684,add-row,appended,"organic photodynamics with stated SA-3-CASSCF(10,8) on a specific compound"
+2026-07-15T14:40:06Z,W2794279393,10.1021/acs.jpclett.8b00684,mark,extracted_partial,1 row; basis and active-space composition not stated in extracted text
