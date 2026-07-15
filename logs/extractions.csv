@@ -3768,3 +3768,10 @@ timestamp,key,doi,action,result,reasoning
 2026-07-15T18:03:20Z,W2057428859,10.1063/1.450962,mark,not_usable,"electron affinity of atomic oxygen; atomic (not molecular) benchmark, no chemistry-precedent active space"
 2026-07-15T18:03:20Z,W1983313205,10.1021/jp8033837,mark,not_usable,REKS method development/comparison paper; CASSCF/CASPT2 appear as reference values from other work
 2026-07-15T18:03:20Z,W1591737251,10.1063/1.1483853,mark,not_usable,"analytical PES fit + rate constants; CASPT2(17,12) is for an atom+diatom reaction surface, no compound-specific active-space study"
+2026-07-15T18:06:12Z,W2075557019,10.1063/1.4735018,add-row,4 rows,"four Cu(II) dimers/cluster models with CAS(2,2) magnetic space and full J tables; orbital-choice precedent"
+2026-07-15T18:06:19Z,W2075557019,10.1063/1.4735018,mark,extracted,"4 rows; CAS(2,2) magnetic orbitals, J tables and orbital-set dependence"
+2026-07-15T18:06:19Z,W3102745323,10.1007/128_2014_549,mark,not_usable,"review chapter (Excitation of Nucleobases from a Computational Perspective): tabulates other groups' CASSCF/MRCIS dynamics results; per policy, extract the original papers instead"
+2026-07-15T18:08:55Z,W2969509515,10.1007/s11224-019-01407-9,add-row,1 row,explicit active-space series with comparison data
+2026-07-15T18:08:55Z,W1972751374,10.1039/c3cp51440d,add-row,1 row,explicit active-space series with comparison data
+2026-07-15T18:08:58Z,W2969509515,10.1007/s11224-019-01407-9,mark,extracted,"1 row; (6,6)->(8,8)->(10,10) frontier expansion protocol"
+2026-07-15T18:08:58Z,W1972751374,10.1039/c3cp51440d,mark,extracted_partial,1 row; barrier channel labels unresolved in extracted text
