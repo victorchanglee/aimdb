@@ -3705,3 +3705,20 @@ timestamp,key,doi,action,result,reasoning
 2026-07-15T16:27:58Z,W2996644751-a,,structure,reverted,"PubChem 'ferrous porphyrin' CID 193612 resolved to a 93-atom substituted porphyrin (2D only), not the paper's 37-atom Fe(II) porphine model; structure removed"
 2026-07-15T16:30:39Z,W2996644751,10.1021/acs.jctc.9b01255,si-fetch,4 files,"ct9b01255_si_001.pdf, ct9b01255_si_002.zip, ct9b01255_si_003.zip, ct9b01255_si_004.zip"
 2026-07-15T16:32:38Z,W2996644751-a,10.1021/acs.jctc.9b01255,si-upgrade,structure+software filled,geometry saved verbatim from SI quintet_A1g.in (37 atoms); software=Q-Chem from input syntax
+2026-07-15T16:36:17Z,W2085525001,10.1063/1.451610,add-row,3 rows,usable: specific TM carbonyls with described (qualitative) pi active spaces; numeric nel/norb left empty per copy-never-infer
+2026-07-15T16:36:17Z,W2085525001,10.1063/1.451610,mark,extracted_partial,"3 rows (FeCO/NiCO/CuCO); active-space sizes qualitative in paper, OCR-garbled tables"
+2026-07-15T16:38:51Z,W2527752769,10.1039/c7sc02714a,add-row,1 row,"lanthanide SMM extracted beyond literal policy scope: (9,7)->(11,8) expansion protocol with experimental validation is exactly the protocol-precedent the decision agent needs; flagged in notes"
+2026-07-15T16:38:51Z,W2527752769,10.1039/c6sc03621j,mark,extracted,1 row; Dy SMM active-space expansion protocol; ESI details unavailable (RSC)
+2026-07-15T16:39:03Z,W2527752769-a,10.1039/c6sc03621j,correction,reference_doi fixed,"row was written with a from-memory DOI 10.1039/c7sc02714a instead of the index value 10.1039/c6sc03621j; corrected. Lesson: always copy reference_doi from papers_index, never type it"
+2026-07-15T16:44:34Z,W2903558328,10.1021/acs.jctc.8b01205,defer,kept text_ready,QUEST doubles compendium: ~14 organic molecules each with own CAS specs and FCI tables; deferred for a dedicated extraction pass rather than partial skim
+2026-07-15T17:26:46Z,W1995640562,10.1063/1.452534,mark,not_usable,FCI benchmark on N2/NO/O2 diatomics for method comparison; no chemistry-precedent active space
+2026-07-15T17:26:46Z,W1979975612,10.1103/physreva.91.023417,mark,not_usable,TD-MCSCF intense-laser electron-dynamics method paper (atoms); same class as W2154956774
+2026-07-15T17:26:46Z,W2346655693,10.1103/physreva.94.023405,mark,not_usable,TD-CASSCF laser-dynamics method paper; same class as W2154956774
+2026-07-15T17:30:19Z,W2099962686,10.1039/c1cp22239b,add-row,6 rows,usable: six organics with explicitly defined CASSCF active spaces for excited-state aromaticity analysis
+2026-07-15T17:30:20Z,W2099962686,10.1039/c1cp22239b,mark,extracted_partial,"6 rows; excitation-energy tables shredded by PDF extraction, active spaces fully captured"
+2026-07-15T17:30:21Z,W2099962686-a,,structure,generated,W2099962686-a.xyz from PubChem name lookup 'benzene'
+2026-07-15T17:30:22Z,W2099962686-b,,structure,generated,W2099962686-b.xyz from PubChem name lookup 'cyclobutadiene'
+2026-07-15T17:30:24Z,W2099962686-c,,structure,generated,W2099962686-c.xyz from PubChem name lookup 'cyclooctatetraene'
+2026-07-15T17:30:25Z,W2099962686-d,,structure,generated,W2099962686-d.xyz from PubChem name lookup 'ethylene'
+2026-07-15T17:30:32Z,W2099962686-e,,structure,generated,W2099962686-e.xyz from PubChem name lookup 'acetylene'
+2026-07-15T17:30:33Z,W2099962686-f,,structure,generated,W2099962686-f.xyz from PubChem name lookup 'formaldehyde'
