@@ -3796,3 +3796,4 @@ timestamp,key,doi,action,result,reasoning
 2026-07-15T18:22:21Z,W3216230773,10.1021/acs.jpclett.1c03229,add-row,rows added,explicit space with truncation/localization rationale
 2026-07-15T18:22:21Z,W2036295707,10.1039/b810744k,mark,extracted_partial,"3 rows (PuO2/+/2+); truncation rule captured, state energies not transcribed"
 2026-07-15T18:22:21Z,W3216230773,10.1021/acs.jpclett.1c03229,mark,extracted_partial,"1 row; defect-localized (2,8), embedding method paper"
+2026-07-15T18:24:36Z,W2036295707,10.1039/b810744k,correction,year fixed on 3 rows,wrote 2009 from the PCCP citation line; papers_index (OpenAlex) says 2008 - index value wins
