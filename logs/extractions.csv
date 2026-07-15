@@ -3734,3 +3734,11 @@ timestamp,key,doi,action,result,reasoning
 2026-07-15T17:41:16Z,W2886362076-d,,structure,generated,W2886362076-d.xyz from PubChem name lookup 'pentacene'
 2026-07-15T17:41:23Z,W2886362076-e,,structure,generated,W2886362076-e.xyz from PubChem name lookup 'hexacene'
 2026-07-15T17:41:29Z,W2886362076-f,,structure,generated,W2886362076-f.xyz from PubChem name lookup 'heptacene'
+2026-07-15T17:42:46Z,W2062963396,10.1371/journal.pcbi.1000034,add-row,1 row,"usable: explicit (18,16)->RASSCF->(6,6) reduction protocol with validation; QM/MM photodynamics"
+2026-07-15T17:42:46Z,W2062963396,10.1371/journal.pcbi.1000034,mark,extracted,1 row; active-space reduction protocol fully stated
+2026-07-15T17:43:45Z,W2131618696,10.1039/c4cp05278a,add-row,1 row,"usable: Ru nitrosyl with fully specified (16,13) active space and selection rationale"
+2026-07-15T17:43:45Z,W2131618696,10.1039/c4cp05278a,mark,extracted,"1 row; (16,13) Ru-NO active space with orbital-by-orbital composition"
+2026-07-15T17:44:29Z,W2267960904,10.1021/acs.inorgchem.5b01505,add-row,4 rows,"Fe(TPP)X series, CAS(5,5)/NEVPT2 + INS ZFS"
+2026-07-15T17:44:29Z,W2534966425,10.1039/c6dt03752f,add-row,2 rows,"Co(II)/Ni(II) with 3d+4d double-shell (n,10) spaces"
+2026-07-15T17:44:35Z,W2267960904,10.1021/acs.inorgchem.5b01505,mark,extracted,"4 rows (Fe(TPP)F/Cl/Br/I); CAS(5,5) minimal d-space, ZFS vs INS"
+2026-07-15T17:44:35Z,W2534966425,10.1039/c6dt03752f,mark,extracted,"2 rows (Co/Ni); 3d+4d double-shell (7,10)/(8,10) with full term averaging"
