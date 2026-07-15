@@ -3742,3 +3742,15 @@ timestamp,key,doi,action,result,reasoning
 2026-07-15T17:44:29Z,W2534966425,10.1039/c6dt03752f,add-row,2 rows,"Co(II)/Ni(II) with 3d+4d double-shell (n,10) spaces"
 2026-07-15T17:44:35Z,W2267960904,10.1021/acs.inorgchem.5b01505,mark,extracted,"4 rows (Fe(TPP)F/Cl/Br/I); CAS(5,5) minimal d-space, ZFS vs INS"
 2026-07-15T17:44:35Z,W2534966425,10.1039/c6dt03752f,mark,extracted,"2 rows (Co/Ni); 3d+4d double-shell (7,10)/(8,10) with full term averaging"
+2026-07-15T17:47:25Z,W2080870617,10.1063/1.481234,add-row,1 row,active space fully specified; numeric tables not transcribed
+2026-07-15T17:47:25Z,W2114888214,10.1039/c5sc02342d,add-row,1 row,active space fully specified; numeric tables not transcribed
+2026-07-15T17:47:25Z,W2019980491,10.1039/c3ra22712j,add-row,1 row,active space fully specified; numeric tables not transcribed
+2026-07-15T17:47:26Z,W2080870617,10.1063/1.481234,mark,extracted_partial,"1 row; active space captured, numeric state tables not transcribed (OCR/ESI limits)"
+2026-07-15T17:47:26Z,W2114888214,10.1039/c5sc02342d,mark,extracted_partial,"1 row; active space captured, numeric state tables not transcribed (OCR/ESI limits)"
+2026-07-15T17:47:26Z,W2019980491,10.1039/c3ra22712j,mark,extracted_partial,"1 row; active space captured, numeric state tables not transcribed (OCR/ESI limits)"
+2026-07-15T17:52:53Z,W2165686015,10.1063/1.4932613,mark,not_usable,analytical gradient/nonadiabatic coupling formulation (AO-based); method development
+2026-07-15T17:52:53Z,W2778441117,10.1021/acs.jctc.7b01248,mark,not_usable,CAS-DMET method paper; bond-dissociation model tests validate the algorithm
+2026-07-15T17:52:53Z,W2775395557,10.1021/acs.jctc.7b00958,mark,not_usable,FOMO-CASCI method applicability test (ethylene etc.); method development
+2026-07-15T17:52:54Z,W2211091246,10.1039/c5sc03321g,mark,not_usable,separated-pair approximation / MC-PDFT method paper with test sets
+2026-07-15T17:52:54Z,W3028621281,10.1021/acs.jctc.0c00222,mark,not_usable,variational LASSCF method paper (Hubbard-type and fragment models)
+2026-07-15T17:52:54Z,W1993129199,10.1063/1.467505,mark,not_usable,"spin-coupled VB study of benzene; CASSCF appears only in literature review of others' work (excluded: citing others' numbers), the paper's own calculations are not CASSCF"
