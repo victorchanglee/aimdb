@@ -3783,3 +3783,16 @@ timestamp,key,doi,action,result,reasoning
 2026-07-15T18:16:47Z,W1924454284,10.1039/c5dt02162f,add-row,1 row,"CAS(n,5) d-only ZFS recipe with experimental D"
 2026-07-15T18:16:50Z,W2171054233,10.1039/c5dt00600g,mark,extracted,"1 row; minimal d-only CAS(n,5) ZFS/NEVPT2 recipe"
 2026-07-15T18:16:50Z,W1924454284,10.1039/c5dt02162f,mark,extracted,"1 row; minimal d-only CAS(n,5) ZFS/NEVPT2 recipe"
+2026-07-15T18:19:06Z,W2079780924,10.1063/1.449649,add-row,1 row,"Sc3 (9,9) full CASSCF + occupation-constraint strategy"
+2026-07-15T18:19:08Z,W2079780924,10.1063/1.449649,mark,extracted_partial,"1 row; (9,9) space captured, 1985 OCR tables not transcribed"
+2026-07-15T18:21:33Z,W2405190963,10.1038/srep26768,add-row,1 row,"o-nitrophenol 6SA-CASSCF(10,10) ESIPT/ISC dynamics"
+2026-07-15T18:21:35Z,W2405190963,10.1038/srep26768,mark,extracted_partial,"1 row; (10,10) captured, composition not stated"
+2026-07-15T18:21:42Z,W2405190963-a,,structure,generated,W2405190963-a.xyz from PubChem name lookup '2-nitrophenol'
+2026-07-15T18:21:42Z,W1973385516,10.1016/j.chemphys.2011.06.034,mark,not_usable,Jahn-Teller/SOC effects treatment paper; no specific compound active-space study extractable from the extracted text
+2026-07-15T18:21:42Z,W2113191218,10.1039/b912607d,mark,not_usable,CASPT2/RASPT2 method paper (second-order PT with complete and restricted active spaces)
+2026-07-15T18:21:43Z,W2054746769,10.1016/j.cplett.2010.07.046,mark,not_usable,"double core-hole spectroscopy for open-shell systems; CASSCF spaces are core-hole configurations, same class as W1987894643"
+2026-07-15T18:21:43Z,W2128709578,10.1007/s00214-009-0546-8,mark,not_usable,assessment of semiempirical methods for photoisomerization; CASSCF appears as reference data
+2026-07-15T18:22:21Z,W2036295707,10.1039/b810744k,add-row,rows added,explicit space with truncation/localization rationale
+2026-07-15T18:22:21Z,W3216230773,10.1021/acs.jpclett.1c03229,add-row,rows added,explicit space with truncation/localization rationale
+2026-07-15T18:22:21Z,W2036295707,10.1039/b810744k,mark,extracted_partial,"3 rows (PuO2/+/2+); truncation rule captured, state energies not transcribed"
+2026-07-15T18:22:21Z,W3216230773,10.1021/acs.jpclett.1c03229,mark,extracted_partial,"1 row; defect-localized (2,8), embedding method paper"
