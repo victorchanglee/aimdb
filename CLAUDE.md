@@ -52,6 +52,21 @@ Run all `python -m mining_agent ...` commands from `code/` with
    where the active space is never specified are `status=not_usable`
    (log why).
 
+4b. **Fetch SI when it matters.** If the main text defers computational
+   details ("see SI"), or key fields (active space composition, geometry,
+   software, state energies) are missing, run
+   `python -m mining_agent si --key <key>` (figshare SI DOIs first, then
+   PMC OA packages; SI PDFs are auto-text-extracted to
+   `text/<key>_si_*.txt`). Read those before declaring a field unstated.
+   Coordinates found in SI are saved **verbatim** to
+   `database/structures/<entry_id>.xyz` with a VERBATIM provenance line —
+   these are the paper's real geometries and outrank generated ones.
+   For compounds without SI coordinates, `structure --entry-id X --name Y`
+   may save a PubChem conformer, always labeled GENERATED / not the
+   paper's geometry; sanity-check the atom count against the compound
+   before keeping it. SI files live in `papers/si/<key>/` (gitignored,
+   copyrighted).
+
 5. **Extract rows.** For each distinct compound+method result in a usable
    paper, build a JSON dict of the schema fields and append it with
    `python -m mining_agent add-row --json <file>.json`. Rules:

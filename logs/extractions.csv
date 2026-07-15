@@ -3703,3 +3703,5 @@ timestamp,key,doi,action,result,reasoning
 2026-07-15T16:27:08Z,W2794279393-a,,structure,generated,W2794279393-a.xyz from PubChem name lookup '4-aminopyrimidine'
 2026-07-15T16:27:34Z,W2996644751-a,,structure,generated,W2996644751-a.xyz from PubChem name lookup 'ferrous porphyrin'
 2026-07-15T16:27:58Z,W2996644751-a,,structure,reverted,"PubChem 'ferrous porphyrin' CID 193612 resolved to a 93-atom substituted porphyrin (2D only), not the paper's 37-atom Fe(II) porphine model; structure removed"
+2026-07-15T16:30:39Z,W2996644751,10.1021/acs.jctc.9b01255,si-fetch,4 files,"ct9b01255_si_001.pdf, ct9b01255_si_002.zip, ct9b01255_si_003.zip, ct9b01255_si_004.zip"
+2026-07-15T16:32:38Z,W2996644751-a,10.1021/acs.jctc.9b01255,si-upgrade,structure+software filled,geometry saved verbatim from SI quintet_A1g.in (37 atoms); software=Q-Chem from input syntax

@@ -100,6 +100,29 @@ def cmd_add_row(args):
     print(f"appended {row['entry_id']} ({row['reference_doi']})")
 
 
+def cmd_si(args):
+    from pypdf import PdfReader
+
+    from . import si
+    saved = si.fetch_and_log(args.key)
+    for p in saved:
+        line = f"  {p.name} ({p.stat().st_size} bytes)"
+        if p.suffix.lower() == ".pdf":
+            try:
+                reader = PdfReader(p)
+                text = "\n\n".join(
+                    f"--- page {n} ---\n{page.extract_text() or ''}"
+                    for n, page in enumerate(reader.pages, 1))
+                dest = config.TEXT_DIR / f"{args.key}_si_{p.stem}.txt"
+                dest.write_text(text, encoding="utf-8")
+                line += f" -> {dest.name}"
+            except Exception as exc:  # noqa: BLE001
+                line += f" (text extraction failed: {exc})"
+        print(line)
+    if not saved:
+        print("no SI found via figshare or PMC")
+
+
 def cmd_structure(args):
     from . import structures
     path, detail = structures.save_structure(args.entry_id, args.name)
@@ -169,6 +192,11 @@ def main():
                    help="path to a JSON dict of schema fields")
     p.add_argument("--reasoning", default="")
     p.set_defaults(func=cmd_add_row)
+
+    p = sub.add_parser("si", help="fetch supplementary information "
+                                  "(figshare SI DOIs, then PMC OA package)")
+    p.add_argument("--key", required=True)
+    p.set_defaults(func=cmd_si)
 
     p = sub.add_parser("structure", help="save a generated PubChem 3D "
                                          "structure for an extracted row")
