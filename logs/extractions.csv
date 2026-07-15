@@ -3722,3 +3722,15 @@ timestamp,key,doi,action,result,reasoning
 2026-07-15T17:30:25Z,W2099962686-d,,structure,generated,W2099962686-d.xyz from PubChem name lookup 'ethylene'
 2026-07-15T17:30:32Z,W2099962686-e,,structure,generated,W2099962686-e.xyz from PubChem name lookup 'acetylene'
 2026-07-15T17:30:33Z,W2099962686-f,,structure,generated,W2099962686-f.xyz from PubChem name lookup 'formaldehyde'
+2026-07-15T17:34:06Z,W2787329441,10.1039/c7cp08472b,add-row,1 row,"borderline-usable: (4,4) stated for CT-state NO analysis on a specific dyad family; lean row"
+2026-07-15T17:34:07Z,W2787329441,10.1039/c7cp08472b,mark,extracted_partial,"1 lean row; CASSCF is supporting analysis, details in unfetchable RSC ESI"
+2026-07-15T17:34:49Z,W1987894643,10.1063/1.3408251,mark,not_usable,"double-core-hole X-ray spectroscopy methodology; CASSCF spaces are K-shell hole configurations, not chemistry-precedent active spaces"
+2026-07-15T17:39:16Z,W2910212630,10.1021/acs.jctc.8b01009,mark,not_usable,"LASSCF/CAS-DMET method-development paper; fragment (2,2)-type spaces on azomethane/bisdiazene model molecules validate the algorithm, not chemistry-precedent active-space choices"
+2026-07-15T17:40:58Z,W2886362076,10.1039/c8sc03569e,add-row,6 rows,"usable: acene series with complete-pi (n,n) spaces up to (30,30) and multi-method S-T gap tables; polyacetylene series deferred"
+2026-07-15T17:41:00Z,W2886362076,10.1039/c8sc03569e,mark,extracted_partial,6 acene rows; polyacetylene series and adiabatic-table details not transcribed (shredded columns)
+2026-07-15T17:41:02Z,W2886362076-a,,structure,generated,W2886362076-a.xyz from PubChem name lookup 'naphthalene'
+2026-07-15T17:41:03Z,W2886362076-b,,structure,generated,W2886362076-b.xyz from PubChem name lookup 'anthracene'
+2026-07-15T17:41:09Z,W2886362076-c,,structure,generated,W2886362076-c.xyz from PubChem name lookup 'tetracene'
+2026-07-15T17:41:16Z,W2886362076-d,,structure,generated,W2886362076-d.xyz from PubChem name lookup 'pentacene'
+2026-07-15T17:41:23Z,W2886362076-e,,structure,generated,W2886362076-e.xyz from PubChem name lookup 'hexacene'
+2026-07-15T17:41:29Z,W2886362076-f,,structure,generated,W2886362076-f.xyz from PubChem name lookup 'heptacene'
