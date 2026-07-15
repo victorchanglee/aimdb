@@ -3690,3 +3690,5 @@ timestamp,key,doi,action,result,reasoning
 2026-07-15T00:31:25Z,W4308969634,10.4995/thesis/10251/189688,text,text_ready,214 pages -> W4308969634.txt
 2026-07-15T00:31:27Z,W4404907563,10.7498/aps.74.20241435,text,text_ready,16 pages -> W4404907563.txt
 2026-07-15T00:31:27Z,W4405528429,10.2172/2481274,text,text_ready,5 pages -> W4405528429.txt
+2026-07-15T14:22:39Z,W2069560102,10.1063/1.2883976,add-row,6 rows appended,"usable: DMRG-CASSCF (true CASSCF energies) on 5 polyenes + beta-carotene, complete pi-valence active spaces stated per compound"
+2026-07-15T14:22:39Z,W2069560102,10.1063/1.2883976,mark,extracted,"6 rows: polyene series C8-C24 (n,n) pi spaces + beta-carotene (22,22); organic scope per updated policy"
