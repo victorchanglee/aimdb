@@ -3754,3 +3754,17 @@ timestamp,key,doi,action,result,reasoning
 2026-07-15T17:52:54Z,W2211091246,10.1039/c5sc03321g,mark,not_usable,separated-pair approximation / MC-PDFT method paper with test sets
 2026-07-15T17:52:54Z,W3028621281,10.1021/acs.jctc.0c00222,mark,not_usable,variational LASSCF method paper (Hubbard-type and fragment models)
 2026-07-15T17:52:54Z,W1993129199,10.1063/1.467505,mark,not_usable,"spin-coupled VB study of benzene; CASSCF appears only in literature review of others' work (excluded: citing others' numbers), the paper's own calculations are not CASSCF"
+2026-07-15T17:55:23Z,W2899607422,10.1039/c8sc02599a,add-row,1 row,"dicobalt oxo (20,13) with (24,17) verification"
+2026-07-15T17:55:23Z,W2117343091,10.1039/c3cp51617b,add-row,3 rows,cytosine tautomers with per-tautomer active-space rationale
+2026-07-15T17:55:30Z,W2899607422,10.1039/c8sc02599a,mark,extracted,"1 row; (20,13)->(24,17) verification protocol"
+2026-07-15T17:55:30Z,W2117343091,10.1039/c3cp51617b,mark,extracted_partial,3 tautomer rows; excitation-energy tables not transcribed
+2026-07-15T17:55:31Z,W2117343091-a,,structure,generated,W2117343091-a.xyz from PubChem name lookup 'cytosine'
+2026-07-15T17:57:23Z,W2031310230,10.1039/c5cp00101c,add-row,1 row,"2-phenylphenol ESIPT, SA-CASSCF(10,8)"
+2026-07-15T17:57:25Z,W2031310230,10.1039/c5cp00101c,mark,extracted_partial,"1 row; (10,8) captured, orbital composition not stated"
+2026-07-15T17:57:27Z,W2031310230-a,,structure,generated,W2031310230-a.xyz from PubChem name lookup '2-phenylphenol'
+2026-07-15T18:01:18Z,W2965070608,10.1021/acs.jctc.9b00534,add-row,1 row,"method paper, but the O2 active-space convergence test is real precedent; only that row extracted"
+2026-07-15T18:01:25Z,W2965070608,10.1021/acs.jctc.9b00534,mark,extracted_partial,"1 row (O2 convergence test only); AFQMC method paper, other test molecules' spaces not stated"
+2026-07-15T18:03:13Z,W3088435364,10.48550/arxiv.2009.12472,add-row,1 row,"QC-resource perspective; extracted for the Cr2 (N,N) non-dynamic-correlation convergence estimate"
+2026-07-15T18:03:20Z,W2057428859,10.1063/1.450962,mark,not_usable,"electron affinity of atomic oxygen; atomic (not molecular) benchmark, no chemistry-precedent active space"
+2026-07-15T18:03:20Z,W1983313205,10.1021/jp8033837,mark,not_usable,REKS method development/comparison paper; CASSCF/CASPT2 appear as reference values from other work
+2026-07-15T18:03:20Z,W1591737251,10.1063/1.1483853,mark,not_usable,"analytical PES fit + rate constants; CASPT2(17,12) is for an atom+diatom reaction surface, no compound-specific active-space study"
