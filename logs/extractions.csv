@@ -3698,3 +3698,8 @@ timestamp,key,doi,action,result,reasoning
 2026-07-15T14:35:24Z,W2154956774,10.1103/physreva.88.023402,mark,not_usable,TD-CASSCF method for intense-laser electron dynamics of atoms; no chemistry-precedent active space
 2026-07-15T14:40:06Z,W2794279393-a,10.1021/acs.jpclett.8b00684,add-row,appended,"organic photodynamics with stated SA-3-CASSCF(10,8) on a specific compound"
 2026-07-15T14:40:06Z,W2794279393,10.1021/acs.jpclett.8b00684,mark,extracted_partial,1 row; basis and active-space composition not stated in extracted text
+2026-07-15T16:26:57Z,W2069560102-a,,structure,generated,W2069560102-a.xyz from PubChem name lookup 'beta-carotene'
+2026-07-15T16:26:59Z,W2069560102-b,,structure,generated,"W2069560102-b.xyz from PubChem name lookup '1,3,5,7-octatetraene'"
+2026-07-15T16:27:08Z,W2794279393-a,,structure,generated,W2794279393-a.xyz from PubChem name lookup '4-aminopyrimidine'
+2026-07-15T16:27:34Z,W2996644751-a,,structure,generated,W2996644751-a.xyz from PubChem name lookup 'ferrous porphyrin'
+2026-07-15T16:27:58Z,W2996644751-a,,structure,reverted,"PubChem 'ferrous porphyrin' CID 193612 resolved to a 93-atom substituted porphyrin (2D only), not the paper's 37-atom Fe(II) porphine model; structure removed"

@@ -25,6 +25,24 @@ def existing_entry_ids():
         return {row["entry_id"] for row in csv.DictReader(f)}
 
 
+def set_structure_file(entry_id, filename, note):
+    """Set structure_file on an existing row and append to its notes —
+    the one sanctioned in-place edit (user-directed structure generation)."""
+    with open(config.LITERATURE_CSV, newline="", encoding="utf-8") as f:
+        rows = list(csv.DictReader(f))
+    for row in rows:
+        if row["entry_id"] == entry_id:
+            row["structure_file"] = filename
+            row["notes"] = (row["notes"] + "; " if row["notes"] else "") + note
+            break
+    else:
+        raise ValueError(f"no row with entry_id {entry_id!r}")
+    with open(config.LITERATURE_CSV, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=config.LITERATURE_COLUMNS)
+        writer.writeheader()
+        writer.writerows(rows)
+
+
 def append_row(fields):
     """Validate and append one row; raises ValueError on any problem."""
     unknown = set(fields) - set(config.LITERATURE_COLUMNS)

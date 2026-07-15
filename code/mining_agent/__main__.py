@@ -100,6 +100,21 @@ def cmd_add_row(args):
     print(f"appended {row['entry_id']} ({row['reference_doi']})")
 
 
+def cmd_structure(args):
+    from . import structures
+    path, detail = structures.save_structure(args.entry_id, args.name)
+    if path is None:
+        print(f"FAILED: {detail}")
+        sys.exit(1)
+    csvio.set_structure_file(
+        args.entry_id, path.name,
+        f"structure_file is a generated PubChem conformer ({detail}), "
+        "not the paper's geometry")
+    index.log_extraction(args.entry_id, "", "structure", "generated",
+                         f"{path.name} from PubChem name lookup {args.name!r}")
+    print(f"saved {path.name} ({detail})")
+
+
 def cmd_mark(args):
     row = index.set_status(args.key, args.status)
     index.log_extraction(args.key, row["doi"], "mark", args.status,
@@ -154,6 +169,13 @@ def main():
                    help="path to a JSON dict of schema fields")
     p.add_argument("--reasoning", default="")
     p.set_defaults(func=cmd_add_row)
+
+    p = sub.add_parser("structure", help="save a generated PubChem 3D "
+                                         "structure for an extracted row")
+    p.add_argument("--entry-id", required=True)
+    p.add_argument("--name", required=True,
+                   help="compound name to resolve in PubChem")
+    p.set_defaults(func=cmd_structure)
 
     p = sub.add_parser("mark", help="set a paper's index status")
     p.add_argument("--key", required=True)
