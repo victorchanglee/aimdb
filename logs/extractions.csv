@@ -5737,3 +5737,713 @@ timestamp,key,doi,action,result,reasoning
 2026-07-16T17:43:38Z,W3197422747,10.1107/s2052252521008290,europepmc,text_ready,38703 chars of JATS full text
 2026-07-16T17:43:49Z,W2910527051-a,10.1021/acs.jctc.8b00969,correction,DOI fixed,typed reference_doi from memory again; copied index value 10.1021/acs.jctc.8b00969
 2026-07-16T17:43:49Z,W2910527051,10.1021/acs.jctc.8b00969,mark,extracted,"1 row; Cr(III) dimer (6,10)->(24,19)->(30,22) buildup"
+2026-07-16T17:43:59Z,W4205270606,10.1002/cphc.202100402,europepmc,text_ready,45085 chars of JATS full text
+2026-07-16T17:44:06Z,W2028835978,10.1007/s00894-011-1283-1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:44:08Z,W3131621701,10.1364/oe.416106,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:44:11Z,W2979194319,10.1142/s0219633619500299,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:44:18Z,W2031050429,10.1002/qua.22622,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:44:20Z,W2339914091,10.1021/acs.joc.6b00314,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:44:28Z,W2021415100,10.1016/j.chemphys.2015.04.007,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:44:42Z,W2745480307,10.5562/cca3172,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 418 Client Error: I'm a teapot for url: https://hrcak.srce.hr/file/273946 | no Europe PMC OA full text
+2026-07-16T17:44:50Z,W4241668775,10.26434/chemrxiv.11828256.v2,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/60c74cc5bdbb896b6ba39875/original/hole-hole-tamm-dancoff-approximated-density-functional-theory-a-highly-efficient-electronic-structure-method-incorporating-dynamic-and-static-correlation.pdf | no Europe PMC OA full text
+2026-07-16T17:44:54Z,W2998328894,10.26434/chemrxiv.11446224.v1,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/ndownloader/files/20411364 | no Europe PMC OA full text
+2026-07-16T17:45:02Z,W3210556915,10.26434/chemrxiv.12941702.v1,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/60c74fcaee301c20cec7a765/original/structural-causes-of-singlet-triplet-preferences-of-norrish-type-ii-reactions-in-carbonyls.pdf | no Europe PMC OA full text
+2026-07-16T17:45:10Z,W4230486782,10.26434/chemrxiv.13513881.v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:45:12Z,W2032407513,10.1016/s0301-0104(03)00229-5,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:45:31Z,W2030991298,10.1002/jcc.10102,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/jcc.10102 | no Europe PMC OA full text
+2026-07-16T17:45:38Z,W4244218865,10.26434/chemrxiv.11369841,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:45:52Z,W4328127921,10.26434/chemrxiv-2023-n3lh0,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/64190d9caad2a62ca1155dd1/original/a-dynamically-weighted-constrained-complete-active-space-ansatz-for-constructing-multiple-potential-energy-surfaces-within-the-anderson-holstein-model.pdf | no Europe PMC OA full text
+2026-07-16T17:45:59Z,W2530352841,10.25560/6945,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:46:06Z,W3206171724,10.26434/chemrxiv.14420255.v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:46:09Z,W4253843485,10.26434/chemrxiv.9108527.v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:46:14Z,W4414921104,10.1021/acs.inorgchem.5c02908,europepmc,text_ready,35070 chars of JATS full text
+2026-07-16T17:46:20Z,W7125243526,10.1021/acs.jctc.5c01695,europepmc,text_ready,60900 chars of JATS full text
+2026-07-16T17:46:24Z,W4391034798,10.1002/cptc.202300327,refetch,fetched,1721109 bytes from https://research.chalmers.se/publication/539887/file/539887_Fulltext.pdf
+2026-07-16T17:46:27Z,W4408343890,10.3390/reactions6010021,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://www.mdpi.com/2624-781X/6/1/21/pdf?version=1741772876 | no Europe PMC OA full text
+2026-07-16T17:46:36Z,W3213433512,10.1021/acsomega.1c03170,europepmc,text_ready,25836 chars of JATS full text
+2026-07-16T17:46:44Z,W4250790831,10.33774/chemrxiv-2021-pjvv1-v3,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/60da8ca3b361520b12025475/original/machine-learned-energy-functionals-for-strongly-correlated-systems.pdf | no Europe PMC OA full text
+2026-07-16T17:46:58Z,W4388722992,10.3390/magnetochemistry9110229,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://www.mdpi.com/2312-7481/9/11/229/pdf?version=1700128868 | no Europe PMC OA full text
+2026-07-16T17:47:08Z,W4408156854,10.3390/molecules30051154,europepmc,text_ready,55864 chars of JATS full text
+2026-07-16T17:47:15Z,W3033970366,10.1039/d0dt01293a,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:47:21Z,W2913370436,10.1016/j.comptc.2019.01.014,refetch,still_failed,2 PDF location(s) + Europe PMC tried; ValueError: not a PDF (probably an HTML landing page) | ValueError: not a PDF (probably an HTML landing page) | no Europe PMC OA full text
+2026-07-16T17:47:25Z,W4200567221,10.1021/acs.inorgchem.1c01519,refetch,still_failed,1 PDF location(s) + Europe PMC tried; ValueError: not a PDF (probably an HTML landing page) | no Europe PMC OA full text
+2026-07-16T17:47:28Z,W4379801764,10.3390/inorganics11060245,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://www.mdpi.com/2304-6740/11/6/245/pdf?version=1686063759 | no Europe PMC OA full text
+2026-07-16T17:47:37Z,W4410302228,10.3390/magnetochemistry11050043,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://www.mdpi.com/2312-7481/11/5/43/pdf?version=1747045211 | no Europe PMC OA full text
+2026-07-16T17:47:39Z,W2958737176,10.1021/acs.joc.9b01197,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:47:48Z,W4313596191,10.1002/ange.202216003,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ange.202216003 | no Europe PMC OA full text
+2026-07-16T17:47:52Z,W2644611874,10.1021/acs.inorgchem.7b00877,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 404 Client Error: Not found for url: https://diposit.ub.edu/dspace/bitstream/2445/154604/1/673808.pdf | no Europe PMC OA full text
+2026-07-16T17:47:54Z,W879843442,10.7498/aps.60.043102,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:47:57Z,W2751369035,10.1021/acsomega.7b00766,europepmc,text_ready,39264 chars of JATS full text
+2026-07-16T17:48:00Z,W3112939940,10.7498/aps.61.093105,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:50:14Z,W3204408852,10.6060/mhc201026z,refetch,still_failed,"1 PDF location(s) + Europe PMC tried; ConnectTimeout: HTTPSConnectionPool(host='macroheterocycles.isuct.ru', port=443): Max retries exceeded with url: /en/system/files/mhc201026z.pdf (Caused by ConnectTimeoutError(<HTTPSConnection(host='macroheterocycles.isuct.ru', port=443) at 0x7fb149fdd000>, 'Connection to macroheterocycles.isuct.ru timed out. (connect timeout=120)')) | no Europe PMC OA full text"
+2026-07-16T17:50:28Z,W4313829788,10.1002/cphc.202200889,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cphc.202200889 | no Europe PMC OA full text
+2026-07-16T17:50:36Z,W3003087271,10.20900/qmr20200003,refetch,fetched,804209 bytes from https://arxiv.org/pdf/2001.09420
+2026-07-16T17:50:40Z,W2917672017,10.4208/jams.040115.051015a,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://global-sci.com/intro/article_detail/auth/8202.html | no Europe PMC OA full text
+2026-07-16T17:50:44Z,W4381710976,10.3390/magnetochemistry9050122,refetch,fetched,933254 bytes from https://hal.science/hal-04128303/document
+2026-07-16T17:50:58Z,W4386690317,10.1002/ejoc.202300461,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ejoc.202300461 | no Europe PMC OA full text
+2026-07-16T17:51:01Z,W4391166869,10.1002/ejic.202300687,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:51:23Z,W3193740228,10.1002/chem.202102572,europepmc,text_ready,53526 chars of JATS full text
+2026-07-16T17:51:30Z,W2991811976,10.1016/j.poly.2019.114257,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:51:44Z,W4212850856,10.1088/1674-1056/ac5607,refetch,still_failed,1 PDF location(s) + Europe PMC tried; ValueError: not a PDF (probably an HTML landing page) | no Europe PMC OA full text
+2026-07-16T17:51:46Z,W2108910610,10.1002/qua.22565,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:51:50Z,W2015596727,10.1088/1757-899x/80/1/012025,refetch,still_failed,1 PDF location(s) + Europe PMC tried; ValueError: not a PDF (probably an HTML landing page) | no Europe PMC OA full text
+2026-07-16T17:52:08Z,W2166303160,10.1002/cphc.201402073,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cphc.201402073 | no Europe PMC OA full text
+2026-07-16T17:52:28Z,W2344492140,10.5562/cca2770,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 418 Client Error: I'm a teapot for url: https://hrcak.srce.hr/file/222471 | no Europe PMC OA full text
+2026-07-16T17:52:43Z,W2427427115,10.1515/ntrev-2015-0006,refetch,still_failed,1 PDF location(s) + Europe PMC tried; ValueError: not a PDF (probably an HTML landing page) | no Europe PMC OA full text
+2026-07-16T17:52:52Z,W3188448476,10.1002/open.202100049,europepmc,text_ready,19002 chars of JATS full text
+2026-07-16T17:53:00Z,W1983762859,10.1088/1742-6596/388/2/022017,refetch,still_failed,1 PDF location(s) + Europe PMC tried; ValueError: not a PDF (probably an HTML landing page) | no Europe PMC OA full text
+2026-07-16T17:53:02Z,W2324347976,10.1080/00268976.2016.1164348,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:53:11Z,W4230937432,10.26434/chemrxiv.12776222.v1,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/60c75398337d6c6875e288b1/original/first-principle-investigations-of-long-range-magnetic-exchange-interactions-via-polyacene-coupler.pdf | no Europe PMC OA full text
+2026-07-16T17:53:18Z,W4254812617,10.26434/chemrxiv.13110212.v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:53:21Z,W4388456388,10.26434/chemrxiv-2023-xn5l3,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:53:34Z,W4239159850,10.26434/chemrxiv.8965973,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/60c7432f842e65dbd9db21eb/original/spin-state-ordering-in-metal-based-compounds-using-the-localized-active-space-self-consistent-field-method.pdf | no Europe PMC OA full text
+2026-07-16T17:53:37Z,W3213713336,10.26434/chemrxiv.7665620.v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:53:45Z,W4408618187,10.26434/chemrxiv-2025-q6rfm,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/67d9cd316dde43c90851a9cf/original/cavity-quantum-electrodynamics-complete-active-space-self-consistent-field-theory.pdf | no Europe PMC OA full text
+2026-07-16T17:53:54Z,W7137319008,10.26434/chemrxiv.15000921/v1,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15000921/v1 | no Europe PMC OA full text
+2026-07-16T17:53:57Z,W4406021010,10.1002/asia.202401477,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/asia.202401477 | no Europe PMC OA full text
+2026-07-16T17:54:01Z,W4406385640,10.1002/chem.202404546,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/chem.202404546 | no Europe PMC OA full text
+2026-07-16T17:54:08Z,W4415351205,10.1021/jacs.5c11362,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:54:11Z,W4385611144,10.3390/cryst13081217,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://www.mdpi.com/2073-4352/13/8/1217/pdf?version=1691315086 | no Europe PMC OA full text
+2026-07-16T17:54:16Z,W4407594097,10.1021/acsomega.4c11321,europepmc,text_ready,34630 chars of JATS full text
+2026-07-16T17:54:23Z,W3001267591,10.1021/acs.cgd.9b01150,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:54:26Z,W3107777068,10.3390/magnetochemistry6040066,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://www.mdpi.com/2312-7481/6/4/66/pdf?version=1606466210 | no Europe PMC OA full text
+2026-07-16T17:54:35Z,W4281689755,10.1002/ange.202207415,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ange.202207415 | no Europe PMC OA full text
+2026-07-16T17:54:55Z,W4391138715,10.1021/acs.inorgchem.3c03236,refetch,still_failed,1 PDF location(s) + Europe PMC tried; ValueError: not a PDF (probably an HTML landing page) | no Europe PMC OA full text
+2026-07-16T17:54:59Z,W2793033962,10.1002/chem.201705316,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/chem.201705316 | no Europe PMC OA full text
+2026-07-16T17:55:07Z,W2749241054,10.1063/1.4998150,refetch,still_failed,1 PDF location(s) + Europe PMC tried; ValueError: not a PDF (probably an HTML landing page) | no Europe PMC OA full text
+2026-07-16T17:55:10Z,W3116722884,10.7498/aps.61.153105,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:55:12Z,W2487248808,10.1080/00268976.2016.1213436,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:55:17Z,W4382060087,10.3390/molecules28134994,refetch,still_failed,2 PDF location(s) + Europe PMC tried; ValueError: not a PDF (probably an HTML landing page) | HTTPError: 403 Client Error: Forbidden for url: https://www.mdpi.com/1420-3049/28/13/4994/pdf?version=1687761546 | no Europe PMC OA full text
+2026-07-16T17:55:19Z,W4386116182,10.1063/5.0159509,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:55:26Z,W4403300641,10.1021/acs.inorgchem.4c02752,europepmc,text_ready,49332 chars of JATS full text
+2026-07-16T17:55:32Z,W4408088781,10.1021/acs.jctc.4c01697,europepmc,text_ready,61552 chars of JATS full text
+2026-07-16T17:55:51Z,W4316687847,10.1002/chem.202203494,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/chem.202203494 | no Europe PMC OA full text
+2026-07-16T17:55:56Z,W4401424790,10.1021/acs.jpca.4c03299,europepmc,text_ready,37438 chars of JATS full text
+2026-07-16T17:55:59Z,W4362582836,10.1002/cptc.202300058,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cptc.202300058 | no Europe PMC OA full text
+2026-07-16T17:56:02Z,W2765728662,10.1063/1.4993648,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:56:13Z,W2988351150,10.1360/ssc-2019-0114,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 418 Client Error:  for url: https://www.sciengine.com/doi/pdf/FD899BC8D35A436F9B64AA378F48F904 | no Europe PMC OA full text
+2026-07-16T17:56:21Z,W2057303726,10.1063/1.4858412,refetch,fetched,2210796 bytes from https://pubs.aip.org/aip/jcp/article-pdf/doi/10.1063/1.4858412/15472869/034305_1_online.pdf
+2026-07-16T17:56:23Z,W2597419965,10.1021/acs.jpca.6b12448,refetch,error,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+2026-07-16T17:56:52Z,W3167707510,10.1002/ange.202102218,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ange.202102218 | no Europe PMC OA full text
+2026-07-16T17:57:01Z,W2058034569,10.2478/s11534-013-0174-8,refetch,still_failed,1 PDF location(s) + Europe PMC tried; ValueError: not a PDF (probably an HTML landing page) | no Europe PMC OA full text
+2026-07-16T17:57:09Z,W2546738996,10.3390/ecsoc-20-e003,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://sciforum.net/paper/download/3543/manuscript | no Europe PMC OA full text
+2026-07-16T17:57:11Z,W3113953953,10.7498/aps.66.103101,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:57:18Z,W4313648633,10.3390/molecules28020554,europepmc,text_ready,27068 chars of JATS full text
+2026-07-16T17:57:29Z,W4390706623,10.1021/acs.inorgchem.3c03813,europepmc,text_ready,35429 chars of JATS full text
+2026-07-16T17:57:37Z,W4254001482,10.26434/chemrxiv.14103740,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/60c75647ee301c4d5dc7b31b/original/electronic-structure-of-ytterbium-iii-solvates-a-combined-spectro-scopic-and-theoretical-study.pdf | no Europe PMC OA full text
+2026-07-16T17:57:40Z,W4387502537,10.26434/chemrxiv-2023-70tx9,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/65248ca245aaa5fdbba1cc26/original/chemical-bond-overlap-descriptors-from-multiconfiguration-wavefunctions.pdf | no Europe PMC OA full text
+2026-07-16T17:57:43Z,W1975937059,10.1016/s0301-0104(02)00966-7,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:57:45Z,W4243435428,10.26434/chemrxiv.9750872,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:58:57Z,W4321786378,10.26434/chemrxiv-2023-fgr88,refetch,error,"SSLError: HTTPSConnectionPool(host='www.ebi.ac.uk', port=443): Max retries exceeded with url: /europepmc/webservices/rest/search?query=DOI%3A%2210.26434%2Fchemrxiv-2023-fgr88%22&format=json&resultType=lite (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)')))"
+2026-07-16T17:59:11Z,W4412035282,10.26434/chemrxiv-2025-0xsfn,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/6864cf8cc1cb1ecda09f9921/original/computational-evidence-of-a-bifurcation-in-a-cope-rearrangement-proximate-to-a-forbidden-electrocyclization.pdf | no Europe PMC OA full text
+2026-07-16T17:59:13Z,W4249451042,10.26434/chemrxiv-2021-pjvv1-v3,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:59:20Z,W4250745118,10.26434/chemrxiv-2021-xr3x5,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:59:24Z,W4251548623,10.26434/chemrxiv.12411125.v1,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/ndownloader/files/22867853 | no Europe PMC OA full text
+2026-07-16T17:59:27Z,W4378232194,10.26434/chemrxiv-2023-h7tsp,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/646dc5e8b3dd6a6530a5c193/original/identification-of-new-inverted-singlet-triplet-cores-by-high-throughput-virtual-screening.pdf | no Europe PMC OA full text
+2026-07-16T17:59:36Z,W4386626210,10.26434/chemrxiv-2023-296cq,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/64ff131599918fe537c23eb0/original/phosphonium-substituted-diphosphaindenylide-ppi-exploration-of-biradical-character-and-ligand-properties.pdf | no Europe PMC OA full text
+2026-07-16T17:59:39Z,W4399330480,10.26434/chemrxiv-2023-rn9bj-v2,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/665e0020418a5379b001966b/original/efficient-method-for-achieving-electronic-coupling-in-tempo-tempo-system.pdf | no Europe PMC OA full text
+2026-07-16T17:59:47Z,W4407979009,10.26434/chemrxiv-2025-lwh8m,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/67bdb4ccfa469535b9dcdeed/original/realizing-the-magneto-structural-correlation-of-a-highly-anisotropic-fe-iii-porphyrin-complex-through-ab-initio-approaches.pdf | no Europe PMC OA full text
+2026-07-16T17:59:50Z,W3043093162,10.31635/ccschem.020.202000271,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:59:56Z,W4220768503,10.12688/openreseurope.14073.2,refetch,fetched,2074828 bytes from https://digital.csic.es/bitstream/10261/305085/1/Theoretical_spectroscopy.pdf
+2026-07-16T18:00:18Z,W4404695927,10.3390/molecules29235562,europepmc,text_ready,52265 chars of JATS full text
+2026-07-16T18:00:21Z,W4388688379,10.1002/jcc.27246,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/jcc.27246 | no Europe PMC OA full text
+2026-07-16T18:00:49Z,W4412726638,10.1021/acs.jpca.5c03946,europepmc,text_ready,16110 chars of JATS full text
+2026-07-16T18:00:59Z,W4413480778,10.3390/magnetochemistry11090073,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://www.mdpi.com/2312-7481/11/9/73/pdf?version=1756019566 | no Europe PMC OA full text
+2026-07-16T18:01:01Z,W4416767708,10.1021/acs.jpclett.5c03329,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:01:16Z,W4408306884,10.1002/jcc.70026,europepmc,text_ready,89517 chars of JATS full text
+2026-07-16T18:01:22Z,W4401413916,10.1021/acs.jctc.4c00578,europepmc,text_ready,69335 chars of JATS full text
+2026-07-16T18:01:26Z,W4404375365,10.3390/chemistry6060085,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://www.mdpi.com/2624-8549/6/6/85/pdf?version=1731580722 | no Europe PMC OA full text
+2026-07-16T18:01:57Z,W4414601816,10.1021/acs.jpca.5c04699,europepmc,text_ready,9054 chars of JATS full text
+2026-07-16T18:02:02Z,W4416293277,10.1002/anie.202517979,europepmc,text_ready,44800 chars of JATS full text
+2026-07-16T18:02:06Z,W7127892053,10.3390/ijms27031577,europepmc,text_ready,75729 chars of JATS full text
+2026-07-16T18:02:09Z,W2715071205,10.1021/acsomega.7b00380,europepmc,text_ready,32386 chars of JATS full text
+2026-07-16T18:02:12Z,W4324311281,10.1002/chem.202203449,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:02:21Z,W4401256526,10.1021/acsomega.4c04914,europepmc,text_ready,41528 chars of JATS full text
+2026-07-16T18:02:30Z,W4376956697,10.3390/magnetochemistry9050130,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://www.mdpi.com/2312-7481/9/5/130/pdf?version=1684158713 | no Europe PMC OA full text
+2026-07-16T18:02:34Z,W4312125967,10.1002/ange.202215840,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ange.202215840 | no Europe PMC OA full text
+2026-07-16T18:02:42Z,W4387974050,10.1002/qua.27257,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/qua.27257 | no Europe PMC OA full text
+2026-07-16T18:02:46Z,W4407945420,10.1002/jcc.70045,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/jcc.70045 | no Europe PMC OA full text
+2026-07-16T18:02:49Z,W4409458120,10.3390/magnetochemistry11040034,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://www.mdpi.com/2312-7481/11/4/34/pdf?version=1744712251 | no Europe PMC OA full text
+2026-07-16T18:02:52Z,W2964580916,10.15278/isms.2019.fd05,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://www.ideals.illinois.edu/items/113315/bitstreams/371735/data.pdf | no Europe PMC OA full text
+2026-07-16T18:03:19Z,W4386162152,10.3390/ijms241713224,europepmc,text_ready,40123 chars of JATS full text
+2026-07-16T18:03:21Z,W2465936990,10.1021/acs.inorgchem.6b01052,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:03:24Z,W2522286111,10.1007/978-3-319-30916-3_8,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:03:34Z,W3096632642,10.28954/2020.csq.10.001,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 404 Client Error: Not Found for url: https://sci2.org/app/download/17460746/Chem2_2020_4_4.pdf | no Europe PMC OA full text
+2026-07-16T18:03:42Z,W4386467121,10.1002/jcc.27214,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/jcc.27214 | no Europe PMC OA full text
+2026-07-16T18:03:44Z,W4238985669,10.26434/chemrxiv.14103740.v2,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:03:47Z,W1489197653,10.2172/10180548,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:03:55Z,W4252636531,10.26434/chemrxiv.13110212,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/60c75108337d6c7fdfe28485/original/first-principles-investigations-of-magnetic-anisotropy-and-spin-crossover-behavior-of-fe-iii-tbp-complexes.pdf | no Europe PMC OA full text
+2026-07-16T18:03:58Z,W4254674698,10.26434/chemrxiv-2021-h3qk7,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:04:02Z,W4384932239,10.26434/chemrxiv-2023-snc7m,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/64b69dffb605c6803bee5c3e/original/thermally-stable-terbium-ii-and-dysprosium-ii-bis-amidinate-single-molecule-magnets.pdf | no Europe PMC OA full text
+2026-07-16T18:04:05Z,W4387334180,10.26434/chemrxiv-2023-wpc4r,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/651bb371006594091255f0fc/original/pushing-boundaries-in-single-molecule-magnets-an-ab-initio-perspective-on-harnessing-unusual-oxidation-states-for-unprecedented-lanthanide-smm-performance.pdf | no Europe PMC OA full text
+2026-07-16T18:04:22Z,W4387703562,10.26434/chemrxiv-2023-m5s0w-v2,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/652da604bda59ceb9ab83596/original/characterising-conical-intersections-in-dna-rna-nucleobases-with-multiconfigurational-wave-functions-of-varying-active-space-size.pdf | no Europe PMC OA full text
+2026-07-16T18:04:35Z,W4409896155,10.26434/chemrxiv-2025-46g93,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/680b63ae927d1c2e66b81b03/original/optically-detected-magnetic-resonance-on-carbene-molecular-qubits.pdf | no Europe PMC OA full text
+2026-07-16T18:04:44Z,W4413339290,10.26434/chemrxiv-2025-6m8l9,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/689f5958728bf9025e9b324c/original/evaluating-ms-ani-vs-ss-ani-for-surface-hopping-simulations-a-cyclohexadiene-photochemical-ring-opening-case-study.pdf | no Europe PMC OA full text
+2026-07-16T18:04:48Z,W4249470267,10.26434/chemrxiv.13513881,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/60c753900f50dbd6da397bb1/original/auxiliary-atomic-relay-center-facilitates-enhanced-magnetic-couplings-in-blatter-s-radical.pdf | no Europe PMC OA full text
+2026-07-16T18:04:50Z,W4288690020,10.21203/rs.3.rs-1879560/v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:04:59Z,W4307256765,10.26434/chemrxiv-2022-z1trp,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/6352d75daa2784f9f746e899/original/accurate-spin-orbit-coupling-and-intersystem-crossing-by-relativistic-mixed-reference-spin-flip-mrsf-tddft.pdf | no Europe PMC OA full text
+2026-07-16T18:05:07Z,W4309834098,10.26434/chemrxiv-2022-w3x91-v2,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/637d274d9b5b807394d1d08f/original/multiconfigurational-calculations-and-photodynamics-describe-norbornadiene-photochemistry.pdf | no Europe PMC OA full text
+2026-07-16T18:05:21Z,W4385706718,10.20944/preprints202308.0664.v1,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://www.preprints.org/manuscript/202308.0664/v1/download | no Europe PMC OA full text
+2026-07-16T18:05:24Z,W4389392841,10.26434/chemrxiv-2023-rs2xc-v2,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/657031b1cf8b3c3cd7e56da0/original/zero-field-splitting-tensor-of-the-triplet-excited-states-of-aromatic-molecules-a-valence-full-complete-active-space-self-consistent-field-study.pdf | no Europe PMC OA full text
+2026-07-16T18:05:28Z,W4410869863,10.26434/chemrxiv-2025-wzkst,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/6833d4e61a8f9bdab5e6b8b7/original/a-descriptor-is-all-you-need-accurate-machine-learning-of-nonadiabatic-coupling-vectors.pdf | no Europe PMC OA full text
+2026-07-16T18:05:31Z,W2950663435,10.1002/smtd.201900070,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/smtd.201900070 | no Europe PMC OA full text
+2026-07-16T18:05:40Z,W4403485886,10.3390/reactions5040039,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://www.mdpi.com/2624-781X/5/4/39/pdf?version=1728961480 | no Europe PMC OA full text
+2026-07-16T18:05:48Z,W4389375318,10.1016/j.cpc.2023.109033,refetch,fetched,2310731 bytes from https://repositorio.uam.es/bitstream/10486/709396/1/photoionization_borras_CPC_2023.pdf
+2026-07-16T18:06:01Z,W4402765243,10.1021/acs.jpca.4c04148,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:06:09Z,W4410510559,10.1021/acs.cgd.5c00037,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/doi/pdf/10.1021/acs.cgd.5c00037 | no Europe PMC OA full text
+2026-07-16T18:06:39Z,W4413335469,10.1016/j.heliyon.2025.e43697,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://www.cell.com/heliyon/pdf/S2405-8440(25)02083-3.pdf | no Europe PMC OA full text
+2026-07-16T18:06:47Z,W4414021862,10.1002/poc.70035,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/poc.70035 | no Europe PMC OA full text
+2026-07-16T18:06:52Z,W4417496909,10.1002/anie.202522076,europepmc,text_ready,36536 chars of JATS full text
+2026-07-16T18:06:57Z,W7117361644,10.1021/acs.jctc.5c01276,europepmc,text_ready,42617 chars of JATS full text
+2026-07-16T18:07:04Z,W3204316493,10.12688/openreseurope.14073.1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:07:10Z,W4388831245,10.3390/molecules28227652,europepmc,text_ready,58659 chars of JATS full text
+2026-07-16T18:07:20Z,W4416326662,10.1021/acs.inorgchem.5c03729,europepmc,text_ready,54990 chars of JATS full text
+2026-07-16T18:07:22Z,W4417211069,10.1016/j.ica.2025.123037,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:07:26Z,W7152021556,10.1002/chem.70968,europepmc,text_ready,74840 chars of JATS full text
+2026-07-16T18:07:33Z,W7160547651,10.1021/jacs.5c20971,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:07:43Z,W4412094238,10.3390/molecules30132874,europepmc,text_ready,61863 chars of JATS full text
+2026-07-16T18:07:45Z,W4412989431,10.1016/j.poly.2025.117714,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:07:54Z,W1979573283,10.1002/qua.23104,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/qua.23104 | no Europe PMC OA full text
+2026-07-16T18:08:02Z,W2644474465,10.3847/1538-4357/aa719f,refetch,still_failed,1 PDF location(s) + Europe PMC tried; ValueError: not a PDF (probably an HTML landing page) | no Europe PMC OA full text
+2026-07-16T18:08:10Z,W2414108248,10.5539/apr.v8n4p1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:08:12Z,W3035244709,10.7498/aps.68.20191341,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:08:20Z,W3112626419,10.7498/aps.67.20172409,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:08:22Z,W3205502060,10.1088/1742-6596/1258/1/012033,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:08:30Z,W4223456351,10.22541/au.164964963.37769514/v1,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://www.authorea.com/doi/pdf/10.22541/au.164964963.37769514 | no Europe PMC OA full text
+2026-07-16T18:08:33Z,W4306173415,10.1002/qua.27019,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:08:42Z,W2997985221,10.5287/ora-vyz2okydx,refetch,still_failed,1 PDF location(s) + Europe PMC tried; ValueError: not a PDF (probably an HTML landing page) | no Europe PMC OA full text
+2026-07-16T18:09:01Z,W4224305469,10.26434/chemrxiv-2022-2sqgf,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/624171c3202c065d31e45660/original/identical-spin-multi-state-reactivity-towards-c-h-bond-activation-in-high-valent-fe-mn-oxo-hydroxo-species.pdf | no Europe PMC OA full text
+2026-07-16T18:09:09Z,W4389441261,10.26434/chemrxiv-2023-9z6bg,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/6570363729a13c4d47c44f7c/original/chelate-complexes-of-3d-transition-metal-ions-a-challenge-for-electronic-structure-methods.pdf | no Europe PMC OA full text
+2026-07-16T18:09:13Z,W2979290094,10.17169/refubium-25453,refetch,still_failed,1 PDF location(s) + Europe PMC tried; ValueError: not a PDF (probably an HTML landing page) | no Europe PMC OA full text
+2026-07-16T18:09:26Z,W4229377396,10.26434/chemrxiv-2022-gl6hq,refetch,fetched,9335835 bytes from https://eprints.lib.hokudai.ac.jp/repo/huscap/all/90320/5.0098230.pdf
+2026-07-16T18:10:52Z,W4250738246,10.26434/chemrxiv.12776222,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/60c753d9bb8c1a695c3dc124/original/first-principle-investigations-of-long-range-magnetic-exchange-interactions-via-polyacene-coupler.pdf | no Europe PMC OA full text
+2026-07-16T18:11:06Z,W4283031636,10.26434/chemrxiv-2022-kc0k3,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/62a3ac2fb749a05eb99f26a8/original/an-analytic-linear-vibronic-coupling-method-for-first-principles-spin-dynamics-calculations-in-single-molecule-magnets.pdf | no Europe PMC OA full text
+2026-07-16T18:11:14Z,W4307527009,10.26434/chemrxiv-2022-q86dm,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/635836aeaca1986e48e5031d/original/fully-delocalized-mixed-valent-cu1-5cu1-5-complex-strong-cu-cu-interaction-and-fast-electron-self-exchange-rate-despite-large-structural-changes.pdf | no Europe PMC OA full text
+2026-07-16T18:11:18Z,W4309839650,10.26434/chemrxiv-2022-mk6fs,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/637c37c121b45c37f424741b/original/mechanism-of-nitrogen-carbon-bond-formation-from-iron-iv-disilylhydrazido-intermediates-during-n2-reduction.pdf | no Europe PMC OA full text
+2026-07-16T18:11:21Z,W4321252641,10.26434/chemrxiv-2023-fcl8s,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/63ee6184fcfb27a31fe5dd9f/original/predicting-magnetic-coupling-and-spin-polarization-energy-in-triangulene-analogues.pdf | no Europe PMC OA full text
+2026-07-16T18:11:35Z,W4386477446,10.26434/chemrxiv-2023-nplbq,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/64f83c1279853bbd78337173/original/investigating-the-interplay-between-spin-vibrational-coupling-and-blocking-temperature-in-designing-high-performance-pseudo-d5h-dy-iii-single-ion-magnets.pdf | no Europe PMC OA full text
+2026-07-16T18:11:43Z,W4393450892,10.5281/zenodo.7854203,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:11:46Z,W4398132768,10.26434/chemrxiv-2023-9z6bg-v2,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/6647a78791aefa6ce147b5e6/original/chelate-complexes-of-3d-transition-metal-ions-a-challenge-for-electronic-structure-methods.pdf | no Europe PMC OA full text
+2026-07-16T18:11:59Z,W4401425497,10.26434/chemrxiv-2024-st9qn,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/66b36a3301103d79c5075f55/original/ecce-coordinated-e-p-as-ruthenium-complexes-in-different-oxidation-states-ru-i-e-p-ru-ii-e-p-as-and-ru-iii-e-as.pdf | no Europe PMC OA full text
+2026-07-16T18:12:03Z,W4412003660,10.26434/chemrxiv-2025-03dcw,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/686205741a8f9bdab5b33df2/original/molecular-models-of-layered-ternary-cu2mo-s4-reveal-sulfur-based-h2-evolution-pathway.pdf | no Europe PMC OA full text
+2026-07-16T18:12:23Z,W67508817,10.31274/rtd-180813-11912,refetch,still_failed,1 PDF location(s) + Europe PMC tried; ValueError: not a PDF (probably an HTML landing page) | no Europe PMC OA full text
+2026-07-16T18:12:42Z,W3177080785,10.1016/j.chempr.2021.06.015,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://www.cell.com/article/S2451929421003193/pdf | no Europe PMC OA full text
+2026-07-16T18:12:59Z,W2904017371,10.1063/1.5048924,refetch,still_failed,1 PDF location(s) + Europe PMC tried; ValueError: not a PDF (probably an HTML landing page) | no Europe PMC OA full text
+2026-07-16T18:13:01Z,W3117970718,10.7498/aps.68.20190869,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:13:10Z,W4291566894,10.1021/om400528d.s001,refetch,still_failed,1 PDF location(s) + Europe PMC tried; ValueError: not a PDF (probably an HTML landing page) | no Europe PMC OA full text
+2026-07-16T18:13:13Z,W2166538863,10.1155/2014/850641,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://downloads.hindawi.com/journals/ijp/2014/850641.pdf | no Europe PMC OA full text
+2026-07-16T18:13:22Z,W2939577324,10.3390/inorganics7040052,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://www.mdpi.com/2304-6740/7/4/52/pdf?version=1556000215 | no Europe PMC OA full text
+2026-07-16T18:13:25Z,W3126807236,10.3390/ecsoc-24-08339,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://sciforum.net/paper/download/8339/manuscript | no Europe PMC OA full text
+2026-07-16T18:13:27Z,W3193469597,10.7939/r3-vc3h-fe44,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:13:31Z,W3209299499,10.33774/chemrxiv-2021-3p2sx,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/61573330b19c7e7e0de683dd/original/excited-states-of-crystalline-point-defects-with-multireference-density-matrix-embedding-theory.pdf | no Europe PMC OA full text
+2026-07-16T18:13:38Z,W3214319768,10.25365/thesis.48585,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:13:46Z,W4214737454,10.26434/chemrxiv-2022-f7tc8,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/62150fbfde88802811f164fd/original/the-nature-of-metal-metal-bonding-in-re-and-os-corrole-dimer.pdf | no Europe PMC OA full text
+2026-07-16T18:13:53Z,W4394190208,10.6084/m9.figshare.3833520,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:13:55Z,W4394190678,10.6084/m9.figshare.21667808,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:14:04Z,W4407409741,10.26434/chemrxiv-2025-gbcfl,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/67aa3f196dde43c9084e7bb9/original/decomposition-of-magnetic-coupling-in-oxo-bridged-metal-complexes.pdf | no Europe PMC OA full text
+2026-07-16T18:14:06Z,W4414214541,10.12795/11441/175832,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:14:08Z,W7105116872,10.48550/arxiv.2511.05732,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:14:10Z,W7110985034,10.1021/acs.jctc.5c01336.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:14:13Z,W7115938972,10.48420/30888737.v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:14:15Z,W7116659154,10.26434/chemrxiv-2025-nd968,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:14:18Z,W7118511433,10.60893/figshare.jcp.30904394,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:14:21Z,W7119138548,10.60893/figshare.jcp.30904394.v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:14:28Z,W7124139610,10.5281/zenodo.17406994,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:14:35Z,W7124163309,10.5281/zenodo.17406995,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:14:43Z,W7133209380,10.48550/arxiv.2602.24236,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:15:15Z,W7134034811,10.5281/zenodo.18877522,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:15:18Z,W7134078335,10.5281/zenodo.18877523,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:15:20Z,W7147103394,10.60893/figshare.jcp.31747114.v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:15:22Z,W7147647558,10.60893/figshare.jcp.31747114,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:15:24Z,W7152733512,10.5281/zenodo.19478937,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:15:32Z,W7154452357,10.6084/m9.figshare.31032451.v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:15:34Z,W7154482081,10.6084/m9.figshare.31032451,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:15:37Z,W7154607617,10.60893/figshare.jcp.31890529.v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:15:39Z,W7154632271,10.60893/figshare.jcp.31890529,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:15:41Z,W7161252789,10.5281/zenodo.20204569,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:15:49Z,W7161278973,10.5281/zenodo.20204568,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:15:56Z,W7162501005,10.5281/zenodo.20415504,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:15:58Z,W7168153207,10.5281/zenodo.21346077,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:16:06Z,W1980734759,10.1021/ja809624w,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:16:15Z,W2508895948,10.1088/1742-6596/635/9/092080,refetch,still_failed,1 PDF location(s) + Europe PMC tried; ValueError: not a PDF (probably an HTML landing page) | no Europe PMC OA full text
+2026-07-16T18:16:18Z,W2517486712,10.1088/1742-6596/635/11/112111,refetch,still_failed,1 PDF location(s) + Europe PMC tried; ValueError: not a PDF (probably an HTML landing page) | no Europe PMC OA full text
+2026-07-16T18:16:21Z,W3209761366,10.26434/chemrxiv.12457709.v1,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/60c74c45567dfe0745ec50e8/original/energetic-degeneracy-and-electronic-structures-of-germanium-trimers-doped-with-titanium.pdf | no Europe PMC OA full text
+2026-07-16T18:16:40Z,W4229691386,10.1002/chem.202086262,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/chem.202086262 | no Europe PMC OA full text
+2026-07-16T18:16:48Z,W4235750166,10.26434/chemrxiv.12457709,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:16:51Z,W4246744234,10.26434/chemrxiv.14420255,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/60c7578e337d6c0a29e29049/original/tuning-the-magnetic-properties-of-diamagnetic-di-blatter-s-zwitterion-to-antiferro-and-ferromagnetic-diradical.pdf | no Europe PMC OA full text
+2026-07-16T18:16:59Z,W4280618551,10.26434/chemrxiv-2022-59f1v,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/627ecc7ea42e9c06ec3ff7f4/original/multireference-study-of-optically-addressable-vanadium-based-molecular-qubit-candidates.pdf | no Europe PMC OA full text
+2026-07-16T18:17:02Z,W4288018447,10.1021/acs.jctc.9b01178.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:17:05Z,W4296349674,10.26434/chemrxiv-2022-8mc2h,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/63274c9cea6a22436cf4d5d9/original/a-multiconfigurational-approach-to-the-electronic-structure-of-electro-generated-species-of-the-re2-ph2pch2p-ph2-s2cn-et2-4-complex.pdf | no Europe PMC OA full text
+2026-07-16T18:17:24Z,W4297425336,10.26434/chemrxiv-2022-8mc2h-v2,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/63317c0efee74e6c544af272/original/a-multiconfigurational-approach-to-the-electronic-structure-of-electro-generated-species-of-the-re2-ph2pch2p-ph2-s2cn-et2-4-complex.pdf | no Europe PMC OA full text
+2026-07-16T18:17:27Z,W4382022244,10.26434/chemrxiv-2023-rn9bj,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/6498b3a22e632767b0c5bc6a/original/electron-transfer-in-tempo-based-organic-radical-batteries-governed-by-electronic-coupling.pdf | no Europe PMC OA full text
+2026-07-16T18:17:29Z,W4394262762,10.6084/m9.figshare.13721836,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:17:32Z,W4394338976,10.6084/m9.figshare.24843663,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:17:37Z,W4402079203,10.1021/acs.jpca.4c04032,europepmc,text_ready,37200 chars of JATS full text
+2026-07-16T18:17:45Z,W4411405542,10.1021/acs.inorgchem.5c01531,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:17:49Z,W4412837608,10.26434/chemrxiv-2025-x6c3j,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/6889de5f728bf9025e088725/original/large-scale-modeling-of-proton-coupled-electron-transfer-based-on-absolutely-localized-molecular-orbitals.pdf | no Europe PMC OA full text
+2026-07-16T18:18:09Z,W58128915,10.31274/etd-180810-3086,refetch,still_failed,1 PDF location(s) + Europe PMC tried; ValueError: not a PDF (probably an HTML landing page) | no Europe PMC OA full text
+2026-07-16T18:18:16Z,W7105923768,10.60893/figshare.jcp.c.8113772,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:18:19Z,W7105931470,10.60893/figshare.jcp.c.8113772.v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:18:26Z,W7115903669,10.48420/30888737,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:18:34Z,W7116395197,10.5281/zenodo.17981972,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:18:42Z,W7116439613,10.5281/zenodo.17981973,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:18:50Z,W7117108798,10.5281/zenodo.18034314,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:18:58Z,W7117120104,10.5281/zenodo.18034315,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:19:10Z,W7122469767,10.1021/acs.jpca.5c06695,europepmc,text_ready,9480 chars of JATS full text
+2026-07-16T18:19:17Z,W7125154230,10.5281/zenodo.18267424,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:19:20Z,W7125206511,10.5281/zenodo.18267425,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:19:22Z,W7134032243,10.5281/zenodo.18886878,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:19:29Z,W7134047730,10.5281/zenodo.18886879,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:21:00Z,W7136057147,10.5281/zenodo.18993129,refetch,error,"SSLError: HTTPSConnectionPool(host='api.openalex.org', port=443): Max retries exceeded with url: /works/https://doi.org/10.5281/zenodo.18993129?mailto=victorchanglee%40gmail.com&select=locations%2Cbest_oa_location (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)')))"
+2026-07-16T18:21:03Z,W7136077716,10.5281/zenodo.18993128,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:21:05Z,W7148712486,10.5281/zenodo.19411266,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:21:12Z,W7148803856,10.5281/zenodo.19411265,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:21:15Z,W7154111148,10.5281/zenodo.19548906,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:21:22Z,W7154184808,10.5281/zenodo.19548907,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:21:29Z,W7154260322,10.17028/rd.lboro.30665393.v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:21:32Z,W7154380488,10.17028/rd.lboro.30665393,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:21:39Z,W7154613487,10.1039/d6dt00621c,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:21:41Z,W7160534575,10.5281/zenodo.20070120,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:21:54Z,W1541424306,10.11606/t.46.2009.tde-05102009-105840,refetch,still_failed,"1 PDF location(s) + Europe PMC tried; ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')) | no Europe PMC OA full text"
+2026-07-16T18:22:15Z,W1584628411,10.31274/rtd-180813-12907,refetch,still_failed,1 PDF location(s) + Europe PMC tried; ValueError: not a PDF (probably an HTML landing page) | no Europe PMC OA full text
+2026-07-16T18:22:22Z,W1981995379,10.4028/www.scientific.net/amr.699.107,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:22:41Z,W2130192561,10.2298/jsc130412044x,refetch,still_failed,"1 PDF location(s) + Europe PMC tried; SSLError: HTTPSConnectionPool(host='www.doiserbia.nb.rs', port=443): Max retries exceeded with url: /ft.aspx?id=0352-51391300044X (Caused by SSLError(SSLCertVerificationError(1, ""[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.doiserbia.nb.rs'. (_ssl.c:1007)""))) | no Europe PMC OA full text"
+2026-07-16T18:22:56Z,W2280353183,10.3929/ethz-a-007604482,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 500 Server Error: Internal Server Error for url: https://www.research-collection.ethz.ch/handle/20.500.11850/63101 | no Europe PMC OA full text
+2026-07-16T18:22:59Z,W2526757513,10.1063/1.5012766,refetch,fetched,916803 bytes from https://arxiv.org/pdf/1609.07678
+2026-07-16T18:23:07Z,W2901846411,10.15278/isms.2018.wc05,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://www.ideals.illinois.edu/items/109023/bitstreams/356506/data.pdf | no Europe PMC OA full text
+2026-07-16T18:23:10Z,W3010316305,10.1088/1755-1315/358/3/032038,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:23:12Z,W3016865943,10.1080/00268976.2020.1752402,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:23:16Z,W3159123575,10.48550/arxiv.2105.01754,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://escholarship.org/uc/item/32n8m5tq | no Europe PMC OA full text
+2026-07-16T18:23:36Z,W3214322595,10.26434/chemrxiv.10059809.v1,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/60c7458dee301cead1c7936d/original/ligand-redox-non-innocence-in-co-taml-0-complexes-affects-nitrene-formation.pdf | no Europe PMC OA full text
+2026-07-16T18:23:44Z,W4235258545,10.2172/806585,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:23:51Z,W4235299709,10.2172/7305434,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:23:54Z,W4235807013,10.26434/chemrxiv.7665620,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:24:07Z,W4293567642,10.26434/chemrxiv-2022-8r90r-v3,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/630d11a5521cb784ceab1436/original/boronated-cyanometallates.pdf | no Europe PMC OA full text
+2026-07-16T18:24:10Z,W4393546192,10.5281/zenodo.1255999,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:24:17Z,W4393663914,10.5281/zenodo.1255998,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:24:24Z,W4394129900,10.6084/m9.figshare.12435017.v2,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:24:26Z,W4394247983,10.6084/m9.figshare.12435017,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:26:07Z,W4394624704,10.1088/1742-6596/2734/1/012052,refetch,still_failed,1 PDF location(s) + Europe PMC tried; ValueError: not a PDF (probably an HTML landing page) | no Europe PMC OA full text
+2026-07-16T18:26:11Z,W4408321162,10.1002/adom.202570063,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adom.202570063 | no Europe PMC OA full text
+2026-07-16T18:26:14Z,W4412572672,10.26434/chemrxiv-2025-cmd6s,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/687cad54728bf9025e59fb62/original/nonadiabatic-dynamics-of-the-molecular-tully-models-with-the-mixed-reference-spin-flip-time-dependent-density-functional-theory.pdf | no Europe PMC OA full text
+2026-07-16T18:26:21Z,W4417345821,10.26434/chemrxiv-2025-5v4hx,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:26:29Z,W7111188602,10.1021/acs.inorgchem.5c01531.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:26:31Z,W7111252637,10.1021/acs.jctc.5c01287.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:26:33Z,W7115171194,10.1021/acs.jpclett.5c03195.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:26:36Z,W7115178187,10.1021/acs.jpclett.5c03195.s002,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:26:38Z,W7115678463,10.5281/zenodo.17955575,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:26:41Z,W7115704244,10.5281/zenodo.17955574,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:26:43Z,W7128784677,10.60893/figshare.jcp.31123984,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:26:51Z,W7128810757,10.60893/figshare.jcp.31123984.v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:26:53Z,W7134826414,10.48420/30204577.v2,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:26:55Z,W7153821062,10.5281/zenodo.19537404,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:27:03Z,W7153844302,10.5281/zenodo.19537405,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:27:05Z,W7155070098,10.48550/arxiv.2604.17925,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:27:08Z,W7160164708,10.3390/inorganics14050126,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://www.mdpi.com/2304-6740/14/5/126/pdf?version=1778737713 | no Europe PMC OA full text
+2026-07-16T18:27:11Z,W7162109200,10.2139/ssrn.6814820,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:27:13Z,W7165043808,10.48550/arxiv.2606.17761,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:27:56Z,W7167629880,10.2139/ssrn.7073622,refetch,still_failed,"1 PDF location(s) + Europe PMC tried; SSLError: HTTPSConnectionPool(host='doi.org', port=443): Max retries exceeded with url: /10.2139/ssrn.7073622 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)'))) | no Europe PMC OA full text"
+2026-07-16T18:28:03Z,W7167843253,10.5281/zenodo.21277820,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:28:05Z,W3112463352,10.7498/aps.68.20182039,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:28:08Z,W2809584965,10.48550/arxiv.0909.2215,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:28:11Z,W3201745751,10.26434/chemrxiv.13317902.v1,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/60c7528a702a9b240118c183/original/a-theoretical-stereoselectivity-model-of-photochemical-denitrogenations-of-diazoalkanes-towards-strained-1-3-dihalogenated-bicyclobutanes.pdf | no Europe PMC OA full text
+2026-07-16T18:28:14Z,W3202333128,10.33774/chemrxiv-2021-xr3x5,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/613eda3d27d90665ef85e626/original/dipole-moment-calculations-using-multiconfiguration-pair-density-functional-theory-and-hybrid-multiconfiguration-pair-density-functional-theory.pdf | no Europe PMC OA full text
+2026-07-16T18:28:18Z,W3207697793,10.26434/chemrxiv.12411125.v2,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/60c750a3ee301c9cadc7a8d6/original/chemical-insights-into-the-electronic-structure-of-fe-ii-porphyrin-using-fciqmc-dmrg-and-generalized-active-spaces.pdf | no Europe PMC OA full text
+2026-07-16T18:28:43Z,W4232426864,10.26434/chemrxiv.9992402.v1,refetch,error,"SSLError: HTTPSConnectionPool(host='api.openalex.org', port=443): Max retries exceeded with url: /works/https://doi.org/10.26434/chemrxiv.9992402.v1?mailto=victorchanglee%40gmail.com&select=locations%2Cbest_oa_location (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)')))"
+2026-07-16T18:28:47Z,W4234484212,10.1002/9780470192597.gloss,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/9780470192597.gloss | no Europe PMC OA full text
+2026-07-16T18:28:55Z,W4285801513,10.26434/chemrxiv-2022-8r90r,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/62c61961cd7a997651bb8fd3/original/boronated-cyanometallates.pdf | no Europe PMC OA full text
+2026-07-16T18:28:59Z,W4292466591,10.26434/chemrxiv-2022-8r90r-v2,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/62f30bca69f3a508d0b1f498/original/boronated-cyanometallates.pdf | no Europe PMC OA full text
+2026-07-16T18:29:02Z,W4328123620,10.26434/chemrxiv-2023-8l8nw,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/64186d92dab08ad68f69feb0/original/potential-energy-surface-of-li-o2-system-for-cold-collisions.pdf | no Europe PMC OA full text
+2026-07-16T18:29:06Z,W4378221424,10.26434/chemrxiv-2023-h7tsp-v2,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/646efb89be16ad5c57df9820/original/identification-of-new-inverted-singlet-triplet-cores-by-high-throughput-virtual-screening.pdf | no Europe PMC OA full text
+2026-07-16T18:29:15Z,W4410219934,10.1021/acs.jpca.5c01107,europepmc,text_ready,40286 chars of JATS full text
+2026-07-16T18:29:18Z,W4414304074,10.20944/preprints202509.1237.v1,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://www.preprints.org/frontend/manuscript/f867720e7c5363a5cf7ec34974b17224/download_pub | no Europe PMC OA full text
+2026-07-16T18:29:21Z,W7110898365,10.1021/acs.jpca.5c05513.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:29:23Z,W7110904024,10.1021/acs.jctc.5c00519.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:29:30Z,W7111206302,10.1021/acs.inorgchem.5c01823.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:29:33Z,W7111241719,10.1021/acs.inorgchem.5c02754.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:29:35Z,W7111383764,10.1021/acs.jpca.5c01107.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:29:43Z,W7118143680,10.26434/chemrxiv-2025-gbcfl-v2,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:29:45Z,W7131648130,10.36807/1998-9849-2025-75-101-45-50,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:29:55Z,W7135231589,10.1021/acs.jpclett.6c00181,europepmc,text_ready,18861 chars of JATS full text
+2026-07-16T18:30:06Z,W7140051857,10.5281/zenodo.19157750,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:30:13Z,W7154576984,10.60893/figshare.jcp.c.8390923,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:30:16Z,W7154637187,10.60893/figshare.jcp.c.8390923.v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:30:19Z,W7161699461,10.1021/acs.cgd.6c00297,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/doi/pdf/10.1021/acs.cgd.6c00297?ref=article_openPDF | no Europe PMC OA full text
+2026-07-16T18:30:22Z,W7161817752,10.5281/zenodo.20303973,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:30:24Z,W7161844553,10.5281/zenodo.20303974,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:30:26Z,W7161967300,10.26434/chemrxiv.15003702/v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:30:29Z,W7162080781,10.2139/ssrn.6816223,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:30:31Z,W7162415770,10.6084/m9.figshare.32411734.v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:30:33Z,W7162447953,10.6084/m9.figshare.32411734,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:32:13Z,W7163032122,10.6082/evxmf-8kk87,refetch,error,"SSLError: HTTPSConnectionPool(host='api.openalex.org', port=443): Max retries exceeded with url: /works/https://doi.org/10.6082/evxmf-8kk87?mailto=victorchanglee%40gmail.com&select=locations%2Cbest_oa_location (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)')))"
+2026-07-16T18:32:16Z,W7164943813,10.26434/chemrxiv.15000921/v2,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:32:18Z,W7165636440,10.48700/datst.t55em-ndc28,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:32:21Z,W7165647315,10.48700/ff6ba-k3y07,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:32:23Z,W7167974851,10.48550/arxiv.2607.08178,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:32:25Z,W7168081773,10.1021/acs.jpca.6c02386.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:32:32Z,W3094084527,10.31635/ccschem.020.202000489,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:32:40Z,W1531521093,10.17169/refubium-17371,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:32:47Z,W2322803144,10.3390/ecsoc-18-a025,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:32:49Z,W2776908444,10.1107/s2053273317081426,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:32:56Z,W2807141029,10.13097/archive-ouverte/unige:104838,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:32:58Z,W2901789799,10.15278/isms.2018.wk02,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:33:12Z,W2979387010,10.1016/j.saa.2019.117578,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:33:20Z,W3084168523,10.25365/thesis.50999,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:33:22Z,W3174981960,10.33774/chemrxiv-2021-pjvv1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:33:24Z,W3178433580,10.33774/chemrxiv-2021-pjvv1-v2,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:33:26Z,W3215947735,10.26434/chemrxiv.8965973.v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:33:28Z,W4231000442,10.26434/chemrxiv-2021-pjvv1-v2,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:33:36Z,W4244796928,10.26434/chemrxiv-2021-pjvv1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:34:02Z,W4281760057,10.26434/chemrxiv-2022-dnstl,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:34:09Z,W4378345609,10.7302/7363,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:34:11Z,W4385341960,10.26434/chemrxiv-2023-s0xl4,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:34:14Z,W4388971902,10.26434/chemrxiv-2023-rs2xc,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:34:21Z,W4393449888,10.5281/zenodo.5710891,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:34:23Z,W4393593434,10.5281/zenodo.5710890,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:34:30Z,W4393891101,10.5281/zenodo.8169552,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:34:32Z,W4414588024,10.48550/arxiv.2505.20055,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:34:35Z,W7110823042,10.1021/acs.inorgchem.5c02481.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:34:51Z,W7110950385,10.1021/acs.inorgchem.5c02481.s002,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:34:53Z,W7111120864,10.1021/acs.inorgchem.5c02481.s003,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:35:00Z,W7111138474,10.1021/acs.inorgchem.5c02481.s004,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:35:07Z,W7111278515,10.1021/acs.inorgchem.5c02481.s005,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:35:09Z,W7111303189,10.1021/acs.jpclett.5c02294.s004,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:35:12Z,W7111306693,10.1021/acs.jpclett.5c02294.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:35:14Z,W7115004835,10.1021/acs.inorgchem.5c03903.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:35:21Z,W7116845834,10.22161/ijcmp.9.2.2,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:35:23Z,W7134254503,10.26434/chemrxiv.15000689/v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:35:25Z,W7148746393,10.2139/ssrn.6514832,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:35:28Z,W7160269241,10.2139/ssrn.6712643,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:35:30Z,W7165558131,10.18452/37580,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:35:32Z,W7167746251,10.48550/arxiv.2607.05786,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:35:39Z,W7167797876,10.5281/zenodo.21277822,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:36:02Z,W3015570311,10.1002/cphc.202000201,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:36:10Z,W2509094501,10.15278/isms.2016.tk10,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:36:17Z,W2794634033,10.1155/2018/9802369,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:36:19Z,W3142575418,10.15278/isms.2017.wk03,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:36:21Z,W3164079141,10.26434/chemrxiv.14524977.v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:36:24Z,W3202474684,10.26434/chemrxiv.12403124.v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:36:31Z,W3204509880,10.1021/acs.jpcc.1c03278.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:36:58Z,W3206119972,10.15278/isms.2021.tf05,refetch,error,"SSLError: HTTPSConnectionPool(host='api.openalex.org', port=443): Max retries exceeded with url: /works/https://doi.org/10.15278/isms.2021.tf05?mailto=victorchanglee%40gmail.com&select=locations%2Cbest_oa_location (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)')))"
+2026-07-16T18:37:00Z,W3211210205,10.22541/au.163487764.48232499/v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:37:07Z,W4246942366,10.22541/au.162028527.72939370/v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:37:10Z,W4253000545,10.26434/chemrxiv.13317902,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:37:12Z,W4385521937,10.2139/ssrn.4526625,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:37:19Z,W4392390594,10.1002/vjch.202300355,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:37:21Z,W4394342926,10.6084/m9.figshare.963377.v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:37:23Z,W4394481536,10.6084/m9.figshare.963377,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:37:26Z,W4399739288,10.26434/chemrxiv-2024-t5m4d,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:37:28Z,W4400837826,10.26434/chemrxiv-2024-363tw,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:37:30Z,W4401922699,10.22541/au.172474666.62099599/v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:37:32Z,W4406067796,10.1002/jcc.27530,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:37:34Z,W4411084968,10.26434/chemrxiv-2025-7qsq0,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:37:36Z,W4413289814,10.26434/chemrxiv-2025-dl4sb,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:37:39Z,W4416554207,10.48550/arxiv.2505.23344,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:37:46Z,W7110820262,10.1021/acs.jpclett.5c03329.s002,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:37:53Z,W7110890536,10.1021/acs.jpclett.5c03329.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:37:55Z,W7110901786,10.1021/acs.jctc.5c01333.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:38:03Z,W7111195952,10.1021/acs.jpclett.5c02294.s003,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:38:05Z,W7111239810,10.1021/acs.jpca.5c03946.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:38:07Z,W7111269750,10.1021/acs.jpclett.5c02294.s002,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:38:14Z,W7118677064,10.3390/computation14010014,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:38:16Z,W7128522335,10.48550/arxiv.2602.07750,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:38:19Z,W7128720587,10.26180/4669663.v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:39:08Z,W7128743175,10.26180/4669663,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:39:11Z,W7142668792,10.5281/zenodo.19317582,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:39:13Z,W7142685926,10.5281/zenodo.19317581,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:39:15Z,W7154902867,10.5281/zenodo.19563196,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:39:18Z,W7154915113,10.5281/zenodo.19563197,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:39:20Z,W7160552003,10.48550/arxiv.2605.04283,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:39:27Z,W7165635350,10.1021/acsomega.5c10105,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:39:34Z,W7167784670,10.5281/zenodo.21279007,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:39:41Z,W2061476511,10.1021/jp065772h,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:39:44Z,W1534029509,10.1063/1.2128335,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:39:51Z,W2160990552,10.1360/zb2009-39-7-646,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:39:56Z,W2215624575,10.18297/etd/782,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:40:04Z,W2800229437,10.15625/2525-2518/55/6a/12367,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:40:11Z,W2885555416,10.17169/refubium-8,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:40:13Z,W2891680757,10.1002/cnr2.1128,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:40:15Z,W3161192447,10.4225/03/58abc58f03aba,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:40:22Z,W4235268365,10.26434/chemrxiv.9992402,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:40:25Z,W4241806415,10.26434/chemrxiv.14524977,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:40:32Z,W4287902768,10.5281/zenodo.3701278,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:40:34Z,W4393448773,10.5281/zenodo.10449450,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:40:42Z,W4393538251,10.5281/zenodo.8169551,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:40:44Z,W4397030279,10.2139/ssrn.4832814,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:40:51Z,W4399349707,10.1007/978-3-031-51443-2_8,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:40:53Z,W4403091031,10.26434/chemrxiv-2024-5hc8g,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:41:01Z,W4403292465,10.26434/chemrxiv-2024-5hc8g-v2,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:41:03Z,W4404083642,10.26434/chemrxiv-2024-zzjlx,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:41:10Z,W4405354672,10.26434/chemrxiv-2024-d6sj9,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:41:12Z,W4408388082,10.1016/j.tet.2025.134583,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:41:14Z,W4416299991,10.1002/ange.202517979,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:41:22Z,W7110837579,10.1021/acs.cgd.5c01058.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:41:34Z,W7110938873,10.1021/acs.jpca.5c02571.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:41:36Z,W7111004061,10.1021/acs.jpca.5c03032.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:41:43Z,W7111125933,10.1021/acs.jpca.5c03032.s002,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:41:45Z,W7111295111,10.1021/acs.jpclett.5c01270.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:41:49Z,W7117126628,10.3390/ijms27010184,europepmc,text_ready,38435 chars of JATS full text
+2026-07-16T18:41:51Z,W7131405184,10.48700/datst.9sg2b-myd78,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:41:59Z,W7134985741,10.1088/1402-4896/ae5035,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:42:06Z,W7142787753,10.5281/zenodo.19316851,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:42:13Z,W7153556526,10.5281/zenodo.19510750,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:42:15Z,W7153627826,10.5281/zenodo.19510749,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:42:22Z,W7157983514,10.48550/arxiv.2604.25603,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:42:30Z,W7159950220,10.5281/zenodo.20016411,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:42:37Z,W7162304630,10.1093/mnras/stag985,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:42:45Z,W7165112700,10.6082/wgpqw-nxs33,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:42:47Z,W7165539223,10.1021/acs.joc.6c01030.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:42:54Z,W7165689881,10.48700/nrjxy-crx39,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:42:56Z,W7168039619,10.5281/zenodo.21309088,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:43:04Z,W7168048162,10.5281/zenodo.21309089,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:43:11Z,W2415158824,10.1039/c6cp02037b,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:43:18Z,W1971437397,10.1002/chem.200600228,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:44:07Z,W1488164369,10.17169/refubium-17167,refetch,error,"SSLError: HTTPSConnectionPool(host='api.openalex.org', port=443): Max retries exceeded with url: /works/https://doi.org/10.17169/refubium-17167?mailto=victorchanglee%40gmail.com&select=locations%2Cbest_oa_location (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)')))"
+2026-07-16T18:44:10Z,W2213721822,10.1360/zb2006-36-1-36,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:44:17Z,W3093938310,10.32655/asc_8-10_dec2020.6,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:44:19Z,W3177508800,10.1016/j.ica.2021.120524,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:44:21Z,W3201708119,10.26434/chemrxiv.9750872.v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:44:29Z,W3208491084,10.26434/chemrxiv.12385940.v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:44:31Z,W4237880488,10.26434/chemrxiv.10059809,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:44:38Z,W4294927704,10.26434/chemrxiv-2022-c6tz8,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:44:40Z,W4299403217,10.1021/ja106902s.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:44:43Z,W4307763701,10.26434/chemrxiv-2022-n4fbb,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:44:50Z,W4309698326,10.26434/chemrxiv-2022-w3x91,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:44:52Z,W4310250818,10.26434/chemrxiv-2022-wgdf7,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:44:54Z,W4312645589,10.2139/ssrn.4264280,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:44:56Z,W4323315980,10.26434/chemrxiv-2022-c6tz8-v2,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:44:59Z,W4366771401,10.26434/chemrxiv-2023-clcrj,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:45:01Z,W4386927615,10.1002/hlca.202300130,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:45:20Z,W4401089070,10.1002/cphc.202400216,europepmc,text_ready,61659 chars of JATS full text
+2026-07-16T18:45:24Z,W4401322012,10.3390/ijms25158530,europepmc,text_ready,31835 chars of JATS full text
+2026-07-16T18:45:31Z,W4404639014,10.26434/chemrxiv-2024-t9x0l,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:45:33Z,W4407037478,10.20944/preprints202501.2258.v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:45:41Z,W4410945222,10.20944/preprints202505.2369.v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:45:48Z,W4411268858,10.11606/t.46.2024.tde-15052025-121207,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:45:55Z,W4413253959,10.1002/ange.202513772,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:46:02Z,W4414848445,10.1080/00268976.2025.2563030,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:46:04Z,W4415202067,10.26434/chemrxiv-2025-h2pbh,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:46:12Z,W4416322572,10.2139/ssrn.5766207,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:46:19Z,W7110847154,10.1021/acs.inorgchem.5c03532.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:46:21Z,W7110886467,10.1021/jacs.5c15650.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:46:23Z,W7110986306,10.3389/fphy.2025.1635859.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:46:35Z,W7111061770,10.1021/acs.jpca.5c04699.s002,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:46:42Z,W7111238582,10.1021/jacs.5c11362.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:46:49Z,W7111265989,10.1021/acs.jpca.5c04699.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:46:51Z,W7142755787,10.5281/zenodo.19316852,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:46:53Z,W7150817998,10.26434/chemrxiv.15001672/v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:47:01Z,W7155550418,10.5167/uzh-433777,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:47:08Z,W7159933094,10.5281/zenodo.20016410,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:47:15Z,W7162557018,10.5281/zenodo.20419288,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:47:17Z,W7163402453,10.1021/acs.inorgchem.6c01030.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:48:22Z,W7163515973,10.5281/zenodo.20549029,refetch,error,"SSLError: HTTPSConnectionPool(host='api.openalex.org', port=443): Max retries exceeded with url: /works/https://doi.org/10.5281/zenodo.20549029?mailto=victorchanglee%40gmail.com&select=locations%2Cbest_oa_location (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)')))"
+2026-07-16T18:48:30Z,W7165889677,10.1021/acsomega.5c10105.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:48:32Z,W7167122475,10.5194/epsc2026-694,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:48:34Z,W2016465083,10.1021/jp8037335,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:48:37Z,W4367721402,10.1039/d3cp01243c,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:48:44Z,W1532877453,10.1063/1.2128372,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:48:51Z,W1949283506,10.70675/efacdfb9zcb92z4540z98b2zd8c85da63113,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:48:53Z,W2963416637,10.1002/qua.26132,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:48:56Z,W2981095492,10.22032/dbt.39518,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:48:58Z,W3206621906,10.15278/isms.2021.fj09,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:49:00Z,W3216048254,10.26434/chemrxiv.11828256.v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:49:02Z,W4200105488,10.33774/chemrxiv-2021-xtlzj,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:49:04Z,W4200163225,10.1021/acs.jpca.1c07108.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:49:12Z,W4235935103,10.1088/1742-6596/1258/1/012034,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:49:19Z,W4238777105,10.26434/chemrxiv-2021-xtlzj,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:49:21Z,W4366219499,10.26434/chemrxiv-2023-fcl8s-v2,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:49:28Z,W4381279933,10.26434/chemrxiv-2023-m5s0w,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:49:30Z,W4405200252,10.26434/chemrxiv-2024-5m8m7,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:49:33Z,W4407995864,10.26434/chemrxiv-2025-tnhwp,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:50:34Z,W4411624867,10.3390/inorganics13070214,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:50:37Z,W4412530522,10.2139/ssrn.5360362,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:50:44Z,W4413331618,10.2139/ssrn.5396713,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:50:46Z,W4414640189,10.26434/chemrxiv-2025-n2c9l,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:50:53Z,W7108208601,10.60893/figshare.jcp.c.8129837,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:50:56Z,W7108215757,10.60893/figshare.jcp.c.8129837.v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:51:03Z,W7111024810,10.48550/arxiv.2512.07537,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:51:10Z,W7111055358,10.1021/acs.jpca.5c05370.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:51:12Z,W7111121152,10.1021/acs.inorgchem.5c02893.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:51:20Z,W7111130091,10.1021/acs.inorgchem.5c03327.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:51:27Z,W7111416171,10.1021/acs.inorgchem.5c03929.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:51:34Z,W7117263240,10.48550/arxiv.2512.19778,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:51:36Z,W7118068111,10.60893/figshare.adv.c.8193842,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:51:44Z,W7118093516,10.60893/figshare.adv.c.8193842.v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:51:56Z,W7119023050,10.5445/ir/1000187979,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:52:03Z,W7134133864,10.4208/cicc.2025.252.01,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:52:10Z,W7147045669,10.60893/figshare.jcp.c.8353561.v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:52:13Z,W7147657733,10.60893/figshare.jcp.c.8353561,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:52:20Z,W7148906894,10.5281/zenodo.19398117,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:52:27Z,W7154588629,10.26434/chemrxiv.15002064/v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:52:29Z,W7158618190,10.48550/arxiv.2604.26428,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:52:33Z,W7159797647,10.1126/sciadv.aed8682,europepmc,text_ready,46248 chars of JATS full text
+2026-07-16T18:52:35Z,W7161785735,10.1002/advs.75759,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:52:38Z,W7163639019,10.60893/figshare.jcp.c.8483793,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:52:45Z,W2739675675,10.1002/jcc.24897,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:52:52Z,W1569418851,10.31274/etd-180810-3645,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:52:54Z,W1766687597,10.7907/2set-6e48,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:53:01Z,W183397502,10.12681/eadd/19873,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:53:19Z,W2070492690,10.1155/2013/734354,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:53:21Z,W2613035033,10.26021/6838,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:53:29Z,W2805237953,10.7939/r3xg9fn5s,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:53:31Z,W3166527348,10.26434/chemrxiv.14781855.v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:53:38Z,W3199686332,10.26434/chemrxiv.13302098.v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:53:40Z,W3204531904,10.26434/chemrxiv.12605333.v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:53:48Z,W3208537338,10.33774/chemrxiv-2021-h3qk7,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:53:55Z,W4210273454,10.26434/chemrxiv.12776222.v2,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:54:02Z,W4231167402,10.1002/9783527690541.index,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:54:09Z,W4236018289,10.26434/chemrxiv.13302098,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:54:11Z,W4236777086,10.26434/chemrxiv.11446224,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:54:14Z,W4237968752,10.26434/chemrxiv.14103740.v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:54:16Z,W4241848671,10.26434/chemrxiv.14781855,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:54:18Z,W4252641555,10.26434/chemrxiv.12403124,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:54:25Z,W4389682832,10.11648/j.ijctc.20231101.13,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:54:32Z,W4410175770,10.26434/chemrxiv-2025-46g93-v2,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:54:35Z,W7110824346,10.3389/fchem.2025.1603873.s002,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:54:42Z,W7110859229,10.1021/acs.jctc.5c01321.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:54:57Z,W7111090846,10.1021/acs.inorgchem.5c02908.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:55:05Z,W7111174741,10.1021/jacs.5c03770.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:55:12Z,W7111243622,10.3389/fchem.2025.1603873.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:55:14Z,W7111257738,10.1021/acs.jpca.5c01912.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:55:21Z,W7111370555,10.1021/acs.cgd.5c00236.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:55:23Z,W7116106703,10.1021/acs.jpca.5c07496.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:55:26Z,W7116751922,10.1002/ange.202522076,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:55:28Z,W7118070171,10.5281/zenodo.18135262,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:55:30Z,W7118074043,10.5281/zenodo.18135798,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:55:37Z,W7118101311,10.5281/zenodo.18135261,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:55:40Z,W7130832557,10.5463/thesis.1633,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:55:42Z,W7131412896,10.60893/figshare.jcp.c.8294440.v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:55:49Z,W7131430217,10.60893/figshare.jcp.c.8294440,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:55:59Z,W7131708463,10.26434/chemrxiv.15000425/v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:56:01Z,W7148987560,10.5281/zenodo.19398118,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:56:03Z,W7155568895,10.60713/pist-201522,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:56:10Z,W7162134413,10.48550/arxiv.2605.22394,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:56:13Z,W7162784968,10.26434/chemrxiv.15004034/v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:56:15Z,W7163325257,10.48550/arxiv.2606.02917,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:56:17Z,W7165158664,10.26434/chemrxiv.15004889/v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:56:24Z,W7165544852,10.1002/advs.76249,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:56:31Z,W3094607255,10.31635/ccschem.020.202000384,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:56:34Z,W108279927,10.31274/etd-180810-871,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:56:41Z,W1924134069,10.17169/refubium-12912,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:56:48Z,W2547700475,10.12794/metadc822795,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:56:55Z,W2887591736,10.25365/thesis.32546,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:56:58Z,W2889906338,10.11606/d.46.2018.tde-21092018-100103,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:57:05Z,W2901331326,10.15278/isms.2018.th06,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:57:15Z,W2969922665,10.14279/depositonce-7710,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:57:22Z,W3010246226,10.18297/etd/3316,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:57:29Z,W3048908689,10.15278/isms.2020.mk05,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:57:31Z,W4200316375,10.1021/acs.inorgchem.1c01519.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:57:33Z,W4234475168,10.26434/chemrxiv.11828256,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:57:36Z,W4234730062,10.26434/chemrxiv.11472627.v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:57:43Z,W4243726902,10.26434/chemrxiv.12385940,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:57:50Z,W4243896582,10.26434/chemrxiv.14455983.v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:57:57Z,W4288104465,10.5281/zenodo.3475419,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:57:59Z,W4288104466,10.5281/zenodo.3445381,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:58:02Z,W4393678080,10.5281/zenodo.7854202,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:58:11Z,W4400534826,10.3390/molecules29143274,europepmc,text_ready,65869 chars of JATS full text
+2026-07-16T18:58:18Z,W4412539087,10.26434/chemrxiv-2025-dr4jc,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:58:20Z,W4416465426,10.2139/ssrn.5781607,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:58:23Z,W7104249822,10.11588/heidok.00037525,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:58:25Z,W7110783382,10.1021/acs.inorgchem.5c03943.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:58:32Z,W7110800176,10.1021/acs.jpca.4c08520.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:58:39Z,W7110828816,10.1021/jacs.5c12079.s002,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:58:46Z,W7110981506,10.1021/acs.cgd.5c00037.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:59:09Z,W7111025513,10.1021/acs.jpca.5c04929.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:59:17Z,W7111092150,10.1021/jacs.5c12079.s003,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:59:24Z,W7111240171,10.1021/acs.inorgchem.5c03729.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:59:26Z,W7111368958,10.1021/jacs.5c12079.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:59:28Z,W7111385070,10.1021/acs.jpca.5c03028.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:59:30Z,W7111386704,10.1021/acs.jpcb.5c06035.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:59:33Z,W7116121687,10.1021/acs.jpca.5c06689.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:59:35Z,W7117980144,10.1002/9781394238828.epil,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:59:42Z,W7134258841,10.60893/figshare.jcp.c.8320993,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:59:44Z,W7134285296,10.60893/figshare.jcp.c.8320993.v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:59:48Z,W7143376786,10.1021/acsomega.5c13316,europepmc,text_ready,21556 chars of JATS full text
+2026-07-16T18:59:51Z,W7148822093,10.5281/zenodo.19411342,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T18:59:53Z,W7149031939,10.5281/zenodo.19411341,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T19:00:01Z,W7161493170,10.5281/zenodo.20083483,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T19:00:03Z,W7162692468,10.26434/chemrxiv.15001263/v2,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T19:00:12Z,W7163417873,10.1021/jacsau.5c01496,europepmc,text_ready,73268 chars of JATS full text
+2026-07-16T19:00:19Z,W7163684048,10.1021/jacsau.5c01496.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T19:00:26Z,W7163743985,10.1021/acs.jpca.6c01999.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T19:00:28Z,W7166012864,10.1021/acs.jpca.5c07741,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T19:00:31Z,W2550491543,10.1002/chem.201603640,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T19:00:38Z,W115245494,10.12681/eadd/22370,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T19:00:45Z,W1501433479,10.11606/d.46.2006.tde-15092006-161530,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T19:00:47Z,W178290417,10.31274/rtd-180813-17125,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T19:00:49Z,W2021609111,10.2172/959347,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T19:00:52Z,W2593878641,10.1002/nadc.20174060618,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T19:01:00Z,W2800771145,10.7939/r3bn9x764,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T19:01:02Z,W2801714197,10.7939/r39z90q5j,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T19:01:04Z,W2978827739,10.7916/d8-0e0f-x258,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T19:01:12Z,W3112662488,10.7498/aps.68.20181695,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T19:01:14Z,W3121186489,10.22541/au.160331958.81029418/v1,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T19:01:16Z,W3127689184,10.5451/unibas-ep78541,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T19:01:23Z,W3211584671,10.25365/thesis.55667,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T19:01:26Z,W4200562959,10.1021/acs.inorgchem.1c03011.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T19:01:28Z,W4232570254,10.26434/chemrxiv.12605333,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T19:01:30Z,W4243702659,10.26434/chemrxiv.11472627,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T19:01:37Z,W4249434688,10.1002/9783527627400.index,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T19:01:39Z,W4250982206,10.26434/chemrxiv.14455983,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T19:01:47Z,W4289354747,10.7498/aps.7120221104,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T19:01:49Z,W4321995882,10.5194/egusphere-egu23-10653,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T19:01:51Z,W4413926359,10.47749/t/unicamp.2025.1500860,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T19:01:53Z,W7111053320,10.1021/acs.cgd.5c00337.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T19:01:55Z,W7111413822,10.1021/acs.jpca.5c05393.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T19:01:58Z,W7126169604,10.5281/zenodo.18434136,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T19:02:00Z,W7133120597,10.1021/acs.jpca.5c08237.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T19:02:02Z,W7143723207,10.70675/6116113fz4cc1z49c5z9477z20d367f40cdf,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T19:02:10Z,W7155509254,10.60713/pist-201946,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T19:02:12Z,W7161550944,10.5281/zenodo.20264767,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T19:02:19Z,W7162569421,10.5281/zenodo.20406918,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T19:02:51Z,W7167721267,10.5281/zenodo.21252628,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T19:02:53Z,W7167732502,10.1021/acs.organomet.6c00039.s001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T19:03:00Z,W7168155330,10.5281/zenodo.21332968,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T19:03:02Z,W7168156112,10.5281/zenodo.21332969,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T19:03:36Z,W2467783257,10.1021/acs.chemrev.6b00204,text,text_ready,40 pages -> W2467783257.txt
+2026-07-16T19:03:38Z,W2746979517,10.1021/acs.jctc.7b00900,text,text_ready,14 pages -> W2746979517.txt
+2026-07-16T19:03:39Z,W2945883321,10.1063/1.5094644,text,text_ready,18 pages -> W2945883321.txt
+2026-07-16T19:03:40Z,W3197343847,10.1021/acs.jctc.1c00589,text,text_ready,20 pages -> W3197343847.txt
+2026-07-16T19:03:41Z,W2036873101,10.1039/c3dt52279b,text,text_ready,9 pages -> W2036873101.txt
+2026-07-16T19:03:41Z,W3136346122,10.1021/acs.inorgchem.1c00910,text,text_ready,9 pages -> W3136346122.txt
+2026-07-16T19:03:42Z,W2068668400,10.1063/1.480180,text,text_ready,6 pages -> W2068668400.txt
+2026-07-16T19:03:42Z,W4287578679,10.1063/5.0101838,text,text_ready,10 pages -> W4287578679.txt
+2026-07-16T19:03:43Z,W2922150769,10.1103/physreva.99.063420,text,text_ready,7 pages -> W2922150769.txt
+2026-07-16T19:03:44Z,W2991612980,10.1021/acs.inorgchem.9b02195,text,text_ready,11 pages -> W2991612980.txt
+2026-07-16T19:03:45Z,W4367174413,10.1021/acs.jctc.3c00123,text,text_ready,11 pages -> W4367174413.txt
+2026-07-16T19:03:46Z,W2556114010,10.3390/molecules21111603,text,text_ready,14 pages -> W2556114010.txt
+2026-07-16T19:03:47Z,W2945154241,10.1039/c9dt01069f,text,text_ready,10 pages -> W2945154241.txt
+2026-07-16T19:03:49Z,W2043319671,10.1063/1.473887,text,text_ready,9 pages -> W2043319671.txt
+2026-07-16T19:03:50Z,W3140850877,10.1021/acs.jctc.1c00327,text,text_ready,35 pages -> W3140850877.txt
+2026-07-16T19:03:54Z,W3154176672,10.1063/5.0054743,text,text_ready,11 pages -> W3154176672.txt
+2026-07-16T19:03:55Z,W4391945661,10.1021/acs.jpclett.3c03457,text,text_ready,6 pages -> W4391945661.txt
+2026-07-16T19:03:55Z,W4387745042,10.1021/acs.jpca.3c05559,text,text_ready,12 pages -> W4387745042.txt
+2026-07-16T19:03:56Z,W2018302707,10.1086/309178,text,text_ready,9 pages -> W2018302707.txt
+2026-07-16T19:03:57Z,W3194518351,10.1021/acs.jctc.1c00344,text,text_ready,31 pages -> W3194518351.txt
+2026-07-16T19:04:00Z,W2967510802,10.1088/2632-2153/ab6ac4,text,text_ready,27 pages -> W2967510802.txt
+2026-07-16T19:04:01Z,W4390345854,10.1021/acs.joc.3c02103,text,text_ready,18 pages -> W4390345854.txt
+2026-07-16T19:04:01Z,W2794110203,10.1002/chem.201705957,text,text_ready,10 pages -> W2794110203.txt
+2026-07-16T19:04:03Z,W4396881722,10.1021/acs.jpclett.4c01372,text,text_ready,35 pages -> W4396881722.txt
+2026-07-16T19:05:04Z,W2977006791,10.1039/c9cp03308d,text,text_ready,12 pages -> W2977006791.txt
+2026-07-16T19:05:05Z,W3131583483,10.1063/5.0038281,text,text_ready,14 pages -> W3131583483.txt
+2026-07-16T19:05:06Z,W1985642642,10.1063/1.2749508,text,text_ready,15 pages -> W1985642642.txt
+2026-07-16T19:05:09Z,W338080459,10.1016/j.jms.2010.06.008,text,text_ready,7 pages -> W338080459.txt
+2026-07-16T19:05:11Z,W4387949145,10.1021/acs.jctc.3c00577,text,text_ready,15 pages -> W4387949145.txt
+2026-07-16T19:05:12Z,W4386019501,10.1021/acs.inorgchem.3c01959,text,text_ready,16 pages -> W4386019501.txt
+2026-07-16T19:05:13Z,W2908524173,10.3390/molecules24010209,text,text_ready,8 pages -> W2908524173.txt
+2026-07-16T19:05:14Z,W4408645125,10.1002/bkcs.70011,text,text_ready,48 pages -> W4408645125.txt
+2026-07-16T19:05:14Z,W4378746524,10.1021/acs.jpca.3c02360,text,text_ready,9 pages -> W4378746524.txt
+2026-07-16T19:05:17Z,W4415293897,10.1021/acs.jctc.5c00801,text,text_ready,33 pages -> W4415293897.txt
+2026-07-16T19:05:18Z,W4391844958,10.1021/acs.jpca.3c06512,text,text_ready,11 pages -> W4391844958.txt
+2026-07-16T19:05:19Z,W4393008544,10.1021/acs.jpca.3c06310,text,text_ready,14 pages -> W4393008544.txt
+2026-07-16T19:05:20Z,W4399301065,10.1021/acs.jctc.4c00310,text,text_ready,46 pages -> W4399301065.txt
+2026-07-16T19:05:20Z,W4365152530,10.1016/j.mtchem.2023.101489,text,text_ready,11 pages -> W4365152530.txt
+2026-07-16T19:05:21Z,W2606848775,10.1002/chem.201701058,text,text_ready,14 pages -> W2606848775.txt
+2026-07-16T19:05:21Z,W4391034798,10.1002/cptc.202300327,text,text_ready,11 pages -> W4391034798.txt
+2026-07-16T19:05:22Z,W3003087271,10.20900/qmr20200003,text,text_ready,20 pages -> W3003087271.txt
+2026-07-16T19:05:24Z,W4381710976,10.3390/magnetochemistry9050122,text,text_ready,11 pages -> W4381710976.txt
+2026-07-16T19:05:25Z,W2057303726,10.1063/1.4858412,text,text_ready,11 pages -> W2057303726.txt
+2026-07-16T19:05:26Z,W4220768503,10.12688/openreseurope.14073.2,text,text_ready,40 pages -> W4220768503.txt
+2026-07-16T19:05:28Z,W4389375318,10.1016/j.cpc.2023.109033,text,text_ready,12 pages -> W4389375318.txt
+2026-07-16T19:05:30Z,W4229377396,10.26434/chemrxiv-2022-gl6hq,text,text_ready,17 pages -> W4229377396.txt
+2026-07-16T19:05:30Z,W2526757513,10.1063/1.5012766,text,text_ready,15 pages -> W2526757513.txt
