@@ -5720,3 +5720,20 @@ timestamp,key,doi,action,result,reasoning
 2026-07-16T17:41:46Z,W4319017907,10.26434/chemrxiv-2023-f2fm3,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/63daff3ed8f55fd0aa9cd7e8/original/ab-initio-molecular-cavity-quantum-electrodynamics-simulations-using-machine-learning-models.pdf | no Europe PMC OA full text
 2026-07-16T17:41:54Z,W4392197861,10.26434/chemrxiv-2024-n74xl,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/65dc7acee9ebbb4db94a04aa/original/achieving-ambient-stability-and-suppressing-spin-phonon-coupling-in-dyprosocenium-si-ms-via-mof-encapsulation.pdf | no Europe PMC OA full text
 2026-07-16T17:42:00Z,W4405590984,10.1021/acs.inorgchem.4c03893,europepmc,text_ready,56861 chars of JATS full text
+2026-07-16T17:42:17Z,W4393403874,10.1021/acs.jpcc.3c08112,europepmc,text_ready,42640 chars of JATS full text
+2026-07-16T17:42:20Z,W4407808071,10.1002/smll.202412283,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/smll.202412283 | no Europe PMC OA full text
+2026-07-16T17:42:25Z,W4413048785,10.1002/anie.202513772,europepmc,text_ready,27551 chars of JATS full text
+2026-07-16T17:42:32Z,W3201008725,10.1021/acs.jctc.1c00485,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:42:36Z,W3158842676,10.3390/molecules26092724,europepmc,text_ready,36363 chars of JATS full text
+2026-07-16T17:42:38Z,W4391511816,10.1016/j.jqsrt.2024.108924,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:42:46Z,W4383711329,10.1021/acs.inorgchem.3c01068,refetch,still_failed,1 PDF location(s) + Europe PMC tried; ValueError: not a PDF (probably an HTML landing page) | no Europe PMC OA full text
+2026-07-16T17:42:49Z,W4404942744,10.1088/1361-6455/ad9a2f,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:42:56Z,W3129789227,10.1039/d1dt00260k,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:43:04Z,W3166859828,10.1039/d1cp01695d,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:43:12Z,W2129637977,10.1016/s0009-2614(01)00633-9,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://www.sciencedirect.com/science/article/pii/S0009261401006339 | no Europe PMC OA full text
+2026-07-16T17:43:15Z,W3121117582,10.1016/j.jphotochem.2021.113140,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T17:43:18Z,W2040527857,10.3891/acta.chem.scand.51-0984,refetch,still_failed,"1 PDF location(s) + Europe PMC tried; ConnectionError: HTTPConnectionPool(host='actachemscand.org', port=80): Max retries exceeded with url: /pdf/acta_vol_51_p0984-0999.pdf (Caused by NameResolutionError(""HTTPConnection(host='actachemscand.org', port=80): Failed to resolve 'actachemscand.org' ([Errno -2] Name or service not known)"")) | no Europe PMC OA full text"
+2026-07-16T17:43:29Z,W2031736620,10.1063/1.4817199,refetch,still_failed,1 PDF location(s) + Europe PMC tried; ValueError: not a PDF (probably an HTML landing page) | no Europe PMC OA full text
+2026-07-16T17:43:38Z,W3197422747,10.1107/s2052252521008290,europepmc,text_ready,38703 chars of JATS full text
+2026-07-16T17:43:49Z,W2910527051-a,10.1021/acs.jctc.8b00969,correction,DOI fixed,typed reference_doi from memory again; copied index value 10.1021/acs.jctc.8b00969
+2026-07-16T17:43:49Z,W2910527051,10.1021/acs.jctc.8b00969,mark,extracted,"1 row; Cr(III) dimer (6,10)->(24,19)->(30,22) buildup"
