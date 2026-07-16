@@ -1,0 +1,413 @@
+W4319984943	13	9	0	12	10.3390/molecules28041668	Photodynamics of the Molecular Ruby [Cr(ddpd)2]3+
+W2527705372	13	2	0	38	10.1016/j.chemphys.2016.10.003	The DNA nucleobase thymine in motion – Intersystem crossing simulated 
+W4414929664	12	10	1	1	10.1021/acsomega.5c06364	Cr(I)–Cr(I) Terphenyl Bridged Complexes: A Broken-Symmetry DFT and Mul
+W2051485675	12	0	0	14	10.1039/c3cp50343g	Low-lying excited-states of 5-benzyluracil
+W2910527051	8	4	1	65	10.1021/acs.jctc.8b00969	Meeting the Challenge of Magnetic Coupling in a Triply-Bridged Chromiu
+W2987978795	8	0	1	41	10.1039/c9cp06085e	The N( <sup>4</sup> S) + O <sub>2</sub> (X <sup>3</sup> Σ−g) ↔ O( <sup
+W1987986806	7	0	1	20	10.1063/1.1484384	The lowest doublet and quartet potential energy surfaces involved in t
+W1464821508	7	0	1	0	10.48550/arxiv.1407.6063	Canonical-ensemble SA-CASSCF strategy for problems with more diabatic 
+W3202007277	7	0	0	40	10.1021/acs.jpclett.1c02707	Internal Conversion between Bright (1<sup>1</sup><i>B</i><sub><i>u</i>
+W2411007054	6	9	0	25	10.1021/acs.inorgchem.5b01033	Synthesis and Properties of the Heterospin (<i>S</i><sub>1</sub>=<i>S<
+W4402172345	6	3	0	8	10.1039/d4ra02387k	Synthesis, structural and magnetic properties of cobalt( <scp>ii</scp>
+W4384129319	6	1	0	15	10.1093/mnras/stad2103	Full spectroscopic model and trihybrid experimental-perturbative-varia
+W4410416390	6	1	0	0	10.21203/rs.3.rs-6547757/v1	QM/MM studies on photo-induced cycloaddition and (6-4) reactions of th
+W2092499906	6	0	1	9	10.1063/1.1604378	<i>Ab initio</i> theoretical studies of potential energy surfaces in t
+W2314861442	5	33	0	58	10.1021/ja505403j	EPR, ENDOR, and Electronic Structure Studies of the Jahn–Teller Distor
+W4281724724	5	8	1	11	10.1063/5.0097451	Multireference configuration interaction study of the predissociation 
+W4365146942	5	7	1	6	10.3390/ijms24087070	Iron(II) Complexes with Porphyrin and Tetrabenzoporphyrin: CASSCF/MCQD
+W4237991315	5	4	1	2	10.5539/apr.v6n4p97	Theoretical Electronic Structure of the Lowest-Lying Electronic States
+W4413757703	5	4	0	2	10.1039/d5dt01381j	Computational insight into manganese( <scp>ii</scp> ) complexes compri
+W3096118270	5	3	1	20	10.3390/molecules25215021	Deposition of Tetracoordinate Co(II) Complex with Chalcone Ligands on 
+W4396563993	5	3	0	8	10.1039/d4cp00968a	Changing aromatic properties through stacking: the face-to-face dimer 
+W2288646495	5	1	0	7	10.1063/1.4950784	<i>Ab initio</i> study of reactive collisions between Rb(2<i>S</i>) or
+W4392978793	5	1	0	3	10.1007/s00894-024-05881-9	Theoretical study of the photoisomerization of 1,2-bispyrazinyl-ethyle
+W2133012357	5	0	1	5	10.5012/bkcs.2004.25.11.1645	Potential Energy Surfaces for the Reaction Al + O<sub>2</sub>→ AlO + O
+W4401210100	4	6	1	9	10.1021/acs.jctc.4c00623	A Polarizable QM/MM Model That Combines the State-Averaged CASSCF and 
+W4313453252	4	4	1	6	10.1021/acs.inorgchem.2c03716	One Bridge, Three Bonds: A Frontier in Multiple Bonding in Heterobimet
+W2034298297	4	3	0	8	10.1039/c0cp02554b	First principles study of photostability within hydrogen-bonded amino 
+W4415986841	4	2	1	0	10.48550/arxiv.2508.21136	Fast Methods For Multisite Charge Transfer Processes I: Constrained, S
+W2139446933	4	1	0	33	10.1088/0953-4075/43/6/065101	<i>Ab initio</i>calculation of the 66 low-lying electronic states of H
+W2131957198	4	1	0	7	10.1088/1742-6596/101/1/012001	Recent applications of a QM/MM scheme at the CASPT2//CASSCF/AMBER (or 
+W2094368805	4	0	1	23	10.1063/1.3549143	Theoretical predictions of red and near-infrared strongly emitting <i>
+W2913667368	4	0	0	3	10.1016/j.comptc.2019.01.026	Unveiling the photophysics of thiourea from CASPT2/CASSCF potential en
+W2995293418	3	15	0	93	10.1021/jacs.9b11715	Ligand Redox Noninnocence in [Co <sup>III</sup> (TAML)] <sup>0/–</sup>
+W7131797215	3	8	0	0	10.21203/rs.3.rs-6722143/v1	Real-time Crystallographic Capture of Fe–NO Bond Photodissociation in 
+W2535160901	3	5	1	19	10.1139/cjc-2016-0264	CASSCF-based explicit ligand field models clarify the ground state ele
+W3162729913	3	5	1	10	10.3390/molecules26102945	Molecular Structure, Thermodynamic and Spectral Characteristics of Met
+W4406016933	3	3	1	13	10.1038/s41467-024-55524-z	A cross-entropy corrected hybrid multiconfiguration pair-density funct
+W4312121831	3	3	1	8	10.48550/arxiv.2212.11405	A self-consistent field approach for the variational quantum eigensolv
+W1667476507	3	2	1	40	10.1063/1.475610	<i>Ab initio</i> model potential embedded-cluster study of the ground 
+W4361190869	3	2	1	4	10.1021/acs.jpca.3c00766	Dihydropyrene/Cyclophanediene Photoswitching Mechanism Revisited with 
+W2083884551	3	1	1	43	10.1063/1.4809682	Assessment of various natural orbitals as the basis of large active sp
+W2798263563	3	1	1	39	10.1063/1.5036594	Large-scale relativistic complete active space self-consistent field w
+W2770867823	3	1	1	25	10.3390/ma10121342	Phenylazopyridine as Switch in Photochemical Reactions. A Detailed Com
+W1628972969	3	1	1	18	10.1063/1.2800020	Dissociation of ground and nσ* states of CF3Cl using multireference co
+W4319159601	3	1	1	11	10.3390/ijms24032906	Intermolecular-Type Conical Intersections in Benzene Dimer
+W2787723571	3	1	1	1	10.1039/c7ra12614j	Photochemical isomerization reactions of acrylonitrile. A mechanistic 
+W4288279659	3	1	0	0	10.48550/arxiv.1907.10186	Electronic Structure of First and Second Row Atoms under Harmonic\n Co
+W2914180558	3	0	1	80	10.1021/acs.jctc.8b01277	Role of Valence and Semicore Electron Correlation on Spin Gaps in Fe(I
+W4368618061	3	0	1	36	10.1021/acs.jpca.3c00603	Excited States, Symmetry Breaking, and Unphysical Solutions in State-S
+W3016981447	3	0	1	27	10.1021/acs.jctc.9b00917	Comparison of Spin-Flip TDDFT-Based Conical Intersection Approaches wi
+W1608975447	3	0	1	20	10.1063/1.1381010	<i>Ab initio</i> ground potential energy surface (3A″) for the O(3P)+N
+W4415986845	3	0	1	0	10.48550/arxiv.2508.21139	Fast Methods For Multisite Charge Transfer Processes II: Analytic Nucl
+W4297853172	3	0	1	0	10.1021/acs.jctc.1c00344.s001	Symmetry-Adapted Perturbation Theory Based on Multiconfigurational\nWa
+W2982195105	3	0	0	24	10.1002/chem.201904110	Pathways to Triplet or Singlet Oxygen during the Dissociation of Alkal
+W2902420468	3	0	0	19	10.1039/c8cp05693e	Correspondence between electronic structure calculations and simulatio
+W4415812818	3	0	0	9	10.1021/acs.jpclett.5c02810	A Descriptor Is All You Need: Accurate Machine Learning of Nonadiabati
+W7155376301	3	0	0	0	10.21203/rs.3.rs-9278975/v2	Systematic screening of brain neurotransmitter enzymes for radical pai
+W3082330717	3	0	0	0	10.3389/fchem.2021.603019	Quantum Solvers for Plane-Wave Hamiltonians: Abridging Virtual Spaces 
+W4404570323	3	0	0	0	10.48550/arxiv.2411.10893	Quantum Chemical and Trajectory Surface Hopping Molecular Dynamics Stu
+W2052831922	2	9	1	11	10.1039/c4cp04593a	Photodesorption of water from rutile(110): ab initio calculation of fi
+W4409905234	2	7	0	1	10.1021/acs.jpca.4c08109	Singlet and Triplet Electronic States Involved in the Reactions CO<sub
+W4301371821	2	6	0	3	10.48550/arxiv.2110.14901	Ultrafast Internal Conversion Dynamics Through the on-the-fly Simulati
+W4313439438	2	5	1	13	10.1063/5.0131689	State averaged CASSCF in AMOEBA polarizable water model for simulating
+W2593530371	2	5	0	37	10.1021/acs.inorgchem.6b02291	PARASHIFT Probes: Solution NMR and X-ray Structural Studies of Macrocy
+W4400678804	2	4	0	5	10.1039/d4dt01588f	Magnetic behaviour of a spin-canted asymmetric lanthanide quinolate tr
+W3022605196	2	3	0	8	10.1002/ejic.202000143	Ligand Field Theory for Planar Complexes: First Principles Validation 
+W3088435364	2	2	1	65	10.48550/arxiv.2009.12472	How will quantum computers provide an industrially relevant computatio
+W4390897913	2	2	1	1	10.48550/arxiv.2401.06673	A CASSCF/MRCI Trajectory Surface Hopping Simulation of the Photochemic
+W2895215784	2	2	0	14	10.1103/physreva.99.042702	Cold reactive and nonreactive collisions of Li and Rb with <mml:math x
+W2329946464	2	2	0	4	10.2477/jccj.2014-0013	Molecular Simulation of Potential Energies, Steric Changes and Substit
+W7125610045	2	2	0	0	10.62684/uhjs3297	DFT Study on the Photoisomerization of Carvone
+W2020659146	2	1	1	31	10.1063/1.1810135	Multireference calculations of the phosphorescence and photodissociati
+W4417474203	2	1	1	0	10.48550/arxiv.2512.14630	Mapping the Optical Landscape of a Squaraine Molecule in the Visible a
+W4308969634	2	1	1	0	10.4995/thesis/10251/189688	Photoreactivity of DNA Etheno Adducts: Spectroscopic and Mechanistic S
+W4313886054	2	1	0	17	10.1002/cptc.202200214	Norbornadiene/Quadricyclane System in the Spotlight: The Role of Rydbe
+W3048651400	2	1	0	10	10.1039/d0cp03084h	Regiochemical memory in the adiabatic photolysis of thymine-derived ox
+W4287682745	2	1	0	1	10.48550/arxiv.2009.00080	Quantum Solvers for Plane-Wave Hamiltonians: Abridging Virtual Spaces\
+W4416942323	2	1	0	0	10.48550/arxiv.2511.21965	Demonstration of the ODMR activity of the telecom range ClV center in 
+W1636201503	2	0	1	21	10.1063/1.1615766	<i>Ab initio</i> study of the O(1D)+CH4(X 1A1)→OH(X 2Π)+CH3(X 2A2″) re
+W4402421611	2	0	1	5	10.1039/d4cp03402c	Elucidation of the exchange interaction in photoexcited three-spin sys
+W4406827470	2	0	1	4	10.1021/acs.jpca.4c04639	Spin–Orbit Coupling and Admixture Coefficients in SA-CASSCF and MS-CAS
+W2171078375	2	0	1	4	10.5012/bkcs.2004.25.2.260	A Reinvestigation of the Fragmentation of 2-Carbena-1,3-dioxolane by C
+W2068870660	2	0	1	2	10.1063/1.3295047	THEORETICAL STUDIES ON THE REACTION PATHWAYS OF ELECTRONICALLY EXCITED
+W4318620953	2	0	1	0	10.48550/arxiv.2301.11731	Excited states, symmetry breaking, and unphysical solutions in state-s
+W4416881924	2	0	1	0	10.1039/d5sc09498d	Accurate energies for ππ* excited states <i>via</i> exchange scaling: 
+W4395444134	2	0	1	0	10.48550/arxiv.2404.14512	Distinguishing homolytic versus heterolytic bond dissociation of pheny
+W4353113646	2	0	1	0	10.48550/arxiv.2303.11488	Nonadiabatic Potential Energy Surfaces For A Molecule on a Surface as 
+W4392461623	2	0	1	0	10.37394/232017.2023.14.15	Electronic Structure Studies with Spin-Orbit Coupling Effect of the Mo
+W1516751669	2	0	0	40	10.1063/1.2754687	Experimental and theoretical study of the pyrrole cluster photochemist
+W4388500375	2	0	0	19	10.1021/acs.jctc.3c00879	Assessment of the Electron Correlation Treatment on the Quantum-Classi
+W2051010459	2	0	0	17	10.1063/1.1305744	Direct-dynamics approach to catalytic effects: The tautomerization of 
+W4308434679	2	0	0	12	10.1063/5.0125460	On the photorelease of nitric oxide by nitrobenzene derivatives: A CAS
+W4308284274	2	0	0	8	10.1021/acs.jpca.2c04816	Photochemistry of 1-Phenyl-1-diazopropane and Its Diazirine Isomer: A 
+W1971461823	2	0	0	8	10.1039/c4cp04748f	An experimental and theoretical study of the photoisomerization and th
+W2885577143	2	0	0	4	10.17344/acsi.2017.4040	Comparative Study of the Gas-phase Cyclodimer Formations of Uracil and
+W2883729517	2	0	0	0	10.4995/thesis/10251/105782	Photochemistry of 1,3-Dicarbonyl Compounds: DNA Photodamage vs. Photop
+W2908011140	1	14	0	38	10.1039/c8dt03965h	Field-induced slow magnetic relaxation in pseudooctahedral cobalt( <sc
+W4415307498	1	11	1	0	10.48550/arxiv.2504.17453	Quantum simulation of CO$_2$ chemisorption in an amine-functionalized 
+W4388513778	1	11	0	2	10.23937/2572-4061.1510054	The Mechanism of the Toxic Organic Halides Disposal under the Catalyti
+W2612923944	1	9	1	0	10.5539/mas.v12n3p132	Electronic Structure and Dipole Moment Calculations of the Electronic 
+W4385750304	1	7	1	0	10.48550/arxiv.2308.04932	Exploring Ligand-to-Metal Charge-transfer States in the Photo-Ferrioxa
+W2604466629	1	6	1	19	10.1021/acs.jpcc.7b02685	Catechol-Ligated Transition Metals: A Quantum Chemical Study on a Prom
+W4295540268	1	6	1	5	10.1039/d2cp03643f	The spin magnetic order of Co <sub> <i>n</i> </sub> <sup>+</sup> ( <i>
+W4417171618	1	6	1	0	10.48550/arxiv.2504.20778	A multireference picture of electronic excited states in vanadyl and c
+W4321092762	1	6	0	7	10.3390/ijms24044001	Understanding the Exchange Interaction between Paramagnetic Metal Ions
+W7125801984	1	5	1	0	10.21203/rs.3.rs-8689370/v1	De Novo Design of a Non-Cryogenic Quantum Interface: Tuning Erbium Emi
+W2147041323	1	5	0	27	10.1111/j.1365-2958.2008.06311.x-i1	The radiative association of Si and N atoms, C and O atoms, and C atom
+W3197593438	1	5	0	22	10.1021/acs.jpca.1c05409	Reactions of U<sup>+</sup> with H<sub>2</sub>, D<sub>2</sub>, and HD S
+W2998952615	1	5	0	12	10.3390/molecules25020277	The Structural and Magnetic Properties of FeII and CoII Complexes with
+W2741376790	1	5	0	10	10.1021/acs.jctc.7b00505	Theoretical S<sub>1</sub> ← S<sub>0</sub> Absorption Energies of the A
+W2969283385	1	4	1	28	10.1021/acs.jpclett.9b02077	Spin-State Ordering in Metal-Based Compounds Using the Localized Activ
+W3155072232	1	4	1	0	10.48550/arxiv.2104.07744	A multiconfigurational pair-density functional theory approach to mole
+W2760402838	1	4	0	0	10.48550/arxiv.1709.06911	On excited state reaction path in reversibly switchable fluorescent pr
+W2012960076	1	3	1	8	10.1063/1.3432764	Intramolecular charge ordering in the multi molecular orbital system (
+W2507307044	1	3	1	2	10.5539/mas.v10n11p192	Dipole Moment and Electronic Structure Calculations of the Electronic 
+W4392019342	1	3	1	0	10.48550/arxiv.2402.13046	Excited state-specific CASSCF theory for the torsion of ethylene
+W2991499854	1	3	0	31	10.1039/c9sc03133b	Design of high-temperature <i>f</i> -block molecular nanomagnets throu
+W1604362826	1	3	0	15	10.1063/1.3481782	Radiative lifetime of the a Σ3+ state of HeH+ from <i>ab initio</i> ca
+W4392863947	1	3	0	10	10.1063/5.0197895	Photofragmentation of cyclobutanone at 200 nm: TDDFT vs CASSCF electro
+W1992834044	1	3	0	9	10.1063/1.3148366	The reaction of N2O with phenylium ions C6(H,D)5+: An integrated exper
+W4411382486	1	3	0	2	10.3390/nano15120938	Quantum Mechanics MP2 and CASSCF Study of Coordinate Quasi-Double Bond
+W4391014187	1	3	0	2	10.48550/arxiv.2401.07597	Photofragmentation of cyclobutanone at 200 nm: TD-DFT vs CASSCF electr
+W4391901280	1	2	1	14	10.1063/5.0203667	Using a multistate mapping approach to surface hopping to predict the 
+W4393248043	1	2	1	13	10.1021/acs.jctc.4c00388	MBE-CASSCF Approach for the Accurate Treatment of Large Active Spaces
+W2902165746	1	2	1	1	10.5539/mas.v13n1p1	Applying ab initio Calculations to Theoretically Investigate the Elect
+W3210285922	1	2	1	1	10.48550/arxiv.2110.14448	Excited state calculations using variational quantum eigensolver with 
+W2064948033	1	2	0	35	10.1002/cphc.200400349	On the Low‐Lying Excited States of <i>sym</i>‐Triazine‐Based Herbicide
+W4308437508	1	2	0	19	10.1021/jacsau.2c00490	Theoretical Exploration of Energy Transfer and Single Electron Transfe
+W1587244782	1	2	0	9	10.1002/qua.22063	Potential energy surface of the 1<sup>2</sup><i>A</i>′ Li<sub>2</sub> 
+W2169842378	1	2	0	2	10.1590/s0103-50532008000100012	Theoretical study of the gas-phase reaction: SF6 + CO+ -&gt; SF5+ + FC
+W2973087781	1	2	0	1	10.48550/arxiv.1905.06989	Design of high-temperature f-block molecular nanomagnets through the c
+W4406418885	1	2	0	0	10.21203/rs.3.rs-5795718/v1	Anti-Thermal Quenching in NdIII Molecular Near-Infrared Thermometers O
+W4317660909	1	1	1	32	10.1038/s41524-023-00965-1	Excited state calculations using variational quantum eigensolver with 
+W4401353082	1	1	1	24	10.1021/acsomega.4c00875	The Photophysics and Photochemistry of Phenylalanine, Tyrosine, and Tr
+W2346529710	1	1	1	22	10.1039/c6cp02325h	Configuration-averaged 4f orbitals in ab initio calculations of low-ly
+W3211972474	1	1	1	21	10.1021/acs.jctc.1c00915	Dipole Moment Calculations Using Multiconfiguration Pair-Density Funct
+W3001872961	1	1	1	11	10.3390/molecules25030543	Photolysis of 5-Azido-3-Phenylisoxazole at Cryogenic Temperature: Form
+W4408349284	1	1	1	4	10.1021/acs.jctc.4c01696	Role of Electron Correlation beyond the Active Space in Achieving Quan
+W3174935902	1	1	1	1	10.48550/arxiv.2106.10223	iCISCF: An Iterative Configuration Interaction-based Multiconfiguratio
+W4395443257	1	1	1	0	10.48550/arxiv.2404.14655	Geometric Optimization of Restricted-Open and Complete Active Space Se
+W4386557033	1	1	1	0	10.48550/arxiv.2309.01676	Quantum Information-Assisted Complete Active Space Optimization (QICAS
+W4405279357	1	1	1	0	10.48550/arxiv.2412.07749	Role of Electron Correlation beyond the Active Space in Achieving Quan
+W2074138336	1	1	0	36	10.1039/c3cp54418d	New insight into the potential energy landscape and relaxation pathway
+W2221453705	1	1	0	17	10.1002/ejic.201501250	Spectroscopic and Computational Investigation of Low‐Spin MnIII Bis(sc
+W2153804762	1	1	0	9	10.1007/s00214-007-0272-z	Potential energy functions for an intramolecular proton transfer react
+W4205504548	1	1	0	0	10.29356/jmcs.v66i1.1628	Ab initio study of the mechanism of the reaction ClO + O --&gt; Cl + O
+W3159401591	1	1	0	0	10.3389/fspas.2021.641067	Thionitroxyl Radical (H2NS) Isomers: Structures, Vibrational Spectrosc
+W4414847433	1	1	0	0	10.3389/fphy.2025.1635859	Theoretical study of spin-orbit coupling and laser cooling for HBr mol
+W2903558328	1	0	1	198	10.1021/acs.jctc.8b01205	Reference Energies for Double Excitations
+W4390743735	1	0	1	38	10.1021/acs.jpclett.3c03014	Which Electronic Structure Method to Choose in Trajectory Surface Hopp
+W4206978999	1	0	1	35	10.1021/acs.jctc.1c00566	Soft X-ray Spectroscopy Simulations with Multiconfigurational Wave Fun
+W4210641446	1	0	1	31	10.1039/d1cp05785e	Nitrene formation is the first step of the thermal and photochemical d
+W2560348368	1	0	1	28	10.3390/molecules21121666	Assessment of the Potential Energy Hypersurfaces in Thymine within Mul
+W2989131566	1	0	1	27	10.1021/acs.jctc.9b00969	Approximate Analytical Gradients and Nonadiabatic Couplings for the St
+W1586596226	1	0	1	23	10.1063/1.1381012	The lowest doublet and quartet potential energy surfaces involved in t
+W4399433893	1	0	1	13	10.1021/acs.jctc.4c00212	Excited State-Specific CASSCF Theory for the Torsion of Ethylene
+W2199342085	1	0	1	9	10.4236/jmp.2015.613194	Electronic Structure of the Cesium Oxide Molecule CsO
+W3127108582	1	0	1	9	10.1021/acs.jpcb.0c10873	How Hydrogen Bonding Amplifies Isomeric Differences in Pyridones towar
+W4400248302	1	0	1	5	10.1063/5.0203550	XMS-CASPT2//XMS-CASPT2 and XMS-CASPT2//CASSCF at comparison: The impac
+W4221141629	1	0	1	0	10.1063/5.0090447	A trust-region augmented Hessian implementation for state-specific and
+W3021387729	1	0	1	0	10.1051/e3sconf/202016505030	A Theoretical Study on the Excited States of the KCCH Radical
+W4297890785	1	0	1	0	10.21203/rs.3.rs-2037706/v1	An exotic 3-center/4-electron carbon-carbon  pi  long-bond: Is it tang
+W4405268305	1	0	1	0	10.48550/arxiv.2412.07607	Quantum Chemical Density Matrix Renormalization Group Method Boosted b
+W4386211448	1	0	0	67	10.1021/jacs.3c05452	Identification of Unknown Inverted Singlet–Triplet Cores by High-Throu
+W4388485122	1	0	0	47	10.1021/acs.jctc.3c00908	What Controls the Quality of Photodynamical Simulations? Electronic St
+W2065556839	1	0	0	33	10.3389/fchem.2015.00029	Deciphering the photochemical mechanisms describing the UV-induced pro
+W1637036156	1	0	0	31	10.1063/1.1327263	<i>Ab initio</i> and quasiclassical trajectory study of the N(2D)+NO(X
+W4389490184	1	0	0	23	10.1021/jacsau.3c00670	How <i>Axial</i> Coordination Regulates the Electronic Structure and C
+W3182714791	1	0	0	21	10.3390/molecules26144296	Cadmium-Inspired Self-Polymerization of {LnIIICd2} Units: Structure, M
+W2809841053	1	0	0	9	10.1016/j.chemphys.2018.06.017	Vibronic coupling model to calculate the photoelectron spectrum of phe
+W3203436260	1	0	0	8	10.1039/d1cp03232a	<i>peri</i> -Acenoacene molecules: tuning of the singlet and triplet e
+W2970854713	1	0	0	6	10.1080/00268976.2019.1657601	Quantum-mechanical transport properties of <b>N</b><sup>+</sup> (<sup>
+W4399813571	1	0	0	3	10.1039/d4dt00582a	<i>In situ</i> hydrolysis of a carbophosphazene ligand leads to one-di
+W4404763365	1	0	0	2	10.1021/acs.jpca.4c06466	Real-Time CASSCF (Ehrenfest) Modeling of Electron Dynamics in Organic 
+W4394835851	1	0	0	2	10.1039/d4cp00830h	Photolytic splitting of homodimeric quinone-derived oxetanes studied b
+W2066534831	1	0	0	2	10.1021/jp9707201	Toward a Single-Valued DMBE Potential Energy Surface for CHNO(<sup>3</
+W4413381662	1	0	0	1	10.1021/acs.jpca.5c04385	A Two-Level Preconditioner for the CASSCF Linear-Response Equations
+W7125391331	1	0	0	1	10.1039/d5sc09557c	Gradients not needed: ML-driven propagation of nonadiabatic molecular 
+W7160562793	1	0	0	1	10.1038/s41535-026-00888-2	Spin-dependent optical activity of the telecom range ClV center in SiC
+W7128476320	1	0	0	0	10.1039/d5sc07711g	Molecular dynamics of bicyclo[2.2.0]hex-2-ene ring opening and its pol
+W2100252333	1	0	0	0	10.5075/epfl-thesis-4115	Development of a non-adiabatic ab initio molecular dynamics method and
+W4412515009	1	0	0	0	10.21203/rs.3.rs-7102700/v1	Adding Time-Domain 161Dy Mössbauer to the Mix: a Multitechnique Invest
+W2786190540	0	24	0	7	10.1039/c7sc04342b	Quantum chemical studies of redox properties and conformational change
+W2896167799	0	18	0	0	10.21826/9788563800374076	Estudos DFT e CASSCF da ligação de coordenação M-CO
+W4293762069	0	17	0	13	10.1039/d2sc03592h	Assembling diuranium complexes in different states of charge with a br
+W2223984243	0	16	0	17	10.1039/c5cp07452e	Ammonia-modified Co( <scp>ii</scp> ) sites in zeolites: spin and elect
+W2477486362	0	15	0	52	10.1002/chem.201601971	Enhancement of Tb<sup>III</sup>–Cu<sup>II</sup> Single‐Molecule Magnet
+W2774720784	0	15	0	29	10.1039/c7sc05034h	How to tame a palladium terminal oxo
+W4406756952	0	15	0	11	10.1021/acs.inorgchem.4c03845	NO Oxidation States in Nonheme Iron Nitrosyls: A DMRG-CASSCF Study of 
+W2560718800	0	11	1	14	10.3390/molecules21121681	Pentacoordinate and Hexacoordinate Mn(III) Complexes of Tetradentate S
+W4225420887	0	11	0	18	10.1039/d2cc00097k	A mesoionic carbene complex of manganese in five oxidation states
+W2932621127	0	11	0	12	10.1021/acs.inorgchem.9b00437	The Puzzling Monopentamethylcyclopentadienyltitanium(III) Dichloride R
+W3156241714	0	10	0	22	10.1039/d1cp01101d	The C( <sup>3</sup> P) + O <sub>2</sub> ( <sup>3</sup> Σ <sub>g</sub> 
+W2788624090	0	10	0	13	10.1021/acs.jpca.7b12652	Hyper Open-Shell Excited Spin States of Transition-Metal Compounds: Fe
+W4285113275	0	9	1	3	10.1039/d2ra03004g	The nature of metal–metal bonding in Re-, Ru- and Os-corrole dimers
+W2905378067	0	8	1	13	10.1021/acs.inorgchem.8b02800	Electronic, Magnetic, and Theoretical Characterization of (NH<sub>4</s
+W4403305801	0	8	1	4	10.1063/5.0222409	Implementation of frozen density embedding in CP2K and OpenMolcas: CAS
+W4412068435	0	8	0	12	10.1021/acs.jctc.5c00519	A Complete Active Space Self-Consistent Field Approach for Molecules i
+W2947933838	0	7	1	0	10.19142/rpq.v6i11.156	CASSCF and MRSDCI Calculations on the Low Energy States of Manganese M
+W4396861216	0	7	0	14	10.1021/acs.inorgchem.4c00731	Linear, Electron-Rich Erbium Single-Molecule Magnet with Dibenzocycloo
+W4385328100	0	7	0	0	10.48550/arxiv.2307.14257	CASSCF response equations revisited: a simple and efficient iterative 
+W4205703165	0	6	1	21	10.1021/acs.jctc.1c00830	The Effect of Geometry, Spin, and Orbital Optimization in Achieving Ac
+W4387440665	0	6	1	12	10.1021/acs.inorgchem.3c02916	Theoretical Magnetic Relaxation and Spin–Phonon Coupling Study in a Se
+W4395444127	0	6	1	5	10.1021/acs.jpca.4c02697	Electric Field Gradient Calculations for Ice VIII and IX Using Polariz
+W2048244862	0	6	1	4	10.4236/jmp.2015.65059	Electronic Structure and Spectroscopic Studies of the Molecule ScS
+W2947446370	0	6	1	0	10.19142/rpq.v6i11.157	Ab initio MRSDCI para o Mononitreto de Níquel
+W2901872305	0	6	0	12	10.1039/c8dt04041a	Slow magnetization dynamics in Co( <scp>ii</scp> )/Co( <scp>iii</scp> 
+W4294840110	0	6	0	6	10.1021/acs.jpca.2c03314	Investigation of the Electronic Structure and Optical Spectra of Urani
+W3171941253	0	6	0	6	10.1002/chem.202101755	Janus Pyrrolopyrrole Aza‐dipyrrin: Hydrogen‐Bonded Assemblies and Slow
+W2030947073	0	5	1	10	10.1063/1.2222357	Dissociation of the OCS+ ion in low-lying electronic states studied us
+W4300935382	0	5	1	2	10.48550/arxiv.1609.07678	A real-time extension of density matrix embedding theory for\n non-equ
+W4404574001	0	5	1	0	10.48550/arxiv.2411.12489	A polarizable CASSCF/MM approach using the interface between OpenMMPol
+W4387725340	0	5	1	0	10.48550/arxiv.2310.10478	Quantum hardware calculations of the activation and dissociation of ni
+W3096086284	0	5	0	31	10.1039/d0fd00110d	Effect of dynamic correlation on the ultrafast relaxation of uracil in
+W4390291761	0	5	0	23	10.1039/d3dt03557c	Insight into ferromagnetic interactions in Cu <sup>II</sup> –Ln <sup>I
+W2918449331	0	5	0	9	10.1039/c9dt00628a	Rhodium( <scp>i</scp> ) complexes with carborane-substituted <i>P</i> 
+W1985531935	0	5	0	6	10.4236/jmp.2011.210146	Spin-Orbit Electronic Structure of the ScBr Molecule
+W4213333472	0	5	0	6	10.3390/molecules27030912	The Adsorption of Small Molecules on the Copper Paddle-Wheel: Influenc
+W4388655842	0	5	0	6	10.1021/acs.jpca.3c04226	Theoretical Study on the Optoelectronic Properties of Merocyanine-Dyes
+W2611306714	0	5	0	0	10.2142/biophys.47.s127_2	2P057 MM/PBSA Docking Simulation with CASSCF Charges. Application to R
+W7155069273	0	5	0	0	10.5445/ir/1000187885	Dinuclear Rare-Earth β-Diketiminates with Bridging 3,5-Di tert -butyl-
+W2520570608	0	4	1	26	10.1080/00268976.2016.1225994	<i>Ab initio</i>calculations to support accurate modelling of the rovi
+W4405736166	0	4	1	5	10.1002/jcc.27550	A Polarizable CASSCF/MM Approach Using the Interface Between OpenMMPol
+W2959903370	0	4	1	1	10.11588/heidok.00025202	Experimental and computational investigations into the ligand field ef
+W2200107065	0	4	1	0	10.4236/jmp.2015.615233	Theoretical Calculation of the Low-Lying Electronic States of the Mole
+W7117245710	0	4	1	0	10.1117/12.3083095	Validation of quantum computing for transition metal oxide-based autom
+W2035041538	0	4	0	3	10.4236/jmp.2012.38110	Electronic Structure with Rovibrationl and Dipole Moment Study of the 
+W2591862321	0	3	1	37	10.3390/ma10030249	Magnetic Anisotropy and Field‐induced Slow  Relaxation of Magnetizatio
+W4281709712	0	3	1	24	10.1002/anie.202207415	Isolation of an Arsenic Diradicaloid with a Cyclic C<sub>2</sub>As<sub
+W3046349162	0	3	1	12	10.1039/d0cp04056h	Electrically tuned hyperfine spectrum in neutral Tb( <scp>ii</scp> )(C
+W4406309912	0	3	1	2	10.1039/d4cy00999a	A comprehensive mechanistic investigation of sustainable carbene N–H i
+W4391405931	0	3	1	2	10.1039/d3cp05167f	Quantum hardware calculations of the activation and dissociation of ni
+W2252758743	0	3	1	1	10.4236/jmp.2016.71010	&amp;lt;i&amp;gt;Ab Initio&amp;lt;/i&amp;gt; Calculation of the Electr
+W2494113721	0	3	1	0	10.14233/ajchem.2014.17891	A Complete Active Space Self-Consistent Field and Density Functional T
+W2559266539	0	3	1	0	10.1051/epjconf/201713203048	On large amplitude motions of simplest amides in the ground and excite
+W3164416167	0	3	0	22	10.1021/acs.jpcc.1c03278	EPR of Photoexcited Triplet-State Acceptor Porphyrins
+W4391547407	0	3	0	8	10.1039/d3cp05695c	<i>Ab initio</i> investigations of circularly polarised luminescence i
+W4283363395	0	2	1	15	10.1063/5.0085515	Near-Exact Nuclear Gradients of Complete Active Space Self-Consistent 
+W4387860889	0	2	1	9	10.1093/mnras/stad3225	ExoMol line lists – LIII: empirical rovibronic spectra of yttrium oxid
+W4404327395	0	2	1	8	10.1021/acs.jctc.4c01125	Fully Polarizable Multiconfigurational Self-Consistent Field/Fluctuati
+W1983055241	0	2	1	7	10.4236/jmp.2015.68121	Theoretical Calculation of the Low-Lying Electronic States of the Mole
+W2883494629	0	2	1	1	10.5539/mas.v12n8p81	Theoretical Investigation of the Electronic Structure of the Strontium
+W3015531885	0	2	1	0	10.48550/arxiv.2004.05845	Simulating X-ray absorption spectra with CASSCF linear response method
+W4320197516	0	2	1	0	10.48550/arxiv.2205.01078	Chemical Bonding in Many Electron Molecules
+W4402704796	0	2	1	0	10.48550/arxiv.2408.14891	Fully Polarizable Multiconfigurational Self-consistent Field/Fluctuati
+W1786095864	0	2	1	0	10.4236/jmp.2015.613180	&amp;lt;i&amp;gt;Ab-Initio&amp;lt;/i&amp;gt; Calculations of 27 Electr
+W4388977430	0	2	0	66	10.1021/jacs.3c07978	Thermally Stable Terbium(II) and Dysprosium(II) Bis-amidinate Complexe
+W2038264349	0	2	0	50	10.1021/ct501122z	Quantum Monte Carlo Treatment of the Charge Transfer and Diradical Ele
+W4389045718	0	2	0	14	10.1021/acs.inorgchem.3c03689	Local Oxidation States in {FeNO} <sup>6–8</sup> Porphyrins: Insights f
+W2507969315	0	2	0	11	10.1039/c6cp03541h	Solvent effects on de-excitation channels in the p-coumaric acid methy
+W1977107917	0	2	0	7	10.1039/c5cp90073e	Correction: Orbital entanglement and CASSCF analysis of the Ru–NO bond
+W4394608497	0	2	0	7	10.1063/5.0199318	How electrons still guard the space: Electron number distribution func
+W4407342659	0	2	0	7	10.1038/s41467-024-55474-6	Rare earth stibolyl and bismolyl sandwich complexes
+W2102279631	0	2	0	5	10.4236/jmp.2013.41014	Theoretical Study with Rovibrational and Dipole Moment Calculation of 
+W3020966551	0	2	0	0	10.1051/e3sconf/202016505025	A CASSCF/CSAPT2 Study on the Reaction Pathways From HOSS to HSSO Radic
+W4412584375	0	2	0	0	10.1039/d5cp01525a	H-bonding-assisted energy retention in bicyclic diene photoswitches fo
+W4214558319	0	2	0	0	10.21203/rs.3.rs-1368759/v1	Theoretical study of the reactivity between HCO and CH2 in interstella
+W3184911769	0	2	0	0	10.21883/os.2021.10.51492.2427-21	Идентификация продуктов реакции комплексов железа по колебательному сп
+W4411149384	0	2	0	0	10.55959/msu0579-9384-2-2025-66-4-292-302	MULTICONFIGURATION QUANTUM CHEMISTRY CALCULATIONS FOR DESCRIBING PHOTO
+W4221104479	0	1	1	22	10.1021/acs.jctc.1c01115	Zero-Field Splitting Calculations by Multiconfiguration Pair-Density F
+W4311205491	0	1	1	18	10.1002/jcc.27018	<scp>MoBioTools</scp> : A toolkit to setup quantum mechanics/molecular
+W2073777490	0	1	1	16	10.1016/s0009-2614(02)00429-3	On triplet tetraoxygen: ab initio study along minimum energy path and 
+W2067309662	0	1	1	11	10.1063/1.3695371	A detailed test study of barrier heights for the HO2 + H2O + O3 reacti
+W3203446879	0	1	1	9	10.1039/d1dt02346b	Assessment of minimal active space CASSCF-SO methods for calculation o
+W3062671855	0	1	1	6	10.1002/ejic.202000422	Isomerism and Biradical Character of Tetrapnictide Dianions: A Computa
+W4280545479	0	1	1	4	10.1021/acs.jctc.2c00194	<sup>237</sup>Np Mössbauer Isomer Shifts: A Lesson About the Balance o
+W2808738550	0	1	1	2	10.4236/jamp.2018.66104	Extended Koopmans’ Approximation for CASDFT Exchange-Correlation Funct
+W2003401203	0	1	1	1	10.2172/7204421	Quantum Monte Carlo methods and lithium cluster properties. [Atomic cl
+W4414828906	0	1	1	1	10.48550/arxiv.2504.08494	Spin-state energetics of heme-related models with the variational quan
+W4415082118	0	1	1	1	10.48550/arxiv.2503.00487	Density Matrix Embedding Theory-Based Multi-Configurational Quantum Ch
+W2990092406	0	1	1	0	10.1021/acs.jctc.9b01178	Global Hybrid Multiconfiguration Pair-Density Functional Theory
+W2794748656	0	1	1	0	10.1021/acs.jpclett.8b00932	The Fate of Atomic Spin in Atomic Scattering off Surfaces
+W2044560135	0	1	1	0	10.5012/bkcs.2014.35.5.1511	CASPT2 Study on the Low-lying Electronic States of 1,3,5-C<sub>6</sub>
+W4239674049	0	1	1	0	10.5539/mas.v11n6p90	Electronic Structure and Dipole Moment Calculations of the Electronic 
+W4407078696	0	1	1	0	10.31185/jwsm.517	Electronic Structure of Proteins: Exciton Hamiltonian for a Dipeptide
+W1911795537	0	1	0	35	10.1039/c5cp02650d	Spectral properties and isomerisation path of retinal in C1C2 channelr
+W2904291814	0	1	0	34	10.1021/acs.inorgchem.8b02830	Tetrathiafulvalene-Based Helicene Ligand in the Design of a Dysprosium
+W3009950897	0	1	0	30	10.1039/d0cp00306a	Theoretical study of the reaction mechanism and kinetics of the phenyl
+W2894695367	0	1	0	29	10.1002/chem.201804292	Magnetic Shielding, Aromaticity, Antiaromaticity and Bonding in the Lo
+W1967219452	0	1	0	29	10.1021/jp108977x	Controlling the Photoreactivity of the Photoactive Yellow Protein Chro
+W3175546333	0	1	0	28	10.1063/1.451042	Theoretical study of the electric dipole moment function of the ClO mo
+W4280645434	0	1	0	16	10.1021/acs.jctc.2c00221	Dispersion Interactions in Exciton-Localized States. Theory and Applic
+W4402117967	0	1	0	12	10.1021/acs.inorgchem.4c01901	Structure, Covalency, and Paramagnetism of Homoleptic Actinide and Lan
+W2952311527	0	1	0	10	10.1007/s00214-019-2475-5	Performance of the NOF-MP2 method in hydrogen abstraction reactions
+W4395463914	0	1	0	9	10.1063/5.0203683	Ultrafast electron diffraction of photoexcited gas-phase cyclobutanone
+W2766877326	0	1	0	9	10.1039/c7pp00299h	Short-lived intermediates in photochemistry of an OsCl62− complex in a
+W4389726490	0	1	0	6	10.1021/jacsau.3c00542	Unveiling Mechanistic Insights and Photocatalytic Advancements in Intr
+W2254603114	0	1	0	4	10.1007/s11224-015-0719-0	How many electrons form chemical bonds in the NgBeS (Ng = Ar, Kr, Xe) 
+W4410902126	0	1	0	3	10.1039/d5dt01004g	Elucidation of the effects of <i>trans</i> / <i>cis</i> -isomerization
+W4313488971	0	1	0	3	10.1021/acs.inorgchem.2c02903	Origin of Ferromagnetic Exchange Coupling in Donor–Acceptor Biradical 
+W4320008496	0	1	0	2	10.1039/d2sc06933d	Structure and bonding patterns in heterometallic organometallics with 
+W4416413010	0	1	0	2	10.1038/s41524-025-01813-0	Accurate and convergent energetics of color centers by wavefunction th
+W4312501294	0	1	0	2	10.7498/aps.71.20221104	Electronic structures and transition properties of AsH&lt;sup&gt;+&lt;
+W2544990059	0	1	0	1	10.1021/acs.joc.6b02460	Magnetic Shielding, Aromaticity, Antiaromaticity, and Bonding in the L
+W4400571037	0	1	0	0	10.2172/2396296	Ground and Excited Electronic Structure Analysis of CH Diatomic Molecu
+W4223510623	0	1	0	0	10.1021/acs.jpca.2c02480	Reference Energies for Cyclobutadiene: Automerization and Excited Stat
+W4405528429	0	1	0	0	10.2172/2481274	ELECTRONIC STRUCTURE METHODS AND PROTOCOLS WITH APPLICATION TO DYNAMIC
+W2315078173	0	0	1	88	10.1021/jo502041f	Diels–Alder Reactions of Allene with Benzene and Butadiene: Concerted,
+W2887120748	0	0	1	51	10.1039/c8sc01361f	Metal–ligand pair anisotropy in a series of mononuclear Er–COT complex
+W2947767018	0	0	1	46	10.1021/acs.jctc.9b00325	Benchmarks for Electronically Excited States with CASSCF Methods
+W2559947911	0	0	1	46	10.1021/acs.jpclett.6b02517	Energy Ordering of Molecular Orbitals
+W4296032718	0	0	1	45	10.1021/acs.jctc.2c00630	Large-Scale Benchmarking of Multireference Vertical-Excitation Calcula
+W3045841699	0	0	1	36	10.1021/acs.jctc.0c00470	FCIQMC-Tailored Distinguishable Cluster Approach
+W2056528709	0	0	1	32	10.1016/0009-2614(91)87121-q	The computation of CC and NN bond dissociation energies for singly, do
+W4405997861	0	0	1	32	10.1021/acs.accounts.4c00640	Expanding Horizons in Quantum Chemical Studies: The Versatile Power of
+W4362457883	0	0	1	31	10.1021/acs.jctc.3c00137	Ab Initio Molecular Cavity Quantum Electrodynamics Simulations Using M
+W2222860091	0	0	1	29	10.1039/c5cp04690d	Intramolecular charge transfer in aminobenzonitriles and tetrafluoro c
+W2301680452	0	0	1	28	10.1021/acs.jctc.5b00429	Orbital Optimization in the Active Space Decomposition Model
+W1981218302	0	0	1	28	10.1063/1.464549	The protonation of N2O reexamined: A case study on the reliability of 
+W4229027103	0	0	1	25	10.1021/acs.jctc.2c00059	FCIQMC-Tailored Distinguishable Cluster Approach: Open-Shell Systems
+W2786938554	0	0	1	23	10.1080/00268976.2018.1457807	On the accuracy of retinal protonated Schiff base models
+W3205842283	0	0	1	22	10.1021/acs.jpca.1c04595	Electronic Structure of Nitrobenzene: A Benchmark Example of the Accur
+W1626538226	0	0	1	20	10.1063/1.1346577	CASSCF and MRCI studies of the electronic excited states of CH2Cl and 
+W2983740210	0	0	1	20	10.1021/acs.jctc.9b00925	Second-Order Exchange-Dispersion Energy Based on a Multireference Desc
+W2945369414	0	0	1	19	10.1063/1.5110477	Toward the efficient local tailored coupled cluster approximation and 
+W2145174371	0	0	1	18	10.3762/bjoc.9.86	Ring opening of 2-aza-3-borabicyclo[2.2.0]hex-5-ene, the Dewar form of
+W2315522759	0	0	1	15	10.1021/jp207947x	Stark Control of a Chiral Fluoroethylene Derivative
+W3120060997	0	0	1	14	10.1063/5.0031208	Fully variational incremental CASSCF
+W2071168313	0	0	1	14	10.1063/1.470629	Characterization of the minimum energy path for the reaction of single
+W3119347909	0	0	1	14	10.1002/anie.202011337	The Optical Spectrum of Au<sub>2</sub><sup>+</sup>
+W3015435412	0	0	1	14	10.1021/acs.jctc.0c00613	Optimal Orbital Selection for Full Configuration Interaction (OptOrbFC
+W3081621137	0	0	1	13	10.1021/acs.jctc.0c00681	How Much Dispersion Energy Is Included in the Multiconfigurational Int
+W4386699233	0	0	1	13	10.1007/s00894-023-05706-1	Better performance of Hartree–Fock over DFT: a quantum mechanical inve
+W3093230841	0	0	1	13	10.1063/5.0033326	Learning on-top: Regressing the on-top pair density for real-space vis
+W2947660249	0	0	1	11	10.1021/acs.jpca.9b03715	Molecular Vertical Excitation Energies Studied with First-Order RASSCF
+W4387718996	0	0	1	11	10.1039/d3cp01426f	Tetracoordinate Co( <scp>ii</scp> ) complexes with semi-coordination a
+W1610907576	0	0	1	9	10.1063/1.475850	Geometries and energy separations of the electronic states of Ge5+ and
+W4367627783	0	0	1	9	10.1038/s41598-023-32439-1	Laser cooling with intermediate state of spin–orbit coupling of LuF mo
+W1979304993	0	0	1	8	10.1063/1.3635403	On the stability of Be3: A benchmark complete active space self-consis
+W2025963040	0	0	1	8	10.1039/c0cp02996c	The predicted spectrum of the hypermetallic molecule MgOMg
+W4408115116	0	0	1	7	10.1063/5.0246270	Photoexcited dynamics of the valence states of norbornadiene
+W2063243745	0	0	1	7	10.1063/1.470583	Characterization of the minimum energy paths and energetics for the re
+W2953074525	0	0	1	6	10.3929/ethz-b-000325944	Density Matrix Renormalization Group Pair-Density Functional Theory (D
+W4280497489	0	0	1	5	10.1063/5.0090342	Elucidating the molecular orbital dependence of the total electronic e
+W4411874770	0	0	1	4	10.1039/d5cp00881f	Excited-state methods based on state-averaged long-range CASSCF short-
+W4220705628	0	0	1	3	10.1063/5.0086606	Diffusion quantum Monte Carlo method on diradicals using single- and m
+W2789353932	0	0	1	3	10.1002/jcc.25171	All‐electron relativistic computations on the low‐lying electronic sta
+W4392849398	0	0	1	3	10.1038/s41598-024-53564-5	Theoretical electronic structure with spin–orbit coupling effect of th
+W4324019786	0	0	1	3	10.1007/s00894-023-05498-4	Quadripartite bond length rule applied to two prototypical aromatic an
+W3040714351	0	0	1	1	10.48550/arxiv.2007.06125	Localized and delocalized states of a diamine cation: A critical test 
+W2943604370	0	0	1	1	10.1007/s11224-019-01332-x	Theoretical studies of the ground and excited states of the NaLi molec
+W4391940707	0	0	1	1	10.3929/ethz-b-000671971	A MASH simulation of the photoexcited dynamics of cyclobutanone
+W4287236327	0	0	1	0	10.1021/acs.jctc.1c00327.s001	A Second-Order CASSCF Algorithm with the Cholesky Decomposition of the
+W3105279903	0	0	1	0	10.1021/acs.jctc.0c01191	Multicomponent CASSCF Revisited: Large Active Spaces Are Needed for Qu
+W4287600161	0	0	1	0	10.1021/acs.jctc.0c01191.s001	Multicomponent CASSCF Revisited: Large Active Spaces are Needed for\n 
+W2583236413	0	0	1	0	10.1039/c7ra00506g	CASSCF and CASMP2 study on the photoisomerization mechanisms of [tris(
+W3138142562	0	0	1	0	10.1021/acs.jctc.1c00272	Near-Exact CASSCF-Level Geometry Optimization with a Large Active Spac
+W2786488358	0	0	1	0	10.48550/arxiv.1802.05265	New approach for multiconfigurational Exchange-Correlation Functional
+W2889574997	0	0	1	0	10.1021/acs.jctc.8b00973	Analytic Energy Gradients for Variational Two-Electron Reduced-Density
+W2953146929	0	0	1	0	10.48550/arxiv.1810.00753	Combining pair-density functional theory and variational two-electron 
+W3160119635	0	0	1	0	10.48550/arxiv.2105.04716	$\mathbb{i}$CAS: Imposed Automatic Selection and Localization of Compl
+W4289465398	0	0	1	0	10.1021/acs.jctc.8b00988.s001	Combining Pair-Density Functional Theory and Variational\nTwo-Electron
+W4289494246	0	0	1	0	10.1021/acs.jctc.8b00973.s001	Analytic Energy Gradients for Variational Two-Electron\nReduced-Densit
+W4226017793	0	0	1	0	10.48550/arxiv.2204.02340	Efficient adiabatic connection approach for strongly correlated system
+W4392019949	0	0	1	0	10.48550/arxiv.2402.12708	Quantum computation of conical intersections on a programmable superco
+W4396570241	0	0	1	0	10.48550/arxiv.2404.18691	Efficient Random Phase Approximation for Diradicals
+W1495317845	0	0	1	0	10.4236/jmp.2015.68119	Theoretical Study of the Triplet Electronic States of the BP Molecule
+W2025122954	0	0	1	0	10.4236/jmp.2015.65066	Theoretical Calculation of the Low-Lying Electronic States of the Mole
+W4289677782	0	0	1	0	10.48550/arxiv.1808.06273	Density Matrix Renormalization Group Pair-Density Functional Theory\n 
+W4307371796	0	0	1	0	10.34019/2674-9688.2022.v4.37837	Theoretical characterization of the LiSH potential energy surface
+W4416237579	0	0	1	0	10.48550/arxiv.2511.09730	Orbital-Optimized Unitary Coupled Cluster for Indirect Nuclear Spin-Sp
+W4417095382	0	0	1	0	10.48550/arxiv.2506.16270	Quantitative agreement between experiment and theory for Vibrational C
+W2979391502	0	0	1	0	10.48550/arxiv.1910.04611	Second-order exchange-dispersion energy based on multireference descri
+W4285782854	0	0	1	0	10.1021/acs.jctc.9b00925.s001	Second-Order Exchange-Dispersion\nEnergy Based on a\nMultireference De
+W4384644663	0	0	1	0	10.48550/arxiv.2307.08219	SOiCISCF: Combining SOiCI and iCISCF for Variational Treatment of Spin
+W4399990875	0	0	1	0	10.48550/arxiv.2406.14920	Extending GPU-Accelerated Gaussian Integrals in the TeraChem Software 
+W4290855534	0	0	1	0	10.48550/arxiv.2208.05455	Time-dependent optimized coupled-cluster method with doubles and pertu
+W4365211437	0	0	1	0	10.48550/arxiv.2304.05169	Chemical Bonding in the C$_2$ Molecule
+W4399511669	0	0	1	0	10.48550/arxiv.2406.05092	Accurate and convergent energetics of color centers by wavefunction th
+W4402749901	0	0	1	0	10.1088/1361-648x/ad7ac1	Comment on ‘Resonant inelastic x-ray scattering from U<sub>3</sub>O<su
+W4406785426	0	0	1	0	10.48550/arxiv.2501.13371	Non-unitary Variational Quantum Eigensolver with the Localized Active 
+W320304306	0	0	1	0	10.70675/52516983zfc8az430bza1efz462f257c9b7b	Theoretical calculations with spin orbit effects of the diatomic molec
+W3122506581	0	0	0	53	10.1002/anie.202017078	An Open‐Shell Singlet Sn<sup>I</sup> Diradical and H<sub>2</sub> Split
+W2030289480	0	0	0	37	10.1002/open.201402125	Computational Exploration of the Photoprotective Potential of Gadusol
+W2093696848	0	0	0	34	10.1063/1.1772357	Multiconfigurational second-order perturbation study of the decomposit
+W2999956771	0	0	0	31	10.1063/1.5143747	Time-dependent optimized coupled-cluster method for multielectron dyna
+W2036816885	0	0	0	30	10.1063/1.469899	Vibronic activity in <i>trans</i>,<i>trans</i>-1,3,5,7 octatetraene: T
+W4394709454	0	0	0	30	10.1021/acs.jctc.4c00468	MLatom Software Ecosystem for Surface Hopping Dynamics in Python with 
+W4296701831	0	0	0	29	10.1039/d2sc04187a	A highly contorted push–pull naphthalenediimide dimer and evidence of 
+W4322492721	0	0	0	22	10.1021/acs.cgd.2c01388	Magnetization Slow Dynamics in Mononuclear Co(II) Field-Induced Single
+W3004602927	0	0	0	21	10.1021/acs.joc.0c00222	Concerted [4 + 2] and Stepwise (2 + 2) Cycloadditions of Tetrafluoroet
+W4362506709	0	0	0	21	10.1021/acs.jpca.3c00485	Excited-State Aromaticity Reversals in Naphthalene and Anthracene
+W3083587694	0	0	0	16	10.1039/d0qi00854k	Magnetic exchange interactions in symmetric lanthanide dimetallics
+W3155781487	0	0	0	15	10.1002/anie.202102218	Isolation of Neutral, Mono‐, and Dicationic B<sub>2</sub>P<sub>2</sub>
+W2564295448	0	0	0	15	10.3390/molecules22010060	How Does Thymine DNA Survive Ultrafast Dimerization Damage?
+W3211156757	0	0	0	12	10.1021/acs.jpca.1c06402	Toward a Generalized Hückel Rule: The Electronic Structure of Carbon N
+W4392596617	0	0	0	7	10.1063/5.0183568	Quantum tomography of molecules using ultrafast electron diffraction
+W4396939126	0	0	0	5	10.1021/acs.jpca.4c01328	On Entangled Singlet Pure Diradicals
+W4295339581	0	0	0	3	10.3389/fchem.2022.982120	Time-dependent optimized coupled-cluster method with doubles and pertu
+W4389147185	0	0	0	2	10.7498/aps.73.20231347	Study of electronic structure and optical transition properties of low
+W2955442617	0	0	0	2	10.17308/kcmf.2019.21/756	Влияние переходных металлов IIIВ-группы на формирование замкнутых герм
+W3125732189	0	0	0	2	10.7498/aps.70.20201413	Spectroscopic and transition properties of SeH&lt;sup&gt;–&lt;/sup&gt;
+W4390056741	0	0	0	1	10.48550/arxiv.2312.12386	Quantum Equation of Motion with Orbital Optimization for Computing Mol
+W3048122565	0	0	0	1	10.1139/cjc-2020-0243	Theoretical investigation of the electronic structure and spectra of s
+W4362598769	0	0	0	1	10.48550/arxiv.2304.00942	Multi-level Protocol for Mechanistic Reaction Studies Using Semi-local
+W4385774075	0	0	0	1	10.48550/arxiv.2308.04173	ExoMol line lists -- LIII: Empirical Rovibronic spectra of Yttrium Oxi
+W2603410158	0	0	0	0	10.1039/c7cs00033b	Metal–organic and covalent organic frameworks as single-site catalysts
+W4230863628	0	0	0	0	10.1007/bf00533197	A CASSCF and CCI study of the formation of the Ni2(C2H4) complex
+W4309174450	0	0	0	0	10.48550/arxiv.1804.08246	Time-Dependent Complete-Active-Space Self-Consistent-Field Method for 
+W4376640435	0	0	0	0	10.21203/rs.3.rs-2918121/v1	The Excited State ( A 2 Σ ) potential energy surface of Xe-OH complex:
+W4394815253	0	0	0	0	10.31857/s0044460x23100086	Phenalenyl-substituted stilbenes as the basis for spin switches: quant
+W4394973821	0	0	0	0	10.31857/s0207401x23100035	Фрагментация молекул аденина при взаимодействии с ионами
+W4391940720	0	0	0	0	10.48550/arxiv.2402.10349	Ultrafast electron diffraction of photoexcited gas-phase cyclobutanone
+W3138432165	0	0	0	0	10.21203/rs.3.rs-320873/v1	Nature of a Long Carbon–Carbon Bond Beyond 2.0 Å
+W4306808447	0	0	0	0	10.48550/arxiv.2210.09087	Toward more accurate adiabatic connection approach for multireference 
+W4404570115	0	0	0	0	10.48550/arxiv.2411.10779	The Mechanism of Spin-Phonon Relaxation in Endohedral Metallofullene S
+W4405481751	0	0	0	0	10.31857/s0132344x24110014	Complexes of Hexacoordinated Ni(II) Based on Diacetyl &lt;i&gt;bis&lt;
+W4416956324	0	0	0	0	10.1021/acs.jpclett.5c03196	Machine Learning Photodynamics Unveils a Controlled H <sub>2</sub> Los
+W4236471937	0	0	0	0	10.21203/rs.3.rs-215500/v1	In Silico Modelling: Electronic Properties of Phosphorene Monoflakes a
+W4399730162	0	0	0	0	10.31274/td-20240617-153	4f: The quantum levels
+W7131820007	0	0	0	0	10.17223/24135542/32/7	Ab initio calculations of electronic absorption spectra of para-substi
+W3173226121	0	0	0	0	10.11606/d.43.2021.tde-05042021-113659	Estados eletrônicos do ânion de 8-oxo-guanina
+W4404907563	0	0	0	0	10.7498/aps.74.20241435	Calculation of &lt;inline-formula&gt;&lt;tex-math id="M2"&gt;\begin{do
