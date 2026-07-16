@@ -3797,3 +3797,27 @@ timestamp,key,doi,action,result,reasoning
 2026-07-15T18:22:21Z,W2036295707,10.1039/b810744k,mark,extracted_partial,"3 rows (PuO2/+/2+); truncation rule captured, state energies not transcribed"
 2026-07-15T18:22:21Z,W3216230773,10.1021/acs.jpclett.1c03229,mark,extracted_partial,"1 row; defect-localized (2,8), embedding method paper"
 2026-07-15T18:24:36Z,W2036295707,10.1039/b810744k,correction,year fixed on 3 rows,wrote 2009 from the PCCP citation line; papers_index (OpenAlex) says 2008 - index value wins
+2026-07-15T21:24:07Z,W2603410158,10.1039/c7cs00033b,refetch,still_failed,2 location(s) tried; HTTPError: 504 Server Error: Gateway Time-out for url: https://resolver.tudelft.nl/uuid:34336b0d-bccc-4ab7-9ab0-21b79acc66bd | ValueError: not a PDF (probably an HTML landing page)
+2026-07-15T21:24:18Z,W2314654636,10.1021/jp205710e,refetch,still_failed,1 location(s) tried; HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/doi/pdf/10.1021/jp205710e
+2026-07-15T21:24:42Z,W2467783257,10.1021/acs.chemrev.6b00204,refetch,fetched,2583490 bytes from https://eprints.whiterose.ac.uk/id/eprint/103893/2/acs_2Echemrev_2E6b00204.pdf
+2026-07-15T21:24:49Z,W2746979517,10.1021/acs.jctc.7b00900,refetch,fetched,666447 bytes from https://arxiv.org/pdf/1708.07544
+2026-07-15T21:24:52Z,W2945883321,10.1063/1.5094644,refetch,still_failed,1 location(s) tried; ValueError: not a PDF (probably an HTML landing page)
+2026-07-15T21:24:58Z,W1965312230,10.1021/ja045269n,refetch,still_failed,0 location(s) tried; 
+2026-07-15T21:25:06Z,W3197343847,10.1021/acs.jctc.1c00589,refetch,fetched,8811343 bytes from https://arxiv.org/pdf/2106.07775
+2026-07-15T21:25:08Z,W2607948809,10.1021/acs.jctc.6b01149,refetch,still_failed,0 location(s) tried; 
+2026-07-15T21:25:15Z,W2947767018,10.1021/acs.jctc.9b00325,refetch,still_failed,1 location(s) tried; HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/doi/pdf/10.1021/acs.jctc.9b00325
+2026-07-15T21:25:28Z,W4368618061,10.1021/acs.jpca.3c00603,refetch,still_failed,2 location(s) tried; ValueError: not a PDF (probably an HTML landing page) | HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/doi/pdf/10.1021/acs.jpca.3c00603
+2026-07-15T21:25:37Z,W4401353082,10.1021/acsomega.4c00875,refetch,still_failed,2 location(s) tried; ValueError: not a PDF (probably an HTML landing page) | HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/doi/pdf/10.1021/acsomega.4c00875
+2026-07-15T21:25:49Z,W4399433893,10.1021/acs.jctc.4c00212,refetch,still_failed,2 location(s) tried; ValueError: not a PDF (probably an HTML landing page) | HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/doi/pdf/10.1021/acs.jctc.4c00212
+2026-07-15T22:20:09Z,W4368618061,10.1021/acs.jpca.3c00603,refetch,still_failed,2 location(s) tried; ValueError: not a PDF (probably an HTML landing page) | HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/doi/pdf/10.1021/acs.jpca.3c00603 | no PMC OA package
+2026-07-15T22:20:25Z,W4401353082,10.1021/acsomega.4c00875,refetch,still_failed,2 location(s) tried; ValueError: not a PDF (probably an HTML landing page) | HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/doi/pdf/10.1021/acsomega.4c00875 | no PMC OA package
+2026-07-15T22:20:51Z,W4399433893,10.1021/acs.jctc.4c00212,refetch,still_failed,2 location(s) tried; ValueError: not a PDF (probably an HTML landing page) | HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/doi/pdf/10.1021/acs.jctc.4c00212 | no PMC OA package
+2026-07-16T16:16:21Z,W4368618061,10.1021/acs.jpca.3c00603,europepmc,text_ready,57183 chars of JATS full text
+2026-07-16T16:16:33Z,W4401353082,10.1021/acsomega.4c00875,europepmc,text_ready,30980 chars of JATS full text
+2026-07-16T16:16:50Z,W4399433893,10.1021/acs.jctc.4c00212,europepmc,text_ready,40471 chars of JATS full text
+2026-07-16T16:17:29Z,W2603410158,10.1039/c7cs00033b,europepmc,text_ready,207127 chars of JATS full text
+2026-07-16T16:17:37Z,W2314654636,10.1021/jp205710e,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/doi/pdf/10.1021/jp205710e | no Europe PMC OA full text
+2026-07-16T16:17:40Z,W2945883321,10.1063/1.5094644,refetch,still_failed,1 PDF location(s) + Europe PMC tried; ValueError: not a PDF (probably an HTML landing page) | no Europe PMC OA full text
+2026-07-16T16:17:48Z,W1965312230,10.1021/ja045269n,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T16:17:55Z,W2607948809,10.1021/acs.jctc.6b01149,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T16:18:05Z,W2947767018,10.1021/acs.jctc.9b00325,europepmc,text_ready,35901 chars of JATS full text

@@ -78,34 +78,46 @@ def _fetch_figshare(row):
     return saved
 
 
-def _fetch_pmc(row):
+def pmc_package(doi):
+    """Download the PMC OA package for a DOI; returns an open tarfile or
+    None. PMC blocks direct .../pdf/... links to scripted clients but
+    serves the same content (article + SI) through this service.
+    """
     session = _session()
-    resp = session.get(IDCONV, params={"ids": row["doi"], "format": "json",
+    resp = session.get(IDCONV, params={"ids": doi, "format": "json",
                                        "tool": "casscf-miner",
                                        "email": config.MAILTO}, timeout=60)
     time.sleep(config.REQUEST_INTERVAL)
     if resp.status_code != 200:
-        return []
+        return None
     recs = resp.json().get("records", [])
     pmcid = recs[0].get("pmcid") if recs else None
     if not pmcid:
-        return []
+        return None
     resp = session.get(OA_FCGI, params={"id": pmcid}, timeout=60)
     time.sleep(config.REQUEST_INTERVAL)
     if resp.status_code != 200:
-        return []
+        return None
     href = None
     for link in ET.fromstring(resp.text).iter("link"):
         if link.get("format") == "tgz":
             href = link.get("href")
     if not href:
-        return []
-    href = href.replace("ftp://ftp.ncbi.nlm.nih.gov/", "https://ftp.ncbi.nlm.nih.gov/")
+        return None
+    href = href.replace("ftp://ftp.ncbi.nlm.nih.gov/",
+                        "https://ftp.ncbi.nlm.nih.gov/")
     blob = session.get(href, timeout=600)
     if blob.status_code != 200 or len(blob.content) > MAX_SI_BYTES:
+        return None
+    return tarfile.open(fileobj=io.BytesIO(blob.content), mode="r:gz")
+
+
+def _fetch_pmc(row):
+    tar = pmc_package(row["doi"])
+    if tar is None:
         return []
     saved = []
-    with tarfile.open(fileobj=io.BytesIO(blob.content), mode="r:gz") as tar:
+    with tar:
         for member in tar.getmembers():
             name = member.name.rsplit("/", 1)[-1]
             ext = "." + name.rsplit(".", 1)[-1].lower() if "." in name else ""

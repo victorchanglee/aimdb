@@ -77,6 +77,11 @@ def cmd_fetch(args):
         print(f"fetched {ok}, failed {failed}")
 
 
+def cmd_refetch(args):
+    ok, failed = fetch.refetch_failed(max_papers=args.max, only_key=args.key)
+    print(f"recovered {ok}, still failed {failed}")
+
+
 def cmd_text(args):
     rows = index.load()
     if args.key:
@@ -182,6 +187,12 @@ def main():
     p.add_argument("--key")
     p.add_argument("--max", type=int, default=5)
     p.set_defaults(func=cmd_fetch)
+
+    p = sub.add_parser("refetch", help="retry fetch_failed papers against "
+                                       "all OA locations (repository mirrors)")
+    p.add_argument("--key")
+    p.add_argument("--max", type=int, default=None)
+    p.set_defaults(func=cmd_refetch)
 
     p = sub.add_parser("text", help="extract text from fetched PDFs")
     p.add_argument("--key")

@@ -69,6 +69,50 @@ def openalex_by_doi(doi):
     return hit
 
 
+# Hosts that serve PDFs to scripted clients, best first. Publisher sites
+# (pubs.acs.org, pubs.rsc.org, onlinelibrary.wiley.com) 403 or return HTML
+# landing pages, which is what stranded 1276 papers on the first pass.
+PREFERRED_HOSTS = ("arxiv.org", "pmc.ncbi.nlm.nih.gov", "ncbi.nlm.nih.gov",
+                   "chemrxiv.org", "europepmc.org")
+BLOCKED_HOSTS = ("pubs.acs.org", "pubs.rsc.org", "onlinelibrary.wiley.com",
+                 "www.science.org", "pubs.aip.org/aip/jcp/article-pdf")
+
+
+def _host_rank(url):
+    for i, h in enumerate(PREFERRED_HOSTS):
+        if h in url:
+            return i
+    return len(PREFERRED_HOSTS) + (10 if any(b in url for b in BLOCKED_HOSTS) else 0)
+
+
+def openalex_all_pdf_urls(doi):
+    """Every OA pdf_url OpenAlex knows for this DOI, best-fetchable first.
+
+    fetch() originally used only best_oa_location, which for paywalled-
+    publisher-hosted OA is a URL that blocks scripts even though a
+    repository copy exists.
+    """
+    session = requests.Session()
+    session.headers["User-Agent"] = config.USER_AGENT
+    resp = session.get(f"{config.OPENALEX_WORKS_URL}/https://doi.org/{doi}",
+                       params={"mailto": config.MAILTO,
+                               "select": "locations,best_oa_location"},
+                       timeout=60)
+    time.sleep(config.REQUEST_INTERVAL)
+    if resp.status_code != 200:
+        return []
+    payload = resp.json()
+    urls = []
+    for loc in (payload.get("locations") or []):
+        u = loc.get("pdf_url")
+        if u and u not in urls:
+            urls.append(u)
+    best = (payload.get("best_oa_location") or {}).get("pdf_url")
+    if best and best not in urls:
+        urls.append(best)
+    return sorted(urls, key=_host_rank)
+
+
 def openalex_by_dois(dois):
     """Batch lookup: returns (candidates, not_found_dois). Uses the works
     filter endpoint, 50 DOIs per request, so large user lists import in
