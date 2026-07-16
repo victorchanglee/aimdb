@@ -3821,3 +3821,60 @@ timestamp,key,doi,action,result,reasoning
 2026-07-16T16:17:48Z,W1965312230,10.1021/ja045269n,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
 2026-07-16T16:17:55Z,W2607948809,10.1021/acs.jctc.6b01149,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
 2026-07-16T16:18:05Z,W2947767018,10.1021/acs.jctc.9b00325,europepmc,text_ready,35901 chars of JATS full text
+2026-07-16T16:18:13Z,W2036873101,10.1039/c3dt52279b,refetch,fetched,1159199 bytes from https://pubs.rsc.org/en/content/articlepdf/2013/dt/c3dt52279b
+2026-07-16T16:18:15Z,W2006018602,10.1039/b926608a,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T16:18:17Z,W2002530679,10.1021/ct7003148,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T16:18:21Z,W2944258949,10.1063/1.5092613,refetch,still_failed,1 PDF location(s) + Europe PMC tried; ValueError: not a PDF (probably an HTML landing page) | no Europe PMC OA full text
+2026-07-16T16:18:23Z,W2611031733,10.1039/c7cp01642e,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T16:18:30Z,W2320303562,10.1021/ct900401z,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T16:18:32Z,W2765798707,10.1039/c7fd00202e,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T16:18:43Z,W2560348368,10.3390/molecules21121666,europepmc,text_ready,38783 chars of JATS full text
+2026-07-16T16:18:48Z,W3136346122,10.1021/acs.inorgchem.1c00910,refetch,fetched,3884925 bytes from https://pure.uva.nl/ws/files/196072767/Revisiting_the_Electronic_Structure_of_Cobalt_Porphyrin_Nitrene.pdf
+2026-07-16T16:18:56Z,W2496860491,10.1021/acs.jctc.6b00609,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T16:18:59Z,W2080032603,10.1002/(sici)1097-461x(1996)60:1<505::aid-qua49>3.0.co;2-7,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/%28SICI%291097-461X%281996%2960%3A1%3C505%3A%3AAID-QUA49%3E3.0.CO%3B2-7 | no Europe PMC OA full text
+2026-07-16T16:19:10Z,W4389045718,10.1021/acs.inorgchem.3c03689,europepmc,text_ready,30167 chars of JATS full text
+2026-07-16T16:19:12Z,W4221069103,10.1063/5.0085855,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T16:19:18Z,W4406756952,10.1021/acs.inorgchem.4c03845,europepmc,text_ready,30546 chars of JATS full text
+2026-07-16T16:19:29Z,W4405736166,10.1002/jcc.27550,europepmc,text_ready,32841 chars of JATS full text
+2026-07-16T16:19:33Z,W2521374571,10.3390/inorganics4040028,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://www.mdpi.com/2304-6740/4/4/28/pdf?version=1474536376 | no Europe PMC OA full text
+2026-07-16T16:19:35Z,W2756271345,10.1080/00268976.2017.1371800,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T16:19:43Z,W2016813178,10.1002/qua.21041,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/qua.21041 | no Europe PMC OA full text
+2026-07-16T16:19:47Z,W1667779756,10.1063/1.1408298,refetch,still_failed,1 PDF location(s) + Europe PMC tried; ValueError: not a PDF (probably an HTML landing page) | no Europe PMC OA full text
+2026-07-16T16:19:54Z,W3121514598,10.1063/5.0033181,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T16:19:56Z,W4230199910,10.1007/s002140050178,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T16:19:59Z,W1985896562,10.1002/poc.871,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/poc.871 | no Europe PMC OA full text
+2026-07-16T16:20:02Z,W2060789838,10.1016/j.chemphys.2004.01.017,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T16:20:10Z,W2029366137,10.1002/(sici)1097-461x(1999)72:1<25::aid-qua3>3.0.co;2-z,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/%28SICI%291097-461X%281999%2972%3A1%3C25%3A%3AAID-QUA3%3E3.0.CO%3B2-Z | no Europe PMC OA full text
+2026-07-16T16:20:19Z,W1648036190,10.1063/1.3122542,refetch,still_failed,1 PDF location(s) + Europe PMC tried; ValueError: not a PDF (probably an HTML landing page) | no Europe PMC OA full text
+2026-07-16T16:20:23Z,W2624114553,10.1016/j.cplett.2017.05.061,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T16:20:27Z,W2068668400,10.1063/1.480180,refetch,fetched,585092 bytes from https://pubs.aip.org/aip/jcp/article-pdf/111/18/8384/10802096/8384_1_online.pdf
+2026-07-16T16:20:35Z,W2156917670,10.1002/qua.22779,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T16:20:37Z,W2045238539,10.1021/jp803213j,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T16:20:40Z,W2079596413,10.1063/1.2196410,refetch,still_failed,1 PDF location(s) + Europe PMC tried; ValueError: not a PDF (probably an HTML landing page) | no Europe PMC OA full text
+2026-07-16T16:20:43Z,W1997933922,10.1021/jp806075b,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T16:20:45Z,W2085884874,10.1063/1.2953696,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T16:20:52Z,W1972987768,10.1021/jp910220r,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T16:21:00Z,W4287578679,10.1063/5.0101838,refetch,fetched,1385762 bytes from https://arxiv.org/pdf/2206.01989
+2026-07-16T16:21:17Z,W4406827470,10.1021/acs.jpca.4c04639,europepmc,text_ready,43270 chars of JATS full text
+2026-07-16T16:21:26Z,W2998682278,10.1080/00268976.2019.1706778,refetch,still_failed,1 PDF location(s) + Europe PMC tried; ValueError: not a PDF (probably an HTML landing page) | no Europe PMC OA full text
+2026-07-16T16:21:37Z,W4404763365,10.1021/acs.jpca.4c06466,europepmc,text_ready,46738 chars of JATS full text
+2026-07-16T16:21:47Z,W4411382486,10.3390/nano15120938,europepmc,text_ready,65331 chars of JATS full text
+2026-07-16T16:21:50Z,W1982509026,10.1021/jp807752k,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T16:21:54Z,W4308284274,10.1021/acs.jpca.2c04816,europepmc,text_ready,29424 chars of JATS full text
+2026-07-16T16:22:03Z,W4223935424,10.1002/jcc.26856,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/jcc.26856 | no Europe PMC OA full text
+2026-07-16T16:22:20Z,W4365146942,10.3390/ijms24087070,europepmc,text_ready,21182 chars of JATS full text
+2026-07-16T16:22:22Z,W2085321209,10.1016/j.procs.2014.05.125,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T16:22:31Z,W1990088943,10.1063/1.4818727,refetch,still_failed,1 PDF location(s) + Europe PMC tried; ValueError: not a PDF (probably an HTML landing page) | no Europe PMC OA full text
+2026-07-16T16:22:38Z,W1995092221,10.1080/00268970701604689,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T16:22:40Z,W3085402209,10.1063/5.0024134,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T16:22:51Z,W4413381662,10.1021/acs.jpca.5c04385,europepmc,text_ready,42275 chars of JATS full text
+2026-07-16T16:23:00Z,W4414929664,10.1021/acsomega.5c06364,europepmc,text_ready,15439 chars of JATS full text
+2026-07-16T16:23:03Z,W7140277076,10.53941/ps.2026.100011,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T16:23:05Z,W1984166883,10.1016/j.cplett.2004.03.026,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T16:23:13Z,W2012803259,10.1016/j.cplett.2009.03.001,refetch,still_failed,0 PDF location(s) + Europe PMC tried; no Europe PMC OA full text
+2026-07-16T16:23:16Z,W2109039998,10.1155/2014/874102,refetch,still_failed,1 PDF location(s) + Europe PMC tried; HTTPError: 403 Client Error: Forbidden for url: https://downloads.hindawi.com/journals/ijp/2014/874102.pdf | no Europe PMC OA full text
+2026-07-16T16:24:45Z,W2314654636,10.1021/jp205710e,refetch,error,NameError: name 'search' is not defined
+2026-07-16T16:24:45Z,W2945883321,10.1063/1.5094644,refetch,error,NameError: name 'search' is not defined
+2026-07-16T16:24:45Z,W1965312230,10.1021/ja045269n,refetch,error,NameError: name 'search' is not defined
+2026-07-16T16:24:45Z,W2607948809,10.1021/acs.jctc.6b01149,refetch,error,NameError: name 'search' is not defined
+2026-07-16T16:24:45Z,W2006018602,10.1039/b926608a,refetch,error,NameError: name 'search' is not defined

@@ -83,42 +83,51 @@ def refetch_failed(max_papers=None, only_key=None):
             and (only_key is None or r["key"] == only_key)]
     if max_papers:
         rows = rows[:max_papers]
+    from . import europepmc
     ok = failed = 0
     for row in rows:
-        urls = search.openalex_all_pdf_urls(row["doi"])
-        dest = config.PAPERS_DIR / f"{row['key']}.pdf"
-        won = None
-        details = []
-        for url in urls:
-            success, detail = _try_url(session, url, dest)
-            details.append(detail)
-            time.sleep(config.REQUEST_INTERVAL)
-            if success:
-                won = (url, detail)
-                break
-        if won:
-            index.set_status(row["key"], "fetched", pdf_path=str(dest),
-                             oa_pdf_url=won[0])
-            index.log_extraction(row["key"], row["doi"], "refetch", "fetched",
-                                 won[1])
-            ok += 1
-            continue
-        # No fetchable PDF anywhere. Last resort: Europe PMC serves the OA
-        # full text as JATS XML over a clean HTTPS API (bypasses publisher
-        # bot-blocks and the FTP-only PMC package). This yields text_ready
-        # directly, skipping the PDF.
-        from . import europepmc
-        success, detail = europepmc.recover_text(row, session)
-        details.append(detail)
-        if success:
+        # A transient network error on any single paper must not abort a
+        # multi-hour sweep of thousands — isolate each paper.
+        try:
+            recovered, detail = _refetch_one(row, session, europepmc)
+        except Exception as exc:  # noqa: BLE001
+            recovered, detail = False, f"{type(exc).__name__}: {exc}"
+            index.log_extraction(row["key"], row["doi"], "refetch", "error",
+                                 detail)
+        if recovered:
             ok += 1
         else:
-            index.log_extraction(
-                row["key"], row["doi"], "refetch", "still_failed",
-                f"{len(urls)} PDF location(s) + Europe PMC tried; "
-                + " | ".join(details[:3]))
             failed += 1
     return ok, failed
+
+
+def _refetch_one(row, session, europepmc):
+    """Recover one fetch_failed row; returns (recovered, detail)."""
+    urls = search.openalex_all_pdf_urls(row["doi"])
+    dest = config.PAPERS_DIR / f"{row['key']}.pdf"
+    details = []
+    for url in urls:
+        success, detail = _try_url(session, url, dest)
+        details.append(detail)
+        time.sleep(config.REQUEST_INTERVAL)
+        if success:
+            index.set_status(row["key"], "fetched", pdf_path=str(dest),
+                             oa_pdf_url=url)
+            index.log_extraction(row["key"], row["doi"], "refetch",
+                                 "fetched", detail)
+            return True, detail
+    # No fetchable PDF anywhere. Europe PMC serves the OA full text as JATS
+    # XML over clean HTTPS (bypasses publisher bot-blocks and FTP-only PMC
+    # packages), yielding text_ready directly and skipping the PDF.
+    success, detail = europepmc.recover_text(row, session)
+    details.append(detail)
+    if success:
+        return True, detail
+    index.log_extraction(
+        row["key"], row["doi"], "refetch", "still_failed",
+        f"{len(urls)} PDF location(s) + Europe PMC tried; "
+        + " | ".join(details[:3]))
+    return False, detail
 
 
 def fetch_candidates(max_papers=5):
