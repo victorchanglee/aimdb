@@ -7,7 +7,7 @@ import time
 
 import requests
 
-from . import config, index
+from . import config, europepmc, index, search
 
 
 def fetch_one(row, session=None):
@@ -83,13 +83,12 @@ def refetch_failed(max_papers=None, only_key=None):
             and (only_key is None or r["key"] == only_key)]
     if max_papers:
         rows = rows[:max_papers]
-    from . import europepmc
     ok = failed = 0
     for row in rows:
         # A transient network error on any single paper must not abort a
         # multi-hour sweep of thousands — isolate each paper.
         try:
-            recovered, detail = _refetch_one(row, session, europepmc)
+            recovered, detail = _refetch_one(row, session)
         except Exception as exc:  # noqa: BLE001
             recovered, detail = False, f"{type(exc).__name__}: {exc}"
             index.log_extraction(row["key"], row["doi"], "refetch", "error",
@@ -101,7 +100,7 @@ def refetch_failed(max_papers=None, only_key=None):
     return ok, failed
 
 
-def _refetch_one(row, session, europepmc):
+def _refetch_one(row, session):
     """Recover one fetch_failed row; returns (recovered, detail)."""
     urls = search.openalex_all_pdf_urls(row["doi"])
     dest = config.PAPERS_DIR / f"{row['key']}.pdf"
