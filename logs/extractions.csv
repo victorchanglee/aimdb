@@ -6457,3 +6457,8 @@ timestamp,key,doi,action,result,reasoning
 2026-07-17T14:24:31Z,W4281724724,10.1063/5.0097451,add-row,1 row,"C2 CAS(8,12) valence+Rydberg MRCI"
 2026-07-17T14:24:31Z,W3096118270,10.3390/molecules25215021,mark,extracted,"1 row; Co(II) CAS(7,5)/NEVPT2 ZFS"
 2026-07-17T14:24:31Z,W4281724724,10.1063/5.0097451,mark,extracted,"1 row; C2 valence+Rydberg CAS(8,12) MRCI"
+2026-07-17T14:29:45Z,W4313453252,10.1021/acs.inorgchem.2c03716,si-fetch,1 files,ic2c03716_si_001.pdf
+2026-07-17T14:31:35Z,W4313453252,10.1021/acs.inorgchem.2c03716,add-row,1 row,"Zr-Co triple bond (10,10)/(6,6) from SI"
+2026-07-17T14:31:35Z,W2995293418,10.1021/jacs.9b11715,add-row,1 row,"Co(III) TAML redox non-innocence (14,13)/(13,12)"
+2026-07-17T14:31:37Z,W4313453252,10.1021/acs.inorgchem.2c03716,mark,extracted,"1 row; Zr-Co triple bond, active spaces from fetched SI"
+2026-07-17T14:31:37Z,W2995293418,10.1021/jacs.9b11715,mark,extracted,"1 row; Co(III) TAML redox non-innocence (14,13)/(13,12), full Loewdin analysis"
