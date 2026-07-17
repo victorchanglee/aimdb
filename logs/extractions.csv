@@ -6447,3 +6447,7 @@ timestamp,key,doi,action,result,reasoning
 2026-07-16T19:05:28Z,W4389375318,10.1016/j.cpc.2023.109033,text,text_ready,12 pages -> W4389375318.txt
 2026-07-16T19:05:30Z,W4229377396,10.26434/chemrxiv-2022-gl6hq,text,text_ready,17 pages -> W4229377396.txt
 2026-07-16T19:05:30Z,W2526757513,10.1063/1.5012766,text,text_ready,15 pages -> W2526757513.txt
+2026-07-17T14:19:21Z,W2411007054,10.1021/acs.inorgchem.5b01033,add-row,1 row,"Mo(I) arene heterospin (9,9)/(6,6)"
+2026-07-17T14:19:21Z,W4402172345,10.1039/d4ra02387k,add-row,1 row,"Co(II) [Co(L)X]+ series CAS(7,5)/NEVPT2 ZFS"
+2026-07-17T14:19:21Z,W2411007054,10.1021/acs.inorgchem.5b01033,mark,extracted,"1 row; Mo(I) arene (9,9) single-ion + (6,6) exchange"
+2026-07-17T14:19:21Z,W4402172345,10.1039/d4ra02387k,mark,extracted,"1 row; Co(II) [Co(L)X]+ series CAS(7,5)/NEVPT2 ZFS"
