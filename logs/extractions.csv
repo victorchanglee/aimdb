@@ -6516,3 +6516,13 @@ timestamp,key,doi,action,result,reasoning
 2026-07-20T18:14:06Z,W2604466629,10.1021/acs.jpcc.7b02685,mark,extracted_partial,active space/system captured; some details in figures
 2026-07-20T18:14:06Z,W4295540268,10.1039/d2cp03643f,mark,extracted_partial,active space/system captured; some details in figures
 2026-07-20T18:14:06Z,W2751369035,10.1021/acsomega.7b00766,mark,extracted_partial,active space/system captured; some details in figures
+2026-07-20T18:16:50Z,W7127892053,10.3390/ijms27031577,add-row,row,active space captured
+2026-07-20T18:16:50Z,W2786190540,10.1039/c7sc04342b,add-row,row,active space captured
+2026-07-20T18:16:51Z,W2774720784,10.1039/c7sc05034h,add-row,row,active space captured
+2026-07-20T18:16:51Z,W3136346122,10.1021/acs.inorgchem.1c00910,add-row,row,active space captured
+2026-07-20T18:16:51Z,W4225420887,10.1039/d2cc00097k,add-row,row,active space captured
+2026-07-20T18:16:54Z,W7127892053,10.3390/ijms27031577,mark,extracted,active space + system captured
+2026-07-20T18:16:54Z,W2786190540,10.1039/c7sc04342b,mark,extracted,active space + system captured
+2026-07-20T18:16:54Z,W2774720784,10.1039/c7sc05034h,mark,extracted,active space + system captured
+2026-07-20T18:16:54Z,W3136346122,10.1021/acs.inorgchem.1c00910,mark,extracted,active space + system captured
+2026-07-20T18:16:54Z,W4225420887,10.1039/d2cc00097k,mark,extracted,active space + system captured
