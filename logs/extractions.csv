@@ -6549,3 +6549,15 @@ timestamp,key,doi,action,result,reasoning
 2026-07-20T18:22:30Z,W7155069273,10.5445/ir/1000187885,mark,extracted_partial,f/d anisotropy recipe; exact space not fully stated
 2026-07-20T18:22:30Z,W4293762069,10.1039/d2sc03592h,mark,extracted_partial,f/d anisotropy recipe; exact space not fully stated
 2026-07-20T18:22:30Z,W2908011140,10.1039/c8dt03965h,mark,extracted_partial,f/d anisotropy recipe; exact space not fully stated
+2026-07-20T19:04:29Z,W4285113275,10.1039/d2ra03004g,add-row,row,active space captured
+2026-07-20T19:04:29Z,W2932621127,10.1021/acs.inorgchem.9b00437,add-row,row,active space captured
+2026-07-20T19:04:30Z,W2560718800,10.3390/molecules21121681,add-row,row,active space captured
+2026-07-20T19:04:30Z,W4390706623,10.1021/acs.inorgchem.3c03813,add-row,row,active space captured
+2026-07-20T19:04:30Z,W4386019501,10.1021/acs.inorgchem.3c01959,add-row,row,active space captured
+2026-07-20T19:04:30Z,W4387440665,10.1021/acs.inorgchem.3c02916,add-row,row,active space captured
+2026-07-20T19:04:30Z,W4285113275,10.1039/d2ra03004g,mark,extracted,active space + system captured
+2026-07-20T19:04:31Z,W2932621127,10.1021/acs.inorgchem.9b00437,mark,extracted,active space + system captured
+2026-07-20T19:04:31Z,W2560718800,10.3390/molecules21121681,mark,extracted,active space + system captured
+2026-07-20T19:04:31Z,W4390706623,10.1021/acs.inorgchem.3c03813,mark,extracted,active space + system captured
+2026-07-20T19:04:31Z,W4386019501,10.1021/acs.inorgchem.3c01959,mark,extracted,active space + system captured
+2026-07-20T19:04:31Z,W4387440665,10.1021/acs.inorgchem.3c02916,mark,extracted,active space + system captured
