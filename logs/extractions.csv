@@ -6577,3 +6577,7 @@ timestamp,key,doi,action,result,reasoning
 2026-07-20T21:10:01Z,W4390291761,10.1039/d3dt03557c,mark,extracted_partial,system + space captured; some details in SI
 2026-07-20T21:10:01Z,W4402117967,10.1021/acs.inorgchem.4c01901,mark,extracted_partial,system + space captured; some details in SI
 2026-07-20T21:10:02Z,W2788624090,10.1021/acs.jpca.7b12652,mark,extracted_partial,system + space captured; some details in SI
+2026-07-20T21:21:53Z,W2905378067,10.1021/acs.inorgchem.8b02800,add-row,row,actinide 5f active space
+2026-07-20T21:21:53Z,W4294840110,10.1021/acs.jpca.2c03314,add-row,row,actinide 5f active space
+2026-07-20T21:21:55Z,W2905378067,10.1021/acs.inorgchem.8b02800,mark,extracted,U 5f active space captured
+2026-07-20T21:21:55Z,W4294840110,10.1021/acs.jpca.2c03314,mark,extracted,U 5f active space captured
