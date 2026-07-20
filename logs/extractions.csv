@@ -6502,3 +6502,17 @@ timestamp,key,doi,action,result,reasoning
 2026-07-20T17:25:56Z,W7125610045,10.62684/uhjs3297,mark,extracted_partial,active space captured; energies/composition partly in figures
 2026-07-20T17:25:57Z,W4390897913,10.48550/arxiv.2401.06673,mark,extracted_partial,active space captured; energies/composition partly in figures
 2026-07-20T17:25:57Z,W4409905234,10.1021/acs.jpca.4c08109,mark,extracted_partial,active space captured; energies/composition partly in figures
+2026-07-20T18:14:01Z,W2314861442,10.1021/ja505403j,add-row,row,active space captured
+2026-07-20T18:14:01Z,W4412094238,10.3390/molecules30132874,add-row,row,active space captured
+2026-07-20T18:14:01Z,W2612923944,10.5539/mas.v12n3p132,add-row,row,active space captured
+2026-07-20T18:14:01Z,W2507307044,10.5539/mas.v10n11p192,add-row,row,active space captured
+2026-07-20T18:14:01Z,W2604466629,10.1021/acs.jpcc.7b02685,add-row,row,active space captured
+2026-07-20T18:14:01Z,W4295540268,10.1039/d2cp03643f,add-row,row,active space captured
+2026-07-20T18:14:01Z,W2751369035,10.1021/acsomega.7b00766,add-row,row,active space captured
+2026-07-20T18:14:05Z,W2314861442,10.1021/ja505403j,mark,extracted_partial,active space/system captured; some details in figures
+2026-07-20T18:14:05Z,W4412094238,10.3390/molecules30132874,mark,extracted_partial,active space/system captured; some details in figures
+2026-07-20T18:14:06Z,W2612923944,10.5539/mas.v12n3p132,mark,extracted_partial,active space/system captured; some details in figures
+2026-07-20T18:14:06Z,W2507307044,10.5539/mas.v10n11p192,mark,extracted_partial,active space/system captured; some details in figures
+2026-07-20T18:14:06Z,W2604466629,10.1021/acs.jpcc.7b02685,mark,extracted_partial,active space/system captured; some details in figures
+2026-07-20T18:14:06Z,W4295540268,10.1039/d2cp03643f,mark,extracted_partial,active space/system captured; some details in figures
+2026-07-20T18:14:06Z,W2751369035,10.1021/acsomega.7b00766,mark,extracted_partial,active space/system captured; some details in figures
