@@ -6561,3 +6561,19 @@ timestamp,key,doi,action,result,reasoning
 2026-07-20T19:04:31Z,W4390706623,10.1021/acs.inorgchem.3c03813,mark,extracted,active space + system captured
 2026-07-20T19:04:31Z,W4386019501,10.1021/acs.inorgchem.3c01959,mark,extracted,active space + system captured
 2026-07-20T19:04:31Z,W4387440665,10.1021/acs.inorgchem.3c02916,mark,extracted,active space + system captured
+2026-07-20T19:05:35Z,W2346529710,10.1039/c6cp02325h,mark,not_usable,configuration-averaged 4f orbitals ab initio method development
+2026-07-20T19:05:35Z,W2789353932,10.1002/jcc.25171,mark,not_usable,all-electron relativistic computation method
+2026-07-20T19:05:35Z,W7117245710,10.1117/12.3083095,mark,not_usable,quantum-computing validation for TM systems; QC method
+2026-07-20T19:05:36Z,W4415307498,10.48550/arxiv.2504.17453,mark,not_usable,quantum simulation of CO2 chemisorption; QC algorithm
+2026-07-20T19:05:36Z,W4414601816,10.1021/acs.jpca.5c04699,mark,not_usable,time-dependent MC short-range DFT method development
+2026-07-20T19:05:36Z,W4403305801,10.1063/5.0222409,mark,not_usable,frozen-density-embedding implementation; method development
+2026-07-20T21:09:57Z,W4417171618,10.48550/arxiv.2504.20778,add-row,row,active space/system captured
+2026-07-20T21:09:57Z,W3046349162,10.1039/d0cp04056h,add-row,row,active space/system captured
+2026-07-20T21:09:57Z,W4390291761,10.1039/d3dt03557c,add-row,row,active space/system captured
+2026-07-20T21:09:57Z,W4402117967,10.1021/acs.inorgchem.4c01901,add-row,row,active space/system captured
+2026-07-20T21:09:57Z,W2788624090,10.1021/acs.jpca.7b12652,add-row,row,active space/system captured
+2026-07-20T21:10:01Z,W4417171618,10.48550/arxiv.2504.20778,mark,extracted_partial,system + space captured; some details in SI
+2026-07-20T21:10:01Z,W3046349162,10.1039/d0cp04056h,mark,extracted_partial,system + space captured; some details in SI
+2026-07-20T21:10:01Z,W4390291761,10.1039/d3dt03557c,mark,extracted_partial,system + space captured; some details in SI
+2026-07-20T21:10:01Z,W4402117967,10.1021/acs.inorgchem.4c01901,mark,extracted_partial,system + space captured; some details in SI
+2026-07-20T21:10:02Z,W2788624090,10.1021/acs.jpca.7b12652,mark,extracted_partial,system + space captured; some details in SI
