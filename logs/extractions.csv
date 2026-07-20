@@ -6480,3 +6480,25 @@ timestamp,key,doi,action,result,reasoning
 2026-07-20T15:23:31Z,W4415986841,10.48550/arxiv.2508.21136,mark,not_usable,fast methods for multisite charge-transfer; method development
 2026-07-20T15:23:32Z,W4297853172,10.1021/acs.jctc.1c00344.s001,mark,not_usable,multiconfigurational SAPT formulation; method development
 2026-07-20T15:23:32Z,W4415812818,10.1021/acs.jpclett.5c02810,mark,not_usable,machine-learning descriptor method; no CASSCF active-space result
+2026-07-20T17:11:18Z,W2020659146,10.1063/1.1810135,add-row,1 row,active space captured
+2026-07-20T17:11:18Z,W2593530371,10.1021/acs.inorgchem.6b02291,add-row,1 row,active space captured
+2026-07-20T17:11:18Z,W4400678804,10.1039/d4dt01588f,add-row,1 row,active space captured
+2026-07-20T17:11:18Z,W3022605196,10.1002/ejic.202000143,add-row,1 row,active space captured
+2026-07-20T17:11:21Z,W2020659146,10.1063/1.1810135,mark,extracted,"1 row; chlorobenzene (12,10)"
+2026-07-20T17:11:21Z,W2593530371,10.1021/acs.inorgchem.6b02291,mark,extracted,"1 row; Yb(III) 4f CAS(13,7)"
+2026-07-20T17:11:21Z,W4400678804,10.1039/d4dt01588f,mark,extracted_partial,1 row; active-space size not fully stated
+2026-07-20T17:11:22Z,W3022605196,10.1002/ejic.202000143,mark,extracted_partial,1 row; active-space size not fully stated
+2026-07-20T17:25:55Z,W4417474203,10.48550/arxiv.2512.14630,add-row,1 row,active space captured
+2026-07-20T17:25:55Z,W4404570323,10.48550/arxiv.2411.10893,add-row,1 row,active space captured
+2026-07-20T17:25:55Z,W2052831922,10.1039/c4cp04593a,add-row,1 row,active space captured
+2026-07-20T17:25:55Z,W4313886054,10.1002/cptc.202200214,add-row,1 row,active space captured
+2026-07-20T17:25:55Z,W7125610045,10.62684/uhjs3297,add-row,1 row,active space captured
+2026-07-20T17:25:55Z,W4390897913,10.48550/arxiv.2401.06673,add-row,1 row,active space captured
+2026-07-20T17:25:55Z,W4409905234,10.1021/acs.jpca.4c08109,add-row,1 row,active space captured
+2026-07-20T17:25:56Z,W4417474203,10.48550/arxiv.2512.14630,mark,extracted_partial,active space captured; energies/composition partly in figures
+2026-07-20T17:25:56Z,W4404570323,10.48550/arxiv.2411.10893,mark,extracted_partial,active space captured; energies/composition partly in figures
+2026-07-20T17:25:56Z,W2052831922,10.1039/c4cp04593a,mark,extracted_partial,active space captured; energies/composition partly in figures
+2026-07-20T17:25:56Z,W4313886054,10.1002/cptc.202200214,mark,extracted_partial,active space captured; energies/composition partly in figures
+2026-07-20T17:25:56Z,W7125610045,10.62684/uhjs3297,mark,extracted_partial,active space captured; energies/composition partly in figures
+2026-07-20T17:25:57Z,W4390897913,10.48550/arxiv.2401.06673,mark,extracted_partial,active space captured; energies/composition partly in figures
+2026-07-20T17:25:57Z,W4409905234,10.1021/acs.jpca.4c08109,mark,extracted_partial,active space captured; energies/composition partly in figures
