@@ -6889,3 +6889,35 @@ timestamp,key,doi,action,result,reasoning
 2026-07-21T19:48:29Z,W3164416167-d,10.1021/acs.jpcc.1c03278,add-row,appended,"Zn acceptor porphyrin triplet ZFS from CAS(4,4) with experimental trEPR comparison."
 2026-07-21T19:48:30Z,W3164416167-e,10.1021/acs.jpcc.1c03278,add-row,appended,"Zn acceptor porphyrin triplet ZFS from CAS(4,4) with experimental trEPR comparison."
 2026-07-21T19:48:30Z,W3164416167,10.1021/acs.jpcc.1c03278,mark,extracted,"trEPR/ENDOR study of five Zn meso-(perfluoroalkyl)porphyrin acceptor monomers with CAS(4,4) Gouterman-orbital ZFS calculations (rows a-e). Experimental D, E, g-tensors and sublevel populations from Table 1 and the DFT/CASSCF D and eta_D comparison from Table 2 all extracted. Notable as a CASSCF-vs-experiment ZFS benchmark in which the small active space beats DFT on magnitude and trend but neither reproduces the sign of D. PY and PZ for A4 were cut off in the extracted table and are recorded as unrecovered."
+2026-07-21T19:49:56Z,W3140850877-a,10.1021/acs.jctc.1c00327,add-row,appended,Benchmark molecule with a stated active space from the CD-CASSCF second-order algorithm paper.
+2026-07-21T19:49:56Z,W3140850877-b,10.1021/acs.jctc.1c00327,add-row,appended,Benchmark molecule with a stated active space from the CD-CASSCF second-order algorithm paper.
+2026-07-21T19:49:57Z,W3140850877-c,10.1021/acs.jctc.1c00327,add-row,appended,Benchmark molecule with a stated active space from the CD-CASSCF second-order algorithm paper.
+2026-07-21T19:49:57Z,W3140850877-d,10.1021/acs.jctc.1c00327,add-row,appended,Benchmark molecule with a stated active space from the CD-CASSCF second-order algorithm paper.
+2026-07-21T19:49:57Z,W3140850877-e,10.1021/acs.jctc.1c00327,add-row,appended,Benchmark molecule with a stated active space from the CD-CASSCF second-order algorithm paper.
+2026-07-21T19:49:57Z,W3140850877-f,10.1021/acs.jctc.1c00327,add-row,appended,Benchmark molecule with a stated active space from the CD-CASSCF second-order algorithm paper.
+2026-07-21T19:49:57Z,W3140850877-g,10.1021/acs.jctc.1c00327,add-row,appended,Benchmark molecule with a stated active space from the CD-CASSCF second-order algorithm paper.
+2026-07-21T19:49:58Z,W3140850877-h,10.1021/acs.jctc.1c00327,add-row,appended,Benchmark molecule with a stated active space from the CD-CASSCF second-order algorithm paper.
+2026-07-21T19:49:58Z,W3140850877-i,10.1021/acs.jctc.1c00327,add-row,appended,Benchmark molecule with a stated active space from the CD-CASSCF second-order algorithm paper.
+2026-07-21T19:49:58Z,W3140850877-j,10.1021/acs.jctc.1c00327,add-row,appended,Benchmark molecule with a stated active space from the CD-CASSCF second-order algorithm paper.
+2026-07-21T19:49:58Z,W3140850877-k,10.1021/acs.jctc.1c00327,add-row,appended,Benchmark molecule with a stated active space from the CD-CASSCF second-order algorithm paper.
+2026-07-21T19:49:58Z,W3140850877-l,10.1021/acs.jctc.1c00327,add-row,appended,Benchmark molecule with a stated active space from the CD-CASSCF second-order algorithm paper.
+2026-07-21T19:49:59Z,W3140850877-m,10.1021/acs.jctc.1c00327,add-row,appended,Benchmark molecule with a stated active space from the CD-CASSCF second-order algorithm paper.
+2026-07-21T19:49:59Z,W3140850877-n,10.1021/acs.jctc.1c00327,add-row,appended,Benchmark molecule with a stated active space from the CD-CASSCF second-order algorithm paper.
+2026-07-21T19:49:59Z,W3140850877-o,10.1021/acs.jctc.1c00327,add-row,appended,Benchmark molecule with a stated active space from the CD-CASSCF second-order algorithm paper.
+2026-07-21T19:49:59Z,W3140850877-p,10.1021/acs.jctc.1c00327,add-row,appended,Benchmark molecule with a stated active space from the CD-CASSCF second-order algorithm paper.
+2026-07-21T19:49:59Z,W3140850877-q,10.1021/acs.jctc.1c00327,add-row,appended,Benchmark molecule with a stated active space from the CD-CASSCF second-order algorithm paper.
+2026-07-21T19:50:00Z,W3140850877-r,10.1021/acs.jctc.1c00327,add-row,appended,Benchmark molecule with a stated active space from the CD-CASSCF second-order algorithm paper.
+2026-07-21T19:50:00Z,W3140850877-s,10.1021/acs.jctc.1c00327,add-row,appended,Benchmark molecule with a stated active space from the CD-CASSCF second-order algorithm paper.
+2026-07-21T19:50:00Z,W3140850877-t,10.1021/acs.jctc.1c00327,add-row,appended,Benchmark molecule with a stated active space from the CD-CASSCF second-order algorithm paper.
+2026-07-21T19:50:00Z,W3140850877-u,10.1021/acs.jctc.1c00327,add-row,appended,Benchmark molecule with a stated active space from the CD-CASSCF second-order algorithm paper.
+2026-07-21T19:50:00Z,W3140850877-v,10.1021/acs.jctc.1c00327,add-row,appended,Benchmark molecule with a stated active space from the CD-CASSCF second-order algorithm paper.
+2026-07-21T19:50:01Z,W3140850877-w,10.1021/acs.jctc.1c00327,add-row,appended,Benchmark molecule with a stated active space from the CD-CASSCF second-order algorithm paper.
+2026-07-21T19:50:01Z,W3140850877-x,10.1021/acs.jctc.1c00327,add-row,appended,Benchmark molecule with a stated active space from the CD-CASSCF second-order algorithm paper.
+2026-07-21T19:50:01Z,W3140850877-y,10.1021/acs.jctc.1c00327,add-row,appended,Benchmark molecule with a stated active space from the CD-CASSCF second-order algorithm paper.
+2026-07-21T19:50:01Z,W3140850877-z,10.1021/acs.jctc.1c00327,add-row,appended,Benchmark molecule with a stated active space from the CD-CASSCF second-order algorithm paper.
+2026-07-21T19:50:01Z,W3140850877-aa,10.1021/acs.jctc.1c00327,add-row,appended,Benchmark molecule with a stated active space from the CD-CASSCF second-order algorithm paper.
+2026-07-21T19:50:02Z,W3140850877-ab,10.1021/acs.jctc.1c00327,add-row,appended,Benchmark molecule with a stated active space from the CD-CASSCF second-order algorithm paper.
+2026-07-21T19:50:02Z,W3140850877-ac,10.1021/acs.jctc.1c00327,add-row,appended,Benchmark molecule with a stated active space from the CD-CASSCF second-order algorithm paper.
+2026-07-21T19:50:02Z,W3140850877-ad,10.1021/acs.jctc.1c00327,add-row,appended,Benchmark molecule with a stated active space from the CD-CASSCF second-order algorithm paper.
+2026-07-21T19:50:02Z,W3140850877-ae,10.1021/acs.jctc.1c00327,add-row,appended,Benchmark molecule with a stated active space from the CD-CASSCF second-order algorithm paper.
+2026-07-21T19:50:14Z,W3140850877,10.1021/acs.jctc.1c00327,mark,extracted_partial,"Second-order CD-CASSCF algorithm paper. 31 molecules with explicit active spaces across three tables: the 7-molecule standard-vs-Cholesky comparison (with converged total energies), the 21-molecule aromatic benchmark, and 10 larger systems up to CAS(14,14) and chlorophyll at 2962 basis functions. Partial: solver-performance study, so only total energies are reported for part of the set and no chemical properties. Flagged in every row that this paper assigns systematically larger active spaces to several molecules of the same benchmark set than 10.1063/5.0101838 does - useful evidence that published active spaces for a given molecule are not unique."
