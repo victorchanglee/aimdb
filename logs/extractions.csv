@@ -6772,3 +6772,34 @@ timestamp,key,doi,action,result,reasoning
 2026-07-21T18:36:10Z,W3120060997,10.1063/5.0031208,mark,extracted,"Variational iCASSCF method paper with two real applied systems: oxoMn(salen)Cl at full-valence (84,84) with singlet-triplet gap and total energies (row -a), and cyclobutadiene automerization with an ~11 kcal/mol barrier at full-valence iCASSCF/6-31+G** (row -b). Small-molecule benchmark set (ethylene, formaldehyde, HCN, H2O2, methanol) not extracted - total energies only, no chemical property, and it is a re-run of a prior benchmark."
 2026-07-21T18:38:45Z,W4401210100-a,10.1021/acs.jctc.4c00623,add-row,appended,"CTZ dioxetanone in NanoLuc, the applied system of the SA-CASSCF/AMOEBA paper."
 2026-07-21T18:38:51Z,W4401210100,10.1021/acs.jctc.4c00623,mark,extracted_partial,"SA-CASSCF/AMOEBA polarizable QM/MM method paper with a genuine application: CTZ dioxetanone O-O dissociation in NanoLuc at SA-CASSCF(8,9)/6-31G*, compared against gas phase and PCM, with MECI topology analysis (row -a). Partial because all state energies live in figures (potential energy curves, MECI surfaces) and are not numerically recoverable from the extracted text. The HBDI-valine SA(2)-CASSCF(4,3)/3-21G system is only a link-atom-scheme test and was not given its own row."
+2026-07-21T18:40:11Z,W4287578679-a,10.1063/5.0101838,add-row,appended,Benchmark molecule with stated active space from the CD-GIAO-CASSCF NMR paper.
+2026-07-21T18:40:11Z,W4287578679-b,10.1063/5.0101838,add-row,appended,Benchmark molecule with stated active space from the CD-GIAO-CASSCF NMR paper.
+2026-07-21T18:40:11Z,W4287578679-c,10.1063/5.0101838,add-row,appended,Benchmark molecule with stated active space from the CD-GIAO-CASSCF NMR paper.
+2026-07-21T18:40:11Z,W4287578679-d,10.1063/5.0101838,add-row,appended,Benchmark molecule with stated active space from the CD-GIAO-CASSCF NMR paper.
+2026-07-21T18:40:11Z,W4287578679-e,10.1063/5.0101838,add-row,appended,Benchmark molecule with stated active space from the CD-GIAO-CASSCF NMR paper.
+2026-07-21T18:40:12Z,W4287578679-f,10.1063/5.0101838,add-row,appended,Benchmark molecule with stated active space from the CD-GIAO-CASSCF NMR paper.
+2026-07-21T18:40:12Z,W4287578679-g,10.1063/5.0101838,add-row,appended,Benchmark molecule with stated active space from the CD-GIAO-CASSCF NMR paper.
+2026-07-21T18:40:12Z,W4287578679-h,10.1063/5.0101838,add-row,appended,Benchmark molecule with stated active space from the CD-GIAO-CASSCF NMR paper.
+2026-07-21T18:40:12Z,W4287578679-i,10.1063/5.0101838,add-row,appended,Benchmark molecule with stated active space from the CD-GIAO-CASSCF NMR paper.
+2026-07-21T18:40:12Z,W4287578679-j,10.1063/5.0101838,add-row,appended,Benchmark molecule with stated active space from the CD-GIAO-CASSCF NMR paper.
+2026-07-21T18:40:13Z,W4287578679-k,10.1063/5.0101838,add-row,appended,Benchmark molecule with stated active space from the CD-GIAO-CASSCF NMR paper.
+2026-07-21T18:40:13Z,W4287578679-l,10.1063/5.0101838,add-row,appended,Benchmark molecule with stated active space from the CD-GIAO-CASSCF NMR paper.
+2026-07-21T18:40:13Z,W4287578679-m,10.1063/5.0101838,add-row,appended,Benchmark molecule with stated active space from the CD-GIAO-CASSCF NMR paper.
+2026-07-21T18:40:13Z,W4287578679-n,10.1063/5.0101838,add-row,appended,Benchmark molecule with stated active space from the CD-GIAO-CASSCF NMR paper.
+2026-07-21T18:40:13Z,W4287578679-o,10.1063/5.0101838,add-row,appended,Benchmark molecule with stated active space from the CD-GIAO-CASSCF NMR paper.
+2026-07-21T18:40:14Z,W4287578679-p,10.1063/5.0101838,add-row,appended,Benchmark molecule with stated active space from the CD-GIAO-CASSCF NMR paper.
+2026-07-21T18:40:14Z,W4287578679-q,10.1063/5.0101838,add-row,appended,Benchmark molecule with stated active space from the CD-GIAO-CASSCF NMR paper.
+2026-07-21T18:40:14Z,W4287578679-r,10.1063/5.0101838,add-row,appended,Benchmark molecule with stated active space from the CD-GIAO-CASSCF NMR paper.
+2026-07-21T18:40:14Z,W4287578679-s,10.1063/5.0101838,add-row,appended,Benchmark molecule with stated active space from the CD-GIAO-CASSCF NMR paper.
+2026-07-21T18:40:14Z,W4287578679-t,10.1063/5.0101838,add-row,appended,Benchmark molecule with stated active space from the CD-GIAO-CASSCF NMR paper.
+2026-07-21T18:40:15Z,W4287578679-u,10.1063/5.0101838,add-row,appended,Benchmark molecule with stated active space from the CD-GIAO-CASSCF NMR paper.
+2026-07-21T18:40:15Z,W4287578679-v,10.1063/5.0101838,add-row,appended,Benchmark molecule with stated active space from the CD-GIAO-CASSCF NMR paper.
+2026-07-21T18:40:15Z,W4287578679-w,10.1063/5.0101838,add-row,appended,Benchmark molecule with stated active space from the CD-GIAO-CASSCF NMR paper.
+2026-07-21T18:40:15Z,W4287578679-x,10.1063/5.0101838,add-row,appended,Benchmark molecule with stated active space from the CD-GIAO-CASSCF NMR paper.
+2026-07-21T18:40:15Z,W4287578679-y,10.1063/5.0101838,add-row,appended,Benchmark molecule with stated active space from the CD-GIAO-CASSCF NMR paper.
+2026-07-21T18:40:16Z,W4287578679-z,10.1063/5.0101838,add-row,appended,Benchmark molecule with stated active space from the CD-GIAO-CASSCF NMR paper.
+2026-07-21T18:40:16Z,W4287578679-aa,10.1063/5.0101838,add-row,appended,Benchmark molecule with stated active space from the CD-GIAO-CASSCF NMR paper.
+2026-07-21T18:40:16Z,W4287578679-ab,10.1063/5.0101838,add-row,appended,Benchmark molecule with stated active space from the CD-GIAO-CASSCF NMR paper.
+2026-07-21T18:40:20Z,W4287578679,10.1063/5.0101838,mark,extracted_partial,"CD-GIAO-CASSCF NMR shielding implementation paper. Table II gives an explicit molecule-to-active-space mapping for a 26-molecule organic benchmark set (rows a-z) plus the formamide/formaldoxime CASSCF(6,5) accuracy pair (rows aa/ab). Partial: shielding values and geometries live in the supporting material, and the main text never names the basis set used for the benchmark set (only basis-function counts)."
+2026-07-21T18:41:37Z,W4406827470-a,10.1021/acs.jpca.4c04639,add-row,appended,"TDMD dioxetane thermolysis, SA-CASSCF(12,10) SOC calibration study."
+2026-07-21T18:41:38Z,W4406827470,10.1021/acs.jpca.4c04639,mark,extracted,"Applied SA-CASSCF(12,10)/MS-CASPT2 study of TDMD dioxetane thermolysis with SOC and admixture-coefficient benchmarking and TSH triplet quantum yield. Full MAE tables, ACM ratios, SOC scaling factor and trajectory yields extracted."
