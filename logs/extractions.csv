@@ -6581,3 +6581,12 @@ timestamp,key,doi,action,result,reasoning
 2026-07-20T21:21:53Z,W4294840110,10.1021/acs.jpca.2c03314,add-row,row,actinide 5f active space
 2026-07-20T21:21:55Z,W2905378067,10.1021/acs.inorgchem.8b02800,mark,extracted,U 5f active space captured
 2026-07-20T21:21:55Z,W4294840110,10.1021/acs.jpca.2c03314,mark,extracted,U 5f active space captured
+2026-07-21T14:05:19Z,W2715071205,10.1021/acsomega.7b00380,add-row,row,first-row-TM active space
+2026-07-21T14:05:19Z,W4205703165,10.1021/acs.jctc.1c00830,add-row,row,first-row-TM active space
+2026-07-21T14:05:19Z,W4386162152,10.3390/ijms241713224,add-row,row,first-row-TM active space
+2026-07-21T14:05:19Z,W4393403874,10.1021/acs.jpcc.3c08112,add-row,row,first-row-TM active space
+2026-07-21T14:05:22Z,W2715071205,10.1021/acsomega.7b00380,mark,extracted,first-row-TM active space captured
+2026-07-21T14:05:22Z,W4205703165,10.1021/acs.jctc.1c00830,mark,extracted,first-row-TM active space captured
+2026-07-21T14:05:22Z,W4386162152,10.3390/ijms241713224,mark,extracted,first-row-TM active space captured
+2026-07-21T14:05:22Z,W4393403874,10.1021/acs.jpcc.3c08112,mark,extracted,first-row-TM active space captured
+2026-07-21T14:05:22Z,W3202007277,10.1021/acs.jpclett.1c02707,mark,not_usable,"organic pyrimidine-base internal conversion; the Cr hits were reference citations (chromium-dimer basis-set paper), not the studied system - outside the TM sweep"
