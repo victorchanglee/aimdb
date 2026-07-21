@@ -6621,3 +6621,5 @@ timestamp,key,doi,action,result,reasoning
 2026-07-21T14:56:13Z,W1985531935,10.4236/jmp.2011.210146,mark,extracted,TM active space captured
 2026-07-21T14:56:13Z,W4389045718,10.1021/acs.inorgchem.3c03689,mark,extracted_partial,{FeNO} series; per-complex spaces in tables
 2026-07-21T14:56:40Z,W2998952615,10.3390/molecules25020277,correction,"(n,5)->(n,10) comparison added","rows initially captured only the d-only (n,5); paper compares (6,5)/(7,5) vs (6,10)/(7,10)"
+2026-07-21T14:58:22Z,W4410219934,10.1021/acs.jpca.5c01107,add-row,1 row,Co-radical exchange; space in SI
+2026-07-21T14:58:22Z,W4410219934,10.1021/acs.jpca.5c01107,mark,extracted_partial,Co-radical exchange; space in SI
