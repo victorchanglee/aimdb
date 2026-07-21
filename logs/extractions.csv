@@ -6602,3 +6602,10 @@ timestamp,key,doi,action,result,reasoning
 2026-07-21T14:17:22Z,W4403300641,10.1021/acs.inorgchem.4c02752,mark,extracted,TM active space captured
 2026-07-21T14:17:22Z,W4406756952,10.1021/acs.inorgchem.4c03845,mark,extracted_partial,TM system+recipe captured; exact space in table/SI
 2026-07-21T14:17:23Z,W7131797215,10.21203/rs.3.rs-6722143/v1,mark,extracted_partial,TM system+recipe captured; exact space in table/SI
+2026-07-21T14:45:40Z,W4389490184,10.1021/jacsau.3c00670,add-row,row,first-row-TM active space
+2026-07-21T14:45:40Z,W4413757703,10.1039/d5dt01381j,add-row,row,first-row-TM active space
+2026-07-21T14:45:40Z,W4321092762,10.3390/ijms24044001,add-row,row,first-row-TM active space
+2026-07-21T14:45:41Z,W4389490184,10.1021/jacsau.3c00670,mark,extracted,"Fe-nitrene (10,13) double-d-shell"
+2026-07-21T14:45:41Z,W4413757703,10.1039/d5dt01381j,mark,extracted,"Mn(II) d5 CAS(5,5)/NEVPT2"
+2026-07-21T14:45:41Z,W4321092762,10.3390/ijms24044001,mark,extracted_partial,Cu-semiquinone exchange; space in SI
+2026-07-21T14:45:41Z,W2969283385,10.1021/acs.jpclett.9b02077,mark,not_usable,Localized Active Space SCF (LASSCF/DMET) method-development paper; Fe systems are method demonstrations
