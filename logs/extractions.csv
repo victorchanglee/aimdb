@@ -6590,3 +6590,15 @@ timestamp,key,doi,action,result,reasoning
 2026-07-21T14:05:22Z,W4386162152,10.3390/ijms241713224,mark,extracted,first-row-TM active space captured
 2026-07-21T14:05:22Z,W4393403874,10.1021/acs.jpcc.3c08112,mark,extracted,first-row-TM active space captured
 2026-07-21T14:05:22Z,W3202007277,10.1021/acs.jpclett.1c02707,mark,not_usable,"organic pyrimidine-base internal conversion; the Cr hits were reference citations (chromium-dimer basis-set paper), not the studied system - outside the TM sweep"
+2026-07-21T14:17:20Z,W3088123821,10.1002/cphc.202000547,add-row,row,first-row-TM active space
+2026-07-21T14:17:21Z,W2991612980,10.1021/acs.inorgchem.9b02195,add-row,row,first-row-TM active space
+2026-07-21T14:17:21Z,W4388831245,10.3390/molecules28227652,add-row,row,first-row-TM active space
+2026-07-21T14:17:21Z,W4403300641,10.1021/acs.inorgchem.4c02752,add-row,row,first-row-TM active space
+2026-07-21T14:17:21Z,W4406756952,10.1021/acs.inorgchem.4c03845,add-row,row,first-row-TM active space
+2026-07-21T14:17:21Z,W7131797215,10.21203/rs.3.rs-6722143/v1,add-row,row,first-row-TM active space
+2026-07-21T14:17:22Z,W3088123821,10.1002/cphc.202000547,mark,extracted,TM active space captured
+2026-07-21T14:17:22Z,W2991612980,10.1021/acs.inorgchem.9b02195,mark,extracted,TM active space captured
+2026-07-21T14:17:22Z,W4388831245,10.3390/molecules28227652,mark,extracted,TM active space captured
+2026-07-21T14:17:22Z,W4403300641,10.1021/acs.inorgchem.4c02752,mark,extracted,TM active space captured
+2026-07-21T14:17:22Z,W4406756952,10.1021/acs.inorgchem.4c03845,mark,extracted_partial,TM system+recipe captured; exact space in table/SI
+2026-07-21T14:17:23Z,W7131797215,10.21203/rs.3.rs-6722143/v1,mark,extracted_partial,TM system+recipe captured; exact space in table/SI
