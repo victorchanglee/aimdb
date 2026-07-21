@@ -6609,3 +6609,14 @@ timestamp,key,doi,action,result,reasoning
 2026-07-21T14:45:41Z,W4413757703,10.1039/d5dt01381j,mark,extracted,"Mn(II) d5 CAS(5,5)/NEVPT2"
 2026-07-21T14:45:41Z,W4321092762,10.3390/ijms24044001,mark,extracted_partial,Cu-semiquinone exchange; space in SI
 2026-07-21T14:45:41Z,W2969283385,10.1021/acs.jpclett.9b02077,mark,not_usable,Localized Active Space SCF (LASSCF/DMET) method-development paper; Fe systems are method demonstrations
+2026-07-21T14:56:12Z,W2998952615,10.3390/molecules25020277,add-row,row,first-row-TM active space
+2026-07-21T14:56:12Z,W2998952615,10.3390/molecules25020277,add-row,row,first-row-TM active space
+2026-07-21T14:56:12Z,W2591862321,10.3390/ma10030249,add-row,row,first-row-TM active space
+2026-07-21T14:56:12Z,W4387718996,10.1039/d3cp01426f,add-row,row,first-row-TM active space
+2026-07-21T14:56:12Z,W1985531935,10.4236/jmp.2011.210146,add-row,row,first-row-TM active space
+2026-07-21T14:56:12Z,W4389045718,10.1021/acs.inorgchem.3c03689,add-row,row,first-row-TM active space
+2026-07-21T14:56:12Z,W2998952615,10.3390/molecules25020277,mark,extracted,TM active space captured
+2026-07-21T14:56:13Z,W2591862321,10.3390/ma10030249,mark,extracted,TM active space captured
+2026-07-21T14:56:13Z,W4387718996,10.1039/d3cp01426f,mark,extracted,TM active space captured
+2026-07-21T14:56:13Z,W1985531935,10.4236/jmp.2011.210146,mark,extracted,TM active space captured
+2026-07-21T14:56:13Z,W4389045718,10.1021/acs.inorgchem.3c03689,mark,extracted_partial,{FeNO} series; per-complex spaces in tables
