@@ -7531,3 +7531,204 @@ timestamp,key,doi,action,result,reasoning
 2026-07-24T01:48:38Z,W4308969634,10.4995/thesis/10251/189688,mark,not_usable,PhD thesis (UPV): Photoreactivity of DNA Etheno Adducts. Thesis whose primary results are published elsewhere -> not_usable (consistent with other theses).
 2026-07-24T01:48:38Z,W4404907563,10.7498/aps.74.20241435,mark,not_usable,MRCI+Q study of the spectroscopic constants / spin-orbit coupling of a diatomic molecule (Chinese). Diatomic spectroscopy -> out of scope. not_usable.
 2026-07-24T01:48:38Z,W4405528429,10.2172/2481274,mark,not_usable,"DOE BES Final Technical Report on electronic-structure methods and protocols (project report exploring limitations of multireference/MRCI methods). Funding/method report, not a specific-compound study -> not_usable."
+2026-07-24T01:49:33Z,W2278356249,10.1038/ncomms10467,search,candidate,query: 'NEVPT2 single-molecule magnet zero-field splitting'
+2026-07-24T01:49:33Z,W2414402924,10.1021/jacs.5b05739,search,candidate,query: 'NEVPT2 single-molecule magnet zero-field splitting'
+2026-07-24T01:49:33Z,W2416648101,10.1039/c6sc01469k,search,candidate,query: 'NEVPT2 single-molecule magnet zero-field splitting'
+2026-07-24T01:49:33Z,W4385564721,10.1002/anie.202303146,search,candidate,query: 'NEVPT2 single-molecule magnet zero-field splitting'
+2026-07-24T01:49:33Z,W4382345181,10.1039/d2cs00705c,search,candidate,query: 'NEVPT2 single-molecule magnet zero-field splitting'
+2026-07-24T01:49:33Z,W2439570865,10.1039/c6sc02035f,search,candidate,query: 'NEVPT2 single-molecule magnet zero-field splitting'
+2026-07-24T01:49:33Z,W2891343486,10.1039/c8sc02820f,search,candidate,query: 'NEVPT2 single-molecule magnet zero-field splitting'
+2026-07-24T01:49:33Z,W3094877800,10.1126/science.abb3861,search,candidate,query: 'NEVPT2 single-molecule magnet zero-field splitting'
+2026-07-24T01:49:33Z,W3172993499,10.1002/ejic.202100465,search,candidate,query: 'NEVPT2 single-molecule magnet zero-field splitting'
+2026-07-24T01:49:33Z,W2999330291,10.1038/s41557-020-0431-6,search,candidate,query: 'NEVPT2 single-molecule magnet zero-field splitting'
+2026-07-24T01:49:33Z,W2560769476,10.1021/acs.inorgchem.6b01544,search,candidate,query: 'NEVPT2 single-molecule magnet zero-field splitting'
+2026-07-24T01:49:33Z,W2194352041,10.1039/c5sc04461h,search,candidate,query: 'NEVPT2 single-molecule magnet zero-field splitting'
+2026-07-24T01:49:33Z,W2588800132,10.1039/c6sc05188j,search,candidate,query: 'NEVPT2 single-molecule magnet zero-field splitting'
+2026-07-24T01:49:33Z,W4226087386,10.1039/d2qi00275b,search,candidate,query: 'NEVPT2 single-molecule magnet zero-field splitting'
+2026-07-24T01:49:33Z,W4383497692,10.1002/anie.202306970,search,candidate,query: 'NEVPT2 single-molecule magnet zero-field splitting'
+2026-07-24T01:49:33Z,W4383533113,10.1002/ejic.202300336,search,candidate,query: 'NEVPT2 single-molecule magnet zero-field splitting'
+2026-07-24T01:49:33Z,W2419640309,10.1038/srep10761,search,candidate,query: 'NEVPT2 single-molecule magnet zero-field splitting'
+2026-07-24T01:49:33Z,W2900315202,10.1039/c8sc04384a,search,candidate,query: 'NEVPT2 single-molecule magnet zero-field splitting'
+2026-07-24T01:49:33Z,W2780841626,10.1039/c7dt04256f,search,candidate,query: 'NEVPT2 single-molecule magnet zero-field splitting'
+2026-07-24T01:49:33Z,W3138622994,10.1002/anie.202103596,search,candidate,query: 'NEVPT2 single-molecule magnet zero-field splitting'
+2026-07-24T01:49:40Z,W2913961631,10.1039/c9cp00105k,search,candidate,query: 'CASPT2 iron spin crossover complex'
+2026-07-24T01:49:40Z,W2795857061,10.1021/acs.jctc.8b00057,search,candidate,query: 'CASPT2 iron spin crossover complex'
+2026-07-24T01:49:40Z,W2030998293,10.1002/cphc.200400584,search,candidate,query: 'CASPT2 iron spin crossover complex'
+2026-07-24T01:49:40Z,W1973443611,10.1016/s0010-8545(02)00283-7,search,candidate,query: 'CASPT2 iron spin crossover complex'
+2026-07-24T01:49:40Z,W2898657291,10.1021/acs.inorgchem.8b01821,search,candidate,query: 'CASPT2 iron spin crossover complex'
+2026-07-24T01:49:40Z,W2012822097,10.1063/1.4752411,search,candidate,query: 'CASPT2 iron spin crossover complex'
+2026-07-24T01:49:40Z,W2173778129,10.1002/chem.201503119,search,candidate,query: 'CASPT2 iron spin crossover complex'
+2026-07-24T01:49:40Z,W2111716638,10.1063/1.4875695,search,candidate,query: 'CASPT2 iron spin crossover complex'
+2026-07-24T01:49:40Z,W4220717888,10.1039/d1cp04885f,search,candidate,query: 'CASPT2 iron spin crossover complex'
+2026-07-24T01:49:40Z,W2901166646,10.1021/acs.inorgchem.8b02278,search,candidate,query: 'CASPT2 iron spin crossover complex'
+2026-07-24T01:49:40Z,W2954895401,10.1021/acs.jctc.9b00370,search,candidate,query: 'CASPT2 iron spin crossover complex'
+2026-07-24T01:49:40Z,W2890496617,10.1038/s41467-018-06615-1,search,candidate,query: 'CASPT2 iron spin crossover complex'
+2026-07-24T01:49:40Z,W1908170464,10.1063/1.1839854,search,candidate,query: 'CASPT2 iron spin crossover complex'
+2026-07-24T01:49:40Z,W1975152450,10.1002/qua.24255,search,candidate,query: 'CASPT2 iron spin crossover complex'
+2026-07-24T01:49:40Z,W2604587228,10.1021/acs.inorgchem.7b00512,search,candidate,query: 'CASPT2 iron spin crossover complex'
+2026-07-24T01:49:40Z,W2738817458,10.3390/inorganics5030047,search,candidate,query: 'CASPT2 iron spin crossover complex'
+2026-07-24T01:49:40Z,W2611139264,10.1002/chem.201700232,search,candidate,query: 'CASPT2 iron spin crossover complex'
+2026-07-24T01:49:40Z,W2611414724,10.1039/c7cp01263b,search,candidate,query: 'CASPT2 iron spin crossover complex'
+2026-07-24T01:49:40Z,W4362506558,10.1021/acs.jpca.2c08158,search,candidate,query: 'CASPT2 iron spin crossover complex'
+2026-07-24T01:49:40Z,W4383871968,10.1063/5.0157187,search,candidate,query: 'CASPT2 iron spin crossover complex'
+2026-07-24T01:49:40Z,W2110275123,10.1021/jacs.5b00382,search,candidate,query: 'CASPT2 iron spin crossover complex'
+2026-07-24T01:49:40Z,W2769325165,10.1002/chem.201704854,search,candidate,query: 'CASPT2 iron spin crossover complex'
+2026-07-24T01:49:40Z,W2568191866,10.1021/acs.jpca.6b11930,search,candidate,query: 'CASPT2 iron spin crossover complex'
+2026-07-24T01:49:46Z,W2565978403,10.1038/nchem.2692,search,candidate,query: 'CASSCF actinide covalency complex'
+2026-07-24T01:49:46Z,W2584411359,10.1038/ncomms14137,search,candidate,query: 'CASSCF actinide covalency complex'
+2026-07-24T01:49:46Z,W2891599729,10.1021/acs.jpclett.8b02412,search,candidate,query: 'CASSCF actinide covalency complex'
+2026-07-24T01:49:46Z,W3042494034,10.1038/s41586-020-2479-2,search,candidate,query: 'CASSCF actinide covalency complex'
+2026-07-24T01:49:46Z,W3212917821,10.1021/acs.inorgchem.1c02374,search,candidate,query: 'CASSCF actinide covalency complex'
+2026-07-24T01:49:46Z,W2100352694,10.1039/c3ra47088a,search,candidate,query: 'CASSCF actinide covalency complex'
+2026-07-24T01:49:46Z,W2268601013,10.1039/c6sc00278a,search,candidate,query: 'CASSCF actinide covalency complex'
+2026-07-24T01:49:46Z,W2901992149,10.1021/acs.inorgchem.8b02700,search,candidate,query: 'CASSCF actinide covalency complex'
+2026-07-24T01:49:46Z,W2911977704,10.3390/magnetochemistry5010015,search,candidate,query: 'CASSCF actinide covalency complex'
+2026-07-24T01:49:46Z,W2101111489,10.3390/inorganics3040482,search,candidate,query: 'CASSCF actinide covalency complex'
+2026-07-24T01:49:46Z,W4200089368,10.1038/s41467-021-27576-y,search,candidate,query: 'CASSCF actinide covalency complex'
+2026-07-24T01:49:46Z,W2730611881,10.1039/c7sc01998j,search,candidate,query: 'CASSCF actinide covalency complex'
+2026-07-24T01:49:46Z,W2137396062,10.1038/nchem.1896,search,candidate,query: 'CASSCF actinide covalency complex'
+2026-07-24T01:49:46Z,W4401814523,10.1038/s41570-024-00641-y,search,candidate,query: 'CASSCF actinide covalency complex'
+2026-07-24T01:49:46Z,W2884186545,10.1021/acs.inorgchem.8b01450,search,candidate,query: 'CASSCF actinide covalency complex'
+2026-07-24T01:49:46Z,W3035867031,10.1002/ejic.202000383,search,candidate,query: 'CASSCF actinide covalency complex'
+2026-07-24T01:49:46Z,W4384663156,10.1038/s41467-023-39626-8,search,candidate,query: 'CASSCF actinide covalency complex'
+2026-07-24T01:49:46Z,W4396948987,10.1021/jacs.4c01930,search,candidate,query: 'CASSCF actinide covalency complex'
+2026-07-24T01:49:46Z,W2917508586,10.3390/inorganics7030026,search,candidate,query: 'CASSCF actinide covalency complex'
+2026-07-24T01:49:46Z,W4407561967,10.1021/acs.inorgchem.4c04570,search,candidate,query: 'CASSCF actinide covalency complex'
+2026-07-24T01:49:46Z,W3019275772,10.1002/qua.26254,search,candidate,query: 'CASSCF actinide covalency complex'
+2026-07-24T01:49:46Z,W4293147412,10.1007/978-3-031-31038-6_5,search,candidate,query: 'CASSCF actinide covalency complex'
+2026-07-24T01:49:46Z,W2321893305,10.1021/ja308146e,search,candidate,query: 'CASSCF actinide covalency complex'
+2026-07-24T01:49:49Z,W2097764239,10.1002/jcc.24221,search,candidate,query: 'RASSCF lanthanide magnetic anisotropy'
+2026-07-24T01:49:49Z,W3033513062,10.1063/5.0004835,search,candidate,query: 'RASSCF lanthanide magnetic anisotropy'
+2026-07-24T01:49:49Z,W2963701598,10.1002/jcc.25113,search,candidate,query: 'RASSCF lanthanide magnetic anisotropy'
+2026-07-24T01:49:49Z,W2564336558,10.1021/acs.inorgchem.6b02312,search,candidate,query: 'RASSCF lanthanide magnetic anisotropy'
+2026-07-24T01:49:49Z,W4391321990,10.1021/jacs.3c12427,search,candidate,query: 'RASSCF lanthanide magnetic anisotropy'
+2026-07-24T01:49:49Z,W2963067806,10.1021/acs.jpca.9b03708,search,candidate,query: 'RASSCF lanthanide magnetic anisotropy'
+2026-07-24T01:49:49Z,W3193965747,10.1103/physrevb.105.144401,search,candidate,query: 'RASSCF lanthanide magnetic anisotropy'
+2026-07-24T01:49:49Z,W2767057727,10.1039/c7dt03441e,search,candidate,query: 'RASSCF lanthanide magnetic anisotropy'
+2026-07-24T01:49:49Z,W2516345736,10.1039/c6dt02537d,search,candidate,query: 'RASSCF lanthanide magnetic anisotropy'
+2026-07-24T01:49:49Z,W2885895997,10.1038/s41467-018-05587-6,search,candidate,query: 'RASSCF lanthanide magnetic anisotropy'
+2026-07-24T01:49:49Z,W4316653938,10.1021/acs.cgd.2c01234,search,candidate,query: 'RASSCF lanthanide magnetic anisotropy'
+2026-07-24T01:49:49Z,W4404259386,10.1021/acs.inorgchem.4c03281,search,candidate,query: 'RASSCF lanthanide magnetic anisotropy'
+2026-07-24T01:49:49Z,W2803762822,10.1021/acs.inorgchem.8b00427,search,candidate,query: 'RASSCF lanthanide magnetic anisotropy'
+2026-07-24T01:49:49Z,W4388656053,10.1063/5.0168996,search,candidate,query: 'RASSCF lanthanide magnetic anisotropy'
+2026-07-24T01:49:49Z,W3096153042,10.1039/d0sc04871b,search,candidate,query: 'RASSCF lanthanide magnetic anisotropy'
+2026-07-24T01:49:49Z,W4240227765,10.1002/ange.201903681,search,candidate,query: 'RASSCF lanthanide magnetic anisotropy'
+2026-07-24T01:49:49Z,W4293105066,10.1002/chem.202201883,search,candidate,query: 'RASSCF lanthanide magnetic anisotropy'
+2026-07-24T01:49:49Z,W4382198385,10.1021/acs.inorgchem.3c00536,search,candidate,query: 'RASSCF lanthanide magnetic anisotropy'
+2026-07-24T01:49:49Z,W3133990202,10.1039/d0dt04168h,search,candidate,query: 'RASSCF lanthanide magnetic anisotropy'
+2026-07-24T01:49:49Z,W2321285309,10.1080/02603594.2015.1121874,search,candidate,query: 'RASSCF lanthanide magnetic anisotropy'
+2026-07-24T01:49:49Z,W2192857910,10.1016/bs.arcc.2015.09.006,search,candidate,query: 'RASSCF lanthanide magnetic anisotropy'
+2026-07-24T01:49:55Z,W2542614087,10.1038/s41467-017-00069-7,search,candidate,query: 'CASSCF excited state photochemistry organic chromophore'
+2026-07-24T01:49:55Z,W4318671825,10.1002/chem.202203748,search,candidate,query: 'CASSCF excited state photochemistry organic chromophore'
+2026-07-24T01:49:55Z,W2884154229,10.1021/acs.chemrev.8b00193,search,candidate,query: 'CASSCF excited state photochemistry organic chromophore'
+2026-07-24T01:49:55Z,W2792632729,10.1038/s41557-018-0014-y,search,candidate,query: 'CASSCF excited state photochemistry organic chromophore'
+2026-07-24T01:49:55Z,W2228357487,10.1021/acs.jctc.5b00894,search,candidate,query: 'CASSCF excited state photochemistry organic chromophore'
+2026-07-24T01:49:55Z,W4223437316,10.3390/molecules27082443,search,candidate,query: 'CASSCF excited state photochemistry organic chromophore'
+2026-07-24T01:49:55Z,W4386700056,10.1021/jacs.3c07625,search,candidate,query: 'CASSCF excited state photochemistry organic chromophore'
+2026-07-24T01:49:55Z,W4320888381,10.1146/annurev-physchem-102822-100945,search,candidate,query: 'CASSCF excited state photochemistry organic chromophore'
+2026-07-24T01:49:55Z,W3195216786,10.3390/molecules26175140,search,candidate,query: 'CASSCF excited state photochemistry organic chromophore'
+2026-07-24T01:49:55Z,W3088181437,10.1088/2058-9565/abd334,search,candidate,query: 'CASSCF excited state photochemistry organic chromophore'
+2026-07-24T01:49:55Z,W2076671030,10.1063/1.4896372,search,candidate,query: 'CASSCF excited state photochemistry organic chromophore'
+2026-07-24T01:49:55Z,W3036016487,10.1038/s41467-020-16909-y,search,candidate,query: 'CASSCF excited state photochemistry organic chromophore'
+2026-07-24T01:49:55Z,W4391406507,10.1016/j.matt.2024.01.002,search,candidate,query: 'CASSCF excited state photochemistry organic chromophore'
+2026-07-24T01:49:55Z,W3048769630,10.1039/d0sc02294b,search,candidate,query: 'CASSCF excited state photochemistry organic chromophore'
+2026-07-24T01:49:55Z,W4283361857,10.1038/s41467-022-31288-2,search,candidate,query: 'CASSCF excited state photochemistry organic chromophore'
+2026-07-24T01:49:55Z,W2937798275,10.1038/s41557-019-0252-7,search,candidate,query: 'CASSCF excited state photochemistry organic chromophore'
+2026-07-24T01:49:55Z,W4361013263,10.1039/d2cs00719c,search,candidate,query: 'CASSCF excited state photochemistry organic chromophore'
+2026-07-24T01:49:55Z,W4390412534,10.1021/jacs.3c11517,search,candidate,query: 'CASSCF excited state photochemistry organic chromophore'
+2026-07-24T01:49:55Z,W4395069824,10.1021/jacs.4c01019,search,candidate,query: 'CASSCF excited state photochemistry organic chromophore'
+2026-07-24T01:49:55Z,W3193988690,10.1063/5.0055522,search,candidate,query: 'CASSCF excited state photochemistry organic chromophore'
+2026-07-24T01:49:55Z,W3207003766,10.1002/chem.202102383,search,candidate,query: 'CASSCF excited state photochemistry organic chromophore'
+2026-07-24T01:50:07Z,W2278356249,10.1038/ncomms10467,fetch,fetched,716811 bytes from https://www.nature.com/articles/ncomms10467.pdf
+2026-07-24T01:50:18Z,W2414402924,10.1021/jacs.5b05739,fetch,fetch_failed,HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/doi/10.1021/jacs.5b05739
+2026-07-24T01:50:21Z,W2416648101,10.1039/c6sc01469k,fetch,fetch_failed,ValueError: response is not a PDF (probably an HTML landing page)
+2026-07-24T01:50:22Z,W4385564721,10.1002/anie.202303146,fetch,fetch_failed,HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/anie.202303146
+2026-07-24T01:50:23Z,W4382345181,10.1039/d2cs00705c,fetch,fetched,2323395 bytes from https://pubs.rsc.org/en/content/articlepdf/2023/cs/d2cs00705c
+2026-07-24T01:50:25Z,W2439570865,10.1039/c6sc02035f,fetch,fetched,606592 bytes from https://pubs.rsc.org/en/content/articlepdf/2016/sc/c6sc02035f
+2026-07-24T01:50:27Z,W2891343486,10.1039/c8sc02820f,fetch,fetched,902790 bytes from https://pubs.rsc.org/en/content/articlepdf/2018/sc/c8sc02820f
+2026-07-24T01:50:29Z,W3094877800,10.1126/science.abb3861,fetch,fetch_failed,ValueError: response is not a PDF (probably an HTML landing page)
+2026-07-24T01:50:35Z,W3172993499,10.1002/ejic.202100465,fetch,fetch_failed,HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ejic.202100465
+2026-07-24T01:50:38Z,W2999330291,10.1038/s41557-020-0431-6,fetch,fetch_failed,ValueError: response is not a PDF (probably an HTML landing page)
+2026-07-24T01:50:39Z,W2560769476,10.1021/acs.inorgchem.6b01544,fetch,fetch_failed,ValueError: response is not a PDF (probably an HTML landing page)
+2026-07-24T01:50:43Z,W2194352041,10.1039/c5sc04461h,fetch,fetched,1428898 bytes from https://pubs.rsc.org/en/content/articlepdf/2016/sc/c5sc04461h
+2026-07-24T01:50:45Z,W2588800132,10.1039/c6sc05188j,fetch,fetched,1456215 bytes from https://pubs.rsc.org/en/content/articlepdf/2017/sc/c6sc05188j
+2026-07-24T01:50:47Z,W4226087386,10.1039/d2qi00275b,fetch,fetched,4313004 bytes from https://pubs.rsc.org/en/content/articlepdf/2022/qi/d2qi00275b
+2026-07-24T01:50:48Z,W4383497692,10.1002/anie.202306970,fetch,fetch_failed,HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/anie.202306970
+2026-07-24T01:50:49Z,W4383533113,10.1002/ejic.202300336,fetch,fetch_failed,HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ejic.202300336
+2026-07-24T01:50:52Z,W2419640309,10.1038/srep10761,fetch,fetched,4608591 bytes from https://www.nature.com/articles/srep10761.pdf
+2026-07-24T01:50:53Z,W2900315202,10.1039/c8sc04384a,fetch,fetched,1515729 bytes from https://pubs.rsc.org/en/content/articlepdf/2019/sc/c8sc04384a
+2026-07-24T01:50:55Z,W2780841626,10.1039/c7dt04256f,fetch,fetched,4161975 bytes from https://pubs.rsc.org/en/content/articlepdf/2018/dt/c7dt04256f
+2026-07-24T01:51:01Z,W3138622994,10.1002/anie.202103596,fetch,fetch_failed,HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/anie.202103596
+2026-07-24T01:51:11Z,W2913961631,10.1039/c9cp00105k,fetch,fetch_failed,ValueError: response is not a PDF (probably an HTML landing page)
+2026-07-24T01:51:12Z,W2795857061,10.1021/acs.jctc.8b00057,fetch,fetch_failed,HTTPError: 404 Client Error: Not Found for url: https://lirias.kuleuven.be/bitstream/123456789/625109/2/main.pdf
+2026-07-24T01:51:13Z,W2030998293,10.1002/cphc.200400584,fetch,fetch_failed,HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cphc.200400584
+2026-07-24T01:51:14Z,W1973443611,10.1016/s0010-8545(02)00283-7,fetch,fetch_failed,HTTPError: 403 Client Error: Forbidden for url: https://www.sciencedirect.com/science/article/pii/S0010854502002837
+2026-07-24T01:51:16Z,W2898657291,10.1021/acs.inorgchem.8b01821,fetch,fetch_failed,HTTPError: 404 Client Error: Not found for url: https://diposit.ub.edu/dspace/bitstream/2445/154824/1/685743.pdf
+2026-07-24T01:51:19Z,W2012822097,10.1063/1.4752411,fetch,fetched,653574 bytes from https://pubs.aip.org/aip/jcp/article-pdf/doi/10.1063/1.4752411/15452992/124303_1_online.pdf
+2026-07-24T01:51:20Z,W2173778129,10.1002/chem.201503119,fetch,fetch_failed,HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/chem.201503119
+2026-07-24T01:51:26Z,W2111716638,10.1063/1.4875695,fetch,fetch_failed,ValueError: response is not a PDF (probably an HTML landing page)
+2026-07-24T01:51:33Z,W4220717888,10.1039/d1cp04885f,fetch,fetched,466620 bytes from https://www.osti.gov/servlets/purl/1978763
+2026-07-24T01:51:35Z,W2901166646,10.1021/acs.inorgchem.8b02278,fetch,fetch_failed,ValueError: response is not a PDF (probably an HTML landing page)
+2026-07-24T01:51:38Z,W2954895401,10.1021/acs.jctc.9b00370,fetch,fetched,1426880 bytes from https://lirias.kuleuven.be/retrieve/6f2437eb-7dda-41fc-b2e3-c4d972ee80d3
+2026-07-24T01:51:40Z,W2890496617,10.1038/s41467-018-06615-1,fetch,fetched,1373499 bytes from https://www.nature.com/articles/s41467-018-06615-1.pdf
+2026-07-24T01:53:17Z,W1908170464,10.1063/1.1839854,fetch,fetched,1149377 bytes from https://pubs.aip.org/aip/jcp/article-pdf/doi/10.1063/1.1839854/10872631/044110_1_online.pdf
+2026-07-24T01:53:18Z,W1975152450,10.1002/qua.24255,fetch,fetch_failed,HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/qua.24255
+2026-07-24T01:53:20Z,W2604587228,10.1021/acs.inorgchem.7b00512,fetch,fetched,3044140 bytes from https://www.osti.gov/servlets/purl/1348217
+2026-07-24T01:53:21Z,W2738817458,10.3390/inorganics5030047,fetch,fetch_failed,HTTPError: 403 Client Error: Forbidden for url: https://www.mdpi.com/2304-6740/5/3/47/pdf?version=1500560786
+2026-07-24T01:53:23Z,W2611139264,10.1002/chem.201700232,fetch,fetch_failed,HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/chem.201700232
+2026-07-24T01:53:24Z,W2611414724,10.1039/c7cp01263b,fetch,fetched,1417710 bytes from https://www.osti.gov/servlets/purl/2311186
+2026-07-24T01:53:26Z,W4362506558,10.1021/acs.jpca.2c08158,fetch,fetched,4102268 bytes from https://www.osti.gov/servlets/purl/1993575
+2026-07-24T01:53:34Z,W4383871968,10.1063/5.0157187,fetch,fetched,7379217 bytes from https://pubs.aip.org/aip/jcp/article-pdf/doi/10.1063/5.0157187/18037570/024120_1_5.0157187.pdf
+2026-07-24T01:54:01Z,W2278356249,10.1038/ncomms10467,text,text_ready,8 pages -> W2278356249.txt
+2026-07-24T01:54:02Z,W4382345181,10.1039/d2cs00705c,text,text_ready,19 pages -> W4382345181.txt
+2026-07-24T01:54:03Z,W2439570865,10.1039/c6sc02035f,text,text_ready,9 pages -> W2439570865.txt
+2026-07-24T01:54:03Z,W2891343486,10.1039/c8sc02820f,text,text_ready,9 pages -> W2891343486.txt
+2026-07-24T01:54:04Z,W2194352041,10.1039/c5sc04461h,text,text_ready,8 pages -> W2194352041.txt
+2026-07-24T01:54:04Z,W2588800132,10.1039/c6sc05188j,text,text_ready,9 pages -> W2588800132.txt
+2026-07-24T01:54:05Z,W4226087386,10.1039/d2qi00275b,text,text_ready,23 pages -> W4226087386.txt
+2026-07-24T01:54:06Z,W2419640309,10.1038/srep10761,text,text_ready,11 pages -> W2419640309.txt
+2026-07-24T01:54:07Z,W2900315202,10.1039/c8sc04384a,text,text_ready,8 pages -> W2900315202.txt
+2026-07-24T01:54:07Z,W2780841626,10.1039/c7dt04256f,text,text_ready,15 pages -> W2780841626.txt
+2026-07-24T01:54:08Z,W2012822097,10.1063/1.4752411,text,text_ready,12 pages -> W2012822097.txt
+2026-07-24T01:54:08Z,W4220717888,10.1039/d1cp04885f,text,text_ready,10 pages -> W4220717888.txt
+2026-07-24T01:54:09Z,W2954895401,10.1021/acs.jctc.9b00370,text,text_ready,24 pages -> W2954895401.txt
+2026-07-24T01:54:10Z,W2890496617,10.1038/s41467-018-06615-1,text,text_ready,8 pages -> W2890496617.txt
+2026-07-24T01:54:10Z,W1908170464,10.1063/1.1839854,text,text_ready,14 pages -> W1908170464.txt
+2026-07-24T01:54:21Z,W2604587228,10.1021/acs.inorgchem.7b00512,text,text_ready,59 pages -> W2604587228.txt
+2026-07-24T01:54:23Z,W2611414724,10.1039/c7cp01263b,text,text_ready,53 pages -> W2611414724.txt
+2026-07-24T01:54:24Z,W4362506558,10.1021/acs.jpca.2c08158,text,text_ready,32 pages -> W4362506558.txt
+2026-07-24T01:54:26Z,W4383871968,10.1063/5.0157187,text,text_ready,20 pages -> W4383871968.txt
+2026-07-24T14:15:25Z,W2439570865-a,10.1039/c6sc02035f,add-row,appended,TM magnetic/spin-state CASSCF extraction.
+2026-07-24T14:15:25Z,W2419640309-a,10.1038/srep10761,add-row,appended,TM magnetic/spin-state CASSCF extraction.
+2026-07-24T14:15:25Z,W2780841626-a,10.1039/c7dt04256f,add-row,appended,TM magnetic/spin-state CASSCF extraction.
+2026-07-24T14:15:26Z,W2012822097-a,10.1063/1.4752411,add-row,appended,TM magnetic/spin-state CASSCF extraction.
+2026-07-24T14:15:26Z,W4220717888-a,10.1039/d1cp04885f,add-row,appended,TM magnetic/spin-state CASSCF extraction.
+2026-07-24T14:15:26Z,W2890496617-a,10.1038/s41467-018-06615-1,add-row,appended,TM magnetic/spin-state CASSCF extraction.
+2026-07-24T14:15:26Z,W2604587228-a,10.1021/acs.inorgchem.7b00512,add-row,appended,TM magnetic/spin-state CASSCF extraction.
+2026-07-24T14:15:26Z,W4362506558-a,10.1021/acs.jpca.2c08158,add-row,appended,TM magnetic/spin-state CASSCF extraction.
+2026-07-24T14:15:27Z,W2954895401-a,10.1021/acs.jctc.9b00370,add-row,appended,TM magnetic/spin-state CASSCF extraction.
+2026-07-24T14:15:27Z,W2278356249-a,10.1038/ncomms10467,add-row,appended,TM SIM CASSCF/NEVPT2; active space SI-only -> partial.
+2026-07-24T14:15:27Z,W2891343486-a,10.1039/c8sc02820f,add-row,appended,TM SIM CASSCF/NEVPT2; active space SI-only -> partial.
+2026-07-24T14:15:27Z,W2194352041-a,10.1039/c5sc04461h,add-row,appended,TM SIM CASSCF/NEVPT2; active space SI-only -> partial.
+2026-07-24T14:15:27Z,W2588800132-a,10.1039/c6sc05188j,add-row,appended,TM SIM CASSCF/NEVPT2; active space SI-only -> partial.
+2026-07-24T14:15:28Z,W4226087386-a,10.1039/d2qi00275b,add-row,appended,TM SIM CASSCF/NEVPT2; active space SI-only -> partial.
+2026-07-24T14:15:28Z,W2900315202-a,10.1039/c8sc04384a,add-row,appended,Fe7 Janus SMM; per-Fe CASSCF/NEVPT2; partial.
+2026-07-24T14:15:44Z,W2439570865,10.1039/c6sc02035f,mark,extracted,TM complex CASSCF/NEVPT2 or CASPT2 spin-state/anisotropy; active space + method captured (see literature.csv).
+2026-07-24T14:15:44Z,W2419640309,10.1038/srep10761,mark,extracted,TM complex CASSCF/NEVPT2 or CASPT2 spin-state/anisotropy; active space + method captured (see literature.csv).
+2026-07-24T14:15:44Z,W2780841626,10.1039/c7dt04256f,mark,extracted,TM complex CASSCF/NEVPT2 or CASPT2 spin-state/anisotropy; active space + method captured (see literature.csv).
+2026-07-24T14:15:45Z,W2012822097,10.1063/1.4752411,mark,extracted,TM complex CASSCF/NEVPT2 or CASPT2 spin-state/anisotropy; active space + method captured (see literature.csv).
+2026-07-24T14:15:45Z,W4220717888,10.1039/d1cp04885f,mark,extracted,TM complex CASSCF/NEVPT2 or CASPT2 spin-state/anisotropy; active space + method captured (see literature.csv).
+2026-07-24T14:15:45Z,W2890496617,10.1038/s41467-018-06615-1,mark,extracted,TM complex CASSCF/NEVPT2 or CASPT2 spin-state/anisotropy; active space + method captured (see literature.csv).
+2026-07-24T14:15:45Z,W2604587228,10.1021/acs.inorgchem.7b00512,mark,extracted,TM complex CASSCF/NEVPT2 or CASPT2 spin-state/anisotropy; active space + method captured (see literature.csv).
+2026-07-24T14:15:45Z,W4362506558,10.1021/acs.jpca.2c08158,mark,extracted,TM complex CASSCF/NEVPT2 or CASPT2 spin-state/anisotropy; active space + method captured (see literature.csv).
+2026-07-24T14:15:46Z,W2954895401,10.1021/acs.jctc.9b00370,mark,extracted,TM complex CASSCF/NEVPT2 or CASPT2 spin-state/anisotropy; active space + method captured (see literature.csv).
+2026-07-24T14:15:46Z,W2278356249,10.1038/ncomms10467,mark,extracted_partial,TM single-ion/molecule magnet; CASSCF/NEVPT2 anisotropy captured but numeric active space is SI-only (not in extracted main text). extracted_partial.
+2026-07-24T14:15:46Z,W2891343486,10.1039/c8sc02820f,mark,extracted_partial,TM single-ion/molecule magnet; CASSCF/NEVPT2 anisotropy captured but numeric active space is SI-only (not in extracted main text). extracted_partial.
+2026-07-24T14:15:46Z,W2194352041,10.1039/c5sc04461h,mark,extracted_partial,TM single-ion/molecule magnet; CASSCF/NEVPT2 anisotropy captured but numeric active space is SI-only (not in extracted main text). extracted_partial.
+2026-07-24T14:15:46Z,W2588800132,10.1039/c6sc05188j,mark,extracted_partial,TM single-ion/molecule magnet; CASSCF/NEVPT2 anisotropy captured but numeric active space is SI-only (not in extracted main text). extracted_partial.
+2026-07-24T14:15:47Z,W4226087386,10.1039/d2qi00275b,mark,extracted_partial,TM single-ion/molecule magnet; CASSCF/NEVPT2 anisotropy captured but numeric active space is SI-only (not in extracted main text). extracted_partial.
+2026-07-24T14:15:47Z,W2900315202,10.1039/c8sc04384a,mark,extracted_partial,TM single-ion/molecule magnet; CASSCF/NEVPT2 anisotropy captured but numeric active space is SI-only (not in extracted main text). extracted_partial.
+2026-07-24T14:15:47Z,W4382345181,10.1039/d2cs00705c,mark,not_usable,'Spin-phonon coupling and magnetic relaxation in single-molecule magnets' (Chem. Soc. Rev.): a review/tutorial article citing others' CASSCF results rather than reporting a specific-compound calculation -> not_usable per policy (reviews).
+2026-07-24T14:15:47Z,W1908170464,10.1063/1.1839854,mark,not_usable,"'Comparison of density functionals for energy and structural properties': DFT-assessment paper using CASPT2/SORCI as reference on TM complexes. DFT-benchmark method paper (diffuse, per-complex spaces) -> not_usable."
+2026-07-24T14:15:47Z,W2611414724,10.1039/c7cp01263b,mark,not_usable,"Assessment of electronic-structure methods for ground spin states of Fe(II)/(III)/(IV): DFT-assessment benchmark on the Fe2+ ion, FeO diatomic and 14 polyatomic Fe complexes using CASPT2/DMC as reference. DFT-benchmark method paper (diffuse) -> not_usable."
+2026-07-24T14:15:48Z,W4383871968,10.1063/5.0157187,mark,not_usable,"DFT benchmark on 95 experimentally-characterized Fe(II) complexes with CASPT2 used to select the optimal DFT functional. Large DFT-assessment/benchmark method paper (CASPT2 as reference, diffuse) -> not_usable."
