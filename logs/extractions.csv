@@ -7849,3 +7849,55 @@ timestamp,key,doi,action,result,reasoning
 2026-07-24T14:28:19Z,W4401814523,10.1038/s41570-024-00641-y,mark,not_usable,"'Understanding covalency in molecular f-block compounds from the synergy of spectroscopy and quantum chemistry' - a Nature Reviews Chemistry REVIEW article citing others' CASSCF/RAS results, not a specific-compound calculation -> not_usable (reviews)."
 2026-07-24T14:28:19Z,W3193965747,10.1103/physrevb.105.144401,mark,not_usable,"'Multipolar exchange interaction and complex order in insulating lanthanides': bulk-material (solid-state) magnetism (unquenched orbital momentum, magnetic order in insulating lanthanide crystals). Condensed-matter material, not a molecular coordination complex -> out of scope. not_usable."
 2026-07-24T14:28:19Z,W4388656053,10.1063/5.0168996,mark,not_usable,Analytical nonadiabatic coupling and state-specific energy gradient for the crystal-field Hamiltonian: analytic-derivative method-development paper -> not_usable.
+2026-07-24T14:29:03Z,W2321285309,10.1080/02603594.2015.1121874,fetch,fetched,3895637 bytes from https://www.osti.gov/servlets/purl/2479707
+2026-07-24T14:29:04Z,W2192857910,10.1016/bs.arcc.2015.09.006,fetch,fetched,1020515 bytes from https://www.osti.gov/servlets/purl/2479704
+2026-07-24T14:29:11Z,W2542614087,10.1038/s41467-017-00069-7,fetch,fetched,659231 bytes from https://www.nature.com/articles/s41467-017-00069-7.pdf
+2026-07-24T14:29:12Z,W4318671825,10.1002/chem.202203748,fetch,fetch_failed,HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/chem.202203748
+2026-07-24T14:29:14Z,W2884154229,10.1021/acs.chemrev.8b00193,fetch,fetched,3521280 bytes from https://www.osti.gov/servlets/purl/2311181
+2026-07-24T14:29:21Z,W2792632729,10.1038/s41557-018-0014-y,fetch,fetched,787739 bytes from https://kclpure.kcl.ac.uk/ws/files/88835424/Evidence_for_a_vibrational_phase_SCHNEDERMANN_Publishedonline19March2018_GREEN_AAM.pdf
+2026-07-24T14:29:32Z,W2228357487,10.1021/acs.jctc.5b00894,fetch,fetch_failed,"SSLError: HTTPSConnectionPool(host='pubs.acs.org', port=443): Max retries exceeded with url: /doi/10.1021/acs.jctc.5b00894 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)')))"
+2026-07-24T14:29:33Z,W4223437316,10.3390/molecules27082443,fetch,fetch_failed,HTTPError: 403 Client Error: Forbidden for url: https://www.mdpi.com/1420-3049/27/8/2443/pdf?version=1649909754
+2026-07-24T14:29:35Z,W4386700056,10.1021/jacs.3c07625,fetch,fetch_failed,"SSLError: HTTPSConnectionPool(host='pubs.acs.org', port=443): Max retries exceeded with url: /doi/pdf/10.1021/jacs.3c07625 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)')))"
+2026-07-24T14:29:38Z,W4320888381,10.1146/annurev-physchem-102822-100945,fetch,fetched,3365842 bytes from https://www.annualreviews.org/doi/pdf/10.1146/annurev-physchem-102822-100945
+2026-07-24T14:29:44Z,W3195216786,10.3390/molecules26175140,fetch,fetch_failed,HTTPError: 403 Client Error: Forbidden for url: https://www.mdpi.com/1420-3049/26/17/5140/pdf?version=1629875029
+2026-07-24T14:29:45Z,W3088181437,10.1088/2058-9565/abd334,fetch,fetched,1202838 bytes from https://arxiv.org/pdf/2009.11417
+2026-07-24T14:29:49Z,W2076671030,10.1063/1.4896372,fetch,fetched,2822072 bytes from https://pubs.aip.org/aip/jcp/article-pdf/doi/10.1063/1.4896372/15485465/124122_1_online.pdf
+2026-07-24T14:29:51Z,W3036016487,10.1038/s41467-020-16909-y,fetch,fetched,2668825 bytes from https://www.nature.com/articles/s41467-020-16909-y.pdf
+2026-07-24T14:29:53Z,W4391406507,10.1016/j.matt.2024.01.002,fetch,fetch_failed,HTTPError: 403 Client Error: Forbidden for url: https://www.cell.com/article/S259023852400002X/pdf
+2026-07-24T14:30:05Z,W3048769630,10.1039/d0sc02294b,fetch,fetch_failed,ValueError: response is not a PDF (probably an HTML landing page)
+2026-07-24T14:30:07Z,W4283361857,10.1038/s41467-022-31288-2,fetch,fetched,1359548 bytes from https://www.nature.com/articles/s41467-022-31288-2.pdf
+2026-07-24T14:30:08Z,W2937798275,10.1038/s41557-019-0252-7,fetch,fetched,4183553 bytes from https://arxiv.org/pdf/1810.02900
+2026-07-24T14:30:15Z,W4361013263,10.1039/d2cs00719c,fetch,fetched,10176122 bytes from https://pubs.rsc.org/en/content/articlepdf/2023/cs/d2cs00719c
+2026-07-24T14:30:16Z,W4390412534,10.1021/jacs.3c11517,fetch,fetch_failed,"SSLError: HTTPSConnectionPool(host='pubs.acs.org', port=443): Max retries exceeded with url: /doi/pdf/10.1021/jacs.3c11517 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)')))"
+2026-07-24T14:30:20Z,W4395069824,10.1021/jacs.4c01019,fetch,fetch_failed,"SSLError: HTTPSConnectionPool(host='pubs.acs.org', port=443): Max retries exceeded with url: /doi/pdf/10.1021/jacs.4c01019 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)')))"
+2026-07-24T14:30:21Z,W3193988690,10.1063/5.0055522,fetch,fetch_failed,ValueError: response is not a PDF (probably an HTML landing page)
+2026-07-24T14:30:22Z,W3207003766,10.1002/chem.202102383,fetch,fetch_failed,HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/chem.202102383
+2026-07-24T14:30:33Z,W2321285309,10.1080/02603594.2015.1121874,text,text_ready,31 pages -> W2321285309.txt
+2026-07-24T14:30:34Z,W2192857910,10.1016/bs.arcc.2015.09.006,text,text_ready,33 pages -> W2192857910.txt
+2026-07-24T14:30:34Z,W2542614087,10.1038/s41467-017-00069-7,text,text_ready,7 pages -> W2542614087.txt
+2026-07-24T14:30:38Z,W2884154229,10.1021/acs.chemrev.8b00193,text,text_ready,123 pages -> W2884154229.txt
+2026-07-24T14:30:39Z,W2792632729,10.1038/s41557-018-0014-y,text,text_ready,26 pages -> W2792632729.txt
+2026-07-24T14:30:40Z,W4320888381,10.1146/annurev-physchem-102822-100945,text,text_ready,25 pages -> W4320888381.txt
+2026-07-24T14:30:42Z,W3088181437,10.1088/2058-9565/abd334,text,text_ready,20 pages -> W3088181437.txt
+2026-07-24T14:30:43Z,W2076671030,10.1063/1.4896372,text,text_ready,16 pages -> W2076671030.txt
+2026-07-24T14:30:45Z,W3036016487,10.1038/s41467-020-16909-y,text,text_ready,11 pages -> W3036016487.txt
+2026-07-24T14:30:46Z,W4283361857,10.1038/s41467-022-31288-2,text,text_ready,11 pages -> W4283361857.txt
+2026-07-24T14:30:47Z,W2937798275,10.1038/s41557-019-0252-7,text,text_ready,63 pages -> W2937798275.txt
+2026-07-24T14:30:49Z,W4361013263,10.1039/d2cs00719c,text,text_ready,45 pages -> W4361013263.txt
+2026-07-24T19:17:16Z,W2542614087-a,10.1038/s41467-017-00069-7,add-row,appended,Thymine K-edge IC CASPT2; partial.
+2026-07-24T19:17:16Z,W2792632729-a,10.1038/s41557-018-0014-y,add-row,appended,"Retinal PSB vision isotope effect CASSCF(12,12)."
+2026-07-24T19:17:16Z,W3036016487-a,10.1038/s41467-020-16909-y,add-row,appended,"Deazaflavin semiquinone photocatalysis CASSCF(12,12)."
+2026-07-24T19:17:16Z,W4283361857-a,10.1038/s41467-022-31288-2,add-row,appended,"Porphyrin photosensitizer CAS(12,10) pi."
+2026-07-24T19:17:16Z,W2937798275-a,10.1038/s41557-019-0252-7,add-row,appended,"1,3-CHD ring-opening CASSCF(6,4)."
+2026-07-24T19:17:17Z,W2792632729,10.1038/s41557-018-0014-y,mark,extracted,Organic photochemistry CASSCF; compound + active space captured (see literature.csv).
+2026-07-24T19:17:17Z,W3036016487,10.1038/s41467-020-16909-y,mark,extracted,Organic photochemistry CASSCF; compound + active space captured (see literature.csv).
+2026-07-24T19:17:17Z,W4283361857,10.1038/s41467-022-31288-2,mark,extracted,Organic photochemistry CASSCF; compound + active space captured (see literature.csv).
+2026-07-24T19:17:17Z,W2937798275,10.1038/s41557-019-0252-7,mark,extracted,Organic photochemistry CASSCF; compound + active space captured (see literature.csv).
+2026-07-24T19:17:17Z,W2542614087,10.1038/s41467-017-00069-7,mark,extracted_partial,Thymine pi-pi*/n-pi* K-edge internal conversion; CASPT2. Exact active space SI-only (not in extracted text). Organic. extracted_partial.
+2026-07-24T19:17:18Z,W2192857910,10.1016/bs.arcc.2015.09.006,mark,not_usable,"'NMR Calculations for Paramagnetic Molecules and Metal Complexes': a methodology paper for paramagnetic-NMR (pNMR) property calculation using RASSCF, not a specific-compound active-space study of interest -> not_usable."
+2026-07-24T19:17:18Z,W2884154229,10.1021/acs.chemrev.8b00193,mark,not_usable,'Combining Wave Function Methods with Density Functional Theory for Excited States' (RASSCF/DFT embedding): method-development paper -> not_usable.
+2026-07-24T19:17:18Z,W3088181437,10.1088/2058-9565/abd334,mark,not_usable,State-averaged orbital-optimized hybrid quantum-classical (VQE-type) algorithm: quantum-computing algorithm-development paper -> not_usable.
+2026-07-24T19:17:18Z,W2076671030,10.1063/1.4896372,mark,not_usable,'Assessment of approximate computational methods for conical intersections and nonadiabatic couplings': a method-assessment/benchmark paper (MRCI reference) -> not_usable.
+2026-07-24T19:17:19Z,W2321285309,10.1080/02603594.2015.1121874,mark,not_usable,"'Orbitals for Analyzing Bonding and Magnetism of Heavy-Metal Complexes': an orbital-analysis/localization methodology paper (CAS(18,18) as illustration), not a specific-compound active-space study of interest -> not_usable."
+2026-07-24T19:17:19Z,W4320888381,10.1146/annurev-physchem-102822-100945,mark,not_usable,"'Modeling Excited States of Molecular Organic Aggregates for Optoelectronics': an aggregate/nanocrystal-modeling methodology paper using a minimal (2,3) active space for azobenzene CIs. Method paper (exciton/aggregate modeling), trivial active space -> not_usable."
+2026-07-24T19:17:19Z,W4361013263,10.1039/d2cs00719c,mark,not_usable,"'From a one-mode to a multi-mode understanding of conical-intersection-mediated ultrafast organic photochemical reactions': a conceptual/methodology perspective on CI models (CASPT2 on model molecules as illustration), not a specific-compound active-space study -> not_usable."
