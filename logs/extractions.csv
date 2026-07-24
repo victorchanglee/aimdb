@@ -7826,3 +7826,26 @@ timestamp,key,doi,action,result,reasoning
 2026-07-24T14:25:20Z,W2584411359,10.1038/ncomms14137,mark,extracted,f-block/TM complex CASSCF/CASPT2/DMRG covalency or magnetism; compound + active space captured (see literature.csv).
 2026-07-24T14:25:20Z,W4384663156,10.1038/s41467-023-39626-8,mark,extracted,f-block/TM complex CASSCF/CASPT2/DMRG covalency or magnetism; compound + active space captured (see literature.csv).
 2026-07-24T14:25:20Z,W2891599729,10.1021/acs.jpclett.8b02412,mark,extracted_partial,Th(IV) actinide covalency ground-vs-core-excited X-ray via RAS multireference. Recorded; RAS active space (not simple CAS) so nel/norb left empty. extracted_partial.
+2026-07-24T14:27:59Z,W2963067806-a,10.1021/acs.jpca.9b03708,add-row,appended,f-block CASSCF extraction.
+2026-07-24T14:27:59Z,W2516345736-a,10.1039/c6dt02537d,add-row,appended,f-block CASSCF extraction.
+2026-07-24T14:27:59Z,W2885895997-a,10.1038/s41467-018-05587-6,add-row,appended,f-block CASSCF extraction.
+2026-07-24T14:28:00Z,W2565978403-a,10.1038/nchem.2692,add-row,appended,f-block CASSCF extraction.
+2026-07-24T14:28:00Z,W3212917821-a,10.1021/acs.inorgchem.1c02374,add-row,appended,f-block CASSCF extraction.
+2026-07-24T14:28:00Z,W2268601013-a,10.1039/c6sc00278a,add-row,appended,f-block CASSCF extraction.
+2026-07-24T14:28:00Z,W2901992149-a,10.1021/acs.inorgchem.8b02700,add-row,appended,f-block CASSCF extraction.
+2026-07-24T14:28:00Z,W2730611881-a,10.1039/c7sc01998j,add-row,appended,f-block CASSCF extraction.
+2026-07-24T14:28:01Z,W3035867031-a,10.1002/ejic.202000383,add-row,appended,f-block CASSCF extraction.
+2026-07-24T14:28:01Z,W4382198385-a,10.1021/acs.inorgchem.3c00536,add-row,appended,f-block CASSCF extraction.
+2026-07-24T14:28:17Z,W2963067806,10.1021/acs.jpca.9b03708,mark,extracted,"Tb(III) SMMs multireference magnetic-anisotropy study; CAS(8,7) Tb 4f8. Lanthanide. One row."
+2026-07-24T14:28:17Z,W2516345736,10.1039/c6dt02537d,mark,extracted,"Muffin-shaped N5O2-macrocycle Dy(III) SMM; CAS(9,7)/MOLCAS SINGLE_ANISO. Lanthanide. One row."
+2026-07-24T14:28:17Z,W2885895997,10.1038/s41467-018-05587-6,mark,extracted_partial,f-block magnetism/covalency (Ln SMM / An covalency / actinyl / diuranium); compound+method+metal captured but exact CASSCF/RAS active space not pinned in the extracted text. extracted_partial.
+2026-07-24T14:28:18Z,W2565978403,10.1038/nchem.2692,mark,extracted_partial,f-block magnetism/covalency (Ln SMM / An covalency / actinyl / diuranium); compound+method+metal captured but exact CASSCF/RAS active space not pinned in the extracted text. extracted_partial.
+2026-07-24T14:28:18Z,W3212917821,10.1021/acs.inorgchem.1c02374,mark,extracted_partial,f-block magnetism/covalency (Ln SMM / An covalency / actinyl / diuranium); compound+method+metal captured but exact CASSCF/RAS active space not pinned in the extracted text. extracted_partial.
+2026-07-24T14:28:18Z,W2268601013,10.1039/c6sc00278a,mark,extracted_partial,f-block magnetism/covalency (Ln SMM / An covalency / actinyl / diuranium); compound+method+metal captured but exact CASSCF/RAS active space not pinned in the extracted text. extracted_partial.
+2026-07-24T14:28:18Z,W2901992149,10.1021/acs.inorgchem.8b02700,mark,extracted_partial,f-block magnetism/covalency (Ln SMM / An covalency / actinyl / diuranium); compound+method+metal captured but exact CASSCF/RAS active space not pinned in the extracted text. extracted_partial.
+2026-07-24T14:28:18Z,W2730611881,10.1039/c7sc01998j,mark,extracted_partial,f-block magnetism/covalency (Ln SMM / An covalency / actinyl / diuranium); compound+method+metal captured but exact CASSCF/RAS active space not pinned in the extracted text. extracted_partial.
+2026-07-24T14:28:19Z,W3035867031,10.1002/ejic.202000383,mark,extracted_partial,f-block magnetism/covalency (Ln SMM / An covalency / actinyl / diuranium); compound+method+metal captured but exact CASSCF/RAS active space not pinned in the extracted text. extracted_partial.
+2026-07-24T14:28:19Z,W4382198385,10.1021/acs.inorgchem.3c00536,mark,extracted_partial,f-block magnetism/covalency (Ln SMM / An covalency / actinyl / diuranium); compound+method+metal captured but exact CASSCF/RAS active space not pinned in the extracted text. extracted_partial.
+2026-07-24T14:28:19Z,W4401814523,10.1038/s41570-024-00641-y,mark,not_usable,"'Understanding covalency in molecular f-block compounds from the synergy of spectroscopy and quantum chemistry' - a Nature Reviews Chemistry REVIEW article citing others' CASSCF/RAS results, not a specific-compound calculation -> not_usable (reviews)."
+2026-07-24T14:28:19Z,W3193965747,10.1103/physrevb.105.144401,mark,not_usable,"'Multipolar exchange interaction and complex order in insulating lanthanides': bulk-material (solid-state) magnetism (unquenched orbital momentum, magnetic order in insulating lanthanide crystals). Condensed-matter material, not a molecular coordination complex -> out of scope. not_usable."
+2026-07-24T14:28:19Z,W4388656053,10.1063/5.0168996,mark,not_usable,Analytical nonadiabatic coupling and state-specific energy gradient for the crystal-field Hamiltonian: analytic-derivative method-development paper -> not_usable.
