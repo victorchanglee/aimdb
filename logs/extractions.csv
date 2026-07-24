@@ -7504,3 +7504,30 @@ timestamp,key,doi,action,result,reasoning
 2026-07-24T01:43:53Z,W4236471937,10.21203/rs.3.rs-215500/v1,mark,not_usable,"In silico electronic properties of phosphorene monoflakes and bilayers. 2D-material (phosphorene) study, not a molecular TM complex nor an organic molecule -> out of scope. not_usable."
 2026-07-24T01:43:53Z,W4288279659,10.48550/arxiv.1907.10186,mark,not_usable,"Electronic structure of first/second-row ATOMS under harmonic confinement. Atomic-physics (confined atoms) study, not a molecule/complex -> out of scope. not_usable."
 2026-07-24T01:43:53Z,W4399730162,10.31274/td-20240617-153,mark,not_usable,"'4f: The quantum levels' - a PhD dissertation (CASSCF and VQE for 4f levels). Thesis / method, not a primary specific-compound publication -> not_usable."
+2026-07-24T01:47:57Z,W7159797647-a,10.1126/sciadv.aed8682,add-row,appended,Final batch: organic/lanthanide CASSCF extraction.
+2026-07-24T01:47:57Z,W7125801984-a,10.21203/rs.3.rs-8689370/v1,add-row,appended,Final batch: organic/lanthanide CASSCF extraction.
+2026-07-24T01:47:57Z,W4410416390-a,10.21203/rs.3.rs-6547757/v1,add-row,appended,Final batch: organic/lanthanide CASSCF extraction.
+2026-07-24T01:47:58Z,W7163417873-a,10.1021/jacsau.5c01496,add-row,appended,Final batch: organic/lanthanide CASSCF extraction.
+2026-07-24T01:47:58Z,W3173226121-a,10.11606/d.43.2021.tde-05042021-113659,add-row,appended,Final batch: organic/lanthanide CASSCF extraction.
+2026-07-24T01:47:58Z,W4400534826-a,10.3390/molecules29143274,add-row,appended,Final batch: organic/lanthanide CASSCF extraction.
+2026-07-24T01:47:58Z,W4406418885-a,10.21203/rs.3.rs-5795718/v1,add-row,appended,Final batch: organic/lanthanide CASSCF extraction.
+2026-07-24T01:47:58Z,W4412515009-a,10.21203/rs.3.rs-7102700/v1,add-row,appended,Final batch: organic/lanthanide CASSCF extraction.
+2026-07-24T01:47:59Z,W7131820007-a,10.17223/24135542/32/8,add-row,appended,Final batch: organic/lanthanide CASSCF extraction.
+2026-07-24T01:48:35Z,W7159797647,10.1126/sciadv.aed8682,mark,extracted,Extracted (see literature.csv); CASSCF active space and method captured.
+2026-07-24T01:48:35Z,W7125801984,10.21203/rs.3.rs-8689370/v1,mark,extracted,Extracted (see literature.csv); CASSCF active space and method captured.
+2026-07-24T01:48:35Z,W4410416390,10.21203/rs.3.rs-6547757/v1,mark,extracted,Extracted (see literature.csv); CASSCF active space and method captured.
+2026-07-24T01:48:36Z,W7163417873,10.1021/jacsau.5c01496,mark,extracted,Extracted (see literature.csv); CASSCF active space and method captured.
+2026-07-24T01:48:36Z,W3173226121,10.11606/d.43.2021.tde-05042021-113659,mark,extracted,Extracted (see literature.csv); CASSCF active space and method captured.
+2026-07-24T01:48:36Z,W4400534826,10.3390/molecules29143274,mark,extracted,Extracted (see literature.csv); CASSCF active space and method captured.
+2026-07-24T01:48:36Z,W4406418885,10.21203/rs.3.rs-5795718/v1,mark,extracted,Extracted (see literature.csv); CASSCF active space and method captured.
+2026-07-24T01:48:36Z,W4412515009,10.21203/rs.3.rs-7102700/v1,mark,extracted,Extracted (see literature.csv); CASSCF active space and method captured.
+2026-07-24T01:48:37Z,W7131820007,10.17223/24135542/32/7,mark,extracted,Extracted (see literature.csv); CASSCF active space and method captured.
+2026-07-24T01:48:37Z,W7155376301,10.21203/rs.3.rs-9278975/v2,mark,not_usable,"Systematic screening of brain neurotransmitter enzymes for the radical-pair mechanism (Nature-type biology screening). CASSCF(2,2)/NEVPT2 is a minor supporting analysis (Extended Data) across many enzymes, not a specific-compound active-space study with a meaningful space -> not_usable."
+2026-07-24T01:48:37Z,W3082330717,10.3389/fchem.2021.603019,mark,not_usable,"Quantum Solvers for Plane-Wave Hamiltonians (abridging virtual spaces) - duplicate of W4287682745, a quantum-computing/algorithm method paper -> not_usable."
+2026-07-24T01:48:37Z,W4406785426,10.48550/arxiv.2501.13371,mark,not_usable,Non-unitary Variational Quantum Eigensolver with the Localized Active Space method: quantum-computing/algorithm method-development paper -> not_usable.
+2026-07-24T01:48:37Z,W320304306,10.70675/52516983zfc8az430bza1efz462f257c9b7b,mark,not_usable,CASSCF/MRCI with spin-orbit effects for diatomic molecules (HAL). Diatomic spectroscopy -> out of scope. not_usable.
+2026-07-24T01:48:38Z,W7143376786,10.1021/acsomega.5c13316,mark,not_usable,'Can Accretion Products Be Formed at the Interface of Freshly Nucleated Particles': atmospheric aerosol ROOR' accretion-pathway mechanism study (DFT-focused); no clear specific-compound CASSCF active space of interest -> not_usable.
+2026-07-24T01:48:38Z,W2883729517,10.4995/thesis/10251/105782,mark,not_usable,"PhD thesis (UPV): Photochemistry of 1,3-Dicarbonyl Compounds: DNA Photodamage vs Photoprotection. Thesis whose primary results are published elsewhere as papers -> not_usable (consistent with other theses)."
+2026-07-24T01:48:38Z,W4308969634,10.4995/thesis/10251/189688,mark,not_usable,PhD thesis (UPV): Photoreactivity of DNA Etheno Adducts. Thesis whose primary results are published elsewhere -> not_usable (consistent with other theses).
+2026-07-24T01:48:38Z,W4404907563,10.7498/aps.74.20241435,mark,not_usable,MRCI+Q study of the spectroscopic constants / spin-orbit coupling of a diatomic molecule (Chinese). Diatomic spectroscopy -> out of scope. not_usable.
+2026-07-24T01:48:38Z,W4405528429,10.2172/2481274,mark,not_usable,"DOE BES Final Technical Report on electronic-structure methods and protocols (project report exploring limitations of multireference/MRCI methods). Funding/method report, not a specific-compound study -> not_usable."
