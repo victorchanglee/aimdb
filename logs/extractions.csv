@@ -7732,3 +7732,97 @@ timestamp,key,doi,action,result,reasoning
 2026-07-24T14:15:47Z,W1908170464,10.1063/1.1839854,mark,not_usable,"'Comparison of density functionals for energy and structural properties': DFT-assessment paper using CASPT2/SORCI as reference on TM complexes. DFT-benchmark method paper (diffuse, per-complex spaces) -> not_usable."
 2026-07-24T14:15:47Z,W2611414724,10.1039/c7cp01263b,mark,not_usable,"Assessment of electronic-structure methods for ground spin states of Fe(II)/(III)/(IV): DFT-assessment benchmark on the Fe2+ ion, FeO diatomic and 14 polyatomic Fe complexes using CASPT2/DMC as reference. DFT-benchmark method paper (diffuse) -> not_usable."
 2026-07-24T14:15:48Z,W4383871968,10.1063/5.0157187,mark,not_usable,"DFT benchmark on 95 experimentally-characterized Fe(II) complexes with CASPT2 used to select the optimal DFT functional. Large DFT-assessment/benchmark method paper (CASPT2 as reference, diffuse) -> not_usable."
+2026-07-24T14:16:07Z,W2110275123,10.1021/jacs.5b00382,fetch,fetched,2833528 bytes from https://www.osti.gov/servlets/purl/2311154
+2026-07-24T14:16:13Z,W2769325165,10.1002/chem.201704854,fetch,fetch_failed,HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/chem.201704854
+2026-07-24T14:16:20Z,W2568191866,10.1021/acs.jpca.6b11930,fetch,fetched,2542212 bytes from https://dspace.mit.edu/bitstream/1721.1/113022/1/Ioannidis_OA.pdf
+2026-07-24T14:16:27Z,W2565978403,10.1038/nchem.2692,fetch,fetched,471776 bytes from https://eprints.lancs.ac.uk/id/eprint/83370/1/NatureChem_Pulsed_2016_AIP_final.pdf
+2026-07-24T14:16:35Z,W2584411359,10.1038/ncomms14137,fetch,fetched,1195912 bytes from https://www.nature.com/articles/ncomms14137.pdf
+2026-07-24T14:16:37Z,W2891599729,10.1021/acs.jpclett.8b02412,fetch,fetched,5323552 bytes from https://www.osti.gov/servlets/purl/2479697
+2026-07-24T14:16:39Z,W3042494034,10.1038/s41586-020-2479-2,fetch,fetched,1167215 bytes from https://www.osti.gov/servlets/purl/2370431
+2026-07-24T14:16:40Z,W3212917821,10.1021/acs.inorgchem.1c02374,fetch,fetched,716380 bytes from https://www.osti.gov/servlets/purl/2479712
+2026-07-24T14:16:52Z,W2100352694,10.1039/c3ra47088a,fetch,fetch_failed,ValueError: response is not a PDF (probably an HTML landing page)
+2026-07-24T14:16:54Z,W2268601013,10.1039/c6sc00278a,fetch,fetched,970112 bytes from https://pubs.rsc.org/en/content/articlepdf/2016/sc/c6sc00278a
+2026-07-24T14:16:56Z,W2901992149,10.1021/acs.inorgchem.8b02700,fetch,fetched,1934551 bytes from https://www.osti.gov/servlets/purl/1566500
+2026-07-24T14:16:57Z,W2911977704,10.3390/magnetochemistry5010015,fetch,fetch_failed,HTTPError: 403 Client Error: Forbidden for url: https://www.mdpi.com/2312-7481/5/1/15/pdf?version=1550394405
+2026-07-24T14:17:03Z,W2101111489,10.3390/inorganics3040482,fetch,fetch_failed,HTTPError: 403 Client Error: Forbidden for url: https://www.mdpi.com/2304-6740/3/4/482/pdf?version=1447068376
+2026-07-24T14:17:04Z,W4200089368,10.1038/s41467-021-27576-y,fetch,fetched,2127285 bytes from https://www.nature.com/articles/s41467-021-27576-y.pdf
+2026-07-24T14:17:09Z,W2730611881,10.1039/c7sc01998j,fetch,fetched,1283228 bytes from https://pubs.rsc.org/en/content/articlepdf/2017/sc/c7sc01998j
+2026-07-24T14:17:11Z,W2137396062,10.1038/nchem.1896,fetch,fetch_failed,ValueError: response is not a PDF (probably an HTML landing page)
+2026-07-24T14:17:13Z,W4401814523,10.1038/s41570-024-00641-y,fetch,fetched,687834 bytes from https://pure.manchester.ac.uk/ws/files/344294986/REV_Kaltsoyannis_NATREVCHEM-23-217_v5_edit_Nikolas_Kaltsoyannis_2_.pdf
+2026-07-24T14:17:14Z,W2884186545,10.1021/acs.inorgchem.8b01450,fetch,fetch_failed,ValueError: response is not a PDF (probably an HTML landing page)
+2026-07-24T14:17:16Z,W3035867031,10.1002/ejic.202000383,fetch,fetched,2626602 bytes from https://pure.manchester.ac.uk/ws/files/170817959/EJIC_AnCb_Minireview.pdf
+2026-07-24T14:17:18Z,W4384663156,10.1038/s41467-023-39626-8,fetch,fetched,1544731 bytes from https://www.nature.com/articles/s41467-023-39626-8.pdf
+2026-07-24T14:17:24Z,W4396948987,10.1021/jacs.4c01930,fetch,fetch_failed,"SSLError: HTTPSConnectionPool(host='pubs.acs.org', port=443): Max retries exceeded with url: /doi/pdf/10.1021/jacs.4c01930 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)')))"
+2026-07-24T14:17:26Z,W2917508586,10.3390/inorganics7030026,fetch,fetch_failed,HTTPError: 403 Client Error: Forbidden for url: https://www.mdpi.com/2304-6740/7/3/26/pdf?version=1551170247
+2026-07-24T14:17:27Z,W4407561967,10.1021/acs.inorgchem.4c04570,fetch,fetch_failed,"SSLError: HTTPSConnectionPool(host='pubs.acs.org', port=443): Max retries exceeded with url: /doi/pdf/10.1021/acs.inorgchem.4c04570 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)')))"
+2026-07-24T14:17:28Z,W3019275772,10.1002/qua.26254,fetch,fetched,1175494 bytes from https://www.osti.gov/servlets/purl/1802141
+2026-07-24T14:17:35Z,W4293147412,10.1007/978-3-031-31038-6_5,fetch,fetched,781067 bytes from https://hal.science/hal-03761147v1/document
+2026-07-24T14:17:37Z,W2321893305,10.1021/ja308146e,fetch,fetch_failed,ValueError: response is not a PDF (probably an HTML landing page)
+2026-07-24T14:17:47Z,W2097764239,10.1002/jcc.24221,fetch,fetch_failed,ValueError: response is not a PDF (probably an HTML landing page)
+2026-07-24T14:17:53Z,W3033513062,10.1063/5.0004835,fetch,fetch_failed,ValueError: response is not a PDF (probably an HTML landing page)
+2026-07-24T14:17:59Z,W2963701598,10.1002/jcc.25113,fetch,fetch_failed,HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/jcc.25113
+2026-07-24T14:18:06Z,W2564336558,10.1021/acs.inorgchem.6b02312,fetch,fetch_failed,ValueError: response is not a PDF (probably an HTML landing page)
+2026-07-24T14:18:07Z,W4391321990,10.1021/jacs.3c12427,fetch,fetch_failed,"SSLError: HTTPSConnectionPool(host='pubs.acs.org', port=443): Max retries exceeded with url: /doi/pdf/10.1021/jacs.3c12427 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)')))"
+2026-07-24T14:18:09Z,W2963067806,10.1021/acs.jpca.9b03708,fetch,fetched,2062029 bytes from https://arxiv.org/pdf/1905.10635
+2026-07-24T14:18:10Z,W3193965747,10.1103/physrevb.105.144401,fetch,fetched,4659167 bytes from https://arxiv.org/pdf/2011.09626
+2026-07-24T14:18:13Z,W2767057727,10.1039/c7dt03441e,fetch,fetched,2938967 bytes from https://pubs.rsc.org/en/content/articlepdf/2017/dt/c7dt03441e
+2026-07-24T14:18:14Z,W2516345736,10.1039/c6dt02537d,fetch,fetched,1498747 bytes from https://pubs.rsc.org/en/content/articlepdf/2016/dt/c6dt02537d
+2026-07-24T14:18:16Z,W2885895997,10.1038/s41467-018-05587-6,fetch,fetched,961570 bytes from https://www.nature.com/articles/s41467-018-05587-6.pdf
+2026-07-24T14:18:23Z,W4316653938,10.1021/acs.cgd.2c01234,fetch,fetched,1685106 bytes from https://hal.science/hal-03972925v1/document
+2026-07-24T14:18:29Z,W4404259386,10.1021/acs.inorgchem.4c03281,fetch,fetch_failed,"SSLError: HTTPSConnectionPool(host='pubs.acs.org', port=443): Max retries exceeded with url: /doi/10.1021/acs.inorgchem.4c03281 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)')))"
+2026-07-24T14:18:31Z,W2803762822,10.1021/acs.inorgchem.8b00427,fetch,fetch_failed,HTTPError: 404 Client Error: Not found for url: https://diposit.ub.edu/dspace/bitstream/2445/154822/1/681814.pdf
+2026-07-24T14:18:33Z,W4388656053,10.1063/5.0168996,fetch,fetched,2273490 bytes from https://www.osti.gov/servlets/purl/2369462
+2026-07-24T14:18:41Z,W3096153042,10.1039/d0sc04871b,fetch,fetch_failed,ValueError: response is not a PDF (probably an HTML landing page)
+2026-07-24T14:18:50Z,W4240227765,10.1002/ange.201903681,fetch,fetch_failed,ValueError: response is not a PDF (probably an HTML landing page)
+2026-07-24T14:18:51Z,W4293105066,10.1002/chem.202201883,fetch,fetch_failed,HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/chem.202201883
+2026-07-24T14:18:57Z,W4382198385,10.1021/acs.inorgchem.3c00536,fetch,fetched,1825611 bytes from https://cea.hal.science/cea-04146130v1/file/Article_MS2-V6.pdf
+2026-07-24T14:19:04Z,W3133990202,10.1039/d0dt04168h,fetch,fetched,3630170 bytes from https://pubs.rsc.org/en/content/articlepdf/2021/dt/d0dt04168h
+2026-07-24T14:19:31Z,W2110275123,10.1021/jacs.5b00382,text,text_ready,35 pages -> W2110275123.txt
+2026-07-24T14:19:33Z,W2568191866,10.1021/acs.jpca.6b11930,text,text_ready,35 pages -> W2568191866.txt
+2026-07-24T14:19:33Z,W2565978403,10.1038/nchem.2692,text,text_ready,13 pages -> W2565978403.txt
+2026-07-24T14:19:34Z,W2584411359,10.1038/ncomms14137,text,text_ready,12 pages -> W2584411359.txt
+2026-07-24T14:19:35Z,W2891599729,10.1021/acs.jpclett.8b02412,text,text_ready,21 pages -> W2891599729.txt
+2026-07-24T14:19:36Z,W3042494034,10.1038/s41586-020-2479-2,text,text_ready,22 pages -> W3042494034.txt
+2026-07-24T14:19:37Z,W3212917821,10.1021/acs.inorgchem.1c02374,text,text_ready,35 pages -> W3212917821.txt
+2026-07-24T14:19:38Z,W2268601013,10.1039/c6sc00278a,text,text_ready,12 pages -> W2268601013.txt
+2026-07-24T14:19:39Z,W2901992149,10.1021/acs.inorgchem.8b02700,text,text_ready,10 pages -> W2901992149.txt
+2026-07-24T14:19:39Z,W4200089368,10.1038/s41467-021-27576-y,text,text_ready,9 pages -> W4200089368.txt
+2026-07-24T14:19:40Z,W2730611881,10.1039/c7sc01998j,text,text_ready,11 pages -> W2730611881.txt
+2026-07-24T14:19:41Z,W4401814523,10.1038/s41570-024-00641-y,text,text_ready,26 pages -> W4401814523.txt
+2026-07-24T14:19:43Z,W3035867031,10.1002/ejic.202000383,text,text_ready,13 pages -> W3035867031.txt
+2026-07-24T14:19:44Z,W4384663156,10.1038/s41467-023-39626-8,text,text_ready,10 pages -> W4384663156.txt
+2026-07-24T14:19:45Z,W3019275772,10.1002/qua.26254,text,text_ready,26 pages -> W3019275772.txt
+2026-07-24T14:19:46Z,W4293147412,10.1007/978-3-031-31038-6_5,text,text_ready,42 pages -> W4293147412.txt
+2026-07-24T14:19:47Z,W2963067806,10.1021/acs.jpca.9b03708,text,text_ready,37 pages -> W2963067806.txt
+2026-07-24T14:19:54Z,W3193965747,10.1103/physrevb.105.144401,text,text_ready,96 pages -> W3193965747.txt
+2026-07-24T14:19:55Z,W2767057727,10.1039/c7dt03441e,text,text_ready,12 pages -> W2767057727.txt
+2026-07-24T14:19:56Z,W2516345736,10.1039/c6dt02537d,text,text_ready,8 pages -> W2516345736.txt
+2026-07-24T14:19:56Z,W2885895997,10.1038/s41467-018-05587-6,text,text_ready,10 pages -> W2885895997.txt
+2026-07-24T14:19:58Z,W4316653938,10.1021/acs.cgd.2c01234,text,text_ready,24 pages -> W4316653938.txt
+2026-07-24T14:20:00Z,W4388656053,10.1063/5.0168996,text,text_ready,25 pages -> W4388656053.txt
+2026-07-24T14:20:01Z,W4382198385,10.1021/acs.inorgchem.3c00536,text,text_ready,37 pages -> W4382198385.txt
+2026-07-24T14:20:02Z,W3133990202,10.1039/d0dt04168h,text,text_ready,13 pages -> W3133990202.txt
+2026-07-24T14:25:06Z,W2568191866-a,10.1021/acs.jpca.6b11930,add-row,appended,f-block/TM CASSCF extraction.
+2026-07-24T14:25:06Z,W2110275123-a,10.1021/jacs.5b00382,add-row,appended,f-block/TM CASSCF extraction.
+2026-07-24T14:25:06Z,W3042494034-a,10.1038/s41586-020-2479-2,add-row,appended,f-block/TM CASSCF extraction.
+2026-07-24T14:25:06Z,W3019275772-a,10.1002/qua.26254,add-row,appended,f-block/TM CASSCF extraction.
+2026-07-24T14:25:07Z,W4293147412-a,10.1007/978-3-031-31038-6_5,add-row,appended,f-block/TM CASSCF extraction.
+2026-07-24T14:25:07Z,W4200089368-a,10.1038/s41467-021-27576-y,add-row,appended,f-block/TM CASSCF extraction.
+2026-07-24T14:25:07Z,W4316653938-a,10.1021/acs.cgd.2c01234,add-row,appended,f-block/TM CASSCF extraction.
+2026-07-24T14:25:07Z,W3133990202-a,10.1039/d0dt04168h,add-row,appended,f-block/TM CASSCF extraction.
+2026-07-24T14:25:07Z,W2767057727-a,10.1039/c7dt03441e,add-row,appended,f-block/TM CASSCF extraction.
+2026-07-24T14:25:08Z,W2584411359-a,10.1038/ncomms14137,add-row,appended,f-block/TM CASSCF extraction.
+2026-07-24T14:25:08Z,W2891599729-a,10.1021/acs.jpclett.8b02412,add-row,appended,f-block/TM CASSCF extraction.
+2026-07-24T14:25:08Z,W4384663156-a,10.1038/s41467-023-39626-8,add-row,appended,f-block/TM CASSCF extraction.
+2026-07-24T14:25:18Z,W2568191866,10.1021/acs.jpca.6b11930,mark,extracted,f-block/TM complex CASSCF/CASPT2/DMRG covalency or magnetism; compound + active space captured (see literature.csv).
+2026-07-24T14:25:18Z,W2110275123,10.1021/jacs.5b00382,mark,extracted,f-block/TM complex CASSCF/CASPT2/DMRG covalency or magnetism; compound + active space captured (see literature.csv).
+2026-07-24T14:25:18Z,W3042494034,10.1038/s41586-020-2479-2,mark,extracted,f-block/TM complex CASSCF/CASPT2/DMRG covalency or magnetism; compound + active space captured (see literature.csv).
+2026-07-24T14:25:18Z,W3019275772,10.1002/qua.26254,mark,extracted,f-block/TM complex CASSCF/CASPT2/DMRG covalency or magnetism; compound + active space captured (see literature.csv).
+2026-07-24T14:25:19Z,W4293147412,10.1007/978-3-031-31038-6_5,mark,extracted,f-block/TM complex CASSCF/CASPT2/DMRG covalency or magnetism; compound + active space captured (see literature.csv).
+2026-07-24T14:25:19Z,W4200089368,10.1038/s41467-021-27576-y,mark,extracted,f-block/TM complex CASSCF/CASPT2/DMRG covalency or magnetism; compound + active space captured (see literature.csv).
+2026-07-24T14:25:19Z,W4316653938,10.1021/acs.cgd.2c01234,mark,extracted,f-block/TM complex CASSCF/CASPT2/DMRG covalency or magnetism; compound + active space captured (see literature.csv).
+2026-07-24T14:25:19Z,W3133990202,10.1039/d0dt04168h,mark,extracted,f-block/TM complex CASSCF/CASPT2/DMRG covalency or magnetism; compound + active space captured (see literature.csv).
+2026-07-24T14:25:19Z,W2767057727,10.1039/c7dt03441e,mark,extracted,f-block/TM complex CASSCF/CASPT2/DMRG covalency or magnetism; compound + active space captured (see literature.csv).
+2026-07-24T14:25:20Z,W2584411359,10.1038/ncomms14137,mark,extracted,f-block/TM complex CASSCF/CASPT2/DMRG covalency or magnetism; compound + active space captured (see literature.csv).
+2026-07-24T14:25:20Z,W4384663156,10.1038/s41467-023-39626-8,mark,extracted,f-block/TM complex CASSCF/CASPT2/DMRG covalency or magnetism; compound + active space captured (see literature.csv).
+2026-07-24T14:25:20Z,W2891599729,10.1021/acs.jpclett.8b02412,mark,extracted_partial,Th(IV) actinide covalency ground-vs-core-excited X-ray via RAS multireference. Recorded; RAS active space (not simple CAS) so nel/norb left empty. extracted_partial.
