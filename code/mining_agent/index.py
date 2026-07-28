@@ -68,6 +68,40 @@ def add_candidates(found):
     return added
 
 
+def find_pdf(row):
+    """Locate a row's PDF on disk, wherever it currently sits.
+
+    Prefers the recorded pdf_path, then papers/pending/<key>.pdf, then
+    papers/mined/<key>.pdf (and the legacy flat papers/<key>.pdf), so the
+    index self-heals after files are moved by hand.
+    """
+    candidates = []
+    if row.get("pdf_path"):
+        candidates.append(config.abs_path(row["pdf_path"]))
+    name = f"{row['key']}.pdf"
+    candidates += [config.PAPERS_PENDING_DIR / name,
+                   config.PAPERS_MINED_DIR / name,
+                   config.PAPERS_DIR / name]
+    for path in candidates:
+        if path and path.exists():
+            return path
+    return None
+
+
+def move_to_mined(row):
+    """Move a read paper's PDF into papers/mined/ and return the new path
+    (or None if there is no file to move). Idempotent."""
+    src = find_pdf(row)
+    if src is None:
+        return None
+    dest = config.PAPERS_MINED_DIR / f"{row['key']}.pdf"
+    if src.resolve() == dest.resolve():
+        return dest
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    src.replace(dest)
+    return dest
+
+
 def set_status(key, status, **fields):
     if status not in config.INDEX_STATUSES:
         raise ValueError(f"unknown status {status!r}")
@@ -81,6 +115,11 @@ def set_status(key, status, **fields):
         if name not in config.INDEX_COLUMNS:
             raise ValueError(f"unknown index column {name!r}")
         row[name] = value
+    # A paper that has been read moves out of the pending queue.
+    if status in config.MINED_STATUSES:
+        moved = move_to_mined(row)
+        if moved is not None:
+            row["pdf_path"] = config.rel_path(moved)
     save(rows)
     return row
 

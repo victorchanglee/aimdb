@@ -181,6 +181,39 @@ def cmd_contributions(args):
                   f"[{r.get('submitted_at','')}]")
 
 
+def cmd_tidy(args):
+    """Reconcile papers/pending/ and papers/mined/ with the index."""
+    rows = index.load()
+    moved = relinked = 0
+    for row in rows:
+        found = index.find_pdf(row)
+        if found is None:
+            continue
+        if row["status"] in config.MINED_STATUSES:
+            dest = index.move_to_mined(row)
+            if dest is not None and str(dest) != str(found):
+                moved += 1
+                print(f"  -> mined/  {row['key']}  ({row['status']})")
+            found = dest or found
+        rel = config.rel_path(found)
+        if rel != row["pdf_path"]:
+            row["pdf_path"] = rel
+            relinked += 1
+    if moved or relinked:
+        index.save(rows)
+    n_pending = len(list(config.PAPERS_PENDING_DIR.glob("*.pdf")))
+    n_mined = len(list(config.PAPERS_MINED_DIR.glob("*.pdf")))
+    print(f"moved {moved} PDF(s) to mined/, repaired {relinked} path(s)")
+    print(f"papers/pending: {n_pending} PDF(s)   papers/mined: {n_mined} PDF(s)")
+    untracked = sorted(
+        p.stem for p in config.PAPERS_PENDING_DIR.glob("*.pdf")
+        if index.get(rows, p.stem) is None)
+    if untracked:
+        print(f"{len(untracked)} pending PDF(s) not in the index "
+              f"(added by hand): {', '.join(untracked[:5])}"
+              + (" ..." if len(untracked) > 5 else ""))
+
+
 def cmd_show(args):
     row = index.get(index.load(), args.key)
     if row is None:
@@ -255,6 +288,11 @@ def main():
     p.add_argument("--list", action="store_true",
                    help="list pending contributions")
     p.set_defaults(func=cmd_contributions)
+
+    p = sub.add_parser("tidy", help="reconcile papers/pending and papers/mined "
+                                    "with the index (move read papers, repair "
+                                    "stale paths)")
+    p.set_defaults(func=cmd_tidy)
 
     p = sub.add_parser("show", help="print one index entry")
     p.add_argument("--key", required=True)

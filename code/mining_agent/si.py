@@ -35,7 +35,7 @@ def _session():
 
 
 def si_dir(key):
-    return config.PAPERS_DIR / "si" / key
+    return config.SI_DIR / key
 
 
 def fetch_si(row):

@@ -19,7 +19,7 @@ def fetch_one(row, session=None):
     if not url:
         index.set_status(row["key"], "fetch_failed")
         return False, "no OA URL in index"
-    dest = config.PAPERS_DIR / f"{row['key']}.pdf"
+    dest = config.PAPERS_PENDING_DIR / f"{row['key']}.pdf"
     try:
         resp = session.get(url, timeout=120, stream=True,
                            allow_redirects=True)
@@ -41,7 +41,8 @@ def fetch_one(row, session=None):
         index.log_extraction(row["key"], row["doi"], "fetch", "fetch_failed",
                              f"{type(exc).__name__}: {exc}")
         return False, str(exc)
-    index.set_status(row["key"], "fetched", pdf_path=str(dest))
+    index.set_status(row["key"], "fetched",
+                     pdf_path=config.rel_path(dest))
     index.log_extraction(row["key"], row["doi"], "fetch", "fetched",
                          f"{size} bytes from {url}")
     return True, str(dest)
@@ -103,14 +104,14 @@ def refetch_failed(max_papers=None, only_key=None):
 def _refetch_one(row, session):
     """Recover one fetch_failed row; returns (recovered, detail)."""
     urls = search.openalex_all_pdf_urls(row["doi"])
-    dest = config.PAPERS_DIR / f"{row['key']}.pdf"
+    dest = config.PAPERS_PENDING_DIR / f"{row['key']}.pdf"
     details = []
     for url in urls:
         success, detail = _try_url(session, url, dest)
         details.append(detail)
         time.sleep(config.REQUEST_INTERVAL)
         if success:
-            index.set_status(row["key"], "fetched", pdf_path=str(dest),
+            index.set_status(row["key"], "fetched", pdf_path=config.rel_path(dest),
                              oa_pdf_url=url)
             index.log_extraction(row["key"], row["doi"], "refetch",
                                  "fetched", detail)

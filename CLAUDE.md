@@ -22,13 +22,26 @@ text is judgment work, not regex work.
 code/mining_agent/            Python implementation (search/fetch/text/csv helpers)
 database/literature.csv       output database (schema diverged from claude-casscf 2026-07-28, see above)
 database/papers_index.csv     one row per candidate paper: doi, title, status, paths
-papers/<key>.pdf              downloaded PDFs (gitignored — do not commit)
+papers/pending/<key>.pdf      downloaded PDFs still to be read (gitignored)
+papers/mined/<key>.pdf        PDFs already read and judged (gitignored)
+papers/si/<key>/              supplementary information (gitignored)
 text/<key>.txt                extracted text (gitignored — do not commit)
 logs/extractions.csv          append-only audit log, one row per decision
 ```
 
 Run all `python -m mining_agent ...` commands from `code/` with
 `code/.venv/bin/python`.
+
+**The pending/mined queues.** `fetch` downloads into `papers/pending/`.
+The moment a paper reaches a status meaning it has been read and judged —
+`extracted`, `extracted_partial`, `not_usable`, `text_unreadable`
+(`config.MINED_STATUSES`) — `index.set_status()` moves its PDF to
+`papers/mined/` and rewrites `pdf_path`. So **`papers/pending/` always shows
+exactly the work still to do**; never move these files by hand. Index paths
+are stored *relative to the project root* so renaming the project doesn't
+break them. `python -m mining_agent tidy` reconciles the two directories
+with the index (moves stragglers, repairs stale paths, and reports pending
+PDFs that were added by hand and aren't in the index).
 
 ## The loop, one paper at a time
 

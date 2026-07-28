@@ -11,9 +11,9 @@ from . import config, index
 
 def extract_text(row):
     """Extract text for an index row; returns (ok, detail)."""
-    pdf_path = row["pdf_path"]
-    if not pdf_path:
-        return False, "no pdf_path in index (fetch first)"
+    pdf_path = index.find_pdf(row)
+    if pdf_path is None:
+        return False, "no PDF on disk for this key (fetch first)"
     dest = config.TEXT_DIR / f"{row['key']}.txt"
     try:
         reader = PdfReader(pdf_path)
@@ -32,7 +32,7 @@ def extract_text(row):
                              "text_unreadable",
                              f"{type(exc).__name__}: {exc}")
         return False, str(exc)
-    index.set_status(row["key"], "text_ready", text_path=str(dest))
+    index.set_status(row["key"], "text_ready", text_path=config.rel_path(dest))
     index.log_extraction(row["key"], row["doi"], "text", "text_ready",
                          f"{len(reader.pages)} pages -> {dest.name}")
     return True, str(dest)

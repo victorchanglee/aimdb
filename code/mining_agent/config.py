@@ -10,6 +10,12 @@ PROJECT_ROOT = CODE_DIR.parent
 
 DATABASE_DIR = PROJECT_ROOT / "database"
 PAPERS_DIR = PROJECT_ROOT / "papers"
+# Downloaded PDFs live in one of two queues: pending/ until the paper has been
+# read and judged, then mined/. index.set_status() moves the file across
+# automatically when a paper reaches one of MINED_STATUSES.
+PAPERS_PENDING_DIR = PAPERS_DIR / "pending"
+PAPERS_MINED_DIR = PAPERS_DIR / "mined"
+SI_DIR = PAPERS_DIR / "si"
 TEXT_DIR = PROJECT_ROOT / "text"
 LOGS_DIR = PROJECT_ROOT / "logs"
 
@@ -87,7 +93,35 @@ INDEX_STATUSES = {
     "text_unreadable", "extracted", "extracted_partial", "not_usable",
 }
 
+# Statuses meaning "this paper has been read and judged" — whatever the
+# verdict. Reaching one of these moves the PDF from papers/pending/ to
+# papers/mined/, so pending/ always shows exactly the work still to do.
+MINED_STATUSES = {
+    "extracted", "extracted_partial", "not_usable", "text_unreadable",
+}
+
 
 def ensure_layout():
-    for d in (DATABASE_DIR, PAPERS_DIR, TEXT_DIR, LOGS_DIR):
+    for d in (DATABASE_DIR, PAPERS_DIR, PAPERS_PENDING_DIR, PAPERS_MINED_DIR,
+              TEXT_DIR, LOGS_DIR):
         d.mkdir(parents=True, exist_ok=True)
+
+
+def rel_path(path):
+    """Store paths relative to PROJECT_ROOT so renaming or moving the project
+    never invalidates the index (absolute paths did break on the 2026-07-28
+    rename)."""
+    path = Path(path)
+    try:
+        return str(path.resolve().relative_to(PROJECT_ROOT))
+    except ValueError:
+        return str(path)
+
+
+def abs_path(stored):
+    """Resolve a stored (relative or legacy-absolute) path against the
+    project root."""
+    if not stored:
+        return None
+    path = Path(stored)
+    return path if path.is_absolute() else PROJECT_ROOT / path
