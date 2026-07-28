@@ -183,6 +183,11 @@
       </select>
     </div>
     <div class="ptable-head">
+      <span>Filter by entry source</span>
+      <span class="clear-els" id="clearTypes" hidden>Clear ✕</span>
+    </div>
+    <div class="chips" id="typeChips"></div>
+    <div class="ptable-head">
       <span>Filter by correlation correction</span>
       <span class="clear-els" id="clearCorrs" hidden>Clear ✕</span>
     </div>
@@ -273,6 +278,14 @@ DATA.forEach(r => corrTokens(r).forEach(c => corrCount[c] = (corrCount[c]||0)+1)
 const corrOrder = Object.keys(corrCount).sort((a,b)=>
   (a==="none")-(b==="none") || corrCount[b]-corrCount[a] || a.localeCompare(b));
 
+// ---- entry-source facet counts ----
+const TYPE_CANON = ["llm_mining", "llm_reproduced", "human"];
+const typeCount = {};
+DATA.forEach(r => { const t=r.entry_type||""; if(t) typeCount[t]=(typeCount[t]||0)+1; });
+// canonical types first (fixed order), then any unexpected values.
+const typeOrder = TYPE_CANON.filter(t=>typeCount[t])
+  .concat(Object.keys(typeCount).filter(t=>!TYPE_CANON.includes(t)).sort());
+
 // ---- periodic table layout: [symbol, row, col] ----
 const PTABLE_MAIN = [
   ["H",1,1],["He",1,18],
@@ -294,7 +307,7 @@ const PTABLE_F = [
   ["Bk",2,11],["Cf",2,12],["Es",2,13],["Fm",2,14],["Md",2,15],["No",2,16],["Lr",2,17],
 ];
 
-const state = { q:"", scope:"all", sort:"year_desc", els:new Set(), corrs:new Set() };
+const state = { q:"", scope:"all", sort:"year_desc", els:new Set(), corrs:new Set(), types:new Set() };
 
 function pelCell([sym,row,col]){
   const n = elCount[sym]||0;
@@ -342,6 +355,16 @@ function renderCorrChips(){
     `<span class="chip ${state.corrs.has(c)?'on':''}" data-corr="${esc(c)}">${esc(c)}<span class="n">${corrCount[c]}</span></span>`
   ).join("");
   $("#clearCorrs").hidden = state.corrs.size===0;
+}
+function matchesType(r){
+  if(state.types.size===0) return true;
+  return state.types.has(r.entry_type||"");
+}
+function renderTypeChips(){
+  $("#typeChips").innerHTML = typeOrder.map(t =>
+    `<span class="chip ${state.types.has(t)?'on':''}" data-type="${esc(t)}">${esc(ENTRY_TYPE_LABELS[t]||t)}<span class="n">${typeCount[t]}</span></span>`
+  ).join("");
+  $("#clearTypes").hidden = state.types.size===0;
 }
 
 function highlight(text){
@@ -427,7 +450,7 @@ function entryTag(r){
 }
 
 function render(){
-  const active = !!(state.q || state.els.size || state.corrs.size);
+  const active = !!(state.q || state.els.size || state.corrs.size || state.types.size);
   $("#hero").classList.toggle("compact", active);
   $("#emptyState").hidden = active;
   $("#meta").hidden = !active;
@@ -435,7 +458,7 @@ function render(){
   $("#sort").hidden = !active;
   if(!active){ $("#tbody").innerHTML = ""; return; }
 
-  let rows = DATA.filter(r=>matchesText(r) && matchesEls(r) && matchesCorr(r));
+  let rows = DATA.filter(r=>matchesText(r) && matchesEls(r) && matchesCorr(r) && matchesType(r));
   rows.sort((a,b)=>{
     if(state.sort==="name") return (a.compound_name||"").localeCompare(b.compound_name||"");
     const ya=+a.year||0, yb=+b.year||0;
@@ -482,6 +505,13 @@ $("#corrChips").addEventListener("click", e=>{
   renderCorrChips(); render();
 });
 $("#clearCorrs").addEventListener("click", ()=>{ state.corrs.clear(); renderCorrChips(); render(); });
+$("#typeChips").addEventListener("click", e=>{
+  const c=e.target.closest(".chip"); if(!c) return;
+  const t=c.dataset.type;
+  state.types.has(t) ? state.types.delete(t) : state.types.add(t);
+  renderTypeChips(); render();
+});
+$("#clearTypes").addEventListener("click", ()=>{ state.types.clear(); renderTypeChips(); render(); });
 
 // ---- periodic table show/hide (persisted) ----
 const PT_KEY = "aimdb_ptable_hidden";
@@ -507,9 +537,9 @@ $("#tbody").addEventListener("click", e=>{
   if(d) d.hidden=!d.hidden;
 });
 $("#clear").addEventListener("click", ()=>{
-  state.q=""; state.els.clear(); state.corrs.clear(); state.scope="all";
+  state.q=""; state.els.clear(); state.corrs.clear(); state.types.clear(); state.scope="all";
   $("#q").value=""; $("#scope").value="all";
-  renderChips(); renderCorrChips(); render();
+  renderChips(); renderCorrChips(); renderTypeChips(); render();
 });
 
 // ---- sidebar nav ----
@@ -523,9 +553,9 @@ function showView(name){
 document.querySelectorAll(".nav-item").forEach(b=>{
   b.addEventListener("click", ()=>{
     if(b.dataset.view==="home"){
-      state.q=""; state.els.clear(); state.corrs.clear(); state.scope="all";
+      state.q=""; state.els.clear(); state.corrs.clear(); state.types.clear(); state.scope="all";
       $("#q").value=""; $("#scope").value="all";
-      renderChips(); renderCorrChips(); render();
+      renderChips(); renderCorrChips(); renderTypeChips(); render();
     }
     showView(b.dataset.view);
   });
@@ -566,6 +596,7 @@ if(!window.LIT){
     `${DATA.length} multireference calculations · ${elOrder.length} elements · last update ${window.LIT.generated}`;
   renderChips();
   renderCorrChips();
+  renderTypeChips();
   render();
 
   // dataset view stats
