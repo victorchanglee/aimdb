@@ -83,6 +83,13 @@
   .tag-llm_mining{color:var(--accent);border-color:var(--accent);background:rgba(47,111,237,.08)}
   .tag-llm_reproduced{color:var(--accent2);border-color:var(--accent2);background:rgba(13,148,136,.10)}
   .tag-human{color:var(--warn);border-color:var(--warn);background:rgba(180,83,9,.08)}
+  .meta-actions{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+  .dl-btn{padding:5px 12px;border-radius:7px;border:1px solid var(--accent);background:var(--accent);
+    color:#fff;font-size:12.5px;font-weight:600;cursor:pointer}
+  .dl-btn:hover{filter:brightness(1.06)}
+  #selCount{color:var(--accent);font-size:12.5px;cursor:pointer;user-select:none}
+  .selcell{width:32px;text-align:center;padding-right:2px}
+  .selcell input{cursor:pointer;width:15px;height:15px;accent-color:var(--accent);margin:0}
   .doi a{color:var(--accent);text-decoration:none}
   .doi a:hover{text-decoration:underline}
   .detail td{background:var(--panel);padding:0}
@@ -207,10 +214,15 @@
   <div class="empty-state" id="emptyState">Search a compound, formula, or element — or click an element above — to browse the database.</div>
   <div class="meta" id="meta" hidden>
     <span id="count"></span>
-    <span class="clear" id="clear" hidden>Clear all filters ✕</span>
+    <span class="meta-actions">
+      <span id="selCount" title="Click to clear selection"></span>
+      <button id="downloadBtn" class="dl-btn" type="button">⬇ Download CSV</button>
+      <span class="clear" id="clear" hidden>Clear all filters ✕</span>
+    </span>
   </div>
   <table id="table" hidden>
     <thead><tr>
+      <th class="selcell"><input type="checkbox" id="selAll" title="Select all shown"></th>
       <th>Compound</th><th>Formula</th><th>Element(s)</th>
       <th>Method</th><th>Active space</th><th>Year</th><th>Reference</th>
     </tr></thead>
@@ -307,7 +319,7 @@ const PTABLE_F = [
   ["Bk",2,11],["Cf",2,12],["Es",2,13],["Fm",2,14],["Md",2,15],["No",2,16],["Lr",2,17],
 ];
 
-const state = { q:"", scope:"all", sort:"year_desc", els:new Set(), corrs:new Set(), types:new Set() };
+const state = { q:"", scope:"all", sort:"year_desc", els:new Set(), corrs:new Set(), types:new Set(), selected:new Set() };
 
 function pelCell([sym,row,col]){
   const n = elCount[sym]||0;
@@ -469,6 +481,7 @@ function render(){
     const doi = r.reference_doi ? `<a href="https://doi.org/${esc(r.reference_doi)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(r.reference_short||r.reference_doi)}</a>` : esc(r.reference_short||"");
     const formula = r.formula ? `<span class="formula">${highlight(r.formula)}</span>` : '<span class="empty">—</span>';
     return `<tr class="row" data-i="${i}">
+      <td class="selcell"><input type="checkbox" class="rowsel" data-id="${esc(r.entry_id)}" ${state.selected.has(r.entry_id)?"checked":""}></td>
       <td class="name">${highlight(r.compound_name)} ${entryTag(r)}</td>
       <td>${formula}</td>
       <td>${elBadges(r)}</td>
@@ -477,12 +490,47 @@ function render(){
       <td>${esc(r.year)}</td>
       <td class="doi">${doi}</td>
     </tr>
-    <tr class="detail" data-d="${i}" hidden><td colspan="7">${detail(r,i)}</td></tr>`;
+    <tr class="detail" data-d="${i}" hidden><td colspan="8">${detail(r,i)}</td></tr>`;
   }).join("");
   $("#count").textContent = `${rows.length} of ${DATA.length} entries`;
   $("#clear").hidden = false;
-  // store filtered rows for expand handler
+  // store filtered rows for expand/selection/download handlers
   tb._rows = rows;
+  updateSelUI();
+}
+
+// ---- selection + CSV download ----
+function updateSelUI(){
+  const rows = $("#tbody")._rows || [];
+  const nSel = state.selected.size;
+  const visSel = rows.filter(r=>state.selected.has(r.entry_id)).length;
+  const selAll = $("#selAll");
+  selAll.checked = rows.length>0 && visSel===rows.length;
+  selAll.indeterminate = visSel>0 && visSel<rows.length;
+  $("#selCount").textContent = nSel ? `${nSel} selected ✕` : "";
+  $("#downloadBtn").textContent = nSel ? `⬇ Download ${nSel} selected` : `⬇ Download all ${rows.length}`;
+}
+function csvField(v){
+  v = (v==null ? "" : String(v));
+  return /[",\n\r]/.test(v) ? '"'+v.replace(/"/g,'""')+'"' : v;
+}
+function downloadCSV(){
+  const rows = $("#tbody")._rows || [];
+  // Selected entries if any; otherwise everything currently filtered.
+  const chosen = state.selected.size
+    ? DATA.filter(r=>state.selected.has(r.entry_id))
+    : rows;
+  if(!chosen.length) return;
+  const cols = window.LIT.fields;   // exact literature.csv columns
+  const lines = [cols.map(csvField).join(",")];
+  chosen.forEach(r=> lines.push(cols.map(c=>csvField(r[c])).join(",")));
+  const blob = new Blob([lines.join("\r\n")+"\r\n"], {type:"text/csv;charset=utf-8"});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = `aimdb_${state.selected.size?"selected":"all"}_${new Date().toISOString().slice(0,10)}.csv`;
+  document.body.appendChild(a); a.click(); a.remove();
+  URL.revokeObjectURL(url);
 }
 
 // ---- events ----
@@ -532,10 +580,32 @@ $("#tbody").addEventListener("click", e=>{
     if(r) reportEntry(r);
     return;
   }
+  if(e.target.closest(".selcell")) return;   // checkbox clicks don't expand
   const tr=e.target.closest("tr.row"); if(!tr) return;
   const d=$(`tr.detail[data-d="${tr.dataset.i}"]`);
   if(d) d.hidden=!d.hidden;
 });
+// row checkbox toggles (delegated)
+$("#tbody").addEventListener("change", e=>{
+  const cb = e.target.closest(".rowsel"); if(!cb) return;
+  cb.checked ? state.selected.add(cb.dataset.id) : state.selected.delete(cb.dataset.id);
+  updateSelUI();
+});
+// select-all (all currently filtered rows)
+$("#selAll").addEventListener("change", e=>{
+  const rows = $("#tbody")._rows || [];
+  rows.forEach(r=> e.target.checked ? state.selected.add(r.entry_id) : state.selected.delete(r.entry_id));
+  $("#tbody").querySelectorAll(".rowsel").forEach(cb=>{ cb.checked = state.selected.has(cb.dataset.id); });
+  updateSelUI();
+});
+// click the "N selected" label to clear the selection
+$("#selCount").addEventListener("click", ()=>{
+  if(!state.selected.size) return;
+  state.selected.clear();
+  $("#tbody").querySelectorAll(".rowsel").forEach(cb=>{ cb.checked = false; });
+  updateSelUI();
+});
+$("#downloadBtn").addEventListener("click", downloadCSV);
 $("#clear").addEventListener("click", ()=>{
   state.q=""; state.els.clear(); state.corrs.clear(); state.types.clear(); state.scope="all";
   $("#q").value=""; $("#scope").value="all";
