@@ -1,7 +1,6 @@
-# claude-casscf-data_mining
+# AIMdb: Artificial Intelligence multireference database
 
-Literature mining companion to [casscf-agent](https://github.com/victorchanglee/casscf-agent):
-finds open-access papers containing CASSCF/RASSCF/CASPT2/NEVPT2 calculations
+Finds open-access papers containing CASSCF/RASSCF/CASPT2/NEVPT2 calculations
 on transition-metal complexes via the [OpenAlex](https://openalex.org) API,
 downloads and text-extracts the PDFs, and transforms them into rows of
 `database/literature.csv` — schema-identical to the decision agent's
