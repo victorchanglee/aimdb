@@ -6,16 +6,9 @@
 <title>AIMdb: Artificial Intelligence database</title>
 <style>
   :root{
-    --bg:#0f1115; --panel:#171a21; --panel2:#1e222b; --border:#2a2f3a;
-    --text:#e6e8ee; --muted:#9aa3b2; --accent:#6ea8fe; --accent2:#7ee0c0;
-    --chip:#232936; --chip-on:#2f6fed; --shadow:0 1px 3px rgba(0,0,0,.4);
-  }
-  @media (prefers-color-scheme: light){
-    :root{
-      --bg:#f6f7f9; --panel:#ffffff; --panel2:#f0f2f6; --border:#dde1e8;
-      --text:#1a1d24; --muted:#5b6472; --accent:#2f6fed; --accent2:#0d9488;
-      --chip:#eceef3; --chip-on:#2f6fed; --shadow:0 1px 3px rgba(20,30,60,.08);
-    }
+    --bg:#ffffff; --panel:#ffffff; --panel2:#f3f4f7; --border:#e2e5eb;
+    --text:#1a1d24; --muted:#5b6472; --accent:#2f6fed; --accent2:#0d9488;
+    --chip:#eef0f4; --chip-on:#2f6fed; --warn:#b45309; --shadow:0 1px 3px rgba(20,30,60,.08);
   }
   *{box-sizing:border-box}
   body{margin:0;background:var(--bg);color:var(--text);
@@ -24,8 +17,21 @@
   h1{font-size:20px;margin:0 0 2px;letter-spacing:.2px}
   .sub{color:var(--muted);font-size:13px}
   .wrap{max-width:1200px;margin:0 auto;padding:0 24px 60px;}
-  .controls{position:sticky;top:0;background:var(--bg);padding:12px 0;z-index:5;
-    border-bottom:1px solid var(--border);}
+  .hero{max-width:720px;margin:0 auto;padding:14vh 24px 32px;text-align:center;
+    transition:padding .25s ease}
+  .hero.compact{padding:28px 24px 8px}
+  .logo{font-size:44px;font-weight:700;letter-spacing:-.5px;margin:0 0 8px;
+    background:linear-gradient(135deg,var(--accent),var(--accent2));
+    -webkit-background-clip:text;background-clip:text;color:transparent}
+  .hero.compact .logo{font-size:26px;margin-bottom:2px}
+  .tagline{color:var(--muted);font-size:15px;margin:0 0 6px}
+  .hero.compact .tagline{display:none}
+  .hero-count{color:var(--muted);font-size:12.5px;margin:0 0 22px;opacity:.85}
+  .hero.compact .hero-count{margin-bottom:10px}
+  .stats{color:var(--muted);font-size:12.5px;margin-top:14px;opacity:.75}
+  .empty-state{max-width:640px;margin:8px auto 0;text-align:center;color:var(--muted);
+    font-size:13.5px;padding:18px 12px}
+  .controls{background:var(--bg);padding:12px 0;border-bottom:1px solid var(--border);}
   .searchrow{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
   input[type=search]{flex:1;min-width:240px;padding:10px 12px;border-radius:8px;
     border:1px solid var(--border);background:var(--panel);color:var(--text);font-size:15px;outline:none}
@@ -37,12 +43,34 @@
     background:var(--chip);color:var(--text);cursor:pointer;font-size:12.5px;user-select:none}
   .chip.on{background:var(--chip-on);border-color:var(--chip-on);color:#fff}
   .chip .n{opacity:.6;margin-left:5px;font-variant-numeric:tabular-nums}
+  .ptable-head{display:flex;align-items:center;justify-content:space-between;gap:12px;
+    margin-top:14px;color:var(--muted);font-size:12px}
+  .ptable-head .head-actions{display:flex;align-items:center;gap:14px}
+  .ptable-head .clear-els{color:var(--accent);cursor:pointer;user-select:none}
+  .ptable-head .pt-toggle{color:var(--accent);cursor:pointer;user-select:none}
+  .ptable-wrap{margin-top:6px}
+  .ptable-wrap.collapsed{display:none}
+  .ptable,.ptable-f{display:grid;grid-template-columns:repeat(18,minmax(0,1fr));gap:2px}
+  .ptable-f{margin-top:6px}
+  .pel{aspect-ratio:1;display:flex;flex-direction:column;align-items:center;justify-content:center;
+    border-radius:4px;border:1px solid var(--border);background:var(--chip);cursor:pointer;
+    user-select:none;font-size:11px;font-weight:700;line-height:1.15;padding:1px;color:var(--text);overflow:hidden}
+  .pel .n{font-size:7.5px;font-weight:500;opacity:.65;font-variant-numeric:tabular-nums}
+  @media(max-width:640px){
+    .pel{font-size:8px;border-radius:3px}
+    .pel .n{font-size:6px}
+    .ptable,.ptable-f{gap:1.5px}
+  }
+  .pel.zero{opacity:.3;cursor:default}
+  .pel.on{background:var(--chip-on);border-color:var(--chip-on);color:#fff}
+  .pel:hover:not(.zero){border-color:var(--accent)}
   .meta{color:var(--muted);font-size:12.5px;margin:10px 0 4px;display:flex;
     justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+  .meta[hidden]{display:none}
   .clear{color:var(--accent);cursor:pointer}
   table{width:100%;border-collapse:collapse;font-size:13px}
   thead th{text-align:left;color:var(--muted);font-weight:600;padding:8px 10px;
-    border-bottom:1px solid var(--border);position:sticky;top:64px;background:var(--bg);white-space:nowrap}
+    border-bottom:1px solid var(--border);background:var(--bg);white-space:nowrap}
   tbody tr.row{border-bottom:1px solid var(--border);cursor:pointer}
   tbody tr.row:hover{background:var(--panel2)}
   td{padding:9px 10px;vertical-align:top}
@@ -59,16 +87,78 @@
   .field .k{color:var(--muted);font-size:11.5px;text-transform:uppercase;letter-spacing:.4px}
   .field .v{white-space:pre-wrap;word-break:break-word}
   .field.wide{grid-column:1/-1}
+  .report-row{grid-column:1/-1;display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+    padding-top:12px;margin-top:4px;border-top:1px solid var(--border)}
+  .report-btn{padding:6px 12px;border-radius:6px;border:1px solid var(--warn);background:transparent;
+    color:var(--warn);font-size:12.5px;font-weight:600;cursor:pointer}
+  .report-btn:hover{background:var(--warn);color:#fff}
+  .report-hint{color:var(--muted);font-size:11.5px}
   mark{background:rgba(110,168,254,.35);color:inherit;border-radius:2px;padding:0 1px}
   .empty{color:var(--muted);font-style:italic}
   .none{opacity:.5}
+
+  /* ---- sidebar ---- */
+  .sidebar-toggle{position:fixed;top:14px;left:14px;z-index:30;width:34px;height:34px;
+    border-radius:8px;border:1px solid var(--border);background:var(--panel);color:var(--text);
+    cursor:pointer;font-size:15px;display:flex;align-items:center;justify-content:center;box-shadow:var(--shadow)}
+  .sidebar{position:fixed;top:0;left:0;bottom:0;width:210px;background:var(--panel);
+    border-right:1px solid var(--border);padding:60px 12px 14px;transition:transform .2s ease;
+    z-index:25;overflow-y:auto}
+  body.sidebar-hidden .sidebar{transform:translateX(-100%)}
+  .sidebar-logo{font-weight:700;font-size:17px;letter-spacing:-.3px;margin:0 8px 16px;
+    background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;
+    background-clip:text;color:transparent}
+  .nav-item{display:block;width:100%;text-align:left;padding:9px 12px;border-radius:7px;border:none;
+    background:transparent;color:var(--text);font-size:13.5px;cursor:pointer;margin-bottom:2px;font:inherit}
+  .nav-item:hover{background:var(--panel2)}
+  .nav-item.active{background:var(--chip-on);color:#fff;font-weight:600}
+  .sidebar-backdrop{display:none}
+  .page{margin-left:210px;transition:margin-left .2s ease}
+  body.sidebar-hidden .page{margin-left:0}
+  @media(max-width:760px){
+    .page{margin-left:0}
+    .sidebar{transform:translateX(-100%)}
+    body:not(.sidebar-hidden) .sidebar{transform:translateX(0);box-shadow:2px 0 16px rgba(0,0,0,.2)}
+    body:not(.sidebar-hidden) .sidebar-backdrop{display:block;position:fixed;inset:0;
+      background:rgba(0,0,0,.3);z-index:20}
+  }
+
+  /* ---- info views (dataset / cite / license) ---- */
+  .view-panel{max-width:720px;margin:0 auto;padding:64px 24px 60px}
+  .view-panel h2{font-size:22px;margin:0 0 6px}
+  .view-panel .view-sub{color:var(--muted);font-size:13.5px;margin:0 0 22px}
+  .view-panel p{font-size:14px;line-height:1.65;margin:0 0 14px}
+  .view-panel a{color:var(--accent)}
+  .stat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin:20px 0}
+  .stat-card{border:1px solid var(--border);border-radius:10px;padding:14px;text-align:center}
+  .stat-card .num{font-size:22px;font-weight:700;color:var(--accent)}
+  .stat-card .lbl{font-size:11px;color:var(--muted);margin-top:3px}
+  .code-block{background:var(--panel2);border:1px solid var(--border);border-radius:8px;
+    padding:14px 16px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12.5px;
+    white-space:pre-wrap;word-break:break-word;margin:0 0 8px}
+  .copy-btn{padding:6px 12px;border-radius:6px;border:1px solid var(--border);
+    background:var(--panel);color:var(--text);font-size:12px;cursor:pointer;margin-bottom:22px}
+  .copy-btn:hover{border-color:var(--accent)}
 </style>
 </head>
 <body>
-<header>
-  <h1>AIMdb: Artificial Intelligence database</h1>
-  <div class="sub" id="subtitle">Loading…</div>
-</header>
+<button class="sidebar-toggle" id="sidebarToggle" aria-label="Toggle menu" title="Toggle menu">☰</button>
+<div class="sidebar-backdrop" id="sidebarBackdrop"></div>
+<nav class="sidebar" id="sidebar">
+  <div class="sidebar-logo">AIMdb</div>
+  <button class="nav-item active" type="button" data-view="home">Home</button>
+  <button class="nav-item" type="button" data-view="dataset">Dataset</button>
+  <button class="nav-item" type="button" data-view="cite">How to cite</button>
+  <button class="nav-item" type="button" data-view="license">License</button>
+</nav>
+
+<div class="page" id="page">
+<div id="view-home">
+<div class="hero" id="hero">
+  <div class="logo">AIMdb</div>
+  <div class="tagline">Artificial Intelligence multireference database</div>
+  <div class="hero-count" id="heroCount">Loading…</div>
+</div>
 <div class="wrap">
   <div class="controls">
     <div class="searchrow">
@@ -81,26 +171,74 @@
         <option value="method">Method</option>
         <option value="reference_short">Reference</option>
       </select>
-      <select id="sort" title="Sort order">
+      <select id="sort" title="Sort order" hidden>
         <option value="year_desc">Year ↓</option>
         <option value="year_asc">Year ↑</option>
         <option value="name">Name A–Z</option>
       </select>
     </div>
-    <div class="chips" id="elementChips"></div>
+    <div class="ptable-head">
+      <span>Filter by element (click any number to select multiple)</span>
+      <div class="head-actions">
+        <span class="clear-els" id="clearEls" hidden>Clear elements ✕</span>
+        <span class="pt-toggle" id="ptToggle">Hide periodic table ▲</span>
+      </div>
+    </div>
+    <div class="ptable-wrap" id="ptableWrap">
+      <div class="ptable" id="ptable"></div>
+      <div class="ptable-f" id="ptableF"></div>
+    </div>
   </div>
-  <div class="meta">
+  <div class="empty-state" id="emptyState">Search a compound, formula, or element — or click an element above — to browse the database.</div>
+  <div class="meta" id="meta" hidden>
     <span id="count"></span>
     <span class="clear" id="clear" hidden>Clear all filters ✕</span>
   </div>
-  <table>
+  <table id="table" hidden>
     <thead><tr>
       <th>Compound</th><th>Formula</th><th>Element(s)</th>
       <th>Method</th><th>Active space</th><th>Year</th><th>Reference</th>
     </tr></thead>
     <tbody id="tbody"></tbody>
   </table>
+  <div class="stats" id="stats"></div>
 </div>
+</div><!-- /view-home -->
+
+<div class="view-panel" id="view-dataset" hidden>
+  <h2>Dataset</h2>
+  <p class="view-sub">A machine-mined reference set of multireference (CASSCF-family) calculations, extracted from the open-access literature.</p>
+  <div class="stat-grid">
+    <div class="stat-card"><div class="num" id="dsCompounds">—</div><div class="lbl">compound entries</div></div>
+    <div class="stat-card"><div class="num" id="dsPapers">—</div><div class="lbl">source papers</div></div>
+    <div class="stat-card"><div class="num" id="dsElements">—</div><div class="lbl">elements covered</div></div>
+    <div class="stat-card"><div class="num" id="dsYears">—</div><div class="lbl">year range</div></div>
+  </div>
+  <p>Each row is one compound + method result: CASSCF, RASSCF, CASPT2, RASPT2, NEVPT2, DMRG, or MRCI, on either a transition-metal complex or a metal-free organic molecule. Every stored value is copied verbatim from the paper — nothing is inferred or estimated — so each entry is traceable back to a specific statement in a specific publication. See <code>CLAUDE.md</code> in the repository for the exact extraction policy.</p>
+  <p>Raw data: <a href="https://github.com/victorchanglee/aimdb/blob/main/database/literature.csv" target="_blank" rel="noopener">database/literature.csv</a> on GitHub.</p>
+</div>
+
+<div class="view-panel" id="view-cite" hidden>
+  <h2>How to cite</h2>
+  <p class="view-sub">If AIMdb was useful in your work, please cite it as:</p>
+  <div class="code-block" id="citeText">Lee, V. C. AIMdb: an AI-mined database of CASSCF-family multireference calculations. <span id="citeYear">2026</span>. https://github.com/victorchanglee/aimdb</div>
+  <button class="copy-btn" data-target="citeText">Copy</button>
+  <div class="code-block" id="citeBibtex">@misc{aimdb,
+  author       = {Lee, Victor Chang},
+  title        = {{AIMdb}: An {AI}-mined database of {CASSCF}-family multireference calculations},
+  year         = {<span id="citeYearBib">2026</span>},
+  howpublished = {\url{https://github.com/victorchanglee/aimdb}}
+}</div>
+  <button class="copy-btn" data-target="citeBibtex">Copy</button>
+</div>
+
+<div class="view-panel" id="view-license" hidden>
+  <h2>License</h2>
+  <p class="view-sub">Creative Commons Attribution 4.0 International (CC BY 4.0)</p>
+  <p>The compiled database, documentation, and website content in this repository are licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>. You are free to share and adapt this material for any purpose, including commercially, as long as you give appropriate credit, link to the license, and indicate if changes were made.</p>
+  <p>This does <strong>not</strong> cover the copyrighted text of the mined source PDFs themselves — only the structured data extracted from them. The full text is available as <code>LICENSE</code> in the repository root.</p>
+</div>
+</div><!-- /page -->
 
 <script src="data.js"></script>
 <script>
@@ -113,13 +251,40 @@ const elCount = {};
 DATA.forEach(r => (r._elements||[]).forEach(e => elCount[e] = (elCount[e]||0)+1));
 const elOrder = Object.keys(elCount).sort((a,b)=>elCount[b]-elCount[a] || a.localeCompare(b));
 
+// ---- periodic table layout: [symbol, row, col] ----
+const PTABLE_MAIN = [
+  ["H",1,1],["He",1,18],
+  ["Li",2,1],["Be",2,2],["B",2,13],["C",2,14],["N",2,15],["O",2,16],["F",2,17],["Ne",2,18],
+  ["Na",3,1],["Mg",3,2],["Al",3,13],["Si",3,14],["P",3,15],["S",3,16],["Cl",3,17],["Ar",3,18],
+  ["K",4,1],["Ca",4,2],["Sc",4,3],["Ti",4,4],["V",4,5],["Cr",4,6],["Mn",4,7],["Fe",4,8],["Co",4,9],
+  ["Ni",4,10],["Cu",4,11],["Zn",4,12],["Ga",4,13],["Ge",4,14],["As",4,15],["Se",4,16],["Br",4,17],["Kr",4,18],
+  ["Rb",5,1],["Sr",5,2],["Y",5,3],["Zr",5,4],["Nb",5,5],["Mo",5,6],["Tc",5,7],["Ru",5,8],["Rh",5,9],
+  ["Pd",5,10],["Ag",5,11],["Cd",5,12],["In",5,13],["Sn",5,14],["Sb",5,15],["Te",5,16],["I",5,17],["Xe",5,18],
+  ["Cs",6,1],["Ba",6,2],["La",6,3],["Hf",6,4],["Ta",6,5],["W",6,6],["Re",6,7],["Os",6,8],["Ir",6,9],
+  ["Pt",6,10],["Au",6,11],["Hg",6,12],["Tl",6,13],["Pb",6,14],["Bi",6,15],["Po",6,16],["At",6,17],["Rn",6,18],
+  ["Fr",7,1],["Ra",7,2],["Ac",7,3],["Rf",7,4],["Db",7,5],["Sg",7,6],["Bh",7,7],["Hs",7,8],["Mt",7,9],
+  ["Ds",7,10],["Rg",7,11],["Cn",7,12],["Nh",7,13],["Fl",7,14],["Mc",7,15],["Lv",7,16],["Ts",7,17],["Og",7,18],
+];
+const PTABLE_F = [
+  ["Ce",1,4],["Pr",1,5],["Nd",1,6],["Pm",1,7],["Sm",1,8],["Eu",1,9],["Gd",1,10],
+  ["Tb",1,11],["Dy",1,12],["Ho",1,13],["Er",1,14],["Tm",1,15],["Yb",1,16],["Lu",1,17],
+  ["Th",2,4],["Pa",2,5],["U",2,6],["Np",2,7],["Pu",2,8],["Am",2,9],["Cm",2,10],
+  ["Bk",2,11],["Cf",2,12],["Es",2,13],["Fm",2,14],["Md",2,15],["No",2,16],["Lr",2,17],
+];
+
 const state = { q:"", scope:"all", sort:"year_desc", els:new Set() };
 
+function pelCell([sym,row,col]){
+  const n = elCount[sym]||0;
+  const cls = ["pel", n===0?"zero":"", state.els.has(sym)?"on":""].filter(Boolean).join(" ");
+  return `<div class="${cls}" data-el="${sym}" style="grid-row:${row};grid-column:${col}" title="${sym} — ${n} compound${n===1?"":"s"}">
+    <div>${sym}</div><div class="n">${n}</div>
+  </div>`;
+}
 function renderChips(){
-  const box = $("#elementChips");
-  box.innerHTML = elOrder.map(e =>
-    `<span class="chip ${state.els.has(e)?'on':''}" data-el="${e}">${e}<span class="n">${elCount[e]}</span></span>`
-  ).join("");
+  $("#ptable").innerHTML = PTABLE_MAIN.map(pelCell).join("");
+  $("#ptableF").innerHTML = PTABLE_F.map(pelCell).join("");
+  $("#clearEls").hidden = state.els.size===0;
 }
 
 function matchesText(r){
@@ -141,8 +306,8 @@ function matchesText(r){
 function matchesEls(r){
   if(state.els.size===0) return true;
   const set = new Set(r._elements||[]);
-  for(const e of state.els) if(!set.has(e)) return false; // AND semantics
-  return true;
+  for(const e of state.els) if(set.has(e)) return true; // OR semantics
+  return false;
 }
 
 function highlight(text){
@@ -177,7 +342,24 @@ function activeSpace(r){
   const n=r.active_space_nel, o=r.active_space_norb;
   return (n||o) ? `(${n||"?"}e, ${o||"?"}o)` : "";
 }
-function detail(r){
+const REPORT_EMAIL = "victorchanglee@gmail.com";
+function reportEntry(r){
+  const label = r.compound_name || r.entry_id || "this entry";
+  const reason = prompt(`What's wrong with "${label}"? (brief description — e.g. wrong active space, misread DOI, needs a human check)`, "");
+  if(reason===null) return; // cancelled
+  const subject = `AIMdb report: ${label}`;
+  const body = [
+    `Entry ID: ${r.entry_id||"—"}`,
+    `Compound: ${r.compound_name||"—"}`,
+    `Formula: ${r.formula||"—"}`,
+    `DOI: ${r.reference_doi||"—"}`,
+    "",
+    "Issue:",
+    reason.trim() || "(no description provided)",
+  ].join("\n");
+  window.location.href = `mailto:${REPORT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+}
+function detail(r, i){
   const fields = (window.LIT.fields||[]).filter(f=>!HIDE.has(f));
   const cells = fields.map(f=>{
     let v = r[f];
@@ -186,7 +368,11 @@ function detail(r){
     const cls = WIDE.has(f) ? "field wide" : "field";
     return `<div class="${cls}"><div class="k">${esc(FIELD_LABELS[f]||f)}</div><div class="v">${v}</div></div>`;
   }).join("");
-  return `<div class="detailinner">${cells}</div>`;
+  const report = `<div class="report-row">
+    <button class="report-btn" type="button" data-i="${i}">⚑ Report this entry</button>
+    <span class="report-hint">Flag if this looks wrong or needs a human check — opens an email to the maintainer.</span>
+  </div>`;
+  return `<div class="detailinner">${cells}${report}</div>`;
 }
 
 function elBadges(r){
@@ -196,6 +382,14 @@ function elBadges(r){
 }
 
 function render(){
+  const active = !!(state.q || state.els.size);
+  $("#hero").classList.toggle("compact", active);
+  $("#emptyState").hidden = active;
+  $("#meta").hidden = !active;
+  $("#table").hidden = !active;
+  $("#sort").hidden = !active;
+  if(!active){ $("#tbody").innerHTML = ""; return; }
+
   let rows = DATA.filter(r=>matchesText(r) && matchesEls(r));
   rows.sort((a,b)=>{
     if(state.sort==="name") return (a.compound_name||"").localeCompare(b.compound_name||"");
@@ -215,11 +409,10 @@ function render(){
       <td>${esc(r.year)}</td>
       <td class="doi">${doi}</td>
     </tr>
-    <tr class="detail" data-d="${i}" hidden><td colspan="7">${detail(r)}</td></tr>`;
+    <tr class="detail" data-d="${i}" hidden><td colspan="7">${detail(r,i)}</td></tr>`;
   }).join("");
   $("#count").textContent = `${rows.length} of ${DATA.length} entries`;
-  const any = state.q || state.els.size || state.scope!=="all";
-  $("#clear").hidden = !any;
+  $("#clear").hidden = false;
   // store filtered rows for expand handler
   tb._rows = rows;
 }
@@ -228,13 +421,35 @@ function render(){
 $("#q").addEventListener("input", e=>{ state.q=e.target.value.trim(); render(); });
 $("#scope").addEventListener("change", e=>{ state.scope=e.target.value; render(); });
 $("#sort").addEventListener("change", e=>{ state.sort=e.target.value; render(); });
-$("#elementChips").addEventListener("click", e=>{
-  const c=e.target.closest(".chip"); if(!c) return;
+function toggleEl(e){
+  const c=e.target.closest(".pel"); if(!c || c.classList.contains("zero")) return;
   const el=c.dataset.el;
   state.els.has(el) ? state.els.delete(el) : state.els.add(el);
   renderChips(); render();
+}
+$("#ptable").addEventListener("click", toggleEl);
+$("#ptableF").addEventListener("click", toggleEl);
+$("#clearEls").addEventListener("click", ()=>{ state.els.clear(); renderChips(); render(); });
+
+// ---- periodic table show/hide (persisted) ----
+const PT_KEY = "aimdb_ptable_hidden";
+function setPtableHidden(hidden){
+  $("#ptableWrap").classList.toggle("collapsed", hidden);
+  $("#ptToggle").textContent = hidden ? "Show periodic table ▼" : "Hide periodic table ▲";
+  localStorage.setItem(PT_KEY, hidden ? "1" : "0");
+}
+$("#ptToggle").addEventListener("click", ()=>{
+  setPtableHidden(!$("#ptableWrap").classList.contains("collapsed"));
 });
+setPtableHidden(localStorage.getItem(PT_KEY) === "1");
 $("#tbody").addEventListener("click", e=>{
+  const btn = e.target.closest(".report-btn");
+  if(btn){
+    const rows = $("#tbody")._rows || [];
+    const r = rows[+btn.dataset.i];
+    if(r) reportEntry(r);
+    return;
+  }
   const tr=e.target.closest("tr.row"); if(!tr) return;
   const d=$(`tr.detail[data-d="${tr.dataset.i}"]`);
   if(d) d.hidden=!d.hidden;
@@ -245,14 +460,72 @@ $("#clear").addEventListener("click", ()=>{
   renderChips(); render();
 });
 
+// ---- sidebar nav ----
+const VIEWS = ["home","dataset","cite","license"];
+function showView(name){
+  VIEWS.forEach(v => { $(`#view-${v}`).hidden = v!==name; });
+  document.querySelectorAll(".nav-item").forEach(b=>b.classList.toggle("active", b.dataset.view===name));
+  window.scrollTo({top:0});
+  if(window.innerWidth<=760) setSidebarHidden(true);
+}
+document.querySelectorAll(".nav-item").forEach(b=>{
+  b.addEventListener("click", ()=>{
+    if(b.dataset.view==="home"){
+      state.q=""; state.els.clear(); state.scope="all";
+      $("#q").value=""; $("#scope").value="all";
+      renderChips(); render();
+    }
+    showView(b.dataset.view);
+  });
+});
+
+// ---- sidebar show/hide (persisted) ----
+const SB_KEY = "aimdb_sidebar_hidden";
+function setSidebarHidden(hidden){
+  document.body.classList.toggle("sidebar-hidden", hidden);
+  localStorage.setItem(SB_KEY, hidden ? "1" : "0");
+}
+$("#sidebarToggle").addEventListener("click", ()=>{
+  setSidebarHidden(!document.body.classList.contains("sidebar-hidden"));
+});
+$("#sidebarBackdrop").addEventListener("click", ()=>setSidebarHidden(true));
+setSidebarHidden(localStorage.getItem(SB_KEY)==="1" || window.innerWidth<=760);
+
+// ---- copy-to-clipboard for cite blocks ----
+document.querySelectorAll(".copy-btn").forEach(btn=>{
+  btn.addEventListener("click", ()=>{
+    const el = document.getElementById(btn.dataset.target);
+    navigator.clipboard.writeText(el.textContent.trim()).then(()=>{
+      const orig = btn.textContent;
+      btn.textContent = "Copied!";
+      setTimeout(()=>{ btn.textContent = orig; }, 1500);
+    });
+  });
+});
+
 // ---- init ----
 if(!window.LIT){
-  $("#subtitle").textContent = "Could not load data.js — run: python3 site/build_site.py";
+  $("#heroCount").textContent = "Could not load data.js";
+  $("#emptyState").textContent = "Could not load data.js — run: python3 site/build_site.py";
 } else {
-  $("#subtitle").textContent =
-    `${DATA.length} CASSCF-family calculations · ${elOrder.length} elements · built ${window.LIT.generated}`;
+  $("#heroCount").textContent =
+    `${DATA.length} compound${DATA.length===1?"":"s"} in the database`;
+  $("#stats").textContent =
+    `${DATA.length} multireference calculations · ${elOrder.length} elements · last update ${window.LIT.generated}`;
   renderChips();
   render();
+
+  // dataset view stats
+  const doiSet = new Set(DATA.map(r=>r.reference_doi).filter(Boolean));
+  const years = DATA.map(r=>+r.year).filter(y=>y>0);
+  $("#dsCompounds").textContent = DATA.length;
+  $("#dsPapers").textContent = doiSet.size;
+  $("#dsElements").textContent = elOrder.length;
+  $("#dsYears").textContent = years.length ? `${Math.min(...years)}–${Math.max(...years)}` : "—";
+
+  const yr = new Date().getFullYear();
+  $("#citeYear").textContent = yr;
+  $("#citeYearBib").textContent = yr;
 }
 </script>
 </body>
