@@ -2,9 +2,14 @@
 
 You are running a loop that finds published papers containing CASSCF-family
 calculations on transition-metal complexes, downloads the open-access PDFs,
-and transforms them into rows of `database/literature.csv` — the same schema
-as `claude-casscf/database/literature.csv`, so mined rows can be merged into
-the decision agent's reference database. Follow this policy exactly.
+and transforms them into rows of `database/literature.csv` — historically the
+same schema as `claude-casscf/database/literature.csv`, so mined rows could be
+merged into the decision agent's reference database. **As of 2026-07-28 this
+schema has diverged**: `ground_state_term` was merged into
+`low_lying_states_eV` (renamed `electronic_structure_description`, with any
+term symbol prefixed "Ground term: ..."). Merging into claude-casscf now
+requires either re-splitting that column or updating claude-casscf's schema
+to match. Follow this policy exactly.
 
 The Python package does the mechanical work (API search, PDF download, text
 extraction). **You do the reading and extraction** — deciding whether a paper
@@ -15,7 +20,7 @@ text is judgment work, not regex work.
 
 ```
 code/mining_agent/            Python implementation (search/fetch/text/csv helpers)
-database/literature.csv       output database (schema identical to claude-casscf)
+database/literature.csv       output database (schema diverged from claude-casscf 2026-07-28, see above)
 database/papers_index.csv     one row per candidate paper: doi, title, status, paths
 papers/<key>.pdf              downloaded PDFs (gitignored — do not commit)
 text/<key>.txt                extracted text (gitignored — do not commit)
@@ -83,8 +88,8 @@ Run all `python -m mining_agent ...` commands from `code/` with
      (deliberate absence, distinct from empty = not stated); leave
      `metal_ox_state`, `d_electron_count`, and `ligand_set` empty. All
      other columns apply as usual (pi/lone-pair active spaces go in
-     `active_space_orbital_description`; `ground_state_term`,
-     excitation energies, etc. as stated).
+     `active_space_orbital_description`; ground-state term, excitation
+     energies, etc. go in `electronic_structure_description` as stated).
    - `active_space_protocol`: only if the paper describes its buildup
      sequence; this column is what the decision agent reads — quote it
      faithfully, format "(nel,norb) step; (nel,norb) step; ...".
@@ -107,8 +112,11 @@ Run all `python -m mining_agent ...` commands from `code/` with
      record the model that actually extracted them (or pass `mining_model`
      explicitly per row). This is the last column and is aimdb-only —
      `claude-casscf` merges just drop it.
-   - `low_lying_states_eV` / `Other`: paste the relevant numbers compactly;
-     state units; SOC-corrected vs SOC-free matters (`soc_included` flag).
+   - `electronic_structure_description` / `Other`: this column merges the
+     ground-state term symbol (if stated — prefix it "Ground term: ...")
+     with the low-lying state energies; paste the relevant numbers
+     compactly, state units; SOC-corrected vs SOC-free matters
+     (`soc_included` flag).
    - One row per compound, not per table — condense.
    Then `status=extracted` (or `extracted_partial` if key fields were
    missing but the row is still useful).

@@ -45,11 +45,14 @@ CURRENT_MINING_MODEL = "claude-opus-4-8"
 ENTRY_TYPES = ("llm_mining", "llm_reproduced", "human")
 DEFAULT_ENTRY_TYPE = "llm_mining"
 
-# literature.csv column order. The first 30 columns are identical to
-# claude-casscf/database/literature.csv so rows can be merged;
-# "correlation_correction", "entry_type" and "mining_model" are aimdb-only
-# columns appended LAST, so a merge into the decision agent's database can
-# simply drop the trailing fields.
+# literature.csv column order. Originally the first 30 columns were
+# identical to claude-casscf/database/literature.csv so rows could be
+# merged directly; as of 2026-07-28 "ground_state_term" was merged into
+# "low_lying_states_eV" (renamed "electronic_structure_description", with
+# any ground-state-term text prefixed as "Ground term: ..."), so this
+# schema has DIVERGED from claude-casscf until that project adopts the same
+# change. "correlation_correction", "entry_type" and "mining_model" remain
+# aimdb-only columns appended LAST.
 LITERATURE_COLUMNS = [
     "entry_id", "structure_file", "compound_name", "formula", "metal_center",
     "metal_ox_state", "d_electron_count", "ligand_set", "point_group",
@@ -58,7 +61,7 @@ LITERATURE_COLUMNS = [
     "active_space_nel", "active_space_norb",
     "active_space_orbital_description", "active_space_protocol",
     "multiplicities_studied", "nroots_per_mult", "ground_state_mult",
-    "ground_state_term", "low_lying_states_eV", "Other",
+    "electronic_structure_description", "Other",
     "reference_short", "reference_doi", "year", "notes",
     "correlation_correction", "entry_type", "mining_model",
 ]

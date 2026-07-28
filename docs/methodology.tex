@@ -172,8 +172,7 @@ is mandatory and a row without it cannot be added.
 \col{multiplicities_studied} & Spin multiplicities considered. \\
 \col{nroots_per_mult}   & Number of roots per multiplicity (state averaging). \\
 \col{ground_state_mult} & Ground-state multiplicity. \\
-\col{ground_state_term} & Ground-state term symbol. \\
-\col{low_lying_states_eV} & Low-lying state energies (units stated; SOC-free vs.\ SOC-corrected noted). \\
+\col{electronic_structure_description} & Ground-state term symbol (prefixed ``Ground term: \dots'' when present) and low-lying state energies (units stated; SOC-free vs.\ SOC-corrected noted). \\
 \col{Other}             & Other reported quantities (gaps, ZFS, \dots). \\
 \addlinespace
 \multicolumn{2}{@{}l}{\textit{Provenance}}\\
@@ -226,8 +225,9 @@ infer.} The following rules are applied without exception.
 
 Table~\ref{tab:stats} summarizes the present snapshot. Coverage percentages
 reflect the ``empty wins'' discipline: fields such as \col{formula} and
-\col{ground_state_term} are populated only where the source paper stated
-them, so partial coverage is expected and informative rather than a defect.
+\col{electronic_structure_description} are populated only where the source
+paper stated them, so partial coverage is expected and informative rather
+than a defect.
 
 \begin{table}[h]
 \centering
@@ -252,8 +252,7 @@ Distinct elements represented         & 58 \\
 \col{active_space_nel}                & 589 (88\%) \\
 \col{basis_set}                       & 437 (66\%) \\
 \col{formula}                         & 293 (44\%) \\
-\col{ground_state_term}               & 227 (34\%) \\
-\col{low_lying_states_eV}             & 172 (26\%) \\
+\col{electronic_structure_description} & 259 (39\%) \\
 \midrule
 \multicolumn{2}{@{}l}{\textit{Method family (by leading method named)}}\\
 CASSCF                                & 357 \\

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>AIMdb: Artificial Intelligence database</title>
@@ -20,17 +20,19 @@
   .hero{max-width:720px;margin:0 auto;padding:14vh 24px 32px;text-align:center;
     transition:padding .25s ease}
   .hero.compact{padding:28px 24px 8px}
-  .logo{font-size:44px;font-weight:700;letter-spacing:-.5px;margin:0 0 8px;
+  .logo{display:inline-block;font-size:44px;font-weight:700;letter-spacing:-.5px;margin:0 0 8px;
     background:linear-gradient(135deg,var(--accent),var(--accent2));
-    -webkit-background-clip:text;background-clip:text;color:transparent}
+    -webkit-background-clip:text;background-clip:text;color:transparent;
+    text-decoration:none;cursor:pointer}
   .hero.compact .logo{font-size:26px;margin-bottom:2px}
-  .tagline{color:var(--muted);font-size:15px;margin:0 0 6px}
+  .tagline{color:var(--muted);font-size:15px;margin:0 0 24px}
   .hero.compact .tagline{display:none}
-  .hero-count{color:var(--muted);font-size:12.5px;margin:0 0 22px;opacity:.85}
-  .hero.compact .hero-count{margin-bottom:10px}
   .stats{color:var(--muted);font-size:12.5px;margin-top:14px;opacity:.75}
   .empty-state{max-width:640px;margin:8px auto 0;text-align:center;color:var(--muted);
     font-size:13.5px;padding:18px 12px}
+  .show-all-btn{margin-top:12px;padding:8px 16px;border-radius:8px;border:1px solid var(--border);
+    background:var(--panel);color:var(--text);font-size:13px;cursor:pointer}
+  .show-all-btn:hover{border-color:var(--accent);color:var(--accent)}
   .controls{background:var(--bg);padding:12px 0;border-bottom:1px solid var(--border);}
   .searchrow{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
   input[type=search]{flex:1;min-width:240px;padding:10px 12px;border-radius:8px;
@@ -71,6 +73,9 @@
   table{width:100%;border-collapse:collapse;font-size:13px}
   thead th{text-align:left;color:var(--muted);font-weight:600;padding:8px 10px;
     border-bottom:1px solid var(--border);background:var(--bg);white-space:nowrap}
+  thead th.sortable{cursor:pointer;user-select:none}
+  thead th.sortable:hover{color:var(--text)}
+  thead th.sortable .sort-ind{display:inline-block;width:10px;color:var(--accent)}
   tbody tr.row{border-bottom:1px solid var(--border);cursor:pointer}
   tbody tr.row:hover{background:var(--panel2)}
   td{padding:9px 10px;vertical-align:top}
@@ -117,9 +122,9 @@
     border-right:1px solid var(--border);padding:60px 12px 14px;transition:transform .2s ease;
     z-index:25;overflow-y:auto}
   body.sidebar-hidden .sidebar{transform:translateX(-100%)}
-  .sidebar-logo{font-weight:700;font-size:17px;letter-spacing:-.3px;margin:0 8px 16px;
+  .sidebar-logo{display:block;font-weight:700;font-size:17px;letter-spacing:-.3px;margin:0 8px 16px;
     background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;
-    background-clip:text;color:transparent}
+    background-clip:text;color:transparent;text-decoration:none;cursor:pointer;width:fit-content}
   .nav-item{display:block;width:100%;text-align:left;padding:9px 12px;border-radius:7px;border:none;
     background:transparent;color:var(--text);font-size:13.5px;cursor:pointer;margin-bottom:2px;font:inherit}
   .nav-item:hover{background:var(--panel2)}
@@ -178,7 +183,7 @@
 <button class="sidebar-toggle" id="sidebarToggle" aria-label="Toggle menu" title="Toggle menu">☰</button>
 <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
 <nav class="sidebar" id="sidebar">
-  <div class="sidebar-logo">AIMdb</div>
+  <a class="sidebar-logo" href="#" id="homeLink">AIMdb</a>
   <button class="nav-item active" type="button" data-view="home">Home</button>
   <button class="nav-item" type="button" data-view="dataset">Dataset</button>
   <button class="nav-item" type="button" data-view="contribute">Contribute</button>
@@ -189,85 +194,329 @@
 <div class="page" id="page">
 <div id="view-home">
 <div class="hero" id="hero">
-  <div class="logo">AIMdb</div>
+  <a class="logo" href="#" id="heroLogoLink">AIMdb</a>
   <div class="tagline">Artificial Intelligence multireference database</div>
-  <div class="hero-count" id="heroCount">Loading…</div>
 </div>
 <div class="wrap">
   <div class="controls">
     <div class="searchrow">
       <input id="q" type="search" placeholder="Search name, formula, element, method, reference…" autocomplete="off">
       <select id="scope" title="Restrict the search box to one field">
-        <option value="all">All fields</option>
+        <option value="all" selected="selected">All fields</option>
         <option value="compound_name">Name</option>
         <option value="formula">Formula</option>
         <option value="element">Element</option>
         <option value="method">Method</option>
         <option value="reference_short">Reference</option>
       </select>
-      <select id="sort" title="Sort order" hidden>
-        <option value="year_desc">Year ↓</option>
-        <option value="year_asc">Year ↑</option>
-        <option value="name">Name A–Z</option>
-      </select>
     </div>
-    <div class="ptable-head">
-      <span>Filter by entry source</span>
-      <span class="clear-els" id="clearTypes" hidden>Clear ✕</span>
-    </div>
-    <div class="chips" id="typeChips"></div>
-    <div class="ptable-head">
-      <span>Filter by correlation correction</span>
-      <span class="clear-els" id="clearCorrs" hidden>Clear ✕</span>
-    </div>
-    <div class="chips" id="corrChips"></div>
     <div class="ptable-head">
       <span>Filter by element (click any number to select multiple)</span>
       <div class="head-actions">
-        <span class="clear-els" id="clearEls" hidden>Clear elements ✕</span>
-        <span class="pt-toggle" id="ptToggle">Hide periodic table ▲</span>
+        <span class="clear-els" id="clearEls" hidden="">Clear elements ✕</span>
+        <span class="pt-toggle" id="ptToggle">Show periodic table ▼</span>
       </div>
     </div>
-    <div class="ptable-wrap" id="ptableWrap">
-      <div class="ptable" id="ptable"></div>
-      <div class="ptable-f" id="ptableF"></div>
+    <div class="ptable-wrap collapsed" id="ptableWrap">
+      <div class="ptable" id="ptable"><div class="pel" data-el="H" style="grid-row:1;grid-column:1" title="H — 219 compounds">
+    <div>H</div><div class="n">219</div>
+  </div><div class="pel" data-el="He" style="grid-row:1;grid-column:18" title="He — 2 compounds">
+    <div>He</div><div class="n">2</div>
+  </div><div class="pel" data-el="Li" style="grid-row:2;grid-column:1" title="Li — 3 compounds">
+    <div>Li</div><div class="n">3</div>
+  </div><div class="pel" data-el="Be" style="grid-row:2;grid-column:2" title="Be — 4 compounds">
+    <div>Be</div><div class="n">4</div>
+  </div><div class="pel" data-el="B" style="grid-row:2;grid-column:13" title="B — 1 compound">
+    <div>B</div><div class="n">1</div>
+  </div><div class="pel" data-el="C" style="grid-row:2;grid-column:14" title="C — 215 compounds">
+    <div>C</div><div class="n">215</div>
+  </div><div class="pel" data-el="N" style="grid-row:2;grid-column:15" title="N — 103 compounds">
+    <div>N</div><div class="n">103</div>
+  </div><div class="pel" data-el="O" style="grid-row:2;grid-column:16" title="O — 112 compounds">
+    <div>O</div><div class="n">112</div>
+  </div><div class="pel" data-el="F" style="grid-row:2;grid-column:17" title="F — 6 compounds">
+    <div>F</div><div class="n">6</div>
+  </div><div class="pel" data-el="Ne" style="grid-row:2;grid-column:18" title="Ne — 2 compounds">
+    <div>Ne</div><div class="n">2</div>
+  </div><div class="pel" data-el="Na" style="grid-row:3;grid-column:1" title="Na — 1 compound">
+    <div>Na</div><div class="n">1</div>
+  </div><div class="pel" data-el="Mg" style="grid-row:3;grid-column:2" title="Mg — 4 compounds">
+    <div>Mg</div><div class="n">4</div>
+  </div><div class="pel zero" data-el="Al" style="grid-row:3;grid-column:13" title="Al — 0 compounds">
+    <div>Al</div><div class="n">0</div>
+  </div><div class="pel" data-el="Si" style="grid-row:3;grid-column:14" title="Si — 4 compounds">
+    <div>Si</div><div class="n">4</div>
+  </div><div class="pel" data-el="P" style="grid-row:3;grid-column:15" title="P — 2 compounds">
+    <div>P</div><div class="n">2</div>
+  </div><div class="pel" data-el="S" style="grid-row:3;grid-column:16" title="S — 11 compounds">
+    <div>S</div><div class="n">11</div>
+  </div><div class="pel" data-el="Cl" style="grid-row:3;grid-column:17" title="Cl — 10 compounds">
+    <div>Cl</div><div class="n">10</div>
+  </div><div class="pel" data-el="Ar" style="grid-row:3;grid-column:18" title="Ar — 3 compounds">
+    <div>Ar</div><div class="n">3</div>
+  </div><div class="pel" data-el="K" style="grid-row:4;grid-column:1" title="K — 1 compound">
+    <div>K</div><div class="n">1</div>
+  </div><div class="pel zero" data-el="Ca" style="grid-row:4;grid-column:2" title="Ca — 0 compounds">
+    <div>Ca</div><div class="n">0</div>
+  </div><div class="pel" data-el="Sc" style="grid-row:4;grid-column:3" title="Sc — 3 compounds">
+    <div>Sc</div><div class="n">3</div>
+  </div><div class="pel" data-el="Ti" style="grid-row:4;grid-column:4" title="Ti — 3 compounds">
+    <div>Ti</div><div class="n">3</div>
+  </div><div class="pel" data-el="V" style="grid-row:4;grid-column:5" title="V — 6 compounds">
+    <div>V</div><div class="n">6</div>
+  </div><div class="pel" data-el="Cr" style="grid-row:4;grid-column:6" title="Cr — 8 compounds">
+    <div>Cr</div><div class="n">8</div>
+  </div><div class="pel" data-el="Mn" style="grid-row:4;grid-column:7" title="Mn — 13 compounds">
+    <div>Mn</div><div class="n">13</div>
+  </div><div class="pel" data-el="Fe" style="grid-row:4;grid-column:8" title="Fe — 54 compounds">
+    <div>Fe</div><div class="n">54</div>
+  </div><div class="pel" data-el="Co" style="grid-row:4;grid-column:9" title="Co — 44 compounds">
+    <div>Co</div><div class="n">44</div>
+  </div><div class="pel" data-el="Ni" style="grid-row:4;grid-column:10" title="Ni — 15 compounds">
+    <div>Ni</div><div class="n">15</div>
+  </div><div class="pel" data-el="Cu" style="grid-row:4;grid-column:11" title="Cu — 17 compounds">
+    <div>Cu</div><div class="n">17</div>
+  </div><div class="pel" data-el="Zn" style="grid-row:4;grid-column:12" title="Zn — 7 compounds">
+    <div>Zn</div><div class="n">7</div>
+  </div><div class="pel zero" data-el="Ga" style="grid-row:4;grid-column:13" title="Ga — 0 compounds">
+    <div>Ga</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="Ge" style="grid-row:4;grid-column:14" title="Ge — 0 compounds">
+    <div>Ge</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="As" style="grid-row:4;grid-column:15" title="As — 0 compounds">
+    <div>As</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="Se" style="grid-row:4;grid-column:16" title="Se — 0 compounds">
+    <div>Se</div><div class="n">0</div>
+  </div><div class="pel" data-el="Br" style="grid-row:4;grid-column:17" title="Br — 3 compounds">
+    <div>Br</div><div class="n">3</div>
+  </div><div class="pel zero" data-el="Kr" style="grid-row:4;grid-column:18" title="Kr — 0 compounds">
+    <div>Kr</div><div class="n">0</div>
+  </div><div class="pel" data-el="Rb" style="grid-row:5;grid-column:1" title="Rb — 1 compound">
+    <div>Rb</div><div class="n">1</div>
+  </div><div class="pel zero" data-el="Sr" style="grid-row:5;grid-column:2" title="Sr — 0 compounds">
+    <div>Sr</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="Y" style="grid-row:5;grid-column:3" title="Y — 0 compounds">
+    <div>Y</div><div class="n">0</div>
+  </div><div class="pel" data-el="Zr" style="grid-row:5;grid-column:4" title="Zr — 1 compound">
+    <div>Zr</div><div class="n">1</div>
+  </div><div class="pel zero" data-el="Nb" style="grid-row:5;grid-column:5" title="Nb — 0 compounds">
+    <div>Nb</div><div class="n">0</div>
+  </div><div class="pel" data-el="Mo" style="grid-row:5;grid-column:6" title="Mo — 5 compounds">
+    <div>Mo</div><div class="n">5</div>
+  </div><div class="pel zero" data-el="Tc" style="grid-row:5;grid-column:7" title="Tc — 0 compounds">
+    <div>Tc</div><div class="n">0</div>
+  </div><div class="pel" data-el="Ru" style="grid-row:5;grid-column:8" title="Ru — 1 compound">
+    <div>Ru</div><div class="n">1</div>
+  </div><div class="pel zero" data-el="Rh" style="grid-row:5;grid-column:9" title="Rh — 0 compounds">
+    <div>Rh</div><div class="n">0</div>
+  </div><div class="pel" data-el="Pd" style="grid-row:5;grid-column:10" title="Pd — 3 compounds">
+    <div>Pd</div><div class="n">3</div>
+  </div><div class="pel zero" data-el="Ag" style="grid-row:5;grid-column:11" title="Ag — 0 compounds">
+    <div>Ag</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="Cd" style="grid-row:5;grid-column:12" title="Cd — 0 compounds">
+    <div>Cd</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="In" style="grid-row:5;grid-column:13" title="In — 0 compounds">
+    <div>In</div><div class="n">0</div>
+  </div><div class="pel" data-el="Sn" style="grid-row:5;grid-column:14" title="Sn — 1 compound">
+    <div>Sn</div><div class="n">1</div>
+  </div><div class="pel zero" data-el="Sb" style="grid-row:5;grid-column:15" title="Sb — 0 compounds">
+    <div>Sb</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="Te" style="grid-row:5;grid-column:16" title="Te — 0 compounds">
+    <div>Te</div><div class="n">0</div>
+  </div><div class="pel" data-el="I" style="grid-row:5;grid-column:17" title="I — 4 compounds">
+    <div>I</div><div class="n">4</div>
+  </div><div class="pel zero" data-el="Xe" style="grid-row:5;grid-column:18" title="Xe — 0 compounds">
+    <div>Xe</div><div class="n">0</div>
+  </div><div class="pel" data-el="Cs" style="grid-row:6;grid-column:1" title="Cs — 1 compound">
+    <div>Cs</div><div class="n">1</div>
+  </div><div class="pel zero" data-el="Ba" style="grid-row:6;grid-column:2" title="Ba — 0 compounds">
+    <div>Ba</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="La" style="grid-row:6;grid-column:3" title="La — 0 compounds">
+    <div>La</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="Hf" style="grid-row:6;grid-column:4" title="Hf — 0 compounds">
+    <div>Hf</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="Ta" style="grid-row:6;grid-column:5" title="Ta — 0 compounds">
+    <div>Ta</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="W" style="grid-row:6;grid-column:6" title="W — 0 compounds">
+    <div>W</div><div class="n">0</div>
+  </div><div class="pel" data-el="Re" style="grid-row:6;grid-column:7" title="Re — 1 compound">
+    <div>Re</div><div class="n">1</div>
+  </div><div class="pel" data-el="Os" style="grid-row:6;grid-column:8" title="Os — 2 compounds">
+    <div>Os</div><div class="n">2</div>
+  </div><div class="pel zero" data-el="Ir" style="grid-row:6;grid-column:9" title="Ir — 0 compounds">
+    <div>Ir</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="Pt" style="grid-row:6;grid-column:10" title="Pt — 0 compounds">
+    <div>Pt</div><div class="n">0</div>
+  </div><div class="pel" data-el="Au" style="grid-row:6;grid-column:11" title="Au — 1 compound">
+    <div>Au</div><div class="n">1</div>
+  </div><div class="pel zero" data-el="Hg" style="grid-row:6;grid-column:12" title="Hg — 0 compounds">
+    <div>Hg</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="Tl" style="grid-row:6;grid-column:13" title="Tl — 0 compounds">
+    <div>Tl</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="Pb" style="grid-row:6;grid-column:14" title="Pb — 0 compounds">
+    <div>Pb</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="Bi" style="grid-row:6;grid-column:15" title="Bi — 0 compounds">
+    <div>Bi</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="Po" style="grid-row:6;grid-column:16" title="Po — 0 compounds">
+    <div>Po</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="At" style="grid-row:6;grid-column:17" title="At — 0 compounds">
+    <div>At</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="Rn" style="grid-row:6;grid-column:18" title="Rn — 0 compounds">
+    <div>Rn</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="Fr" style="grid-row:7;grid-column:1" title="Fr — 0 compounds">
+    <div>Fr</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="Ra" style="grid-row:7;grid-column:2" title="Ra — 0 compounds">
+    <div>Ra</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="Ac" style="grid-row:7;grid-column:3" title="Ac — 0 compounds">
+    <div>Ac</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="Rf" style="grid-row:7;grid-column:4" title="Rf — 0 compounds">
+    <div>Rf</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="Db" style="grid-row:7;grid-column:5" title="Db — 0 compounds">
+    <div>Db</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="Sg" style="grid-row:7;grid-column:6" title="Sg — 0 compounds">
+    <div>Sg</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="Bh" style="grid-row:7;grid-column:7" title="Bh — 0 compounds">
+    <div>Bh</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="Hs" style="grid-row:7;grid-column:8" title="Hs — 0 compounds">
+    <div>Hs</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="Mt" style="grid-row:7;grid-column:9" title="Mt — 0 compounds">
+    <div>Mt</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="Ds" style="grid-row:7;grid-column:10" title="Ds — 0 compounds">
+    <div>Ds</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="Rg" style="grid-row:7;grid-column:11" title="Rg — 0 compounds">
+    <div>Rg</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="Cn" style="grid-row:7;grid-column:12" title="Cn — 0 compounds">
+    <div>Cn</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="Nh" style="grid-row:7;grid-column:13" title="Nh — 0 compounds">
+    <div>Nh</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="Fl" style="grid-row:7;grid-column:14" title="Fl — 0 compounds">
+    <div>Fl</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="Mc" style="grid-row:7;grid-column:15" title="Mc — 0 compounds">
+    <div>Mc</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="Lv" style="grid-row:7;grid-column:16" title="Lv — 0 compounds">
+    <div>Lv</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="Ts" style="grid-row:7;grid-column:17" title="Ts — 0 compounds">
+    <div>Ts</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="Og" style="grid-row:7;grid-column:18" title="Og — 0 compounds">
+    <div>Og</div><div class="n">0</div>
+  </div></div>
+      <div class="ptable-f" id="ptableF"><div class="pel" data-el="Ce" style="grid-row:1;grid-column:4" title="Ce — 4 compounds">
+    <div>Ce</div><div class="n">4</div>
+  </div><div class="pel" data-el="Pr" style="grid-row:1;grid-column:5" title="Pr — 1 compound">
+    <div>Pr</div><div class="n">1</div>
+  </div><div class="pel" data-el="Nd" style="grid-row:1;grid-column:6" title="Nd — 1 compound">
+    <div>Nd</div><div class="n">1</div>
+  </div><div class="pel zero" data-el="Pm" style="grid-row:1;grid-column:7" title="Pm — 0 compounds">
+    <div>Pm</div><div class="n">0</div>
+  </div><div class="pel" data-el="Sm" style="grid-row:1;grid-column:8" title="Sm — 2 compounds">
+    <div>Sm</div><div class="n">2</div>
+  </div><div class="pel" data-el="Eu" style="grid-row:1;grid-column:9" title="Eu — 1 compound">
+    <div>Eu</div><div class="n">1</div>
+  </div><div class="pel" data-el="Gd" style="grid-row:1;grid-column:10" title="Gd — 1 compound">
+    <div>Gd</div><div class="n">1</div>
+  </div><div class="pel" data-el="Tb" style="grid-row:1;grid-column:11" title="Tb — 8 compounds">
+    <div>Tb</div><div class="n">8</div>
+  </div><div class="pel" data-el="Dy" style="grid-row:1;grid-column:12" title="Dy — 20 compounds">
+    <div>Dy</div><div class="n">20</div>
+  </div><div class="pel" data-el="Ho" style="grid-row:1;grid-column:13" title="Ho — 2 compounds">
+    <div>Ho</div><div class="n">2</div>
+  </div><div class="pel" data-el="Er" style="grid-row:1;grid-column:14" title="Er — 8 compounds">
+    <div>Er</div><div class="n">8</div>
+  </div><div class="pel" data-el="Tm" style="grid-row:1;grid-column:15" title="Tm — 1 compound">
+    <div>Tm</div><div class="n">1</div>
+  </div><div class="pel" data-el="Yb" style="grid-row:1;grid-column:16" title="Yb — 4 compounds">
+    <div>Yb</div><div class="n">4</div>
+  </div><div class="pel zero" data-el="Lu" style="grid-row:1;grid-column:17" title="Lu — 0 compounds">
+    <div>Lu</div><div class="n">0</div>
+  </div><div class="pel" data-el="Th" style="grid-row:2;grid-column:4" title="Th — 2 compounds">
+    <div>Th</div><div class="n">2</div>
+  </div><div class="pel zero" data-el="Pa" style="grid-row:2;grid-column:5" title="Pa — 0 compounds">
+    <div>Pa</div><div class="n">0</div>
+  </div><div class="pel" data-el="U" style="grid-row:2;grid-column:6" title="U — 8 compounds">
+    <div>U</div><div class="n">8</div>
+  </div><div class="pel" data-el="Np" style="grid-row:2;grid-column:7" title="Np — 6 compounds">
+    <div>Np</div><div class="n">6</div>
+  </div><div class="pel" data-el="Pu" style="grid-row:2;grid-column:8" title="Pu — 5 compounds">
+    <div>Pu</div><div class="n">5</div>
+  </div><div class="pel zero" data-el="Am" style="grid-row:2;grid-column:9" title="Am — 0 compounds">
+    <div>Am</div><div class="n">0</div>
+  </div><div class="pel" data-el="Cm" style="grid-row:2;grid-column:10" title="Cm — 1 compound">
+    <div>Cm</div><div class="n">1</div>
+  </div><div class="pel" data-el="Bk" style="grid-row:2;grid-column:11" title="Bk — 1 compound">
+    <div>Bk</div><div class="n">1</div>
+  </div><div class="pel zero" data-el="Cf" style="grid-row:2;grid-column:12" title="Cf — 0 compounds">
+    <div>Cf</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="Es" style="grid-row:2;grid-column:13" title="Es — 0 compounds">
+    <div>Es</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="Fm" style="grid-row:2;grid-column:14" title="Fm — 0 compounds">
+    <div>Fm</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="Md" style="grid-row:2;grid-column:15" title="Md — 0 compounds">
+    <div>Md</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="No" style="grid-row:2;grid-column:16" title="No — 0 compounds">
+    <div>No</div><div class="n">0</div>
+  </div><div class="pel zero" data-el="Lr" style="grid-row:2;grid-column:17" title="Lr — 0 compounds">
+    <div>Lr</div><div class="n">0</div>
+  </div></div>
+    </div>
+    <div class="filter-group" id="typeFilterGroup" hidden="">
+      <div class="ptable-head">
+        <span>Filter by entry source</span>
+        <span class="clear-els" id="clearTypes" hidden="">Clear ✕</span>
+      </div>
+      <div class="chips" id="typeChips"><span class="chip " data-type="llm_mining">LLM-mined<span class="n">667</span></span></div>
+    </div>
+    <div class="filter-group" id="corrFilterGroup" hidden="">
+      <div class="ptable-head">
+        <span>Filter by correlation correction</span>
+        <span class="clear-els" id="clearCorrs" hidden="">Clear ✕</span>
+      </div>
+      <div class="chips" id="corrChips"><span class="chip " data-corr="CASPT2">CASPT2<span class="n">208</span></span><span class="chip " data-corr="NEVPT2">NEVPT2<span class="n">98</span></span><span class="chip " data-corr="MRCI">MRCI<span class="n">62</span></span><span class="chip " data-corr="CIPSI">CIPSI<span class="n">10</span></span><span class="chip " data-corr="DDCI">DDCI<span class="n">7</span></span><span class="chip " data-corr="XMCQDPT2">XMCQDPT2<span class="n">5</span></span><span class="chip " data-corr="RASPT2">RASPT2<span class="n">4</span></span><span class="chip " data-corr="PT2">PT2<span class="n">3</span></span><span class="chip " data-corr="CASPT3">CASPT3<span class="n">1</span></span><span class="chip " data-corr="MRCC">MRCC<span class="n">1</span></span><span class="chip " data-corr="none">none<span class="n">338</span></span></div>
     </div>
   </div>
-  <div class="empty-state" id="emptyState">Search a compound, formula, or element — or click an element above — to browse the database.</div>
-  <div class="meta" id="meta" hidden>
+  <div class="empty-state" id="emptyState">
+    Search a compound, formula, or element — or click an element above — to browse the database.
+    <div><button class="show-all-btn" id="showAllBtn" type="button">Show all entries</button></div>
+  </div>
+  <div class="meta" id="meta" hidden="">
     <span id="count"></span>
     <span class="meta-actions">
       <span id="selCount" title="Click to clear selection"></span>
       <button id="downloadBtn" class="dl-btn" type="button">⬇ Download CSV</button>
-      <span class="clear" id="clear" hidden>Clear all filters ✕</span>
+      <span class="clear" id="clear" hidden="">Clear all filters ✕</span>
     </span>
   </div>
-  <table id="table" hidden>
+  <table id="table" hidden="">
     <thead><tr>
       <th class="selcell"><input type="checkbox" id="selAll" title="Select all shown"></th>
-      <th>Compound</th><th>Formula</th><th>Element(s)</th>
-      <th>Method</th><th>Active space</th><th>Year</th><th>Reference</th>
+      <th class="sortable" data-sort="name">Compound <span class="sort-ind"></span></th>
+      <th>Formula</th><th>Element(s)</th>
+      <th>Method</th><th>Active space</th>
+      <th class="sortable" data-sort="year">Year <span class="sort-ind">▼</span></th>
+      <th>Reference</th>
     </tr></thead>
     <tbody id="tbody"></tbody>
   </table>
-  <div class="stats" id="stats"></div>
+  <div class="stats" id="stats">667 multireference calculations · 58 elements · last update 2026-07-28</div>
 </div>
 </div><!-- /view-home -->
 
-<div class="view-panel" id="view-dataset" hidden>
+<div class="view-panel" id="view-dataset" hidden="">
   <h2>Dataset</h2>
   <p class="view-sub">A machine-mined reference set of multireference (CASSCF-family) calculations, extracted from the open-access literature.</p>
   <div class="stat-grid">
-    <div class="stat-card"><div class="num" id="dsCompounds">—</div><div class="lbl">compound entries</div></div>
-    <div class="stat-card"><div class="num" id="dsPapers">—</div><div class="lbl">source papers</div></div>
-    <div class="stat-card"><div class="num" id="dsElements">—</div><div class="lbl">elements covered</div></div>
-    <div class="stat-card"><div class="num" id="dsYears">—</div><div class="lbl">year range</div></div>
+    <div class="stat-card"><div class="num" id="dsCompounds">667</div><div class="lbl">compound entries</div></div>
+    <div class="stat-card"><div class="num" id="dsPapers">403</div><div class="lbl">source papers</div></div>
+    <div class="stat-card"><div class="num" id="dsElements">58</div><div class="lbl">elements covered</div></div>
+    <div class="stat-card"><div class="num" id="dsYears">1985–2026</div><div class="lbl">year range</div></div>
   </div>
-  <p>Each row is one compound + method result: CASSCF, RASSCF, CASPT2, RASPT2, NEVPT2, DMRG, or MRCI, on either a transition-metal complex or a metal-free organic molecule. Every stored value is copied verbatim from the paper — nothing is inferred or estimated — so each entry is traceable back to a specific statement in a specific publication. See <code>CLAUDE.md</code> in the repository for the exact extraction policy.</p>
+  <p>Each row is one compound + method result: CASSCF, RASSCF, CASPT2, 
+RASPT2, NEVPT2, DMRG, or MRCI, on either a transition-metal complex or a
+ metal-free organic molecule. Every stored value is copied verbatim from
+ the paper — nothing is inferred or estimated — so each entry is 
+traceable back to a specific statement in a specific publication. See <code>CLAUDE.md</code> in the repository for the exact extraction policy.</p>
   <p>Raw data: <a href="https://github.com/victorchanglee/aimdb/blob/main/database/literature.csv" target="_blank" rel="noopener">database/literature.csv</a> on GitHub.</p>
 </div>
 
-<div class="view-panel" id="view-cite" hidden>
+<div class="view-panel" id="view-cite" hidden="">
   <h2>How to cite</h2>
   <p class="view-sub">If AIMdb was useful in your work, please cite it as:</p>
   <div class="code-block" id="citeText">Lee, V. C. AIMdb: an AI-mined database of CASSCF-family multireference calculations. <span id="citeYear">2026</span>. https://github.com/victorchanglee/aimdb</div>
@@ -281,25 +530,32 @@
   <button class="copy-btn" data-target="citeBibtex">Copy</button>
 </div>
 
-<div class="view-panel" id="view-license" hidden>
+<div class="view-panel" id="view-license" hidden="">
   <h2>License</h2>
   <p class="view-sub">Creative Commons Attribution 4.0 International (CC BY 4.0)</p>
-  <p>The compiled database, documentation, and website content in this repository are licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>. You are free to share and adapt this material for any purpose, including commercially, as long as you give appropriate credit, link to the license, and indicate if changes were made.</p>
-  <p>This does <strong>not</strong> cover the copyrighted text of the mined source PDFs themselves — only the structured data extracted from them. The full text is available as <code>LICENSE</code> in the repository root.</p>
+  <p>The compiled database, documentation, and website content in this repository are licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.
+ You are free to share and adapt this material for any purpose, 
+including commercially, as long as you give appropriate credit, link to 
+the license, and indicate if changes were made.</p>
+  <p>This does <strong>not</strong> cover the copyrighted text of the 
+mined source PDFs themselves — only the structured data extracted from 
+them. The full text is available as <code>LICENSE</code> in the repository root.</p>
 </div>
 
 <div class="view-panel" id="view-contribute" hidden>
   <h2>Contribute an entry</h2>
   <p class="view-sub">Know of a CASSCF-family calculation that isn't here — or ran one yourself? Submit it for review.</p>
-  <p>Fill in the fields below (only a few are required). Submitting generates a small CSV file that downloads to your computer and opens a pre-filled email to the maintainer. Every submission goes into a separate review queue — <strong>nothing is added to the database automatically</strong>; the maintainer checks each entry before it is accepted. Fields left blank stay empty (please don't guess values).</p>
+  <p>Fill in the fields below (only a few are required). Submitting 
+opens a pre-filled email to the maintainer with your entry included as 
+CSV. Every submission goes into a separate review queue — <strong>nothing is added to the database automatically</strong>; the maintainer checks each entry before it is accepted. Fields left blank stay empty (please don't guess values).</p>
   <form id="contribForm" autocomplete="off">
     <div class="form-grid">
       <div class="form-section-title">You</div>
-      <div class="field-group"><label>Name <span class="req">*</span></label><input name="contributor_name" required></div>
-      <div class="field-group"><label>Email <span class="req">*</span></label><input name="contributor_email" type="email" required></div>
+      <div class="field-group"><label>Name <span class="req">*</span></label><input name="contributor_name" required=""></div>
+      <div class="field-group"><label>Email <span class="req">*</span></label><input name="contributor_email" type="email" required=""></div>
 
       <div class="form-section-title">Compound</div>
-      <div class="field-group full"><label>Compound name / description <span class="req">*</span></label><input name="compound_name" required></div>
+      <div class="field-group full"><label>Compound name / description <span class="req">*</span></label><input name="compound_name" required=""></div>
       <div class="field-group"><label>Molecular formula</label><input name="formula" placeholder="e.g. C5FeO5"></div>
       <div class="field-group"><label>Metal center</label><input name="metal_center" placeholder="e.g. Fe — or 'none'"></div>
       <div class="field-group"><label>Metal oxidation state</label><input name="metal_ox_state" placeholder="e.g. II"></div>
@@ -307,44 +563,50 @@
       <div class="field-group"><label>Point group</label><input name="point_group"></div>
       <div class="field-group"><label>Geometry source</label><input name="geometry_source" placeholder="optimized / X-ray / prior work"></div>
 
-      <div class="form-section-title">Method &amp; level of theory</div>
-      <div class="field-group full"><label>Method <span class="req">*</span></label><input name="method" required placeholder="e.g. CASSCF; NEVPT2"></div>
+      <div class="form-section-title">Methodology</div>
+      <div class="field-group full"><label>Method <span class="req">*</span></label><input name="method" required="" placeholder="e.g. CASSCF; NEVPT2"></div>
       <div class="field-group"><label>Software</label><input name="software"></div>
       <div class="field-group"><label>Basis set</label><input name="basis_set"></div>
       <div class="field-group"><label>Relativistic treatment</label><input name="relativistic_treatment" placeholder="DKH2 / X2C / ECP"></div>
-      <div class="field-group"><label>Spin–orbit coupling included?</label><select name="soc_included"><option value="">—</option><option>yes</option><option>no</option></select></div>
-      <div class="field-group"><label>Spin–spin included?</label><select name="ss_included"><option value="">—</option><option>yes</option><option>no</option></select></div>
+      <div class="field-group"><label>Spin–orbit coupling included?</label><select name="soc_included"><option value="" selected="selected">—</option><option>yes</option><option>no</option></select></div>
+      <div class="field-group"><label>Spin–spin included?</label><select name="ss_included"><option value="" selected="selected">—</option><option>yes</option><option>no</option></select></div>
 
       <div class="form-section-title">Active space</div>
-      <div class="field-group"><label>Active electrons (nel) <span class="req">*</span></label><input name="active_space_nel" required inputmode="numeric" placeholder="e.g. 10"></div>
-      <div class="field-group"><label>Active orbitals (norb) <span class="req">*</span></label><input name="active_space_norb" required inputmode="numeric" placeholder="e.g. 12"></div>
-      <div class="field-group full"><label>Active-space orbital description</label><textarea name="active_space_orbital_description" placeholder="chemical identity of the active orbitals"></textarea></div>
-      <div class="field-group full"><label>Active-space protocol (build-up sequence)</label><textarea name="active_space_protocol" placeholder="(nel,norb) step; (nel,norb) step; …"></textarea></div>
+      <div class="field-group"><label>Active electrons (nel) <span class="req">*</span></label><input name="active_space_nel" required="" inputmode="numeric" placeholder="e.g. 10"></div>
+      <div class="field-group"><label>Active orbitals (norb) <span class="req">*</span></label><input name="active_space_norb" required="" inputmode="numeric" placeholder="e.g. 12"></div>
+      <div class="field-group full"><label>Active-space orbital description</label><textarea name="active_space_orbital_description"></textarea></div>
+      <div class="field-group full"><label>Active-space protocol</label><textarea name="active_space_protocol" placeholder="(nel,norb) step; (nel,norb) step; …"></textarea></div>
 
-      <div class="form-section-title">States &amp; energetics</div>
+      <div class="form-section-title">Electronic structure</div>
       <div class="field-group"><label>Multiplicities studied</label><input name="multiplicities_studied" placeholder="e.g. 3,5"></div>
       <div class="field-group"><label>Ground-state multiplicity</label><input name="ground_state_mult"></div>
-      <div class="field-group"><label>Ground-state term</label><input name="ground_state_term"></div>
-      <div class="field-group"><label>Year</label><input name="year" inputmode="numeric"></div>
-      <div class="field-group full"><label>Low-lying states (state energies, with units)</label><textarea name="low_lying_states_eV"></textarea></div>
+      <div class="field-group full"><label>Electronic structure description</label><textarea name="electronic_structure_description"></textarea></div>
 
       <div class="form-section-title">Reference</div>
       <div class="field-group"><label>Short citation</label><input name="reference_short" placeholder="Author, Journal (Year)"></div>
-      <div class="field-group"><label>DOI <span class="req">*</span></label><input name="reference_doi" required placeholder="10.xxxx/xxxxx"></div>
-      <div class="field-group full"><label>Notes</label><textarea name="notes" placeholder="anything the maintainer should know — caveats, unit conversions, whether you ran this yourself"></textarea></div>
+      <div class="field-group"><label>Year</label><input name="year" inputmode="numeric"></div>
+      <div class="field-group"><label>DOI <span class="req">*</span></label><input name="reference_doi" required="" placeholder="10.xxxx/xxxxx"></div>
+      <div class="field-group"><label>Entry source <span class="req">*</span></label>
+        <select name="entry_type" required>
+          <option value="human">Human — I ran/found this myself</option>
+          <option value="llm_mining">LLM-mined — extracted from the literature by an LLM</option>
+          <option value="llm_reproduced">LLM-reproduced — an LLM actually re-ran the calculation</option>
+        </select>
+      </div>
+      <div class="field-group full"><label>Notes</label><textarea name="notes"></textarea></div>
     </div>
     <div class="form-error" id="contribError"></div>
-    <button class="submit-btn" type="submit">Generate contribution CSV</button>
+    <button class="submit-btn" type="submit">Email this contribution</button>
   </form>
-  <div class="form-success" id="contribSuccess" hidden>
-    <h3>Thanks — your contribution CSV downloaded ✓</h3>
-    <p style="margin:0 0 4px">To submit it for review, email the downloaded file to the maintainer (the email below is pre-filled and already contains your entry).</p>
+  <div class="form-success" id="contribSuccess" hidden="">
+    <h3>Thanks — your email client should now be open ✓</h3>
+    <p style="margin:0 0 4px">Your entry is pre-filled as CSV in the email body. Just hit send. If nothing opened, use the link below instead.</p>
     <a class="mailto-btn" id="contribMailto" href="#">✉ Email this contribution</a>
   </div>
 </div>
 </div><!-- /page -->
 
-<script src="data.js"></script>
+<script src="index_files/data__VBg.js"></script>
 <script>
 const DATA = (window.LIT && window.LIT.rows) || [];
 const $ = s => document.querySelector(s);
@@ -396,7 +658,7 @@ const PTABLE_F = [
   ["Bk",2,11],["Cf",2,12],["Es",2,13],["Fm",2,14],["Md",2,15],["No",2,16],["Lr",2,17],
 ];
 
-const state = { q:"", scope:"all", sort:"year_desc", els:new Set(), corrs:new Set(), types:new Set(), selected:new Set() };
+const state = { q:"", scope:"all", sortField:"year", sortDir:"desc", els:new Set(), corrs:new Set(), types:new Set(), selected:new Set(), showAll:false };
 
 function pelCell([sym,row,col]){
   const n = elCount[sym]||0;
@@ -430,8 +692,8 @@ function matchesText(r){
 function matchesEls(r){
   if(state.els.size===0) return true;
   const set = new Set(r._elements||[]);
-  for(const e of state.els) if(set.has(e)) return true; // OR semantics
-  return false;
+  for(const e of state.els) if(!set.has(e)) return false; // AND semantics
+  return true;
 }
 function matchesCorr(r){
   if(state.corrs.size===0) return true;
@@ -476,14 +738,14 @@ const FIELD_LABELS = {
   active_space_orbital_description:"Active-space orbitals",
   active_space_protocol:"Active-space protocol",
   multiplicities_studied:"Multiplicities", nroots_per_mult:"Roots per multiplicity",
-  ground_state_mult:"Ground-state multiplicity", ground_state_term:"Ground-state term",
-  low_lying_states_eV:"Low-lying states (eV)", Other:"Other",
+  ground_state_mult:"Ground-state multiplicity",
+  electronic_structure_description:"Electronic structure description", Other:"Other",
   reference_short:"Reference", reference_doi:"DOI", year:"Year", notes:"Notes",
   correlation_correction:"Correlation correction", entry_type:"Entry source",
   mining_model:"Mining model (LLM)",
 };
 const WIDE = new Set(["active_space_orbital_description","active_space_protocol",
-  "low_lying_states_eV","Other","notes","compound_name","ligand_set","geometry_source"]);
+  "electronic_structure_description","Other","notes","compound_name","ligand_set","geometry_source"]);
 const HIDE = new Set(["_metals","_elements"]);
 
 function activeSpace(r){
@@ -539,19 +801,21 @@ function entryTag(r){
 }
 
 function render(){
-  const active = !!(state.q || state.els.size || state.corrs.size || state.types.size);
+  const active = !!(state.q || state.els.size || state.corrs.size || state.types.size || state.showAll);
   $("#hero").classList.toggle("compact", active);
   $("#emptyState").hidden = active;
   $("#meta").hidden = !active;
   $("#table").hidden = !active;
-  $("#sort").hidden = !active;
+  $("#typeFilterGroup").hidden = !active;
+  $("#corrFilterGroup").hidden = !active;
   if(!active){ $("#tbody").innerHTML = ""; return; }
 
   let rows = DATA.filter(r=>matchesText(r) && matchesEls(r) && matchesCorr(r) && matchesType(r));
   rows.sort((a,b)=>{
-    if(state.sort==="name") return (a.compound_name||"").localeCompare(b.compound_name||"");
-    const ya=+a.year||0, yb=+b.year||0;
-    return state.sort==="year_asc" ? ya-yb : yb-ya;
+    let cmp;
+    if(state.sortField==="name") cmp = (a.compound_name||"").localeCompare(b.compound_name||"");
+    else { const ya=+a.year||0, yb=+b.year||0; cmp = ya-yb; }
+    return state.sortDir==="asc" ? cmp : -cmp;
   });
   const tb = $("#tbody");
   tb.innerHTML = rows.map((r,i)=>{
@@ -613,7 +877,22 @@ function downloadCSV(){
 // ---- events ----
 $("#q").addEventListener("input", e=>{ state.q=e.target.value.trim(); render(); });
 $("#scope").addEventListener("change", e=>{ state.scope=e.target.value; render(); });
-$("#sort").addEventListener("change", e=>{ state.sort=e.target.value; render(); });
+function updateSortIndicators(){
+  document.querySelectorAll("th.sortable").forEach(th=>{
+    th.querySelector(".sort-ind").textContent =
+      state.sortField===th.dataset.sort ? (state.sortDir==="asc" ? "▲" : "▼") : "";
+  });
+}
+document.querySelectorAll("th.sortable").forEach(th=>{
+  th.addEventListener("click", ()=>{
+    const f = th.dataset.sort;
+    if(state.sortField===f) state.sortDir = state.sortDir==="asc" ? "desc" : "asc";
+    else { state.sortField=f; state.sortDir = f==="year" ? "desc" : "asc"; }
+    updateSortIndicators();
+    render();
+  });
+});
+updateSortIndicators();
 function toggleEl(e){
   const c=e.target.closest(".pel"); if(!c || c.classList.contains("zero")) return;
   const el=c.dataset.el;
@@ -683,8 +962,9 @@ $("#selCount").addEventListener("click", ()=>{
   updateSelUI();
 });
 $("#downloadBtn").addEventListener("click", downloadCSV);
+$("#showAllBtn").addEventListener("click", ()=>{ state.showAll=true; render(); });
 $("#clear").addEventListener("click", ()=>{
-  state.q=""; state.els.clear(); state.corrs.clear(); state.types.clear(); state.scope="all";
+  state.q=""; state.els.clear(); state.corrs.clear(); state.types.clear(); state.scope="all"; state.showAll=false;
   $("#q").value=""; $("#scope").value="all";
   renderChips(); renderCorrChips(); renderTypeChips(); render();
 });
@@ -697,16 +977,20 @@ function showView(name){
   window.scrollTo({top:0});
   if(window.innerWidth<=760) setSidebarHidden(true);
 }
+function goHome(){
+  state.q=""; state.els.clear(); state.corrs.clear(); state.types.clear(); state.scope="all"; state.showAll=false;
+  $("#q").value=""; $("#scope").value="all";
+  renderChips(); renderCorrChips(); renderTypeChips(); render();
+  showView("home");
+}
 document.querySelectorAll(".nav-item").forEach(b=>{
   b.addEventListener("click", ()=>{
-    if(b.dataset.view==="home"){
-      state.q=""; state.els.clear(); state.corrs.clear(); state.types.clear(); state.scope="all";
-      $("#q").value=""; $("#scope").value="all";
-      renderChips(); renderCorrChips(); renderTypeChips(); render();
-    }
-    showView(b.dataset.view);
+    if(b.dataset.view==="home") goHome();
+    else showView(b.dataset.view);
   });
 });
+$("#homeLink").addEventListener("click", e=>{ e.preventDefault(); goHome(); });
+$("#heroLogoLink").addEventListener("click", e=>{ e.preventDefault(); goHome(); });
 
 // ---- sidebar show/hide (persisted) ----
 const SB_KEY = "aimdb_sidebar_hidden";
@@ -734,9 +1018,6 @@ document.querySelectorAll(".copy-btn").forEach(btn=>{
 
 // ---- contribution form ----
 const CONTRIB_META = ["submitted_at","contributor_name","contributor_email","review_status"];
-function slugify(s){
-  return ((s||"entry").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"").slice(0,40)) || "entry";
-}
 const contribForm = $("#contribForm");
 if(contribForm){
   contribForm.addEventListener("submit", e=>{
@@ -745,7 +1026,8 @@ if(contribForm){
     new FormData(contribForm).forEach((v,k)=>{ data[k] = (""+v).trim(); });
     const required = {contributor_name:"your name", contributor_email:"your email",
       compound_name:"compound name", method:"method", reference_doi:"reference DOI",
-      active_space_nel:"active electrons", active_space_norb:"active orbitals"};
+      active_space_nel:"active electrons", active_space_norb:"active orbitals",
+      entry_type:"entry source"};
     const missing = Object.keys(required).filter(k=>!data[k]);
     const err = $("#contribError");
     if(missing.length){
@@ -756,31 +1038,24 @@ if(contribForm){
     // fixed / derived fields
     data.submitted_at = new Date().toISOString().slice(0,10);
     data.review_status = "pending";
-    data.entry_type = "human";                 // human-submitted
     // build CSV: review metadata + the exact literature.csv columns
     const cols = CONTRIB_META.concat(window.LIT.fields);
     const csvText = cols.map(csvField).join(",") + "\r\n"
       + cols.map(c=>csvField(data[c]||"")).join(",") + "\r\n";
-    // download
-    const blob = new Blob([csvText], {type:"text/csv;charset=utf-8"});
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement("a");
-    a.href = url; a.download = `aimdb_contribution_${slugify(data.compound_name)}.csv`;
-    document.body.appendChild(a); a.click(); a.remove();
-    URL.revokeObjectURL(url);
-    // pre-fill the maintainer email (row included inline as a fallback)
+    // mailto can't attach a file, so the row is included inline as CSV text
     const subject = `AIMdb contribution: ${data.compound_name}`;
     const body = [
       `Contributor: ${data.contributor_name} <${data.contributor_email}>`,
       `Compound: ${data.compound_name}`,
       `DOI: ${data.reference_doi}`,
       "",
-      "Please attach the downloaded CSV file. It is also included inline below:",
+      "Entry (CSV):",
       "",
       csvText,
     ].join("\n");
-    $("#contribMailto").href =
-      `mailto:${REPORT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const mailtoUrl = `mailto:${REPORT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    $("#contribMailto").href = mailtoUrl;
+    window.location.href = mailtoUrl;
     $("#contribSuccess").hidden = false;
     $("#contribSuccess").scrollIntoView({behavior:"smooth", block:"center"});
     contribForm.reset();
@@ -789,11 +1064,8 @@ if(contribForm){
 
 // ---- init ----
 if(!window.LIT){
-  $("#heroCount").textContent = "Could not load data.js";
   $("#emptyState").textContent = "Could not load data.js — run: python3 site/build_site.py";
 } else {
-  $("#heroCount").textContent =
-    `${DATA.length} compound${DATA.length===1?"":"s"} in the database`;
   $("#stats").textContent =
     `${DATA.length} multireference calculations · ${elOrder.length} elements · last update ${window.LIT.generated}`;
   renderChips();
@@ -814,5 +1086,6 @@ if(!window.LIT){
   $("#citeYearBib").textContent = yr;
 }
 </script>
-</body>
-</html>
+
+
+</body></html>
