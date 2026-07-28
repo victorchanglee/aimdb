@@ -28,8 +28,16 @@ REQUEST_INTERVAL = 1.0
 # Refuse PDFs larger than this (broken links sometimes serve huge blobs).
 MAX_PDF_BYTES = 80 * 1024 * 1024
 
-# literature.csv column order — must stay identical to
-# claude-casscf/database/literature.csv so rows can be merged.
+# The LLM (Claude model) that performed the extraction. Stamped onto every
+# new row by append_row() when the row doesn't already carry one. BUMP THIS
+# whenever the mining model changes so provenance stays accurate; a session
+# may also override per-row by passing "mining_model" in the add-row JSON.
+CURRENT_MINING_MODEL = "claude-opus-4-8"
+
+# literature.csv column order. The first 30 columns are identical to
+# claude-casscf/database/literature.csv so rows can be merged; "mining_model"
+# is an aimdb-only provenance column appended LAST, so a merge into the
+# decision agent's database can simply drop the trailing field.
 LITERATURE_COLUMNS = [
     "entry_id", "structure_file", "compound_name", "formula", "metal_center",
     "metal_ox_state", "d_electron_count", "ligand_set", "point_group",
@@ -40,6 +48,7 @@ LITERATURE_COLUMNS = [
     "multiplicities_studied", "nroots_per_mult", "ground_state_mult",
     "ground_state_term", "low_lying_states_eV", "Other",
     "reference_short", "reference_doi", "year", "notes",
+    "mining_model",
 ]
 
 INDEX_COLUMNS = [

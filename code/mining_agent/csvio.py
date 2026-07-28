@@ -57,6 +57,10 @@ def append_row(fields):
     if fields["entry_id"] in existing_entry_ids():
         raise ValueError(f"entry_id {fields['entry_id']!r} already exists")
     ensure_header()
+    # Stamp the mining model automatically unless the caller set one.
+    fields = {**fields}
+    if not fields.get("mining_model"):
+        fields["mining_model"] = config.CURRENT_MINING_MODEL
     row = {col: str(fields.get(col, "")) for col in config.LITERATURE_COLUMNS}
     with open(config.LITERATURE_CSV, "a", newline="", encoding="utf-8") as f:
         csv.DictWriter(f, fieldnames=config.LITERATURE_COLUMNS).writerow(row)

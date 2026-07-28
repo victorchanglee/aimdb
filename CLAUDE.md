@@ -89,6 +89,13 @@ Run all `python -m mining_agent ...` commands from `code/` with
      sequence; this column is what the decision agent reads — quote it
      faithfully, format "(nel,norb) step; (nel,norb) step; ...".
    - `reference_doi` is mandatory — a row without a DOI is not addable.
+   - `mining_model`: provenance of which LLM did the extraction. Leave it
+     out of the JSON and `add-row` auto-stamps `config.CURRENT_MINING_MODEL`.
+     When a new Claude model takes over the mining, bump
+     `CURRENT_MINING_MODEL` in `code/mining_agent/config.py` so new rows
+     record the model that actually extracted them (or pass `mining_model`
+     explicitly per row). This is the last column and is aimdb-only —
+     `claude-casscf` merges just drop it.
    - `low_lying_states_eV` / `Other`: paste the relevant numbers compactly;
      state units; SOC-corrected vs SOC-free matters (`soc_included` flag).
    - One row per compound, not per table — condense.
