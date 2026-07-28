@@ -98,6 +98,12 @@ def append_row(fields):
     if not fields.get("correlation_correction"):
         fields["correlation_correction"] = classify_correction(
             fields.get("method", ""))
+    # Entry provenance: default to LLM mining, validate against the allowed set.
+    if not fields.get("entry_type"):
+        fields["entry_type"] = config.DEFAULT_ENTRY_TYPE
+    elif fields["entry_type"] not in config.ENTRY_TYPES:
+        raise ValueError(
+            f"entry_type {fields['entry_type']!r} not in {config.ENTRY_TYPES}")
     row = {col: str(fields.get(col, "")) for col in config.LITERATURE_COLUMNS}
     with open(config.LITERATURE_CSV, "a", newline="", encoding="utf-8") as f:
         csv.DictWriter(f, fieldnames=config.LITERATURE_COLUMNS).writerow(row)

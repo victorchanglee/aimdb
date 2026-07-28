@@ -95,6 +95,11 @@ Run all `python -m mining_agent ...` commands from `code/` with
      result. Leave it out of the JSON and `add-row` derives it from
      `method` via `csvio.classify_correction`; set it explicitly only when
      the paper's wording makes the derivation wrong.
+   - `entry_type`: how the entry was produced — `llm_mining` (LLM-mined from
+     the literature; the default when omitted), `llm_reproduced` (a
+     calculation an LLM actually re-ran), or `human` (human-entered).
+     `add-row` validates it against `config.ENTRY_TYPES` and defaults it to
+     `config.DEFAULT_ENTRY_TYPE`.
    - `mining_model`: provenance of which LLM did the extraction. Leave it
      out of the JSON and `add-row` auto-stamps `config.CURRENT_MINING_MODEL`.
      When a new Claude model takes over the mining, bump

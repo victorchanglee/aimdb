@@ -34,11 +34,19 @@ MAX_PDF_BYTES = 80 * 1024 * 1024
 # may also override per-row by passing "mining_model" in the add-row JSON.
 CURRENT_MINING_MODEL = "claude-opus-4-8"
 
+# How an entry was produced (provenance). Allowed values and the default used
+# when a row omits "entry_type":
+#   llm_mining     — extracted from the published literature by an LLM (default)
+#   llm_reproduced — a calculation an LLM actually re-ran/reproduced
+#   human          — entered by a human
+ENTRY_TYPES = ("llm_mining", "llm_reproduced", "human")
+DEFAULT_ENTRY_TYPE = "llm_mining"
+
 # literature.csv column order. The first 30 columns are identical to
 # claude-casscf/database/literature.csv so rows can be merged;
-# "correlation_correction" and "mining_model" are aimdb-only columns appended
-# LAST, so a merge into the decision agent's database can simply drop the
-# trailing fields.
+# "correlation_correction", "entry_type" and "mining_model" are aimdb-only
+# columns appended LAST, so a merge into the decision agent's database can
+# simply drop the trailing fields.
 LITERATURE_COLUMNS = [
     "entry_id", "structure_file", "compound_name", "formula", "metal_center",
     "metal_ox_state", "d_electron_count", "ligand_set", "point_group",
@@ -49,7 +57,7 @@ LITERATURE_COLUMNS = [
     "multiplicities_studied", "nroots_per_mult", "ground_state_mult",
     "ground_state_term", "low_lying_states_eV", "Other",
     "reference_short", "reference_doi", "year", "notes",
-    "correlation_correction", "mining_model",
+    "correlation_correction", "entry_type", "mining_model",
 ]
 
 INDEX_COLUMNS = [
