@@ -178,6 +178,11 @@
       </select>
     </div>
     <div class="ptable-head">
+      <span>Filter by correlation correction</span>
+      <span class="clear-els" id="clearCorrs" hidden>Clear ✕</span>
+    </div>
+    <div class="chips" id="corrChips"></div>
+    <div class="ptable-head">
       <span>Filter by element (click any number to select multiple)</span>
       <div class="head-actions">
         <span class="clear-els" id="clearEls" hidden>Clear elements ✕</span>
@@ -251,6 +256,18 @@ const elCount = {};
 DATA.forEach(r => (r._elements||[]).forEach(e => elCount[e] = (elCount[e]||0)+1));
 const elOrder = Object.keys(elCount).sort((a,b)=>elCount[b]-elCount[a] || a.localeCompare(b));
 
+// ---- correlation-correction facet counts ----
+// Each row's correlation_correction may hold several "; "-joined tokens
+// (e.g. "CASPT2; MRCI"); count per token so a row can match more than one.
+function corrTokens(r){
+  return (r.correlation_correction||"").split(";").map(s=>s.trim()).filter(Boolean);
+}
+const corrCount = {};
+DATA.forEach(r => corrTokens(r).forEach(c => corrCount[c] = (corrCount[c]||0)+1));
+// "none" (variational-only) sorts last; the rest by frequency.
+const corrOrder = Object.keys(corrCount).sort((a,b)=>
+  (a==="none")-(b==="none") || corrCount[b]-corrCount[a] || a.localeCompare(b));
+
 // ---- periodic table layout: [symbol, row, col] ----
 const PTABLE_MAIN = [
   ["H",1,1],["He",1,18],
@@ -272,7 +289,7 @@ const PTABLE_F = [
   ["Bk",2,11],["Cf",2,12],["Es",2,13],["Fm",2,14],["Md",2,15],["No",2,16],["Lr",2,17],
 ];
 
-const state = { q:"", scope:"all", sort:"year_desc", els:new Set() };
+const state = { q:"", scope:"all", sort:"year_desc", els:new Set(), corrs:new Set() };
 
 function pelCell([sym,row,col]){
   const n = elCount[sym]||0;
@@ -308,6 +325,18 @@ function matchesEls(r){
   const set = new Set(r._elements||[]);
   for(const e of state.els) if(set.has(e)) return true; // OR semantics
   return false;
+}
+function matchesCorr(r){
+  if(state.corrs.size===0) return true;
+  const set = new Set(corrTokens(r));
+  for(const c of state.corrs) if(set.has(c)) return true; // OR semantics
+  return false;
+}
+function renderCorrChips(){
+  $("#corrChips").innerHTML = corrOrder.map(c =>
+    `<span class="chip ${state.corrs.has(c)?'on':''}" data-corr="${esc(c)}">${esc(c)}<span class="n">${corrCount[c]}</span></span>`
+  ).join("");
+  $("#clearCorrs").hidden = state.corrs.size===0;
 }
 
 function highlight(text){
@@ -383,7 +412,7 @@ function elBadges(r){
 }
 
 function render(){
-  const active = !!(state.q || state.els.size);
+  const active = !!(state.q || state.els.size || state.corrs.size);
   $("#hero").classList.toggle("compact", active);
   $("#emptyState").hidden = active;
   $("#meta").hidden = !active;
@@ -391,7 +420,7 @@ function render(){
   $("#sort").hidden = !active;
   if(!active){ $("#tbody").innerHTML = ""; return; }
 
-  let rows = DATA.filter(r=>matchesText(r) && matchesEls(r));
+  let rows = DATA.filter(r=>matchesText(r) && matchesEls(r) && matchesCorr(r));
   rows.sort((a,b)=>{
     if(state.sort==="name") return (a.compound_name||"").localeCompare(b.compound_name||"");
     const ya=+a.year||0, yb=+b.year||0;
@@ -431,6 +460,13 @@ function toggleEl(e){
 $("#ptable").addEventListener("click", toggleEl);
 $("#ptableF").addEventListener("click", toggleEl);
 $("#clearEls").addEventListener("click", ()=>{ state.els.clear(); renderChips(); render(); });
+$("#corrChips").addEventListener("click", e=>{
+  const c=e.target.closest(".chip"); if(!c) return;
+  const corr=c.dataset.corr;
+  state.corrs.has(corr) ? state.corrs.delete(corr) : state.corrs.add(corr);
+  renderCorrChips(); render();
+});
+$("#clearCorrs").addEventListener("click", ()=>{ state.corrs.clear(); renderCorrChips(); render(); });
 
 // ---- periodic table show/hide (persisted) ----
 const PT_KEY = "aimdb_ptable_hidden";
@@ -456,9 +492,9 @@ $("#tbody").addEventListener("click", e=>{
   if(d) d.hidden=!d.hidden;
 });
 $("#clear").addEventListener("click", ()=>{
-  state.q=""; state.els.clear(); state.scope="all";
+  state.q=""; state.els.clear(); state.corrs.clear(); state.scope="all";
   $("#q").value=""; $("#scope").value="all";
-  renderChips(); render();
+  renderChips(); renderCorrChips(); render();
 });
 
 // ---- sidebar nav ----
@@ -472,9 +508,9 @@ function showView(name){
 document.querySelectorAll(".nav-item").forEach(b=>{
   b.addEventListener("click", ()=>{
     if(b.dataset.view==="home"){
-      state.q=""; state.els.clear(); state.scope="all";
+      state.q=""; state.els.clear(); state.corrs.clear(); state.scope="all";
       $("#q").value=""; $("#scope").value="all";
-      renderChips(); render();
+      renderChips(); renderCorrChips(); render();
     }
     showView(b.dataset.view);
   });
@@ -514,6 +550,7 @@ if(!window.LIT){
   $("#stats").textContent =
     `${DATA.length} multireference calculations · ${elOrder.length} elements · last update ${window.LIT.generated}`;
   renderChips();
+  renderCorrChips();
   render();
 
   // dataset view stats
