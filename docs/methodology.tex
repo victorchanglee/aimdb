@@ -296,6 +296,10 @@ The database ships with a self-contained static web interface
 (\col{site/index.html}) that provides full-text search and faceted filtering
 by compound name, chemical formula, and element, with each record expandable
 to all 33 fields and linked to its DOI. It is regenerated from the CSV by
-\col{site/build_site.py}.
+\col{site/build_site.py}. The site also has a \emph{Contribute} form through
+which community members can submit an entry; submissions are written to a
+separate review queue (\col{database/contributions.csv}) and are never merged
+automatically---the maintainer vets each one against its DOI before it is
+promoted into the database.
 
 \end{document}

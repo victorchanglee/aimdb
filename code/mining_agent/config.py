@@ -16,6 +16,9 @@ LOGS_DIR = PROJECT_ROOT / "logs"
 LITERATURE_CSV = DATABASE_DIR / "literature.csv"
 PAPERS_INDEX_CSV = DATABASE_DIR / "papers_index.csv"
 EXTRACTIONS_LOG = LOGS_DIR / "extractions.csv"
+# Community submissions from the website form, collected here for maintainer
+# review — never auto-merged into literature.csv.
+CONTRIBUTIONS_CSV = DATABASE_DIR / "contributions.csv"
 
 OPENALEX_WORKS_URL = "https://api.openalex.org/works"
 
@@ -59,6 +62,14 @@ LITERATURE_COLUMNS = [
     "reference_short", "reference_doi", "year", "notes",
     "correlation_correction", "entry_type", "mining_model",
 ]
+
+# contributions.csv schema: review metadata first, then the full literature
+# schema (so an approved contribution promotes straight into literature.csv).
+# The website form emits exactly these columns.
+CONTRIB_META_COLUMNS = [
+    "submitted_at", "contributor_name", "contributor_email", "review_status",
+]
+CONTRIB_COLUMNS = CONTRIB_META_COLUMNS + LITERATURE_COLUMNS
 
 INDEX_COLUMNS = [
     "key", "doi", "title", "year", "oa_pdf_url", "source",

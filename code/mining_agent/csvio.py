@@ -76,6 +76,41 @@ def set_structure_file(entry_id, filename, note):
         writer.writerows(rows)
 
 
+def ensure_contrib_header():
+    config.CONTRIBUTIONS_CSV.parent.mkdir(parents=True, exist_ok=True)
+    if not config.CONTRIBUTIONS_CSV.exists():
+        with open(config.CONTRIBUTIONS_CSV, "w", newline="",
+                  encoding="utf-8") as f:
+            csv.writer(f).writerow(config.CONTRIB_COLUMNS)
+
+
+def ingest_contributions(path):
+    """Append rows from a website-submitted contribution CSV into
+    database/contributions.csv (the maintainer's review queue). Unknown
+    columns are ignored; missing ones default to empty. review_status
+    defaults to 'pending'. Returns the number of rows appended."""
+    with open(path, newline="", encoding="utf-8-sig") as f:
+        incoming = list(csv.DictReader(f))
+    ensure_contrib_header()
+    n = 0
+    with open(config.CONTRIBUTIONS_CSV, "a", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=config.CONTRIB_COLUMNS)
+        for src in incoming:
+            row = {c: str(src.get(c, "") or "") for c in config.CONTRIB_COLUMNS}
+            if not row.get("review_status"):
+                row["review_status"] = "pending"
+            writer.writerow(row)
+            n += 1
+    return n
+
+
+def load_contributions():
+    if not config.CONTRIBUTIONS_CSV.exists():
+        return []
+    with open(config.CONTRIBUTIONS_CSV, newline="", encoding="utf-8") as f:
+        return list(csv.DictReader(f))
+
+
 def append_row(fields):
     """Validate and append one row; raises ValueError on any problem."""
     unknown = set(fields) - set(config.LITERATURE_COLUMNS)

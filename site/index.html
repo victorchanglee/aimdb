@@ -151,6 +151,27 @@
   .copy-btn{padding:6px 12px;border-radius:6px;border:1px solid var(--border);
     background:var(--panel);color:var(--text);font-size:12px;cursor:pointer;margin-bottom:22px}
   .copy-btn:hover{border-color:var(--accent)}
+  /* ---- contribution form ---- */
+  .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px 16px;margin:6px 0 4px}
+  .form-grid .full{grid-column:1/-1}
+  @media(max-width:560px){.form-grid{grid-template-columns:1fr}}
+  .field-group label{display:block;font-size:11.5px;color:var(--muted);margin-bottom:4px;font-weight:600}
+  .field-group label .req{color:var(--warn)}
+  .field-group input,.field-group textarea,.field-group select{width:100%;padding:8px 10px;border-radius:7px;
+    border:1px solid var(--border);background:var(--panel);color:var(--text);font:inherit;font-size:13px}
+  .field-group input:focus,.field-group textarea:focus,.field-group select:focus{outline:none;border-color:var(--accent)}
+  .field-group textarea{min-height:58px;resize:vertical}
+  .form-section-title{font-size:11.5px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;
+    color:var(--muted);margin:20px 0 0;grid-column:1/-1;border-top:1px solid var(--border);padding-top:14px}
+  .submit-btn{padding:9px 16px;border-radius:8px;border:1px solid var(--accent);background:var(--accent);
+    color:#fff;font-size:14px;font-weight:600;cursor:pointer;margin-top:16px}
+  .submit-btn:hover{filter:brightness(1.06)}
+  .form-error{color:var(--warn);font-size:13px;margin:10px 0 0;font-weight:600}
+  .form-success{border:1px solid var(--accent2);background:rgba(13,148,136,.08);border-radius:10px;
+    padding:16px 18px;margin-top:18px}
+  .form-success h3{margin:0 0 6px;font-size:15px}
+  .mailto-btn{display:inline-block;margin-top:8px;padding:8px 14px;border-radius:7px;border:1px solid var(--accent);
+    background:var(--accent);color:#fff;font-size:13px;font-weight:600;text-decoration:none}
 </style>
 </head>
 <body>
@@ -160,6 +181,7 @@
   <div class="sidebar-logo">AIMdb</div>
   <button class="nav-item active" type="button" data-view="home">Home</button>
   <button class="nav-item" type="button" data-view="dataset">Dataset</button>
+  <button class="nav-item" type="button" data-view="contribute">Contribute</button>
   <button class="nav-item" type="button" data-view="cite">How to cite</button>
   <button class="nav-item" type="button" data-view="license">License</button>
 </nav>
@@ -264,6 +286,61 @@
   <p class="view-sub">Creative Commons Attribution 4.0 International (CC BY 4.0)</p>
   <p>The compiled database, documentation, and website content in this repository are licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>. You are free to share and adapt this material for any purpose, including commercially, as long as you give appropriate credit, link to the license, and indicate if changes were made.</p>
   <p>This does <strong>not</strong> cover the copyrighted text of the mined source PDFs themselves — only the structured data extracted from them. The full text is available as <code>LICENSE</code> in the repository root.</p>
+</div>
+
+<div class="view-panel" id="view-contribute" hidden>
+  <h2>Contribute an entry</h2>
+  <p class="view-sub">Know of a CASSCF-family calculation that isn't here — or ran one yourself? Submit it for review.</p>
+  <p>Fill in the fields below (only a few are required). Submitting generates a small CSV file that downloads to your computer and opens a pre-filled email to the maintainer. Every submission goes into a separate review queue — <strong>nothing is added to the database automatically</strong>; the maintainer checks each entry before it is accepted. Fields left blank stay empty (please don't guess values).</p>
+  <form id="contribForm" autocomplete="off">
+    <div class="form-grid">
+      <div class="form-section-title">You</div>
+      <div class="field-group"><label>Name <span class="req">*</span></label><input name="contributor_name" required></div>
+      <div class="field-group"><label>Email <span class="req">*</span></label><input name="contributor_email" type="email" required></div>
+
+      <div class="form-section-title">Compound</div>
+      <div class="field-group full"><label>Compound name / description <span class="req">*</span></label><input name="compound_name" required></div>
+      <div class="field-group"><label>Molecular formula</label><input name="formula" placeholder="e.g. C5FeO5"></div>
+      <div class="field-group"><label>Metal center</label><input name="metal_center" placeholder="e.g. Fe — or 'none'"></div>
+      <div class="field-group"><label>Metal oxidation state</label><input name="metal_ox_state" placeholder="e.g. II"></div>
+      <div class="field-group"><label>Ligand set</label><input name="ligand_set"></div>
+      <div class="field-group"><label>Point group</label><input name="point_group"></div>
+      <div class="field-group"><label>Geometry source</label><input name="geometry_source" placeholder="optimized / X-ray / prior work"></div>
+
+      <div class="form-section-title">Method &amp; level of theory</div>
+      <div class="field-group full"><label>Method <span class="req">*</span></label><input name="method" required placeholder="e.g. CASSCF; NEVPT2"></div>
+      <div class="field-group"><label>Software</label><input name="software"></div>
+      <div class="field-group"><label>Basis set</label><input name="basis_set"></div>
+      <div class="field-group"><label>Relativistic treatment</label><input name="relativistic_treatment" placeholder="DKH2 / X2C / ECP"></div>
+      <div class="field-group"><label>Spin–orbit coupling included?</label><select name="soc_included"><option value="">—</option><option>yes</option><option>no</option></select></div>
+      <div class="field-group"><label>Spin–spin included?</label><select name="ss_included"><option value="">—</option><option>yes</option><option>no</option></select></div>
+
+      <div class="form-section-title">Active space</div>
+      <div class="field-group"><label>Active electrons (nel) <span class="req">*</span></label><input name="active_space_nel" required inputmode="numeric" placeholder="e.g. 10"></div>
+      <div class="field-group"><label>Active orbitals (norb) <span class="req">*</span></label><input name="active_space_norb" required inputmode="numeric" placeholder="e.g. 12"></div>
+      <div class="field-group full"><label>Active-space orbital description</label><textarea name="active_space_orbital_description" placeholder="chemical identity of the active orbitals"></textarea></div>
+      <div class="field-group full"><label>Active-space protocol (build-up sequence)</label><textarea name="active_space_protocol" placeholder="(nel,norb) step; (nel,norb) step; …"></textarea></div>
+
+      <div class="form-section-title">States &amp; energetics</div>
+      <div class="field-group"><label>Multiplicities studied</label><input name="multiplicities_studied" placeholder="e.g. 3,5"></div>
+      <div class="field-group"><label>Ground-state multiplicity</label><input name="ground_state_mult"></div>
+      <div class="field-group"><label>Ground-state term</label><input name="ground_state_term"></div>
+      <div class="field-group"><label>Year</label><input name="year" inputmode="numeric"></div>
+      <div class="field-group full"><label>Low-lying states (state energies, with units)</label><textarea name="low_lying_states_eV"></textarea></div>
+
+      <div class="form-section-title">Reference</div>
+      <div class="field-group"><label>Short citation</label><input name="reference_short" placeholder="Author, Journal (Year)"></div>
+      <div class="field-group"><label>DOI <span class="req">*</span></label><input name="reference_doi" required placeholder="10.xxxx/xxxxx"></div>
+      <div class="field-group full"><label>Notes</label><textarea name="notes" placeholder="anything the maintainer should know — caveats, unit conversions, whether you ran this yourself"></textarea></div>
+    </div>
+    <div class="form-error" id="contribError"></div>
+    <button class="submit-btn" type="submit">Generate contribution CSV</button>
+  </form>
+  <div class="form-success" id="contribSuccess" hidden>
+    <h3>Thanks — your contribution CSV downloaded ✓</h3>
+    <p style="margin:0 0 4px">To submit it for review, email the downloaded file to the maintainer (the email below is pre-filled and already contains your entry).</p>
+    <a class="mailto-btn" id="contribMailto" href="#">✉ Email this contribution</a>
+  </div>
 </div>
 </div><!-- /page -->
 
@@ -613,7 +690,7 @@ $("#clear").addEventListener("click", ()=>{
 });
 
 // ---- sidebar nav ----
-const VIEWS = ["home","dataset","cite","license"];
+const VIEWS = ["home","dataset","contribute","cite","license"];
 function showView(name){
   VIEWS.forEach(v => { $(`#view-${v}`).hidden = v!==name; });
   document.querySelectorAll(".nav-item").forEach(b=>b.classList.toggle("active", b.dataset.view===name));
@@ -654,6 +731,61 @@ document.querySelectorAll(".copy-btn").forEach(btn=>{
     });
   });
 });
+
+// ---- contribution form ----
+const CONTRIB_META = ["submitted_at","contributor_name","contributor_email","review_status"];
+function slugify(s){
+  return ((s||"entry").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"").slice(0,40)) || "entry";
+}
+const contribForm = $("#contribForm");
+if(contribForm){
+  contribForm.addEventListener("submit", e=>{
+    e.preventDefault();
+    const data = {};
+    new FormData(contribForm).forEach((v,k)=>{ data[k] = (""+v).trim(); });
+    const required = {contributor_name:"your name", contributor_email:"your email",
+      compound_name:"compound name", method:"method", reference_doi:"reference DOI",
+      active_space_nel:"active electrons", active_space_norb:"active orbitals"};
+    const missing = Object.keys(required).filter(k=>!data[k]);
+    const err = $("#contribError");
+    if(missing.length){
+      err.textContent = "Please fill in: " + missing.map(k=>required[k]).join(", ") + ".";
+      return;
+    }
+    err.textContent = "";
+    // fixed / derived fields
+    data.submitted_at = new Date().toISOString().slice(0,10);
+    data.review_status = "pending";
+    data.entry_type = "human";                 // human-submitted
+    // build CSV: review metadata + the exact literature.csv columns
+    const cols = CONTRIB_META.concat(window.LIT.fields);
+    const csvText = cols.map(csvField).join(",") + "\r\n"
+      + cols.map(c=>csvField(data[c]||"")).join(",") + "\r\n";
+    // download
+    const blob = new Blob([csvText], {type:"text/csv;charset=utf-8"});
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url; a.download = `aimdb_contribution_${slugify(data.compound_name)}.csv`;
+    document.body.appendChild(a); a.click(); a.remove();
+    URL.revokeObjectURL(url);
+    // pre-fill the maintainer email (row included inline as a fallback)
+    const subject = `AIMdb contribution: ${data.compound_name}`;
+    const body = [
+      `Contributor: ${data.contributor_name} <${data.contributor_email}>`,
+      `Compound: ${data.compound_name}`,
+      `DOI: ${data.reference_doi}`,
+      "",
+      "Please attach the downloaded CSV file. It is also included inline below:",
+      "",
+      csvText,
+    ].join("\n");
+    $("#contribMailto").href =
+      `mailto:${REPORT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    $("#contribSuccess").hidden = false;
+    $("#contribSuccess").scrollIntoView({behavior:"smooth", block:"center"});
+    contribForm.reset();
+  });
+}
 
 // ---- init ----
 if(!window.LIT){

@@ -128,6 +128,23 @@ Run all `python -m mining_agent ...` commands from `code/` with
 - Anything that looks like a licensing/access problem beyond "not OA":
   stop and ask the user.
 
+## Community contributions (website form)
+
+The site has a **Contribute** section whose form emits a one-row CSV with the
+`database/contributions.csv` schema (review metadata + the literature
+columns) and emails it to the maintainer. These are **human submissions,
+never trusted blindly**:
+
+- Collect an emailed submission with
+  `python -m mining_agent contributions --add <file>.csv` (appends to
+  `database/contributions.csv` with `review_status=pending`);
+  `--list` shows the pending queue.
+- Review each pending row against its DOI exactly like a mined paper (scope
+  test + copy-never-infer). If it holds up, promote it into `literature.csv`
+  via the normal `add-row` path (assigning an `entry_id`; `entry_type`
+  stays `human`, `mining_model` empty), then mark the contribution row
+  reviewed. Contributions are **never auto-merged**.
+
 ## Things to never do
 
 - Never fabricate or infer a value the paper doesn't state — empty cell wins.

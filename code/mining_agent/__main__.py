@@ -160,6 +160,27 @@ def cmd_status(_args):
     print(f"{n_rows} rows in literature.csv")
 
 
+def cmd_contributions(args):
+    if args.add:
+        n = csvio.ingest_contributions(args.add)
+        print(f"ingested {n} row(s) from {args.add} "
+              f"-> {config.CONTRIBUTIONS_CSV.name}")
+    rows = csvio.load_contributions()
+    by_status = Counter(r.get("review_status", "") or "pending" for r in rows)
+    print(f"{len(rows)} contribution(s) in {config.CONTRIBUTIONS_CSV.name}:")
+    for status in sorted(by_status):
+        print(f"  {by_status[status]:4d}  {status}")
+    if args.list:
+        pending = [r for r in rows
+                   if (r.get("review_status") or "pending") == "pending"]
+        for r in pending:
+            who = r.get("contributor_name") or "?"
+            print(f"  - {r.get('compound_name','')[:50]!r}  "
+                  f"DOI={r.get('reference_doi','') or '—'}  "
+                  f"by {who} <{r.get('contributor_email','')}>  "
+                  f"[{r.get('submitted_at','')}]")
+
+
 def cmd_show(args):
     row = index.get(index.load(), args.key)
     if row is None:
@@ -225,6 +246,15 @@ def main():
 
     p = sub.add_parser("status", help="index and database summary")
     p.set_defaults(func=cmd_status)
+
+    p = sub.add_parser("contributions", help="review community submissions: "
+                                             "ingest a downloaded form CSV and "
+                                             "summarize the review queue")
+    p.add_argument("--add", help="path to a contribution CSV from the website "
+                                 "form to append to the review queue")
+    p.add_argument("--list", action="store_true",
+                   help="list pending contributions")
+    p.set_defaults(func=cmd_contributions)
 
     p = sub.add_parser("show", help="print one index entry")
     p.add_argument("--key", required=True)
