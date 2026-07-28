@@ -118,7 +118,7 @@ geometry.
 \section{Record schema}
 
 Each row of \col{literature.csv} is one compound~$\times$~method result. The
-33 columns are grouped below by role. Multiple compounds from a single paper
+32 columns are grouped below by role. Multiple compounds from a single paper
 receive suffixed identifiers (\col{-a}, \col{-b}, \dots); \col{reference_doi}
 is mandatory and a row without it cannot be added.
 
@@ -262,11 +262,23 @@ RASSCF                                & 10 \\
 DMRG                                  & 8 \\
 MRCI                                  & 7 \\
 RASPT2                                & 1 \\
+\midrule
+\multicolumn{2}{@{}l}{\textit{Correlation correction applied (\col{correlation_correction})}}\\
+\col{none} (variational CASSCF/RASSCF/DMRG only) & 338 \\
+CASPT2                                & 208 \\
+NEVPT2                                & 98 \\
+MRCI                                  & 62 \\
+CIPSI / DDCI / XMCQDPT2 / RASPT2 / other & 31 \\
+\midrule
+\multicolumn{2}{@{}l}{\textit{Entry provenance (\col{entry_type})}}\\
+\col{llm_mining} (all records, \col{claude-opus-4-8}) & 667 \\
 \bottomrule
 \end{tabular}
 \caption{Database snapshot statistics. Method-family counts classify each
 record by the highest-level method named in \col{method}; many records also
-report a lower-level reference calculation.}
+report a lower-level reference calculation. Correlation-correction counts are
+per token, so a record reporting several corrections (e.g.\ \col{CASPT2; MRCI})
+contributes to each.}
 \label{tab:stats}
 \end{table}
 
@@ -294,7 +306,7 @@ precisely so that any record can be traced to its source and checked.
 The database ships with a self-contained static web interface
 (\col{site/index.html}) that provides full-text search and faceted filtering
 by compound name, chemical formula, and element, with each record expandable
-to all 33 fields and linked to its DOI. It is regenerated from the CSV by
+to all 32 fields and linked to its DOI. It is regenerated from the CSV by
 \col{site/build_site.py}. The site also has a \emph{Contribute} form through
 which community members can submit an entry; submissions are written to a
 separate review queue (\col{database/contributions.csv}) and are never merged
