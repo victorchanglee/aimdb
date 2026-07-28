@@ -118,7 +118,7 @@ geometry.
 \section{Record schema}
 
 Each row of \col{literature.csv} is one compound~$\times$~method result. The
-31 columns are grouped below by role. Multiple compounds from a single paper
+32 columns are grouped below by role. Multiple compounds from a single paper
 receive suffixed identifiers (\col{-a}, \col{-b}, \dots); \col{reference_doi}
 is mandatory and a row without it cannot be added.
 
@@ -157,6 +157,9 @@ is mandatory and a row without it cannot be added.
 \col{relativistic_treatment} & Scalar-relativistic Hamiltonian (DKH, X2C, ECP, \dots). \\
 \col{soc_included}    & Whether spin--orbit coupling was included. \\
 \col{ss_included}     & Whether the spin--spin term was included. \\
+\col{correlation_correction} & Post-CASSCF dynamic-correlation correction applied
+  (NEVPT2, CASPT2, RASPT2, MRCI, \dots), or \col{none} for a variational
+  CASSCF/RASSCF/DMRG-only result; derived from \col{method}. \\
 \addlinespace
 \multicolumn{2}{@{}l}{\textit{Active space}}\\
 \col{active_space_nel}  & Number of active electrons. \\
@@ -291,7 +294,7 @@ precisely so that any record can be traced to its source and checked.
 The database ships with a self-contained static web interface
 (\col{site/index.html}) that provides full-text search and faceted filtering
 by compound name, chemical formula, and element, with each record expandable
-to all 31 fields and linked to its DOI. It is regenerated from the CSV by
+to all 32 fields and linked to its DOI. It is regenerated from the CSV by
 \col{site/build_site.py}.
 
 \end{document}

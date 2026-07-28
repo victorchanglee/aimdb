@@ -89,6 +89,12 @@ Run all `python -m mining_agent ...` commands from `code/` with
      sequence; this column is what the decision agent reads — quote it
      faithfully, format "(nel,norb) step; (nel,norb) step; ...".
    - `reference_doi` is mandatory — a row without a DOI is not addable.
+   - `correlation_correction`: which post-CASSCF dynamic-correlation
+     correction the reported result uses (`NEVPT2`, `CASPT2`, `RASPT2`,
+     `MRCI`, ...) or `none` for a variational CASSCF/RASSCF/DMRG-only
+     result. Leave it out of the JSON and `add-row` derives it from
+     `method` via `csvio.classify_correction`; set it explicitly only when
+     the paper's wording makes the derivation wrong.
    - `mining_model`: provenance of which LLM did the extraction. Leave it
      out of the JSON and `add-row` auto-stamps `config.CURRENT_MINING_MODEL`.
      When a new Claude model takes over the mining, bump

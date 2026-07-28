@@ -35,9 +35,10 @@ MAX_PDF_BYTES = 80 * 1024 * 1024
 CURRENT_MINING_MODEL = "claude-opus-4-8"
 
 # literature.csv column order. The first 30 columns are identical to
-# claude-casscf/database/literature.csv so rows can be merged; "mining_model"
-# is an aimdb-only provenance column appended LAST, so a merge into the
-# decision agent's database can simply drop the trailing field.
+# claude-casscf/database/literature.csv so rows can be merged;
+# "correlation_correction" and "mining_model" are aimdb-only columns appended
+# LAST, so a merge into the decision agent's database can simply drop the
+# trailing fields.
 LITERATURE_COLUMNS = [
     "entry_id", "structure_file", "compound_name", "formula", "metal_center",
     "metal_ox_state", "d_electron_count", "ligand_set", "point_group",
@@ -48,7 +49,7 @@ LITERATURE_COLUMNS = [
     "multiplicities_studied", "nroots_per_mult", "ground_state_mult",
     "ground_state_term", "low_lying_states_eV", "Other",
     "reference_short", "reference_doi", "year", "notes",
-    "mining_model",
+    "correlation_correction", "mining_model",
 ]
 
 INDEX_COLUMNS = [

@@ -6,8 +6,41 @@ the decision agent's reference database. Appending goes through here so
 a malformed dict can never silently shift columns.
 """
 import csv
+import re
 
 from . import config
+
+# Detectors for the post-CASSCF dynamic-correlation correction applied to a
+# result, matched (case-insensitively) against the `method` string. Ordered;
+# all matches are reported. Bare "QDPT" is intentionally NOT a detector — it
+# usually denotes spin-orbit quasi-degenerate PT (state mixing), not a
+# correlation correction — whereas XMCQDPT2 is a genuine multireference PT2.
+_CORRECTION_DETECTORS = [
+    ("NEVPT2",   r"NEVPT"),
+    ("CASPT2",   r"CASPT2"),
+    ("RASPT2",   r"RASPT2"),
+    ("CASPT3",   r"CASPT3|(?<![A-Z])PT3"),
+    ("XMCQDPT2", r"XMCQDPT"),
+    ("MRCI",     r"MRCI"),
+    ("DDCI",     r"DDCI"),
+    ("CIPSI",    r"CIPSI"),
+    ("MRCC",     r"MRCC|MR-CC"),
+]
+
+
+def classify_correction(method):
+    """Derive `correlation_correction` from a `method` string.
+
+    Returns the name(s) of the dynamic-correlation correction(s) applied
+    (e.g. "NEVPT2", "CASPT2; MRCI"), or "none" for a variational
+    CASSCF/RASSCF/DMRG-only result. This is a restatement of the already-%
+    extracted `method` field; an extractor may override it per row.
+    """
+    m = (method or "").upper()
+    hits = [name for name, pat in _CORRECTION_DETECTORS if re.search(pat, m)]
+    if not hits and re.search(r"PT2", m):   # generic +PT2 (e.g. ASCI+PT2)
+        hits = ["PT2"]
+    return "; ".join(dict.fromkeys(hits)) if hits else "none"
 
 
 def ensure_header():
@@ -61,6 +94,10 @@ def append_row(fields):
     fields = {**fields}
     if not fields.get("mining_model"):
         fields["mining_model"] = config.CURRENT_MINING_MODEL
+    # Derive the correlation correction from `method` unless the caller set it.
+    if not fields.get("correlation_correction"):
+        fields["correlation_correction"] = classify_correction(
+            fields.get("method", ""))
     row = {col: str(fields.get(col, "")) for col in config.LITERATURE_COLUMNS}
     with open(config.LITERATURE_CSV, "a", newline="", encoding="utf-8") as f:
         csv.DictWriter(f, fieldnames=config.LITERATURE_COLUMNS).writerow(row)

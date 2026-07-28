@@ -295,7 +295,7 @@ function matchesText(r){
   if(pick==="all"){
     hay = [r.compound_name, r.formula, r.metal_center, r.method, r.software,
            r.ligand_set, r.reference_short, r.reference_doi, r.notes,
-           (r._elements||[]).join(" ")].join("  ");
+           r.correlation_correction, (r._elements||[]).join(" ")].join("  ");
   } else if(pick==="element"){
     hay = (r._elements||[]).join(" ") + " " + r.metal_center;
   } else {
@@ -333,7 +333,7 @@ const FIELD_LABELS = {
   ground_state_mult:"Ground-state multiplicity", ground_state_term:"Ground-state term",
   low_lying_states_eV:"Low-lying states (eV)", Other:"Other",
   reference_short:"Reference", reference_doi:"DOI", year:"Year", notes:"Notes",
-  mining_model:"Mining model (LLM)",
+  correlation_correction:"Correlation correction", mining_model:"Mining model (LLM)",
 };
 const WIDE = new Set(["active_space_orbital_description","active_space_protocol",
   "low_lying_states_eV","Other","notes","compound_name","ligand_set","geometry_source"]);
