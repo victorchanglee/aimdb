@@ -1,9 +1,11 @@
-"""Append validated rows to database/literature.csv.
+"""Append validated rows to database/aimdb.csv.
 
-The schema (column order included) must stay identical to
-claude-casscf/database/literature.csv so mined rows can be merged into
-the decision agent's reference database. Appending goes through here so
-a malformed dict can never silently shift columns.
+The schema (column order included) was originally identical to
+claude-casscf/database/literature.csv so mined rows could be merged into
+the decision agent's reference database; as of 2026-07-28 that schema has
+diverged (ground_state_term merged into electronic_structure_description —
+see CLAUDE.md). Appending goes through here so a malformed dict can never
+silently shift columns.
 """
 import csv
 import re
@@ -58,14 +60,18 @@ def existing_entry_ids():
         return {row["entry_id"] for row in csv.DictReader(f)}
 
 
-def set_structure_file(entry_id, filename, note):
-    """Set structure_file on an existing row and append to its notes —
-    the one sanctioned in-place edit (user-directed structure generation)."""
+def set_structure_file(entry_id, filename, note, provenance="ai_generated"):
+    """Set structure_file/structure_provenance on an existing row and append
+    to its notes — the one sanctioned in-place edit (user-directed structure
+    generation)."""
+    if provenance not in config.STRUCTURE_PROVENANCES:
+        raise ValueError(f"bad provenance {provenance!r}, must be one of {config.STRUCTURE_PROVENANCES}")
     with open(config.LITERATURE_CSV, newline="", encoding="utf-8") as f:
         rows = list(csv.DictReader(f))
     for row in rows:
         if row["entry_id"] == entry_id:
             row["structure_file"] = filename
+            row["structure_provenance"] = provenance
             row["notes"] = (row["notes"] + "; " if row["notes"] else "") + note
             break
     else:

@@ -88,6 +88,11 @@
   .tag-llm_mining{color:var(--accent);border-color:var(--accent);background:rgba(47,111,237,.08)}
   .tag-llm_reproduced{color:var(--accent2);border-color:var(--accent2);background:rgba(13,148,136,.10)}
   .tag-human{color:var(--warn);border-color:var(--warn);background:rgba(180,83,9,.08)}
+  .tag-computational{color:var(--accent);border-color:var(--accent);background:rgba(47,111,237,.08)}
+  .tag-experimental{color:var(--accent2);border-color:var(--accent2);background:rgba(13,148,136,.10)}
+  .tag-ai_generated{color:var(--warn);border-color:var(--warn);background:rgba(180,83,9,.08)}
+  .structure-dl{color:var(--accent);text-decoration:none;font-size:13px;margin-right:8px}
+  .structure-dl:hover{text-decoration:underline}
   .meta-actions{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
   .dl-btn{padding:5px 12px;border-radius:7px;border:1px solid var(--accent);background:var(--accent);
     color:#fff;font-size:12.5px;font-weight:600;cursor:pointer}
@@ -145,6 +150,8 @@
   .view-panel h2{font-size:22px;margin:0 0 6px}
   .view-panel .view-sub{color:var(--muted);font-size:13.5px;margin:0 0 22px}
   .view-panel p{font-size:14px;line-height:1.65;margin:0 0 14px}
+  .view-panel ul{font-size:14px;line-height:1.65;margin:0 0 14px;padding-left:22px}
+  .view-panel li{margin:0 0 4px}
   .view-panel a{color:var(--accent)}
   .stat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin:20px 0}
   .stat-card{border:1px solid var(--border);border-radius:10px;padding:14px;text-align:center}
@@ -186,7 +193,7 @@
   <a class="sidebar-logo" href="#" id="homeLink">AIMdb</a>
   <button class="nav-item active" type="button" data-view="home">Home</button>
   <button class="nav-item" type="button" data-view="dataset">Dataset</button>
-  <button class="nav-item" type="button" data-view="contribute">Contribute</button>
+  <button class="nav-item" type="button" data-view="contribute">How to contribute</button>
   <button class="nav-item" type="button" data-view="cite">How to cite</button>
   <button class="nav-item" type="button" data-view="license">License</button>
 </nav>
@@ -501,24 +508,24 @@
 
 <div class="view-panel" id="view-dataset" hidden="">
   <h2>Dataset</h2>
-  <p class="view-sub">A machine-mined reference set of multireference (CASSCF-family) calculations, extracted from the open-access literature.</p>
+  <p>The dataset is comprised a set of multireference quantum chemistry calculations from open-access literature mined using large languange models (LLMs).</p>
+  <p>Current statistics of the database are:</p>
   <div class="stat-grid">
     <div class="stat-card"><div class="num" id="dsCompounds">667</div><div class="lbl">compound entries</div></div>
     <div class="stat-card"><div class="num" id="dsPapers">403</div><div class="lbl">source papers</div></div>
     <div class="stat-card"><div class="num" id="dsElements">58</div><div class="lbl">elements covered</div></div>
     <div class="stat-card"><div class="num" id="dsYears">1985–2026</div><div class="lbl">year range</div></div>
   </div>
-  <p>Each row is one compound + method result: CASSCF, RASSCF, CASPT2, 
-RASPT2, NEVPT2, DMRG, or MRCI, on either a transition-metal complex or a
- metal-free organic molecule. Every stored value is copied verbatim from
- the paper — nothing is inferred or estimated — so each entry is 
-traceable back to a specific statement in a specific publication. See <code>CLAUDE.md</code> in the repository for the exact extraction policy.</p>
-  <p>Raw data: <a href="https://github.com/victorchanglee/aimdb/blob/main/database/literature.csv" target="_blank" rel="noopener">database/literature.csv</a> on GitHub.</p>
+  <p>The dataset and mining process is Open Source:</p>
+  <ul>
+    <li>See <code>CLAUDE.md</code> in the repository for the exact extraction policy.</li>
+    <li>Raw data: <a href="https://github.com/victorchanglee/aimdb/blob/main/database/aimdb.csv" target="_blank" rel="noopener">database/aimdb.csv</a> on GitHub.</li>
+  </ul>
 </div>
 
 <div class="view-panel" id="view-cite" hidden="">
   <h2>How to cite</h2>
-  <p class="view-sub">If AIMdb was useful in your work, please cite it as:</p>
+  <p>If AIMdb was useful in your work, please cite it as:</p>
   <div class="code-block" id="citeText">Lee, V. C. AIMdb: an AI-mined database of CASSCF-family multireference calculations. <span id="citeYear">2026</span>. https://github.com/victorchanglee/aimdb</div>
   <button class="copy-btn" data-target="citeText">Copy</button>
   <div class="code-block" id="citeBibtex">@misc{aimdb,
@@ -543,11 +550,10 @@ them. The full text is available as <code>LICENSE</code> in the repository root.
 </div>
 
 <div class="view-panel" id="view-contribute" hidden>
-  <h2>Contribute an entry</h2>
-  <p class="view-sub">Know of a CASSCF-family calculation that isn't here — or ran one yourself? Submit it for review.</p>
-  <p>Fill in the fields below (only a few are required). Submitting 
-opens a pre-filled email to the maintainer with your entry included as 
-CSV. Every submission goes into a separate review queue — <strong>nothing is added to the database automatically</strong>; the maintainer checks each entry before it is accepted. Fields left blank stay empty (please don't guess values).</p>
+  <h2>How to contribute</h2>
+  <p>AIMdb is a free, open source academic project. Any help or contribution is welcome.</p>
+    
+    <p>To contribute, fill in the fields below. Submitting opens a pre-filled email to the maintainer with your entry. Every submission goes into a separate review queue — <strong>nothing is added to the database automatically</strong>; the maintainer checks each entry before it is accepted.</p>
   <form id="contribForm" autocomplete="off">
     <div class="form-grid">
       <div class="form-section-title">You</div>
@@ -562,6 +568,15 @@ CSV. Every submission goes into a separate review queue — <strong>nothing is a
       <div class="field-group"><label>Ligand set</label><input name="ligand_set"></div>
       <div class="field-group"><label>Point group</label><input name="point_group"></div>
       <div class="field-group"><label>Geometry source</label><input name="geometry_source" placeholder="optimized / X-ray / prior work"></div>
+      <div class="field-group"><label>Structure file (.xyz, .cif, .mol, ...)</label><input type="file" name="structure_upload" accept=".xyz,.cif,.pdb,.mol,.mol2,.sdf"></div>
+      <div class="field-group"><label>Structure provenance</label>
+        <select name="structure_provenance">
+          <option value="">—</option>
+          <option value="computational">Computational (DFT/optimized by the paper)</option>
+          <option value="experimental">Experimental (X-ray/neutron/measured)</option>
+          <option value="ai_generated">AI-generated (not the paper's real geometry)</option>
+        </select>
+      </div>
 
       <div class="form-section-title">Methodology</div>
       <div class="field-group full"><label>Method <span class="req">*</span></label><input name="method" required="" placeholder="e.g. CASSCF; NEVPT2"></div>
@@ -579,6 +594,7 @@ CSV. Every submission goes into a separate review queue — <strong>nothing is a
 
       <div class="form-section-title">Electronic structure</div>
       <div class="field-group"><label>Multiplicities studied</label><input name="multiplicities_studied" placeholder="e.g. 3,5"></div>
+      <div class="field-group"><label>Roots per multiplicity</label><input name="nroots_per_mult" placeholder="e.g. 5 (state averaging)"></div>
       <div class="field-group"><label>Ground-state multiplicity</label><input name="ground_state_mult"></div>
       <div class="field-group full"><label>Electronic structure description</label><textarea name="electronic_structure_description"></textarea></div>
 
@@ -606,7 +622,7 @@ CSV. Every submission goes into a separate review queue — <strong>nothing is a
 </div>
 </div><!-- /page -->
 
-<script src="index_files/data__VBg.js"></script>
+<script src="data.js"></script>
 <script>
 const DATA = (window.LIT && window.LIT.rows) || [];
 const $ = s => document.querySelector(s);
@@ -728,25 +744,35 @@ function highlight(text){
 }
 
 const FIELD_LABELS = {
-  entry_id:"Entry ID", structure_file:"Structure file", compound_name:"Compound name",
-  formula:"Formula", metal_center:"Metal center", metal_ox_state:"Oxidation state",
+  entry_id:"Entry ID", structure_file:"Structure file", compound_name:"Compound name / description",
+  formula:"Molecular formula", metal_center:"Metal center", metal_ox_state:"Metal oxidation state",
   d_electron_count:"d-electron count", ligand_set:"Ligand set", point_group:"Point group",
   geometry_source:"Geometry source", method:"Method", software:"Software",
   basis_set:"Basis set", relativistic_treatment:"Relativistic treatment",
-  soc_included:"SOC included", ss_included:"Spin-spin included",
-  active_space_nel:"Active electrons", active_space_norb:"Active orbitals",
-  active_space_orbital_description:"Active-space orbitals",
-  active_space_protocol:"Active-space protocol",
-  multiplicities_studied:"Multiplicities", nroots_per_mult:"Roots per multiplicity",
+  soc_included:"Spin–orbit coupling included?", ss_included:"Spin–spin included?",
+  active_space_nel:"Active electrons (nel)", active_space_norb:"Active orbitals (norb)",
+  active_space_orbital_description:"Active-space orbital description",
+  active_space_protocol:"Active-space protocol (build-up sequence)",
+  multiplicities_studied:"Multiplicities studied", nroots_per_mult:"Roots per multiplicity",
   ground_state_mult:"Ground-state multiplicity",
   electronic_structure_description:"Electronic structure description", Other:"Other",
-  reference_short:"Reference", reference_doi:"DOI", year:"Year", notes:"Notes",
+  reference_short:"Short citation", reference_doi:"DOI", year:"Year", notes:"Notes",
   correlation_correction:"Correlation correction", entry_type:"Entry source",
   mining_model:"Mining model (LLM)",
 };
 const WIDE = new Set(["active_space_orbital_description","active_space_protocol",
   "electronic_structure_description","Other","notes","compound_name","ligand_set","geometry_source"]);
-const HIDE = new Set(["_metals","_elements"]);
+const HIDE = new Set(["_metals","_elements","structure_provenance"]);
+const STRUCTURE_PROVENANCE_LABELS = {computational:"Computational", experimental:"Experimental", ai_generated:"AI-generated"};
+function structureTag(r){
+  const p = r.structure_provenance || "";
+  if(!p) return "";
+  const lbl = STRUCTURE_PROVENANCE_LABELS[p] || p;
+  return `<span class="tag tag-${esc(p)}" title="Structure provenance: ${esc(lbl)}">${esc(lbl)}</span>`;
+}
+function structureUrl(filename){
+  return `https://raw.githubusercontent.com/victorchanglee/aimdb/main/database/structures/${encodeURIComponent(filename)}`;
+}
 
 function activeSpace(r){
   const n=r.active_space_nel, o=r.active_space_norb;
@@ -775,6 +801,9 @@ function detail(r, i){
     let v = r[f];
     if(f==="reference_doi" && v) v = `<a href="https://doi.org/${esc(v)}" target="_blank" rel="noopener">${esc(v)}</a>`;
     else if(f==="entry_type") v = entryTag(r) || '<span class="empty">—</span>';
+    else if(f==="structure_file") v = v
+      ? `<a class="structure-dl" href="${structureUrl(v)}" target="_blank" rel="noopener" download>⬇ ${esc(v)}</a>${structureTag(r)}`
+      : '<span class="empty">—</span>';
     else v = v ? highlight(v) : '<span class="empty">—</span>';
     const cls = WIDE.has(f) ? "field wide" : "field";
     return `<div class="${cls}"><div class="k">${esc(FIELD_LABELS[f]||f)}</div><div class="v">${v}</div></div>`;
@@ -862,7 +891,7 @@ function downloadCSV(){
     ? DATA.filter(r=>state.selected.has(r.entry_id))
     : rows;
   if(!chosen.length) return;
-  const cols = window.LIT.fields;   // exact literature.csv columns
+  const cols = window.LIT.fields;   // exact aimdb.csv columns
   const lines = [cols.map(csvField).join(",")];
   chosen.forEach(r=> lines.push(cols.map(c=>csvField(r[c])).join(",")));
   const blob = new Blob([lines.join("\r\n")+"\r\n"], {type:"text/csv;charset=utf-8"});
@@ -1030,6 +1059,11 @@ if(contribForm){
       entry_type:"entry source"};
     const missing = Object.keys(required).filter(k=>!data[k]);
     const err = $("#contribError");
+    const structureFile = contribForm.querySelector('[name="structure_upload"]').files[0] || null;
+    if(structureFile && !data.structure_provenance){
+      missing.push("structure_provenance");
+      required.structure_provenance = "structure provenance (you attached a file)";
+    }
     if(missing.length){
       err.textContent = "Please fill in: " + missing.map(k=>required[k]).join(", ") + ".";
       return;
@@ -1038,7 +1072,9 @@ if(contribForm){
     // fixed / derived fields
     data.submitted_at = new Date().toISOString().slice(0,10);
     data.review_status = "pending";
-    // build CSV: review metadata + the exact literature.csv columns
+    // build CSV: review metadata + the exact aimdb.csv columns (structure_file
+    // is left blank — the maintainer fills it in once the attached file is
+    // actually saved to database/structures/)
     const cols = CONTRIB_META.concat(window.LIT.fields);
     const csvText = cols.map(csvField).join(",") + "\r\n"
       + cols.map(c=>csvField(data[c]||"")).join(",") + "\r\n";
@@ -1048,7 +1084,7 @@ if(contribForm){
       `Contributor: ${data.contributor_name} <${data.contributor_email}>`,
       `Compound: ${data.compound_name}`,
       `DOI: ${data.reference_doi}`,
-      "",
+      structureFile ? `\nPLEASE ATTACH THE STRUCTURE FILE YOU SELECTED: ${structureFile.name}\n` : "",
       "Entry (CSV):",
       "",
       csvText,
@@ -1057,6 +1093,9 @@ if(contribForm){
     $("#contribMailto").href = mailtoUrl;
     window.location.href = mailtoUrl;
     $("#contribSuccess").hidden = false;
+    $("#contribSuccess").querySelector("p").innerHTML =
+      "Your entry is pre-filled as CSV in the email body. Just hit send. If nothing opened, use the link below instead."
+      + (structureFile ? `<br><strong>Don't forget to attach ${esc(structureFile.name)} to the email before sending.</strong>` : "");
     $("#contribSuccess").scrollIntoView({behavior:"smooth", block:"center"});
     contribForm.reset();
   });

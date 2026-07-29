@@ -157,7 +157,7 @@ def cmd_status(_args):
     for status in sorted(counts):
         print(f"  {counts[status]:4d}  {status}")
     n_rows = max(0, len(csvio.existing_entry_ids()))
-    print(f"{n_rows} rows in literature.csv")
+    print(f"{n_rows} rows in aimdb.csv")
 
 
 def cmd_contributions(args):
@@ -252,7 +252,7 @@ def main():
     p.add_argument("--key")
     p.set_defaults(func=cmd_text)
 
-    p = sub.add_parser("add-row", help="append a validated literature.csv row")
+    p = sub.add_parser("add-row", help="append a validated aimdb.csv row")
     p.add_argument("--json", required=True,
                    help="path to a JSON dict of schema fields")
     p.add_argument("--reasoning", default="")

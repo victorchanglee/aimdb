@@ -2,7 +2,8 @@
 
 You are running a loop that finds published papers containing CASSCF-family
 calculations on transition-metal complexes, downloads the open-access PDFs,
-and transforms them into rows of `database/literature.csv` — historically the
+and transforms them into rows of `database/aimdb.csv` (renamed 2026-07-29
+from `literature.csv` to match the project name) — historically the
 same schema as `claude-casscf/database/literature.csv`, so mined rows could be
 merged into the decision agent's reference database. **As of 2026-07-28 this
 schema has diverged**: `ground_state_term` was merged into
@@ -20,7 +21,7 @@ text is judgment work, not regex work.
 
 ```
 code/mining_agent/            Python implementation (search/fetch/text/csv helpers)
-database/literature.csv       output database (schema diverged from claude-casscf 2026-07-28, see above)
+database/aimdb.csv            output database (schema diverged from claude-casscf 2026-07-28, see above)
 database/papers_index.csv     one row per candidate paper: doi, title, status, paths
 papers/pending/<key>.pdf      downloaded PDFs still to be read (gitignored)
 papers/mined/<key>.pdf        PDFs already read and judged (gitignored)
@@ -78,12 +79,15 @@ PDFs that were added by hand and aren't in the index).
    `text/<key>_si_*.txt`). Read those before declaring a field unstated.
    Coordinates found in SI are saved **verbatim** to
    `database/structures/<entry_id>.xyz` with a VERBATIM provenance line —
-   these are the paper's real geometries and outrank generated ones.
-   For compounds without SI coordinates, `structure --entry-id X --name Y`
-   may save a PubChem conformer, always labeled GENERATED / not the
-   paper's geometry; sanity-check the atom count against the compound
-   before keeping it. SI files live in `papers/si/<key>/` (gitignored,
-   copyrighted).
+   these are the paper's real geometries and outrank generated ones. Set
+   `structure_provenance` to `computational` or `experimental` depending on
+   how the paper obtained that geometry (DFT/optimized vs.
+   X-ray/neutron/measured). For compounds without SI coordinates,
+   `structure --entry-id X --name Y` may save a PubChem conformer, always
+   labeled GENERATED / not the paper's geometry and always stamped
+   `structure_provenance=ai_generated` automatically; sanity-check the atom
+   count against the compound before keeping it. SI files live in
+   `papers/si/<key>/` (gitignored, copyrighted).
 
 5. **Extract rows.** For each distinct compound+method result in a usable
    paper, build a JSON dict of the schema fields and append it with
@@ -96,7 +100,9 @@ PDFs that were added by hand and aren't in the index).
      it in `notes` if the paper doesn't state the ox state explicitly.
    - `entry_id`: the papers_index `key`, plus `-a`, `-b`, ... for multiple
      compounds from one paper. `structure_file`: empty unless you actually
-     save a geometry to `database/structures/`.
+     save a geometry to `database/structures/`. `structure_provenance`:
+     `computational` / `experimental` / `ai_generated` — mandatory whenever
+     `structure_file` is set (see step 4b); empty otherwise.
    - **Metal-free organic compounds**: set `metal_center` to `none`
      (deliberate absence, distinct from empty = not stated); leave
      `metal_ox_state`, `d_electron_count`, and `ligand_set` empty. All
@@ -161,7 +167,7 @@ never trusted blindly**:
   `database/contributions.csv` with `review_status=pending`);
   `--list` shows the pending queue.
 - Review each pending row against its DOI exactly like a mined paper (scope
-  test + copy-never-infer). If it holds up, promote it into `literature.csv`
+  test + copy-never-infer). If it holds up, promote it into `aimdb.csv`
   via the normal `add-row` path (assigning an `entry_id`; `entry_type`
   stays `human`, `mining_model` empty), then mark the contribution row
   reviewed. Contributions are **never auto-merged**.
@@ -173,5 +179,5 @@ never trusted blindly**:
 - Never download from anywhere except the OA URLs the search API returns.
 - Never add a row whose DOI already has rows, unless it's a genuinely
   different compound from the same paper.
-- Never edit or delete existing `literature.csv` rows without being asked —
+- Never edit or delete existing `aimdb.csv` rows without being asked —
   append-only, corrections go in `notes`.

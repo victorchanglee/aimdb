@@ -19,11 +19,11 @@ SI_DIR = PAPERS_DIR / "si"
 TEXT_DIR = PROJECT_ROOT / "text"
 LOGS_DIR = PROJECT_ROOT / "logs"
 
-LITERATURE_CSV = DATABASE_DIR / "literature.csv"
+LITERATURE_CSV = DATABASE_DIR / "aimdb.csv"
 PAPERS_INDEX_CSV = DATABASE_DIR / "papers_index.csv"
 EXTRACTIONS_LOG = LOGS_DIR / "extractions.csv"
 # Community submissions from the website form, collected here for maintainer
-# review — never auto-merged into literature.csv.
+# review — never auto-merged into aimdb.csv.
 CONTRIBUTIONS_CSV = DATABASE_DIR / "contributions.csv"
 
 OPENALEX_WORKS_URL = "https://api.openalex.org/works"
@@ -51,16 +51,17 @@ CURRENT_MINING_MODEL = "claude-opus-4-8"
 ENTRY_TYPES = ("llm_mining", "llm_reproduced", "human")
 DEFAULT_ENTRY_TYPE = "llm_mining"
 
-# literature.csv column order. Originally the first 30 columns were
-# identical to claude-casscf/database/literature.csv so rows could be
-# merged directly; as of 2026-07-28 "ground_state_term" was merged into
+# aimdb.csv (formerly literature.csv) column order. Originally the first 30
+# columns were identical to claude-casscf/database/literature.csv so rows
+# could be merged directly; as of 2026-07-28 "ground_state_term" was merged into
 # "low_lying_states_eV" (renamed "electronic_structure_description", with
 # any ground-state-term text prefixed as "Ground term: ..."), so this
 # schema has DIVERGED from claude-casscf until that project adopts the same
 # change. "correlation_correction", "entry_type" and "mining_model" remain
 # aimdb-only columns appended LAST.
 LITERATURE_COLUMNS = [
-    "entry_id", "structure_file", "compound_name", "formula", "metal_center",
+    "entry_id", "structure_file", "structure_provenance", "compound_name",
+    "formula", "metal_center",
     "metal_ox_state", "d_electron_count", "ligand_set", "point_group",
     "geometry_source", "method", "software", "basis_set",
     "relativistic_treatment", "soc_included", "ss_included",
@@ -72,8 +73,17 @@ LITERATURE_COLUMNS = [
     "correlation_correction", "entry_type", "mining_model",
 ]
 
+# structure_provenance: how the coordinates in structure_file were obtained.
+#   computational  — geometry the paper itself computed/optimized (DFT, etc.)
+#   experimental    — geometry the paper took from X-ray/neutron/other measurement
+#   ai_generated    — a PubChem conformer stand-in, NOT the paper's real geometry
+# Empty when structure_file is empty. structures.save_structure() (the only
+# coded path) always writes "ai_generated"; the VERBATIM-from-SI path is
+# manual (see CLAUDE.md) and must set this explicitly per paper.
+STRUCTURE_PROVENANCES = ("computational", "experimental", "ai_generated")
+
 # contributions.csv schema: review metadata first, then the full literature
-# schema (so an approved contribution promotes straight into literature.csv).
+# schema (so an approved contribution promotes straight into aimdb.csv).
 # The website form emits exactly these columns.
 CONTRIB_META_COLUMNS = [
     "submitted_at", "contributor_name", "contributor_email", "review_status",

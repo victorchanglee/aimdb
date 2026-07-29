@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Build the static literature-browser site from database/literature.csv.
+"""Build the static literature-browser site from database/aimdb.csv.
 
-Reads ../database/literature.csv and writes site/data.js, an embedded
+Reads ../database/aimdb.csv and writes site/data.js, an embedded
 `window.LIT = {...}` blob so index.html works when opened directly
 (file://) with no web server. Re-run this whenever the CSV changes:
 
@@ -14,7 +14,7 @@ import datetime
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-CSV = HERE.parent / "database" / "literature.csv"
+CSV = HERE.parent / "database" / "aimdb.csv"
 OUT = HERE / "data.js"
 
 # Periodic-table symbols, used to pull real elements out of free-text
