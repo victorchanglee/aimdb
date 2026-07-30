@@ -9060,3 +9060,751 @@ timestamp,key,doi,action,result,reasoning
 2026-07-30T15:58:56Z,W4394342926,10.1080/00268976.2013.861526,mark,not_usable,"Coupled-cluster basis-set convergence study on 12 small eight-valence-electron systems. CASSCF appears only as a diagnostic quantity (the CASSCF 1-C0^2 static-correlation indicator used to predict the importance of connected quintuple excitations); no active space is reported as the production level for any compound, and the paper's subject is the convergence of the CC series (CCSDT(Q)/B vs CCSDT(Q)-Lambda), not a multireference calculation. Method/benchmark paper on toy systems. Judged from the abstract - the article is paywalled."
 2026-07-30T15:58:56Z,W7162415770,10.1080/00032719.2026.2670563,mark,not_usable,"Real multireference work - CASSCF, NEVPT2 and MRCI+Q potential energy curves for the three lowest states of O2 with ano-pVXZ (X = D,T,Q,5) and three active spaces CAS(8,6), CAS(10,8), CAS(12,10), extrapolated to the CBS limit - but excluded on scope: O2 is a bare diatomic, consistent with the RhO, N2 and Sc-Ni/Cu-Ag-Au rejections in this same batch. Judged from the abstract - the article is paywalled (Analytical Letters). Revisit if the diatomic exclusion is relaxed; the abstract alone names three usable active spaces."
 2026-07-30T15:58:57Z,W4394190678,10.26434/chemrxiv-2022-14tkm,mark,fetch_failed,"ChemRxiv preprint 10.26434/chemrxiv-2022-14tkm. DOI corrected from the figshare SI-deposit DOI during the 2026-07-30 reconciliation, but chemRxiv returns HTTP 403 to both the OA asset URL reported by OpenAlex and its public search API, so the PDF could not be retrieved. Genuinely still to do: the DOI is now right, only the download is blocked."
+2026-07-30T20:01:11Z,W3041093158,10.1063/5.0007040,fetch,fetched,"user-supplied PDF, batch 4; original filename '014106_1_online.pdf'"
+2026-07-30T20:01:11Z,W2006537377,10.1021/jp412347k,fetch,fetched,"user-supplied PDF, batch 4; original filename '094321.pdf'"
+2026-07-30T20:01:11Z,W1984166883,10.1016/j.cplett.2004.03.026,fetch,fetched,"user-supplied PDF, batch 4; original filename '1-s2.0-S0009261404003719-main.pdf'"
+2026-07-30T20:01:11Z,W2156819210,10.1016/j.cplett.2010.01.026,fetch,fetched,"user-supplied PDF, batch 4; original filename '1-s2.0-S0009261410000485-main.pdf'"
+2026-07-30T20:01:11Z,W2058084523,10.1016/j.cplett.2011.12.021,fetch,fetched,"user-supplied PDF, batch 4; original filename '1-s2.0-S0009261411015168-main.pdf'"
+2026-07-30T20:01:11Z,W2571067588,10.1016/j.cplett.2017.01.013,fetch,fetched,"user-supplied PDF, batch 4; original filename '1-s2.0-S0009261417300258-main.pdf'"
+2026-07-30T20:01:11Z,W2624114553,10.1016/j.cplett.2017.05.061,fetch,fetched,"user-supplied PDF, batch 4; original filename '1-s2.0-S0009261417305080-main.pdf'"
+2026-07-30T20:01:11Z,W2920386459,10.1016/j.cplett.2019.03.004,fetch,fetched,"user-supplied PDF, batch 4; original filename '1-s2.0-S0009261419301678-main.pdf'"
+2026-07-30T20:01:11Z,W3035037872,10.1016/j.cplett.2020.137706,fetch,fetched,"user-supplied PDF, batch 4; original filename '1-s2.0-S0009261420306217-main.pdf'"
+2026-07-30T20:01:11Z,W3133614479,10.1016/j.cplett.2021.138514,fetch,fetched,"user-supplied PDF, batch 4; original filename '1-s2.0-S0009261421001974-main.pdf'"
+2026-07-30T20:01:11Z,W2026642233,10.1016/j.jms.2012.12.005,fetch,fetched,"user-supplied PDF, batch 4; original filename '1-s2.0-S0022285212002275-main.pdf'"
+2026-07-30T20:01:11Z,W1176755638,10.1016/j.susc.2015.06.018,fetch,fetched,"user-supplied PDF, batch 4; original filename '1-s2.0-S0039602815001764-main.pdf'"
+2026-07-30T20:01:11Z,W2991811976,10.1016/j.poly.2019.114257,fetch,fetched,"user-supplied PDF, batch 4; original filename '1-s2.0-S0277538719307028-main.pdf'"
+2026-07-30T20:01:11Z,W2060789838,10.1016/j.chemphys.2004.01.017,fetch,fetched,"user-supplied PDF, batch 4; original filename '1-s2.0-S0301010404000552-main.pdf'"
+2026-07-30T20:01:11Z,W1994189865,10.1016/j.chemphys.2012.01.009,fetch,fetched,"user-supplied PDF, batch 4; original filename '1-s2.0-S0301010412000213-main.pdf'"
+2026-07-30T20:01:11Z,W3157421356,10.1016/j.chemphys.2021.111226,fetch,fetched,"user-supplied PDF, batch 4; original filename '1-s2.0-S0301010421001373-main.pdf'"
+2026-07-30T20:01:11Z,W2979387010,10.1016/j.saa.2019.117578,fetch,fetched,"user-supplied PDF, batch 4; original filename '1-s2.0-S1386142519309680-main.pdf'"
+2026-07-30T20:01:11Z,W3085402209,10.1063/5.0024134,fetch,fetched,"user-supplied PDF, batch 4; original filename '114113_1_online.pdf'"
+2026-07-30T20:01:11Z,W2030864702,10.1021/ct800459t,fetch,fetched,"user-supplied PDF, batch 4; original filename '121-rhodopsin.pdf'"
+2026-07-30T20:01:11Z,W2056748221,10.1021/jp810247u,fetch,fetched,"user-supplied PDF, batch 4; original filename '123-mnsod2.pdf'"
+2026-07-30T20:01:11Z,W2414483381,10.1021/acs.jpclett.6b00936,fetch,fetched,"user-supplied PDF, batch 4; original filename '1387977.pdf'"
+2026-07-30T20:01:11Z,W2029385951,10.1021/jp103098r,fetch,fetched,"user-supplied PDF, batch 4; original filename '140-lacc-epr.pdf'"
+2026-07-30T20:01:11Z,W2916091728,10.1021/acs.inorgchem.8b03566,fetch,fetched,"user-supplied PDF, batch 4; original filename '1566507.pdf'"
+2026-07-30T20:01:11Z,W4297996670,10.1063/5.0106422,fetch,fetched,"user-supplied PDF, batch 4; original filename '164106_1_online.pdf'"
+2026-07-30T20:01:11Z,W2054184880,10.1063/1.4705428,fetch,fetched,"user-supplied PDF, batch 4; original filename '174316_1_online.pdf'"
+2026-07-30T20:01:11Z,W3033880303,10.1063/5.0010068,fetch,fetched,"user-supplied PDF, batch 4; original filename '214111_1_online.pdf'"
+2026-07-30T20:01:11Z,W4280619364,10.1063/5.0090129,fetch,fetched,"user-supplied PDF, batch 4; original filename '224104_1_online.pdf'"
+2026-07-30T20:01:11Z,W4400200856,10.1063/5.0215697,fetch,fetched,"user-supplied PDF, batch 4; original filename '2403625.pdf'"
+2026-07-30T20:01:11Z,W2095407146,10.1021/ja073628j,fetch,fetched,"user-supplied PDF, batch 4; original filename '324469.pdf'"
+2026-07-30T20:01:11Z,W2069819498,10.1063/1.1482706,fetch,fetched,"user-supplied PDF, batch 4; original filename '45. Journal of Chemical Physics, 117 (2002) Serrano-Andrés.pdf'"
+2026-07-30T20:01:11Z,W2119983744,10.1063/1.473161,fetch,fetched,"user-supplied PDF, batch 4; original filename '7162_1_online.pdf'"
+2026-07-30T20:01:11Z,W4234484212,10.1002/9780470192597.gloss,fetch,fetched,"user-supplied PDF, batch 4; original filename 'A Chemist s Guide to Valence Bond Theory - 2007 - Shaik - Glossary.pdf'"
+2026-07-30T20:01:11Z,W7117980144,10.1002/9781394238828.epil,fetch,fetched,"user-supplied PDF, batch 4; original filename 'A Chemist s Guide to Valence Bond Theory - 2026 - Shaik - Epilogue.pdf'"
+2026-07-30T20:01:11Z,W2113939091,10.1080/00268970110112327,fetch,fetched,"user-supplied PDF, batch 4; original filename 'A theoretical study of the 21Ag 11Ag two-photon transition and its vibronic band in trans-stilbene.pdf'"
+2026-07-30T20:01:11Z,W2943191843,10.1021/acs.jctc.9b00282,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Accepted_Version.pdf'"
+2026-07-30T20:01:11Z,W3011049025,10.1039/d0dt00315h,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Acharya et al-2020-Influence of ligand field on magnetic anisotropy in a family.pdf'"
+2026-07-30T20:01:11Z,W4410310622,10.1002/adfm.202507144,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Adv Funct Materials - 2025 - Yang - Heteroatomic Doping Induces High‐Low Spin Isomers in Atomically Precise Au Nanoclusters.pdf'"
+2026-07-30T20:01:11Z,W2644474465,10.3847/1538-4357/aa719f,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Al-Mogren_2017_ApJ_842_107.pdf'"
+2026-07-30T20:01:11Z,W3129789227,10.1039/d1dt00260k,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Ali-2021-A new class of DyIII-SIMs associated with guanidine-based ligand.pdf'"
+2026-07-30T20:01:11Z,W3138622994,10.1002/anie.202103596,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Angew Chem Int Ed - 2021 - Cirulli - Rotaxane CoII Complexes as Field‐Induced Single‐Ion Magnets.pdf'"
+2026-07-30T20:01:11Z,W4313488182,10.1002/anie.202216003,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Angew Chem Int Ed - 2023 - Steffenfauseweh - Isolation of an Annulated 1 4‐Distibabenzene Diradicaloid.pdf'"
+2026-07-30T20:01:11Z,W4385564721,10.1002/anie.202303146,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Angew Chem Int Ed - 2023 - Vieru - Increasing the Magnetic Blocking Temperature of Single‐Molecule Magnets.pdf'"
+2026-07-30T20:01:11Z,W4383497692,10.1002/anie.202306970,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Angew Chem Int Ed - 2023 - Zanella - Luminescent Single‐Molecule Magnets as Dual Magneto‐Optical Molecular Thermometers.pdf'"
+2026-07-30T20:01:11Z,W3167707510,10.1002/ange.202102218,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Angewandte Chemie - 2021 - Brückner - Isolierung neutraler mono‐ und dikationischer B2P2‐Ringe durch Addition eines.pdf'"
+2026-07-30T20:01:11Z,W3128393528,10.1002/ange.202017078,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Angewandte Chemie - 2021 - Sharma - Ein offenschaliges Singulett‐SnI‐Diradikal und H2‐Spaltung.pdf'"
+2026-07-30T20:01:11Z,W2171511331,10.1080/00268970009483311,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Anisotropie dipole polarizabilities and quadrupole moments of open-shell atoms and ions O F S Cl Se Br and isoelectronic systems.pdf'"
+2026-07-30T20:01:11Z,W2912325344,10.3847/1538-4357/aafa76,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Bennedjai_2019_ApJ_871_255.pdf'"
+2026-07-30T20:01:11Z,W2891680757,10.1002/cnr2.1128,fetch,fetched,"user-supplied PDF, batch 4; original filename 'CNR2-1-e1128.pdf'"
+2026-07-30T20:01:11Z,W2027744093,10.1021/ic201521w,fetch,fetched,"user-supplied PDF, batch 4; original filename 'CONICET_Digital_Nro.3aa9175f-7181-41e7-ab21-45ad0b9b6eb3_A.pdf'"
+2026-07-30T20:01:12Z,W2597419965,10.1021/acs.jpca.6b12448,fetch,fetched,"user-supplied PDF, batch 4; original filename 'CONICET_Digital_Nro.b35017b1-7f4a-4839-ac31-6979e050146f_A.pdf'"
+2026-07-30T20:01:12Z,W2920120853,10.1021/acs.joc.8b02984,fetch,fetched,"user-supplied PDF, batch 4; original filename 'CONICET_Digital_Nro.bc70a1c8-0f3d-43db-a542-56b9ace1c0e9_G.pdf'"
+2026-07-30T20:01:12Z,W3198558532,10.1021/acs.jpca.1c06390,fetch,fetched,"user-supplied PDF, batch 4; original filename 'CV_15205215-125-36-8014.pdf'"
+2026-07-30T20:01:12Z,W2949396998,10.1002/cptc.201900121,fetch,fetched,"user-supplied PDF, batch 4; original filename 'ChemPhotoChem - 2019 - Avila Ferrer - The Intriguing Case of the One‐Photon and Two‐Photon Absorption of a Prototypical.pdf'"
+2026-07-30T20:01:12Z,W2946584321,10.1002/cptc.201900116,fetch,fetched,"user-supplied PDF, batch 4; original filename 'ChemPhotoChem - 2019 - Gini - Mesityl or Imide Acridinium Photocatalysts Accessible Versus Inaccessible Charge‐Transfer.pdf'"
+2026-07-30T20:01:12Z,W4220653127,10.1002/cptc.202100290,fetch,fetched,"user-supplied PDF, batch 4; original filename 'ChemPhotoChem - 2022 - Lea - Effect of Electron Donating Withdrawing Groups on Molecular Photoswitching of Functionalized.pdf'"
+2026-07-30T20:01:12Z,W2039235712,10.1002/cphc.200390063,fetch,fetched,"user-supplied PDF, batch 4; original filename 'ChemPhysChem - 2003 - Peiró‐García - An Ab Initio Study on the Mechanism of the Atmospheric Reaction NH2 O3 H2NO O2.pdf'"
+2026-07-30T20:01:12Z,W2030998293,10.1002/cphc.200400584,fetch,fetched,"user-supplied PDF, batch 4; original filename 'ChemPhysChem - 2005 - Lawson Daku - Assessment of Density Functionals for the High‐Spin Low‐Spin Energy Difference in the.pdf'"
+2026-07-30T20:01:12Z,W2166303160,10.1002/cphc.201402073,fetch,fetched,"user-supplied PDF, batch 4; original filename 'ChemPhysChem - 2014 - Mullinax - Conical Intersections and Low‐Lying Electronic States of Tetrafluoroethylene.pdf'"
+2026-07-30T20:01:12Z,W3113154759,10.1002/cphc.202000926,fetch,fetched,"user-supplied PDF, batch 4; original filename 'ChemPhysChem - 2020 - Ricci - Singlet‐Triplet Excited‐State Inversion in Heptazine and Related Molecules Assessment of.pdf'"
+2026-07-30T20:01:12Z,W4361297978,10.1002/cphc.202300165,fetch,fetched,"user-supplied PDF, batch 4; original filename 'ChemPhysChem - 2023 - Förster - Quantum Chemical Study of the Pressure‐dependent Phosphorescence of Cr ddpd 2 3 in the.pdf'"
+2026-07-30T20:01:12Z,W4313829788,10.1002/cphc.202200889,fetch,fetched,"user-supplied PDF, batch 4; original filename 'ChemPhysChem - 2023 - Roy - A Theoretical Account of the Coupling between Metal‐ and Ligand‐centred Spins.pdf'"
+2026-07-30T20:01:12Z,W4383303138,10.1002/cplu.202300273,fetch,fetched,"user-supplied PDF, batch 4; original filename 'ChemPlusChem - 2023 - Kundu - Enhancing Diradical Character of Chichibabin s Hydrocarbon through Fluoride Substitution.pdf'"
+2026-07-30T20:01:12Z,W1974706088,10.1002/chem.200802338,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Chemistry A European J - 2009 - Huber - Generating CuII Oxyl CuIII Oxo Species from CuI ‐Ketocarboxylate Complexes and O2 .pdf'"
+2026-07-30T20:01:12Z,W1978492211,10.1002/chem.200902568,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Chemistry A European J - 2010 - Evangelio - Coexistence of Two Thermally Induced Intramolecular Electron Transfer Processes.pdf'"
+2026-07-30T20:01:12Z,W2116591174,10.1002/chem.201303275,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Chemistry A European J - 2013 - Liu - CuII GdIII Cryogenic Magnetic Refrigerants and Cu8Dy9 Single‐Molecule Magnet.pdf'"
+2026-07-30T20:01:12Z,W2165821097,10.1002/chem.201301240,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Chemistry A European J - 2013 - Noor - The Ligand‐Based Quintuple Bond‐Shortening Concept and Some of Its Limitations.pdf'"
+2026-07-30T20:01:12Z,W2173778129,10.1002/chem.201503119,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Chemistry A European J - 2015 - Zheng - Stabilization of the Low‐Spin State in a Mononuclear Iron II Complex and.pdf'"
+2026-07-30T20:01:12Z,W2304816707,10.1002/chem.201504238,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Chemistry A European J - 2016 - Costes - Does the Sign of the Cu Gd Magnetic Interaction Depend on the Number of Atoms in.pdf'"
+2026-07-30T20:01:12Z,W2611139264,10.1002/chem.201700232,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Chemistry A European J - 2017 - Phonsri - Halogen Substitution Effects on N2O Schiff Base Ligands in Unprecedented Abrupt.pdf'"
+2026-07-30T20:01:12Z,W2769325165,10.1002/chem.201704854,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Chemistry A European J - 2017 - Sousa - Effect of Second‐Order Spin Orbit Coupling on the Interaction between Spin States.pdf'"
+2026-07-30T20:01:12Z,W2790643906,10.1002/chem.201705748,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Chemistry A European J - 2018 - Alessandri - Crystal Field in Rare‐Earth Complexes From Electrostatics to Bonding.pdf'"
+2026-07-30T20:01:12Z,W2793033962,10.1002/chem.201705316,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Chemistry A European J - 2018 - Turner - Iron Precatalysts with Bulky Tri tert‐butyl cyclopentadienyl Ligands for the.pdf'"
+2026-07-30T20:01:12Z,W3207003766,10.1002/chem.202102383,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Chemistry A European J - 2021 - Demoulin - Control of Protonated Schiff Base Excited State Decay within Visual Protein.pdf'"
+2026-07-30T20:01:12Z,W4293105066,10.1002/chem.202201883,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Chemistry A European J - 2022 - Dey - Analysis of the Magnetic Coupling in a Mn II ‐U V ‐Mn II Single Molecule Magnet.pdf'"
+2026-07-30T20:01:12Z,W4386209220,10.1002/chem.202302337,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Chemistry A European J - 2023 - Armenis - Slow Magnetization Relaxation in a Family of Triangular CoIII2LnIII Clusters .pdf'"
+2026-07-30T20:01:12Z,W4389180090,10.1002/chem.202302970,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Chemistry A European J - 2023 - Coburger - Phosphonium‐substituted Diphosphaindenylide PPI Exploration of Biradical.pdf'"
+2026-07-30T20:01:12Z,W4388413748,10.1002/chem.202303300,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Chemistry A European J - 2023 - Kumar - Rebound or Cage Escape The Role of the Rebound Barrier for the Reactivity of.pdf'"
+2026-07-30T20:01:12Z,W4316687847,10.1002/chem.202203494,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Chemistry A European J - 2023 - Wu - Ligand Modulation of the Structures and Magnetic Relaxation in Triangular Dy3.pdf'"
+2026-07-30T20:01:12Z,W4318671825,10.1002/chem.202203748,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Chemistry A European J - 2023 - Yan - Photochemistry Driven by Excited‐State Aromaticity Gain or Antiaromaticity Relief.pdf'"
+2026-07-30T20:01:12Z,W4398164462,10.1002/chem.202401796,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Chemistry A European J - 2024 - Dua - Unravelling the Mechanism of CO2 Activation Insights Into Metal‐Metal Cooperativity.pdf'"
+2026-07-30T20:01:12Z,W4399296098,10.1002/chem.202401371,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Chemistry A European J - 2024 - Yu - Photocatalyst‐Free Visible Light‐Induced C sp2 H Arylation of Quinoxalin‐2 1H ‐ones.pdf'"
+2026-07-30T20:01:12Z,W4406385640,10.1002/chem.202404546,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Chemistry A European J - 2025 - Rudin - Tolane‐Based Phosphino‐ and Arsino‐Ruthenium Complexes in Three Different Oxidation.pdf'"
+2026-07-30T20:01:12Z,W2104024791,10.1002/chem.19960020315,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Chemistry A European J - March 1996 - Dreyer - The photochemical Formation of Fulvene from Benzene via Prefulvene a.pdf'"
+2026-07-30T20:01:12Z,W4406021010,10.1002/asia.202401477,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Chemistry An Asian Journal - 2025 - Ghatak - Unravelling the Role of Sterically Encumbered Ligands in Tuning the Magnetic.pdf'"
+2026-07-30T20:01:12Z,W2040593414,10.1021/ja8029416,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Co7_jacs_HR.pdf'"
+2026-07-30T20:01:12Z,W2215624575,10.18297/etd/782,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Computational modelling of chemical reactions catalyzed by cobala.pdf'"
+2026-07-30T20:01:12Z,W2517486712,10.1088/1742-6596/635/11/112111,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Corral_2015_J._Phys.__Conf._Ser._635_112111.pdf'"
+2026-07-30T20:01:12Z,W1983762859,10.1088/1742-6596/388/2/022017,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Díaz-Tendero_2012_J._Phys.__Conf._Ser._388_022017.pdf'"
+2026-07-30T20:01:12Z,W1983718324,10.1002/ejtc.52,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Elect J Theoret Chem - 2001 - Yoshioka - Theoretical study on electronic structures of oxygenated dipoles and mechanisms of.pdf'"
+2026-07-30T20:01:12Z,W2742009400,10.1039/C7DT00750G,fetch,fetched,"user-supplied PDF, batch 4; original filename 'EstebanGomez_David_2017_Tuning_copper(II)_coordination_properties_cyclam_subtle_chemical_modifications.pdf'"
+2026-07-30T20:01:12Z,W2006708354,10.1002/ejic.200701136,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Eur J Inorg Chem - 2008 - Gritsan - Diamagnetic ‐Dimers of the 1 2 5 Thiadiazolo 3 4‐c 1 2 5 thiadiazolidyl Radical.pdf'"
+2026-07-30T20:01:12Z,W2090390305,10.1002/ejic.201200857,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Eur J Inorg Chem - 2012 - Krah - Vacancy‐Induced Deformation in a CoFe Prussian Blue Analogue A Theoretical Investigation.pdf'"
+2026-07-30T20:01:12Z,W3172993499,10.1002/ejic.202100465,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Eur J Inorg Chem - 2021 - Legendre - The Quest for Optimal 3 d Orbital Splitting in Tetrahedral Cobalt Single‐Molecule.pdf'"
+2026-07-30T20:01:12Z,W3162021482,10.1002/ejic.202100524,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Eur J Inorg Chem - 2021 - Neuman - Synthesis and Characterization of a Cobalt III Corrole with an S‐Bound DMSO Ligand.pdf'"
+2026-07-30T20:01:12Z,W4210442771,10.1002/ejic.202200010,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Eur J Inorg Chem - 2022 - Abhervé - Chiral Emissive Lanthanide Complexes from Enantiopure 6 Helicene‐bis pyrazolyl.pdf'"
+2026-07-30T20:01:12Z,W4383533113,10.1002/ejic.202300336,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Eur J Inorg Chem - 2023 - Bernot - Get under the Umbrella A Comprehensive Gateway for Researchers on Lanthanide‐Based.pdf'"
+2026-07-30T20:01:12Z,W4319946487,10.1002/ejic.202200774,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Eur J Inorg Chem - 2023 - Kumar - Static and Dynamic Magnetic Properties of a Co II ‐Complex with N2O2 Donor Set A.pdf'"
+2026-07-30T20:01:12Z,W4391360384,10.1002/ejic.202300598,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Eur J Inorg Chem - 2024 - Kumar Kushvaha - Dysprosium‐Radical Based Single‐Molecule Magnet Containing a Seven Coordinate Dy.pdf'"
+2026-07-30T20:01:12Z,W2070705838,10.1002/ejoc.201001636,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Eur J Org Chem - 2011 - Ghigo - The Mechanism of the Acid‐Catalyzed Benzidine Rearrangement of Hydrazobenzene A.pdf'"
+2026-07-30T20:01:12Z,W4386690317,10.1002/ejoc.202300461,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Eur J Org Chem - 2023 - Nitu - Meta‐Ortho Effect on the Excited State Pathways of Chloroanilines.pdf'"
+2026-07-30T20:01:12Z,W2064983470,10.1016/j.chemphys.2014.05.012,fetch,fetched,"user-supplied PDF, batch 4; original filename 'FULLTEXT01(1).pdf'"
+2026-07-30T20:01:12Z,W2097764239,10.1002/jcc.24221,fetch,fetched,"user-supplied PDF, batch 4; original filename 'FULLTEXT01.pdf'"
+2026-07-30T20:01:12Z,W4394624704,10.1088/1742-6596/2734/1/012052,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Gomosma_2024_J._Phys.__Conf._Ser._2734_012052.pdf'"
+2026-07-30T20:01:12Z,W4386927615,10.1002/hlca.202300130,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Helvetica Chimica Acta - 2023 - Bernhardt - Identification of Favorable Silica Surface Sites for Single‐Molecule Magnets.pdf'"
+2026-07-30T20:01:13Z,W2009631876,10.1002/kin.20702,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Int J of Chemical Kinetics - 2012 - Magoon - Detailed chemical kinetic modeling of JP‐10 exo‐tetrahydrodicyclopentadiene .pdf'"
+2026-07-30T20:01:13Z,W2063270855,10.1002/qua.20013,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Int J of Quantum Chemistry - 2004 - Vysotsky - Potential energy surfaces of fluorinated benzene radical cations.pdf'"
+2026-07-30T20:01:13Z,W2153913404,10.1002/qua.20565,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Int J of Quantum Chemistry - 2005 - Vidal - Determination of ab initio absolute Raman excitation profiles using linear.pdf'"
+2026-07-30T20:01:13Z,W2016813178,10.1002/qua.21041,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Int J of Quantum Chemistry - 2006 - Amor - Theoretical analysis of low‐lying charge transfer states in Ru X Me CO 2.pdf'"
+2026-07-30T20:01:13Z,W2142276416,10.1002/qua.20967,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Int J of Quantum Chemistry - 2006 - Borin - Theoretical electronic spectra of 2‐aminopurine in vapor and in water.pdf'"
+2026-07-30T20:01:13Z,W2062520175,10.1002/qua.22145,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Int J of Quantum Chemistry - 2009 - Hamade - Theoretical electronic studies of aluminum monobromide and aluminum monoiodide.pdf'"
+2026-07-30T20:01:13Z,W2156284765,10.1002/qua.22058,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Int J of Quantum Chemistry - 2009 - Todorova - The chemiionization reactions Ce O and Ce O2 Assignment of the observed.pdf'"
+2026-07-30T20:01:13Z,W1986158933,10.1002/qua.22391,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Int J of Quantum Chemistry - 2010 - Li - Assignment on the X A B C and D states of the C6H5Br cation based on.pdf'"
+2026-07-30T20:01:13Z,W2056823142,10.1002/qua.22992,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Int J of Quantum Chemistry - 2011 - Gagliardi - The study of actinide chemistry with multiconfigurational quantum chemical.pdf'"
+2026-07-30T20:01:13Z,W1979573283,10.1002/qua.23104,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Int J of Quantum Chemistry - 2011 - Siegbahn - Bj rn O Roos 1937 2010 Mentor colleague innovator.pdf'"
+2026-07-30T20:01:13Z,W1975152450,10.1002/qua.24255,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Int J of Quantum Chemistry - 2012 - Swart - Spin states of bio inorganic systems Successes and pitfalls.pdf'"
+2026-07-30T20:01:13Z,W2085771382,10.1002/qua.24250,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Int J of Quantum Chemistry - 2012 - de M. Oliveira - Implementation of a variational code for the calculation of rate.pdf'"
+2026-07-30T20:01:13Z,W2082194125,10.1002/qua.24628,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Int J of Quantum Chemistry - 2014 - Pogány - Theoretical study of Pu and Am tetracarbide molecules.pdf'"
+2026-07-30T20:01:13Z,W2963416637,10.1002/qua.26132,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Int J of Quantum Chemistry - 2019 - Robles‐Navarro - Electronic structure of first and second row atoms under harmonic.pdf'"
+2026-07-30T20:01:13Z,W3092159548,10.1002/qua.26454,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Int J of Quantum Chemistry - 2020 - Weser - Chemical insights into the electronic structure of Fe II porphyrin using.pdf'"
+2026-07-30T20:01:13Z,W4292266449,10.1002/qua.26995,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Int J of Quantum Chemistry - 2022 - Alanís‐Manzano - On the three lowest spin states of Na13 Hybrid Density Functional.pdf'"
+2026-07-30T20:01:13Z,W4387974050,10.1002/qua.27257,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Int J of Quantum Chemistry - 2023 - Pino‐Rios - Two three‐electron bonds in two triatomic molecules The cases of C2O and.pdf'"
+2026-07-30T20:01:13Z,W4393233183,10.1002/qua.27367,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Int J of Quantum Chemistry - 2024 - Xu - Ab initio investigation of potential energy curves of He2 He2 and extrapolation.pdf'"
+2026-07-30T20:01:13Z,W2109039998,10.1155/2014/874102,fetch,fetched,"user-supplied PDF, batch 4; original filename 'International Journal of Photoenergy - 2014 - Shu - Mechanisms of Laser‐Induced Reactions of Stacked Benzene Molecules A.pdf'"
+2026-07-30T20:01:13Z,W2166538863,10.1155/2014/850641,fetch,fetched,"user-supplied PDF, batch 4; original filename 'International Journal of Photoenergy - 2014 - Yuan - Effect of Initial Orientation on the Laser‐Induced Cycloaddition.pdf'"
+2026-07-30T20:01:13Z,W4231167402,10.1002/9783527690541.index,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Introduction to Molecular Magnetism - 2015 - Benelli - Index.pdf'"
+2026-07-30T20:01:13Z,W2030991298,10.1002/jcc.10102,fetch,fetched,"user-supplied PDF, batch 4; original filename 'J Comput Chem - 2002 - Bobrowski - Ab initio study of the mechanism of singlet‐dioxygen addition to hydroxyaromatic.pdf'"
+2026-07-30T20:01:13Z,W2073240996,10.1002/jcc.20525,fetch,fetched,"user-supplied PDF, batch 4; original filename 'J Comput Chem - 2006 - García‐Yoldi - The origin of the two‐electron four‐centers C C bond in ‐TCNE22 dimers .pdf'"
+2026-07-30T20:01:13Z,W2026059351,10.1002/jcc.20483,fetch,fetched,"user-supplied PDF, batch 4; original filename 'J Comput Chem - 2006 - González - Photochemistry of CH3Mn CO 5 A multiconfigurational ab initio study.pdf'"
+2026-07-30T20:01:13Z,W2095975310,10.1002/jcc.21611,fetch,fetched,"user-supplied PDF, batch 4; original filename 'J Comput Chem - 2010 - Meng - A CAS study on S‐loss and O‐loss dissociation mechanisms of the SO2 ion in the C D and E.pdf'"
+2026-07-30T20:01:13Z,W2059207928,10.1002/jcc.21892,fetch,fetched,"user-supplied PDF, batch 4; original filename 'J Comput Chem - 2011 - Inagaki - Proton‐coupled electron transfer of the phenoxyl phenol couple Effect of Hartree‐Fock.pdf'"
+2026-07-30T20:01:13Z,W1970102618,10.1002/jcc.22980,fetch,fetched,"user-supplied PDF, batch 4; original filename 'J Comput Chem - 2012 - Sax - Localization of molecular orbitals on fragments.pdf'"
+2026-07-30T20:01:13Z,W2418307785,10.1002/jcc.24372,fetch,fetched,"user-supplied PDF, batch 4; original filename 'J Comput Chem - 2016 - Holguín‐Gallego - Electron correlation in the interacting quantum atoms partition via.pdf'"
+2026-07-30T20:01:13Z,W2963701598,10.1002/jcc.25113,fetch,fetched,"user-supplied PDF, batch 4; original filename 'J Comput Chem - 2017 - Calvello - CERES An ab initio code dedicated to the calculation of the electronic structure and.pdf'"
+2026-07-30T20:01:13Z,W4223935424,10.1002/jcc.26856,fetch,fetched,"user-supplied PDF, batch 4; original filename 'J Comput Chem - 2022 - Lu - On the highest oxidation states of the actinoids in AnO4 molecules An Ac Cm A.pdf'"
+2026-07-30T20:01:13Z,W4386467121,10.1002/jcc.27214,fetch,fetched,"user-supplied PDF, batch 4; original filename 'J Comput Chem - 2023 - Báez‐Grez - On the aromaticity and stability of benzynes in the ground and lowest‐lying triplet.pdf'"
+2026-07-30T20:01:13Z,W4388688379,10.1002/jcc.27246,fetch,fetched,"user-supplied PDF, batch 4; original filename 'J Comput Chem - 2023 - Dunning - Electronic structure of Li1 2 3 0 and nature of the bonding in Li2 3 0.pdf'"
+2026-07-30T20:01:13Z,W4407945420,10.1002/jcc.70045,fetch,fetched,"user-supplied PDF, batch 4; original filename 'J Comput Chem - 2025 - Jesus - Infrared Spectrum and UV‐Triggered Transformations of Matrix‐Isolated Meta‐Fluorothiophenol.pdf'"
+2026-07-30T20:01:13Z,W4406067796,10.1002/jcc.27530,fetch,fetched,"user-supplied PDF, batch 4; original filename 'J Comput Chem - 2025 - Romeu - Thermodynamic Stability in Transition Metal‐Hydrogen Dications Potential Energy Curves .pdf'"
+2026-07-30T20:01:13Z,W1985896562,10.1002/poc.871,fetch,fetched,"user-supplied PDF, batch 4; original filename 'J of Physical Organic Chem - 2004 - Duncan - DFT calculations on the allenyl Cope rearrangement of syn‐7‐allenylnorbornene .pdf'"
+2026-07-30T20:01:13Z,W3107795019,10.1002/poc.4170,fetch,fetched,"user-supplied PDF, batch 4; original filename 'J of Physical Organic Chem - 2020 - Buddensiek - A DFT study on the mechanism of the formation of 1 4 2 3‐dithiadiazinanes.pdf'"
+2026-07-30T20:01:13Z,W4414021862,10.1002/poc.70035,fetch,fetched,"user-supplied PDF, batch 4; original filename 'J of Physical Organic Chem - 2025 - Wasson - Aromaticity and Photoreactivity of 4‐ and 3‐Nitrenopyridine 1‐Oxides and.pdf'"
+2026-07-30T20:01:13Z,W2619410558,10.1063/1.4983813,fetch,fetched,"user-supplied PDF, batch 4; original filename 'JCPSA6-000146-204307_1.pdf'"
+2026-07-30T20:01:13Z,W1998887703,10.1063/1.1704639,fetch,fetched,"user-supplied PDF, batch 4; original filename 'JChemPhys_120_10101.pdf'"
+2026-07-30T20:01:13Z,W2000579811,10.1002/poc.1613,fetch,fetched,"user-supplied PDF, batch 4; original filename 'JPOC-2010.Krestinin.pdf'"
+2026-07-30T20:01:13Z,W2794634033,10.1155/2018/9802369,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Journal of Nanotechnology - 2018 - Velásquez - Applying a Nonspin‐Flip Reaction Scheme to Explain for the Doublet Sulfide.pdf'"
+2026-07-30T20:01:13Z,W2070492690,10.1155/2013/734354,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Journal of Theoretical Chemistry - 2013 - Lennartz - A Computational Determination of the Lowest Energy Electronic and.pdf'"
+2026-07-30T20:01:13Z,W2617338100,10.1021/acs.inorgchem.6b02952,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Jung-Analysis of the Magnetic Exchange-YNIT2-main_text-1.pdf'"
+2026-07-30T20:01:13Z,W3010246226,10.18297/etd/3316,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Laser spectroscopy investigations of jet-cooled metal-containing.pdf'"
+2026-07-30T20:01:13Z,W4212850856,10.1088/1674-1056/ac5607,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Li_2022_Chinese_Phys._B_31_083103.pdf'"
+2026-07-30T20:01:13Z,W2782686502,10.1002/jcc.25150,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Macetti_et_al-2018-Journal_of_Computational_Chemistry.pdf'"
+2026-07-30T20:01:13Z,W2073689158,10.1002/mrc.1413,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Magnetic Reson in Chemistry - 2004 - Pecul - Solvent effects on the spin spin coupling constants of acetylene revisited .pdf'"
+2026-07-30T20:01:13Z,W4249434688,10.1002/9783527627400.index,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Multidimensional Quantum Dynamics - 2009 - Meyer - Index.pdf'"
+2026-07-30T20:01:13Z,W2593878641,10.1002/nadc.20174060618,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Nachr Chem - 2017 - Tremblay - Theoretische Chemie 2016 Wellenfunktionsmethoden f r ultraschnelle Elektronendynamik.pdf'"
+2026-07-30T20:01:13Z,W2150840493,10.1039/c0cp01901a,fetch,fetched,"user-supplied PDF, batch 4; original filename 'PCCP13-4_1618-1628.pdf'"
+2026-07-30T20:01:13Z,W2131383545,10.1080/00268970701549389,fetch,fetched,"user-supplied PDF, batch 4; original filename 'PEER_stage2_10.1080_00268970701549389.pdf'"
+2026-07-30T20:01:13Z,W1995092221,10.1080/00268970701604689,fetch,fetched,"user-supplied PDF, batch 4; original filename 'PEER_stage2_10.1080_00268970701604689.pdf'"
+2026-07-30T20:01:13Z,W4383302668,10.1111/php.13832,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Photochem Photobiology - 2023 - Martinez‐Fernandez - The photophysics of protonated cytidine and hemiprotonated cytidine.pdf'"
+2026-07-30T20:01:13Z,W1854933703,10.1080/00268976.2015.1025880,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Photochemical reaction paths of cis-dienes studied with RASSCF the changing balance between ionic and covalent excited states.pdf'"
+2026-07-30T20:01:14Z,W2148536073,10.1103/PhysRevB.85.155143,fetch,fetched,"user-supplied PDF, batch 4; original filename 'PhysRevB.85.155143.pdf'"
+2026-07-30T20:01:14Z,W2000157121,10.1103/PhysRevLett.99.153001,fetch,fetched,"user-supplied PDF, batch 4; original filename 'PhysRevLett.99.153001.pdf'"
+2026-07-30T20:01:14Z,W2015596727,10.1088/1757-899X/80/1/012025,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Popov_2015_IOP_Conf._Ser.__Mater._Sci._Eng._80_012025.pdf'"
+2026-07-30T20:01:14Z,W2734662114,10.1088/1742-6596/869/1/012001,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Rafei_2017_J._Phys.__Conf._Ser._869_012001.pdf'"
+2026-07-30T20:01:14Z,W2965167068,10.1021/acs.inorgchem.9b00864,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Revised_joydev Y-Co Version HAL.pdf'"
+2026-07-30T20:01:14Z,W3120113734,10.1021/acs.jpca.0c08029,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Sanz-Rodrigo_etal_2021_JPhysChemA_preprint.pdf'"
+2026-07-30T20:01:14Z,W2508895948,10.1088/1742-6596/635/9/092080,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Sato_2015_J._Phys.__Conf._Ser._635_092080.pdf'"
+2026-07-30T20:01:14Z,W4407808071,10.1002/smll.202412283,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Small - 2025 - Chauhan - Surface Stabilization to Enhance Single Molecule Toroidal Behavior in Dy3 Molecules the Impact.pdf'"
+2026-07-30T20:01:14Z,W2950663435,10.1002/smtd.201900070,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Small Methods - 2019 - Zheng - Nitrogen Reduction Reaction.pdf'"
+2026-07-30T20:01:14Z,W2035436070,10.1080/00268976.2010.503666,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Structural and spectroscopic properties of the diazocarbene radical CNN and its ions CNN and CNN a high-level theoretical investigation.pdf'"
+2026-07-30T20:01:14Z,W2802934091,10.1021/acs.jpclett.8b00698,fetch,fetched,"user-supplied PDF, batch 4; original filename 'TT_jpcl_revised.pdf'"
+2026-07-30T20:01:14Z,W2069152242,10.1002/jcc.23856,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Tam_et_al-2015-Journal_of_Computational_Chemistry.pdf'"
+2026-07-30T20:01:14Z,W2080079019,10.1080/00268976.2012.697585,fetch,fetched,"user-supplied PDF, batch 4; original filename 'The search for a potentially new molecular species SiAs A theoretical contribution.pdf'"
+2026-07-30T20:01:14Z,W2031736620,10.1063/1.4817199,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Theoretical characterization.pdf'"
+2026-07-30T20:01:14Z,W4392390594,10.1002/vjch.202300355,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Vietnam Journal of Chemistry - 2024 - Tran - Unveiling geometric and electronic structures of NbSi4 0 clusters and.pdf'"
+2026-07-30T20:01:14Z,W4379796885,10.1002/wcms.1675,fetch,fetched,"user-supplied PDF, batch 4; original filename 'WIREs Comput Mol Sci - 2023 - Delcey - MultiPsi A python‐driven MCSCF program for photochemistry and spectroscopy.pdf'"
+2026-07-30T20:01:14Z,W3005788843,10.1002/zaac.201900288,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Zeitschrift anorg allge chemie - 2020 - Böhme - Spin Interactions and Magnetic Anisotropy in a Triangular Nickel II .pdf'"
+2026-07-30T20:01:14Z,W4410510559,10.1021/acs.cgd.5c00037,fetch,fetched,"user-supplied PDF, batch 4; original filename 'acs.cgd.5c00037.pdf'"
+2026-07-30T20:01:14Z,W7161699461,10.1021/acs.cgd.6c00297,fetch,fetched,"user-supplied PDF, batch 4; original filename 'acs.cgd.6c00297.pdf'"
+2026-07-30T20:01:14Z,W4221087017,10.1021/acs.inorgchem.2c00065,fetch,fetched,"user-supplied PDF, batch 4; original filename 'acs.inorgchem.2c00065.pdf'"
+2026-07-30T20:01:14Z,W7166012864,10.1021/acs.jpca.5c07741,fetch,fetched,"user-supplied PDF, batch 4; original filename 'acs.jpca.5c07741.pdf'"
+2026-07-30T20:01:14Z,W1995256991,10.1021/jp0509257,fetch,fetched,"user-supplied PDF, batch 4; original filename 'article(1).pdf'"
+2026-07-30T20:01:14Z,W2040414349,10.1021/jp051858j,fetch,fetched,"user-supplied PDF, batch 4; original filename 'article.pdf'"
+2026-07-30T20:01:14Z,W4206697283,10.1021/acs.organomet.1c00590,fetch,fetched,"user-supplied PDF, batch 4; original filename 'article_stetsiuk_revised_R2_clean version-1.pdf'"
+2026-07-30T20:01:14Z,W2114610393,10.1039/c2cp41387f,fetch,fetched,"user-supplied PDF, batch 4; original filename 'c2cp41387f.pdf'"
+2026-07-30T20:01:14Z,W2100352694,10.1039/c3ra47088a,fetch,fetched,"user-supplied PDF, batch 4; original filename 'c3ra47088a.pdf'"
+2026-07-30T20:01:14Z,W2564734301,10.1039/c6cp08154a,fetch,fetched,"user-supplied PDF, batch 4; original filename 'c6cp08154a.pdf'"
+2026-07-30T20:01:14Z,W2408827486,10.1039/c6fd00135a,fetch,fetched,"user-supplied PDF, batch 4; original filename 'c6fd00135a.pdf'"
+2026-07-30T20:01:14Z,W2416648101,10.1039/c6sc01469k,fetch,fetched,"user-supplied PDF, batch 4; original filename 'c6sc01469k.pdf'"
+2026-07-30T20:01:14Z,W2913961631,10.1039/c9cp00105k,fetch,fetched,"user-supplied PDF, batch 4; original filename 'c9cp00105k.pdf'"
+2026-07-30T20:01:14Z,W3001267591,10.1021/acs.cgd.9b01150,fetch,fetched,"user-supplied PDF, batch 4; original filename 'cg-2019-01150x.R2_Proof_hi.pdf'"
+2026-07-30T20:01:14Z,W2185683285,10.1002/chem.201502997,fetch,fetched,"user-supplied PDF, batch 4; original filename 'chem201502997-sup-0001-misc_information.pdf'"
+2026-07-30T20:01:14Z,W4404375365,10.3390/chemistry6060085,fetch,fetched,"user-supplied PDF, batch 4; original filename 'chemistry-06-00085.pdf'"
+2026-07-30T20:01:14Z,W4388456388,10.26434/chemrxiv-2023-xn5l3,fetch,fetched,"user-supplied PDF, batch 4; original filename 'chemrxiv-2023-xn5l3.pdf'"
+2026-07-30T20:01:14Z,W3110659107,10.3390/cryst10121130,fetch,fetched,"user-supplied PDF, batch 4; original filename 'crystals-10-01130-v2.pdf'"
+2026-07-30T20:01:14Z,W4385611144,10.3390/cryst13081217,fetch,fetched,"user-supplied PDF, batch 4; original filename 'crystals-13-01217.pdf'"
+2026-07-30T20:01:14Z,W2002874596,10.1021/ct3006166,fetch,fetched,"user-supplied PDF, batch 4; original filename 'ct3006166.pdf'"
+2026-07-30T20:01:14Z,W2323292453,10.1021/acs.jctc.5b00861,fetch,fetched,"user-supplied PDF, batch 4; original filename 'ct5b00861.pdf'"
+2026-07-30T20:01:14Z,W2496860491,10.1021/acs.jctc.6b00609,fetch,fetched,"user-supplied PDF, batch 4; original filename 'ct6b00609.pdf'"
+2026-07-30T20:01:14Z,W2772758820,10.1021/acs.jctc.7b01035,fetch,fetched,"user-supplied PDF, batch 4; original filename 'ct7b01035.pdf'"
+2026-07-30T20:01:14Z,W2320303562,10.1021/ct900401z,fetch,fetched,"user-supplied PDF, batch 4; original filename 'ct900401z.pdf'"
+2026-07-30T20:01:14Z,W3094408344,10.1039/d0dt02747b,fetch,fetched,"user-supplied PDF, batch 4; original filename 'd0dt02747b.pdf'"
+2026-07-30T20:01:14Z,W3048769630,10.1039/d0sc02294b,fetch,fetched,"user-supplied PDF, batch 4; original filename 'd0sc02294b.pdf'"
+2026-07-30T20:01:14Z,W3166859828,10.1039/d1cp01695d,fetch,fetched,"user-supplied PDF, batch 4; original filename 'd1cp01695d.pdf'"
+2026-07-30T20:01:14Z,W4285818649,10.1039/d2cc03238d,fetch,fetched,"user-supplied PDF, batch 4; original filename 'd2cc03238d.pdf'"
+2026-07-30T20:01:14Z,W2944554441,10.1002/cptc.201900056,fetch,fetched,"user-supplied PDF, batch 4; original filename 'dialoc.bouquin.pdf'"
+2026-07-30T20:01:14Z,W4221069103,10.1063/5.0085855,fetch,fetched,"user-supplied PDF, batch 4; original filename 'eScholarship UC item 6ts400vj.pdf'"
+2026-07-30T20:01:14Z,W3135007450,10.1021/acs.inorgchem.1c00743,fetch,fetched,"user-supplied PDF, batch 4; original filename 'ic1c00743.pdf'"
+2026-07-30T20:01:14Z,W4206142808,10.1021/acs.inorgchem.1c02413,fetch,fetched,"user-supplied PDF, batch 4; original filename 'ic1c02413.pdf'"
+2026-07-30T20:01:14Z,W1965058772,10.1021/ic501435a,fetch,fetched,"user-supplied PDF, batch 4; original filename 'ic501435a.pdf'"
+2026-07-30T20:01:14Z,W2608024895,10.1021/acs.inorgchem.7b00664,fetch,fetched,"user-supplied PDF, batch 4; original filename 'ic7b00664.pdf'"
+2026-07-30T20:01:14Z,W2901166646,10.1021/acs.inorgchem.8b02278,fetch,fetched,"user-supplied PDF, batch 4; original filename 'ic8b02278.pdf'"
+2026-07-30T20:01:14Z,W2335267576,10.1021/ic100866z,fetch,fetched,"user-supplied PDF, batch 4; original filename 'inorg_chem_49_10316_2010.pdf'"
+2026-07-30T20:01:14Z,W2101111489,10.3390/inorganics3040482,fetch,fetched,"user-supplied PDF, batch 4; original filename 'inorganics-03-00482.pdf'"
+2026-07-30T20:01:15Z,W2521374571,10.3390/inorganics4040028,fetch,fetched,"user-supplied PDF, batch 4; original filename 'inorganics-04-00028.pdf'"
+2026-07-30T20:01:15Z,W2738817458,10.3390/inorganics5030047,fetch,fetched,"user-supplied PDF, batch 4; original filename 'inorganics-05-00047.pdf'"
+2026-07-30T20:01:15Z,W2917508586,10.3390/inorganics7030026,fetch,fetched,"user-supplied PDF, batch 4; original filename 'inorganics-07-00026.pdf'"
+2026-07-30T20:01:15Z,W2939577324,10.3390/inorganics7040052,fetch,fetched,"user-supplied PDF, batch 4; original filename 'inorganics-07-00052-v2.pdf'"
+2026-07-30T20:01:15Z,W4291465569,10.3390/inorganics10080116,fetch,fetched,"user-supplied PDF, batch 4; original filename 'inorganics-10-00116-v2.pdf'"
+2026-07-30T20:01:15Z,W4379801764,10.3390/inorganics11060245,fetch,fetched,"user-supplied PDF, batch 4; original filename 'inorganics-11-00245.pdf'"
+2026-07-30T20:01:15Z,W4407625827,10.3390/inorganics13020057,fetch,fetched,"user-supplied PDF, batch 4; original filename 'inorganics-13-00057.pdf'"
+2026-07-30T20:01:15Z,W4411624867,10.3390/inorganics13070214,fetch,fetched,"user-supplied PDF, batch 4; original filename 'inorganics-13-00214.pdf'"
+2026-07-30T20:01:15Z,W7160164708,10.3390/inorganics14050126,fetch,fetched,"user-supplied PDF, batch 4; original filename 'inorganics-14-00126-v2.pdf'"
+2026-07-30T20:01:15Z,W3196700573,10.1021/jacs.1c07431,fetch,fetched,"user-supplied PDF, batch 4; original filename 'ja1c07431.pdf'"
+2026-07-30T20:01:15Z,W2321893305,10.1021/ja308146e,fetch,fetched,"user-supplied PDF, batch 4; original filename 'ja308146e.pdf'"
+2026-07-30T20:01:15Z,W2005794897,10.1021/ja506151p,fetch,fetched,"user-supplied PDF, batch 4; original filename 'ja506151p.pdf'"
+2026-07-30T20:01:15Z,W2242126778,10.1021/jacs.5b03805,fetch,fetched,"user-supplied PDF, batch 4; original filename 'ja5b03805.pdf'"
+2026-07-30T20:01:15Z,W7160547651,10.1021/jacs.5c20971,fetch,fetched,"user-supplied PDF, batch 4; original filename 'ja5c20971.pdf'"
+2026-07-30T20:01:15Z,W2746679464,10.1021/jacs.7b05569,fetch,fetched,"user-supplied PDF, batch 4; original filename 'ja7b05569.pdf'"
+2026-07-30T20:01:15Z,W2043499485,10.1021/ja808424b,fetch,fetched,"user-supplied PDF, batch 4; original filename 'ja808424b.pdf'"
+2026-07-30T20:01:15Z,W2011054338,10.1021/jp0767056,fetch,fetched,"user-supplied PDF, batch 4; original filename 'jp0767056.pdf'"
+2026-07-30T20:01:15Z,W2314654636,10.1021/jp205710e,fetch,fetched,"user-supplied PDF, batch 4; original filename 'jp205710e.pdf'"
+2026-07-30T20:01:15Z,W1997933922,10.1021/jp806075b,fetch,fetched,"user-supplied PDF, batch 4; original filename 'jp806075b.pdf'"
+2026-07-30T20:01:15Z,W1982509026,10.1021/jp807752k,fetch,fetched,"user-supplied PDF, batch 4; original filename 'jp807752k.pdf'"
+2026-07-30T20:01:15Z,W2139453279,10.1021/jp8110315,fetch,fetched,"user-supplied PDF, batch 4; original filename 'jp8110315.pdf'"
+2026-07-30T20:01:15Z,W2049104045,10.1021/jp900484s,fetch,fetched,"user-supplied PDF, batch 4; original filename 'jp900484s.pdf'"
+2026-07-30T20:01:15Z,W1972987768,10.1021/jp910220r,fetch,fetched,"user-supplied PDF, batch 4; original filename 'jp910220r.pdf'"
+2026-07-30T20:01:15Z,W4416767708,10.1021/acs.jpclett.5c03329,fetch,fetched,"user-supplied PDF, batch 4; original filename 'jz5c03329.pdf'"
+2026-07-30T20:01:15Z,W4240227765,10.1002/ange.201903681,fetch,fetched,"user-supplied PDF, batch 4; original filename 'layfieldetal2019angewandtechemie.pdf'"
+2026-07-30T20:01:15Z,W2740897582,10.1107/S2052520617008083,fetch,fetched,"user-supplied PDF, batch 4; original filename 'lc5084.pdf'"
+2026-07-30T20:01:15Z,W2911977704,10.3390/magnetochemistry5010015,fetch,fetched,"user-supplied PDF, batch 4; original filename 'magnetochemistry-05-00015.pdf'"
+2026-07-30T20:01:15Z,W2966203361,10.3390/magnetochemistry5030046,fetch,fetched,"user-supplied PDF, batch 4; original filename 'magnetochemistry-05-00046.pdf'"
+2026-07-30T20:01:15Z,W2981077766,10.3390/magnetochemistry5040058,fetch,fetched,"user-supplied PDF, batch 4; original filename 'magnetochemistry-05-00058-v2.pdf'"
+2026-07-30T20:01:15Z,W3107777068,10.3390/magnetochemistry6040066,fetch,fetched,"user-supplied PDF, batch 4; original filename 'magnetochemistry-06-00066.pdf'"
+2026-07-30T20:01:15Z,W4308869741,10.3390/magnetochemistry8110153,fetch,fetched,"user-supplied PDF, batch 4; original filename 'magnetochemistry-08-00153.pdf'"
+2026-07-30T20:01:15Z,W4362634040,10.3390/magnetochemistry9040100,fetch,fetched,"user-supplied PDF, batch 4; original filename 'magnetochemistry-09-00100-v2.pdf'"
+2026-07-30T20:01:15Z,W4376956697,10.3390/magnetochemistry9050130,fetch,fetched,"user-supplied PDF, batch 4; original filename 'magnetochemistry-09-00130.pdf'"
+2026-07-30T20:01:15Z,W4388722992,10.3390/magnetochemistry9110229,fetch,fetched,"user-supplied PDF, batch 4; original filename 'magnetochemistry-09-00229.pdf'"
+2026-07-30T20:01:15Z,W4409458120,10.3390/magnetochemistry11040034,fetch,fetched,"user-supplied PDF, batch 4; original filename 'magnetochemistry-11-00034.pdf'"
+2026-07-30T20:01:15Z,W4413480778,10.3390/magnetochemistry11090073,fetch,fetched,"user-supplied PDF, batch 4; original filename 'magnetochemistry-11-00073.pdf'"
+2026-07-30T20:01:15Z,W2137396062,10.1038/nchem.1896,fetch,fetched,"user-supplied PDF, batch 4; original filename 'manfinalversionPUBLISHED.pdf'"
+2026-07-30T20:01:15Z,W4223437316,10.3390/molecules27082443,fetch,fetched,"user-supplied PDF, batch 4; original filename 'molecules-27-02443-v2.pdf'"
+2026-07-30T20:01:15Z,W4382060087,10.3390/molecules28134994,fetch,fetched,"user-supplied PDF, batch 4; original filename 'molecules-28-04994.pdf'"
+2026-07-30T20:01:15Z,W2991329123,10.1021/acs.inorgchem.9b02432,fetch,fetched,"user-supplied PDF, batch 4; original filename 'nihms-1066577.pdf'"
+2026-07-30T20:01:15Z,W2999223469,10.1021/acs.jcim.9b00615,fetch,fetched,"user-supplied PDF, batch 4; original filename 'nihms-1560632.pdf'"
+2026-07-30T20:01:15Z,W2911299595,10.1021/acs.jpca.8b10010,fetch,fetched,"user-supplied PDF, batch 4; original filename 'nihms-1560651.pdf'"
+2026-07-30T20:01:15Z,W2911863594,10.1021/acs.jctc.8b01069,fetch,fetched,"user-supplied PDF, batch 4; original filename 'nihms-1560668.pdf'"
+2026-07-30T20:01:15Z,W3014999256,10.1021/jacs.0c02487,fetch,fetched,"user-supplied PDF, batch 4; original filename 'nihms-1582305.pdf'"
+2026-07-30T20:01:15Z,W3000016614,10.1021/jacs.9b09616,fetch,fetched,"user-supplied PDF, batch 4; original filename 'nihms-1591182.pdf'"
+2026-07-30T20:01:15Z,W3157582910,10.1039/d1dt01007g,fetch,fetched,"user-supplied PDF, batch 4; original filename 'nihms-1709084.pdf'"
+2026-07-30T20:01:15Z,W3194321579,10.1021/acs.inorgchem.1c01860,fetch,fetched,"user-supplied PDF, batch 4; original filename 'nihms-1804971.pdf'"
+2026-07-30T20:01:15Z,W4200567221,10.1021/acs.inorgchem.1c01519,fetch,fetched,"user-supplied PDF, batch 4; original filename 'nihms-1876421.pdf'"
+2026-07-30T20:01:15Z,W4383711329,10.1021/acs.inorgchem.3c01068,fetch,fetched,"user-supplied PDF, batch 4; original filename 'nihms-1980647.pdf'"
+2026-07-30T20:01:15Z,W4388974706,10.1021/jacs.3c08117,fetch,fetched,"user-supplied PDF, batch 4; original filename 'nihms-1999446.pdf'"
+2026-07-30T20:01:15Z,W4391138715,10.1021/acs.inorgchem.3c03236,fetch,fetched,"user-supplied PDF, batch 4; original filename 'nihms-2004766.pdf'"
+2026-07-30T20:01:15Z,W1974747211,10.1021/ja0774414,fetch,fetched,"user-supplied PDF, batch 4; original filename 'nihms-212360.pdf'"
+2026-07-30T20:01:15Z,W2001333208,10.1021/jp407592r,fetch,fetched,"user-supplied PDF, batch 4; original filename 'nihms-532866.pdf'"
+2026-07-30T20:01:15Z,W2292987758,10.1039/c6ob00204h,fetch,fetched,"user-supplied PDF, batch 4; original filename 'nihms-769665.pdf'"
+2026-07-30T20:01:15Z,W2078026932,10.1016/j.theochem.2006.02.013,fetch,fetched,"user-supplied PDF, batch 4; original filename 'nihms11723.pdf'"
+2026-07-30T20:01:15Z,W2035690749,10.1021/ja109494b,fetch,fetched,"user-supplied PDF, batch 4; original filename 'nihms272057.pdf'"
+2026-07-30T20:01:15Z,W1973403599,10.1002/jcc.20807,fetch,fetched,"user-supplied PDF, batch 4; original filename 'nihms315648.pdf'"
+2026-07-30T20:01:16Z,W2015838301,10.1021/jp064524i,fetch,fetched,"user-supplied PDF, batch 4; original filename 'nihms61571.pdf'"
+2026-07-30T20:01:16Z,W2029165265,10.1021/jo0711687,fetch,fetched,"user-supplied PDF, batch 4; original filename 'nihms62906.pdf'"
+2026-07-30T20:01:16Z,W2284127168,10.1021/jp902028g,fetch,fetched,"user-supplied PDF, batch 4; original filename 'o4.pdf'"
+2026-07-30T20:01:16Z,W1535436850,10.1073/pnas.1001603107,fetch,fetched,"user-supplied PDF, batch 4; original filename 'olah-et-al-2010-vicinal-dihalonium-ions-diprotonated-and-dimethylated-chlorine-h2cl22-(ch3)2cl22-and-bromine-h2br22.pdf'"
+2026-07-30T20:01:16Z,W4280629462,10.3390/org3020007,fetch,fetched,"user-supplied PDF, batch 4; original filename 'organics-03-00007.pdf'"
+2026-07-30T20:01:16Z,W3201157272,10.3390/photochem1020018,fetch,fetched,"user-supplied PDF, batch 4; original filename 'photochem-01-00018.pdf'"
+2026-07-30T20:01:16Z,W3121447074,10.20944/preprints201611.0077.v1,fetch,fetched,"user-supplied PDF, batch 4; original filename 'preprints201611.0077.v1.pdf'"
+2026-07-30T20:01:16Z,W4385706718,10.20944/preprints202308.0664.v1,fetch,fetched,"user-supplied PDF, batch 4; original filename 'preprints202308.0664.v1.pdf'"
+2026-07-30T20:01:16Z,W4407037478,10.20944/preprints202501.2258.v1,fetch,fetched,"user-supplied PDF, batch 4; original filename 'preprints202501.2258.v1.pdf'"
+2026-07-30T20:01:16Z,W4410945222,10.20944/preprints202505.2369.v1,fetch,fetched,"user-supplied PDF, batch 4; original filename 'preprints202505.2369.v1.pdf'"
+2026-07-30T20:01:16Z,W4414304074,10.20944/preprints202509.1237.v1,fetch,fetched,"user-supplied PDF, batch 4; original filename 'preprints202509.1237.v1.pdf'"
+2026-07-30T20:01:16Z,W3212026209,10.1021/acs.organomet.1c00516,fetch,fetched,"user-supplied PDF, batch 4; original filename 'qt1jk2b39g.pdf'"
+2026-07-30T20:01:16Z,W3184847668,10.1021/jacs.1c05099,fetch,fetched,"user-supplied PDF, batch 4; original filename 'qt27z2t6q6.pdf'"
+2026-07-30T20:01:16Z,W3013502660,10.1021/acs.inorgchem.9b03690,fetch,fetched,"user-supplied PDF, batch 4; original filename 'qt7gr7w66t.pdf'"
+2026-07-30T20:01:16Z,W2884186545,10.1021/acs.inorgchem.8b01450,fetch,fetched,"user-supplied PDF, batch 4; original filename 'qt9195b5hh.pdf'"
+2026-07-30T20:01:16Z,W4377292921,10.3390/reactions4020016,fetch,fetched,"user-supplied PDF, batch 4; original filename 'reactions-04-00016-v2.pdf'"
+2026-07-30T20:01:16Z,W4403485886,10.3390/reactions5040039,fetch,fetched,"user-supplied PDF, batch 4; original filename 'reactions-05-00039-v2.pdf'"
+2026-07-30T20:01:16Z,W4408343890,10.3390/reactions6010021,fetch,fetched,"user-supplied PDF, batch 4; original filename 'reactions-06-00021.pdf'"
+2026-07-30T20:01:16Z,W1997682199,10.1007/s00214-010-0726-6,fetch,fetched,"user-supplied PDF, batch 4; original filename 's00214-010-0726-6.pdf'"
+2026-07-30T20:01:16Z,W2999330291,10.1038/s41557-020-0431-6,fetch,fetched,"user-supplied PDF, batch 4; original filename 's41557-020-0431-6.pdf'"
+2026-07-30T20:01:16Z,W3094877800,10.1126/science.abb3861,fetch,fetched,"user-supplied PDF, batch 4; original filename 'science.abb3861.pdf'"
+2026-07-30T20:01:16Z,W1988166735,10.1021/jp057071a,fetch,fetched,"user-supplied PDF, batch 4; original filename 'view.pdf'"
+2026-07-30T20:01:16Z,W2740774593,10.1107/S2052520617008241,fetch,fetched,"user-supplied PDF, batch 4; original filename 'xf5001.pdf'"
+2026-07-30T20:05:22Z,W2314654636,10.1021/jp205710e,text,text_ready,16 pages -> W2314654636.txt
+2026-07-30T20:05:22Z,W2320303562,10.1021/ct900401z,text,text_ready,7 pages -> W2320303562.txt
+2026-07-30T20:05:22Z,W2496860491,10.1021/acs.jctc.6b00609,text,text_ready,12 pages -> W2496860491.txt
+2026-07-30T20:05:23Z,W4221069103,10.1063/5.0085855,text,text_ready,43 pages -> W4221069103.txt
+2026-07-30T20:05:23Z,W2521374571,10.3390/inorganics4040028,text,text_ready,11 pages -> W2521374571.txt
+2026-07-30T20:05:24Z,W2016813178,10.1002/qua.21041,text,text_ready,12 pages -> W2016813178.txt
+2026-07-30T20:05:24Z,W1985896562,10.1002/poc.871,text,text_ready,6 pages -> W1985896562.txt
+2026-07-30T20:05:24Z,W2060789838,10.1016/j.chemphys.2004.01.017,text,text_ready,13 pages -> W2060789838.txt
+2026-07-30T20:05:25Z,W2624114553,10.1016/j.cplett.2017.05.061,text,text_ready,7 pages -> W2624114553.txt
+2026-07-30T20:05:25Z,W1997933922,10.1021/jp806075b,text,text_ready,9 pages -> W1997933922.txt
+2026-07-30T20:05:26Z,W1972987768,10.1021/jp910220r,text,text_ready,11 pages -> W1972987768.txt
+2026-07-30T20:05:26Z,W1982509026,10.1021/jp807752k,text,text_ready,8 pages -> W1982509026.txt
+2026-07-30T20:05:26Z,W4223935424,10.1002/jcc.26856,text,text_ready,9 pages -> W4223935424.txt
+2026-07-30T20:05:27Z,W1995092221,10.1080/00268970701604689,text,text_ready,47 pages -> W1995092221.txt
+2026-07-30T20:05:28Z,W3085402209,10.1063/5.0024134,text,text_ready,10 pages -> W3085402209.txt
+2026-07-30T20:05:28Z,W1984166883,10.1016/j.cplett.2004.03.026,text,text_ready,7 pages -> W1984166883.txt
+2026-07-30T20:05:29Z,W2109039998,10.1155/2014/874102,text,text_ready,11 pages -> W2109039998.txt
+2026-07-30T20:05:30Z,W1176755638,10.1016/j.susc.2015.06.018,text,text_ready,7 pages -> W1176755638.txt
+2026-07-30T20:05:30Z,W2040593414,10.1021/ja8029416,text,text_ready,12 pages -> W2040593414.txt
+2026-07-30T20:05:30Z,W2242126778,10.1021/jacs.5b03805,text,text_ready,4 pages -> W2242126778.txt
+2026-07-30T20:05:31Z,W2323292453,10.1021/acs.jctc.5b00861,text,text_ready,8 pages -> W2323292453.txt
+2026-07-30T20:05:31Z,W2095407146,10.1021/ja073628j,text,text_ready,3 pages -> W2095407146.txt
+2026-07-30T20:05:31Z,W2772758820,10.1021/acs.jctc.7b01035,text,text_ready,14 pages -> W2772758820.txt
+2026-07-30T20:05:32Z,W3113154759,10.1002/cphc.202000926,text,text_ready,8 pages -> W3113154759.txt
+2026-07-30T20:05:33Z,W3120113734,10.1021/acs.jpca.0c08029,text,text_ready,41 pages -> W3120113734.txt
+2026-07-30T20:05:33Z,W2116591174,10.1002/chem.201303275,text,text_ready,11 pages -> W2116591174.txt
+2026-07-30T20:05:33Z,W2165821097,10.1002/chem.201301240,text,text_ready,8 pages -> W2165821097.txt
+2026-07-30T20:05:34Z,W2005794897,10.1021/ja506151p,text,text_ready,12 pages -> W2005794897.txt
+2026-07-30T20:05:34Z,W2043499485,10.1021/ja808424b,text,text_ready,15 pages -> W2043499485.txt
+2026-07-30T20:05:35Z,W2150840493,10.1039/c0cp01901a,text,text_ready,43 pages -> W2150840493.txt
+2026-07-30T20:05:36Z,W2335267576,10.1021/ic100866z,text,text_ready,14 pages -> W2335267576.txt
+2026-07-30T20:05:36Z,W2030864702,10.1021/ct800459t,text,text_ready,21 pages -> W2030864702.txt
+2026-07-30T20:05:37Z,W2171511331,10.1080/00268970009483311,text,text_ready,12 pages -> W2171511331.txt
+2026-07-30T20:05:37Z,W2943191843,10.1021/acs.jctc.9b00282,text,text_ready,37 pages -> W2943191843.txt
+2026-07-30T20:05:38Z,W2009631876,10.1002/kin.20702,text,text_ready,15 pages -> W2009631876.txt
+2026-07-30T20:05:38Z,W3196700573,10.1021/jacs.1c07431,text,text_ready,7 pages -> W3196700573.txt
+2026-07-30T20:05:38Z,W3041093158,10.1063/5.0007040,text,text_ready,13 pages -> W3041093158.txt
+2026-07-30T20:05:39Z,W2073240996,10.1002/jcc.20525,text,text_ready,9 pages -> W2073240996.txt
+2026-07-30T20:05:39Z,W2104024791,10.1002/chem.19960020315,text,text_ready,7 pages -> W2104024791.txt
+2026-07-30T20:05:39Z,W2564734301,10.1039/c6cp08154a,text,text_ready,8 pages -> W2564734301.txt
+2026-07-30T20:05:40Z,W3092159548,10.1002/qua.26454,text,text_ready,14 pages -> W3092159548.txt
+2026-07-30T20:05:40Z,W2414483381,10.1021/acs.jpclett.6b00936,text,text_ready,11 pages -> W2414483381.txt
+2026-07-30T20:05:40Z,W2000157121,10.1103/physrevlett.99.153001,text,text_ready,4 pages -> W2000157121.txt
+2026-07-30T20:05:40Z,W2063270855,10.1002/qua.20013,text,text_ready,8 pages -> W2063270855.txt
+2026-07-30T20:05:41Z,W2114610393,10.1039/c2cp41387f,text,text_ready,6 pages -> W2114610393.txt
+2026-07-30T20:05:41Z,W2006708354,10.1002/ejic.200701136,text,text_ready,5 pages -> W2006708354.txt
+2026-07-30T20:05:42Z,W2944554441,10.1002/cptc.201900056,text,text_ready,26 pages -> W2944554441.txt
+2026-07-30T20:05:43Z,W2131383545,10.1080/00268970701549389,text,text_ready,42 pages -> W2131383545.txt
+2026-07-30T20:05:43Z,W2035690749,10.1021/ja109494b,text,text_ready,11 pages -> W2035690749.txt
+2026-07-30T20:05:43Z,W2006537377,10.1021/jp412347k,text,text_ready,22 pages -> W2006537377.txt
+2026-07-30T20:05:44Z,W2740774593,10.1107/s2052520617008241,text,text_ready,6 pages -> W2740774593.txt
+2026-07-30T20:05:44Z,W1970102618,10.1002/jcc.22980,text,text_ready,16 pages -> W1970102618.txt
+2026-07-30T20:05:45Z,W2119983744,10.1063/1.473161,text,text_ready,9 pages -> W2119983744.txt
+2026-07-30T20:05:45Z,W2002874596,10.1021/ct3006166,text,text_ready,16 pages -> W2002874596.txt
+2026-07-30T20:05:46Z,W2148536073,10.1103/physrevb.85.155143,text,text_ready,15 pages -> W2148536073.txt
+2026-07-30T20:05:46Z,W2790643906,10.1002/chem.201705748,text,text_ready,13 pages -> W2790643906.txt
+2026-07-30T20:05:47Z,W3011049025,10.1039/d0dt00315h,text,text_ready,35 pages -> W3011049025.txt
+2026-07-30T20:05:48Z,W2802934091,10.1021/acs.jpclett.8b00698,text,text_ready,19 pages -> W2802934091.txt
+2026-07-30T20:05:48Z,W2015838301,10.1021/jp064524i,text,text_ready,17 pages -> W2015838301.txt
+2026-07-30T20:05:48Z,W1998887703,10.1063/1.1704639,text,text_ready,10 pages -> W1998887703.txt
+2026-07-30T20:05:48Z,W1974747211,10.1021/ja0774414,text,text_ready,20 pages -> W1974747211.txt
+2026-07-30T20:05:49Z,W3033880303,10.1063/5.0010068,text,text_ready,13 pages -> W3033880303.txt
+2026-07-30T20:05:50Z,W1988166735,10.1021/jp057071a,text,text_ready,7 pages -> W1988166735.txt
+2026-07-30T20:05:50Z,W2039235712,10.1002/cphc.200390063,text,text_ready,7 pages -> W2039235712.txt
+2026-07-30T20:05:51Z,W2029385951,10.1021/jp103098r,text,text_ready,43 pages -> W2029385951.txt
+2026-07-30T20:05:52Z,W1978492211,10.1002/chem.200902568,text,text_ready,12 pages -> W1978492211.txt
+2026-07-30T20:05:52Z,W4210442771,10.1002/ejic.202200010,text,text_ready,9 pages -> W4210442771.txt
+2026-07-30T20:05:53Z,W2073689158,10.1002/mrc.1413,text,text_ready,10 pages -> W2073689158.txt
+2026-07-30T20:05:53Z,W1965058772,10.1021/ic501435a,text,text_ready,10 pages -> W1965058772.txt
+2026-07-30T20:05:54Z,W2920120853,10.1021/acs.joc.8b02984,text,text_ready,34 pages -> W2920120853.txt
+2026-07-30T20:05:55Z,W2742009400,10.1039/c7dt00750g,text,text_ready,20 pages -> W2742009400.txt
+2026-07-30T20:05:55Z,W4313488182,10.1002/anie.202216003,text,text_ready,8 pages -> W4313488182.txt
+2026-07-30T20:05:56Z,W1974706088,10.1002/chem.200802338,text,text_ready,10 pages -> W1974706088.txt
+2026-07-30T20:05:56Z,W2608024895,10.1021/acs.inorgchem.7b00664,text,text_ready,12 pages -> W2608024895.txt
+2026-07-30T20:05:57Z,W2056748221,10.1021/jp810247u,text,text_ready,39 pages -> W2056748221.txt
+2026-07-30T20:05:57Z,W3014999256,10.1021/jacs.0c02487,text,text_ready,35 pages -> W3014999256.txt
+2026-07-30T20:05:59Z,W2619410558,10.1063/1.4983813,text,text_ready,11 pages -> W2619410558.txt
+2026-07-30T20:05:59Z,W2070705838,10.1002/ejoc.201001636,text,text_ready,8 pages -> W2070705838.txt
+2026-07-30T20:06:00Z,W2040414349,10.1021/jp051858j,text,text_ready,7 pages -> W2040414349.txt
+2026-07-30T20:06:00Z,W2029165265,10.1021/jo0711687,text,text_ready,31 pages -> W2029165265.txt
+2026-07-30T20:06:00Z,W2408827486,10.1039/c6fd00135a,text,text_ready,12 pages -> W2408827486.txt
+2026-07-30T20:06:01Z,W2304816707,10.1002/chem.201504238,text,text_ready,10 pages -> W2304816707.txt
+2026-07-30T20:06:01Z,W2069819498,10.1063/1.1482706,text,text_ready,11 pages -> W2069819498.txt
+2026-07-30T20:06:01Z,W2911299595,10.1021/acs.jpca.8b10010,text,text_ready,25 pages -> W2911299595.txt
+2026-07-30T20:06:01Z,W4285818649,10.1039/d2cc03238d,text,text_ready,4 pages -> W4285818649.txt
+2026-07-30T20:06:02Z,W2001333208,10.1021/jp407592r,text,text_ready,29 pages -> W2001333208.txt
+2026-07-30T20:06:02Z,W2782686502,10.1002/jcc.25150,text,text_ready,17 pages -> W2782686502.txt
+2026-07-30T20:06:02Z,W2078026932,10.1016/j.theochem.2006.02.013,text,text_ready,22 pages -> W2078026932.txt
+2026-07-30T20:06:03Z,W2056823142,10.1002/qua.22992,text,text_ready,5 pages -> W2056823142.txt
+2026-07-30T20:06:03Z,W2142276416,10.1002/qua.20967,text,text_ready,14 pages -> W2142276416.txt
+2026-07-30T20:06:04Z,W3184847668,10.1021/jacs.1c05099,text,text_ready,15 pages -> W3184847668.txt
+2026-07-30T20:06:04Z,W2027744093,10.1021/ic201521w,text,text_ready,14 pages -> W2027744093.txt
+2026-07-30T20:06:05Z,W2139453279,10.1021/jp8110315,text,text_ready,11 pages -> W2139453279.txt
+2026-07-30T20:06:05Z,W2049104045,10.1021/jp900484s,text,text_ready,10 pages -> W2049104045.txt
+2026-07-30T20:06:06Z,W2740897582,10.1107/s2052520617008083,text,text_ready,19 pages -> W2740897582.txt
+2026-07-30T20:06:06Z,W2082194125,10.1002/qua.24628,text,text_ready,11 pages -> W2082194125.txt
+2026-07-30T20:06:06Z,W2946584321,10.1002/cptc.201900116,text,text_ready,4 pages -> W2946584321.txt
+2026-07-30T20:06:07Z,W3000016614,10.1021/jacs.9b09616,text,text_ready,35 pages -> W3000016614.txt
+2026-07-30T20:06:07Z,W2916091728,10.1021/acs.inorgchem.8b03566,text,text_ready,9 pages -> W2916091728.txt
+2026-07-30T20:06:07Z,W2981077766,10.3390/magnetochemistry5040058,text,text_ready,16 pages -> W2981077766.txt
+2026-07-30T20:06:08Z,W4400200856,10.1063/5.0215697,text,text_ready,11 pages -> W4400200856.txt
+2026-07-30T20:06:08Z,W2418307785,10.1002/jcc.24372,text,text_ready,13 pages -> W2418307785.txt
+2026-07-30T20:06:09Z,W3107795019,10.1002/poc.4170,text,text_ready,10 pages -> W3107795019.txt
+2026-07-30T20:06:09Z,W3110659107,10.3390/cryst10121130,text,text_ready,14 pages -> W3110659107.txt
+2026-07-30T20:06:10Z,W2156284765,10.1002/qua.22058,text,text_ready,12 pages -> W2156284765.txt
+2026-07-30T20:06:10Z,W2156819210,10.1016/j.cplett.2010.01.026,text,text_ready,6 pages -> W2156819210.txt
+2026-07-30T20:06:11Z,W2949396998,10.1002/cptc.201900121,text,text_ready,16 pages -> W2949396998.txt
+2026-07-30T20:06:11Z,W4292266449,10.1002/qua.26995,text,text_ready,14 pages -> W4292266449.txt
+2026-07-30T20:06:13Z,W3135007450,10.1021/acs.inorgchem.1c00743,text,text_ready,12 pages -> W3135007450.txt
+2026-07-30T20:06:13Z,W1973403599,10.1002/jcc.20807,text,text_ready,17 pages -> W1973403599.txt
+2026-07-30T20:06:13Z,W4220653127,10.1002/cptc.202100290,text,text_ready,12 pages -> W4220653127.txt
+2026-07-30T20:06:14Z,W4379796885,10.1002/wcms.1675,text,text_ready,14 pages -> W4379796885.txt
+2026-07-30T20:06:14Z,W4388974706,10.1021/jacs.3c08117,text,text_ready,38 pages -> W4388974706.txt
+2026-07-30T20:06:15Z,W2000579811,10.1002/poc.1613,text,text_ready,29 pages -> W2000579811.txt
+2026-07-30T20:06:16Z,W2999223469,10.1021/acs.jcim.9b00615,text,text_ready,26 pages -> W2999223469.txt
+2026-07-30T20:06:16Z,W2911863594,10.1021/acs.jctc.8b01069,text,text_ready,21 pages -> W2911863594.txt
+2026-07-30T20:06:16Z,W4206142808,10.1021/acs.inorgchem.1c02413,text,text_ready,8 pages -> W4206142808.txt
+2026-07-30T20:06:17Z,W2026642233,10.1016/j.jms.2012.12.005,text,text_ready,7 pages -> W2026642233.txt
+2026-07-30T20:06:17Z,W1854933703,10.1080/00268976.2015.1025880,text,text_ready,14 pages -> W1854933703.txt
+2026-07-30T20:06:18Z,W3162021482,10.1002/ejic.202100524,text,text_ready,9 pages -> W3162021482.txt
+2026-07-30T20:06:18Z,W2113939091,10.1080/00268970110112327,text,text_ready,7 pages -> W2113939091.txt
+2026-07-30T20:06:19Z,W2746679464,10.1021/jacs.7b05569,text,text_ready,15 pages -> W2746679464.txt
+2026-07-30T20:06:19Z,W2617338100,10.1021/acs.inorgchem.6b02952,text,text_ready,49 pages -> W2617338100.txt
+2026-07-30T20:06:25Z,W4362634040,10.3390/magnetochemistry9040100,text,text_ready,31 pages -> W4362634040.txt
+2026-07-30T20:06:25Z,W4398164462,10.1002/chem.202401796,text,text_ready,7 pages -> W4398164462.txt
+2026-07-30T20:06:26Z,W4377292921,10.3390/reactions4020016,text,text_ready,12 pages -> W4377292921.txt
+2026-07-30T20:06:27Z,W3013502660,10.1021/acs.inorgchem.9b03690,text,text_ready,14 pages -> W3013502660.txt
+2026-07-30T20:06:28Z,W2965167068,10.1021/acs.inorgchem.9b00864,text,text_ready,35 pages -> W2965167068.txt
+2026-07-30T20:06:28Z,W2991329123,10.1021/acs.inorgchem.9b02432,text,text_ready,34 pages -> W2991329123.txt
+2026-07-30T20:06:28Z,W2059207928,10.1002/jcc.21892,text,text_ready,11 pages -> W2059207928.txt
+2026-07-30T20:06:29Z,W2920386459,10.1016/j.cplett.2019.03.004,text,text_ready,6 pages -> W2920386459.txt
+2026-07-30T20:06:29Z,W2185683285,10.1002/chem.201502997,text,text_ready,10 pages -> W2185683285.txt
+2026-07-30T20:06:30Z,W4386209220,10.1002/chem.202302337,text,text_ready,12 pages -> W4386209220.txt
+2026-07-30T20:06:31Z,W3198558532,10.1021/acs.jpca.1c06390,text,text_ready,42 pages -> W3198558532.txt
+2026-07-30T20:06:31Z,W3128393528,10.1002/ange.202017078,text,text_ready,5 pages -> W3128393528.txt
+2026-07-30T20:06:31Z,W1535436850,10.1073/pnas.1001603107,text,text_ready,5 pages -> W1535436850.txt
+2026-07-30T20:06:32Z,W2085771382,10.1002/qua.24250,text,text_ready,9 pages -> W2085771382.txt
+2026-07-30T20:06:32Z,W2011054338,10.1021/jp0767056,text,text_ready,9 pages -> W2011054338.txt
+2026-07-30T20:06:32Z,W2966203361,10.3390/magnetochemistry5030046,text,text_ready,14 pages -> W2966203361.txt
+2026-07-30T20:06:33Z,W4280619364,10.1063/5.0090129,text,text_ready,15 pages -> W4280619364.txt
+2026-07-30T20:06:33Z,W2058084523,10.1016/j.cplett.2011.12.021,text,text_ready,6 pages -> W2058084523.txt
+2026-07-30T20:06:34Z,W4221087017,10.1021/acs.inorgchem.2c00065,text,text_ready,16 pages -> W4221087017.txt
+2026-07-30T20:06:34Z,W4291465569,10.3390/inorganics10080116,text,text_ready,18 pages -> W4291465569.txt
+2026-07-30T20:06:35Z,W2153913404,10.1002/qua.20565,text,text_ready,17 pages -> W2153913404.txt
+2026-07-30T20:06:35Z,W3005788843,10.1002/zaac.201900288,text,text_ready,9 pages -> W3005788843.txt
+2026-07-30T20:06:35Z,W2069152242,10.1002/jcc.23856,text,text_ready,11 pages -> W2069152242.txt
+2026-07-30T20:06:36Z,W4361297978,10.1002/cphc.202300165,text,text_ready,7 pages -> W4361297978.txt
+2026-07-30T20:06:36Z,W4393233183,10.1002/qua.27367,text,text_ready,8 pages -> W4393233183.txt
+2026-07-30T20:06:36Z,W2292987758,10.1039/c6ob00204h,text,text_ready,35 pages -> W2292987758.txt
+2026-07-30T20:06:37Z,W1994189865,10.1016/j.chemphys.2012.01.009,text,text_ready,4 pages -> W1994189865.txt
+2026-07-30T20:06:37Z,W3035037872,10.1016/j.cplett.2020.137706,text,text_ready,6 pages -> W3035037872.txt
+2026-07-30T20:06:37Z,W1995256991,10.1021/jp0509257,text,text_ready,9 pages -> W1995256991.txt
+2026-07-30T20:06:37Z,W2080079019,10.1080/00268976.2012.697585,text,text_ready,11 pages -> W2080079019.txt
+2026-07-30T20:06:38Z,W2095975310,10.1002/jcc.21611,text,text_ready,10 pages -> W2095975310.txt
+2026-07-30T20:06:38Z,W2026059351,10.1002/jcc.20483,text,text_ready,6 pages -> W2026059351.txt
+2026-07-30T20:06:39Z,W4297996670,10.1063/5.0106422,text,text_ready,14 pages -> W4297996670.txt
+2026-07-30T20:06:40Z,W2284127168,10.1021/jp902028g,text,text_ready,29 pages -> W2284127168.txt
+2026-07-30T20:06:40Z,W1986158933,10.1002/qua.22391,text,text_ready,6 pages -> W1986158933.txt
+2026-07-30T20:06:40Z,W4388413748,10.1002/chem.202303300,text,text_ready,10 pages -> W4388413748.txt
+2026-07-30T20:06:40Z,W4383303138,10.1002/cplu.202300273,text,text_ready,5 pages -> W4383303138.txt
+2026-07-30T20:06:41Z,W4399296098,10.1002/chem.202401371,text,text_ready,7 pages -> W4399296098.txt
+2026-07-30T20:06:41Z,W4410310622,10.1002/adfm.202507144,text,text_ready,9 pages -> W4410310622.txt
+2026-07-30T20:06:42Z,W4391360384,10.1002/ejic.202300598,text,text_ready,9 pages -> W4391360384.txt
+2026-07-30T20:06:42Z,W3194321579,10.1021/acs.inorgchem.1c01860,text,text_ready,31 pages -> W3194321579.txt
+2026-07-30T20:06:43Z,W3157582910,10.1039/d1dt01007g,text,text_ready,43 pages -> W3157582910.txt
+2026-07-30T20:06:43Z,W4383302668,10.1111/php.13832,text,text_ready,9 pages -> W4383302668.txt
+2026-07-30T20:06:43Z,W2912325344,10.3847/1538-4357/aafa76,text,text_ready,11 pages -> W2912325344.txt
+2026-07-30T20:06:44Z,W2090390305,10.1002/ejic.201200857,text,text_ready,7 pages -> W2090390305.txt
+2026-07-30T20:06:44Z,W3201157272,10.3390/photochem1020018,text,text_ready,15 pages -> W3201157272.txt
+2026-07-30T20:06:45Z,W4389180090,10.1002/chem.202302970,text,text_ready,8 pages -> W4389180090.txt
+2026-07-30T20:06:45Z,W2054184880,10.1063/1.4705428,text,text_ready,9 pages -> W2054184880.txt
+2026-07-30T20:06:45Z,W2571067588,10.1016/j.cplett.2017.01.013,text,text_ready,6 pages -> W2571067588.txt
+2026-07-30T20:06:46Z,W2035436070,10.1080/00268976.2010.503666,text,text_ready,12 pages -> W2035436070.txt
+2026-07-30T20:06:46Z,W1997682199,10.1007/s00214-010-0726-6,text,text_ready,9 pages -> W1997682199.txt
+2026-07-30T20:06:46Z,W1983718324,10.1002/ejtc.52,text,text_ready,17 pages -> W1983718324.txt
+2026-07-30T20:06:47Z,W2062520175,10.1002/qua.22145,text,text_ready,11 pages -> W2062520175.txt
+2026-07-30T20:06:47Z,W2064983470,10.1016/j.chemphys.2014.05.012,text,text_ready,22 pages -> W2064983470.txt
+2026-07-30T20:06:48Z,W3212026209,10.1021/acs.organomet.1c00516,text,text_ready,62 pages -> W3212026209.txt
+2026-07-30T20:06:51Z,W4308869741,10.3390/magnetochemistry8110153,text,text_ready,21 pages -> W4308869741.txt
+2026-07-30T20:06:52Z,W4319946487,10.1002/ejic.202200774,text,text_ready,11 pages -> W4319946487.txt
+2026-07-30T20:06:52Z,W3157421356,10.1016/j.chemphys.2021.111226,text,text_ready,9 pages -> W3157421356.txt
+2026-07-30T20:06:53Z,W4407625827,10.3390/inorganics13020057,text,text_ready,13 pages -> W4407625827.txt
+2026-07-30T20:06:53Z,W4206697283,10.1021/acs.organomet.1c00590,text,text_ready,10 pages -> W4206697283.txt
+2026-07-30T20:06:54Z,W4280629462,10.3390/org3020007,text,text_ready,7 pages -> W4280629462.txt
+2026-07-30T20:06:54Z,W3094408344,10.1039/d0dt02747b,text,text_ready,5 pages -> W3094408344.txt
+2026-07-30T20:06:55Z,W3133614479,10.1016/j.cplett.2021.138514,text,text_ready,6 pages -> W3133614479.txt
+2026-07-30T20:06:55Z,W2734662114,10.1088/1742-6596/869/1/012001,text,text_ready,5 pages -> W2734662114.txt
+2026-07-30T20:06:55Z,W3121447074,10.20944/preprints201611.0077.v1,text,text_ready,14 pages -> W3121447074.txt
+2026-07-30T20:06:56Z,W4407808071,10.1002/smll.202412283,text,text_ready,12 pages -> W4407808071.txt
+2026-07-30T20:06:56Z,W4383711329,10.1021/acs.inorgchem.3c01068,text,text_ready,30 pages -> W4383711329.txt
+2026-07-30T20:06:56Z,W3129789227,10.1039/d1dt00260k,text,text_ready,11 pages -> W3129789227.txt
+2026-07-30T20:06:57Z,W3166859828,10.1039/d1cp01695d,text,text_ready,8 pages -> W3166859828.txt
+2026-07-30T20:06:57Z,W2031736620,10.1063/1.4817199,text,text_ready,10 pages -> W2031736620.txt
+2026-07-30T20:06:58Z,W2030991298,10.1002/jcc.10102,text,text_ready,14 pages -> W2030991298.txt
+2026-07-30T20:06:58Z,W4408343890,10.3390/reactions6010021,text,text_ready,17 pages -> W4408343890.txt
+2026-07-30T20:06:59Z,W4388722992,10.3390/magnetochemistry9110229,text,text_ready,14 pages -> W4388722992.txt
+2026-07-30T20:06:59Z,W4200567221,10.1021/acs.inorgchem.1c01519,text,text_ready,32 pages -> W4200567221.txt
+2026-07-30T20:07:00Z,W4379801764,10.3390/inorganics11060245,text,text_ready,22 pages -> W4379801764.txt
+2026-07-30T20:07:01Z,W4313829788,10.1002/cphc.202200889,text,text_ready,10 pages -> W4313829788.txt
+2026-07-30T20:07:01Z,W4386690317,10.1002/ejoc.202300461,text,text_ready,10 pages -> W4386690317.txt
+2026-07-30T20:07:02Z,W2991811976,10.1016/j.poly.2019.114257,text,text_ready,7 pages -> W2991811976.txt
+2026-07-30T20:07:02Z,W4212850856,10.1088/1674-1056/ac5607,text,text_ready,6 pages -> W4212850856.txt
+2026-07-30T20:07:02Z,W2015596727,10.1088/1757-899x/80/1/012025,text,text_ready,6 pages -> W2015596727.txt
+2026-07-30T20:07:02Z,W2166303160,10.1002/cphc.201402073,text,text_ready,8 pages -> W2166303160.txt
+2026-07-30T20:07:03Z,W1983762859,10.1088/1742-6596/388/2/022017,text,text_ready,2 pages -> W1983762859.txt
+2026-07-30T20:07:04Z,W4388456388,10.26434/chemrxiv-2023-xn5l3,text,text_ready,30 pages -> W4388456388.txt
+2026-07-30T20:07:08Z,W4406021010,10.1002/asia.202401477,text,text_ready,15 pages -> W4406021010.txt
+2026-07-30T20:07:09Z,W4406385640,10.1002/chem.202404546,text,text_ready,10 pages -> W4406385640.txt
+2026-07-30T20:07:09Z,W4385611144,10.3390/cryst13081217,text,text_ready,15 pages -> W4385611144.txt
+2026-07-30T20:07:10Z,W3001267591,10.1021/acs.cgd.9b01150,text,text_ready,28 pages -> W3001267591.txt
+2026-07-30T20:07:11Z,W3107777068,10.3390/magnetochemistry6040066,text,text_ready,20 pages -> W3107777068.txt
+2026-07-30T20:07:12Z,W4391138715,10.1021/acs.inorgchem.3c03236,text,text_ready,47 pages -> W4391138715.txt
+2026-07-30T20:07:12Z,W2793033962,10.1002/chem.201705316,text,text_ready,10 pages -> W2793033962.txt
+2026-07-30T20:07:13Z,W4382060087,10.3390/molecules28134994,text,text_ready,11 pages -> W4382060087.txt
+2026-07-30T20:07:13Z,W4316687847,10.1002/chem.202203494,text,text_ready,10 pages -> W4316687847.txt
+2026-07-30T20:07:14Z,W2597419965,10.1021/acs.jpca.6b12448,text,text_ready,10 pages -> W2597419965.txt
+2026-07-30T20:07:14Z,W3167707510,10.1002/ange.202102218,text,text_ready,6 pages -> W3167707510.txt
+2026-07-30T20:07:15Z,W4388688379,10.1002/jcc.27246,text,text_ready,14 pages -> W4388688379.txt
+2026-07-30T20:07:15Z,W4413480778,10.3390/magnetochemistry11090073,text,text_ready,13 pages -> W4413480778.txt
+2026-07-30T20:07:15Z,W4416767708,10.1021/acs.jpclett.5c03329,text,text_ready,8 pages -> W4416767708.txt
+2026-07-30T20:07:16Z,W4404375365,10.3390/chemistry6060085,text,text_ready,12 pages -> W4404375365.txt
+2026-07-30T20:07:17Z,W4376956697,10.3390/magnetochemistry9050130,text,text_ready,15 pages -> W4376956697.txt
+2026-07-30T20:07:17Z,W4387974050,10.1002/qua.27257,text,text_ready,6 pages -> W4387974050.txt
+2026-07-30T20:07:18Z,W4407945420,10.1002/jcc.70045,text,text_ready,13 pages -> W4407945420.txt
+2026-07-30T20:07:19Z,W4409458120,10.3390/magnetochemistry11040034,text,text_ready,18 pages -> W4409458120.txt
+2026-07-30T20:07:19Z,W4386467121,10.1002/jcc.27214,text,text_ready,7 pages -> W4386467121.txt
+2026-07-30T20:07:20Z,W4385706718,10.20944/preprints202308.0664.v1,text,text_ready,16 pages -> W4385706718.txt
+2026-07-30T20:07:20Z,W2950663435,10.1002/smtd.201900070,text,text_ready,3 pages -> W2950663435.txt
+2026-07-30T20:07:20Z,W4403485886,10.3390/reactions5040039,text,text_ready,11 pages -> W4403485886.txt
+2026-07-30T20:07:21Z,W4410510559,10.1021/acs.cgd.5c00037,text,text_ready,12 pages -> W4410510559.txt
+2026-07-30T20:07:22Z,W4414021862,10.1002/poc.70035,text,text_ready,16 pages -> W4414021862.txt
+2026-07-30T20:07:23Z,W7160547651,10.1021/jacs.5c20971,text,text_ready,11 pages -> W7160547651.txt
+2026-07-30T20:07:23Z,W1979573283,10.1002/qua.23104,text,text_ready,4 pages -> W1979573283.txt
+2026-07-30T20:07:23Z,W2644474465,10.3847/1538-4357/aa719f,text,text_ready,8 pages -> W2644474465.txt
+2026-07-30T20:07:24Z,W2166538863,10.1155/2014/850641,text,text_ready,10 pages -> W2166538863.txt
+2026-07-30T20:07:25Z,W2939577324,10.3390/inorganics7040052,text,text_ready,10 pages -> W2939577324.txt
+2026-07-30T20:07:25Z,W2508895948,10.1088/1742-6596/635/9/092080,text,text_ready,2 pages -> W2508895948.txt
+2026-07-30T20:07:25Z,W2517486712,10.1088/1742-6596/635/11/112111,text,text_ready,2 pages -> W2517486712.txt
+2026-07-30T20:07:25Z,W4394624704,10.1088/1742-6596/2734/1/012052,text,text_ready,10 pages -> W4394624704.txt
+2026-07-30T20:07:26Z,W7160164708,10.3390/inorganics14050126,text,text_ready,19 pages -> W7160164708.txt
+2026-07-30T20:07:26Z,W4234484212,10.1002/9780470192597.gloss,text,text_ready,5 pages -> W4234484212.txt
+2026-07-30T20:07:26Z,W4414304074,10.20944/preprints202509.1237.v1,text,text_ready,8 pages -> W4414304074.txt
+2026-07-30T20:07:26Z,W7161699461,10.1021/acs.cgd.6c00297,text,text_ready,9 pages -> W7161699461.txt
+2026-07-30T20:07:27Z,W2979387010,10.1016/j.saa.2019.117578,text,text_ready,9 pages -> W2979387010.txt
+2026-07-30T20:07:27Z,W2794634033,10.1155/2018/9802369,text,text_ready,8 pages -> W2794634033.txt
+2026-07-30T20:07:27Z,W4392390594,10.1002/vjch.202300355,text,text_ready,8 pages -> W4392390594.txt
+2026-07-30T20:07:28Z,W4406067796,10.1002/jcc.27530,text,text_ready,10 pages -> W4406067796.txt
+2026-07-30T20:07:32Z,W2215624575,10.18297/etd/782,text,text_ready,262 pages -> W2215624575.txt
+2026-07-30T20:07:32Z,W2891680757,10.1002/cnr2.1128,text,text_ready,7 pages -> W2891680757.txt
+2026-07-30T20:07:33Z,W4386927615,10.1002/hlca.202300130,text,text_ready,11 pages -> W4386927615.txt
+2026-07-30T20:07:34Z,W4407037478,10.20944/preprints202501.2258.v1,text,text_ready,16 pages -> W4407037478.txt
+2026-07-30T20:07:34Z,W4410945222,10.20944/preprints202505.2369.v1,text,text_ready,14 pages -> W4410945222.txt
+2026-07-30T20:07:35Z,W2963416637,10.1002/qua.26132,text,text_ready,9 pages -> W2963416637.txt
+2026-07-30T20:07:35Z,W4411624867,10.3390/inorganics13070214,text,text_ready,14 pages -> W4411624867.txt
+2026-07-30T20:07:36Z,W2070492690,10.1155/2013/734354,text,text_ready,4 pages -> W2070492690.txt
+2026-07-30T20:07:37Z,W4231167402,10.1002/9783527690541.index,text,text_ready,12 pages -> W4231167402.txt
+2026-07-30T20:07:40Z,W3010246226,10.18297/etd/3316,text,text_ready,278 pages -> W3010246226.txt
+2026-07-30T20:07:40Z,W7117980144,10.1002/9781394238828.epil,text,text_ready,3 pages -> W7117980144.txt
+2026-07-30T20:07:41Z,W7166012864,10.1021/acs.jpca.5c07741,text,text_ready,12 pages -> W7166012864.txt
+2026-07-30T20:07:41Z,W2593878641,10.1002/nadc.20174060618,text,text_ready,3 pages -> W2593878641.txt
+2026-07-30T20:07:41Z,W4249434688,10.1002/9783527627400.index,text,text_ready,13 pages -> W4249434688.txt
+2026-07-30T20:07:42Z,W2416648101,10.1039/c6sc01469k,text,text_ready,9 pages -> W2416648101.txt
+2026-07-30T20:07:42Z,W4385564721,10.1002/anie.202303146,text,text_ready,19 pages -> W4385564721.txt
+2026-07-30T20:07:43Z,W3094877800,10.1126/science.abb3861,text,text_ready,6 pages -> W3094877800.txt
+2026-07-30T20:07:43Z,W3172993499,10.1002/ejic.202100465,text,text_ready,7 pages -> W3172993499.txt
+2026-07-30T20:07:44Z,W2999330291,10.1038/s41557-020-0431-6,text,text_ready,8 pages -> W2999330291.txt
+2026-07-30T20:07:44Z,W4383497692,10.1002/anie.202306970,text,text_ready,8 pages -> W4383497692.txt
+2026-07-30T20:07:45Z,W4383533113,10.1002/ejic.202300336,text,text_ready,28 pages -> W4383533113.txt
+2026-07-30T20:07:46Z,W3138622994,10.1002/anie.202103596,text,text_ready,8 pages -> W3138622994.txt
+2026-07-30T20:07:47Z,W2913961631,10.1039/c9cp00105k,text,text_ready,17 pages -> W2913961631.txt
+2026-07-30T20:07:47Z,W2030998293,10.1002/cphc.200400584,text,text_ready,18 pages -> W2030998293.txt
+2026-07-30T20:07:48Z,W2173778129,10.1002/chem.201503119,text,text_ready,9 pages -> W2173778129.txt
+2026-07-30T20:07:48Z,W2901166646,10.1021/acs.inorgchem.8b02278,text,text_ready,14 pages -> W2901166646.txt
+2026-07-30T20:07:48Z,W1975152450,10.1002/qua.24255,text,text_ready,6 pages -> W1975152450.txt
+2026-07-30T20:07:51Z,W2738817458,10.3390/inorganics5030047,text,text_ready,18 pages -> W2738817458.txt
+2026-07-30T20:07:52Z,W2611139264,10.1002/chem.201700232,text,text_ready,14 pages -> W2611139264.txt
+2026-07-30T20:07:52Z,W2769325165,10.1002/chem.201704854,text,text_ready,7 pages -> W2769325165.txt
+2026-07-30T20:07:52Z,W2100352694,10.1039/c3ra47088a,text,text_ready,9 pages -> W2100352694.txt
+2026-07-30T20:07:54Z,W2911977704,10.3390/magnetochemistry5010015,text,text_ready,31 pages -> W2911977704.txt
+2026-07-30T20:07:54Z,W2101111489,10.3390/inorganics3040482,text,text_ready,18 pages -> W2101111489.txt
+2026-07-30T20:07:55Z,W2137396062,10.1038/nchem.1896,text,text_ready,17 pages -> W2137396062.txt
+2026-07-30T20:07:56Z,W2884186545,10.1021/acs.inorgchem.8b01450,text,text_ready,42 pages -> W2884186545.txt
+2026-07-30T20:07:57Z,W2917508586,10.3390/inorganics7030026,text,text_ready,14 pages -> W2917508586.txt
+2026-07-30T20:07:57Z,W2321893305,10.1021/ja308146e,text,text_ready,10 pages -> W2321893305.txt
+2026-07-30T20:07:59Z,W2097764239,10.1002/jcc.24221,text,text_ready,81 pages -> W2097764239.txt
+2026-07-30T20:07:59Z,W2963701598,10.1002/jcc.25113,text,text_ready,10 pages -> W2963701598.txt
+2026-07-30T20:08:00Z,W4240227765,10.1002/ange.201903681,text,text_ready,7 pages -> W4240227765.txt
+2026-07-30T20:08:00Z,W4293105066,10.1002/chem.202201883,text,text_ready,11 pages -> W4293105066.txt
+2026-07-30T20:08:02Z,W4318671825,10.1002/chem.202203748,text,text_ready,30 pages -> W4318671825.txt
+2026-07-30T20:08:02Z,W4223437316,10.3390/molecules27082443,text,text_ready,17 pages -> W4223437316.txt
+2026-07-30T20:08:03Z,W3048769630,10.1039/d0sc02294b,text,text_ready,8 pages -> W3048769630.txt
+2026-07-30T20:08:03Z,W3207003766,10.1002/chem.202102383,text,text_ready,12 pages -> W3207003766.txt
+2026-07-30T20:09:29Z,W4414929664,10.1021/acsomega.5c06364,si-fetch,1 file (user-supplied),"batch 4 hand-supplied ACS supporting information 'ao5c06364_si_001.pdf', matched to this article via its ACS manuscript id"
+2026-07-30T20:09:29Z,W7163417873,10.1021/jacsau.5c01496,si-fetch,1 file (user-supplied),"batch 4 hand-supplied ACS supporting information 'au5c01496_si_001.pdf', matched to this article via its ACS manuscript id"
+2026-07-30T20:09:29Z,W4410510559,10.1021/acs.cgd.5c00037,si-fetch,1 file (user-supplied),"batch 4 hand-supplied ACS supporting information 'cg5c00037_si_001.pdf', matched to this article via its ACS manuscript id"
+2026-07-30T20:09:29Z,W4412068435,10.1021/acs.jctc.5c00519,si-fetch,1 file (user-supplied),"batch 4 hand-supplied ACS supporting information 'ct5c00519_si_001.pdf', matched to this article via its ACS manuscript id"
+2026-07-30T20:09:29Z,W2975472651,10.1021/acs.jctc.9b00768,si-fetch,1 file (user-supplied),"batch 4 hand-supplied ACS supporting information 'ct9b00768_si_001.pdf', matched to this article via its ACS manuscript id"
+2026-07-30T20:09:29Z,W2990092406,10.1021/acs.jctc.9b01178,si-fetch,1 file (user-supplied),"batch 4 hand-supplied ACS supporting information 'ct9b01178_si_001.pdf', matched to this article via its ACS manuscript id"
+2026-07-30T20:09:29Z,W3009413739,10.1021/acs.jctc.9b01297,si-fetch,1 file (user-supplied),"batch 4 hand-supplied ACS supporting information 'ct9b01297_si_001.pdf', matched to this article via its ACS manuscript id"
+2026-07-30T20:09:29Z,W4200567221,10.1021/acs.inorgchem.1c01519,si-fetch,1 file (user-supplied),"batch 4 hand-supplied ACS supporting information 'ic1c01519_si_001.pdf', matched to this article via its ACS manuscript id"
+2026-07-30T20:09:29Z,W4411405542,10.1021/acs.inorgchem.5c01531,si-fetch,1 file (user-supplied),"batch 4 hand-supplied ACS supporting information 'ic5c01531_si_001.pdf', matched to this article via its ACS manuscript id"
+2026-07-30T20:09:29Z,W4414921104,10.1021/acs.inorgchem.5c02908,si-fetch,1 file (user-supplied),"batch 4 hand-supplied ACS supporting information 'ic5c02908_si_001.pdf', matched to this article via its ACS manuscript id"
+2026-07-30T20:09:29Z,W4416326662,10.1021/acs.inorgchem.5c03729,si-fetch,1 file (user-supplied),"batch 4 hand-supplied ACS supporting information 'ic5c03729_si_001.pdf', matched to this article via its ACS manuscript id"
+2026-07-30T20:09:29Z,W1965312230,10.1021/ja045269n,si-fetch,1 file (user-supplied),"batch 4 hand-supplied ACS supporting information 'ja045269n_si_001.pdf', matched to this article via its ACS manuscript id"
+2026-07-30T20:09:29Z,W4415351205,10.1021/jacs.5c11362,si-fetch,1 file (user-supplied),"batch 4 hand-supplied ACS supporting information 'ja5c11362_si_001.pdf', matched to this article via its ACS manuscript id"
+2026-07-30T20:09:29Z,W4410219934,10.1021/acs.jpca.5c01107,si-fetch,1 file (user-supplied),"batch 4 hand-supplied ACS supporting information 'jp5c01107_si_001.pdf', matched to this article via its ACS manuscript id"
+2026-07-30T20:09:29Z,W4412726638,10.1021/acs.jpca.5c03946,si-fetch,1 file (user-supplied),"batch 4 hand-supplied ACS supporting information 'jp5c03946_si_001.pdf', matched to this article via its ACS manuscript id"
+2026-07-30T20:09:29Z,W4414601816,10.1021/acs.jpca.5c04699,si-fetch,1 file (user-supplied),"batch 4 hand-supplied ACS supporting information 'jp5c04699_si_001.pdf', matched to this article via its ACS manuscript id"
+2026-07-30T20:09:29Z,W2989912375,10.1021/acs.jpca.9b08258,si-fetch,1 file (user-supplied),"batch 4 hand-supplied ACS supporting information 'jp9b08258_si_001.pdf', matched to this article via its ACS manuscript id"
+2026-07-30T20:09:29Z,W4416767708,10.1021/acs.jpclett.5c03329,si-fetch,1 file (user-supplied),"batch 4 hand-supplied ACS supporting information 'jz5c03329_si_001.pdf', matched to this article via its ACS manuscript id"
+2026-07-30T20:09:29Z,W4416767708,10.1021/acs.jpclett.5c03329,si-fetch,1 file (user-supplied),"batch 4 hand-supplied ACS supporting information 'jz5c03329_si_002.pdf', matched to this article via its ACS manuscript id"
+2026-07-30T20:09:29Z,W2002420765,10.1021/om400528d,si-fetch,1 file (user-supplied),"batch 4 hand-supplied ACS supporting information 'om400528d_si_001.pdf', matched to this article via its ACS manuscript id"
+2026-07-30T20:09:29Z,W2508993861,10.1021/acs.organomet.6b00467,si-fetch,1 file (user-supplied),"batch 4 hand-supplied ACS supporting information 'om6b00467_si_002.pdf', matched to this article via its ACS manuscript id"
+2026-07-30T20:13:26Z,W4412961281,10.1021/acs.cgd.5c00236,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'cg5c00236_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W4410603616,10.1021/acs.cgd.5c00337,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'cg5c00337_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W4415606929,10.1021/acs.cgd.5c01058,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'cg5c01058_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W4417064589,10.1021/acs.jctc.5c01287,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'ct5c01287_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W4415705632,10.1021/acs.jctc.5c01321,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'ct5c01321_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W4415431826,10.1021/acs.jctc.5c01333,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'ct5c01333_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W4414624827,10.1021/acs.jctc.5c01336,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'ct5c01336_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W4200552429,10.1021/acs.inorgchem.1c03011,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'ic1c03011_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W4412203161,10.1021/acs.inorgchem.5c01823,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'ic5c01823_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W4413849878,10.1021/acs.inorgchem.5c02481,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'ic5c02481_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W4414641523,10.1021/acs.inorgchem.5c02754,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'ic5c02754_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W4415982472,10.1021/acs.inorgchem.5c02893,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'ic5c02893_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W4413005179,10.1021/acs.inorgchem.5c03327,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'ic5c03327_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W4415341061,10.1021/acs.inorgchem.5c03532,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'ic5c03532_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W4417274606,10.1021/acs.inorgchem.5c03903,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'ic5c03903_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W4414553927,10.1021/acs.inorgchem.5c03929,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'ic5c03929_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W4416178400,10.1021/acs.inorgchem.5c03943,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'ic5c03943_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W7163070452,10.1021/acs.inorgchem.6c01030,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'ic6c01030_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W4410286619,10.1021/jacs.5c03770,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'ja5c03770_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W4414620532,10.1021/jacs.5c12079,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'ja5c12079_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W4416084540,10.1021/jacs.5c15650,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'ja5c15650_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W7165173266,10.1021/acs.joc.6c01030,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'jo6c01030_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W4200113171,10.1021/acs.jpca.1c07108,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'jp1c07108_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W4409642959,10.1021/acs.jpca.4c08520,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'jp4c08520_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W4410244095,10.1021/acs.jpca.5c01912,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'jp5c01912_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W4413994610,10.1021/acs.jpca.5c02571,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'jp5c02571_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W4413309593,10.1021/acs.jpca.5c03028,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'jp5c03028_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W4412094189,10.1021/acs.jpca.5c03032,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'jp5c03032_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W4415901453,10.1021/acs.jpca.5c04929,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'jp5c04929_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W4416332636,10.1021/acs.jpca.5c05370,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'jp5c05370_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W4416015005,10.1021/acs.jpca.5c05393,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'jp5c05393_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W4414536538,10.1021/acs.jpca.5c05513,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'jp5c05513_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W4414664781,10.1021/acs.jpcb.5c06035,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'jp5c06035_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W4417429222,10.1021/acs.jpca.5c06689,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'jp5c06689_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W4417439596,10.1021/acs.jpca.5c07496,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'jp5c07496_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W7132833229,10.1021/acs.jpca.5c08237,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'jp5c08237_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W7163570672,10.1021/acs.jpca.6c01999,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'jp6c01999_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W7167932438,10.1021/acs.jpca.6c02386,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'jp6c02386_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W4411984214,10.1021/acs.jpclett.5c01270,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'jz5c01270_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W4415473661,10.1021/acs.jpclett.5c02294,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'jz5c02294_si_002.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W4417297565,10.1021/acs.jpclett.5c03195,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'jz5c03195_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W7168156113,10.1021/acs.jpclett.5c03195,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'jz5c03195_si_002.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:13:26Z,W7167475633,10.1021/acs.organomet.6c00039,si-fetch,1 file (user-supplied),batch 4: article not previously indexed; registered from its hand-supplied ACS supporting information 'om6c00039_si_001.pdf' (DOI derived from the ACS manuscript id and confirmed via Crossref)
+2026-07-30T20:15:31Z,W2320303562-a,10.1021/ct900401z,add-row,appended,"PYP model chromophore; CASPT2//CASSCF with (12,11) optimization and (16,13) reference, MOLCAS 7, ANO-S."
+2026-07-30T20:15:32Z,W2320303562,10.1021/ct900401z,mark,extracted,"p-hydroxycinnamoyl anion (PYP chromophore model) in vacuo. CASPT2//SA-CASSCF, (12,11) pi space for geometries and (16,13) including both oxygen lone pairs for the CASPT2 reference, ANO-S basis, MOLCAS 7, imaginary level shift 0.2 au. Franck-Condon vertical energies for S1-S4, D1 and T1 recorded."
+2026-07-30T20:16:48Z,W2521374571-a,10.3390/inorganics4040028,add-row,appended,"Fe(III) dimer and its Ga-doped analogue; CASSCF/NEVPT2 with QDPT SOC, ORCA, def2-TZVP/def2-SVP."
+2026-07-30T20:16:48Z,W2521374571-b,10.3390/inorganics4040028,add-row,appended,"Fe(III) dimer and its Ga-doped analogue; CASSCF/NEVPT2 with QDPT SOC, ORCA, def2-TZVP/def2-SVP."
+2026-07-30T20:16:48Z,W2521374571,10.3390/inorganics4040028,mark,extracted,"[Fe2(OCH3)2(dbm)4] Fe(III) dimer at CASSCF(10,10)/NEVPT2 and its Ga(III)-doped single-centre analogue at (5,5), ORCA with def2-TZVP/def2-SVP, SOC via QDPT. Isotropic exchange J12 = 15.4 cm-1; anisotropic exchange found comparable to the single-ion term."
+2026-07-30T20:18:35Z,W2496860491-a,10.1021/acs.jctc.6b00609,add-row,appended,SFDC-CASSCF pilot application on named metal carbonyls; geometries and frequencies vs experiment.
+2026-07-30T20:18:35Z,W2496860491-b,10.1021/acs.jctc.6b00609,add-row,appended,SFDC-CASSCF pilot application on named metal carbonyls; geometries and frequencies vs experiment.
+2026-07-30T20:18:35Z,W2496860491-c,10.1021/acs.jctc.6b00609,add-row,appended,SFDC-CASSCF pilot application on named metal carbonyls; geometries and frequencies vs experiment.
+2026-07-30T20:18:35Z,W2496860491-d,10.1021/acs.jctc.6b00609,add-row,appended,SFDC-CASSCF pilot application on named metal carbonyls; geometries and frequencies vs experiment.
+2026-07-30T20:18:35Z,W2496860491,10.1021/acs.jctc.6b00609,mark,extracted,"SFDC-CASSCF implementation paper whose pilot application is on real transition-metal carbonyls: NiCO, PdCO and PtCO at CAS(7,8)/uncontracted ANO-RCC with optimized geometries and harmonic M-C frequencies compared to experiment, plus Cr(CO)2 7-Pi-u at (10,12)/uncontracted cc-pVTZ as a convergence demonstration. In scope: specific compounds with stated active spaces, not model Hamiltonians."
+2026-07-30T20:20:07Z,W4221069103,10.1063/5.0085855,si-fetch,0 files,none found
+2026-07-30T20:20:24Z,W4221069103,10.1063/5.0085855,mark,not_usable,"Method/implementation paper: SA-CASSCF with a polarizable continuum model in TeraChem (energies, analytical nuclear gradients, non-adiabatic couplings). The only active space stated anywhere in the text is SA(2)-CASSCF(4,4)/PCM/6-31G* on C3H6N+, a three-carbon protonated-Schiff-base model used purely to validate analytical gradients against numerical ones. The substantive application - the merocyanine dye DCBT, where FC and two MECI geometries are optimized in gas phase, toluene, dichloromethane and DMSO - never states its active space in the main text, and the SI is not retrievable via figshare or PMC. Toy-system validation only, per CLAUDE.md. Revisit if the SI is supplied: the DCBT solvent-polarity results would make a solid row."
+2026-07-30T20:22:32Z,W2756271345,10.1080/00268976.2017.1371800,si-fetch,1 file (user-supplied),batch 4 hand-supplied Molecular Physics supplementary material 'tmph_a_1371800_sm1343.pdf'; DOI derived from the Taylor & Francis filename code and confirmed via Crossref
+2026-07-30T20:22:32Z,W2786938554,10.1080/00268976.2018.1457807,si-fetch,1 file (user-supplied),batch 4 hand-supplied Molecular Physics supplementary material 'tmph_a_1457807_sm6706.pdf'; DOI derived from the Taylor & Francis filename code and confirmed via Crossref
+2026-07-30T20:22:32Z,W2998682278,10.1080/00268976.2019.1706778,si-fetch,1 file (user-supplied),batch 4 hand-supplied Molecular Physics supplementary material 'tmph_a_1706778_sm2537.pdf'; DOI derived from the Taylor & Francis filename code and confirmed via Crossref
+2026-07-30T20:22:32Z,W3016865943,10.1080/00268976.2020.1752402,si-fetch,1 file (user-supplied),batch 4 hand-supplied Molecular Physics supplementary material 'tmph_a_1752402_sm1351.pdf'; DOI derived from the Taylor & Francis filename code and confirmed via Crossref
+2026-07-30T20:22:50Z,W2024774535,10.1021/ct200646r,fetch,fetched,"user-supplied PDF, batch 4; original filename '069584.pdf'; DOI recovered by first-page title search (no DOI printed in the PDF)"
+2026-07-30T20:22:50Z,W2765798707,10.1039/c7fd00202e,fetch,fetched,"user-supplied PDF, batch 4; original filename '083593.pdf'; DOI recovered by first-page title search (no DOI printed in the PDF)"
+2026-07-30T20:22:50Z,W2131705378,10.1016/s0009-2614(00)01218-5,fetch,fetched,"user-supplied PDF, batch 4; original filename '1-s2.0-S0009261400012185-main.pdf'; DOI recovered by first-page title search (no DOI printed in the PDF)"
+2026-07-30T20:22:50Z,W1973443611,10.1016/s0010-8545(02)00283-7,fetch,fetched,"user-supplied PDF, batch 4; original filename '1-s2.0-S0010854502002837-main.pdf'; DOI recovered by first-page title search (no DOI printed in the PDF)"
+2026-07-30T20:22:50Z,W2477342373,10.1002/chem.201601741,fetch,fetched,"user-supplied PDF, batch 4; original filename '114303.pdf'; DOI recovered by first-page title search (no DOI printed in the PDF)"
+2026-07-30T20:22:50Z,W2002420765,10.1021/om400528d,fetch,fetched,"user-supplied PDF, batch 4; original filename '1163867.pdf'; DOI recovered by first-page title search (no DOI printed in the PDF)"
+2026-07-30T20:22:50Z,W2019570753,10.1039/c2sc22013j,fetch,fetched,"user-supplied PDF, batch 4; original filename '1164377.pdf'; DOI recovered by first-page title search (no DOI printed in the PDF)"
+2026-07-30T20:22:50Z,W2023522154,10.1021/om300876b,fetch,fetched,"user-supplied PDF, batch 4; original filename '1165114.pdf'; DOI recovered by first-page title search (no DOI printed in the PDF)"
+2026-07-30T20:22:50Z,W3034433424,10.1039/d0cp02077j,fetch,fetched,"user-supplied PDF, batch 4; original filename '144464.pdf'; DOI recovered by first-page title search (no DOI printed in the PDF)"
+2026-07-30T20:22:50Z,W4295512296,10.1021/acs.jctc.2c00302,fetch,fetched,"user-supplied PDF, batch 4; original filename '157683.pdf'; DOI recovered by first-page title search (no DOI printed in the PDF)"
+2026-07-30T20:22:50Z,W2765798707,10.1039/c7fd00202e,fetch,fetched,"user-supplied PDF, batch 4; original filename '170204.pdf'; DOI recovered by first-page title search (no DOI printed in the PDF)"
+2026-07-30T20:22:50Z,W2509094501,10.15278/isms.2016.tk10,fetch,fetched,"user-supplied PDF, batch 4; original filename '1774.pdf'; DOI recovered by first-page title search (no DOI printed in the PDF)"
+2026-07-30T20:22:50Z,W2066042012,10.1063/1.3238234,fetch,fetched,"user-supplied PDF, batch 4; original filename '2. Journal of Chemical Physics, 131 (2009) Serrano-Andrés.pdf'; DOI recovered by first-page title search (no DOI printed in the PDF)"
+2026-07-30T20:22:50Z,W2964580916,10.15278/isms.2019.fd05,fetch,fetched,"user-supplied PDF, batch 4; original filename '4050.pdf'; DOI recovered by first-page title search (no DOI printed in the PDF)"
+2026-07-30T20:22:50Z,W2002530679,10.1021/ct7003148,fetch,fetched,"user-supplied PDF, batch 4; original filename '41737_jChemThCom2008.pdf'; DOI recovered by first-page title search (no DOI printed in the PDF)"
+2026-07-30T20:22:50Z,W2038569036,10.1039/c2jm31631e,fetch,fetched,"user-supplied PDF, batch 4; original filename '63387_Seijo_JMC_2012Electronic.pdf'; DOI recovered by first-page title search (no DOI printed in the PDF)"
+2026-07-30T20:22:50Z,W2504272741,10.1002/chem.201601457,fetch,fetched,"user-supplied PDF, batch 4; original filename '666994.pdf'; DOI recovered by first-page title search (no DOI printed in the PDF)"
+2026-07-30T20:22:50Z,W2150875231,10.1063/1.465071,fetch,fetched,"user-supplied PDF, batch 4; original filename '77. Journal of Chemical Physics, 98 (1993).pdf'; DOI recovered by first-page title search (no DOI printed in the PDF)"
+2026-07-30T20:22:50Z,W2272027937,10.1002/chem.201501900,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Chemistry A European J - 2015 - Nikolić - PPV Polymerization through the Gilch Route Diradical Character of Monomers.pdf'; DOI recovered by first-page title search (no DOI printed in the PDF)"
+2026-07-30T20:22:50Z,W2792338474,10.1002/chem.201800680,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Dative.pdf'; DOI recovered by first-page title search (no DOI printed in the PDF)"
+2026-07-30T20:22:50Z,W2962215922,10.1016/j.dyepig.2019.107705,fetch,fetched,"user-supplied PDF, batch 4; original filename 'DyePig171_107705.pdf'; DOI recovered by first-page title search (no DOI printed in the PDF)"
+2026-07-30T20:22:50Z,W3206621906,10.15278/isms.2021.fj09,fetch,fetched,"user-supplied PDF, batch 4; original filename 'FJ09_5588.pdf'; DOI recovered by first-page title search (no DOI printed in the PDF)"
+2026-07-30T20:22:50Z,W2080032603,10.1002/(sici)1097-461x(1996)60:1<505::aid-qua49>3.0.co;2-7,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Int J of Quantum Chemistry - 5 October 1996 - Bearpark - Potential energy surfaces of pseudoaromatic molecules An MMVB and.pdf'; DOI recovered by first-page title search (no DOI printed in the PDF)"
+2026-07-30T20:22:50Z,W3121117582,10.1016/j.jphotochem.2021.113140,fetch,fetched,"user-supplied PDF, batch 4; original filename 'JPPA409_113140.pdf'; DOI recovered by first-page title search (no DOI printed in the PDF)"
+2026-07-30T20:22:50Z,W2007234316,10.1086/591486,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Luo_2008_ApJ_687_726.pdf'; DOI recovered by first-page title search (no DOI printed in the PDF)"
+2026-07-30T20:22:50Z,W3020107951,10.1088/0953-4075/31/17/023,fetch,fetched,"user-supplied PDF, batch 4; original filename 'M_Hochlaf_1998_J._Phys._B__At._Mol._Opt._Phys._31_4059.pdf'; DOI recovered by first-page title search (no DOI printed in the PDF)"
+2026-07-30T20:22:50Z,W2021415100,10.1016/j.chemphys.2015.04.007,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Pis-Diez-CHEMPHYS.pdf'; DOI recovered by first-page title search (no DOI printed in the PDF)"
+2026-07-30T20:22:50Z,W3195216786,10.3390/molecules26175140,fetch,fetched,"user-supplied PDF, batch 4; original filename 'molecules-26-05140.pdf'; DOI recovered by first-page title search (no DOI printed in the PDF)"
+2026-07-30T20:22:50Z,W4385521937,10.2139/ssrn.4526625,fetch,fetched,"user-supplied PDF, batch 4; original filename 'ssrn-4526625.pdf'; DOI recovered by first-page title search (no DOI printed in the PDF)"
+2026-07-30T20:22:50Z,W4397030279,10.2139/ssrn.4832814,fetch,fetched,"user-supplied PDF, batch 4; original filename 'ssrn-4832814.pdf'; DOI recovered by first-page title search (no DOI printed in the PDF)"
+2026-07-30T20:23:15Z,W2560769476,10.1021/acs.inorgchem.6b01544,fetch,fetched,"user-supplied PDF, batch 4; original filename '1341566.pdf'; DOI recovered by title search then stripping an .s001 SI suffix"
+2026-07-30T20:23:21Z,W2788141143,10.1021/acs.jctc.7b00989,fetch,fetched,"user-supplied PDF, batch 4; original filename '1468299.pdf'; DOI recovered by title search then stripping an .s001 SI suffix"
+2026-07-30T20:23:21Z,W3094235544,10.1021/acs.jctc.0c00341,fetch,fetched,"user-supplied PDF, batch 4; original filename '1808600.pdf'; DOI recovered by title search then stripping an .s001 SI suffix"
+2026-07-30T20:23:22Z,W3157233730,10.1021/acs.jpca.1c01545,fetch,fetched,"user-supplied PDF, batch 4; original filename '1843950.pdf'; DOI recovered by title search then stripping an .s001 SI suffix"
+2026-07-30T20:23:22Z,W2981075862,10.1021/acs.jpclett.9b02815,fetch,fetched,"user-supplied PDF, batch 4; original filename 'C18_final.pdf'; DOI recovered by title search then stripping an .s001 SI suffix"
+2026-07-30T20:23:28Z,W2782108131,10.1021/acs.inorgchem.7b02608,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Revision_Mn3Ln2_IC_KRV ksm_8th dec.pdf'; DOI recovered by title search then stripping an .s001 SI suffix"
+2026-07-30T20:23:28Z,W2954705174,10.1021/acs.inorgchem.9b01030,fetch,fetched,"user-supplied PDF, batch 4; original filename 'RuTPP_isocyanoazulene_Manuscript_Draft_1_mvb_edited_up_to_page_14_.pdf'; DOI recovered by title search then stripping an .s001 SI suffix"
+2026-07-30T20:23:34Z,W2803324132,10.1021/acs.jctc.8b00050,fetch,fetched,"user-supplied PDF, batch 4; original filename 'Smyrnova 2018 JCTC.pdf'; DOI recovered by title search then stripping an .s001 SI suffix"
+2026-07-30T20:23:34Z,W2285730778,10.1021/acs.inorgchem.5b02920,fetch,fetched,"user-supplied PDF, batch 4; original filename 'mnop_theory.pdf'; DOI recovered by title search then stripping an .s001 SI suffix"
+2026-07-30T20:24:35Z,W2002530679,10.1021/ct7003148,text,text_ready,28 pages -> W2002530679.txt
+2026-07-30T20:24:36Z,W2765798707,10.1039/c7fd00202e,text,text_ready,14 pages -> W2765798707.txt
+2026-07-30T20:24:36Z,W2080032603,10.1002/(sici)1097-461x(1996)60:1<505::aid-qua49>3.0.co;2-7,text,text_ready,8 pages -> W2080032603.txt
+2026-07-30T20:24:37Z,W2150875231,10.1063/1.465071,text,text_ready,12 pages -> W2150875231.txt
+2026-07-30T20:24:37Z,W2981075862,10.1021/acs.jpclett.9b02815,text,text_ready,6 pages -> W2981075862.txt
+2026-07-30T20:24:38Z,W2131705378,10.1016/s0009-2614(00)01218-5,text,text_ready,6 pages -> W2131705378.txt
+2026-07-30T20:24:38Z,W2792338474,10.1002/chem.201800680,text,text_ready,23 pages -> W2792338474.txt
+2026-07-30T20:24:39Z,W2477342373,10.1002/chem.201601741,text,text_ready,9 pages -> W2477342373.txt
+2026-07-30T20:24:40Z,W3094235544,10.1021/acs.jctc.0c00341,text,text_ready,28 pages -> W3094235544.txt
+2026-07-30T20:24:41Z,W2019570753,10.1039/c2sc22013j,text,text_ready,12 pages -> W2019570753.txt
+2026-07-30T20:24:41Z,W2024774535,10.1021/ct200646r,text,text_ready,27 pages -> W2024774535.txt
+2026-07-30T20:24:42Z,W2038569036,10.1039/c2jm31631e,text,text_ready,25 pages -> W2038569036.txt
+2026-07-30T20:24:43Z,W2023522154,10.1021/om300876b,text,text_ready,10 pages -> W2023522154.txt
+2026-07-30T20:24:43Z,W2788141143,10.1021/acs.jctc.7b00989,text,text_ready,36 pages -> W2788141143.txt
+2026-07-30T20:24:44Z,W2002420765,10.1021/om400528d,text,text_ready,26 pages -> W2002420765.txt
+2026-07-30T20:24:44Z,W2066042012,10.1063/1.3238234,text,text_ready,11 pages -> W2066042012.txt
+2026-07-30T20:24:44Z,W3034433424,10.1039/d0cp02077j,text,text_ready,13 pages -> W3034433424.txt
+2026-07-30T20:24:45Z,W2285730778,10.1021/acs.inorgchem.5b02920,text,text_ready,69 pages -> W2285730778.txt
+2026-07-30T20:24:46Z,W2504272741,10.1002/chem.201601457,text,text_unreadable,UnicodeEncodeError: 'utf-8' codec can't encode character '\udf0f' in position 24999: surrogates not allowed
+2026-07-30T20:24:49Z,W3157233730,10.1021/acs.jpca.1c01545,text,text_ready,101 pages -> W3157233730.txt
+2026-07-30T20:24:49Z,W2007234316,10.1086/591486,text,text_ready,5 pages -> W2007234316.txt
+2026-07-30T20:24:50Z,W2272027937,10.1002/chem.201501900,text,text_ready,10 pages -> W2272027937.txt
+2026-07-30T20:24:50Z,W2803324132,10.1021/acs.jctc.8b00050,text,text_ready,33 pages -> W2803324132.txt
+2026-07-30T20:24:51Z,W2954705174,10.1021/acs.inorgchem.9b01030,text,text_ready,34 pages -> W2954705174.txt
+2026-07-30T20:24:52Z,W2782108131,10.1021/acs.inorgchem.7b02608,text,text_ready,31 pages -> W2782108131.txt
+2026-07-30T20:24:53Z,W2962215922,10.1016/j.dyepig.2019.107705,text,text_ready,27 pages -> W2962215922.txt
+2026-07-30T20:24:53Z,W3020107951,10.1088/0953-4075/31/17/023,text,text_ready,2 pages -> W3020107951.txt
+2026-07-30T20:24:53Z,W4295512296,10.1021/acs.jctc.2c00302,text,text_ready,21 pages -> W4295512296.txt
+2026-07-30T20:24:54Z,W3121117582,10.1016/j.jphotochem.2021.113140,text,text_ready,36 pages -> W3121117582.txt
+2026-07-30T20:24:57Z,W2021415100,10.1016/j.chemphys.2015.04.007,text,text_ready,27 pages -> W2021415100.txt
+2026-07-30T20:24:57Z,W2964580916,10.15278/isms.2019.fd05,text,text_ready,1 pages -> W2964580916.txt
+2026-07-30T20:24:57Z,W2509094501,10.15278/isms.2016.tk10,text,text_ready,1 pages -> W2509094501.txt
+2026-07-30T20:24:58Z,W4385521937,10.2139/ssrn.4526625,text,text_ready,17 pages -> W4385521937.txt
+2026-07-30T20:24:58Z,W4397030279,10.2139/ssrn.4832814,text,text_ready,18 pages -> W4397030279.txt
+2026-07-30T20:24:58Z,W3206621906,10.15278/isms.2021.fj09,text,text_ready,1 pages -> W3206621906.txt
+2026-07-30T20:25:00Z,W2560769476,10.1021/acs.inorgchem.6b01544,text,text_ready,55 pages -> W2560769476.txt
+2026-07-30T20:25:00Z,W1973443611,10.1016/s0010-8545(02)00283-7,text,text_ready,15 pages -> W1973443611.txt
+2026-07-30T20:25:01Z,W3195216786,10.3390/molecules26175140,text,text_ready,16 pages -> W3195216786.txt
+2026-07-30T20:36:20Z,W2171531037,10.1016/0010-8545(94)80025-1,fetch,fetched,"user-supplied PDF, batch 4; original filename '1-s2.0-0010854594800251-main.pdf'; DOI recovered by second-pass first-page title search"
+2026-07-30T20:36:20Z,W1995927525,10.1016/s0009-2614(00)01447-0,fetch,fetched,"user-supplied PDF, batch 4; original filename '1-s2.0-S0009261400014470-main.pdf'; DOI recovered by second-pass first-page title search"
+2026-07-30T20:36:20Z,W2069788998,10.1016/s0009-2614(99)00711-3,fetch,fetched,"user-supplied PDF, batch 4; original filename '600481.pdf'; DOI recovered by second-pass first-page title search"
+2026-07-30T20:36:20Z,W3177508800,10.1016/j.ica.2021.120524,fetch,fetched,"user-supplied PDF, batch 4; original filename 'ICA-S-21-00356-R2.pdf'; DOI recovered by second-pass first-page title search"
+2026-07-30T20:36:25Z,W1996242835,10.3390/i5040196,fetch,fetched,"user-supplied PDF, batch 4; original filename 'ijms-05-00196.pdf'; DOI recovered by second-pass first-page title search"
+2026-07-30T20:38:54Z,W2006018602,10.1039/b926608a,fetch,fetched,"user-supplied PDF, batch 4; original filename 'b926608a.pdf'. DOI taken from the RSC filename after a first-page title search wrongly returned the theme-issue editorial 10.1039/c005130f."
+2026-07-30T20:38:56Z,W2006018602,10.1039/b926608a,text,text_ready,9 pages -> W2006018602.txt
