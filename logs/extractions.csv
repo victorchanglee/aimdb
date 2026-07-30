@@ -9808,3 +9808,29 @@ timestamp,key,doi,action,result,reasoning
 2026-07-30T20:36:25Z,W1996242835,10.3390/i5040196,fetch,fetched,"user-supplied PDF, batch 4; original filename 'ijms-05-00196.pdf'; DOI recovered by second-pass first-page title search"
 2026-07-30T20:38:54Z,W2006018602,10.1039/b926608a,fetch,fetched,"user-supplied PDF, batch 4; original filename 'b926608a.pdf'. DOI taken from the RSC filename after a first-page title search wrongly returned the theme-issue editorial 10.1039/c005130f."
 2026-07-30T20:38:56Z,W2006018602,10.1039/b926608a,text,text_ready,9 pages -> W2006018602.txt
+2026-07-30T20:39:48Z,W2171531037,10.1016/0010-8545(94)80025-1,text,text_ready,12 pages -> W2171531037.txt
+2026-07-30T20:39:48Z,W2069788998,10.1016/s0009-2614(99)00711-3,text,text_ready,7 pages -> W2069788998.txt
+2026-07-30T20:39:49Z,W1996242835,10.3390/i5040196,text,text_ready,18 pages -> W1996242835.txt
+2026-07-30T20:39:49Z,W1995927525,10.1016/s0009-2614(00)01447-0,text,text_ready,6 pages -> W1995927525.txt
+2026-07-30T20:39:51Z,W3177508800,10.1016/j.ica.2021.120524,text,text_ready,26 pages -> W3177508800.txt
+2026-07-30T20:41:25Z,W2016813178-a,10.1002/qua.21041,add-row,appended,"Ru alpha-diimine halide complexes; CASSCF(14,14)/MS-CASPT2, MOLCAS 5.0, Stuttgart ECP and AIMP."
+2026-07-30T20:41:26Z,W2016813178-b,10.1002/qua.21041,add-row,appended,"Ru alpha-diimine halide complexes; CASSCF(14,14)/MS-CASPT2, MOLCAS 5.0, Stuttgart ECP and AIMP."
+2026-07-30T20:41:26Z,W2016813178,10.1002/qua.21041,mark,extracted,"[Ru(Cl)(Me)(CO)2(Me-DAB)] and [Ru(I)(Me)(CO)2(Me-DAB)] at CASSCF/SS- and MS-CASPT2 with three active spaces (10,12), (14,14) and (16,15), MOLCAS 5.0, Stuttgart ECP and AIMP, Cs symmetry on B3LYP geometries. MLCT/XLCT/SBLCT assignments recorded for both halides."
+2026-07-30T20:42:59Z,W1997933922-a,10.1021/jp806075b,add-row,appended,"Heme-XO complex; CASSCF/CASPT2 with per-complex active space, MOLCAS, ANO basis, DKH2."
+2026-07-30T20:42:59Z,W1997933922-b,10.1021/jp806075b,add-row,appended,"Heme-XO complex; CASSCF/CASPT2 with per-complex active space, MOLCAS, ANO basis, DKH2."
+2026-07-30T20:43:00Z,W1997933922-c,10.1021/jp806075b,add-row,appended,"Heme-XO complex; CASSCF/CASPT2 with per-complex active space, MOLCAS, ANO basis, DKH2."
+2026-07-30T20:43:00Z,W1997933922-d,10.1021/jp806075b,add-row,appended,"Heme-XO complex; CASSCF/CASPT2 with per-complex active space, MOLCAS, ANO basis, DKH2."
+2026-07-30T20:43:00Z,W1997933922-e,10.1021/jp806075b,add-row,appended,"Heme-XO complex; CASSCF/CASPT2 with per-complex active space, MOLCAS, ANO basis, DKH2."
+2026-07-30T20:43:00Z,W1997933922-f,10.1021/jp806075b,add-row,appended,"Heme-XO complex; CASSCF/CASPT2 with per-complex active space, MOLCAS, ANO basis, DKH2."
+2026-07-30T20:43:00Z,W1997933922-g,10.1021/jp806075b,add-row,appended,"Heme-XO complex; CASSCF/CASPT2 with per-complex active space, MOLCAS, ANO basis, DKH2."
+2026-07-30T20:43:01Z,W1997933922-h,10.1021/jp806075b,add-row,appended,"Heme-XO complex; CASSCF/CASPT2 with per-complex active space, MOLCAS, ANO basis, DKH2."
+2026-07-30T20:43:01Z,W1997933922,10.1021/jp806075b,mark,extracted,"Eight ferrous heme models at CASSCF/CASPT2 with individually constructed active spaces: FeP (8,11), FeP(Im) (10,12), FeP(CO) (14,14), FeP(Im)(CO) (16,15), FeP(NO) (13,14), FeP(O2) (14,14), FeP(Im)(NO) (15,14), FeP(Im)(O2) (16,14). MOLCAS with Cholesky decomposition, ANO basis sets I and II, DKH2, IPEA and 0.1 hartree imaginary shift, PBE0/BP86 geometries. CO/NO/O2 binding energies with BSSE and ZPVE corrections recorded against DFT and experiment."
+2026-07-30T20:44:15Z,W1995092221-a,10.1080/00268970701604689,add-row,appended,"OH..pi heterodimers; CASSCF(2,2)/(10,7) with SC- and PC-NEVPT2 and counterpoise BSSE correction."
+2026-07-30T20:44:15Z,W1995092221-b,10.1080/00268970701604689,add-row,appended,"OH..pi heterodimers; CASSCF(2,2)/(10,7) with SC- and PC-NEVPT2 and counterpoise BSSE correction."
+2026-07-30T20:44:15Z,W1995092221,10.1080/00268970701604689,mark,extracted_partial,"Ethene-water OH..pi heterodimer at CASSCF(2,2) and CASSCF(10,7) with SC- and PC-NEVPT2 and Boys-Bernardi counterpoise correction, GAMESS-US plus Dalton 2.0, 6-31+G* on MP2 geometries. Partial because the second system (benzene-water) is reported only as a successful test with no active space or numbers printed for it."
+2026-07-30T20:45:21Z,W2109039998-a,10.1155/2014/874102,add-row,appended,Explicit active space on a specific chemical system.
+2026-07-30T20:45:22Z,W1176755638-a,10.1016/j.susc.2015.06.018,add-row,appended,Explicit active space on a specific chemical system.
+2026-07-30T20:45:22Z,W1176755638-b,10.1016/j.susc.2015.06.018,add-row,appended,Explicit active space on a specific chemical system.
+2026-07-30T20:45:22Z,W2109039998,10.1155/2014/874102,mark,extracted,"pi-stacked benzene dimer; CASSCF(12,12)/6-31G(d) optimization of the S1/S0 conical intersection in Gaussian 09, driving semiclassical dynamics of a laser-induced reaction."
+2026-07-30T20:45:22Z,W1176755638,10.1016/j.susc.2015.06.018,mark,extracted,"C(100)-2x1 diamond surface cluster C15H16 at CAS(4,4) and with an As adatom at CAS(9,8), CASSCF geometries with MRMP2 single points, all-electron 6-31G(d,p). Cluster models of a surface, but with explicitly stated active spaces on defined chemical systems."
+2026-07-30T20:45:22Z,W3085402209,10.1063/5.0024134,mark,not_usable,"Valence-CASSCF description of the X1Sigma+ ground state of BF. Genuine multireference analysis, but excluded on scope: BF is a bare diatomic, consistent with the convention applied since 2026-07-23 and with the RhO, N2, O2 and Sc-Ni/Cu-Ag-Au rejections earlier in this session."
