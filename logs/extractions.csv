@@ -7996,3 +7996,942 @@ timestamp,key,doi,action,result,reasoning
 2026-07-29T04:23:35Z,W3133965318,10.1063/5.0042147,mark,not_usable,"Perspective (review) article: 'CAS without SCF - Why to use CASCI and where to get the orbitals'. Discusses the class of CASCI alternatives to CASSCF and where to source orbitals, citing others' results throughout rather than reporting an original multireference calculation on a specific compound. The few (2,2)/(16,16) figures are illustrative of method scaling, not calculations performed here. Per policy, reviews citing others' numbers are not usable."
 2026-07-29T04:24:25Z,W2073732130-a,10.1063/1.4901328,add-row,appended,"s-trans-butadiene (4,4) terminal twist: documents the SA-CASSCF discontinuity pathology when an unaveraged state (S4) crosses an averaged one (S3), and the DWS dynamical-weighting remedy with first analytical gradients. Transferable state-averaging guidance."
 2026-07-29T04:24:26Z,W2073732130,10.1063/1.4901328,mark,extracted,"Usable: real molecule with explicit (4,4) space and a concrete, transferable state-averaging pathology + remedy, rather than a pure algorithm benchmark. One row extracted."
+2026-07-29T17:01:28Z,W4411223459,10.26434/chemrxiv-2025-q6rfm-v2,import,candidate,user DOI list: /tmp/claude-8718/-gpfs-projects-p32664-claude/a3ee635e-4675-4541-b751-7dbc05edfde9/scratchpad/new.txt
+2026-07-29T17:01:28Z,W4240468233,10.26434/chemrxiv-2021-xtlzj-v2,import,candidate,user DOI list: /tmp/claude-8718/-gpfs-projects-p32664-claude/a3ee635e-4675-4541-b751-7dbc05edfde9/scratchpad/new.txt
+2026-07-29T17:01:28Z,W4399814653,10.26434/chemrxiv-2024-t5m4d-v2,import,candidate,user DOI list: /tmp/claude-8718/-gpfs-projects-p32664-claude/a3ee635e-4675-4541-b751-7dbc05edfde9/scratchpad/new.txt
+2026-07-29T17:02:22Z,W2068395071,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename '1979_1_online.pdf'
+2026-07-29T17:02:22Z,W2799887372,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'Falahati_et_al_2018_revision.pdf'
+2026-07-29T17:02:23Z,W2223956948,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'OLIVUCCI-Probing+the+photodynamics-Post--Print.pdf'
+2026-07-29T17:02:23Z,W4413335469,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'PIIS2405844025020833.pdf'
+2026-07-29T17:02:23Z,W3177080785,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'PIIS2451929421003193.pdf'
+2026-07-29T17:02:23Z,W4391406507,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'PIIS259023852400002X.pdf'
+2026-07-29T17:02:23Z,W2807141029,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'These_Ricca_1993.pdf'
+2026-07-29T17:02:23Z,W3121186489,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'au.160331958.81029418.pdf'
+2026-07-29T17:02:23Z,W4280614611,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'au.165293470.03279945.pdf'
+2026-07-29T17:02:23Z,W4401922699,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'au.172474666.62099599.pdf'
+2026-07-29T17:02:23Z,W4238927677,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2021-3p2sx.pdf'
+2026-07-29T17:02:23Z,W4254674698,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2021-h3qk7.pdf'
+2026-07-29T17:02:23Z,W4249451042,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2021-pjvv1-v3.pdf'
+2026-07-29T17:02:23Z,W4250745118,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2021-xr3x5.pdf'
+2026-07-29T17:02:23Z,W4240468233,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2021-xtlzj-v2.pdf'
+2026-07-29T17:02:23Z,W4224305469,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2022-2sqgf.pdf'
+2026-07-29T17:02:23Z,W4280618551,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2022-59f1v.pdf'
+2026-07-29T17:02:23Z,W4297425336,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2022-8mc2h-v2.pdf'
+2026-07-29T17:02:23Z,W4293567642,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2022-8r90r-v3.pdf'
+2026-07-29T17:02:23Z,W4282963918,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2022-9g7fd.pdf'
+2026-07-29T17:02:23Z,W4323315980,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2022-c6tz8-v2.pdf'
+2026-07-29T17:02:23Z,W4280651083,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2022-cncp2.pdf'
+2026-07-29T17:02:23Z,W4281760057,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2022-dnstl.pdf'
+2026-07-29T17:02:23Z,W4214737454,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2022-f7tc8.pdf'
+2026-07-29T17:02:23Z,W4283031636,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2022-kc0k3.pdf'
+2026-07-29T17:02:23Z,W4309839650,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2022-mk6fs.pdf'
+2026-07-29T17:02:23Z,W4307763701,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2022-n4fbb.pdf'
+2026-07-29T17:02:23Z,W4307527009,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2022-q86dm.pdf'
+2026-07-29T17:02:23Z,W4309834098,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2022-w3x91-v2.pdf'
+2026-07-29T17:02:23Z,W4310250818,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2022-wgdf7.pdf'
+2026-07-29T17:02:23Z,W4307256765,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2022-z1trp.pdf'
+2026-07-29T17:02:23Z,W4311706302,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2022-zm9hv-v2.pdf'
+2026-07-29T17:02:23Z,W4386626210,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2023-296cq.pdf'
+2026-07-29T17:02:23Z,W4387502537,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2023-70tx9.pdf'
+2026-07-29T17:02:23Z,W4328123620,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2023-8l8nw.pdf'
+2026-07-29T17:02:23Z,W4398132768,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2023-9z6bg-v2.pdf'
+2026-07-29T17:02:23Z,W4366771401,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2023-clcrj.pdf'
+2026-07-29T17:02:23Z,W4319017907,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2023-f2fm3.pdf'
+2026-07-29T17:02:23Z,W4385492755,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2023-f7qnk.pdf'
+2026-07-29T17:02:23Z,W4366219499,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2023-fcl8s-v2.pdf'
+2026-07-29T17:02:23Z,W4321786378,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2023-fgr88.pdf'
+2026-07-29T17:02:23Z,W4384827415,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2023-h7tsp-v3.pdf'
+2026-07-29T17:02:23Z,W4387703562,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2023-m5s0w-v2.pdf'
+2026-07-29T17:02:23Z,W4328127921,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2023-n3lh0.pdf'
+2026-07-29T17:02:23Z,W4318706897,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2023-nh571.pdf'
+2026-07-29T17:02:23Z,W4386477446,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2023-nplbq.pdf'
+2026-07-29T17:02:23Z,W4399330480,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2023-rn9bj-v2.pdf'
+2026-07-29T17:02:23Z,W4389392841,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2023-rs2xc-v2.pdf'
+2026-07-29T17:02:23Z,W4385341960,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2023-s0xl4.pdf'
+2026-07-29T17:02:23Z,W4322619650,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2023-sjmtl.pdf'
+2026-07-29T17:02:23Z,W4405200252,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2024-5m8m7.pdf'
+2026-07-29T17:02:23Z,W4400830622,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2024-brh89.pdf'
+2026-07-29T17:02:23Z,W4405354672,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2024-d6sj9.pdf'
+2026-07-29T17:02:23Z,W4405455336,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2024-dcpqv-v2.pdf'
+2026-07-29T17:02:23Z,W4392197861,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2024-n74xl.pdf'
+2026-07-29T17:02:23Z,W4401425497,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2024-st9qn.pdf'
+2026-07-29T17:02:23Z,W4399814653,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2024-t5m4d-v2.pdf'
+2026-07-29T17:02:24Z,W4404639014,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2024-t9x0l.pdf'
+2026-07-29T17:02:24Z,W4404083642,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2024-zzjlx.pdf'
+2026-07-29T17:02:24Z,W4412003660,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2025-03dcw.pdf'
+2026-07-29T17:02:24Z,W4412035282,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2025-0xsfn.pdf'
+2026-07-29T17:02:24Z,W4410175770,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2025-46g93-v2.pdf'
+2026-07-29T17:02:24Z,W4413339290,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2025-6m8l9.pdf'
+2026-07-29T17:02:24Z,W4412539087,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2025-dr4jc.pdf'
+2026-07-29T17:02:24Z,W7118143680,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2025-gbcfl-v2.pdf'
+2026-07-29T17:02:24Z,W4407979009,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2025-lwh8m.pdf'
+2026-07-29T17:02:24Z,W4411223459,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2025-q6rfm-v2.pdf'
+2026-07-29T17:02:24Z,W4407995864,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2025-tnhwp.pdf'
+2026-07-29T17:02:24Z,W4410869863,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2025-wzkst.pdf'
+2026-07-29T17:02:24Z,W4412837608,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv-2025-x6c3j.pdf'
+2026-07-29T17:02:24Z,W7126159567,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv.10001752_v1.pdf'
+2026-07-29T17:02:24Z,W3214322595,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv.10059809.v1.pdf'
+2026-07-29T17:02:24Z,W2998328894,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv.11446224.v1.pdf'
+2026-07-29T17:02:24Z,W4241668775,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv.11828256.v2.pdf'
+2026-07-29T17:02:24Z,W3208491084,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv.12385940.v1.pdf'
+2026-07-29T17:02:24Z,W3202474684,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv.12403124.v1.pdf'
+2026-07-29T17:02:24Z,W3207697793,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv.12411125.v2.pdf'
+2026-07-29T17:02:24Z,W3209761366,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv.12457709.v1.pdf'
+2026-07-29T17:02:24Z,W4210273454,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv.12776222.v2.pdf'
+2026-07-29T17:02:24Z,W4235233820,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv.12917930.v1.pdf'
+2026-07-29T17:02:24Z,W3210556915,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv.12941702.v1.pdf'
+2026-07-29T17:02:24Z,W4254812617,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv.13110212.v1.pdf'
+2026-07-29T17:02:24Z,W3199686332,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv.13302098.v1.pdf'
+2026-07-29T17:02:24Z,W3201745751,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv.13317902.v1.pdf'
+2026-07-29T17:02:24Z,W4230486782,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv.13513881.v1.pdf'
+2026-07-29T17:02:24Z,W4238985669,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv.14103740.v2.pdf'
+2026-07-29T17:02:24Z,W4251025491,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv.14254289.v1.pdf'
+2026-07-29T17:02:24Z,W3206171724,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv.14420255.v1.pdf'
+2026-07-29T17:02:24Z,W4243896582,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv.14455983.v1.pdf'
+2026-07-29T17:02:24Z,W3164079141,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv.14524977.v1.pdf'
+2026-07-29T17:02:24Z,W3166527348,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv.14781855.v1.pdf'
+2026-07-29T17:02:24Z,W7134254503,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv.15000689_v1.pdf'
+2026-07-29T17:02:24Z,W7150817998,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv.15001672_v1.pdf'
+2026-07-29T17:02:24Z,W7154588629,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv.15002064_v1.pdf'
+2026-07-29T17:02:24Z,W4255059988,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv.7195370.v1.pdf'
+2026-07-29T17:02:24Z,W3215947735,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'chemrxiv.8965973.v1.pdf'
+2026-07-29T17:02:24Z,W2117385466,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'file1 (1).pdf'
+2026-07-29T17:02:24Z,W2153817402,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'file1 (2).pdf'
+2026-07-29T17:02:24Z,W2012990566,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'file1 (3).pdf'
+2026-07-29T17:02:24Z,W2145664121,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'file1 (5).pdf'
+2026-07-29T17:02:24Z,W1545715709,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'file1 (6).pdf'
+2026-07-29T17:02:24Z,W2509256517,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'file1.pdf'
+2026-07-29T17:02:24Z,W2950391370,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'sannigrahi-grein-2011-on-the-structure-of-s42-and-its-formation-from-2s2-ab-initio-scf-and-casscf-studies.pdf'
+2026-07-29T17:02:24Z,W3211210205,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'v1(3).pdf'
+2026-07-29T17:02:24Z,W4246942366,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'v1.pdf'
+2026-07-29T17:02:24Z,W4223456351,,fetch,fetched,user-supplied PDF (OA fetch had failed); original filename 'v1_4.pdf'
+2026-07-29T17:02:38Z,W2950391370,10.1139/v94-046,text,text_ready,6 pages -> W2950391370.txt
+2026-07-29T17:02:39Z,W4385492755,10.26434/chemrxiv-2023-f7qnk,text,text_ready,27 pages -> W4385492755.txt
+2026-07-29T17:02:40Z,W4405455336,10.26434/chemrxiv-2024-dcpqv-v2,text,text_ready,24 pages -> W4405455336.txt
+2026-07-29T17:02:40Z,W2012990566,10.1021/ja066615z,text,text_ready,8 pages -> W2012990566.txt
+2026-07-29T17:02:41Z,W1545715709,10.1063/1.1710046,text,text_ready,15 pages -> W1545715709.txt
+2026-07-29T17:02:41Z,W2145664121,10.1021/jp012888z,text,text_ready,6 pages -> W2145664121.txt
+2026-07-29T17:02:41Z,W2117385466,10.1021/ic001355m,text,text_ready,4 pages -> W2117385466.txt
+2026-07-29T17:02:41Z,W2153817402,10.1021/ic011076e,text,text_ready,6 pages -> W2153817402.txt
+2026-07-29T17:03:05Z,W2223956948,10.1021/acs.jctc.5b00945,text,text_ready,16 pages -> W2223956948.txt
+2026-07-29T17:03:05Z,W4238927677,10.26434/chemrxiv-2021-3p2sx,text,text_ready,22 pages -> W4238927677.txt
+2026-07-29T17:03:10Z,W4400830622,10.26434/chemrxiv-2024-brh89,text,text_ready,54 pages -> W4400830622.txt
+2026-07-29T17:03:11Z,W4235233820,10.26434/chemrxiv.12917930.v1,text,text_ready,36 pages -> W4235233820.txt
+2026-07-29T17:03:11Z,W7126159567,10.26434/chemrxiv.10001752/v1,text,text_ready,38 pages -> W7126159567.txt
+2026-07-29T17:03:11Z,W4280614611,10.22541/au.165293470.03279945/v1,text,text_ready,6 pages -> W4280614611.txt
+2026-07-29T17:03:12Z,W4255059988,10.26434/chemrxiv.7195370.v1,text,text_ready,19 pages -> W4255059988.txt
+2026-07-29T17:03:13Z,W4251025491,10.26434/chemrxiv.14254289.v1,text,text_ready,9 pages -> W4251025491.txt
+2026-07-29T17:03:14Z,W4311706302,10.26434/chemrxiv-2022-zm9hv-v2,text,text_ready,26 pages -> W4311706302.txt
+2026-07-29T17:03:15Z,W2799887372,10.1039/c8cp00657a,text,text_ready,11 pages -> W2799887372.txt
+2026-07-29T17:03:15Z,W4282963918,10.26434/chemrxiv-2022-9g7fd,text,text_ready,34 pages -> W4282963918.txt
+2026-07-29T17:03:16Z,W2509256517,10.1016/s0301-0104(96)00216-9,text,text_ready,22 pages -> W2509256517.txt
+2026-07-29T17:03:16Z,W2068395071,10.1063/1.470953,text,text_ready,10 pages -> W2068395071.txt
+2026-07-29T17:03:17Z,W4384827415,10.26434/chemrxiv-2023-h7tsp-v3,text,text_ready,31 pages -> W4384827415.txt
+2026-07-29T17:03:18Z,W4318706897,10.26434/chemrxiv-2023-nh571,text,text_ready,27 pages -> W4318706897.txt
+2026-07-29T17:03:19Z,W4280651083,10.26434/chemrxiv-2022-cncp2,text,text_ready,52 pages -> W4280651083.txt
+2026-07-29T17:03:19Z,W4322619650,10.26434/chemrxiv-2023-sjmtl,text,text_ready,22 pages -> W4322619650.txt
+2026-07-29T17:03:20Z,W4319017907,10.26434/chemrxiv-2023-f2fm3,text,text_ready,21 pages -> W4319017907.txt
+2026-07-29T17:03:21Z,W4392197861,10.26434/chemrxiv-2024-n74xl,text,text_ready,7 pages -> W4392197861.txt
+2026-07-29T17:03:24Z,W4241668775,10.26434/chemrxiv.11828256.v2,text,text_ready,68 pages -> W4241668775.txt
+2026-07-29T17:03:24Z,W2998328894,10.26434/chemrxiv.11446224.v1,text,text_ready,6 pages -> W2998328894.txt
+2026-07-29T17:03:25Z,W3210556915,10.26434/chemrxiv.12941702.v1,text,text_ready,25 pages -> W3210556915.txt
+2026-07-29T17:03:25Z,W4230486782,10.26434/chemrxiv.13513881.v1,text,text_ready,26 pages -> W4230486782.txt
+2026-07-29T17:03:28Z,W4328127921,10.26434/chemrxiv-2023-n3lh0,text,text_ready,47 pages -> W4328127921.txt
+2026-07-29T17:03:29Z,W3206171724,10.26434/chemrxiv.14420255.v1,text,text_ready,35 pages -> W3206171724.txt
+2026-07-29T17:03:29Z,W4254812617,10.26434/chemrxiv.13110212.v1,text,text_ready,35 pages -> W4254812617.txt
+2026-07-29T17:03:30Z,W4387502537,10.26434/chemrxiv-2023-70tx9,text,text_ready,22 pages -> W4387502537.txt
+2026-07-29T17:03:30Z,W4321786378,10.26434/chemrxiv-2023-fgr88,text,text_ready,22 pages -> W4321786378.txt
+2026-07-29T17:03:31Z,W4412035282,10.26434/chemrxiv-2025-0xsfn,text,text_ready,15 pages -> W4412035282.txt
+2026-07-29T17:03:31Z,W4249451042,10.26434/chemrxiv-2021-pjvv1-v3,text,text_ready,21 pages -> W4249451042.txt
+2026-07-29T17:03:33Z,W4250745118,10.26434/chemrxiv-2021-xr3x5,text,text_ready,39 pages -> W4250745118.txt
+2026-07-29T17:03:34Z,W4386626210,10.26434/chemrxiv-2023-296cq,text,text_ready,7 pages -> W4386626210.txt
+2026-07-29T17:03:34Z,W4399330480,10.26434/chemrxiv-2023-rn9bj-v2,text,text_ready,40 pages -> W4399330480.txt
+2026-07-29T17:03:35Z,W4407979009,10.26434/chemrxiv-2025-lwh8m,text,text_ready,26 pages -> W4407979009.txt
+2026-07-29T17:03:37Z,W4238985669,10.26434/chemrxiv.14103740.v2,text,text_ready,17 pages -> W4238985669.txt
+2026-07-29T17:03:38Z,W4254674698,10.26434/chemrxiv-2021-h3qk7,text,text_ready,13 pages -> W4254674698.txt
+2026-07-29T17:03:38Z,W4387703562,10.26434/chemrxiv-2023-m5s0w-v2,text,text_ready,49 pages -> W4387703562.txt
+2026-07-29T17:03:39Z,W4413339290,10.26434/chemrxiv-2025-6m8l9,text,text_ready,23 pages -> W4413339290.txt
+2026-07-29T17:03:39Z,W4307256765,10.26434/chemrxiv-2022-z1trp,text,text_ready,33 pages -> W4307256765.txt
+2026-07-29T17:03:40Z,W4309834098,10.26434/chemrxiv-2022-w3x91-v2,text,text_ready,15 pages -> W4309834098.txt
+2026-07-29T17:03:41Z,W4389392841,10.26434/chemrxiv-2023-rs2xc-v2,text,text_ready,25 pages -> W4389392841.txt
+2026-07-29T17:03:41Z,W4410869863,10.26434/chemrxiv-2025-wzkst,text,text_ready,37 pages -> W4410869863.txt
+2026-07-29T17:03:42Z,W4413335469,10.1016/j.heliyon.2025.e43697,text,text_ready,9 pages -> W4413335469.txt
+2026-07-29T17:03:42Z,W4223456351,10.22541/au.164964963.37769514/v1,text,text_ready,1 pages -> W4223456351.txt
+2026-07-29T17:03:43Z,W4224305469,10.26434/chemrxiv-2022-2sqgf,text,text_ready,19 pages -> W4224305469.txt
+2026-07-29T17:03:44Z,W4283031636,10.26434/chemrxiv-2022-kc0k3,text,text_ready,30 pages -> W4283031636.txt
+2026-07-29T17:03:45Z,W4307527009,10.26434/chemrxiv-2022-q86dm,text,text_ready,14 pages -> W4307527009.txt
+2026-07-29T17:03:46Z,W4309839650,10.26434/chemrxiv-2022-mk6fs,text,text_ready,40 pages -> W4309839650.txt
+2026-07-29T17:03:48Z,W4386477446,10.26434/chemrxiv-2023-nplbq,text,text_ready,26 pages -> W4386477446.txt
+2026-07-29T17:03:49Z,W4398132768,10.26434/chemrxiv-2023-9z6bg-v2,text,text_ready,28 pages -> W4398132768.txt
+2026-07-29T17:03:50Z,W4401425497,10.26434/chemrxiv-2024-st9qn,text,text_ready,13 pages -> W4401425497.txt
+2026-07-29T17:03:58Z,W4412003660,10.26434/chemrxiv-2025-03dcw,text,text_ready,12 pages -> W4412003660.txt
+2026-07-29T17:03:58Z,W3177080785,10.1016/j.chempr.2021.06.015,text,text_ready,3 pages -> W3177080785.txt
+2026-07-29T17:03:59Z,W4214737454,10.26434/chemrxiv-2022-f7tc8,text,text_ready,14 pages -> W4214737454.txt
+2026-07-29T17:03:59Z,W3209761366,10.26434/chemrxiv.12457709.v1,text,text_ready,31 pages -> W3209761366.txt
+2026-07-29T17:04:00Z,W4280618551,10.26434/chemrxiv-2022-59f1v,text,text_ready,23 pages -> W4280618551.txt
+2026-07-29T17:04:00Z,W4297425336,10.26434/chemrxiv-2022-8mc2h-v2,text,text_ready,5 pages -> W4297425336.txt
+2026-07-29T17:04:00Z,W4412837608,10.26434/chemrxiv-2025-x6c3j,text,text_ready,32 pages -> W4412837608.txt
+2026-07-29T17:04:02Z,W3214322595,10.26434/chemrxiv.10059809.v1,text,text_ready,13 pages -> W3214322595.txt
+2026-07-29T17:04:04Z,W4293567642,10.26434/chemrxiv-2022-8r90r-v3,text,text_ready,52 pages -> W4293567642.txt
+2026-07-29T17:04:05Z,W3201745751,10.26434/chemrxiv.13317902.v1,text,text_ready,18 pages -> W3201745751.txt
+2026-07-29T17:04:06Z,W3207697793,10.26434/chemrxiv.12411125.v2,text,text_ready,28 pages -> W3207697793.txt
+2026-07-29T17:04:07Z,W4328123620,10.26434/chemrxiv-2023-8l8nw,text,text_ready,27 pages -> W4328123620.txt
+2026-07-29T17:04:07Z,W7118143680,10.26434/chemrxiv-2025-gbcfl-v2,text,text_ready,15 pages -> W7118143680.txt
+2026-07-29T17:04:10Z,W2807141029,10.13097/archive-ouverte/unige:104838,text,text_ready,263 pages -> W2807141029.txt
+2026-07-29T17:04:11Z,W3215947735,10.26434/chemrxiv.8965973.v1,text,text_ready,18 pages -> W3215947735.txt
+2026-07-29T17:04:11Z,W4281760057,10.26434/chemrxiv-2022-dnstl,text,text_ready,18 pages -> W4281760057.txt
+2026-07-29T17:04:12Z,W4385341960,10.26434/chemrxiv-2023-s0xl4,text,text_ready,41 pages -> W4385341960.txt
+2026-07-29T17:04:13Z,W7134254503,10.26434/chemrxiv.15000689/v1,text,text_ready,28 pages -> W7134254503.txt
+2026-07-29T17:04:14Z,W3164079141,10.26434/chemrxiv.14524977.v1,text,text_ready,14 pages -> W3164079141.txt
+2026-07-29T17:04:14Z,W3202474684,10.26434/chemrxiv.12403124.v1,text,text_ready,6 pages -> W3202474684.txt
+2026-07-29T17:04:15Z,W3211210205,10.22541/au.163487764.48232499/v1,text,text_ready,5 pages -> W3211210205.txt
+2026-07-29T17:04:15Z,W4246942366,10.22541/au.162028527.72939370/v1,text,text_ready,1 pages -> W4246942366.txt
+2026-07-29T17:04:15Z,W4401922699,10.22541/au.172474666.62099599/v1,text,text_ready,1 pages -> W4401922699.txt
+2026-07-29T17:04:15Z,W4404083642,10.26434/chemrxiv-2024-zzjlx,text,text_ready,31 pages -> W4404083642.txt
+2026-07-29T17:04:16Z,W4405354672,10.26434/chemrxiv-2024-d6sj9,text,text_ready,32 pages -> W4405354672.txt
+2026-07-29T17:04:16Z,W3208491084,10.26434/chemrxiv.12385940.v1,text,text_ready,19 pages -> W3208491084.txt
+2026-07-29T17:04:17Z,W4307763701,10.26434/chemrxiv-2022-n4fbb,text,text_ready,17 pages -> W4307763701.txt
+2026-07-29T17:04:18Z,W4310250818,10.26434/chemrxiv-2022-wgdf7,text,text_ready,33 pages -> W4310250818.txt
+2026-07-29T17:04:18Z,W4323315980,10.26434/chemrxiv-2022-c6tz8-v2,text,text_ready,38 pages -> W4323315980.txt
+2026-07-29T17:04:19Z,W4366771401,10.26434/chemrxiv-2023-clcrj,text,text_ready,26 pages -> W4366771401.txt
+2026-07-29T17:04:20Z,W4404639014,10.26434/chemrxiv-2024-t9x0l,text,text_ready,31 pages -> W4404639014.txt
+2026-07-29T17:04:21Z,W7150817998,10.26434/chemrxiv.15001672/v1,text,text_ready,24 pages -> W7150817998.txt
+2026-07-29T17:04:22Z,W4366219499,10.26434/chemrxiv-2023-fcl8s-v2,text,text_ready,36 pages -> W4366219499.txt
+2026-07-29T17:04:24Z,W4405200252,10.26434/chemrxiv-2024-5m8m7,text,text_ready,30 pages -> W4405200252.txt
+2026-07-29T17:04:25Z,W4407995864,10.26434/chemrxiv-2025-tnhwp,text,text_ready,50 pages -> W4407995864.txt
+2026-07-29T17:04:26Z,W7154588629,10.26434/chemrxiv.15002064/v1,text,text_ready,26 pages -> W7154588629.txt
+2026-07-29T17:04:28Z,W3166527348,10.26434/chemrxiv.14781855.v1,text,text_ready,15 pages -> W3166527348.txt
+2026-07-29T17:04:29Z,W3199686332,10.26434/chemrxiv.13302098.v1,text,text_ready,42 pages -> W3199686332.txt
+2026-07-29T17:04:30Z,W4210273454,10.26434/chemrxiv.12776222.v2,text,text_ready,34 pages -> W4210273454.txt
+2026-07-29T17:04:32Z,W4410175770,10.26434/chemrxiv-2025-46g93-v2,text,text_ready,17 pages -> W4410175770.txt
+2026-07-29T17:04:33Z,W4243896582,10.26434/chemrxiv.14455983.v1,text,text_ready,23 pages -> W4243896582.txt
+2026-07-29T17:04:34Z,W4412539087,10.26434/chemrxiv-2025-dr4jc,text,text_ready,42 pages -> W4412539087.txt
+2026-07-29T17:04:34Z,W3121186489,10.22541/au.160331958.81029418/v1,text,text_ready,4 pages -> W3121186489.txt
+2026-07-29T17:04:35Z,W4391406507,10.1016/j.matt.2024.01.002,text,text_ready,27 pages -> W4391406507.txt
+2026-07-29T17:04:35Z,W4411223459,10.26434/chemrxiv-2025-q6rfm-v2,text,text_ready,30 pages -> W4411223459.txt
+2026-07-29T17:04:36Z,W4240468233,10.26434/chemrxiv-2021-xtlzj-v2,text,text_ready,24 pages -> W4240468233.txt
+2026-07-29T17:04:36Z,W4399814653,10.26434/chemrxiv-2024-t5m4d-v2,text,text_ready,23 pages -> W4399814653.txt
+2026-07-29T17:06:23Z,W2223956948,10.1021/acs.jctc.5b00945,mark,text_unreadable,"HAL deposit: 16-page PDF but only the 2 cover/citation pages carry a text layer; the article body is image-only. No numbers readable, so not guessed at."
+2026-07-29T17:06:23Z,W4401922699,10.22541/au.172474666.62099599/v1,mark,not_usable,Authorea stub: only the abstract is in the PDF; the manuscript is a 'hosted file' (.docx) not included. Abstract mentions CASSCF/CASPT2 on enterobactin-Fe(III) but states no active space. No active space = not usable.
+2026-07-29T17:06:24Z,W4246942366,10.22541/au.162028527.72939370/v1,mark,not_usable,"Authorea stub, abstract only (manuscript is a hosted .pdf/.tex not included). Also a method paper: sf-X2C-so-DKH1 SOC implementation benchmarked on the AuO diatomic; no active space stated in the available text."
+2026-07-29T17:06:24Z,W3211210205,10.22541/au.163487764.48232499/v1,mark,not_usable,"Authorea stub, abstract only (manuscript is a hosted file not included). CASSCF/NEVPT2 on 8-hydroxyquinoline antennas in Ln complexes, but no active space anywhere in the available text."
+2026-07-29T17:06:24Z,W4223456351,10.22541/au.164964963.37769514/v1,mark,not_usable,"Authorea stub, abstract only. Also out of scope: Hooke atoms are a model system (electrons in a quadratic confining potential), not a chemical compound; Full-CI/CASSCF on a model Hamiltonian is excluded by policy."
+2026-07-29T17:07:06Z,W4280614611-a,10.22541/au.165293470.03279945/v1,add-row,appended,row added via add-row
+2026-07-29T17:07:19Z,W4280614611,10.22541/au.165293470.03279945/v1,mark,extracted_partial,"Authorea abstract-only deposit, but the abstract itself states the compound (Na13+), the active space CASSCF(12,12), the method (CASPT2), the basis (cc-pVTZ*), spin states S=0,1,2 with relative energies, and the vertical IE. One partial row; most schema fields unstated because the manuscript body is a hosted file not in the PDF."
+2026-07-29T17:08:31Z,W2117385466-a,10.1021/ic001355m,add-row,appended,row added via add-row
+2026-07-29T17:08:31Z,W2117385466-b,10.1021/ic001355m,add-row,appended,row added via add-row
+2026-07-29T17:08:31Z,W2117385466-c,10.1021/ic001355m,add-row,appended,row added via add-row
+2026-07-29T17:08:32Z,W2117385466-d,10.1021/ic001355m,add-row,appended,row added via add-row
+2026-07-29T17:08:39Z,W2117385466,10.1021/ic001355m,mark,extracted,"CASSCF/CASPT2 study of [UO2(CO3)3]4- (U(VI), 12/12 active space) and [UO2(CO3)3]5- (U(V), 13/13), plus the bare UO2 2+ / UO2+ cations as controls. Active spaces, basis sets, ECPs, software (MOLCAS 5) and optimized bond distances all explicitly stated; SOC explicitly not included. 4 rows."
+2026-07-29T17:10:08Z,W2153817402-a,10.1021/ic011076e,add-row,appended,row added via add-row
+2026-07-29T17:10:08Z,W2153817402-b,10.1021/ic011076e,add-row,appended,row added via add-row
+2026-07-29T17:10:08Z,W2153817402-c,10.1021/ic011076e,add-row,appended,row added via add-row
+2026-07-29T17:10:08Z,W2153817402-d,10.1021/ic011076e,add-row,appended,row added via add-row
+2026-07-29T17:10:09Z,W2153817402-e,10.1021/ic011076e,add-row,appended,row added via add-row
+2026-07-29T17:10:09Z,W2153817402-f,10.1021/ic011076e,add-row,appended,row added via add-row
+2026-07-29T17:10:09Z,W2153817402-g,10.1021/ic011076e,add-row,appended,row added via add-row
+2026-07-29T17:10:09Z,W2153817402-h,10.1021/ic011076e,add-row,appended,row added via add-row
+2026-07-29T17:10:19Z,W2153817402,10.1021/ic011076e,mark,extracted,"CASSCF/CASPT2 study of neptunyl carbonate complexes in water. Eight distinct species with explicit active spaces: mono- (10/12), bis- (10/12, also 2/7) and tris-carbonate at Np(V) (10/12 with Na+ counterions), Np(VI) (13/13) and Np(VII) (12/12), plus the bare NpO2+ (14/14), NpO2 2+ (13/13) and NpO2 3+ (12/12) cations. The paper gives an unusually explicit active-space buildup protocol including the occupation-number-based reduction of (14,14) to (10,12). 8 rows."
+2026-07-29T17:11:26Z,W2145664121-a,10.1021/jp012888z,add-row,appended,row added via add-row
+2026-07-29T17:11:26Z,W2145664121-b,10.1021/jp012888z,add-row,appended,row added via add-row
+2026-07-29T17:11:26Z,W2145664121-c,10.1021/jp012888z,add-row,appended,row added via add-row
+2026-07-29T17:11:26Z,W2145664121,10.1021/jp012888z,mark,extracted,"All-electron DK CASSCF/CASPT2 plus CASSI spin-orbit study of UO2, UO2+ and UO2 2+. Active spaces fully stated ((2,8) and (14,14) for UO2, (1,7) and (13,13) for UO2+, (12,12) for UO2 2+), with an explicit buildup rationale and state-averaging counts. Ground state assigned as (5f)(7s) 3Phi_u Omega=2, r=1.77 A, with vibrational frequencies matched to neon-matrix experiment. 3 rows."
+2026-07-29T17:13:15Z,W2012990566-a,10.1021/ja066615z,add-row,appended,row added via add-row
+2026-07-29T17:13:15Z,W2012990566-b,10.1021/ja066615z,add-row,appended,row added via add-row
+2026-07-29T17:13:15Z,W2012990566-c,10.1021/ja066615z,add-row,appended,row added via add-row
+2026-07-29T17:13:15Z,W2012990566-d,10.1021/ja066615z,add-row,appended,row added via add-row
+2026-07-29T17:13:15Z,W2012990566,10.1021/ja066615z,mark,extracted,"CASSCF/CASPT2 + spin-orbit study of the diactinides Ac2, Th2, Pa2 and U2. Each has an explicitly reasoned active space — (6,18) for Ac2 after (6,12) gave discontinuous curves, (8,12) for Th2, (10,16) for Pa2, (6,20) for U2 with the strong bonding/antibonding pairs frozen out — plus effective bond orders, full spin-free and spin-orbit level tables and bond energies. 4 rows."
+2026-07-29T17:14:19Z,W2068395071-a,10.1063/1.470953,add-row,appended,row added via add-row
+2026-07-29T17:14:19Z,W2068395071,10.1063/1.470953,mark,extracted,"CASSCF(10,10) study of the H2SiN+ ion with the full valence active space listed orbital by orbital (7400 CSFs, 3A2), plus FOCI/SOCI single points. Geometry, rotational constants, scaled IR frequencies, dipole and electronic spectrum all reported. Metal-free main-group species, in scope per the 2026-07-14 user decision. 1 row."
+2026-07-29T17:15:48Z,W2509256517-a,10.1016/s0301-0104(96)00216-9,add-row,appended,row added via add-row
+2026-07-29T17:15:48Z,W2509256517-b,10.1016/s0301-0104(96)00216-9,add-row,appended,row added via add-row
+2026-07-29T17:15:48Z,W2509256517-c,10.1016/s0301-0104(96)00216-9,add-row,appended,row added via add-row
+2026-07-29T17:15:49Z,W2509256517-d,10.1016/s0301-0104(96)00216-9,add-row,appended,row added via add-row
+2026-07-29T17:15:49Z,W2509256517-e,10.1016/s0301-0104(96)00216-9,add-row,appended,row added via add-row
+2026-07-29T17:15:49Z,W2509256517,10.1016/s0301-0104(96)00216-9,mark,extracted,"CASSCF study of five (H,N,Si) species with the active space written out orbital by orbital for each: HNSi (10,9), HSiN (10,9), HSiNH2 (12,11), H2SiNH (12,11) and HSiNH+ (10,10) in singlet and triplet. CSF counts, reference weights, geometries, dipoles and scaled rotational constants all reported. OCR of a scanned page, so only unambiguous numbers were transcribed. 5 rows."
+2026-07-29T17:16:15Z,W2950391370,10.1139/v94-046,mark,extracted_partial,"Real compound (S4 2+) with a stated active space, but the CASSCF is a deliberately minimal (2,2) two-configuration treatment applied only near the transition state on a 3-21G* basis, and the authors themselves say higher-level MCSCF/MRCI is needed for reliable numbers. Row is useful for the barrier-lowering result but most electronic-structure fields are absent. 1 row."
+2026-07-29T17:16:44Z,W2950391370-a,10.1139/v94-046,add-row,appended,row added via add-row
+2026-07-29T17:17:59Z,W1545715709-a,10.1063/1.1710046,add-row,appended,row added via add-row
+2026-07-29T17:18:00Z,W1545715709,10.1063/1.1710046,mark,extracted,"CASSCF/CASPT2 [6,5] and [12,10] (3d double-shell) study of [Fe(H2O)6]2+ high-spin 5T2g vs low-spin 1A1g, used as the ab initio reference for a DFT functional benchmark. Active spaces, buildup rationale, frozen-orbital count, software, basis sets, optimized geometries and the full LS-HS energy table are all stated, including the atomic-asymptote shift procedure. 1 row."
+2026-07-29T17:19:29Z,W2807141029-a,10.13097/archive-ouverte/unige:104838,add-row,appended,row added via add-row
+2026-07-29T17:19:29Z,W2807141029,10.13097/archive-ouverte/unige:104838,mark,extracted,"1993 Geneva doctoral thesis; Chapter I is a full-valence CASSCF(13,10) plus FOCI/SOCI study of the H2NO aminoxyl radical with an unusually explicit active-space buildup (internal-set partitions [5], [4,9], [2,2,9] and finally [13]) and the conclusion that the aminoxyl group is an irreducible 9-electron unit. Remaining chapters are MM/MD on carbohydrates and fullerenes, out of scope. Heavy OCR damage, so only unambiguous numbers transcribed. 1 row."
+2026-07-29T17:20:34Z,W2998328894,10.26434/chemrxiv.11446224.v1,si-fetch,0 files,none found
+2026-07-29T17:21:32Z,W2998328894-a,10.26434/chemrxiv.11446224.v1,add-row,appended,row added via add-row
+2026-07-29T17:21:32Z,W2799887372-a,10.1039/c8cp00657a,add-row,appended,row added via add-row
+2026-07-29T17:21:32Z,W2998328894,10.26434/chemrxiv.11446224.v1,mark,extracted_partial,"Full-valence CASSCF/RASSCF/MRCI study of C2 high-spin sigma states. Real compound and a determinate full-valence (8,8) space, plus an unusually clear RASSCF protocol (pi occupations pinned to remove pi bonding). But the preprint has no computational-details section: no basis set, no software, no numerical active space anywhere, and an SI fetch found nothing. 1 partial row."
+2026-07-29T17:21:33Z,W2799887372,10.1039/c8cp00657a,mark,extracted,"CASSCF/CASPT2 and XMCQDPT2 study of free-base porphine B->Q internal conversion. Three active spaces stated — (4,4) Gouterman, (8,6) extended Gouterman, (10,10) for XMCQDPT2 — with software (MOLCAS 8.0, Firefly), bases (6-31G*, ANO-RCC-VDZ), a full vertical-excitation table against experiment and the conical-intersection mechanism. 1 row."
+2026-07-29T17:22:22Z,W3202474684,10.26434/chemrxiv.12403124.v1,si-fetch,0 files,none found
+2026-07-29T17:22:36Z,W4392197861,10.26434/chemrxiv-2024-n74xl,si-fetch,0 files,none found
+2026-07-29T17:23:38Z,W4254674698-a,10.26434/chemrxiv.14524977.v1,add-row,appended,row added via add-row
+2026-07-29T17:23:38Z,W4254674698-b,10.26434/chemrxiv.14524977.v1,add-row,appended,row added via add-row
+2026-07-29T17:23:39Z,W4254674698-c,10.26434/chemrxiv.14524977.v1,add-row,appended,row added via add-row
+2026-07-29T17:23:39Z,W4254674698,10.26434/chemrxiv-2021-h3qk7,mark,extracted,"CASSCF/RASSI-SO/SINGLE_ANISO study of three air-stable pseudo-D5h Dy(III) SIMs differing only in halide counter-anion. Explicit CAS(9,7), 21 sextet roots from 6H15/2, MOLCAS 8.2, per-element ANO-RCC contractions, DKH, plus g tensors, Kramers-doublet spans and Ucal for each complex. 3 rows."
+2026-07-29T17:23:39Z,W3202474684,10.26434/chemrxiv.12403124.v1,mark,not_usable,"ChemRxiv preprint on oriented-external-electric-field tuning of Ln(III) SIMs. Genuinely a CASSCF/RASSI-SO/SINGLE_ANISO study of real complexes ([Dy(Py)5(OtBu)2]+, [Er{N(SiMe3)2}3Cl]-, [Dy(CpMe3)Cl]) with Ucal values reported, but the deposited PDF has no computational-details section — it defers to an ESI that is not in the file, and a figshare/PMC SI fetch returned nothing. No active space, basis set or software version is stated anywhere in the available text."
+2026-07-29T17:23:39Z,W4392197861,10.26434/chemrxiv-2024-n74xl,mark,not_usable,"ChemRxiv preprint on MOF encapsulation of a dysprosocenium SIM. CASSCF/RASSI-SO/SINGLE_ANISO in MOLCAS 8.2 with Ucal values (1390.9 and 1399.6 cm-1) reported, but the active space is never stated: the text points to 'see computational details' and that section is in an ESI not included in the deposited PDF; a figshare/PMC SI fetch returned nothing."
+2026-07-29T17:24:37Z,W3166527348,10.26434/chemrxiv.14781855.v1,si-fetch,0 files,none found
+2026-07-29T17:25:17Z,W3164079141-a,10.26434/chemrxiv.14524977.v1,add-row,appended,row added via add-row
+2026-07-29T17:25:18Z,W3164079141-b,10.26434/chemrxiv.14524977.v1,add-row,appended,row added via add-row
+2026-07-29T17:25:18Z,W3164079141-c,10.26434/chemrxiv.14524977.v1,add-row,appended,row added via add-row
+2026-07-29T17:25:18Z,W3164079141-d,10.26434/chemrxiv.14524977.v1,add-row,appended,row added via add-row
+2026-07-29T17:26:16Z,W3164079141,10.26434/chemrxiv.14524977.v1,mark,extracted,"CASSCF/NEVPT2 study of the CuCN + O2 mechanism for C-N cleavage. Explicit CAS(19,11) for intermediates 7a, 8a and 9a with the orbital composition spelled out (five Cu 3d, O2 pi/pi*, O2 sigma/sigma*), and a state-averaged CAS(18,11) at MECP-1b with its own composition. ORCA 4.0.1, def2-TZVP, ZORA, Pipek-Mezey initial orbitals. 9a and MECP-1b are genuinely multireference; 7a and 8a are not. 4 rows."
+2026-07-29T17:26:16Z,W3166527348,10.26434/chemrxiv.14781855.v1,mark,not_usable,"[Co(TPP)]-catalyzed carbene transfer study. NEVPT2-CASSCF calculations are reported on the IT and IE-T carbene-radical intermediates and their conclusions are stated (doublet ground state, no significant multireference character), but every computational parameter is deferred to the Supporting Information: the active space, basis and program for the multireference part appear nowhere in the deposited PDF, and a figshare/PMC SI fetch returned nothing. The DFT parameters that are given (BP86/def2-TZVP, B3LYP/ZORA-def2-TZVPP) do not describe the CASSCF."
+2026-07-29T17:27:43Z,W4238985669-a,10.26434/chemrxiv.14103740.v2,add-row,appended,row added via add-row
+2026-07-29T17:27:43Z,W4238985669-b,10.26434/chemrxiv.14103740.v2,add-row,appended,row added via add-row
+2026-07-29T17:27:44Z,W4238985669-c,10.26434/chemrxiv.14103740.v2,add-row,appended,row added via add-row
+2026-07-29T17:27:44Z,W4238985669-d,10.26434/chemrxiv.14103740.v2,add-row,appended,row added via add-row
+2026-07-29T17:27:44Z,W4238985669-e,10.26434/chemrxiv.14103740.v2,add-row,appended,row added via add-row
+2026-07-29T17:27:44Z,W4238985669-f,10.26434/chemrxiv.14103740.v2,add-row,appended,row added via add-row
+2026-07-29T17:27:44Z,W4238985669-g,10.26434/chemrxiv.14103740.v2,add-row,appended,row added via add-row
+2026-07-29T17:27:45Z,W4238985669,10.26434/chemrxiv.14103740.v2,mark,extracted,"CASSCF/NEVPT2 + QDPT study of seven Yb(III) solvates. Explicit CAS(13,7) over the 4f manifold, ROKS starting orbitals, ORCA 4.2, SARC2-DKH-QZVP/DKH-def2-TZVP, DKH2, RI-JK, with Yb-O distances for every solvate and crystal-field splittings for the two aqua ions in the main text. Per-solvate microstate tables are in an SI not included in the PDF. 7 rows."
+2026-07-29T17:28:38Z,W4251025491-a,10.26434/chemrxiv.14254289.v1,add-row,appended,row added via add-row
+2026-07-29T17:28:38Z,W4251025491-b,10.26434/chemrxiv.14254289.v1,add-row,appended,row added via add-row
+2026-07-29T17:28:38Z,W4251025491-c,10.26434/chemrxiv.14254289.v1,add-row,appended,row added via add-row
+2026-07-29T17:28:39Z,W4251025491,10.26434/chemrxiv.14254289.v1,mark,extracted,"NEVPT2-CASSCF study of three Co-porphyrin radicals: carbene CAS(11,10), mono-nitrene CAS(13,10), bis-nitrene CAS(13,10). Active-space composition, main-contributor weights, spin densities, bond orders and doublet/quartet gaps all stated, with the bis-nitrene coming out quartet-ground unlike the other two. 3 rows."
+2026-07-29T17:29:38Z,W2807141029,10.13097/archive-ouverte/unige:104838,mark,extracted_partial,"Downgraded from extracted: the thesis states 13 valence electrons and 'the full valence space' but never prints an orbital count, so active_space_norb is left empty per the qualitative-active-space rule. Everything else (internal-set buildup, CSF counts, geometries, basis, software) is explicit."
+2026-07-29T18:23:50Z,W2169333028,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename '10.1351_pac-con-08-08-30.pdf'"
+2026-07-29T18:23:50Z,W2109144641,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename '10.1351_pac-con-08-08-31.pdf'"
+2026-07-29T18:23:50Z,W2151416462,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename '10.1351_pac-con-09-10-29.pdf'"
+2026-07-29T18:23:50Z,W2160164236,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename '10.1351_pac-con-12-06-03.pdf'"
+2026-07-29T18:23:50Z,W2427427115,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename '10.1515_ntrev-2015-0006.pdf'"
+2026-07-29T18:23:50Z,W2081548852,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename '10.2478_s11534-012-0137-5.pdf'"
+2026-07-29T18:23:50Z,W2058034569,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename '10.2478_s11534-013-0174-8.pdf'"
+2026-07-29T18:23:50Z,W7161785735,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'Advanced Science - 2026 - Thangaraj - Quantifying Magnetic Anisotropy of Ferroelectric Fe II  Square‐Pyramidal Systems.pdf'"
+2026-07-29T18:23:50Z,W7165544852,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'Advanced Science - 2026 - Yin - Phase‐Resolved Dual Control of Phenol Photodissociation at the Air Water Interface From.pdf'"
+2026-07-29T18:23:50Z,W4324311281,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'Chemistry A European J - 2023 - Bandemehr - Exchange Interactions and Magnetic Properties of a Molecular Mn18‐Ring Complex.pdf'"
+2026-07-29T18:23:50Z,W2067247328,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'Chirality - 2001 - Quack - Molecular chirality and the fundamental symmetries of physics  Influence of parity violation on.pdf'"
+2026-07-29T18:23:50Z,W2156917670,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'Int J of Quantum Chemistry - 2010 - De Oliveira‐Filho - A CASSCF MRCI study of the low‐lying electronic states of the BeS.pdf'"
+2026-07-29T18:23:50Z,W2031050429,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'Int J of Quantum Chemistry - 2010 - López‐Castillo - Solvatochromic shift of the        transition in all‐trans  cis‐13 .pdf'"
+2026-07-29T18:23:50Z,W2108910610,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'Int J of Quantum Chemistry - 2011 - Borin - Electronic structure and chemical bonding in the ground and low‐lying.pdf'"
+2026-07-29T18:23:50Z,W2036480669,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'Int J of Quantum Chemistry - 2011 - Borin - Electronic structure of the ground and low‐lying electronic states of MoB and.pdf'"
+2026-07-29T18:23:50Z,W2011708192,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'Int J of Quantum Chemistry - 2015 - Scarborough - Active space and basis set effects in CASPT2 models of the 1.pdf'"
+2026-07-29T18:23:50Z,W3109966170,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'Int J of Quantum Chemistry - 2020 - Helmich‐Paris - Simulating X‐ray absorption spectra with complete active space.pdf'"
+2026-07-29T18:23:50Z,W4306173415,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'Int J of Quantum Chemistry - 2022 - Telleria‐Allika - Aufbau principle and singlet‐triplet gap in spherical Hooke atoms.pdf'"
+2026-07-29T18:23:50Z,W3008283021,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'Vietnam Journal of Chemistry - 2018 - Thao - An investigation on the electronic structures of diatomic VSi0     clusters by.pdf'"
+2026-07-29T18:23:50Z,W7165635350,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'acsomega.5c10105.pdf'"
+2026-07-29T18:23:50Z,W4400837826,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'chemrxiv-2024-363tw.pdf'"
+2026-07-29T18:23:50Z,W4415202067,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'chemrxiv-2025-h2pbh.pdf'"
+2026-07-29T18:23:50Z,W4414640189,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'chemrxiv-2025-n2c9l.pdf'"
+2026-07-29T18:23:50Z,W7116659154,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'chemrxiv-2025-nd968.pdf'"
+2026-07-29T18:23:50Z,W4234379754,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'chemrxiv.11369841.v1.pdf'"
+2026-07-29T18:23:50Z,W4234730062,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'chemrxiv.11472627.v1.pdf'"
+2026-07-29T18:23:50Z,W3204531904,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'chemrxiv.12605333.v1.pdf'"
+2026-07-29T18:23:50Z,W7131708463,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'chemrxiv.15000425_v1.pdf'"
+2026-07-29T18:23:50Z,W7164943813,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'chemrxiv.15000921_v2.pdf'"
+2026-07-29T18:23:51Z,W2315121928,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'ct5003175.pdf'"
+2026-07-29T18:23:51Z,W2607948809,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'ct6b01149.pdf'"
+2026-07-29T18:23:51Z,W2414402924,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'ja5b05739.pdf'"
+2026-07-29T18:23:51Z,W2784584363,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'ja7b10714.pdf'"
+2026-07-29T18:23:51Z,W2768547812,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'ja7b11535.pdf'"
+2026-07-29T18:23:51Z,W1970840181,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'jp045614v.pdf'"
+2026-07-29T18:23:51Z,W2113553389,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'jp111311k.pdf'"
+2026-07-29T18:23:51Z,W2319127394,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'jp200297z.pdf'"
+2026-07-29T18:23:51Z,W2314803754,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'jp204497p.pdf'"
+2026-07-29T18:23:51Z,W1974663363,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'jp300583h.pdf'"
+2026-07-29T18:23:51Z,W2327772152,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'jp3091599.pdf'"
+2026-07-29T18:23:51Z,W2314655278,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'jp403508v.pdf'"
+2026-07-29T18:23:51Z,W4405984784,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'jp4c06912.pdf'"
+2026-07-29T18:27:57Z,W2007181386,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'ja00050a038.pdf'"
+2026-07-29T18:27:57Z,W2547503467,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'ja6b08661.pdf'"
+2026-07-29T18:27:57Z,W2164249100,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'jp960013s.pdf'"
+2026-07-29T18:27:57Z,W7162552591,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'manuscript.pdf'"
+2026-07-29T18:27:57Z,W4312645589,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'ssrn-4264280.pdf'"
+2026-07-29T18:27:57Z,W4410156535,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'ssrn-5245276.pdf'"
+2026-07-29T18:27:57Z,W4412530522,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'ssrn-5360362.pdf'"
+2026-07-29T18:27:57Z,W4413331618,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'ssrn-5396713.pdf'"
+2026-07-29T18:27:57Z,W4416322572,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'ssrn-5766207.pdf'"
+2026-07-29T18:27:57Z,W4416465426,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'ssrn-5781607.pdf'"
+2026-07-29T18:27:57Z,W7148746393,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'ssrn-6514832.pdf'"
+2026-07-29T18:27:57Z,W7160269241,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'ssrn-6712643.pdf'"
+2026-07-29T18:27:58Z,W7162080781,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'ssrn-6816223.pdf'"
+2026-07-29T18:27:58Z,W7167629880,,fetch,fetched,"user-supplied PDF, batch 2 (OA fetch had failed); original filename 'ssrn-7073622.pdf'"
+2026-07-29T18:28:05Z,W2607948809,10.1021/acs.jctc.6b01149,text,text_ready,12 pages -> W2607948809.txt
+2026-07-29T18:28:05Z,W2156917670,10.1002/qua.22779,text,text_ready,7 pages -> W2156917670.txt
+2026-07-29T18:28:06Z,W3008283021,10.1002/vjch.201800034,text,text_ready,5 pages -> W3008283021.txt
+2026-07-29T18:28:06Z,W2151416462,10.1351/pac-con-09-10-29,text,text_ready,11 pages -> W2151416462.txt
+2026-07-29T18:28:06Z,W3109966170,10.1002/qua.26559,text,text_ready,20 pages -> W3109966170.txt
+2026-07-29T18:28:07Z,W2768547812,10.1021/jacs.7b11535,text,text_ready,11 pages -> W2768547812.txt
+2026-07-29T18:28:07Z,W2784584363,10.1021/jacs.7b10714,text,text_ready,10 pages -> W2784584363.txt
+2026-07-29T18:28:08Z,W1970840181,10.1021/jp045614v,text,text_ready,6 pages -> W1970840181.txt
+2026-07-29T18:28:08Z,W2547503467,10.1021/jacs.6b08661,text,text_ready,12 pages -> W2547503467.txt
+2026-07-29T18:28:09Z,W2164249100,10.1021/jp960013s,text,text_ready,11 pages -> W2164249100.txt
+2026-07-29T18:28:09Z,W2067247328,10.1002/chir.10025,text,text_ready,9 pages -> W2067247328.txt
+2026-07-29T18:28:10Z,W2113553389,10.1021/jp111311k,text,text_ready,16 pages -> W2113553389.txt
+2026-07-29T18:28:10Z,W1974663363,10.1021/jp300583h,text,text_ready,9 pages -> W1974663363.txt
+2026-07-29T18:28:11Z,W7162552591,10.13140/rg.2.2.30611.64807,text,text_ready,37 pages -> W7162552591.txt
+2026-07-29T18:28:11Z,W2319127394,10.1021/jp200297z,text,text_ready,9 pages -> W2319127394.txt
+2026-07-29T18:28:12Z,W2169333028,10.1351/pac-con-08-08-30,text,text_ready,12 pages -> W2169333028.txt
+2026-07-29T18:28:12Z,W2315121928,10.1021/ct5003175,text,text_ready,10 pages -> W2315121928.txt
+2026-07-29T18:28:12Z,W2314655278,10.1021/jp403508v,text,text_ready,8 pages -> W2314655278.txt
+2026-07-29T18:28:13Z,W2314803754,10.1021/jp204497p,text,text_ready,7 pages -> W2314803754.txt
+2026-07-29T18:28:13Z,W4410156535,10.2139/ssrn.5245276,text,text_ready,13 pages -> W4410156535.txt
+2026-07-29T18:28:13Z,W2160164236,10.1351/pac-con-12-06-03,text,text_ready,41 pages -> W2160164236.txt
+2026-07-29T18:28:14Z,W2007181386,10.1021/ja00050a038,text,text_ready,8 pages -> W2007181386.txt
+2026-07-29T18:28:14Z,W2327772152,10.1021/jp3091599,text,text_ready,8 pages -> W2327772152.txt
+2026-07-29T18:28:15Z,W4234379754,10.26434/chemrxiv.11369841.v1,text,text_ready,73 pages -> W4234379754.txt
+2026-07-29T18:28:15Z,W2081548852,10.2478/s11534-012-0137-5,text,text_ready,8 pages -> W2081548852.txt
+2026-07-29T18:28:15Z,W2109144641,10.1351/pac-con-08-08-31,text,text_ready,11 pages -> W2109144641.txt
+2026-07-29T18:28:15Z,W2036480669,10.1002/qua.22963,text,text_ready,9 pages -> W2036480669.txt
+2026-07-29T18:28:16Z,W4405984784,10.1021/acs.jpcc.4c06912,text,text_ready,11 pages -> W4405984784.txt
+2026-07-29T18:28:16Z,W2011708192,10.1002/qua.24933,text,text_ready,13 pages -> W2011708192.txt
+2026-07-29T18:28:17Z,W2031050429,10.1002/qua.22622,text,text_ready,12 pages -> W2031050429.txt
+2026-07-29T18:28:17Z,W2108910610,10.1002/qua.22565,text,text_ready,10 pages -> W2108910610.txt
+2026-07-29T18:28:18Z,W2427427115,10.1515/ntrev-2015-0006,text,text_ready,6 pages -> W2427427115.txt
+2026-07-29T18:28:18Z,W2058034569,10.2478/s11534-013-0174-8,text,text_ready,8 pages -> W2058034569.txt
+2026-07-29T18:28:19Z,W4324311281,10.1002/chem.202203449,text,text_ready,9 pages -> W4324311281.txt
+2026-07-29T18:28:19Z,W4306173415,10.1002/qua.27019,text,text_ready,15 pages -> W4306173415.txt
+2026-07-29T18:28:22Z,W7116659154,10.26434/chemrxiv-2025-nd968,text,text_ready,53 pages -> W7116659154.txt
+2026-07-29T18:28:22Z,W7167629880,10.2139/ssrn.7073622,text,text_ready,25 pages -> W7167629880.txt
+2026-07-29T18:28:23Z,W7162080781,10.2139/ssrn.6816223,text,text_ready,15 pages -> W7162080781.txt
+2026-07-29T18:28:25Z,W7164943813,10.26434/chemrxiv.15000921/v2,text,text_ready,51 pages -> W7164943813.txt
+2026-07-29T18:28:26Z,W7148746393,10.2139/ssrn.6514832,text,text_ready,7 pages -> W7148746393.txt
+2026-07-29T18:28:26Z,W7160269241,10.2139/ssrn.6712643,text,text_ready,18 pages -> W7160269241.txt
+2026-07-29T18:28:26Z,W4400837826,10.26434/chemrxiv-2024-363tw,text,text_ready,27 pages -> W4400837826.txt
+2026-07-29T18:28:27Z,W7165635350,10.1021/acsomega.5c10105,text,text_ready,10 pages -> W7165635350.txt
+2026-07-29T18:28:28Z,W4312645589,10.2139/ssrn.4264280,text,text_ready,39 pages -> W4312645589.txt
+2026-07-29T18:28:28Z,W4415202067,10.26434/chemrxiv-2025-h2pbh,text,text_ready,23 pages -> W4415202067.txt
+2026-07-29T18:28:28Z,W4416322572,10.2139/ssrn.5766207,text,text_ready,31 pages -> W4416322572.txt
+2026-07-29T18:28:29Z,W4412530522,10.2139/ssrn.5360362,text,text_ready,35 pages -> W4412530522.txt
+2026-07-29T18:28:30Z,W4413331618,10.2139/ssrn.5396713,text,text_ready,42 pages -> W4413331618.txt
+2026-07-29T18:28:32Z,W4414640189,10.26434/chemrxiv-2025-n2c9l,text,text_ready,37 pages -> W4414640189.txt
+2026-07-29T18:28:33Z,W7161785735,10.1002/advs.75759,text,text_ready,10 pages -> W7161785735.txt
+2026-07-29T18:28:34Z,W3204531904,10.26434/chemrxiv.12605333.v1,text,text_ready,12 pages -> W3204531904.txt
+2026-07-29T18:28:34Z,W7131708463,10.26434/chemrxiv.15000425/v1,text,text_ready,27 pages -> W7131708463.txt
+2026-07-29T18:28:35Z,W7165544852,10.1002/advs.76249,text,text_ready,13 pages -> W7165544852.txt
+2026-07-29T18:28:38Z,W4234730062,10.26434/chemrxiv.11472627.v1,text,text_ready,14 pages -> W4234730062.txt
+2026-07-29T18:28:39Z,W4416465426,10.2139/ssrn.5781607,text,text_ready,62 pages -> W4416465426.txt
+2026-07-29T18:28:39Z,W2414402924,10.1021/jacs.5b05739,text,text_ready,4 pages -> W2414402924.txt
+2026-07-29T18:29:20Z,W4416322572,10.2139/ssrn.5766207,si-fetch,0 files,none found
+2026-07-29T18:30:03Z,W4413331618-a,10.2139/ssrn.5396713,add-row,appended,row added via add-row
+2026-07-29T18:30:03Z,W4413331618-b,10.2139/ssrn.5396713,add-row,appended,row added via add-row
+2026-07-29T18:30:03Z,W4413331618-c,10.2139/ssrn.5396713,add-row,appended,row added via add-row
+2026-07-29T18:30:03Z,W4413331618,10.2139/ssrn.5396713,mark,extracted,"CASSCF/RASSI-SO/SINGLE_ANISO study of {Cr2Dy2} (1, 2) and {Mn2Dy2} (3). Explicit CAS(9,7) with full root counts (21 sextets, 224 quartets, 490 doublets), MOLCAS 8.2, per-element ANO-RCC contractions, DKH, and the diamagnetic-substitution protocol (Cr/Mn->Zn, second Dy->Lu) spelled out. Main-text Table 1 gives the KD ladders; g-tensor tables are in an SI not in the PDF. 3 rows."
+2026-07-29T18:30:04Z,W4416322572,10.2139/ssrn.5766207,mark,not_usable,"SSRN preprint on axial Dy-O-Si bond-angle manipulation in SMMs. Genuine CASSCF/SINGLE_ANISO work in OpenMolcas with computed Ueff of 376.5 and 388.4 cm-1 and ground-KD mJ = +/-15/2, gz ~ 20.000 — but the main text says only 'with the details shown in Supporting Information', and that SI is not in the deposited PDF; a figshare/PMC SI fetch returned nothing. Active space, basis and root counts are stated nowhere available."
+2026-07-29T19:21:48Z,W4288690020,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename '005c9fe8-0b17-4100-9146-892a35660c12.pdf'"
+2026-07-29T19:21:48Z,W3204316493,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename '0535b186-7c8b-4cec-bc77-1ec8e809c11e_14073_-_maria_luisa_senent_diez.pdf'"
+2026-07-29T19:21:48Z,W2045512501,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename '1-s2.0-S0009261415000573-main.pdf'"
+2026-07-29T19:21:48Z,W2773283558,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename '1-s2.0-S0009261417311090-main.pdf'"
+2026-07-29T19:21:48Z,W2893333414,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename '1-s2.0-S0009261418307905-main.pdf'"
+2026-07-29T19:21:48Z,W4412490321,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename '1-s2.0-S000926142500421X-main.pdf'"
+2026-07-29T19:21:48Z,W4417211069,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename '1-s2.0-S0020169325005031-main.pdf'"
+2026-07-29T19:21:48Z,W2052649026,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename '1-s2.0-S0022285213001550-main.pdf'"
+2026-07-29T19:21:48Z,W4408388082,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename '1-s2.0-S0040402025001395-main (1).pdf'"
+2026-07-29T19:21:48Z,W2085321209,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename '1-s2.0-S1877050914003020-main.pdf'"
+2026-07-29T19:21:48Z,W4395697046,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename '1-s2.0-S2210271X24001543-main.pdf'"
+2026-07-29T19:21:48Z,W4214941734,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename '1-s2.0-S2468519422000234-main.pdf'"
+2026-07-29T19:21:48Z,W4297361076,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename '1-s2.0-S2590147822000523-main.pdf'"
+2026-07-29T19:21:48Z,W2765728662,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename '105320_1_online.pdf'"
+2026-07-29T19:21:48Z,W3215419071,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename '234115_1_online.pdf'"
+2026-07-29T19:21:48Z,W7140277076,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename '2601002829.pdf'"
+2026-07-29T19:21:48Z,W7116845834,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename '2IJCMP-MAY20253-Theoretical.pdf'"
+2026-07-29T19:21:48Z,W2414108248,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename '60411-213286-1-SM.pdf'"
+2026-07-29T19:21:48Z,W2801999717,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename 'El-Kork_2018_J._Phys._Commun._2_055030.pdf'"
+2026-07-29T19:21:48Z,W4235935103,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename 'El-Kork_2019_J._Phys.__Conf._Ser._1258_012034.pdf'"
+2026-07-29T19:21:49Z,W3205502060,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename 'El_Kasty_2019_J._Phys.__Conf._Ser._1258_012033.pdf'"
+2026-07-29T19:21:49Z,W2150080435,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename 'H_Ding_2007_J._Phys.__Conf._Ser._61_252.pdf'"
+2026-07-29T19:21:49Z,W2051049756,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename 'Mark_S_Gordon_2006_J._Phys.__Conf._Ser._46_229.pdf'"
+2026-07-29T19:21:49Z,W3128581346,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename 'Moussa_2021_New_J._Phys._23_013017.pdf'"
+2026-07-29T19:21:49Z,W7168015743,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename 'PAPER_588_v0_1.pdf'"
+2026-07-29T19:21:49Z,W7168039619,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename 'PAPER_594_v0_1.pdf'"
+2026-07-29T19:21:49Z,W3010316305,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename 'Wang_2019_IOP_Conf._Ser.__Earth_Environ._Sci._358_032038.pdf'"
+2026-07-29T19:21:49Z,W7134985741,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename 'Wang_2026_Phys._Scr._101_115402.pdf'"
+2026-07-29T19:21:49Z,W4285085812,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename 'Yang_2023_Chinese_Phys._B_32_057801.pdf'"
+2026-07-29T19:21:49Z,W2226580535,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename 'aps.64.123101.pdf'"
+2026-07-29T19:21:49Z,W3113953953,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename 'aps.66.103101.pdf'"
+2026-07-29T19:21:49Z,W7161967300,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename 'chemrxiv.15003702_v1.pdf'"
+2026-07-29T19:21:49Z,W7162784968,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename 'chemrxiv.15004034_v1.pdf'"
+2026-07-29T19:21:49Z,W7165158664,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename 'chemrxiv.15004889_v1.pdf'"
+2026-07-29T19:21:49Z,W3213713336,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename 'chemrxiv.7665620.v1.pdf'"
+2026-07-29T19:21:49Z,W4253843485,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename 'chemrxiv.9108527.v1.pdf'"
+2026-07-29T19:21:49Z,W3201708119,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename 'chemrxiv.9750872.v1.pdf'"
+2026-07-29T19:21:49Z,W4232426864,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename 'chemrxiv.9992402.v1.pdf'"
+2026-07-29T19:21:49Z,W7118677064,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename 'computation-14-00014.pdf'"
+2026-07-29T19:21:49Z,W3096153042,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename 'd0sc04871b.pdf'"
+2026-07-29T19:21:49Z,W7154613487,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename 'd6dt00621c.pdf'"
+2026-07-29T19:21:49Z,W3094084527,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename 'li-et-al-2020-a-molecular-crystal-shows-multiple-correlated-magnetic-and-ferroelectric-switchings.pdf'"
+2026-07-29T19:21:49Z,W3094607255,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename 'li-et-al-2020-manipulation-of-molecular-qubits-by-isotope-effect-on-spin-dynamics.pdf'"
+2026-07-29T19:21:49Z,W3199735435,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename 'magnetochemistry-07-00125-v2.pdf'"
+2026-07-29T19:21:49Z,W3131621701,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename 'oe-29-6-8654.pdf'"
+2026-07-29T19:21:49Z,W7162304630,,fetch,fetched,"user-supplied PDF, batch 3 (OA fetch had failed); original filename 'stag985.pdf'"
+2026-07-29T19:21:50Z,W4231000442,10.26434/chemrxiv-2021-pjvv1-v2,mark,not_usable,"chemrxiv-2021-pjvv1-v2: superseded preprint version. Version 3 of the same deposit (W4249451042, 10.26434/chemrxiv-2021-pjvv1-v3) is already in the read queue with its PDF, so v2 would duplicate it. Consistent with the batch-1 handling of superseded preprint versions."
+2026-07-29T19:22:23Z,W4414588024,,fetch,fetched,"user-supplied arXiv PDF, batch 3; original filename '2505.20055v1.pdf'"
+2026-07-29T19:22:23Z,W7105116872,,fetch,fetched,"user-supplied arXiv PDF, batch 3; original filename '2511.05732v2.pdf'"
+2026-07-29T19:22:23Z,W7111024810,,fetch,fetched,"user-supplied arXiv PDF, batch 3; original filename '2512.07537v1.pdf'"
+2026-07-29T19:22:23Z,W7155070098,,fetch,fetched,"user-supplied arXiv PDF, batch 3; original filename '2604.17925v1.pdf'"
+2026-07-29T19:22:23Z,W7157983514,,fetch,fetched,"user-supplied arXiv PDF, batch 3; original filename '2604.25603v1.pdf'"
+2026-07-29T19:22:23Z,W7158618190,,fetch,fetched,"user-supplied arXiv PDF, batch 3; original filename '2604.26428v1.pdf'"
+2026-07-29T19:22:23Z,W7160552003,,fetch,fetched,"user-supplied arXiv PDF, batch 3; original filename '2605.04283v1.pdf'"
+2026-07-29T19:22:23Z,W7162134413,,fetch,fetched,"user-supplied arXiv PDF, batch 3; original filename '2605.22394v1.pdf'"
+2026-07-29T19:22:23Z,W7163325257,,fetch,fetched,"user-supplied arXiv PDF, batch 3; original filename '2606.02917v1.pdf'"
+2026-07-29T19:22:23Z,W7165043808,,fetch,fetched,"user-supplied arXiv PDF, batch 3; original filename '2606.17761v1.pdf'"
+2026-07-29T19:22:24Z,W7167746251,,fetch,fetched,"user-supplied arXiv PDF, batch 3; original filename '2607.05786v2.pdf'"
+2026-07-29T19:22:24Z,W7167974851,,fetch,fetched,"user-supplied arXiv PDF, batch 3; original filename '2607.08178v1.pdf'"
+2026-07-29T19:24:29Z,W4287578679,10.1063/5.0101838,si-fetch,1 file (user-supplied),CD_GIAO_CASSCF_NMR.pdf supplied by hand in batch 3; the supporting material this paper's extracted_partial status was waiting on. Text extracted to text/W4287578679_si_userSupplied.txt
+2026-07-29T19:24:29Z,W7154576984,,si-fetch,1 file (user-supplied),si.pdf (PAIMP supporting information) supplied by hand in batch 3; main paper PDF not supplied. Text extracted to text/W7154576984_si_userSupplied.txt
+2026-07-29T19:25:39Z,W4405896123,10.1073/pnas.2419413121,import,candidate,user DOI list: /tmp/claude-8718/-gpfs-projects-p32664-claude/a3ee635e-4675-4541-b751-7dbc05edfde9/scratchpad/b3new.txt
+2026-07-29T19:25:39Z,W2070467709,,fetch,fetched,"user-supplied PDF, batch 3; original filename '1-s2.0-016612809403888R-main.pdf'"
+2026-07-29T19:25:39Z,W879843442,,fetch,fetched,"user-supplied PDF, batch 3; original filename 'aps.60.043102.pdf'"
+2026-07-29T19:25:39Z,W3112939940,,fetch,fetched,"user-supplied PDF, batch 3; original filename 'aps.61.093105.pdf'"
+2026-07-29T19:25:39Z,W3116722884,,fetch,fetched,"user-supplied PDF, batch 3; original filename 'aps.61.153105.pdf'"
+2026-07-29T19:25:39Z,W4405896123,,fetch,fetched,"user-supplied PDF, batch 3; original filename 'bao-et-al-2024-a-hybrid-meta-on-top-functional-for-multiconfiguration-pair-density-functional-theory.pdf'"
+2026-07-29T19:25:39Z,W4405896123,10.1073/pnas.2419413121,si-fetch,1 file (user-supplied),pnas.2419413121.sapp.pdf supplied by hand in batch 3 alongside the main article
+2026-07-29T19:27:20Z,W2085321209,10.1016/j.procs.2014.05.125,text,text_ready,8 pages -> W2085321209.txt
+2026-07-29T19:27:20Z,W7140277076,10.53941/ps.2026.100011,text,text_ready,14 pages -> W7140277076.txt
+2026-07-29T19:27:20Z,W4412490321,10.1016/j.cplett.2025.142281,text,text_ready,4 pages -> W4412490321.txt
+2026-07-29T19:27:21Z,W2070467709,10.1016/0166-1280(94)03888-r,text,text_ready,12 pages -> W2070467709.txt
+2026-07-29T19:27:21Z,W3215419071,10.1063/5.0076010,text,text_ready,14 pages -> W3215419071.txt
+2026-07-29T19:27:21Z,W7168015743,10.5281/zenodo.21300667,text,text_ready,8 pages -> W7168015743.txt
+2026-07-29T19:27:23Z,W4285085812,10.1088/1674-1056/ac80af,text,text_ready,9 pages -> W4285085812.txt
+2026-07-29T19:27:24Z,W2801999717,10.1088/2399-6528/aac3f8,text,text_ready,34 pages -> W2801999717.txt
+2026-07-29T19:27:25Z,W2893333414,10.1016/j.cplett.2018.09.055,text,text_ready,5 pages -> W2893333414.txt
+2026-07-29T19:27:25Z,W4214941734,10.1016/j.mtchem.2022.100794,text,text_ready,12 pages -> W4214941734.txt
+2026-07-29T19:27:30Z,W3128581346,10.1088/1367-2630/abd50d,text,text_ready,24 pages -> W3128581346.txt
+2026-07-29T19:27:31Z,W2052649026,10.1016/j.jms.2013.10.007,text,text_ready,6 pages -> W2052649026.txt
+2026-07-29T19:27:33Z,W2045512501,10.1016/j.cplett.2015.01.040,text,text_ready,7 pages -> W2045512501.txt
+2026-07-29T19:27:33Z,W2051049756,10.1088/1742-6596/46/1/032,text,text_ready,6 pages -> W2051049756.txt
+2026-07-29T19:27:33Z,W2150080435,10.1088/1742-6596/61/1/051,text,text_ready,6 pages -> W2150080435.txt
+2026-07-29T19:27:33Z,W2773283558,10.1016/j.cplett.2017.12.030,text,text_ready,6 pages -> W2773283558.txt
+2026-07-29T19:27:34Z,W4297361076,10.1016/j.omx.2022.100188,text,text_ready,10 pages -> W4297361076.txt
+2026-07-29T19:27:34Z,W3199735435,10.3390/magnetochemistry7090125,text,text_ready,12 pages -> W3199735435.txt
+2026-07-29T19:27:35Z,W2226580535,10.7498/aps.64.123101,text,text_ready,10 pages -> W2226580535.txt
+2026-07-29T19:27:36Z,W4395697046,10.1016/j.comptc.2024.114615,text,text_ready,8 pages -> W4395697046.txt
+2026-07-29T19:27:36Z,W3131621701,10.1364/oe.416106,text,text_ready,12 pages -> W3131621701.txt
+2026-07-29T19:27:37Z,W4253843485,10.26434/chemrxiv.9108527.v1,text,text_ready,44 pages -> W4253843485.txt
+2026-07-29T19:27:37Z,W879843442,10.7498/aps.60.043102,text,text_ready,10 pages -> W879843442.txt
+2026-07-29T19:27:38Z,W3112939940,10.7498/aps.61.093105,text,text_ready,8 pages -> W3112939940.txt
+2026-07-29T19:27:39Z,W3213713336,10.26434/chemrxiv.7665620.v1,text,text_ready,29 pages -> W3213713336.txt
+2026-07-29T19:27:39Z,W3116722884,10.7498/aps.61.153105,text,text_ready,9 pages -> W3116722884.txt
+2026-07-29T19:27:40Z,W2765728662,10.1063/1.4993648,text,text_ready,20 pages -> W2765728662.txt
+2026-07-29T19:27:40Z,W3113953953,10.7498/aps.66.103101,text,text_ready,8 pages -> W3113953953.txt
+2026-07-29T19:27:41Z,W4288690020,10.21203/rs.3.rs-1879560/v1,text,text_ready,24 pages -> W4288690020.txt
+2026-07-29T19:27:42Z,W3204316493,10.12688/openreseurope.14073.1,text,text_ready,38 pages -> W3204316493.txt
+2026-07-29T19:27:43Z,W4417211069,10.1016/j.ica.2025.123037,text,text_ready,8 pages -> W4417211069.txt
+2026-07-29T19:27:43Z,W2414108248,10.5539/apr.v8n4p1,text,text_ready,10 pages -> W2414108248.txt
+2026-07-29T19:27:44Z,W3205502060,10.1088/1742-6596/1258/1/012033,text,text_ready,12 pages -> W3205502060.txt
+2026-07-29T19:27:44Z,W7105116872,10.48550/arxiv.2511.05732,text,text_ready,26 pages -> W7105116872.txt
+2026-07-29T19:27:45Z,W7154613487,10.1039/d6dt00621c,text,text_ready,11 pages -> W7154613487.txt
+2026-07-29T19:27:45Z,W3010316305,10.1088/1755-1315/358/3/032038,text,text_ready,6 pages -> W3010316305.txt
+2026-07-29T19:27:47Z,W7155070098,10.48550/arxiv.2604.17925,text,text_ready,25 pages -> W7155070098.txt
+2026-07-29T19:27:47Z,W7165043808,10.48550/arxiv.2606.17761,text,text_ready,18 pages -> W7165043808.txt
+2026-07-29T19:27:48Z,W4232426864,10.26434/chemrxiv.9992402.v1,text,text_ready,30 pages -> W4232426864.txt
+2026-07-29T19:27:49Z,W7161967300,10.26434/chemrxiv.15003702/v1,text,text_ready,29 pages -> W7161967300.txt
+2026-07-29T19:27:49Z,W7167974851,10.48550/arxiv.2607.08178,text,text_ready,38 pages -> W7167974851.txt
+2026-07-29T19:27:50Z,W3094084527,10.31635/ccschem.020.202000489,text,text_ready,9 pages -> W3094084527.txt
+2026-07-29T19:27:50Z,W4414588024,10.48550/arxiv.2505.20055,text,text_ready,11 pages -> W4414588024.txt
+2026-07-29T19:27:51Z,W7116845834,10.22161/ijcmp.9.2.2,text,text_ready,7 pages -> W7116845834.txt
+2026-07-29T19:27:51Z,W7167746251,10.48550/arxiv.2607.05786,text,text_ready,15 pages -> W7167746251.txt
+2026-07-29T19:27:52Z,W7118677064,10.3390/computation14010014,text,text_ready,20 pages -> W7118677064.txt
+2026-07-29T19:27:52Z,W7160552003,10.48550/arxiv.2605.04283,text,text_ready,32 pages -> W7160552003.txt
+2026-07-29T19:27:53Z,W4408388082,10.1016/j.tet.2025.134583,text,text_ready,5 pages -> W4408388082.txt
+2026-07-29T19:27:54Z,W7134985741,10.1088/1402-4896/ae5035,text,text_ready,14 pages -> W7134985741.txt
+2026-07-29T19:27:54Z,W7157983514,10.48550/arxiv.2604.25603,text,text_ready,30 pages -> W7157983514.txt
+2026-07-29T19:27:55Z,W7162304630,10.1093/mnras/stag985,text,text_ready,17 pages -> W7162304630.txt
+2026-07-29T19:27:55Z,W7168039619,10.5281/zenodo.21309088,text,text_ready,7 pages -> W7168039619.txt
+2026-07-29T19:27:56Z,W3201708119,10.26434/chemrxiv.9750872.v1,text,text_ready,29 pages -> W3201708119.txt
+2026-07-29T19:27:57Z,W4235935103,10.1088/1742-6596/1258/1/012034,text,text_ready,11 pages -> W4235935103.txt
+2026-07-29T19:27:57Z,W7111024810,10.48550/arxiv.2512.07537,text,text_ready,26 pages -> W7111024810.txt
+2026-07-29T19:27:59Z,W7158618190,10.48550/arxiv.2604.26428,text,text_ready,85 pages -> W7158618190.txt
+2026-07-29T19:27:59Z,W7162134413,10.48550/arxiv.2605.22394,text,text_ready,33 pages -> W7162134413.txt
+2026-07-29T19:28:00Z,W7162784968,10.26434/chemrxiv.15004034/v1,text,text_ready,13 pages -> W7162784968.txt
+2026-07-29T19:28:00Z,W7163325257,10.48550/arxiv.2606.02917,text,text_ready,30 pages -> W7163325257.txt
+2026-07-29T19:28:01Z,W7165158664,10.26434/chemrxiv.15004889/v1,text,text_ready,33 pages -> W7165158664.txt
+2026-07-29T19:28:01Z,W3094607255,10.31635/ccschem.020.202000384,text,text_ready,9 pages -> W3094607255.txt
+2026-07-29T19:28:02Z,W3096153042,10.1039/d0sc04871b,text,text_ready,12 pages -> W3096153042.txt
+2026-07-29T19:28:02Z,W4405896123,10.1073/pnas.2419413121,text,text_ready,8 pages -> W4405896123.txt
+2026-07-29T19:29:04Z,W7128853965,10.60893/figshare.jcp.c.8255755,import,candidate,user DOI list: /tmp/claude-8718/-gpfs-projects-p32664-claude/a3ee635e-4675-4541-b751-7dbc05edfde9/scratchpad/rho.txt
+2026-07-29T19:29:04Z,W7147045669,10.60893/figshare.jcp.c.8353561.v1,si-fetch,1 file (user-supplied),Supplementary Material.docx supplied by hand in batch 3 (azopyridine photoisomerization); main-paper PDF not supplied
+2026-07-29T19:29:04Z,W7128853965,10.60893/figshare.jcp.c.8255755,si-fetch,1 file (user-supplied),RhO_JCP_SI_Rev1.docx supplied by hand in batch 3 (RhO anion photoelectron zero-field splitting); main-paper PDF not supplied
+2026-07-29T19:42:00Z,W879843442,10.7498/aps.60.043102,mark,not_usable,"CS+ (X2Sigma+, A2Pi) spectroscopic and molecular constants by MRCI (Acta Phys. Sin., Chinese). Bare main-group diatomic cation studied for spectroscopic constants, neither a coordination complex nor an organic molecule -> out of scope, consistent with the PbO/LuF/HeH+/SnCl2 precedent."
+2026-07-29T19:42:01Z,W3116722884,10.7498/aps.61.153105,mark,not_usable,"AsO+ X2Sigma+/A2Pi MRCI study of spectroscopic constants (Acta Phys. Sin., Chinese). Bare main-group diatomic cation -> out of scope."
+2026-07-29T19:42:01Z,W3112939940,10.7498/aps.61.093105,mark,not_usable,"BF X1Sigma+/a3Pi spectroscopic and molecular constants (Acta Phys. Sin., Chinese). Bare main-group diatomic -> out of scope."
+2026-07-29T19:42:01Z,W2156917670,10.1002/qua.22779,mark,not_usable,CASSCF/MRCI study of the low-lying electronic states of the BeS diatomic. Bare main-group diatomic spectroscopy -> out of scope.
+2026-07-29T19:42:01Z,W2036480669,10.1002/qua.22963,mark,not_usable,"Ground and low-lying electronic states of the MoB and MoB+ diatomics. Bare transition-metal-boride diatomics studied for electronic-state spectroscopy, not coordination complexes -> out of scope, consistent with the ZrO precedent."
+2026-07-29T19:42:02Z,W4288690020,10.21203/rs.3.rs-1879560/v1,mark,not_usable,"Spectroscopic properties of ZnTe, ZnTe+ and ZnTe-. Bare diatomic and its ions -> out of scope."
+2026-07-29T19:42:02Z,W7165635350,10.1021/acsomega.5c10105,mark,not_usable,"AlCd molecule electronic structure and laser-cooling prospects including spin-orbit coupling. Bare diatomic for laser-cooling feasibility -> out of scope, same category as the LuF laser-cooling study already rejected."
+2026-07-29T19:42:02Z,W2045512501,10.1016/j.cplett.2015.01.040,mark,not_usable,Low-lying electronic states of the BeI diatomic including spin-orbit effects. Bare main-group diatomic -> out of scope.
+2026-07-29T19:42:02Z,W2081548852,10.2478/s11534-012-0137-5,mark,not_usable,Highly-excited states of the KRb diatomic. Bare alkali dimer -> out of scope.
+2026-07-29T19:42:02Z,W3008283021,10.1002/vjch.201800034,mark,not_usable,Electronic structures of the diatomic VSi in its 0/-/+ charge states. Bare transition-metal-silicide diatomic -> out of scope.
+2026-07-29T19:42:03Z,W2893333414,10.1016/j.cplett.2018.09.055,mark,not_usable,Thermodynamic stability of strontium monohalide dications (SrX2+). Bare main-group/alkaline-earth diatomic dications -> out of scope.
+2026-07-29T19:42:03Z,W3205502060,10.1088/1742-6596/1258/1/012033,mark,not_usable,Electronic structure with rovibrational and dipole moment calculations of the SiS molecule. Bare main-group diatomic spectroscopy -> out of scope.
+2026-07-29T19:42:03Z,W4235935103,10.1088/1742-6596/1258/1/012034,mark,not_usable,Electronic structure with rovibrational and dipole moment calculations of the SiN molecule. Bare main-group diatomic spectroscopy -> out of scope.
+2026-07-29T19:42:03Z,W7116845834,10.22161/ijcmp.9.2.2,mark,not_usable,"Low-lying electronic states of the Be+He molecular ion, potential energy curves. Bare two-atom molecular ion -> out of scope."
+2026-07-29T19:42:03Z,W7118677064,10.3390/computation14010014,mark,not_usable,"Low-lying electronic states of yttrium lithide and scandium lithide (YLi, ScLi) diatomics. Bare metal-lithide diatomics -> out of scope."
+2026-07-29T19:42:04Z,W7134985741,10.1088/1402-4896/ae5035,mark,not_usable,"Potential energy curves and spectroscopic properties of the X3Sigma-, a1Delta, b1Sigma+ and A3Pi states of the PH diatomic. Bare main-group diatomic spectroscopy -> out of scope."
+2026-07-29T19:42:04Z,W2226580535,10.7498/aps.64.123101,mark,not_usable,"Configuration-interaction study of excited-state electronic structure and transition properties of the GeO molecule (Acta Phys. Sin., Chinese). Bare main-group diatomic -> out of scope."
+2026-07-29T19:42:04Z,W2052649026,10.1016/j.jms.2013.10.007,mark,not_usable,Low-lying electronic states of the BeBr diatomic including spin-orbit effects. Bare main-group diatomic -> out of scope.
+2026-07-29T19:42:04Z,W7162304630,10.1093/mnras/stag985,mark,not_usable,"ExoMol line lists LXX: the CO fourth positive band system. Astrophysical line list for a bare diatomic -> out of scope, same category as the ZrO line list already rejected."
+2026-07-29T19:42:04Z,W3113953953,10.7498/aps.66.103101,mark,not_usable,"Ab initio potential curve of the B3Sigma_u- state of O2 (Acta Phys. Sin., Chinese). Bare diatomic potential curve -> out of scope."
+2026-07-29T19:42:05Z,W4328123620,10.26434/chemrxiv-2023-8l8nw,mark,not_usable,"Potential energy surface of the Li-O2 system for cold collisions. Atom-diatom collision complex for cold-collision dynamics, not a coordination compound or organic molecule -> out of scope."
+2026-07-29T19:42:05Z,W7148746393,10.2139/ssrn.6514832,mark,not_usable,"Multi-reference calculation of energy levels of diamond NV-centre clusters. Solid-state colour centre -> out of scope, consistent with the existing NV-/ClV-in-SiC exclusions."
+2026-07-29T19:42:05Z,W4322619650,10.26434/chemrxiv-2023-sjmtl,mark,not_usable,Local excitations of the charged nitrogen-vacancy centre in diamond via multireference DMET. Solid-state colour centre -> out of scope.
+2026-07-29T19:42:05Z,W7160552003,10.48550/arxiv.2605.04283,mark,not_usable,"Extended ab initio theory of the V_B- centre in hBN: excited states, Jahn-Teller distortion, pressure dependence. Solid-state colour centre in a 2D crystal -> out of scope."
+2026-07-29T19:42:06Z,W4238927677,10.26434/chemrxiv-2021-3p2sx,mark,not_usable,Excited states of crystalline point defects via multireference DMET. Solid-state point defects -> out of scope.
+2026-07-29T19:42:06Z,W4306173415,10.1002/qua.27019,mark,not_usable,Aufbau principle and singlet-triplet gap in spherical Hooke atoms (published version). Hooke atoms are a model system - electrons in a quadratic confining potential - not a chemical compound. Same paper as the Authorea deposit W4223456351 already marked not_usable on 2026-07-29.
+2026-07-29T19:42:45Z,W2414108248,10.5539/apr.v8n4p1,mark,not_usable,"Dipole moment and electronic structure of the SiN+ molecular ion, 37 states by CASSCF/MRCI+Q in MOLPRO. Bare main-group diatomic cation spectroscopy -> out of scope."
+2026-07-29T19:42:45Z,W2427427115,10.1515/ntrev-2015-0006,mark,not_usable,Potential energy curves for 45 singlet/triplet/quintet states of the BF diatomic by CASSCF/MRCI in MOLPRO. Bare main-group diatomic spectroscopy -> out of scope (the same group's SiN/SiS/LaO/ZrN studies are excluded on the same basis).
+2026-07-29T19:42:45Z,W2150080435-a,10.1088/1742-6596/61/1/051,add-row,appended,row added via add-row
+2026-07-29T19:42:45Z,W2150080435,10.1088/1742-6596/61/1/051,mark,extracted_partial,"CASSCF study of hydrogen end-capped carbon wires HC2nH (n=2-12) - metal-free organic polyynes, in scope. CAS(12,12), 6-31G*, GAUSSIAN 03/MOLPRO all stated. Partial: a 5-page conference proceedings with no tabulated per-molecule transition energies and no orbital composition for the active space. The bare carbon rings in the same paper were done with DFT/CCSD(T), not CASSCF. 1 row."
+2026-07-29T19:43:39Z,W7168015743,10.5281/zenodo.21300667,mark,not_usable,"Self-published Zenodo preprint (Buckley, 'Topological Active Space C/T Skeleton'). Proposes a topological active-space pre-screening scheme, verified only by FCI on 10 tiny molecules in STO-3G (H2, LiH, BeH2, H2O, N2, C2H2 and stretched variants). Method/algorithm paper whose systems are toy benchmarks in a minimal basis, with no real compound carrying a chemically meaningful active space -> not_usable per the toy-systems rule. Provenance also unverified: v0.1, no peer review, cites mainly the author's own Zenodo deposits."
+2026-07-29T19:43:39Z,W7168039619,10.5281/zenodo.21309088,mark,not_usable,"Self-published Zenodo preprint (Buckley, 'Grassmannian Compression'). Geometric reformulation of active-space selection; the paper itself states 'All results are confirmed by three experiments on H2/STO-3G'. A single two-electron toy system in a minimal basis -> not_usable per the toy-systems rule."
+2026-07-29T19:43:39Z,W7160269241,10.2139/ssrn.6712643,mark,not_usable,"Self-published SSRN preprint (Patrascu, 'SpectralXC'). Benchmarks a CASSCF-tile + NEVPT2-resolvent construction over H2, LiH, HF, H2O, N2, CH4, LiF, O2, CH2 and some transition metals, but every active space is generated automatically by an AVAS 'atlas' lookup and no per-molecule (nel,norb) is tabulated in the text - the active space is exactly the quantity this database records. Small benchmark molecules in a method paper with unstated active spaces -> not_usable."
+2026-07-29T19:44:19Z,W7162552591-a,10.13140/rg.2.2.30611.64807,add-row,appended,row added via add-row
+2026-07-29T19:44:19Z,W7162552591-b,10.13140/rg.2.2.30611.64807,add-row,appended,row added via add-row
+2026-07-29T19:44:19Z,W7162552591,10.13140/rg.2.2.30611.64807,mark,extracted_partial,"Self-published preprint (Patrascu, Profunctor-CASSCF) but with genuine active-space content: Cr2 at a chemistry-valence CAS(12,12) on {3d,4s}, AVAS-anchored at 1.68 A with Loewdin orbital transport to other geometries, def2-TZVP/X2C/PySCF, and a five-component binding-energy decomposition summing to 1.478 eV vs experiment 1.530 eV. Mo2 gets the manifold {4d,5s,5p} but no numeric active space. Partial: not peer reviewed, Mo2 nel/norb unstated, and Cr2/Mo2 are bare dimers which sit at the edge of the post-2026-07-23 diatomic exclusion - flagged in the row notes. 2 rows."
+2026-07-29T19:45:40Z,W4297425336-a,10.26434/chemrxiv-2022-8mc2h-v2,add-row,appended,row added via add-row
+2026-07-29T19:45:40Z,W4297425336-b,10.26434/chemrxiv-2022-8mc2h-v2,add-row,appended,row added via add-row
+2026-07-29T19:45:41Z,W4297425336-c,10.26434/chemrxiv-2022-8mc2h-v2,add-row,appended,row added via add-row
+2026-07-29T19:45:41Z,W4386626210-a,10.26434/chemrxiv-2023-296cq,add-row,appended,row added via add-row
+2026-07-29T19:45:41Z,W4297425336,10.26434/chemrxiv-2022-8mc2h-v2,mark,extracted,"CASSCF study of Re-Re bonding in Re2(mu-dppm)(S2CNEt2)4 across three oxidation states, with the active space resized on a fixed metal-based manifold: CAS(10,8), CAS(9,8), CAS(8,8). ORCA 5.0, def2-TZVP/def2-SVP-C, RIJCOSX, geometries at BP86-D3BJ/SARC-ZORA-TZVP. Effective bond orders, leading-configuration weights and comparison to Mayer/NBO all stated. 3 rows."
+2026-07-29T19:45:41Z,W4386626210,10.26434/chemrxiv-2023-296cq,mark,extracted,"CAS(4,3) study of biradical character in a phosphonium-substituted diphosphaindenylide, run twice (localized orbitals for Lewis-structure weights, natural orbitals for the beta-index of 12%), with CAS(2,2)/CAS(10,9) checks in the SI. Metal-free main-group compound, in scope. ORCA. 1 row."
+2026-07-29T22:56:46Z,W4412490321-a,10.1016/j.cplett.2025.142281,add-row,appended,row added via add-row
+2026-07-29T22:56:47Z,W4408388082-a,10.1016/j.tet.2025.134583,add-row,appended,row added via add-row
+2026-07-29T22:56:47Z,W4408388082-b,10.1016/j.tet.2025.134583,add-row,appended,row added via add-row
+2026-07-29T22:56:47Z,W4408388082-c,10.1016/j.tet.2025.134583,add-row,appended,row added via add-row
+2026-07-29T22:56:47Z,W4412035282-a,10.26434/chemrxiv-2025-0xsfn,add-row,appended,row added via add-row
+2026-07-29T22:57:14Z,W4412490321,10.1016/j.cplett.2025.142281,mark,extracted,"CASSCF/MS-CASPT2 study proposing the nitranion as intermediate in azide decomposition. CAS(16,15) written out fragment by fragment, MOLCAS 8.6, ANO-RCC with stated contraction, IPEA 0.25, imaginary shift 0.1, SOC between S0 and T0. All critical structures CASSCF-optimized. 1 row covering the reaction sequence."
+2026-07-29T22:57:14Z,W4408388082,10.1016/j.tet.2025.134583,mark,extracted_partial,"Primarily a DFT study of three heterocyclic N-oxide photoisomerizations, with CASSCF(6,6)/6-31+G(d,p) used specifically to locate the conical intersections that resolve a DFT/experiment disagreement. Active space size and basis stated; no orbital composition and no software named for the CASSCF step, hence partial. 3 rows."
+2026-07-29T22:57:14Z,W4412035282,10.26434/chemrxiv-2025-0xsfn,mark,extracted,"CASSCF(8,10)/def2-SVP study of a Cope rearrangement bifurcation in 3,4-divinylcyclobut-1-ene, with MRMP2(8,10)/def2-TZVP single points and CASSCF(8,8) direct dynamics. Active-space selection rationale and the deliberate (8,10)->(8,8) reduction for MD are both stated. GAMESS 2022 R1 + ORCA 5.0. 1 row."
+2026-07-29T22:58:23Z,W2085321209-a,10.1016/j.procs.2014.05.125,add-row,appended,row added via add-row
+2026-07-29T22:58:24Z,W1970840181-a,10.1021/jp045614v,add-row,appended,row added via add-row
+2026-07-29T22:58:24Z,W1970840181-b,10.1021/jp045614v,add-row,appended,row added via add-row
+2026-07-29T22:58:24Z,W2327772152-a,10.1021/jp3091599,add-row,appended,row added via add-row
+2026-07-29T22:58:39Z,W2085321209,10.1016/j.procs.2014.05.125,mark,extracted_partial,"CASSCF/6-311++G** conical-intersection seam study of cytosine (Procedia CS conference paper). Active space given by orbital composition - 4 occupied (two pi, two lone pairs) + 5 virtual (three pi*, two sigma*) - so (8,9); Gaussian 09. Partial: a short conference paper, the electron count is arithmetic from the orbital description rather than printed, and conical-intersection energies are not tabulated. 1 row."
+2026-07-29T22:58:39Z,W1970840181,10.1021/jp045614v,mark,extracted,"Joint experiment/theory study of 5-fluorocytosine vs cytosine singlet excited-state dynamics at CASSCF/CAS-PT2/6-31G* (Gaussian 03 + MOLCAS 5.2). Two numeric active spaces stated in the main text - (8,7) for the (nN,pi*)/S0 decay barrier and (8,8) for the C-F dissociation barrier - plus measured spectra, quantum yield and Stokes shift. 2 rows."
+2026-07-29T22:58:39Z,W2327772152,10.1021/jp3091599,mark,extracted,"CASPT2//CASSCF study of triplet population in 8-azaadenine with an exemplary active-space protocol: full pi+n would be CAS(20,14) and is declared infeasible, so (18,13) is used for energies, (16,12) for geometries after moving the NH2-localized pi orbital inactive on occupation-number grounds, and (12,10) for the 1(pipi)* MEPs. MOLCAS 7.4, ANO-L DZP with stated contractions, AMFI SOC, PCM, imaginary shift 0.2, no IPEA. 1 row."
+2026-07-29T23:20:43Z,W2414402924,10.1021/jacs.5b05739,si-fetch,1 files,ja5b05739_si_001.pdf
+2026-07-29T23:20:54Z,W7154613487,10.1039/d6dt00621c,si-fetch,0 files,none found
+2026-07-29T23:22:16Z,W2414402924-a,10.1021/jacs.5b05739,add-row,appended,row added via add-row
+2026-07-29T23:22:16Z,W4324311281-a,10.1002/chem.202203449,add-row,appended,row added via add-row
+2026-07-29T23:22:17Z,W2414402924,10.1021/jacs.5b05739,mark,extracted,"Trigonal prismatic Co(II) clathrochelate SMM. Main text defers everything to the SI, but the 'si' command successfully fetched ja5b05739_si_001.pdf, which gives CAS(7,5) over the five Co 3d MOs, ROHF natural-orbital starting guess, 10 quadruplet + 40 doublet state averaging, ORCA 3.0.3, def2-TZVPP/def2-TZVP, RIJCOSX, NEVPT2 and MRCI-based SOC, plus the state-energy table. Textbook case for fetching SI before discarding. 1 row."
+2026-07-29T23:22:17Z,W4324311281,10.1002/chem.202203449,mark,extracted,"Mn18-ring exchange study. CAS(12,15) on the (Mn(III),S=2)3 subunit stated in the main text, with the Mn->Ga diamagnetic-substitution strategy for extracting pairwise couplings and a direct fit to the computed S=0..6 ladder. ORCA, CASSCF/NEVPT2 plus broken-symmetry DFT. Basis and remaining protocol are SI-only. 1 row."
+2026-07-29T23:22:17Z,W7154613487,10.1039/d6dt00621c,mark,not_usable,"THz-EPR plus CASSCF/CASPT2/RASSI-SO study of Co(NCX)2 (X = S, Se) chains, using [CoZn2(NCX)4(py)2]2+ models with Zn substitution for the neighbouring Co. Genuinely relevant work with POLY_ANISO spin-ring modelling, but the active space is stated nowhere: the Computational details section names the method chain and the DFT geometry level (RI-BP86/def2-SVP, Turbomole 7.6) but never a (nel,norb), no basis set for the CASSCF step, and an exhaustive grep finds no active-space specification anywhere in the text. A figshare/PMC SI fetch returned nothing."
+2026-07-29T23:25:55Z,W4280618551-a,10.26434/chemrxiv-2022-59f1v,add-row,appended,row added via add-row
+2026-07-29T23:25:56Z,W4280618551-b,10.26434/chemrxiv-2022-59f1v,add-row,appended,row added via add-row
+2026-07-29T23:25:56Z,W4280618551-c,10.26434/chemrxiv-2022-59f1v,add-row,appended,row added via add-row
+2026-07-29T23:25:56Z,W4280618551-d,10.26434/chemrxiv-2022-59f1v,add-row,appended,row added via add-row
+2026-07-29T23:25:56Z,W4280618551-e,10.26434/chemrxiv-2022-59f1v,add-row,appended,row added via add-row
+2026-07-29T23:25:56Z,W4323315980-a,10.26434/chemrxiv-2022-c6tz8-v2,add-row,appended,row added via add-row
+2026-07-29T23:25:57Z,W4323315980-b,10.26434/chemrxiv-2022-c6tz8-v2,add-row,appended,row added via add-row
+2026-07-29T23:25:57Z,W4323315980-c,10.26434/chemrxiv-2022-c6tz8-v2,add-row,appended,row added via add-row
+2026-07-29T23:25:57Z,W4323315980-d,10.26434/chemrxiv-2022-c6tz8-v2,add-row,appended,row added via add-row
+2026-07-29T23:26:10Z,W4280618551,10.26434/chemrxiv-2022-59f1v,mark,extracted,"CASSCF/CASPT2/MC-PDFT/HMC-PDFT study of five (C6F5)3trenV(III) optically addressable qubit candidates. Active spaces stated per compound: (2,5) 3d-only for all, plus (6,9) adding ligand pi/pi* for compounds 1-3 and (4,7) adding sigma/sigma* for 4-5, with a (2,5)/(6,9)/(2,10) double-d-shell convergence check on compound 1. Ten triplet / seven singlet roots, RASSI SOC, singlet-triplet gaps and ZFS D/E tabulated, AILFT-NEVPT2 d-orbital orderings. 5 rows."
+2026-07-29T23:26:10Z,W4323315980,10.26434/chemrxiv-2022-c6tz8-v2,mark,extracted,"SA-CASSCF/NEVPT2/QD-NEVPT2 study of four Co SMMs with spin-phonon coupling. Active space sized by electron count - CAS(7,5) for the d7 complexes 1 and 4, CAS(8,5) for the d8 complexes 2 and 3 - with an explicit two-stage root treatment (10 quartets/40 doublets for orbital optimization reduced to 7/28 in the CI step; 10 triplets/15 singlets reduced to 7/5). ORCA 5.0, def2-TZVP/AUTOAUX, QDPT-SOMF, effective Hamiltonian for g/D/E. 4 rows."
+2026-07-29T23:27:22Z,W4407979009-a,10.26434/chemrxiv-2025-lwh8m,add-row,appended,row added via add-row
+2026-07-29T23:27:22Z,W7150817998-a,10.26434/chemrxiv.15001672/v1,add-row,appended,row added via add-row
+2026-07-29T23:27:23Z,W7150817998-b,10.26434/chemrxiv.15001672/v1,add-row,appended,row added via add-row
+2026-07-29T23:27:23Z,W4407979009,10.26434/chemrxiv-2025-lwh8m,mark,extracted,"Fe(III) porphyrin magneto-structural study with an exemplary active-space expansion ladder: CAS(5e,5o) d-only is shown to be quantitatively wrong (quartet-sextet gap 9396 cm-1, D = 2.06 cm-1), then a pi-type ligand orbital -> CAS(7e,6o), the diffuse 4d shell -> CAS(7e,11o), and a sigma-type ligand orbital -> CAS(9e,12o), bringing D to 7.85 cm-1 and the gap to 2749 cm-1. Plus a temperature series (D 7.85 -> 10.08 cm-1 across 100/250/295 K structures). ORCA 5.0, ZORA, full basis specification, AILFT. 1 row."
+2026-07-29T23:27:23Z,W7150817998,10.26434/chemrxiv.15001672/v1,mark,extracted,"CASSCF/CASPT2/RASSI study of idealised YbFx and ErFx model series asking why trigonal planar Yb(III) fails as a zero-field SMM. Both active spaces stated with their state averages - CAS(13,7) over 7 doublets for Yb, CAS(11,7) over 35 quartets and 112 doublets for Er - plus fixed Ln-F bond lengths and an explicit battery of controls (bond-length swap, basis-contraction swap, cross-metal orbital reuse) to exclude numerical artefacts. OpenMolcas, ANO-RCC, DKH2, AMFI, PHI. 2 rows."
+2026-07-29T23:30:36Z,W4405455336-a,10.26434/chemrxiv-2024-dcpqv-v2,add-row,appended,row added via add-row
+2026-07-29T23:30:36Z,W4405455336-b,10.26434/chemrxiv-2024-dcpqv-v2,add-row,appended,row added via add-row
+2026-07-29T23:30:36Z,W4405455336-c,10.26434/chemrxiv-2024-dcpqv-v2,add-row,appended,row added via add-row
+2026-07-29T23:30:37Z,W4405455336-d,10.26434/chemrxiv-2024-dcpqv-v2,add-row,appended,row added via add-row
+2026-07-29T23:30:37Z,W4405455336-e,10.26434/chemrxiv-2024-dcpqv-v2,add-row,appended,row added via add-row
+2026-07-29T23:30:37Z,W4405455336-f,10.26434/chemrxiv-2024-dcpqv-v2,add-row,appended,row added via add-row
+2026-07-29T23:30:37Z,W4405455336-g,10.26434/chemrxiv-2024-dcpqv-v2,add-row,appended,row added via add-row
+2026-07-29T23:30:37Z,W4405455336-h,10.26434/chemrxiv-2024-dcpqv-v2,add-row,appended,row added via add-row
+2026-07-29T23:30:38Z,W4405455336-i,10.26434/chemrxiv-2024-dcpqv-v2,add-row,appended,row added via add-row
+2026-07-29T23:30:38Z,W4405455336-j,10.26434/chemrxiv-2024-dcpqv-v2,add-row,appended,row added via add-row
+2026-07-29T23:30:38Z,W4405455336-k,10.26434/chemrxiv-2024-dcpqv-v2,add-row,appended,row added via add-row
+2026-07-29T23:30:38Z,W4405455336-l,10.26434/chemrxiv-2024-dcpqv-v2,add-row,appended,row added via add-row
+2026-07-29T23:30:38Z,W4405455336-m,10.26434/chemrxiv-2024-dcpqv-v2,add-row,appended,row added via add-row
+2026-07-29T23:30:39Z,W4405455336-n,10.26434/chemrxiv-2024-dcpqv-v2,add-row,appended,row added via add-row
+2026-07-29T23:30:39Z,W4405455336-o,10.26434/chemrxiv-2024-dcpqv-v2,add-row,appended,row added via add-row
+2026-07-29T23:30:39Z,W4405455336-p,10.26434/chemrxiv-2024-dcpqv-v2,add-row,appended,row added via add-row
+2026-07-29T23:30:39Z,W4405455336-q,10.26434/chemrxiv-2024-dcpqv-v2,add-row,appended,row added via add-row
+2026-07-29T23:30:39Z,W4385492755-a,10.26434/chemrxiv-2023-f7qnk,add-row,appended,row added via add-row
+2026-07-29T23:30:40Z,W4385492755-b,10.26434/chemrxiv-2023-f7qnk,add-row,appended,row added via add-row
+2026-07-29T23:30:40Z,W4385492755-c,10.26434/chemrxiv-2023-f7qnk,add-row,appended,row added via add-row
+2026-07-29T23:30:40Z,W4385492755-d,10.26434/chemrxiv-2023-f7qnk,add-row,appended,row added via add-row
+2026-07-29T23:30:40Z,W4385492755-e,10.26434/chemrxiv-2023-f7qnk,add-row,appended,row added via add-row
+2026-07-29T23:30:40Z,W4385492755-f,10.26434/chemrxiv-2023-f7qnk,add-row,appended,row added via add-row
+2026-07-29T23:30:41Z,W4385492755-g,10.26434/chemrxiv-2023-f7qnk,add-row,appended,row added via add-row
+2026-07-29T23:30:56Z,W4405455336,10.26434/chemrxiv-2024-dcpqv-v2,mark,extracted,"DMRG-CASSCF study of 17 nonheme iron nitrosyls spanning Enemark-Feltham {FeNO}6-10 plus two bis-nitrosyls. Table 1 gives an individual 'ne in na' for every complex (13-22 electrons in 18-25 orbitals) built from one uniform recipe: all Fe 3d, all available Fe 4d for the double shell, all Fe-ligand sigma, plus a ten-orbital NO set per nitrosyl. CheMPS2 1.8.12 + OpenMolcas 11.9, def2-TZVP, Cholesky 1e-6, m=1000 validated at 1500, CSF weights binned into Fe-NO resonance forms. 17 rows."
+2026-07-29T23:30:56Z,W4385492755,10.26434/chemrxiv-2023-f7qnk,mark,extracted,"Companion DMRG-CASSCF/CASPT2 study of heme nitrosyls, {FeNO}6-8. Same uniform active-space recipe as the nonheme paper, with per-complex and notably per-spin-state sizes from Table 1 (e.g. Fe[P](NO) is 19 in 23 as a quartet but 19 in 22 as a doublet). OpenMolcas+CheMPS2, aug-cc-pwCV5Z-DK on Fe, DKH2, frozen Fe 3s/3p in CASPT2, imaginary shift 0.1. 7 rows, condensed one per compound with both spin states recorded."
+2026-07-29T23:35:35Z,W4281760057,10.26434/chemrxiv-2022-dnstl,si-fetch,0 files,none found
+2026-07-29T23:35:58Z,W4232426864-a,10.26434/chemrxiv.9992402.v1,add-row,appended,row added via add-row
+2026-07-29T23:35:58Z,W4232426864-b,10.26434/chemrxiv.9992402.v1,add-row,appended,row added via add-row
+2026-07-29T23:35:59Z,W4232426864-c,10.26434/chemrxiv.9992402.v1,add-row,appended,row added via add-row
+2026-07-29T23:35:59Z,W4243896582-a,10.26434/chemrxiv.14455983.v1,add-row,appended,row added via add-row
+2026-07-29T23:35:59Z,W4232426864,10.26434/chemrxiv.9992402.v1,mark,extracted,"CASSCF study of the isostructural MBr3(OPcy3)3 series (M = Ce, Nd, Am) probing the inverse trans influence. Active space stated as CAS(n,7) over the seven metal f orbitals with n = 1, 3, 6 by f-electron count; ORCA 4.1.1, SARC-TZVP/def2-TZVP, scalar relativistic, crystal-structure geometries used unoptimized on purpose. QTAIM |V(r)|/G(r) ratios tabulated per bond. Noted an internal inconsistency: the text refers once to 'SR-CAS(7,7)' which contradicts the stated CAS(n,7) - left unresolved rather than guessed. 3 rows."
+2026-07-29T23:35:59Z,W4243896582,10.26434/chemrxiv.14455983.v1,mark,extracted,"CASPT2 and RASSCF/RASPT2 study of a uranium bis(anthracenide) sandwich dimer with an exemplary staged active-space reduction: (4e,14o) all 5f -> (4e,8o) after finding most 5f unoccupied by crystal-field effects -> RASSCF (2e,2h,2e;10o,8o,10o) to carry 10 pi/pi* pairs beyond CASSCF's reach -> final (8e,12o) justified by RAS1 occupations >=1.96 and RAS3 <=0.04. OpenMolcas. Notably the paper declines to assign a spin ground state, the singlet/triplet/quintet lying within 0.3 kcal/mol. 1 row (the K-contacted congener has no separate active space)."
+2026-07-29T23:35:59Z,W4281760057,10.26434/chemrxiv-2022-dnstl,mark,extracted_partial,"CASSCF/CASPT2 study of a neutral uranium bis(anthracenide) sandwich (1) and its ring-migrated isomer (3). The paper reports real multireference results - CASPT2 triplet/quintet energetics (quintet geometry lower by 3.2 and 2.9 kcal/mol in 1 and 3) and CASSCF natural-orbital occupations showing purely pi U-C bonding - but says only 'see SI for details of active space choice' and never prints a numeric (nel,norb); a figshare/PMC SI fetch found nothing. No row added: without an active space the row would carry nothing this database exists to hold."
+2026-07-29T23:36:19Z,W4281760057,10.26434/chemrxiv-2022-dnstl,mark,not_usable,"CORRECTION to the extracted_partial mark set moments earlier, which was wrong because no row was added. CASSCF/CASPT2 study of a neutral uranium bis(anthracenide) sandwich (1) and its ring-migrated isomer (3), with real multireference results (CASPT2 quintet geometry lower by 3.2 and 2.9 kcal/mol; CASSCF occupations showing purely pi U-C bonding), but the active space is specified nowhere - the text says only 'see SI for details of active space choice' and the SI is not in the deposited PDF nor fetchable from figshare/PMC. Per the standing rule, an active space never specified at all is not_usable."
+2026-07-29T23:39:11Z,W4254812617-a,10.26434/chemrxiv.13110212.v1,add-row,appended,row added via add-row
+2026-07-29T23:39:11Z,W4254812617-b,10.26434/chemrxiv.13110212.v1,add-row,appended,row added via add-row
+2026-07-29T23:39:11Z,W3214322595-a,10.26434/chemrxiv.10059809.v1,add-row,appended,row added via add-row
+2026-07-29T23:39:12Z,W3214322595-b,10.26434/chemrxiv.10059809.v1,add-row,appended,row added via add-row
+2026-07-29T23:39:12Z,W3214322595-c,10.26434/chemrxiv.10059809.v1,add-row,appended,row added via add-row
+2026-07-29T23:39:28Z,W4254812617,10.26434/chemrxiv.13110212.v1,mark,extracted,"SA-CASSCF/NEVPT2 study of 15 Fe(III) trigonal-bipyramidal complexes. Excellent active-space justification: minimal CAS(5,5) gives the WRONG ground spin state for the parent complex 2, so the two axial group-15 pz orbitals and their four electrons are added to give CAS(9,7), used throughout; state-averaged over 21 sextet, 224 quartet, 490 doublet roots. Also documents that SS-CASSCF wrongly favours high spin where SA-CASSCF gets intermediate spin right. ORCA, def2-TZVPP, B3LYP-D3BJ geometries. 2 rows (parent complex plus the designed substitution series); per-complex D values left in the paper's tables."
+2026-07-29T23:39:28Z,W3214322595,10.26434/chemrxiv.10059809.v1,mark,extracted,"NEVPT2-CASSCF study of Co(TAML) redox non-innocence. Three complexes with individually determined spaces - (14,13) for the anionic TAMLred complex, (13,12) for the neutral TAMLsq radical, (14,13) for the bis-nitrene - all built from 'all Co d + interacting ligand pi (+ nitrene p)' then pruned of orbitals converging to occupancy 2.00. That pruning is why nominally similar complexes get different sizes: dxy removed in one, both dz2 and dxy in another. Loewdin populations, occupations and CASSCF excitation assignments all reported. 3 rows."
+2026-07-29T23:47:32Z,W4405354672,10.26434/chemrxiv-2024-d6sj9,si-fetch,0 files,none found
+2026-07-29T23:48:53Z,W4224305469-a,10.26434/chemrxiv-2022-2sqgf,add-row,appended,row added via add-row
+2026-07-29T23:48:53Z,W4224305469-b,10.26434/chemrxiv-2022-2sqgf,add-row,appended,row added via add-row
+2026-07-29T23:48:53Z,W4224305469,10.26434/chemrxiv-2022-2sqgf,mark,extracted,"CASSCF analysis of C-H activation by high-valent Mn-oxo species. CAS(4,5) for the d4 Mn(III)=O and CAS(3,5) for the d3 Mn(IV)=O, both validated by expansion to CAS(9,8) adding two oxo p-pi and one oxo p-sigma orbital. The multireference result is the paper's mechanistic conclusion: greater excited-configuration mixing into the ground configuration lowers the HAT barrier, demonstrated across the transition-state series. ORCA 4.0.1 / Gaussian 09, def2-TZVP. The Fe analogues are treated by DFT/SNO with no separate active space reported, so no rows for them. 2 rows."
+2026-07-29T23:48:53Z,W4405354672,10.26434/chemrxiv-2024-d6sj9,mark,not_usable,"Photochemistry of four Ni(II) tolyl chloride complexes. CASSCF/QD-NEVPT2 in ORCA 5.0.3 is applied to complex 4 to model quasi-degenerate ground and low-lying excited states, but no active space is stated anywhere: an exhaustive grep finds only the spelled-out method name and no (nel,norb), and a figshare/PMC SI fetch returned nothing. Everything quantitative in the paper (HOMO-LUMO gaps, absorption spectra) comes from DFT/TDDFT at TPSSh/def2-TZVP, which does not describe the CASSCF."
+2026-07-29T23:50:55Z,W4401425497,10.26434/chemrxiv-2024-st9qn,si-fetch,0 files,none found
+2026-07-29T23:51:04Z,W4307527009,10.26434/chemrxiv-2022-q86dm,si-fetch,0 files,none found
+2026-07-29T23:51:13Z,W4407995864,10.26434/chemrxiv-2025-tnhwp,si-fetch,0 files,none found
+2026-07-29T23:51:22Z,W7118143680,10.26434/chemrxiv-2025-gbcfl-v2,si-fetch,0 files,none found
+2026-07-29T23:52:47Z,W7154588629-a,10.26434/chemrxiv.15002064/v1,add-row,appended,row added via add-row
+2026-07-29T23:52:47Z,W7154588629-b,10.26434/chemrxiv.15002064/v1,add-row,appended,row added via add-row
+2026-07-29T23:52:47Z,W4214737454-a,10.26434/chemrxiv-2022-f7tc8,add-row,appended,row added via add-row
+2026-07-29T23:52:48Z,W4214737454-b,10.26434/chemrxiv-2022-f7tc8,add-row,appended,row added via add-row
+2026-07-29T23:52:48Z,W4293567642-a,10.26434/chemrxiv-2022-8r90r-v3,add-row,appended,row added via add-row
+2026-07-29T23:52:48Z,W4405200252-a,10.26434/chemrxiv-2024-5m8m7,add-row,appended,row added via add-row
+2026-07-29T23:52:48Z,W4386477446-a,10.26434/chemrxiv-2023-nplbq,add-row,appended,row added via add-row
+2026-07-29T23:53:23Z,W7154588629,10.26434/chemrxiv.15002064/v1,mark,extracted,"CASSCF study of (L)RuV=O and (L)RuV=N intermediates with a clean two-tier AVAS-built active space: CAS(9e,8o) from Ru(4d) alone, extended by the X(2p) orbitals to CAS(13e,10o) for most compounds and CAS(15e,11o) for two. Documents an ORCA/PySCF AVAS inconsistency and how it was resolved. def2-TZVPP+ECP on Ru, cc-pVTZ light atoms. 2 rows, one per active-space family."
+2026-07-29T23:53:24Z,W4214737454,10.26434/chemrxiv-2022-f7tc8,mark,extracted,"CASSCF study of Re2 and Os2 corrole dimers. CAS(8,8) over the metal-based sigma/2pi/delta manifold plus antibonding partners, extended to CAS(12,12) (Re2) and CAS(14,12) (Os2) by adding two M-N delta bonding orbitals and their antibonding counterparts. Explicitly situated against the literature CAS(12,12) and CAS(8,8) treatments of [Re2Cl8]2-, which agreed on EBO 3.20. ORCA 5.0, def2-TZVP, DFT-OLYP geometry at Re-Re 2.20 A. 2 rows."
+2026-07-29T23:53:24Z,W4293567642,10.26434/chemrxiv-2022-8r90r-v3,mark,extracted,"CASSCF study of LMCT transitions in four (t2g)5 boronated cyanometallates (Fe-III, Ru-III, Os-III, Mn-II BCF). Active space built from symmetry labels rather than a generic metal+ligand rule - two eg cyanide sigma, seven au CN-BH3, three t2g pi, two eg cyanide sigma* - giving 23 electrons in 17 orbitals, with a descent-in-symmetry strategy explicitly to control root counts for the t1u/t2u states. ORCA, def2-TZVP, RI-JK, CPCM(DCM). 1 row covering the four isoelectronic analogues."
+2026-07-29T23:53:24Z,W4405200252,10.26434/chemrxiv-2024-5m8m7,mark,extracted,"CASSCF/NEVPT2 + AILFT study of heterometallic CuCd/Cu2Zn complexes with three active-space sizes for different questions: CAS(9,5) Cu 3d for the AILFT d-orbital energies and g-matrix, CAS(9,10) as a 4d double-shell check (found not to matter), CAS(18,10) over both coppers' 3d for the dinuclear exchange, plus a minimal CAS(2,2) SORCI benchmark. ORCA 5.0.4, DKH-def2/SARC-DKH bases. Also candidly reports DDCI2 vs DDCI3 giving J = 354 vs 6 cm-1 against an experimental -130.1 cm-1. 1 row."
+2026-07-29T23:53:24Z,W4386477446,10.26434/chemrxiv-2023-nplbq,mark,extracted_partial,"SA-CASSCF study of spin-vibrational coupling and blocking temperature in a Dy(III) SMM. Active space stated as nine 4f electrons in seven 4f orbitals, with a graded basis (VDZP first coordination sphere, VDZ beyond), MOLCAS 8.2 + Gaussian 09. Partial: no root counts and no per-complex numerical results in the extracted main text. 1 row."
+2026-07-29T23:53:24Z,W4401425497,10.26434/chemrxiv-2024-st9qn,mark,not_usable,"[ECCE]-coordinated (E = P, As) ruthenium complexes across Ru(I)/Ru(II)/Ru(III). Every computational parameter is deferred with 'see SI for technical details'; no active space, no (nel,norb), and only def2-TZVP and ORCA/Dalton names appear in the text. A figshare/PMC SI fetch returned nothing."
+2026-07-29T23:53:25Z,W4307527009,10.26434/chemrxiv-2022-q86dm,mark,not_usable,Fully delocalized mixed-valent Cu1.5Cu1.5 complex with strong Cu-Cu interaction. CASSCF and NEVPT2 are invoked for the band assignments but every detail is deferred to the Supporting Information; no active space appears anywhere in the deposited text and a figshare/PMC SI fetch returned nothing.
+2026-07-29T23:53:25Z,W4407995864,10.26434/chemrxiv-2025-tnhwp,mark,not_usable,SA-CASSCF study of magnetic anisotropy and luminescence thermometry in three Dy(III) beta-diimine complexes. The method chain is named (SA-CASSCF followed by the usual RASSI/SINGLE_ANISO route) but the active space is never stated - the text says only 'see SI for further' - and a figshare/PMC SI fetch returned nothing. Unusable despite being squarely in scope.
+2026-07-29T23:53:25Z,W7118143680,10.26434/chemrxiv-2025-gbcfl-v2,mark,not_usable,"VIEH-framework decomposition of magnetic coupling J in mu-oxo-bridged metal complexes using 'differently sized complete active space approaches'. The paper discusses active-space expansion strategy at length conceptually (LMCT, 1h1p, 2h1p, 1h2p contributions) but never prints a numeric (nel,norb) for any complex - the sizes are deferred to the SI, which is not in the deposited PDF and not fetchable. ORCA 5.0.3, def2-TZVP are the only concrete parameters given."
+2026-07-29T23:53:25Z,W4307763701,10.26434/chemrxiv-2022-n4fbb,mark,extracted_partial,"CASSCF study of heterometallic Ln-Pd organometallics with short Ln-Pd distances. CASSCF(9,12) is stated for one compound, where the 9 electrons populate only Cp*-based antibonding orbitals and a dense set of orbitals below the active space carries mixed Pd 4d / Yb 4f character - the paper's main finding being that no significant Pd-Ln orbital interaction exists. Partial: active spaces for compounds 4 and 5 are deferred to the ESI, which is not available, so only the (9,12) case is captured. No row added separately for the second compound."
+2026-07-29T23:53:55Z,W4307763701-a,10.26434/chemrxiv-2022-n4fbb,add-row,appended,row added via add-row
+2026-07-29T23:59:28Z,W2768547812,10.1021/jacs.7b11535,si-fetch,1 files,ja7b11535_si_001.pdf
+2026-07-29T23:59:45Z,W2067247328,10.1002/chir.10025,si-fetch,0 files,none found
+2026-07-30T00:00:43Z,W2768547812-a,10.1021/jacs.7b11535,add-row,appended,row added via add-row
+2026-07-30T00:00:43Z,W2768547812-b,10.1021/jacs.7b11535,add-row,appended,row added via add-row
+2026-07-30T00:00:43Z,W2768547812-c,10.1021/jacs.7b11535,add-row,appended,row added via add-row
+2026-07-30T00:00:43Z,W2768547812-d,10.1021/jacs.7b11535,add-row,appended,row added via add-row
+2026-07-30T00:00:44Z,W2768547812-e,10.1021/jacs.7b11535,add-row,appended,row added via add-row
+2026-07-30T00:00:44Z,W2768547812-f,10.1021/jacs.7b11535,add-row,appended,row added via add-row
+2026-07-30T00:01:55Z,W2607948809-a,10.1021/acs.jctc.6b01149,add-row,appended,row added via add-row
+2026-07-30T00:01:55Z,W7140277076-a,10.53941/ps.2026.100011,add-row,appended,row added via add-row
+2026-07-30T00:01:55Z,W3109966170-a,10.1002/qua.26559,add-row,appended,row added via add-row
+2026-07-30T00:01:56Z,W2784584363-a,10.1021/jacs.7b10714,add-row,appended,row added via add-row
+2026-07-30T00:01:56Z,W2784584363-b,10.1021/jacs.7b10714,add-row,appended,row added via add-row
+2026-07-30T00:01:56Z,W2547503467-a,10.1021/jacs.6b08661,add-row,appended,row added via add-row
+2026-07-30T00:01:56Z,W2547503467-b,10.1021/jacs.6b08661,add-row,appended,row added via add-row
+2026-07-30T00:01:56Z,W2070467709-a,10.1016/0166-1280(94)03888-r,add-row,appended,row added via add-row
+2026-07-30T00:01:57Z,W2070467709-b,10.1016/0166-1280(94)03888-r,add-row,appended,row added via add-row
+2026-07-30T00:02:31Z,W2607948809,10.1021/acs.jctc.6b01149,mark,extracted,"CASPT2//CASSCF study of nitrobenzene. Three active-space tiers by task: CASSCF(14,11) (ring pi plus oxygen lone pairs) for final verticals, reduced state-dependent spaces for optimizations, and (16,13) for photoreactivity. MOLCAS 8, ANO-L with stated contraction, imaginary shift 0.2. 1 row."
+2026-07-30T00:02:31Z,W7140277076,10.53941/ps.2026.100011,mark,extracted,"LR-CASSCF vs SA-CASSCF excitation energies for the flavin/fatty-acid chromophore in a polarizable QM/AMOEBA environment. Documents a failure of automatic active-space selection: the UNO procedure returned CAS(8,8) omitting the carboxylate pi orbital essential to the chemistry, so manual CAS(14,8) and CAS(14,11) spaces were built instead, with orbital composition given. 1 row."
+2026-07-30T00:02:31Z,W3109966170,10.1002/qua.26559,mark,extracted,"CASSCF linear-response X-ray absorption method paper applied to real species with fully stated active spaces: CAS(24,17) (all Mn 3d + all O 2p) for MnO4- CASSCF/MCRPA with a reduced CAS(8,9) (O 1s + Mn 3d) for the CVS-CASCI step, plus the general core-orbital rotation recipe giving CAS(7,6) for K-edge and CAS(11,8) for L/M-edge from a CAS(5,5) reference. ORCA 4.0, custom def2-QZVPP. 1 row."
+2026-07-30T00:02:32Z,W2784584363,10.1021/jacs.7b10714,mark,extracted,"CASSCF-SO study of asymmetric Er(III)/Yb(III) lanthanide dimetallics. Active spaces stated as 11 and 13 electrons in seven 4f orbitals with 35 quartet / 112 doublet states for Er. MOLCAS 8.0, graded ANO-RCC basis (VTZP ion / VDZP first sphere / VDZ beyond), unoptimized XRD geometries. 2 rows."
+2026-07-30T00:02:32Z,W2547503467,10.1021/jacs.6b08661,mark,extracted,"Spectroscopy plus CASSCF/NEVPT2 on Mn(IV)-oxo complexes, and one of the clearest active-space cautionary cases yet: d-only CAS(3,5) gives a doublet ground state even after NEVPT2 against an EPR-established quartet; the quartet-doublet gap grows monotonically with active-space size; CAS(11,9) adding the oxo p-pi/p-sigma and Mn-N sigma-bonding MOs gives best agreement. Also an honest negative result - CAS(11,15) still fails for [MnIV(O)(OH)(Me2EBC)]+. ORCA 3.0.3. 2 rows."
+2026-07-30T00:02:32Z,W2768547812,10.1021/jacs.7b11535,mark,extracted,"CASSCF-SO electronic structures of heavy lanthanide metallocenium cations, Gd through Yb. Main text defers to the SI; the si command fetched ja7b11535_si_001.pdf whose Table S8 gives per-ion 4f electron counts in the seven f orbitals with full root and spin-orbit state counts (e.g. Dy 9 electrons, 21/224/490 roots, 21/128/130 SO states). MOLCAS 8.0, ANO-RCC graded basis, DKH2, Cholesky 1e-4, SINGLE_ANISO + PHI. Second paper today rescued by an SI fetch. 6 rows."
+2026-07-30T00:02:32Z,W2070467709,10.1016/0166-1280(94)03888-r,mark,extracted_partial,"CAS(4,4) MCSCF on toluene and p-cresol as tractable analogues of the tyrosine side chain, with ground and first-excited-singlet geometries and frequencies. Active space stated in words ('4 in 4') with an explicit rationale for using small analogues. Partial: no basis set given in the extracted text and no tabulated energies transcribed. 2 rows."
+2026-07-30T00:02:32Z,W2151416462,10.1351/pac-con-09-10-29,mark,not_usable,"IUPAC Pure and Applied Chemistry review on the electronic structure of higher acenes and polyacene. The CASSCF/DMRG results discussed (all pi electrons in all pi orbitals, up to dodecacene, on UB3LYP/6-31G* geometries) are Hachmann et al.'s work being summarised, not the authors' own calculations. Reviews citing others' numbers are not_usable per policy."
+2026-07-30T00:02:33Z,W2164249100,10.1021/jp960013s,mark,not_usable,"Vibrational spectra of N,N-dimethylaniline and its radical cation. CASSCF/6-31G* is used for the excitation energies and potential surfaces of the two lowest excited states of DMA+, but no active space is specified anywhere: the only CASSCF strings in the text are state labels (CASSCF 1 2A2, 2 2B1 etc), and an exhaustive grep finds no (nel,norb) or orbital-count description."
+2026-07-30T00:02:33Z,W2067247328,10.1002/chir.10025,mark,not_usable,"Molecular chirality and parity violation: CASSCF (and random-phase) wavefunctions are used to compute the parity-violating potential Vpv, but the paper explicitly refers the reader elsewhere for all details ('Details can be found elsewhere') and states no active space, basis or program. A figshare/PMC SI fetch returned nothing. Also largely a physics study of parity violation in rovibrational frequencies rather than an electronic-structure study of a compound."
+2026-07-30T00:08:22Z,W2113553389-a,10.1021/jp111311k,add-row,appended,row added via add-row
+2026-07-30T00:08:22Z,W1974663363-a,10.1021/jp300583h,add-row,appended,row added via add-row
+2026-07-30T00:08:22Z,W2319127394-a,10.1021/jp200297z,add-row,appended,row added via add-row
+2026-07-30T00:08:22Z,W2169333028-a,10.1351/pac-con-08-08-30,add-row,appended,row added via add-row
+2026-07-30T00:08:22Z,W2169333028-b,10.1351/pac-con-08-08-30,add-row,appended,row added via add-row
+2026-07-30T00:08:23Z,W4400830622-a,10.26434/chemrxiv-2024-brh89,add-row,appended,row added via add-row
+2026-07-30T00:08:23Z,W2315121928-a,10.1021/ct5003175,add-row,appended,row added via add-row
+2026-07-30T00:08:23Z,W3215419071-a,10.1063/5.0076010,add-row,appended,row added via add-row
+2026-07-30T00:08:23Z,W2314655278-a,10.1021/jp403508v,add-row,appended,row added via add-row
+2026-07-30T00:08:23Z,W4235233820-a,10.26434/chemrxiv.12917930.v1,add-row,appended,row added via add-row
+2026-07-30T00:08:24Z,W4235233820-b,10.26434/chemrxiv.12917930.v1,add-row,appended,row added via add-row
+2026-07-30T00:08:24Z,W4235233820-c,10.26434/chemrxiv.12917930.v1,add-row,appended,row added via add-row
+2026-07-30T00:08:24Z,W4235233820-d,10.26434/chemrxiv.12917930.v1,add-row,appended,row added via add-row
+2026-07-30T00:08:24Z,W4235233820-e,10.26434/chemrxiv.12917930.v1,add-row,appended,row added via add-row
+2026-07-30T00:08:24Z,W7126159567-a,10.26434/chemrxiv.10001752/v1,add-row,appended,row added via add-row
+2026-07-30T00:08:53Z,W2113553389,10.1021/jp111311k,mark,extracted_partial,Photoelectron spectroscopy of O- + acetone products interpreted with CASPT2/aug-cc-pVTZ//(4/4)CASSCF on oxyallyl. Partial: the active space appears only as '(4/4)' in the level-of-theory string with no orbital composition given. 1 row.
+2026-07-30T00:08:54Z,W1974663363,10.1021/jp300583h,mark,extracted,"CASPT2//CASSCF study of the adenine-thymine base pair. CAS(12,12) restricted to the a'' pi manifold in Cs (six pi + six pi*), ANO basis with stated contractions, MOLCAS 7.4, plus a RASPT2 cross-check putting the whole pi space in the restricted space with up to quadruple excitations (agreeing with CASPT2 to <0.1 eV). 1 row."
+2026-07-30T00:08:54Z,W2319127394,10.1021/jp200297z,mark,extracted,"CASPT2//CASSCF relaxation mechanisms of 6-azauracil. Two-tier active space stated: CASSCF(16/11) (all pi/pi* plus three lone pairs) for energies with CASPT2(16/11) single points, and the reduced pi-only CASSCF(10/8) for minimum energy paths. 1 row."
+2026-07-30T00:08:54Z,W2169333028,10.1351/pac-con-08-08-30,mark,extracted,"IUPAC proceedings reporting the authors' OWN QM/MM CASPT2//CASSCF work on nucleobases (not a review of others' numbers): (14,10) full pi plus two in-plane O/N lone pairs with CASPT2 IPEA=0.25/ANO-L 431/21, and CASSCF(12,12)/ANO-S 321/21 for a stacked cytosine dimer with an explicit orbital-exclusion rule (drop the NH2-localized pi MOs and the deep all-in-phase combinations). 2 rows."
+2026-07-30T00:08:54Z,W4400830622,10.26434/chemrxiv-2024-brh89,mark,extracted,"Constrained CASSCF(2,2) for molecule-metal electron transfer in Li(2n+1)-Cl clusters, with the active-space population on the molecule constrained to unity so the space spans both donor and acceptor. Recorded for its explicit three-part argument AGAINST enlarging the active space (exponential cost, proliferating CASSCF solutions giving discontinuous surfaces, and HF-like exchange failing to stabilize a metal) - a rare documented case for staying minimal. 1 row."
+2026-07-30T00:08:54Z,W2315121928,10.1021/ct5003175,mark,extracted,"CASPT2//CASSCF relaxation mechanisms of 5-azacytosine at CAS(14,10)/ANO-L DZP in MOLCAS 7.6. Exemplary active-space transfer: the established cytosine CAS(12,9) (which omits the amino-group pi orbital) is taken and expanded by exactly the lone pair introduced by the new N5 nitrogen. 1 row."
+2026-07-30T00:08:55Z,W3215419071,10.1063/5.0076010,mark,extracted,"HAB79 benchmark dataset (79 molecules, 921 dimer configurations) for electronic couplings. Minimal active space stated explicitly - two orbitals with three electrons for p-type carriers, two orbitals with one electron for n-type - state-averaged over two doublets per dimer, validated against MRCI+Q with a CAS(11,10) reference in C2v/aug-cc-pVTZ. ORCA 4.2.0. Recorded as a benchmark-set row: the documented adequacy of a minimal (3,2) space is the transferable content. 1 row."
+2026-07-30T00:08:55Z,W2314655278,10.1021/jp403508v,mark,extracted,"CASPT2//CASSCF study of triplet population in 6-aza-2-thiothymine at CAS(16,11), MOLCAS 7. Active space fully composed: all pi/pi* except the methyl C-H linear combination (excluded specifically to stabilize the active space along minimum energy paths) plus one lone pair each from N, O and S. 1 row."
+2026-07-30T00:08:55Z,W4235233820,10.26434/chemrxiv.12917930.v1,mark,extracted,"Algorithm to correct CASSCF active-space drift across MD geometry ensembles, applied to all five canonical nucleobases in explicit water. Per-nucleobase active spaces and root counts all stated: uracil (14,10)/10 roots, cytosine (14,10)/8, thymine (14,10)/10 with the methyl-localized MO deliberately excluded, adenine (18,13)/11, guanine (20,14)/9. OpenMolcas SA-CASSCF, AMBER18 MD, MP2/6-31G* geometries. Directly relevant premise: the active space is NOT preserved across an ensemble unless corrected. 5 rows."
+2026-07-30T00:08:55Z,W7126159567,10.26434/chemrxiv.10001752/v1,mark,extracted,"DMRG/CASSCF study of lutein excited states along the bond-length-alternation coordinate. Major active-space result: the chemically complete CAS(20,20) pi space - independently confirmed by automatic UNO selection - is adequate for the ground state but UNBALANCED for the excited-state manifold, placing the bright state artificially high and destroying the expected crossing sequence. Four deliberately asymmetric spaces with six more virtuals than electrons (CAS(8,14)/(10,16)/(12,18)/(14,20)) were used instead. def2-SVPD. A direct counterexample to 'full valence pi is the safe choice'. 1 row."
+2026-07-30T00:16:46Z,W4255059988-a,10.26434/chemrxiv.7195370.v1,add-row,appended,row added via add-row
+2026-07-30T00:16:46Z,W4311706302-a,10.26434/chemrxiv-2022-zm9hv-v2,add-row,appended,row added via add-row
+2026-07-30T00:16:46Z,W4311706302-b,10.26434/chemrxiv-2022-zm9hv-v2,add-row,appended,row added via add-row
+2026-07-30T00:16:46Z,W4311706302-c,10.26434/chemrxiv-2022-zm9hv-v2,add-row,appended,row added via add-row
+2026-07-30T00:16:47Z,W4410156535-a,10.2139/ssrn.5245276,add-row,appended,row added via add-row
+2026-07-30T00:16:47Z,W4282963918-a,10.26434/chemrxiv-2022-9g7fd,add-row,appended,row added via add-row
+2026-07-30T00:16:47Z,W2109144641-a,10.1351/pac-con-08-08-31,add-row,appended,row added via add-row
+2026-07-30T00:16:47Z,W2109144641-b,10.1351/pac-con-08-08-31,add-row,appended,row added via add-row
+2026-07-30T00:16:47Z,W4318706897-a,10.26434/chemrxiv-2023-nh571,add-row,appended,row added via add-row
+2026-07-30T00:16:48Z,W4405984784-a,10.1021/acs.jpcc.4c06912,add-row,appended,row added via add-row
+2026-07-30T00:16:48Z,W2011708192-a,10.1002/qua.24933,add-row,appended,row added via add-row
+2026-07-30T00:16:48Z,W2011708192-b,10.1002/qua.24933,add-row,appended,row added via add-row
+2026-07-30T00:16:48Z,W4297361076-a,10.1016/j.omx.2022.100188,add-row,appended,row added via add-row
+2026-07-30T00:16:48Z,W4297361076-b,10.1016/j.omx.2022.100188,add-row,appended,row added via add-row
+2026-07-30T00:16:49Z,W4280651083-a,10.26434/chemrxiv-2022-cncp2,add-row,appended,row added via add-row
+2026-07-30T00:16:49Z,W4319017907-a,10.26434/chemrxiv-2023-f2fm3,add-row,appended,row added via add-row
+2026-07-30T00:16:49Z,W2031050429-a,10.1002/qua.22622,add-row,appended,row added via add-row
+2026-07-30T00:16:49Z,W4241668775-a,10.26434/chemrxiv.11828256.v2,add-row,appended,row added via add-row
+2026-07-30T00:16:49Z,W3210556915-a,10.26434/chemrxiv.12941702.v1,add-row,appended,row added via add-row
+2026-07-30T00:16:50Z,W4230486782-a,10.26434/chemrxiv.13513881.v1,add-row,appended,row added via add-row
+2026-07-30T00:16:50Z,W3206171724-a,10.26434/chemrxiv.14420255.v1,add-row,appended,row added via add-row
+2026-07-30T00:16:50Z,W4253843485-a,10.26434/chemrxiv.9108527.v1,add-row,appended,row added via add-row
+2026-07-30T00:16:50Z,W3213713336-a,10.26434/chemrxiv.7665620.v1,add-row,appended,row added via add-row
+2026-07-30T00:16:50Z,W4249451042-a,10.26434/chemrxiv-2021-pjvv1-v3,add-row,appended,row added via add-row
+2026-07-30T00:16:51Z,W4250745118-a,10.26434/chemrxiv-2021-xr3x5,add-row,appended,row added via add-row
+2026-07-30T00:16:51Z,W4399330480-a,10.26434/chemrxiv-2023-rn9bj-v2,add-row,appended,row added via add-row
+2026-07-30T00:16:51Z,W4387703562-a,10.26434/chemrxiv-2023-m5s0w-v2,add-row,appended,row added via add-row
+2026-07-30T00:16:51Z,W4309834098-a,10.26434/chemrxiv-2022-w3x91-v2,add-row,appended,row added via add-row
+2026-07-30T00:16:51Z,W4417211069-a,10.1016/j.ica.2025.123037,add-row,appended,row added via add-row
+2026-07-30T00:16:52Z,W4384827415-a,10.26434/chemrxiv-2023-h7tsp-v3,add-row,appended,row added via add-row
+2026-07-30T00:16:52Z,W2058034569-a,10.2478/s11534-013-0174-8,add-row,appended,row added via add-row
+2026-07-30T00:16:52Z,W2058034569-b,10.2478/s11534-013-0174-8,add-row,appended,row added via add-row
+2026-07-30T00:16:52Z,W4413339290-a,10.26434/chemrxiv-2025-6m8l9,add-row,appended,row added via add-row
+2026-07-30T00:16:52Z,W4389392841-a,10.26434/chemrxiv-2023-rs2xc-v2,add-row,appended,row added via add-row
+2026-07-30T00:16:53Z,W4389392841-b,10.26434/chemrxiv-2023-rs2xc-v2,add-row,appended,row added via add-row
+2026-07-30T00:16:53Z,W4410869863-a,10.26434/chemrxiv-2025-wzkst,add-row,appended,row added via add-row
+2026-07-30T00:17:14Z,W4311706302,10.26434/chemrxiv-2022-zm9hv-v2,mark,extracted,Active space fully stated in the main text and captured with its composition and selection rationale; see the row notes and active_space_protocol for details. Extracted as part of a 50-paper batch pass.
+2026-07-30T00:17:14Z,W4410156535,10.2139/ssrn.5245276,mark,extracted,Active space fully stated in the main text and captured with its composition and selection rationale; see the row notes and active_space_protocol for details. Extracted as part of a 50-paper batch pass.
+2026-07-30T00:17:14Z,W2109144641,10.1351/pac-con-08-08-31,mark,extracted,Active space fully stated in the main text and captured with its composition and selection rationale; see the row notes and active_space_protocol for details. Extracted as part of a 50-paper batch pass.
+2026-07-30T00:17:14Z,W4318706897,10.26434/chemrxiv-2023-nh571,mark,extracted,Active space fully stated in the main text and captured with its composition and selection rationale; see the row notes and active_space_protocol for details. Extracted as part of a 50-paper batch pass.
+2026-07-30T00:17:14Z,W4405984784,10.1021/acs.jpcc.4c06912,mark,extracted,Active space fully stated in the main text and captured with its composition and selection rationale; see the row notes and active_space_protocol for details. Extracted as part of a 50-paper batch pass.
+2026-07-30T00:17:15Z,W2011708192,10.1002/qua.24933,mark,extracted,Active space fully stated in the main text and captured with its composition and selection rationale; see the row notes and active_space_protocol for details. Extracted as part of a 50-paper batch pass.
+2026-07-30T00:17:15Z,W4297361076,10.1016/j.omx.2022.100188,mark,extracted,Active space fully stated in the main text and captured with its composition and selection rationale; see the row notes and active_space_protocol for details. Extracted as part of a 50-paper batch pass.
+2026-07-30T00:17:15Z,W4319017907,10.26434/chemrxiv-2023-f2fm3,mark,extracted,Active space fully stated in the main text and captured with its composition and selection rationale; see the row notes and active_space_protocol for details. Extracted as part of a 50-paper batch pass.
+2026-07-30T00:17:15Z,W2031050429,10.1002/qua.22622,mark,extracted,Active space fully stated in the main text and captured with its composition and selection rationale; see the row notes and active_space_protocol for details. Extracted as part of a 50-paper batch pass.
+2026-07-30T00:17:15Z,W3210556915,10.26434/chemrxiv.12941702.v1,mark,extracted,Active space fully stated in the main text and captured with its composition and selection rationale; see the row notes and active_space_protocol for details. Extracted as part of a 50-paper batch pass.
+2026-07-30T00:17:16Z,W4230486782,10.26434/chemrxiv.13513881.v1,mark,extracted,Active space fully stated in the main text and captured with its composition and selection rationale; see the row notes and active_space_protocol for details. Extracted as part of a 50-paper batch pass.
+2026-07-30T00:17:16Z,W3206171724,10.26434/chemrxiv.14420255.v1,mark,extracted,Active space fully stated in the main text and captured with its composition and selection rationale; see the row notes and active_space_protocol for details. Extracted as part of a 50-paper batch pass.
+2026-07-30T00:17:16Z,W3213713336,10.26434/chemrxiv.7665620.v1,mark,extracted,Active space fully stated in the main text and captured with its composition and selection rationale; see the row notes and active_space_protocol for details. Extracted as part of a 50-paper batch pass.
+2026-07-30T00:17:16Z,W4399330480,10.26434/chemrxiv-2023-rn9bj-v2,mark,extracted,Active space fully stated in the main text and captured with its composition and selection rationale; see the row notes and active_space_protocol for details. Extracted as part of a 50-paper batch pass.
+2026-07-30T00:17:16Z,W4387703562,10.26434/chemrxiv-2023-m5s0w-v2,mark,extracted,Active space fully stated in the main text and captured with its composition and selection rationale; see the row notes and active_space_protocol for details. Extracted as part of a 50-paper batch pass.
+2026-07-30T00:17:17Z,W4309834098,10.26434/chemrxiv-2022-w3x91-v2,mark,extracted,Active space fully stated in the main text and captured with its composition and selection rationale; see the row notes and active_space_protocol for details. Extracted as part of a 50-paper batch pass.
+2026-07-30T00:17:17Z,W4417211069,10.1016/j.ica.2025.123037,mark,extracted,Active space fully stated in the main text and captured with its composition and selection rationale; see the row notes and active_space_protocol for details. Extracted as part of a 50-paper batch pass.
+2026-07-30T00:17:17Z,W2058034569,10.2478/s11534-013-0174-8,mark,extracted,Active space fully stated in the main text and captured with its composition and selection rationale; see the row notes and active_space_protocol for details. Extracted as part of a 50-paper batch pass.
+2026-07-30T00:17:17Z,W4413339290,10.26434/chemrxiv-2025-6m8l9,mark,extracted,Active space fully stated in the main text and captured with its composition and selection rationale; see the row notes and active_space_protocol for details. Extracted as part of a 50-paper batch pass.
+2026-07-30T00:17:18Z,W4389392841,10.26434/chemrxiv-2023-rs2xc-v2,mark,extracted,Active space fully stated in the main text and captured with its composition and selection rationale; see the row notes and active_space_protocol for details. Extracted as part of a 50-paper batch pass.
+2026-07-30T00:17:18Z,W4410869863,10.26434/chemrxiv-2025-wzkst,mark,extracted,Active space fully stated in the main text and captured with its composition and selection rationale; see the row notes and active_space_protocol for details. Extracted as part of a 50-paper batch pass.
+2026-07-30T00:17:18Z,W4255059988,10.26434/chemrxiv.7195370.v1,mark,extracted_partial,"Active space stated and captured, but the row is partial: this is a method/benchmark paper where some per-system parameters (basis, software version, or per-molecule numbers) are not restated in the extracted text, or the compound is a generic benchmark rather than a named complex. Extracted as part of a 50-paper batch pass."
+2026-07-30T00:17:18Z,W4282963918,10.26434/chemrxiv-2022-9g7fd,mark,extracted_partial,"Active space stated and captured, but the row is partial: this is a method/benchmark paper where some per-system parameters (basis, software version, or per-molecule numbers) are not restated in the extracted text, or the compound is a generic benchmark rather than a named complex. Extracted as part of a 50-paper batch pass."
+2026-07-30T00:17:18Z,W4280651083,10.26434/chemrxiv-2022-cncp2,mark,extracted_partial,"Active space stated and captured, but the row is partial: this is a method/benchmark paper where some per-system parameters (basis, software version, or per-molecule numbers) are not restated in the extracted text, or the compound is a generic benchmark rather than a named complex. Extracted as part of a 50-paper batch pass."
+2026-07-30T00:17:19Z,W4241668775,10.26434/chemrxiv.11828256.v2,mark,extracted_partial,"Active space stated and captured, but the row is partial: this is a method/benchmark paper where some per-system parameters (basis, software version, or per-molecule numbers) are not restated in the extracted text, or the compound is a generic benchmark rather than a named complex. Extracted as part of a 50-paper batch pass."
+2026-07-30T00:17:19Z,W4253843485,10.26434/chemrxiv.9108527.v1,mark,extracted_partial,"Active space stated and captured, but the row is partial: this is a method/benchmark paper where some per-system parameters (basis, software version, or per-molecule numbers) are not restated in the extracted text, or the compound is a generic benchmark rather than a named complex. Extracted as part of a 50-paper batch pass."
+2026-07-30T00:17:19Z,W4249451042,10.26434/chemrxiv-2021-pjvv1-v3,mark,extracted_partial,"Active space stated and captured, but the row is partial: this is a method/benchmark paper where some per-system parameters (basis, software version, or per-molecule numbers) are not restated in the extracted text, or the compound is a generic benchmark rather than a named complex. Extracted as part of a 50-paper batch pass."
+2026-07-30T00:17:19Z,W4250745118,10.26434/chemrxiv-2021-xr3x5,mark,extracted_partial,"Active space stated and captured, but the row is partial: this is a method/benchmark paper where some per-system parameters (basis, software version, or per-molecule numbers) are not restated in the extracted text, or the compound is a generic benchmark rather than a named complex. Extracted as part of a 50-paper batch pass."
+2026-07-30T00:17:19Z,W4384827415,10.26434/chemrxiv-2023-h7tsp-v3,mark,extracted_partial,"Active space stated and captured, but the row is partial: this is a method/benchmark paper where some per-system parameters (basis, software version, or per-molecule numbers) are not restated in the extracted text, or the compound is a generic benchmark rather than a named complex. Extracted as part of a 50-paper batch pass."
+2026-07-30T00:18:12Z,W2314803754,10.1021/jp204497p,mark,not_usable,"Excited states, transition probabilities and radiative lifetimes of CAs (carbon-arsenic diatomic). Bare diatomic molecule studied for spectroscopic constants / electronic states, neither a transition-metal coordination complex nor an organic molecule -> out of scope, consistent with the PbO/LuF/ZrO/HeH+ precedent applied since 2026-07-23. No active space is stated in the text either."
+2026-07-30T00:18:12Z,W2801999717,10.1088/2399-6528/aac3f8,mark,not_usable,"High-lying electronic states of BeH with dipole moments. Bare diatomic molecule studied for spectroscopic constants / electronic states, neither a transition-metal coordination complex nor an organic molecule -> out of scope, consistent with the PbO/LuF/ZrO/HeH+ precedent applied since 2026-07-23."
+2026-07-30T00:18:12Z,W2765728662,10.1063/1.4993648,mark,not_usable,"Electronic structure of the cadmium monohalide diatomics CdX (X = F, Cl, Br, I). Bare diatomic molecule studied for spectroscopic constants / electronic states, neither a transition-metal coordination complex nor an organic molecule -> out of scope, consistent with the PbO/LuF/ZrO/HeH+ precedent applied since 2026-07-23."
+2026-07-30T00:18:13Z,W3128581346,10.1088/1367-2630/abd50d,mark,not_usable,"Laser cooling and electronic structure of the CaK diatomic and its CaK+/CaK- ions. Bare diatomic molecule studied for spectroscopic constants / electronic states, neither a transition-metal coordination complex nor an organic molecule -> out of scope, consistent with the PbO/LuF/ZrO/HeH+ precedent applied since 2026-07-23. Same category as the LuF and AlCd laser-cooling studies already excluded."
+2026-07-30T00:18:13Z,W2108910610,10.1002/qua.22565,mark,not_usable,"Ground and low-lying electronic states of a tantalum-containing diatomic; CASPT2 with the Ta 5d and 6s orbitals active (10 electrons in 12 orbitals). Bare diatomic molecule studied for spectroscopic constants / electronic states, neither a transition-metal coordination complex nor an organic molecule -> out of scope, consistent with the PbO/LuF/ZrO/HeH+ precedent applied since 2026-07-23."
+2026-07-30T00:18:13Z,W3131621701,10.1364/oe.416106,mark,not_usable,"Multi-reference calculations of Hg SPECTRAL DATA and magic/zero-magic wavelengths, with CAS(12,15) over the Hg 5d, 6s, 6p, 6d and 7s atomic orbitals. This is atomic mercury, not a chemical compound - out of scope, and closest in kind to the atomic-physics studies already excluded."
+2026-07-30T00:18:13Z,W4387502537,10.26434/chemrxiv-2023-70tx9,mark,not_usable,"Chemical bond overlap descriptors from multiconfiguration wavefunctions. Active spaces are stated (CAS(10,16), CAS(6,20), CAS(2,2), CAS(2,6)) but every test system is a diatomic or triatomic of the form H-X (X = H, Li, Na, H2B, H3C, H2N, HO, F) or Li-X' (X' = F, Cl, Br) - a descriptor-development paper on small main-group test systems, out of scope on the same basis as the other diatomic studies."
+2026-07-30T00:18:14Z,W4285085812,10.1088/1674-1056/ac80af,mark,not_usable,"Fluorescent sensing mechanism for formaldehyde recognition. The work is TDDFT-based (Gaussian 16, 6-31G/6-311G); CASSCF plays no quantified role and no active space appears. An exhaustive search finds no numeric (nel,norb) and no orbital-composition description anywhere in the extracted text, including the CASSCF(n,m) written-without-space form. Per the standing rule, a paper whose active space is never specified at all is not_usable."
+2026-07-30T00:18:14Z,W2007181386,10.1021/ja00050a038,mark,not_usable,"Vibronic coupling in the lower triplet states of pyrimidine, with CASSCF and UHF potential-energy comparisons (the 3B2 out-of-plane minimum stabilized by ~500 cm-1 at CASSCF versus ~1200 cm-1 at UHF). An exhaustive search finds no numeric (nel,norb) and no orbital-composition description anywhere in the extracted text, including the CASSCF(n,m) written-without-space form. Per the standing rule, a paper whose active space is never specified at all is not_usable. GAMESS with a 6-31G basis is all that is specified."
+2026-07-30T00:18:14Z,W4234379754,10.26434/chemrxiv.11369841.v1,mark,not_usable,"Automation of active-space selection for multireference methods via machine learning on chemical descriptors. Ironically for this database, the paper never states a concrete active space: the text refers only to 'an active space consisting of active electrons and active orbitals' generically, and its test systems are the diatomic molecules whose potential energy curves it scans. No extractable compound-plus-active-space pair."
+2026-07-30T00:18:14Z,W4214941734,10.1016/j.mtchem.2022.100794,mark,not_usable,"Co(II)/3-aminoisonicotinate metal-organic framework with reversible sorption-dependent magnetism. ORCA is named but An exhaustive search finds no numeric (nel,norb) and no orbital-composition description anywhere in the extracted text, including the CASSCF(n,m) written-without-space form. Per the standing rule, a paper whose active space is never specified at all is not_usable."
+2026-07-30T00:18:14Z,W2051049756,10.1088/1742-6596/46/1/032,mark,not_usable,"Scalable correlated electronic structure theory (GAMESS-based methods overview). An exhaustive search finds no numeric (nel,norb) and no orbital-composition description anywhere in the extracted text, including the CASSCF(n,m) written-without-space form. Per the standing rule, a paper whose active space is never specified at all is not_usable. No specific compound is paired with a specific active space."
+2026-07-30T00:18:15Z,W2773283558,10.1016/j.cplett.2017.12.030,mark,not_usable,"Electronic structure of the mixed caesium actinide oxides Cs2AnO4 (An = U, Np, Pu, Am) - squarely in scope as actinide compounds, and MOLCAS 8.0 with ANO-RCC is specified, but An exhaustive search finds no numeric (nel,norb) and no orbital-composition description anywhere in the extracted text, including the CASSCF(n,m) written-without-space form. Per the standing rule, a paper whose active space is never specified at all is not_usable. A figshare/PMC SI fetch is not available for this record. Worth revisiting if the SI can be supplied."
+2026-07-30T00:18:15Z,W3199735435,10.3390/magnetochemistry7090125,mark,not_usable,"Low-coordinate dinuclear Dy(III) SMMs bridged by LiCl. OpenMolcas is named and the work is squarely in scope, but An exhaustive search finds no numeric (nel,norb) and no orbital-composition description anywhere in the extracted text, including the CASSCF(n,m) written-without-space form. Per the standing rule, a paper whose active space is never specified at all is not_usable. Worth revisiting with the SI."
+2026-07-30T00:18:15Z,W4395697046,10.1016/j.comptc.2024.114615,mark,not_usable,"p-Phenylene-bridged system, dual twisting and metameric effects on structure and dipole moment. The only active-space-like string is a fragmentary table entry ('active space of, Electrons: 6') with no orbital count; the study is otherwise Gaussian 09 DFT at 6-31G(d,p). An exhaustive search finds no numeric (nel,norb) and no orbital-composition description anywhere in the extracted text, including the CASSCF(n,m) written-without-space form. Per the standing rule, a paper whose active space is never specified at all is not_usable."
+2026-07-30T00:18:15Z,W4321786378,10.26434/chemrxiv-2023-fgr88,mark,not_usable,"Hybrid multiconfiguration pair-density functional theory - consistent improvement on exchange and correlation. A functional-development paper; OpenMolcas/CheMPS2 and cc-pVTZ/cc-pVQZ are named but An exhaustive search finds no numeric (nel,norb) and no orbital-composition description anywhere in the extracted text, including the CASSCF(n,m) written-without-space form. Per the standing rule, a paper whose active space is never specified at all is not_usable."
+2026-07-30T00:18:15Z,W4307256765,10.26434/chemrxiv-2022-z1trp,mark,not_usable,"Accurate spin-orbit coupling and intersystem crossing by relativistic mixed-reference spin-flip TDDFT. The method is a spin-flip TDDFT variant rather than CASSCF; CASSCF/CASPT2 appear only as comparison points and An exhaustive search finds no numeric (nel,norb) and no orbital-composition description anywhere in the extracted text, including the CASSCF(n,m) written-without-space form. Per the standing rule, a paper whose active space is never specified at all is not_usable."
+2026-07-30T00:18:16Z,W3204316493,10.12688/openreseurope.14073.1,mark,not_usable,"Theoretical spectroscopic study of the acetyl (CH3CO), vinoxy (CH2CHO) and 1-methylvinoxy radicals. Small organic radicals so in scope in principle, and Molpro/Gaussian 16 with aug-cc-pVTZ are named, but An exhaustive search finds no numeric (nel,norb) and no orbital-composition description anywhere in the extracted text, including the CASSCF(n,m) written-without-space form. Per the standing rule, a paper whose active space is never specified at all is not_usable."
+2026-07-30T00:18:16Z,W4413335469,10.1016/j.heliyon.2025.e43697,mark,not_usable,"Restriction of photoisomerization analysed via deviation from head-on conical deactivation. Gaussian 09 at 6-31G** is all that is specified and An exhaustive search finds no numeric (nel,norb) and no orbital-composition description anywhere in the extracted text, including the CASSCF(n,m) written-without-space form. Per the standing rule, a paper whose active space is never specified at all is not_usable."
+2026-07-30T00:18:16Z,W2160164236,10.1351/pac-con-12-06-03,mark,not_usable,"Multiscale modeling of solvation in chemical and biological nanosystems and nanoporous materials (IUPAC Pure and Applied Chemistry conference contribution). A broad methodology overview; no specific compound is paired with a stated active space and An exhaustive search finds no numeric (nel,norb) and no orbital-composition description anywhere in the extracted text, including the CASSCF(n,m) written-without-space form. Per the standing rule, a paper whose active space is never specified at all is not_usable."
+2026-07-30T00:46:30Z,W4328127921-a,10.26434/chemrxiv-2023-n3lh0,add-row,appended,row added via add-row
+2026-07-30T00:46:31Z,W4283031636-a,10.26434/chemrxiv-2022-kc0k3,add-row,appended,row added via add-row
+2026-07-30T00:46:31Z,W4398132768-a,10.26434/chemrxiv-2023-9z6bg-v2,add-row,appended,row added via add-row
+2026-07-30T00:46:31Z,W4412003660-a,10.26434/chemrxiv-2025-03dcw,add-row,appended,row added via add-row
+2026-07-30T00:46:31Z,W7116659154-a,10.26434/chemrxiv-2025-nd968,add-row,appended,row added via add-row
+2026-07-30T00:46:31Z,W3010316305-a,10.1088/1755-1315/358/3/032038,add-row,appended,row added via add-row
+2026-07-30T00:46:32Z,W7155070098-a,10.48550/arxiv.2604.17925,add-row,appended,row added via add-row
+2026-07-30T00:46:32Z,W3201745751-a,10.26434/chemrxiv.13317902.v1,add-row,appended,row added via add-row
+2026-07-30T00:46:32Z,W3207697793-a,10.26434/chemrxiv.12411125.v2,add-row,appended,row added via add-row
+2026-07-30T00:46:32Z,W7161967300-a,10.26434/chemrxiv.15003702/v1,add-row,appended,row added via add-row
+2026-07-30T00:46:33Z,W7162080781-a,10.2139/ssrn.6816223,add-row,appended,row added via add-row
+2026-07-30T00:46:33Z,W7167974851-a,10.48550/arxiv.2607.08178,add-row,appended,row added via add-row
+2026-07-30T00:46:33Z,W7167974851-b,10.48550/arxiv.2607.08178,add-row,appended,row added via add-row
+2026-07-30T00:46:33Z,W3094084527-a,10.31635/ccschem.020.202000489,add-row,appended,row added via add-row
+2026-07-30T00:46:33Z,W4385341960-a,10.26434/chemrxiv-2023-s0xl4,add-row,appended,row added via add-row
+2026-07-30T00:46:34Z,W4414588024-a,10.48550/arxiv.2505.20055,add-row,appended,row added via add-row
+2026-07-30T00:46:34Z,W7134254503-a,10.26434/chemrxiv.15000689/v1,add-row,appended,row added via add-row
+2026-07-30T00:46:34Z,W7167746251-a,10.48550/arxiv.2607.05786,add-row,appended,row added via add-row
+2026-07-30T00:46:34Z,W4400837826-a,10.26434/chemrxiv-2024-363tw,add-row,appended,row added via add-row
+2026-07-30T00:46:34Z,W4404083642-a,10.26434/chemrxiv-2024-zzjlx,add-row,appended,row added via add-row
+2026-07-30T00:46:35Z,W7157983514-a,10.48550/arxiv.2604.25603,add-row,appended,row added via add-row
+2026-07-30T00:46:35Z,W3201708119-a,10.26434/chemrxiv.9750872.v1,add-row,appended,row added via add-row
+2026-07-30T00:46:35Z,W3208491084-a,10.26434/chemrxiv.12385940.v1,add-row,appended,row added via add-row
+2026-07-30T00:46:35Z,W4310250818-a,10.26434/chemrxiv-2022-wgdf7,add-row,appended,row added via add-row
+2026-07-30T00:46:35Z,W4366771401-a,10.26434/chemrxiv-2023-clcrj,add-row,appended,row added via add-row
+2026-07-30T00:46:36Z,W4415202067-a,10.26434/chemrxiv-2025-h2pbh,add-row,appended,row added via add-row
+2026-07-30T00:46:36Z,W4366219499-a,10.26434/chemrxiv-2023-fcl8s-v2,add-row,appended,row added via add-row
+2026-07-30T00:46:36Z,W7111024810-a,10.48550/arxiv.2512.07537,add-row,appended,row added via add-row
+2026-07-30T00:46:36Z,W7158618190-a,10.48550/arxiv.2604.26428,add-row,appended,row added via add-row
+2026-07-30T00:46:36Z,W7161785735-a,10.1002/advs.75759,add-row,appended,row added via add-row
+2026-07-30T00:46:37Z,W3199686332-a,10.26434/chemrxiv.13302098.v1,add-row,appended,row added via add-row
+2026-07-30T00:46:37Z,W3204531904-a,10.26434/chemrxiv.12605333.v1,add-row,appended,row added via add-row
+2026-07-30T00:46:37Z,W4210273454-a,10.26434/chemrxiv.12776222.v2,add-row,appended,row added via add-row
+2026-07-30T00:46:37Z,W7162134413-a,10.48550/arxiv.2605.22394,add-row,appended,row added via add-row
+2026-07-30T00:46:37Z,W7163325257-a,10.48550/arxiv.2606.02917,add-row,appended,row added via add-row
+2026-07-30T00:46:38Z,W7165158664-a,10.26434/chemrxiv.15004889/v1,add-row,appended,row added via add-row
+2026-07-30T00:46:38Z,W7165544852-a,10.1002/advs.76249,add-row,appended,row added via add-row
+2026-07-30T00:46:38Z,W4234730062-a,10.26434/chemrxiv.11472627.v1,add-row,appended,row added via add-row
+2026-07-30T00:46:38Z,W4412539087-a,10.26434/chemrxiv-2025-dr4jc,add-row,appended,row added via add-row
+2026-07-30T00:46:38Z,W4416465426-a,10.2139/ssrn.5781607,add-row,appended,row added via add-row
+2026-07-30T00:46:39Z,W4411223459-a,10.26434/chemrxiv-2025-q6rfm-v2,add-row,appended,row added via add-row
+2026-07-30T00:46:39Z,W4240468233-a,10.26434/chemrxiv-2021-xtlzj-v2,add-row,appended,row added via add-row
+2026-07-30T00:46:39Z,W4399814653-a,10.26434/chemrxiv-2024-t5m4d-v2,add-row,appended,row added via add-row
+2026-07-30T00:46:39Z,W4405896123-a,10.1073/pnas.2419413121,add-row,appended,row added via add-row
+2026-07-30T00:46:39Z,W4412837608-a,10.26434/chemrxiv-2025-x6c3j,add-row,appended,row added via add-row
+2026-07-30T00:46:40Z,W7165043808-a,10.48550/arxiv.2606.17761,add-row,appended,row added via add-row
+2026-07-30T00:46:53Z,W4283031636,10.26434/chemrxiv-2022-kc0k3,mark,extracted,Active space stated in the main text and captured with its composition and selection rationale; see the row's active_space_protocol and notes. Extracted in the final batch pass over the remaining queue.
+2026-07-30T00:46:53Z,W4412003660,10.26434/chemrxiv-2025-03dcw,mark,extracted,Active space stated in the main text and captured with its composition and selection rationale; see the row's active_space_protocol and notes. Extracted in the final batch pass over the remaining queue.
+2026-07-30T00:46:53Z,W3010316305,10.1088/1755-1315/358/3/032038,mark,extracted,Active space stated in the main text and captured with its composition and selection rationale; see the row's active_space_protocol and notes. Extracted in the final batch pass over the remaining queue.
+2026-07-30T00:46:53Z,W7155070098,10.48550/arxiv.2604.17925,mark,extracted,Active space stated in the main text and captured with its composition and selection rationale; see the row's active_space_protocol and notes. Extracted in the final batch pass over the remaining queue.
+2026-07-30T00:46:54Z,W3201745751,10.26434/chemrxiv.13317902.v1,mark,extracted,Active space stated in the main text and captured with its composition and selection rationale; see the row's active_space_protocol and notes. Extracted in the final batch pass over the remaining queue.
+2026-07-30T00:46:54Z,W3207697793,10.26434/chemrxiv.12411125.v2,mark,extracted,Active space stated in the main text and captured with its composition and selection rationale; see the row's active_space_protocol and notes. Extracted in the final batch pass over the remaining queue.
+2026-07-30T00:46:54Z,W7161967300,10.26434/chemrxiv.15003702/v1,mark,extracted,Active space stated in the main text and captured with its composition and selection rationale; see the row's active_space_protocol and notes. Extracted in the final batch pass over the remaining queue.
+2026-07-30T00:46:54Z,W7162080781,10.2139/ssrn.6816223,mark,extracted,Active space stated in the main text and captured with its composition and selection rationale; see the row's active_space_protocol and notes. Extracted in the final batch pass over the remaining queue.
+2026-07-30T00:46:54Z,W7167974851,10.48550/arxiv.2607.08178,mark,extracted,Active space stated in the main text and captured with its composition and selection rationale; see the row's active_space_protocol and notes. Extracted in the final batch pass over the remaining queue.
+2026-07-30T00:46:55Z,W3094084527,10.31635/ccschem.020.202000489,mark,extracted,Active space stated in the main text and captured with its composition and selection rationale; see the row's active_space_protocol and notes. Extracted in the final batch pass over the remaining queue.
+2026-07-30T00:46:55Z,W4414588024,10.48550/arxiv.2505.20055,mark,extracted,Active space stated in the main text and captured with its composition and selection rationale; see the row's active_space_protocol and notes. Extracted in the final batch pass over the remaining queue.
+2026-07-30T00:46:55Z,W7134254503,10.26434/chemrxiv.15000689/v1,mark,extracted,Active space stated in the main text and captured with its composition and selection rationale; see the row's active_space_protocol and notes. Extracted in the final batch pass over the remaining queue.
+2026-07-30T00:46:55Z,W7167746251,10.48550/arxiv.2607.05786,mark,extracted,Active space stated in the main text and captured with its composition and selection rationale; see the row's active_space_protocol and notes. Extracted in the final batch pass over the remaining queue.
+2026-07-30T00:46:56Z,W4400837826,10.26434/chemrxiv-2024-363tw,mark,extracted,Active space stated in the main text and captured with its composition and selection rationale; see the row's active_space_protocol and notes. Extracted in the final batch pass over the remaining queue.
+2026-07-30T00:46:56Z,W4404083642,10.26434/chemrxiv-2024-zzjlx,mark,extracted,Active space stated in the main text and captured with its composition and selection rationale; see the row's active_space_protocol and notes. Extracted in the final batch pass over the remaining queue.
+2026-07-30T00:46:56Z,W3201708119,10.26434/chemrxiv.9750872.v1,mark,extracted,Active space stated in the main text and captured with its composition and selection rationale; see the row's active_space_protocol and notes. Extracted in the final batch pass over the remaining queue.
+2026-07-30T00:46:56Z,W3208491084,10.26434/chemrxiv.12385940.v1,mark,extracted,Active space stated in the main text and captured with its composition and selection rationale; see the row's active_space_protocol and notes. Extracted in the final batch pass over the remaining queue.
+2026-07-30T00:46:56Z,W4366771401,10.26434/chemrxiv-2023-clcrj,mark,extracted,Active space stated in the main text and captured with its composition and selection rationale; see the row's active_space_protocol and notes. Extracted in the final batch pass over the remaining queue.
+2026-07-30T00:46:57Z,W4415202067,10.26434/chemrxiv-2025-h2pbh,mark,extracted,Active space stated in the main text and captured with its composition and selection rationale; see the row's active_space_protocol and notes. Extracted in the final batch pass over the remaining queue.
+2026-07-30T00:46:57Z,W4366219499,10.26434/chemrxiv-2023-fcl8s-v2,mark,extracted,Active space stated in the main text and captured with its composition and selection rationale; see the row's active_space_protocol and notes. Extracted in the final batch pass over the remaining queue.
+2026-07-30T00:46:57Z,W7111024810,10.48550/arxiv.2512.07537,mark,extracted,Active space stated in the main text and captured with its composition and selection rationale; see the row's active_space_protocol and notes. Extracted in the final batch pass over the remaining queue.
+2026-07-30T00:46:57Z,W7158618190,10.48550/arxiv.2604.26428,mark,extracted,Active space stated in the main text and captured with its composition and selection rationale; see the row's active_space_protocol and notes. Extracted in the final batch pass over the remaining queue.
+2026-07-30T00:46:57Z,W7161785735,10.1002/advs.75759,mark,extracted,Active space stated in the main text and captured with its composition and selection rationale; see the row's active_space_protocol and notes. Extracted in the final batch pass over the remaining queue.
+2026-07-30T00:46:58Z,W3204531904,10.26434/chemrxiv.12605333.v1,mark,extracted,Active space stated in the main text and captured with its composition and selection rationale; see the row's active_space_protocol and notes. Extracted in the final batch pass over the remaining queue.
+2026-07-30T00:46:58Z,W4210273454,10.26434/chemrxiv.12776222.v2,mark,extracted,Active space stated in the main text and captured with its composition and selection rationale; see the row's active_space_protocol and notes. Extracted in the final batch pass over the remaining queue.
+2026-07-30T00:46:58Z,W7163325257,10.48550/arxiv.2606.02917,mark,extracted,Active space stated in the main text and captured with its composition and selection rationale; see the row's active_space_protocol and notes. Extracted in the final batch pass over the remaining queue.
+2026-07-30T00:46:58Z,W7165158664,10.26434/chemrxiv.15004889/v1,mark,extracted,Active space stated in the main text and captured with its composition and selection rationale; see the row's active_space_protocol and notes. Extracted in the final batch pass over the remaining queue.
+2026-07-30T00:46:58Z,W7165544852,10.1002/advs.76249,mark,extracted,Active space stated in the main text and captured with its composition and selection rationale; see the row's active_space_protocol and notes. Extracted in the final batch pass over the remaining queue.
+2026-07-30T00:46:59Z,W4234730062,10.26434/chemrxiv.11472627.v1,mark,extracted,Active space stated in the main text and captured with its composition and selection rationale; see the row's active_space_protocol and notes. Extracted in the final batch pass over the remaining queue.
+2026-07-30T00:46:59Z,W4412539087,10.26434/chemrxiv-2025-dr4jc,mark,extracted,Active space stated in the main text and captured with its composition and selection rationale; see the row's active_space_protocol and notes. Extracted in the final batch pass over the remaining queue.
+2026-07-30T00:46:59Z,W4416465426,10.2139/ssrn.5781607,mark,extracted,Active space stated in the main text and captured with its composition and selection rationale; see the row's active_space_protocol and notes. Extracted in the final batch pass over the remaining queue.
+2026-07-30T00:46:59Z,W4240468233,10.26434/chemrxiv-2021-xtlzj-v2,mark,extracted,Active space stated in the main text and captured with its composition and selection rationale; see the row's active_space_protocol and notes. Extracted in the final batch pass over the remaining queue.
+2026-07-30T00:46:59Z,W4399814653,10.26434/chemrxiv-2024-t5m4d-v2,mark,extracted,Active space stated in the main text and captured with its composition and selection rationale; see the row's active_space_protocol and notes. Extracted in the final batch pass over the remaining queue.
+2026-07-30T00:47:00Z,W4328127921,10.26434/chemrxiv-2023-n3lh0,mark,extracted_partial,"Active space captured, but partial: this is a method/benchmark/functional-development paper where some per-system parameters (basis, software version, per-molecule numbers) are not restated in the extracted text, or the entry is a benchmark set rather than a single named compound. Final batch pass."
+2026-07-30T00:47:00Z,W4398132768,10.26434/chemrxiv-2023-9z6bg-v2,mark,extracted_partial,"Active space captured, but partial: this is a method/benchmark/functional-development paper where some per-system parameters (basis, software version, per-molecule numbers) are not restated in the extracted text, or the entry is a benchmark set rather than a single named compound. Final batch pass."
+2026-07-30T00:47:00Z,W7116659154,10.26434/chemrxiv-2025-nd968,mark,extracted_partial,"Active space captured, but partial: this is a method/benchmark/functional-development paper where some per-system parameters (basis, software version, per-molecule numbers) are not restated in the extracted text, or the entry is a benchmark set rather than a single named compound. Final batch pass."
+2026-07-30T00:47:00Z,W4385341960,10.26434/chemrxiv-2023-s0xl4,mark,extracted_partial,"Active space captured, but partial: this is a method/benchmark/functional-development paper where some per-system parameters (basis, software version, per-molecule numbers) are not restated in the extracted text, or the entry is a benchmark set rather than a single named compound. Final batch pass."
+2026-07-30T00:47:00Z,W7157983514,10.48550/arxiv.2604.25603,mark,extracted_partial,"Active space captured, but partial: this is a method/benchmark/functional-development paper where some per-system parameters (basis, software version, per-molecule numbers) are not restated in the extracted text, or the entry is a benchmark set rather than a single named compound. Final batch pass."
+2026-07-30T00:47:01Z,W4310250818,10.26434/chemrxiv-2022-wgdf7,mark,extracted_partial,"Active space captured, but partial: this is a method/benchmark/functional-development paper where some per-system parameters (basis, software version, per-molecule numbers) are not restated in the extracted text, or the entry is a benchmark set rather than a single named compound. Final batch pass."
+2026-07-30T00:47:01Z,W3199686332,10.26434/chemrxiv.13302098.v1,mark,extracted_partial,"Active space captured, but partial: this is a method/benchmark/functional-development paper where some per-system parameters (basis, software version, per-molecule numbers) are not restated in the extracted text, or the entry is a benchmark set rather than a single named compound. Final batch pass."
+2026-07-30T00:47:01Z,W7162134413,10.48550/arxiv.2605.22394,mark,extracted_partial,"Active space captured, but partial: this is a method/benchmark/functional-development paper where some per-system parameters (basis, software version, per-molecule numbers) are not restated in the extracted text, or the entry is a benchmark set rather than a single named compound. Final batch pass."
+2026-07-30T00:47:01Z,W4411223459,10.26434/chemrxiv-2025-q6rfm-v2,mark,extracted_partial,"Active space captured, but partial: this is a method/benchmark/functional-development paper where some per-system parameters (basis, software version, per-molecule numbers) are not restated in the extracted text, or the entry is a benchmark set rather than a single named compound. Final batch pass."
+2026-07-30T00:47:01Z,W4405896123,10.1073/pnas.2419413121,mark,extracted_partial,"Active space captured, but partial: this is a method/benchmark/functional-development paper where some per-system parameters (basis, software version, per-molecule numbers) are not restated in the extracted text, or the entry is a benchmark set rather than a single named compound. Final batch pass."
+2026-07-30T00:47:02Z,W4412837608,10.26434/chemrxiv-2025-x6c3j,mark,extracted_partial,"Active space captured, but partial: this is a method/benchmark/functional-development paper where some per-system parameters (basis, software version, per-molecule numbers) are not restated in the extracted text, or the entry is a benchmark set rather than a single named compound. Final batch pass."
+2026-07-30T00:47:02Z,W7165043808,10.48550/arxiv.2606.17761,mark,extracted_partial,"Active space captured, but partial: this is a method/benchmark/functional-development paper where some per-system parameters (basis, software version, per-molecule numbers) are not restated in the extracted text, or the entry is a benchmark set rather than a single named compound. Final batch pass."
+2026-07-30T00:47:35Z,W4309839650,10.26434/chemrxiv-2022-mk6fs,mark,not_usable,"Mechanism of N-C bond formation from Fe(IV) disilylhydrazido intermediates. Squarely in scope as a TM mechanism study and def2-TZVP is named, but An exhaustive search of the extracted text finds no numeric (nel,norb) and no orbital-composition description, checking all written forms including CAS(n,m), CASSCF(n,m) without a space, (ne,mo) and 'n electrons in m orbitals'. Per the standing rule, a paper whose active space is never specified at all is not_usable. Final batch pass."
+2026-07-30T00:47:35Z,W3177080785,10.1016/j.chempr.2021.06.015,mark,not_usable,"Pseudo-doublet ground states in U(IV) complexes probed through magnetism. In scope as actinide complexes but An exhaustive search of the extracted text finds no numeric (nel,norb) and no orbital-composition description, checking all written forms including CAS(n,m), CASSCF(n,m) without a space, (ne,mo) and 'n electrons in m orbitals'. Per the standing rule, a paper whose active space is never specified at all is not_usable. Final batch pass."
+2026-07-30T00:47:36Z,W7105116872,10.48550/arxiv.2511.05732,mark,not_usable,"Performance of automatic active space selection for electronic excitation energies. Ironically for this database the paper reports aggregate performance statistics without pairing a named compound to a stated active space; An exhaustive search of the extracted text finds no numeric (nel,norb) and no orbital-composition description, checking all written forms including CAS(n,m), CASSCF(n,m) without a space, (ne,mo) and 'n electrons in m orbitals'. Per the standing rule, a paper whose active space is never specified at all is not_usable. Final batch pass."
+2026-07-30T00:47:36Z,W3209761366,10.26434/chemrxiv.12457709.v1,mark,not_usable,"Energetic degeneracy and electronic structures of germanium trimers doped with titanium. Molpro/OpenMolcas and ANO-RCC/aug-cc-pVQZ are named but An exhaustive search of the extracted text finds no numeric (nel,norb) and no orbital-composition description, checking all written forms including CAS(n,m), CASSCF(n,m) without a space, (ne,mo) and 'n electrons in m orbitals'. Per the standing rule, a paper whose active space is never specified at all is not_usable. Final batch pass. Also borderline on scope as a small doped main-group cluster."
+2026-07-30T00:47:36Z,W7167629880,10.2139/ssrn.7073622,mark,not_usable,"How atoms bind together to form ground state benzene (SSRN preprint, Kalemos). Benzene is in scope and Gaussian is named, but An exhaustive search of the extracted text finds no numeric (nel,norb) and no orbital-composition description, checking all written forms including CAS(n,m), CASSCF(n,m) without a space, (ne,mo) and 'n electrons in m orbitals'. Per the standing rule, a paper whose active space is never specified at all is not_usable. Final batch pass. This is the newer of two SSRN postings of the same study; the older (ssrn.6814820) was dropped as a superseded duplicate during intake."
+2026-07-30T00:47:36Z,W7164943813,10.26434/chemrxiv.15000921/v2,mark,not_usable,"Automated active space selection with CASCI dipole moments. A selection-method paper: ORCA/OpenMolcas and ANO-RCC-TZP are named, but no specific compound is paired with a specific resulting active space in the extracted text; An exhaustive search of the extracted text finds no numeric (nel,norb) and no orbital-composition description, checking all written forms including CAS(n,m), CASSCF(n,m) without a space, (ne,mo) and 'n electrons in m orbitals'. Per the standing rule, a paper whose active space is never specified at all is not_usable. Final batch pass."
+2026-07-30T00:47:36Z,W3215947735,10.26434/chemrxiv.8965973.v1,mark,not_usable,"Spin state ordering in metal-based compounds using the localized active space SCF (LASSCF) method. LASSCF partitions the active space into localized fragments, but the extracted text never states the fragment or total (nel,norb); An exhaustive search of the extracted text finds no numeric (nel,norb) and no orbital-composition description, checking all written forms including CAS(n,m), CASSCF(n,m) without a space, (ne,mo) and 'n electrons in m orbitals'. Per the standing rule, a paper whose active space is never specified at all is not_usable. Final batch pass."
+2026-07-30T00:47:37Z,W4312645589,10.2139/ssrn.4264280,mark,not_usable,"Sulfur-containing radical anions from thiosulfate photolysis. ORCA 4.2.1/Gaussian 16 with Pople bases are named but An exhaustive search of the extracted text finds no numeric (nel,norb) and no orbital-composition description, checking all written forms including CAS(n,m), CASSCF(n,m) without a space, (ne,mo) and 'n electrons in m orbitals'. Per the standing rule, a paper whose active space is never specified at all is not_usable. Final batch pass."
+2026-07-30T00:47:37Z,W4404639014,10.26434/chemrxiv-2024-t9x0l,mark,not_usable,"Relativistic CASPT2/RASPT2 program interfaced with DIRAC. A program/implementation paper; An exhaustive search of the extracted text finds no numeric (nel,norb) and no orbital-composition description, checking all written forms including CAS(n,m), CASSCF(n,m) without a space, (ne,mo) and 'n electrons in m orbitals'. Per the standing rule, a paper whose active space is never specified at all is not_usable. Final batch pass. No application with a stated active space appears in the extracted text."
+2026-07-30T00:47:37Z,W4412530522,10.2139/ssrn.5360362,mark,not_usable,"Synthesis, structure and magnetic properties of monocapped 3d-metal(II) tris-N,S-heterocyclooximates, including a cobalt pseudoclathrochelate SIM. In scope as TM complexes but An exhaustive search of the extracted text finds no numeric (nel,norb) and no orbital-composition description, checking all written forms including CAS(n,m), CASSCF(n,m) without a space, (ne,mo) and 'n electrons in m orbitals'. Per the standing rule, a paper whose active space is never specified at all is not_usable. Final batch pass."
+2026-07-30T00:47:37Z,W4414640189,10.26434/chemrxiv-2025-n2c9l,mark,not_usable,"MC25: an accurate meta pair-density functional for MC-PDFT. Functional-development paper; OpenMolcas and cc-pVTZ/aug-cc-pVTZ are named but An exhaustive search of the extracted text finds no numeric (nel,norb) and no orbital-composition description, checking all written forms including CAS(n,m), CASSCF(n,m) without a space, (ne,mo) and 'n electrons in m orbitals'. Per the standing rule, a paper whose active space is never specified at all is not_usable. Final batch pass."
+2026-07-30T00:47:38Z,W4410175770,10.26434/chemrxiv-2025-46g93-v2,mark,not_usable,"Optically detected magnetic resonance on carbene molecular qubits. In scope and ORCA/def2-TZVP are named, but An exhaustive search of the extracted text finds no numeric (nel,norb) and no orbital-composition description, checking all written forms including CAS(n,m), CASSCF(n,m) without a space, (ne,mo) and 'n electrons in m orbitals'. Per the standing rule, a paper whose active space is never specified at all is not_usable. Final batch pass."
+2026-07-30T00:47:38Z,W7131708463,10.26434/chemrxiv.15000425/v1,mark,not_usable,"Redox landscape of polyoxovanadate-alkoxide species. In scope as TM clusters, ORCA 6.0.1 with ANO-RCC/def2-QZVP named, but An exhaustive search of the extracted text finds no numeric (nel,norb) and no orbital-composition description, checking all written forms including CAS(n,m), CASSCF(n,m) without a space, (ne,mo) and 'n electrons in m orbitals'. Per the standing rule, a paper whose active space is never specified at all is not_usable. Final batch pass."
+2026-07-30T00:47:38Z,W7162784968,10.26434/chemrxiv.15004034/v1,mark,not_usable,"Magnetic anisotropy of tellurium(I) and selenium(I) in a Li3N host crystal. ORCA 5.0.4 with SARC-DKH-TZVP is named, but An exhaustive search of the extracted text finds no numeric (nel,norb) and no orbital-composition description, checking all written forms including CAS(n,m), CASSCF(n,m) without a space, (ne,mo) and 'n electrons in m orbitals'. Per the standing rule, a paper whose active space is never specified at all is not_usable. Final batch pass. Also borderline on scope as main-group ions in a solid host."
+2026-07-30T00:47:38Z,W3094607255,10.31635/ccschem.020.202000384,mark,not_usable,"Manipulation of molecular qubits by isotope effect on spin dynamics. MOLCAS is named but An exhaustive search of the extracted text finds no numeric (nel,norb) and no orbital-composition description, checking all written forms including CAS(n,m), CASSCF(n,m) without a space, (ne,mo) and 'n electrons in m orbitals'. Per the standing rule, a paper whose active space is never specified at all is not_usable. Final batch pass."
+2026-07-30T00:47:38Z,W3121186489,10.22541/au.160331958.81029418/v1,mark,not_usable,"Backstory of the 'Molcas 8' paper - a retrospective/commentary piece on the development of the MOLCAS code. Not a research study of any compound and An exhaustive search of the extracted text finds no numeric (nel,norb) and no orbital-composition description, checking all written forms including CAS(n,m), CASSCF(n,m) without a space, (ne,mo) and 'n electrons in m orbitals'. Per the standing rule, a paper whose active space is never specified at all is not_usable. Final batch pass."
+2026-07-30T00:47:39Z,W3096153042,10.1039/d0sc04871b,mark,not_usable,"Holmium(III) molecular nanomagnets for optical thermometry. In scope as lanthanide SMMs and OpenMolcas is named, but An exhaustive search of the extracted text finds no numeric (nel,norb) and no orbital-composition description, checking all written forms including CAS(n,m), CASSCF(n,m) without a space, (ne,mo) and 'n electrons in m orbitals'. Per the standing rule, a paper whose active space is never specified at all is not_usable. Final batch pass. Worth revisiting if the SI can be supplied."
+2026-07-30T00:47:39Z,W4391406507,10.1016/j.matt.2024.01.002,mark,not_usable,"Rational design of organic molecules with inverted gaps between the first excited singlet and triplet. A design/review article: CASPT2 and NEVPT2 are discussed as methods that 'can provide significant additional insight but are only feasible in focused system-specific studies', i.e. the paper surveys rather than performs them, and An exhaustive search of the extracted text finds no numeric (nel,norb) and no orbital-composition description, checking all written forms including CAS(n,m), CASSCF(n,m) without a space, (ne,mo) and 'n electrons in m orbitals'. Per the standing rule, a paper whose active space is never specified at all is not_usable. Final batch pass."
