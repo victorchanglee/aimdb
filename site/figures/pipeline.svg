@@ -92,7 +92,7 @@
 
 <rect x="610.0" y="850.0" width="420" height="90" rx="12" fill="#eef0f4" stroke="#5b6472" stroke-width="1.6"/>
 <text x="820" y="889.4" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.5" font-weight="700" fill="#1a1d24">aimdb.csv</text>
-<text x="820" y="910.9" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="15.5" font-weight="400" fill="#1a1d24">1,251 rows · 745 papers (append-only)</text>
+<text x="820" y="910.9" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="15.5" font-weight="400" fill="#1a1d24">1,329 rows · 780 papers (append-only)</text>
 
 <line x1="820.0" y1="800.0" x2="820.0" y2="850.0" stroke="#5b6472" stroke-width="1.8" marker-end="url(#arrow)"/>
 

@@ -170,7 +170,7 @@ svg.append(edge(F, G, label="merged back", label_side="above"))
 svg.append(edge(D, LOG, dashed=True, color="#9aa1ad", marker="url(#arrow-gray)"))
 svg.append(edge(G, LOG, dashed=True, color="#9aa1ad", marker="url(#arrow-gray)"))
 
-svg.append(box_svg(I, ["aimdb.csv", "1,251 rows · 745 papers (append-only)"],
+svg.append(box_svg(I, ["aimdb.csv", "1,329 rows · 780 papers (append-only)"],
                     GRAY_FILL, GRAY_STROKE, bold_first=True))
 svg.append(edge(G, I))
 
