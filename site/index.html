@@ -203,7 +203,7 @@
 <div id="view-home">
 <div class="hero" id="hero">
   <a class="logo" href="#" id="heroLogoLink">AIMdb</a>
-  <div class="tagline">Artificial Intelligence multireference database</div>
+  <div class="tagline">Artificial Intelligence Multiconfigurational database</div>
 </div>
 <div class="wrap">
   <div class="controls">
@@ -510,13 +510,13 @@
     </tr></thead>
     <tbody id="tbody"></tbody>
   </table>
-  <div class="stats" id="stats">1251 multireference calculations · 74 elements · last update 2026-07-31</div>
+  <div class="stats" id="stats">1251 multiconfigurational calculations · 74 elements · last update 2026-07-31</div>
 </div>
 </div><!-- /view-home -->
 
 <div class="view-panel" id="view-dataset" hidden="">
   <h2>Dataset</h2>
-  <p>The dataset is comprised a set of multireference quantum chemistry calculations from open-access literature mined using large languange models (LLMs).</p>
+  <p>The dataset is comprised a set of multiconfigurational quantum chemistry calculations from open-access literature mined using large languange models (LLMs).</p>
   <p>Current statistics of the database are:</p>
   <div class="stat-grid">
     <div class="stat-card"><div class="num" id="dsCompounds">1251</div><div class="lbl">compound entries</div></div>
@@ -534,11 +534,11 @@
 <div class="view-panel" id="view-cite" hidden="">
   <h2>How to cite</h2>
   <p>If AIMdb was useful in your work, please cite it as:</p>
-  <div class="code-block" id="citeText">Lee, V. C. AIMdb: an AI-mined database of CASSCF-family multireference calculations. <span id="citeYear">2026</span>. https://github.com/victorchanglee/aimdb</div>
+  <div class="code-block" id="citeText">Lee, V. C. AIMdb: an AI-mined database of CASSCF-family multiconfigurational calculations. <span id="citeYear">2026</span>. https://github.com/victorchanglee/aimdb</div>
   <button class="copy-btn" data-target="citeText">Copy</button>
   <div class="code-block" id="citeBibtex">@misc{aimdb,
   author       = {Lee, Victor Chang},
-  title        = {{AIMdb}: An {AI}-mined database of {CASSCF}-family multireference calculations},
+  title        = {{AIMdb}: An {AI}-mined database of {CASSCF}-family multiconfigurational calculations},
   year         = {<span id="citeYearBib">2026</span>},
   howpublished = {\url{https://github.com/victorchanglee/aimdb}}
 }</div>
@@ -1146,7 +1146,7 @@ if(!window.LIT){
   $("#emptyState").textContent = "Could not load data.js — run: python3 site/build_site.py";
 } else {
   $("#stats").textContent =
-    `${DATA.length} multireference calculations · ${elOrder.length} elements · last update ${window.LIT.generated}`;
+    `${DATA.length} multiconfigurational calculations · ${elOrder.length} elements · last update ${window.LIT.generated}`;
   renderChips();
   renderCorrChips();
   renderTypeChips();
