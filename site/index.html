@@ -196,6 +196,7 @@
   <button class="nav-item" type="button" data-view="dataset">Dataset</button>
   <button class="nav-item" type="button" data-view="contribute">How to contribute</button>
   <button class="nav-item" type="button" data-view="cite">How to cite</button>
+  <button class="nav-item" type="button" data-view="acknowledgments">Acknowledgments</button>
   <button class="nav-item" type="button" data-view="license">License</button>
 </nav>
 
@@ -543,6 +544,48 @@
   howpublished = {\url{https://github.com/victorchanglee/aimdb}}
 }</div>
   <button class="copy-btn" data-target="citeBibtex">Copy</button>
+</div>
+
+<div class="view-panel" id="view-acknowledgments" hidden="">
+  <h2>Acknowledgments</h2>
+  <p class="view-sub">AIMdb is built entirely on work done by others.</p>
+
+  <p><strong>The authors of the source literature.</strong> Every row in this
+database is a number that someone else computed, checked, and published. AIMdb
+records those results and points back to them; it does not produce any of its
+own. Each entry carries the DOI of the paper it came from, and anyone using a
+value from AIMdb should read and cite that paper.</p>
+
+  <p><strong>Open-access publishing.</strong> This database exists only because
+the papers behind it were made openly available. Entries were located and
+retrieved through the <a href="https://openalex.org" target="_blank" rel="noopener">OpenAlex</a>
+API and downloaded solely from the open-access locations it reports. Where a
+paper's computational details lived in supporting information, that SI was
+retrieved from <a href="https://figshare.com" target="_blank" rel="noopener">figshare</a>
+or the <a href="https://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/" target="_blank" rel="noopener">PMC Open Access Subset</a>.
+Papers whose active spaces were stated only in unreachable supporting
+information could not be included — an argument for depositing computational
+details somewhere open.</p>
+
+  <p><strong>Extraction.</strong> The mechanical pipeline — search, download,
+text extraction, schema validation — is a small Python package in this
+repository. The judgment work, deciding whether a paper reports a usable
+calculation and reading the active space, method, and basis out of its prose,
+was performed by <a href="https://claude.com/claude-code" target="_blank" rel="noopener">Claude Code</a>
+following the policy in <code>CLAUDE.md</code>. Every extraction is logged with
+its reasoning in <code>logs/extractions.csv</code>, and fields the source paper
+does not state are left empty rather than inferred.</p>
+
+  <p><strong>Software.</strong> The calculations recorded here were performed
+with the quantum-chemistry packages named in each entry — most often MOLCAS and
+OpenMolcas, Gaussian, ORCA, MOLPRO and CFOUR, and also PySCF, Turbomole, GAMESS,
+Dalton, BAGEL, Q-Chem, NWChem, Firefly and DMRG codes such as BLOCK and CheMPS —
+developed and maintained by their respective communities.</p>
+
+  <p><strong>Corrections are welcome.</strong> This is an AI-mined database and
+it will contain errors. If an entry misreports what a paper says, please open an
+issue or use the contribution form; corrections are applied against the source
+paper.</p>
 </div>
 
 <div class="view-panel" id="view-license" hidden="">
@@ -1039,7 +1082,7 @@ $("#clear").addEventListener("click", ()=>{
 });
 
 // ---- sidebar nav ----
-const VIEWS = ["home","dataset","contribute","cite","license"];
+const VIEWS = ["home","dataset","contribute","cite","acknowledgments","license"];
 function showView(name){
   VIEWS.forEach(v => { $(`#view-${v}`).hidden = v!==name; });
   document.querySelectorAll(".nav-item").forEach(b=>b.classList.toggle("active", b.dataset.view===name));
