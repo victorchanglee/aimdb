@@ -1,13 +1,10 @@
 # AIMdb: Artificial Intelligence multiconfigurational database
 
-A curated, machine-readable database of **multiconfigurational quantum
-chemistry calculations** extracted from the published literature: which active
-space was used, how it was built, on what compound, with what method and basis,
-and what came out.
+A database of **multiconfigurational quantum
+chemistry calculations** extracted from the published literature.
 
 Multiconfigurational methods (CASSCF, RASSCF, CASPT2, NEVPT2, MRCI, DMRG,
-MC-PDFT) live or die by the choice of active space, and that choice is craft
-knowledge — scattered across methods sections and supporting information,
+MC-PDFT) rely on the choice of active space, and that choice is scattered across methods sections and supporting information,
 described in a dozen different phrasings, and almost never tabulated. AIMdb
 turns that scattered prose into rows you can query, so that the question *"what
 active space have people actually used for a d⁶ iron complex, and why?"* has an
