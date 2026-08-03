@@ -160,6 +160,16 @@
   .stat-card{border:1px solid var(--border);border-radius:10px;padding:14px;text-align:center}
   .stat-card .num{font-size:22px;font-weight:700;color:var(--accent)}
   .stat-card .lbl{font-size:11px;color:var(--muted);margin-top:3px}
+  /* ---- dataset field-coverage table ---- */
+  .view-panel h3.ds-h3{font-size:15px;margin:26px 0 6px}
+  table.coverage{width:100%;border-collapse:collapse;margin:6px 0 18px;font-size:13px}
+  table.coverage td{padding:7px 8px;border-bottom:1px solid var(--border);vertical-align:middle}
+  table.coverage td.col{width:44%;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px}
+  table.coverage td.bar{width:41%}
+  table.coverage td.pct{width:15%;text-align:right;color:var(--muted);font-variant-numeric:tabular-nums}
+  .cov-track{background:var(--panel2);border-radius:999px;height:7px;overflow:hidden}
+  .cov-fill{background:var(--accent);height:100%;border-radius:999px}
+  .ds-note{border-left:3px solid var(--border);padding-left:14px;color:var(--muted)}
   .code-block{background:var(--panel2);border:1px solid var(--border);border-radius:8px;
     padding:14px 16px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12.5px;
     white-space:pre-wrap;word-break:break-word;margin:0 0 8px}
@@ -522,11 +532,26 @@
   <p>The dataset is comprised a set of multiconfigurational quantum chemistry calculations from open-access literature mined using large languange models (LLMs).</p>
   <p>Current statistics of the database are:</p>
   <div class="stat-grid">
-    <div class="stat-card"><div class="num" id="dsCompounds">1381</div><div class="lbl">compound entries</div></div>
-    <div class="stat-card"><div class="num" id="dsPapers">809</div><div class="lbl">source papers</div></div>
-    <div class="stat-card"><div class="num" id="dsElements">74</div><div class="lbl">elements covered</div></div>
-    <div class="stat-card"><div class="num" id="dsYears">1985–2026</div><div class="lbl">year range</div></div>
+    <div class="stat-card"><div class="num" id="dsCompounds">—</div><div class="lbl">compound entries</div></div>
+    <div class="stat-card"><div class="num" id="dsPapers">—</div><div class="lbl">source papers</div></div>
+    <div class="stat-card"><div class="num" id="dsElements">—</div><div class="lbl">elements covered</div></div>
+    <div class="stat-card"><div class="num" id="dsOrganic">—</div><div class="lbl">metal-free organic rows</div></div>
+    <div class="stat-card"><div class="num" id="dsYears">—</div><div class="lbl">year range</div></div>
+    <div class="stat-card"><div class="num">CC BY 4.0</div><div class="lbl">licence</div></div>
   </div>
+
+  <h3 class="ds-h3">Field coverage</h3>
+  <p>How often each column is actually filled — useful for knowing what the
+  database can answer:</p>
+  <table class="coverage" id="dsCoverage"><tbody></tbody></table>
+  <p class="ds-note"><strong>Empty means empty.</strong> A blank cell means
+  <em>the paper did not state it</em>. It never means the extraction skipped the
+  field, and never means a plausible default was withheld. The weak columns above
+  are weak because the papers are silent — many studies converge states
+  individually rather than state-averaging over a stated number of roots, so
+  <code>nroots_per_mult</code> has nothing to record. Filling such a cell by
+  inference would look identical to a real value and be unverifiable.</p>
+
   <p>The dataset and mining process is Open Source:</p>
   <ul>
     <li>See <code>CLAUDE.md</code> in the repository for the exact extraction policy.</li>
@@ -1191,7 +1216,31 @@ if(!window.LIT){
   $("#dsCompounds").textContent = DATA.length;
   $("#dsPapers").textContent = doiSet.size;
   $("#dsElements").textContent = elOrder.length;
+  $("#dsOrganic").textContent =
+    DATA.filter(r=>(r.metal_center||"").trim().toLowerCase()==="none").length;
   $("#dsYears").textContent = years.length ? `${Math.min(...years)}–${Math.max(...years)}` : "—";
+
+  // Field coverage: computed from the data so it can never go stale.
+  // Grouped columns are filled only when every member is filled.
+  const COVERAGE = [
+    ["method, reference_doi",            ["method","reference_doi"]],
+    ["active_space_orbital_description", ["active_space_orbital_description"]],
+    ["active_space_norb",                ["active_space_norb"]],
+    ["active_space_nel",                 ["active_space_nel"]],
+    ["active_space_protocol",            ["active_space_protocol"]],
+    ["multiplicities_studied",           ["multiplicities_studied"]],
+    ["software",                         ["software"]],
+    ["nroots_per_mult",                  ["nroots_per_mult"]],
+  ];
+  const covBody = $("#dsCoverage").querySelector("tbody");
+  covBody.innerHTML = COVERAGE.map(([label, cols])=>{
+    const n = DATA.filter(r=>cols.every(c=>(r[c]||"").trim())).length;
+    const pct = DATA.length ? (100*n/DATA.length) : 0;
+    return `<tr><td class="col">${label}</td>`
+         + `<td class="bar"><div class="cov-track">`
+         + `<div class="cov-fill" style="width:${pct.toFixed(1)}%"></div></div></td>`
+         + `<td class="pct">${pct.toFixed(1)}%</td></tr>`;
+  }).join("");
 
   const yr = new Date().getFullYear();
   $("#citeYear").textContent = yr;
