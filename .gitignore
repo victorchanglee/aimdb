@@ -6,3 +6,6 @@ text/
 code/.venv/
 __pycache__/
 *.pyc
+
+# Transient per-run fetch/extract logs (logs/extractions.csv is the audit trail)
+logs/*.log
