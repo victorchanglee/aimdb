@@ -1,4 +1,4 @@
-# AIMdb: Artificial Intelligence multiconfigurational database
+# AIMdb: Artificial Intelligence Multiconfigurational database
 
 A database of **multiconfigurational quantum
 chemistry calculations** extracted from the published literature.
@@ -11,45 +11,6 @@ answer you can look up instead of guess.
 
 **[database/aimdb.csv](database/aimdb.csv)** is the database. Everything else
 in this repository exists to produce it, check it, or publish it.
-
----
-
-## Schema
-
-One row per distinct compound × method result. 33 columns, grouped:
-
-**Identity** — `entry_id`, `compound_name`, `formula`, `point_group`
-
-**Metal centre** — `metal_center`, `metal_ox_state`, `d_electron_count`,
-`ligand_set`. `metal_center` is `none` for metal-free organics (a deliberate
-absence, distinct from empty = not stated); for f-elements the f-electron count
-goes in `d_electron_count` (`4f9`).
-
-**Level of theory** — `method`, `software`, `basis_set`,
-`relativistic_treatment`, `soc_included`, `ss_included`,
-`correlation_correction`
-
-**Active space** — the heart of the database:
-- `active_space_nel` / `active_space_norb` — the (n,m) of the production calculation
-- `active_space_orbital_description` — *which* orbitals, in the paper's own words
-- `active_space_protocol` — the buildup sequence, formatted
-  `(nel,norb) step; (nel,norb) step; ...`. This column records how chemists
-  actually arrive at an active space, and it is what makes the database more
-  than a table of numbers.
-
-**Results** — `multiplicities_studied` (numeric 2S+1), `nroots_per_mult`,
-`ground_state_mult`, `electronic_structure_description` (ground term prefixed
-`Ground term: ...`, plus low-lying state energies with units), `Other`
-
-**Geometry** — `geometry_source`, `structure_file`, `structure_provenance`
-(`computational` / `experimental` / `ai_generated`). Coordinates in
-`database/structures/` are verbatim from the paper's SI where marked
-`computational`/`experimental`; `ai_generated` means a PubChem conformer that
-is *not* the paper's geometry.
-
-**Provenance** — `reference_short`, `reference_doi` (mandatory), `year`,
-`notes`, `entry_type` (`llm_mining` / `llm_reproduced` / `human`),
-`mining_model`
 
 ---
 
@@ -115,7 +76,7 @@ Released under [CC BY 4.0](LICENSE) — share and adapt freely, including
 commercially, with attribution.
 
 ```
-AIMdb: Artificial Intelligence multiconfigurational database.
+AIMdb: Artificial Intelligence Multiconfigurational database.
 Victor Chang Lee, 2026. https://github.com/victorchanglee/aimdb
 ```
 
