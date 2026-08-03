@@ -3,8 +3,7 @@
 A database of **multiconfigurational quantum
 chemistry calculations** extracted from the published literature.
 
-Multiconfigurational methods (CASSCF, RASSCF, CASPT2, NEVPT2, MRCI, DMRG,
-MC-PDFT) rely on the choice of active space, and that choice is scattered across methods sections and supporting information,
+Multiconfigurational methods (CASSCF, RASSCF, CASPT2, NEVPT2, MRCI, etc.) rely on the choice of active space, and that choice is scattered across methods sections and supporting information of thousands of scientific articles, 
 described in a dozen different phrasings, and almost never tabulated. AIMdb
 turns that scattered prose into rows you can query, so that the question *"what
 active space have people actually used for a d⁶ iron complex, and why?"* has an
