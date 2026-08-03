@@ -541,16 +541,19 @@
   </div>
 
   <h3 class="ds-h3">Field coverage</h3>
-  <p>How often each column is actually filled — useful for knowing what the
-  database can answer:</p>
   <table class="coverage" id="dsCoverage"><tbody></tbody></table>
-  <p class="ds-note"><strong>Empty means empty.</strong> A blank cell means
-  <em>the paper did not state it</em>. It never means the extraction skipped the
-  field, and never means a plausible default was withheld. The weak columns above
-  are weak because the papers are silent — many studies converge states
-  individually rather than state-averaging over a stated number of roots, so
-  <code>nroots_per_mult</code> has nothing to record. Filling such a cell by
-  inference would look identical to a real value and be unverifiable.</p>
+  <p class="ds-note"><strong>Empty is supposed to mean empty.</strong> The
+  policy is that a blank cell means <em>the paper did not state it</em>, never
+  a plausible default filled in by inference. But the extraction is
+  LLM-mined, not hand-verified line by line, so some blanks may instead be
+  fields the model missed rather than fields the paper omitted; corrections
+  are welcome via the How to contribute form.</p>
+
+  <p class="ds-note">Some of the weak columns above are because the papers
+  do not cover it, not because extraction missed anything. For example, many
+  studies converge states individually rather than state-averaging over a
+  stated number of roots, so <code>nroots_per_mult</code> has nothing to
+  record.</p>
 
   <p>The dataset and mining process is Open Source:</p>
   <ul>
