@@ -145,6 +145,14 @@ def append_row(fields):
     elif fields["entry_type"] not in config.ENTRY_TYPES:
         raise ValueError(
             f"entry_type {fields['entry_type']!r} not in {config.ENTRY_TYPES}")
+    # open_access is stamped in bulk from OpenAlex by tools_oa.py, so it is
+    # normally empty here; reject a hand-typed value outside the allowed set.
+    if fields.get("open_access") and \
+            fields["open_access"] not in config.OPEN_ACCESS_VALUES:
+        raise ValueError(
+            f"open_access {fields['open_access']!r} not in "
+            f"{config.OPEN_ACCESS_VALUES} — leave it empty and run "
+            "tools_oa.py --refresh --stamp")
     row = {col: str(fields.get(col, "")) for col in config.LITERATURE_COLUMNS}
     with open(config.LITERATURE_CSV, "a", newline="", encoding="utf-8") as f:
         csv.DictWriter(f, fieldnames=config.LITERATURE_COLUMNS).writerow(row)

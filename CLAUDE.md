@@ -28,6 +28,7 @@ papers/mined/<key>.pdf        PDFs already read and judged (gitignored)
 papers/si/<key>/              supplementary information (gitignored)
 text/<key>.txt                extracted text (gitignored — do not commit)
 logs/extractions.csv          append-only audit log, one row per decision
+logs/oa_status.csv            OpenAlex open-access answer per DOI (see open_access below)
 ```
 
 Run all `python -m mining_agent ...` commands from `code/` with
@@ -131,6 +132,13 @@ PDFs that were added by hand and aren't in the index).
      record the model that actually extracted them (or pass `mining_model`
      explicitly per row). This is the last column and is aimdb-only —
      `claude-casscf` merges just drop it.
+   - `open_access` (last column, aimdb-only): `yes`/`no`/`unknown` — is
+     `reference_doi` open access per OpenAlex's `open_access.is_oa`? Don't
+     fill it by hand; run `.venv/bin/python tools_oa.py --refresh --stamp`
+     from `code/` after a batch of rows. That rewrites `logs/oa_status.csv`
+     (per-DOI `oa_status` gold/hybrid/green/bronze/diamond/closed plus the
+     best OA URL) and restamps the column for every row. It is access
+     metadata about the source, not a property of the calculation.
    - `electronic_structure_description` / `Other`: this column merges the
      ground-state term symbol (if stated — prefix it "Ground term: ...")
      with the low-lying state energies; paste the relevant numbers

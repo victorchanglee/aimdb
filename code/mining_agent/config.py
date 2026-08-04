@@ -70,8 +70,18 @@ LITERATURE_COLUMNS = [
     "multiplicities_studied", "nroots_per_mult", "ground_state_mult",
     "electronic_structure_description", "Other",
     "reference_short", "reference_doi", "year", "notes",
-    "correlation_correction", "entry_type", "mining_model",
+    "correlation_correction", "entry_type", "mining_model", "open_access",
 ]
+
+# open_access: is reference_doi open access according to OpenAlex?
+#   yes / no  — OpenAlex's open_access.is_oa for that DOI
+#   unknown   — OpenAlex has no record of that DOI
+#   (empty)   — not checked yet; a freshly added row until tools_oa.py --stamp
+# Refreshed in bulk by code/tools_oa.py, which also keeps the full answer
+# (oa_status gold/hybrid/green/bronze/closed, best OA URL) in logs/oa_status.csv.
+# Not a property of the calculation — it is access metadata about the source,
+# so it goes last and claude-casscf merges drop it alongside mining_model.
+OPEN_ACCESS_VALUES = ("yes", "no", "unknown")
 
 # structure_provenance: how the coordinates in structure_file were obtained.
 #   computational  — geometry the paper itself computed/optimized (DFT, etc.)
