@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """Build the static literature-browser site from database/aimdb.csv.
 
-Reads ../database/aimdb.csv and writes site/data.js, an embedded
+Reads ../database/aimdb.csv and writes docs/data.js, an embedded
 `window.LIT = {...}` blob so index.html works when opened directly
 (file://) with no web server. Re-run this whenever the CSV changes:
 
-    python3 site/build_site.py
+    python3 docs/build_site.py
 """
 import csv
 import json
