@@ -55,7 +55,7 @@ papers/, text/                downloaded PDFs and extracted text (gitignored)
 **Data corrections and additions** are welcome. The site has a Contribute form
 that emits a one-row CSV; submissions land in `database/contributions.csv` with
 `review_status=pending` and are **never auto-merged**. Each is reviewed against
-its DOI exactly like a mined paper — scope test plus copy-never-infer — before
+its DOI exactly like a mined paper before
 being promoted into `aimdb.csv` with `entry_type=human`.
 
 If you find a row that misstates what a paper says, please open an issue with
