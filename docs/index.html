@@ -92,6 +92,9 @@
   .tag-experimental{color:var(--accent2);border-color:var(--accent2);background:rgba(13,148,136,.10)}
   .tag-ai_generated{color:var(--warn);border-color:var(--warn);background:rgba(180,83,9,.08)}
   .tag-dmrg{color:#7c3aed;border-color:#7c3aed;background:rgba(124,58,237,.08)}
+  .tag-oa{color:#15803d;border-color:#15803d;background:rgba(21,128,61,.09)}
+  .tag-closed{color:#b91c1c;border-color:#b91c1c;background:rgba(185,28,28,.08)}
+  .doi .tag{margin-left:6px}
   .structure-dl{color:var(--accent);text-decoration:none;font-size:13px;margin-right:8px}
   .structure-dl:hover{text-decoration:underline}
   .meta-actions{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
@@ -485,6 +488,13 @@
       </div>
       <div class="chips" id="typeChips"><span class="chip " data-type="llm_mining">LLM-mined<span class="n">667</span></span></div>
     </div>
+    <div class="filter-group" id="accessFilterGroup" hidden="">
+      <div class="ptable-head">
+        <span>Filter by access</span>
+        <span class="clear-els" id="clearAccess" hidden="">Clear ✕</span>
+      </div>
+      <div class="chips" id="accessChips"></div>
+    </div>
     <div class="filter-group" id="corrFilterGroup" hidden="">
       <div class="ptable-head">
         <span>Filter by correlation correction</span>
@@ -732,6 +742,19 @@ DATA.forEach(r => { const t=r.entry_type||""; if(t) typeCount[t]=(typeCount[t]||
 const typeOrder = TYPE_CANON.filter(t=>typeCount[t])
   .concat(Object.keys(typeCount).filter(t=>!TYPE_CANON.includes(t)).sort());
 
+// ---- open-access facet counts ----
+// open_access is OpenAlex's verdict on the reference DOI, stamped in bulk by
+// code/tools_oa.py. Rows predating that check are empty -> "unknown".
+const ACCESS_CANON = ["yes", "no", "unknown"];
+const ACCESS_LABELS = {yes:"Open access", no:"Closed access", unknown:"Access unknown"};
+function accessOf(r){
+  const v = (r.open_access||"").trim().toLowerCase();
+  return ACCESS_CANON.includes(v) ? v : "unknown";
+}
+const accessCount = {};
+DATA.forEach(r => { const a=accessOf(r); accessCount[a]=(accessCount[a]||0)+1; });
+const accessOrder = ACCESS_CANON.filter(a=>accessCount[a]);
+
 // ---- periodic table layout: [symbol, row, col] ----
 const PTABLE_MAIN = [
   ["H",1,1],["He",1,18],
@@ -753,7 +776,7 @@ const PTABLE_F = [
   ["Bk",2,11],["Cf",2,12],["Es",2,13],["Fm",2,14],["Md",2,15],["No",2,16],["Lr",2,17],
 ];
 
-const state = { q:"", scope:"all", sortField:"year", sortDir:"desc", els:new Set(), corrs:new Set(), types:new Set(), methods:new Set(), selected:new Set(), showAll:false };
+const state = { q:"", scope:"all", sortField:"year", sortDir:"desc", els:new Set(), corrs:new Set(), types:new Set(), methods:new Set(), access:new Set(), selected:new Set(), showAll:false };
 
 function pelCell([sym,row,col]){
   const n = elCount[sym]||0;
@@ -818,6 +841,16 @@ function renderMethodChips(){
   ).join("");
   $("#clearMethods").hidden = state.methods.size===0;
 }
+function matchesAccess(r){
+  if(state.access.size===0) return true;
+  return state.access.has(accessOf(r)); // OR semantics
+}
+function renderAccessChips(){
+  $("#accessChips").innerHTML = accessOrder.map(a =>
+    `<span class="chip ${state.access.has(a)?'on':''}" data-access="${esc(a)}">${esc(ACCESS_LABELS[a]||a)}<span class="n">${accessCount[a]}</span></span>`
+  ).join("");
+  $("#clearAccess").hidden = state.access.size===0;
+}
 function renderTypeChips(){
   $("#typeChips").innerHTML = typeOrder.map(t =>
     `<span class="chip ${state.types.has(t)?'on':''}" data-type="${esc(t)}">${esc(ENTRY_TYPE_LABELS[t]||t)}<span class="n">${typeCount[t]}</span></span>`
@@ -849,7 +882,7 @@ const FIELD_LABELS = {
   electronic_structure_description:"Electronic structure description", Other:"Other",
   reference_short:"Short citation", reference_doi:"DOI", year:"Year", notes:"Notes",
   correlation_correction:"Correlation correction", entry_type:"Entry source",
-  mining_model:"Mining model (LLM)",
+  mining_model:"Mining model (LLM)", open_access:"Access (per OpenAlex)",
 };
 const WIDE = new Set(["active_space_orbital_description","active_space_protocol",
   "electronic_structure_description","Other","notes","compound_name","ligand_set","geometry_source"]);
@@ -892,6 +925,7 @@ function detail(r, i){
     let v = r[f];
     if(f==="reference_doi" && v) v = `<a href="https://doi.org/${esc(v)}" target="_blank" rel="noopener">${esc(v)}</a>`;
     else if(f==="entry_type") v = entryTag(r) || '<span class="empty">—</span>';
+    else if(f==="open_access") v = accessTag(r) || '<span class="empty">—</span>';
     else if(f==="structure_file") v = v
       ? `<a class="structure-dl" href="${structureUrl(v)}" target="_blank" rel="noopener" download>⬇ ${esc(v)}</a>${structureTag(r)}`
       : '<span class="empty">—</span>';
@@ -923,19 +957,30 @@ function dmrgTag(r){
   if(!methodTokens(r).length) return "";
   return `<span class="tag tag-dmrg" title="Uses DMRG">DMRG</span>`;
 }
+// Access status rides with the reference, not the compound — it says whether
+// the DOI next to it is free to read.
+const ACCESS_TAG_CLASS = {yes:"tag-oa", no:"tag-closed"};
+function accessTag(r){
+  const a = accessOf(r);
+  if(a==="unknown") return "";
+  const lbl = ACCESS_LABELS[a];
+  const short = a==="yes" ? "Open access" : "Closed";
+  return `<span class="tag ${ACCESS_TAG_CLASS[a]}" title="${esc(lbl)} — OpenAlex verdict for this DOI">${esc(short)}</span>`;
+}
 
 function render(){
-  const active = !!(state.q || state.els.size || state.corrs.size || state.types.size || state.methods.size || state.showAll);
+  const active = !!(state.q || state.els.size || state.corrs.size || state.types.size || state.methods.size || state.access.size || state.showAll);
   $("#hero").classList.toggle("compact", active);
   $("#emptyState").hidden = active;
   $("#meta").hidden = !active;
   $("#table").hidden = !active;
   $("#typeFilterGroup").hidden = !active;
+  $("#accessFilterGroup").hidden = !active;
   $("#corrFilterGroup").hidden = !active;
   $("#methodFilterGroup").hidden = !active;
   if(!active){ $("#tbody").innerHTML = ""; return; }
 
-  let rows = DATA.filter(r=>matchesText(r) && matchesEls(r) && matchesCorr(r) && matchesType(r) && matchesMethod(r));
+  let rows = DATA.filter(r=>matchesText(r) && matchesEls(r) && matchesCorr(r) && matchesType(r) && matchesMethod(r) && matchesAccess(r));
   rows.sort((a,b)=>{
     let cmp;
     if(state.sortField==="name") cmp = (a.compound_name||"").localeCompare(b.compound_name||"");
@@ -944,7 +989,7 @@ function render(){
   });
   const tb = $("#tbody");
   tb.innerHTML = rows.map((r,i)=>{
-    const doi = r.reference_doi ? `<a href="https://doi.org/${esc(r.reference_doi)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(r.reference_short||r.reference_doi)}</a>` : esc(r.reference_short||"");
+    const doi = (r.reference_doi ? `<a href="https://doi.org/${esc(r.reference_doi)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(r.reference_short||r.reference_doi)}</a>` : esc(r.reference_short||"")) + accessTag(r);
     const formula = r.formula ? `<span class="formula">${highlight(r.formula)}</span>` : '<span class="empty">—</span>';
     return `<tr class="row" data-i="${i}">
       <td class="selcell"><input type="checkbox" class="rowsel" data-id="${esc(r.entry_id)}" ${state.selected.has(r.entry_id)?"checked":""}></td>
@@ -1034,6 +1079,13 @@ $("#corrChips").addEventListener("click", e=>{
   renderCorrChips(); render();
 });
 $("#clearCorrs").addEventListener("click", ()=>{ state.corrs.clear(); renderCorrChips(); render(); });
+$("#accessChips").addEventListener("click", e=>{
+  const c=e.target.closest(".chip"); if(!c) return;
+  const a=c.dataset.access;
+  state.access.has(a) ? state.access.delete(a) : state.access.add(a);
+  renderAccessChips(); render();
+});
+$("#clearAccess").addEventListener("click", ()=>{ state.access.clear(); renderAccessChips(); render(); });
 $("#typeChips").addEventListener("click", e=>{
   const c=e.target.closest(".chip"); if(!c) return;
   const t=c.dataset.type;
@@ -1096,9 +1148,9 @@ $("#selCount").addEventListener("click", ()=>{
 $("#downloadBtn").addEventListener("click", downloadCSV);
 $("#showAllBtn").addEventListener("click", ()=>{ state.showAll=true; render(); });
 $("#clear").addEventListener("click", ()=>{
-  state.q=""; state.els.clear(); state.corrs.clear(); state.types.clear(); state.methods.clear(); state.scope="all"; state.showAll=false;
+  state.q=""; state.els.clear(); state.corrs.clear(); state.types.clear(); state.methods.clear(); state.access.clear(); state.scope="all"; state.showAll=false;
   $("#q").value=""; $("#scope").value="all";
-  renderChips(); renderCorrChips(); renderTypeChips(); renderMethodChips(); render();
+  renderChips(); renderCorrChips(); renderTypeChips(); renderMethodChips(); renderAccessChips(); render();
 });
 
 // ---- sidebar nav ----
@@ -1110,9 +1162,9 @@ function showView(name){
   if(window.innerWidth<=760) setSidebarHidden(true);
 }
 function goHome(){
-  state.q=""; state.els.clear(); state.corrs.clear(); state.types.clear(); state.methods.clear(); state.scope="all"; state.showAll=false;
+  state.q=""; state.els.clear(); state.corrs.clear(); state.types.clear(); state.methods.clear(); state.access.clear(); state.scope="all"; state.showAll=false;
   $("#q").value=""; $("#scope").value="all";
-  renderChips(); renderCorrChips(); renderTypeChips(); renderMethodChips(); render();
+  renderChips(); renderCorrChips(); renderTypeChips(); renderMethodChips(); renderAccessChips(); render();
   showView("home");
 }
 document.querySelectorAll(".nav-item").forEach(b=>{
@@ -1214,6 +1266,7 @@ if(!window.LIT){
   renderCorrChips();
   renderTypeChips();
   renderMethodChips();
+  renderAccessChips();
   render();
 
   // dataset view stats
