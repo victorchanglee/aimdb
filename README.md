@@ -7,8 +7,7 @@ Multiconfigurational quantum chemistry methods (CASSCF, RASSCF, CASPT2, NEVPT2, 
 Historically, these choices have been documented inconsistently—scattered across primary texts and supporting information in non-standardized formats. AIMdb
 transforms this scattered prose into a queryable database. The database is built by an agentic literature-mining pipeline that exploits a large language model that performs the reading-comprehension step conventional and judges whether a paper reports a usable, compound-specific calculation, and extracting its reported fields under a strict copy-never-infer discipline, with every decision recorded in an append-only audit log.
 
-**[database/aimdb.csv](database/aimdb.csv)** is the database. Everything else
-in this repository exists to produce it, check it, or publish it.
+**[database/aimdb.csv](database/aimdb.csv)** is the database.
 
 ---
 
