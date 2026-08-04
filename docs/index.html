@@ -1203,7 +1203,7 @@ if(contribForm){
 
 // ---- init ----
 if(!window.LIT){
-  $("#emptyState").textContent = "Could not load data.js — run: python3 site/build_site.py";
+  $("#emptyState").textContent = "Could not load data.js — run: python3 docs/build_site.py";
 } else {
   $("#stats").textContent =
     `${DATA.length} multiconfigurational calculations · ${elOrder.length} elements · last update ${window.LIT.generated}`;
