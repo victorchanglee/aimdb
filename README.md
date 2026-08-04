@@ -15,13 +15,11 @@ transforms this scattered prose into a queryable database. The database is built
 
 The Python package does the mechanical work. **The reading and extraction
 judgment is done by an LLM session** following the policy in
-[`CLAUDE.md`](CLAUDE.md) — deciding whether a paper really contains a usable
-multiconfigurational calculation, and pulling the fields out of prose, is judgment
-work rather than regex work.
+[`CLAUDE.md`](CLAUDE.md).
 
 Every status change appends to `logs/extractions.csv` with a timestamp, DOI,
 action, result and free-text reasoning. **The audit log is the review
-mechanism** — reasoning is written so a chemist can check it, including for
+mechanism**. The LLM reasoning is written so a anyone can check it, including for
 papers that were rejected.
 
 ### Rules the extraction follows
