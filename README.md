@@ -46,7 +46,7 @@ database/blocked_papers.csv   papers whose OA link could not be fetched, with re
 code/mining_agent/            search / fetch / text-extract / CSV helpers
 code/tools_*.py               triage, dedup, repair and audit utilities
 logs/extractions.csv          append-only audit log, one row per decision
-site/                         static site generator for the public database browser
+docs/                         static site generator for the public database browser
 CLAUDE.md                     the extraction policy the LLM session follows
 papers/, text/                downloaded PDFs and extracted text (gitignored)
 ```
