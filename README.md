@@ -1,3 +1,8 @@
+[![GitHub release](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/victorchanglee/SpinVibe/releases)
+[![Documentation](https://img.shields.io/badge/docs-SpinVibe-blue)](https://victorchanglee.github.io/SpinVibe/)
+
+<!-- [![DOI]()]()
+
 # AIMdb: Artificial Intelligence Multiconfigurational database
 
 A database of **multiconfigurational quantum
