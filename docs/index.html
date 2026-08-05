@@ -674,8 +674,8 @@ them. The full text is available as <code>LICENSE</code> in the repository root.
       <div class="field-group"><label>Software</label><input name="software"></div>
       <div class="field-group"><label>Basis set</label><input name="basis_set"></div>
       <div class="field-group"><label>Relativistic treatment</label><input name="relativistic_treatment" placeholder="DKH2 / X2C / ECP"></div>
-      <div class="field-group"><label>Spin–orbit coupling included?</label><select name="soc_included"><option value="" selected="selected">—</option><option>yes</option><option>no</option></select></div>
-      <div class="field-group"><label>Spin–spin included?</label><select name="ss_included"><option value="" selected="selected">—</option><option>yes</option><option>no</option></select></div>
+      <div class="field-group"><label>Spin–orbit coupling</label><select name="soc_included"><option value="" selected="selected">—</option><option>yes</option><option>no</option></select></div>
+      <div class="field-group"><label>Spin–spin coupling</label><select name="ss_included"><option value="" selected="selected">—</option><option>yes</option><option>no</option></select></div>
 
       <div class="form-section-title">Active space</div>
       <div class="field-group"><label>Active electrons (nel) <span class="req">*</span></label><input name="active_space_nel" required="" inputmode="numeric" placeholder="e.g. 10"></div>
@@ -864,7 +864,7 @@ const FIELD_LABELS = {
   d_electron_count:"d/f electron count", ligand_set:"Ligand set", point_group:"Point group",
   geometry_source:"Geometry source", method:"Method", software:"Software",
   basis_set:"Basis set", relativistic_treatment:"Relativistic treatment",
-  soc_included:"Spin–orbit coupling included?", ss_included:"Spin–spin included?",
+  soc_included:"Spin–orbit coupling", ss_included:"Spin–spin coupling",
   active_space_nel:"Active electrons (nel)", active_space_norb:"Active orbitals (norb)",
   active_space_orbital_description:"Active-space orbital description",
   active_space_protocol:"Active-space protocol (build-up sequence)",
