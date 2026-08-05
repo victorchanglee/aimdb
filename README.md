@@ -1,5 +1,5 @@
 [![GitHub release](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/victorchanglee/SpinVibe/releases)
-[![Website]([[https://img.shields.io/badge/website-AIMdb-blue](https://victorchanglee.github.io/aimdb/)
+[![Website](https://img.shields.io/badge/website-AIMdb-blue)](https://victorchanglee.github.io/aimdb/)
 
 <!-- [![DOI]()]() -->
 
