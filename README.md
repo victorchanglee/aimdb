@@ -57,11 +57,36 @@ papers/, text/                downloaded PDFs and extracted text (gitignored)
 
 ## Contributing
 
-**Data corrections and additions** are welcome. The site has a Contribute form
-that emits a one-row CSV; submissions land in `database/contributions.csv` with
-`review_status=pending` and are **never auto-merged**. Each is reviewed against
-its DOI exactly like a mined paper before
-being promoted into `aimdb.csv` with `entry_type=human`.
+**Data corrections and additions** are welcome, by pull request or through the
+site's Contribute form. Neither route is auto-merged: every entry is reviewed
+against its source paper first, exactly like a mined one.
+
+### Pull request
+
+Best for larger batches — several compounds, or a whole paper's worth of
+entries — since the review happens against a diff. Add one row per compound to
+[`database/aimdb.csv`](database/aimdb.csv), keeping the existing column order,
+and include for every row:
+
+- **`reference_doi`** of the source paper — mandatory, a row without provenance
+  is not addable;
+- the **active space**, `active_space_nel` and `active_space_norb`, plus what
+  the orbitals are in `active_space_orbital_description`;
+- **`method`** and **`basis_set`**;
+- a **`notes`** line saying where the values came from, and `entry_type=human`.
+
+Every value must be stated by the paper — a field the paper does not give is
+left **empty** rather than estimated. [`CLAUDE.md`](CLAUDE.md) documents the
+full column set and the conventions (`entry_id` numbering, shell-prefixed
+`d_electron_count`, solid-state rows declaring themselves in `notes`). Rows
+whose numbers cannot be traced back to the paper will be queried before merge.
+
+### Contribute form
+
+Best for a single entry. The [site's Contribute
+section](https://victorchanglee.github.io/aimdb/) emits a one-row CSV;
+submissions land in `database/contributions.csv` with `review_status=pending`
+and are promoted into `aimdb.csv` with `entry_type=human` once reviewed.
 
 If you find a row that misstates what a paper says, please open an issue with
 the `entry_id` and the DOI. Corrections are appended to `notes` rather than
