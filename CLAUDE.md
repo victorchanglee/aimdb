@@ -12,6 +12,26 @@ term symbol prefixed "Ground term: ..."). Merging into claude-casscf now
 requires either re-splitting that column or updating claude-casscf's schema
 to match. Follow this policy exactly.
 
+## QUEST-sourced rows: keep here, filter on export
+
+QUEST-series papers are **in scope for aimdb** — this is a general database and
+their active spaces are legitimate data (user ruling 2026-08-04). The
+contamination risk lives entirely at the **export boundary**: `claude-casscf`
+holds QUEST as a held-out benchmark in `test/questdb/`, and its decision agent
+may read `database/literature.csv`. So **any bulk refresh of
+claude-casscf/literature.csv from aimdb.csv must drop rows whose
+`reference_doi` is a QUEST-series paper** — check provenance before writing,
+not after. This was learned the hard way: a 2026-08-03 wholesale refresh
+carried 14 QUEST rows into literature.csv and had to be reverted.
+
+QUEST-sourced DOIs currently in `aimdb.csv` (extend this list when more are
+mined):
+
+- `10.1021/acs.jctc.8b01205` — Loos et al., *Reference Energies for Double
+  Excitations* (rows `W2903558328-a` … `-n`, 14 rows)
+- `10.48550/arxiv.2409.00302` — Song et al., *QUEST#4X* (rows
+  `W4402953348-a` … `-q`, 17 rows)
+
 The Python package does the mechanical work (API search, PDF download, text
 extraction). **You do the reading and extraction** — deciding whether a paper
 really contains a usable CASSCF calculation and pulling the fields out of the

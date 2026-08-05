@@ -14671,3 +14671,22 @@ timestamp,key,doi,action,result,reasoning
 2026-08-05T03:41:01Z,W4225854037,10.7498/aps.71.20220043,mark,not_usable,"Chinese-language paper computing opacities of the N2 molecule for the X1Sigma_g+, a'1Sigma_u-, a1Pi_g and b1Pi_u electronic states, built on multireference potential and transition-dipole curves. N2 is a bare diatomic, excluded by the standing convention."
 2026-08-05T03:41:42Z,W7165396758,10.1021/acs.jctc.6c00637,mark,not_usable,"modeling xanthophyll (lutein, violaxanthin, zeaxanthin and related carotenoid) excited states with cost-effective methods: a reparameterized AM1 Hamiltonian with floating-occupation molecular orbital CI, R-AM1/FOMO-CISD(6,9), in MOPAC-PI, plus DFT/MRCI, followed by property-based diabatization. CASPT2 and NEVPT2 appear only in the introduction as the expensive alternatives being avoided - no ab initio CASSCF-family calculation is performed - so the (6,9) space belongs to a semiempirical Hamiltonian, out of scope like the other FOMO-CI/OM2/MRCI and DFT/MRCI papers here."
 2026-08-05T03:41:52Z,W2131394563,10.1590/s0100-40422013000200012,mark,not_usable,"Portuguese-language study of the electronic structure and laser-induced dynamics of the HCl molecule: MRCI on MCSCF/CAS references with 6 active electrons in 11 orbitals, aug-cc-pVDZ/TZ/QZ, nine potential energy and dipole moment curves, spectroscopic parameters from a Morse parameterization with the eSPec program. HCl is a bare diatomic, excluded by the standing convention, not for any defect in the calculation."
+2026-08-05T03:47:22Z,W4402953348,10.48550/arxiv.2409.00302,mark,text_ready,"CORRECTION of my earlier not_usable call on this key. I excluded it on provenance grounds (QUEST is the held-out benchmark for the claude-casscf decision agent). User ruling 2026-08-04: QUEST-sourced rows DO belong in aimdb.csv, which is a general database; the contamination guard belongs at the merge boundary into claude-casscf/literature.csv, not here. Returning to the reading queue for normal extraction."
+2026-08-05T03:48:27Z,W4402953348-a,10.48550/arxiv.2409.00302,add-row,appended,row added via add-row
+2026-08-05T03:48:27Z,W4402953348-b,10.48550/arxiv.2409.00302,add-row,appended,row added via add-row
+2026-08-05T03:48:28Z,W4402953348-c,10.48550/arxiv.2409.00302,add-row,appended,row added via add-row
+2026-08-05T03:48:28Z,W4402953348-d,10.48550/arxiv.2409.00302,add-row,appended,row added via add-row
+2026-08-05T03:48:28Z,W4402953348-e,10.48550/arxiv.2409.00302,add-row,appended,row added via add-row
+2026-08-05T03:48:28Z,W4402953348-f,10.48550/arxiv.2409.00302,add-row,appended,row added via add-row
+2026-08-05T03:48:28Z,W4402953348-g,10.48550/arxiv.2409.00302,add-row,appended,row added via add-row
+2026-08-05T03:48:29Z,W4402953348-h,10.48550/arxiv.2409.00302,add-row,appended,row added via add-row
+2026-08-05T03:48:29Z,W4402953348-i,10.48550/arxiv.2409.00302,add-row,appended,row added via add-row
+2026-08-05T03:48:29Z,W4402953348-j,10.48550/arxiv.2409.00302,add-row,appended,row added via add-row
+2026-08-05T03:48:29Z,W4402953348-k,10.48550/arxiv.2409.00302,add-row,appended,row added via add-row
+2026-08-05T03:48:30Z,W4402953348-l,10.48550/arxiv.2409.00302,add-row,appended,row added via add-row
+2026-08-05T03:48:30Z,W4402953348-m,10.48550/arxiv.2409.00302,add-row,appended,row added via add-row
+2026-08-05T03:48:30Z,W4402953348-n,10.48550/arxiv.2409.00302,add-row,appended,row added via add-row
+2026-08-05T03:48:30Z,W4402953348-o,10.48550/arxiv.2409.00302,add-row,appended,row added via add-row
+2026-08-05T03:48:30Z,W4402953348-p,10.48550/arxiv.2409.00302,add-row,appended,row added via add-row
+2026-08-05T03:48:31Z,W4402953348-q,10.48550/arxiv.2409.00302,add-row,appended,row added via add-row
+2026-08-05T03:48:43Z,W4402953348,10.48550/arxiv.2409.00302,mark,extracted,"QUEST#4X: SA-CASSCF references then SS-NEVPT2, MS-NEVPT2, SDSPT2, SDSCI and ic-MRCISD vertical excitation energies for 110 doublet and 39 quartet states of the 24 QUEST#4 radicals, calibrated against near-exact iCIPT2, BDF program, aug-cc-pVTZ, active spaces selected by iCAS from iCIPT2 natural-orbital occupations (kept under 15 orbitals). 17 rows for the polyatomic radicals with their (nel,norb) spaces and per-irrep root counts from Table 3; the seven bare diatomics in the set (BeF, BeH, CH, CN, CO+, NO, OH) get no rows under the standing convention. Extracted after the user's 2026-08-04 ruling that QUEST-sourced rows belong in aimdb and the benchmark guard belongs at the export boundary into claude-casscf/literature.csv."
