@@ -91,7 +91,6 @@
   .tag-computational{color:var(--accent);border-color:var(--accent);background:rgba(47,111,237,.08)}
   .tag-experimental{color:var(--accent2);border-color:var(--accent2);background:rgba(13,148,136,.10)}
   .tag-ai_generated{color:var(--warn);border-color:var(--warn);background:rgba(180,83,9,.08)}
-  .tag-dmrg{color:#7c3aed;border-color:#7c3aed;background:rgba(124,58,237,.08)}
   .tag-oa{color:#15803d;border-color:#15803d;background:rgba(21,128,61,.09)}
   .tag-closed{color:#b91c1c;border-color:#b91c1c;background:rgba(185,28,28,.08)}
   .doi .tag{margin-left:6px}
@@ -502,13 +501,6 @@
       </div>
       <div class="chips" id="corrChips"><span class="chip " data-corr="CASPT2">CASPT2<span class="n">208</span></span><span class="chip " data-corr="NEVPT2">NEVPT2<span class="n">98</span></span><span class="chip " data-corr="MRCI">MRCI<span class="n">62</span></span><span class="chip " data-corr="CIPSI">CIPSI<span class="n">10</span></span><span class="chip " data-corr="DDCI">DDCI<span class="n">7</span></span><span class="chip " data-corr="XMCQDPT2">XMCQDPT2<span class="n">5</span></span><span class="chip " data-corr="RASPT2">RASPT2<span class="n">4</span></span><span class="chip " data-corr="PT2">PT2<span class="n">3</span></span><span class="chip " data-corr="CASPT3">CASPT3<span class="n">1</span></span><span class="chip " data-corr="MRCC">MRCC<span class="n">1</span></span><span class="chip " data-corr="none">none<span class="n">338</span></span></div>
     </div>
-    <div class="filter-group" id="methodFilterGroup" hidden="">
-      <div class="ptable-head">
-        <span>Filter by method</span>
-        <span class="clear-els" id="clearMethods" hidden="">Clear ✕</span>
-      </div>
-      <div class="chips" id="methodChips"></div>
-    </div>
   </div>
   <div class="empty-state" id="emptyState">
     Search a compound, formula, or element — or click an element above — to browse the database.
@@ -726,13 +718,6 @@ DATA.forEach(r => corrTokens(r).forEach(c => corrCount[c] = (corrCount[c]||0)+1)
 const corrOrder = Object.keys(corrCount).sort((a,b)=>
   (a==="none")-(b==="none") || corrCount[b]-corrCount[a] || a.localeCompare(b));
 
-// ---- method-tag facet counts (currently just DMRG) ----
-function methodTokens(r){
-  return /DMRG/i.test(r.method||"") ? ["DMRG"] : [];
-}
-const methodCount = {};
-DATA.forEach(r => methodTokens(r).forEach(m => methodCount[m] = (methodCount[m]||0)+1));
-const methodOrder = Object.keys(methodCount).sort((a,b)=>methodCount[b]-methodCount[a] || a.localeCompare(b));
 
 // ---- entry-source facet counts ----
 const TYPE_CANON = ["llm_mining", "llm_reproduced", "human"];
@@ -776,7 +761,7 @@ const PTABLE_F = [
   ["Bk",2,11],["Cf",2,12],["Es",2,13],["Fm",2,14],["Md",2,15],["No",2,16],["Lr",2,17],
 ];
 
-const state = { q:"", scope:"all", sortField:"year", sortDir:"desc", els:new Set(), corrs:new Set(), types:new Set(), methods:new Set(), access:new Set(), selected:new Set(), showAll:false };
+const state = { q:"", scope:"all", sortField:"year", sortDir:"desc", els:new Set(), corrs:new Set(), types:new Set(), access:new Set(), selected:new Set(), showAll:false };
 
 function pelCell([sym,row,col]){
   const n = elCount[sym]||0;
@@ -828,18 +813,6 @@ function renderCorrChips(){
 function matchesType(r){
   if(state.types.size===0) return true;
   return state.types.has(r.entry_type||"");
-}
-function matchesMethod(r){
-  if(state.methods.size===0) return true;
-  const set = new Set(methodTokens(r));
-  for(const m of state.methods) if(set.has(m)) return true; // OR semantics
-  return false;
-}
-function renderMethodChips(){
-  $("#methodChips").innerHTML = methodOrder.map(m =>
-    `<span class="chip ${state.methods.has(m)?'on':''}" data-method="${esc(m)}">${esc(m)}<span class="n">${methodCount[m]}</span></span>`
-  ).join("");
-  $("#clearMethods").hidden = state.methods.size===0;
 }
 function matchesAccess(r){
   if(state.access.size===0) return true;
@@ -953,10 +926,6 @@ function entryTag(r){
   const lbl = ENTRY_TYPE_LABELS[t] || t;
   return `<span class="tag tag-${esc(t)}" title="Entry source: ${esc(lbl)}">${esc(lbl)}</span>`;
 }
-function dmrgTag(r){
-  if(!methodTokens(r).length) return "";
-  return `<span class="tag tag-dmrg" title="Uses DMRG">DMRG</span>`;
-}
 // Access status rides with the reference, not the compound — it says whether
 // the DOI next to it is free to read.
 const ACCESS_TAG_CLASS = {yes:"tag-oa", no:"tag-closed"};
@@ -969,7 +938,7 @@ function accessTag(r){
 }
 
 function render(){
-  const active = !!(state.q || state.els.size || state.corrs.size || state.types.size || state.methods.size || state.access.size || state.showAll);
+  const active = !!(state.q || state.els.size || state.corrs.size || state.types.size || state.access.size || state.showAll);
   $("#hero").classList.toggle("compact", active);
   $("#emptyState").hidden = active;
   $("#meta").hidden = !active;
@@ -977,10 +946,9 @@ function render(){
   $("#typeFilterGroup").hidden = !active;
   $("#accessFilterGroup").hidden = !active;
   $("#corrFilterGroup").hidden = !active;
-  $("#methodFilterGroup").hidden = !active;
   if(!active){ $("#tbody").innerHTML = ""; return; }
 
-  let rows = DATA.filter(r=>matchesText(r) && matchesEls(r) && matchesCorr(r) && matchesType(r) && matchesMethod(r) && matchesAccess(r));
+  let rows = DATA.filter(r=>matchesText(r) && matchesEls(r) && matchesCorr(r) && matchesType(r) && matchesAccess(r));
   rows.sort((a,b)=>{
     let cmp;
     if(state.sortField==="name") cmp = (a.compound_name||"").localeCompare(b.compound_name||"");
@@ -993,7 +961,7 @@ function render(){
     const formula = r.formula ? `<span class="formula">${highlight(r.formula)}</span>` : '<span class="empty">—</span>';
     return `<tr class="row" data-i="${i}">
       <td class="selcell"><input type="checkbox" class="rowsel" data-id="${esc(r.entry_id)}" ${state.selected.has(r.entry_id)?"checked":""}></td>
-      <td class="name">${highlight(r.compound_name)} ${entryTag(r)} ${dmrgTag(r)}</td>
+      <td class="name">${highlight(r.compound_name)} ${entryTag(r)}</td>
       <td>${formula}</td>
       <td>${elBadges(r)}</td>
       <td>${highlight(r.method)}</td>
@@ -1093,13 +1061,6 @@ $("#typeChips").addEventListener("click", e=>{
   renderTypeChips(); render();
 });
 $("#clearTypes").addEventListener("click", ()=>{ state.types.clear(); renderTypeChips(); render(); });
-$("#methodChips").addEventListener("click", e=>{
-  const c=e.target.closest(".chip"); if(!c) return;
-  const m=c.dataset.method;
-  state.methods.has(m) ? state.methods.delete(m) : state.methods.add(m);
-  renderMethodChips(); render();
-});
-$("#clearMethods").addEventListener("click", ()=>{ state.methods.clear(); renderMethodChips(); render(); });
 
 // ---- periodic table show/hide (persisted) ----
 const PT_KEY = "aimdb_ptable_hidden";
@@ -1148,9 +1109,9 @@ $("#selCount").addEventListener("click", ()=>{
 $("#downloadBtn").addEventListener("click", downloadCSV);
 $("#showAllBtn").addEventListener("click", ()=>{ state.showAll=true; render(); });
 $("#clear").addEventListener("click", ()=>{
-  state.q=""; state.els.clear(); state.corrs.clear(); state.types.clear(); state.methods.clear(); state.access.clear(); state.scope="all"; state.showAll=false;
+  state.q=""; state.els.clear(); state.corrs.clear(); state.types.clear(); state.access.clear(); state.scope="all"; state.showAll=false;
   $("#q").value=""; $("#scope").value="all";
-  renderChips(); renderCorrChips(); renderTypeChips(); renderMethodChips(); renderAccessChips(); render();
+  renderChips(); renderCorrChips(); renderTypeChips(); renderAccessChips(); render();
 });
 
 // ---- sidebar nav ----
@@ -1162,9 +1123,9 @@ function showView(name){
   if(window.innerWidth<=760) setSidebarHidden(true);
 }
 function goHome(){
-  state.q=""; state.els.clear(); state.corrs.clear(); state.types.clear(); state.methods.clear(); state.access.clear(); state.scope="all"; state.showAll=false;
+  state.q=""; state.els.clear(); state.corrs.clear(); state.types.clear(); state.access.clear(); state.scope="all"; state.showAll=false;
   $("#q").value=""; $("#scope").value="all";
-  renderChips(); renderCorrChips(); renderTypeChips(); renderMethodChips(); renderAccessChips(); render();
+  renderChips(); renderCorrChips(); renderTypeChips(); renderAccessChips(); render();
   showView("home");
 }
 document.querySelectorAll(".nav-item").forEach(b=>{
@@ -1265,7 +1226,6 @@ if(!window.LIT){
   renderChips();
   renderCorrChips();
   renderTypeChips();
-  renderMethodChips();
   renderAccessChips();
   render();
 
