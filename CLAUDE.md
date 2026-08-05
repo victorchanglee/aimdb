@@ -87,6 +87,17 @@ PDFs that were added by hand and aren't in the index).
    NEVPT2 / MRCI) **on a specific chemical compound** — transition-metal
    complexes and metal-free organic molecules both count (user decision
    2026-07-14) — with at least the active space size (nel, norb) stated.
+   **Solid-state systems are also in scope (user decision 2026-08-05):**
+   colour centres and point defects (NV in diamond, F/F+ centres in oxides,
+   defects in hBN or SiC), doped crystals and phosphors (Ce3+:YAG, Eu2+
+   nitrides, Mn4+:K2SiF6), bulk solids and adsorbate/surface models — the
+   usual case is an embedded- or bare-cluster model of a site in a host
+   lattice. This reverses the 2026-07-24 practice of excluding them as "not a
+   molecular TM complex nor organic molecule"; papers ruled out on that ground
+   before 2026-08-05 are worth revisiting. **Say so in `notes`**: a
+   solid-state row must state that the system is a site in a lattice or on a
+   surface treated by a cluster model, not an isolated molecule, so the row is
+   never mistaken for a gas-phase molecular result.
    Reviews citing others' numbers, method papers with toy systems only
    (diatomics/model Hamiltonians benchmarking an algorithm), and papers
    where the active space is never specified are `status=not_usable`
