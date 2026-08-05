@@ -119,6 +119,15 @@ PDFs that were added by hand and aren't in the index).
      estimate, never fill from general chemistry knowledge. d_electron_count
      from the stated oxidation state is allowed (it's arithmetic), but flag
      it in `notes` if the paper doesn't state the ox state explicitly.
+   - **`d_electron_count` covers d *and* f blocks**, and is always written
+     **with its shell**: `3d7`, `4d9`, `5d6`, `4f9`, `5f2` — never bare `d7`,
+     bare `f9`, or a bare integer `7`. The shell follows from `metal_center`
+     (Sc–Zn 3d, Y–Cd 4d, Hf–Hg 5d, La–Lu 4f, Ac–Lr 5f), and the count is
+     `group valence electrons − oxidation state`. Leave it empty for
+     main-group centres, where neither shell applies. The column keeps its
+     historical name for schema parity with `claude-casscf`; the site labels
+     it "d/f electron count". Normalized and backfilled across the whole
+     database on 2026-08-05.
    - `entry_id`: the papers_index `key`, plus `-a`, `-b`, ... for multiple
      compounds from one paper. `structure_file`: empty unless you actually
      save a geometry to `database/structures/`. `structure_provenance`:

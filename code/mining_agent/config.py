@@ -83,6 +83,14 @@ LITERATURE_COLUMNS = [
 # so it goes last and claude-casscf merges drop it alongside mining_model.
 OPEN_ACCESS_VALUES = ("yes", "no", "unknown")
 
+# d_electron_count: the open-shell valence count of the metal centre, for the
+# d block AND the f block, always written with its shell — 3d7, 4d9, 5d6,
+# 4f9, 5f2 (never bare "d7", "f9" or "7"). The shell follows from
+# metal_center: Sc-Zn 3d, Y-Cd 4d, Hf-Hg 5d, La-Lu 4f, Ac-Lr 5f; the count is
+# the group valence electron count minus the oxidation state. Empty for
+# main-group centres. The name is historical (schema parity with
+# claude-casscf); the website labels the column "d/f electron count".
+
 # structure_provenance: how the coordinates in structure_file were obtained.
 #   computational  — geometry the paper itself computed/optimized (DFT, etc.)
 #   experimental    — geometry the paper took from X-ray/neutron/other measurement
