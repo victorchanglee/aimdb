@@ -636,9 +636,15 @@ them. The full text is available as <code>LICENSE</code> in the repository root.
 
 <div class="view-panel" id="view-contribute" hidden>
   <h2>How to contribute</h2>
-  <p>AIMdb is a free, open source academic project. Any help or contribution is welcome.</p>
-    
-    <p>To contribute, fill in the fields below. Submitting opens a pre-filled email to the maintainer with your entry. Every submission goes into a separate review queue — <strong>nothing is added to the database automatically</strong>; the maintainer checks each entry before it is accepted.</p>
+  <p>AIMdb is a free, open source academic project. Any help or contribution is welcome. There are two ways to contribute: the form below, or a pull request on GitHub.</p>
+
+    <h3 class="ds-h3">1. Pull request on GitHub</h3>
+    <p>If you are comfortable with git, open a pull request against
+      <a href="https://github.com/victorchanglee/aimdb" target="_blank" rel="noopener">github.com/victorchanglee/aimdb</a>.
+      This suits larger batches — several compounds, or a whole paper's worth of entries — and lets the review happen against a diff. Add one row per compound to <code>database/aimdb.csv</code>, keeping the existing column order, and please include for every row: the <strong>DOI</strong> of the source paper, the <strong>active space</strong> (number of electrons and orbitals), the <strong>method</strong> and <strong>basis set</strong>, and a note saying where each value came from. Values must be stated by the paper — a field the paper does not give is left empty rather than estimated. The contribution guide in <code>CLAUDE.md</code> describes the columns and conventions in full.</p>
+
+    <h3 class="ds-h3">2. Submission form</h3>
+    <p>To contribute a single entry, fill in the fields below. Submitting opens a pre-filled email to the maintainer with your entry. Every submission goes into a separate review queue — <strong>nothing is added to the database automatically</strong>; the maintainer checks each entry before it is accepted. The same is true of pull requests: they are reviewed against the source paper before being merged.</p>
   <form id="contribForm" autocomplete="off">
     <div class="form-grid">
       <div class="form-section-title">You</div>
