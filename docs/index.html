@@ -45,6 +45,13 @@
     background:var(--chip);color:var(--text);cursor:pointer;font-size:12.5px;user-select:none}
   .chip.on{background:var(--chip-on);border-color:var(--chip-on);color:#fff}
   .chip .n{opacity:.6;margin-left:5px;font-variant-numeric:tabular-nums}
+  .year-range{display:flex;align-items:center;gap:8px;margin-top:10px;flex-wrap:wrap}
+  .year-range input{width:84px;padding:5px 8px;border-radius:7px;border:1px solid var(--border);
+    background:var(--panel);color:var(--text);font:inherit;font-size:13px;
+    font-variant-numeric:tabular-nums}
+  .year-range input:focus{outline:2px solid var(--chip-on);outline-offset:-1px}
+  .year-range .dash{color:var(--muted)}
+  .year-range .hint{color:var(--muted);font-size:12.5px}
   .ptable-head{display:flex;align-items:center;justify-content:space-between;gap:12px;
     margin-top:14px;color:var(--muted);font-size:12px}
   .ptable-head .head-actions{display:flex;align-items:center;gap:14px}
@@ -506,6 +513,20 @@
       </div>
       <div class="chips" id="accessChips"></div>
     </div>
+    <div class="filter-group" id="yearFilterGroup" hidden="">
+      <div class="ptable-head">
+        <span>Filter by year</span>
+        <span class="clear-els" id="clearYears" hidden="">Clear ✕</span>
+      </div>
+      <div class="year-range">
+        <label for="yearMin" class="hint">from</label>
+        <input type="number" id="yearMin" inputmode="numeric" step="1" aria-label="Earliest year">
+        <span class="dash">–</span>
+        <label for="yearMax" class="hint">to</label>
+        <input type="number" id="yearMax" inputmode="numeric" step="1" aria-label="Latest year">
+        <span class="hint" id="yearHint"></span>
+      </div>
+    </div>
     <div class="filter-group" id="corrFilterGroup" hidden="">
       <div class="ptable-head">
         <span>Filter by correlation correction</span>
@@ -783,7 +804,7 @@ const PTABLE_F = [
   ["Bk",2,11],["Cf",2,12],["Es",2,13],["Fm",2,14],["Md",2,15],["No",2,16],["Lr",2,17],
 ];
 
-const state = { q:"", scope:"all", sortField:"year", sortDir:"desc", els:new Set(), corrs:new Set(), types:new Set(), access:new Set(), selected:new Set(), showAll:false };
+const state = { q:"", scope:"all", sortField:"year", sortDir:"desc", els:new Set(), corrs:new Set(), types:new Set(), access:new Set(), yearMin:null, yearMax:null, selected:new Set(), showAll:false };
 
 function pelCell([sym,row,col]){
   const n = elCount[sym]||0;
@@ -835,6 +856,34 @@ function renderCorrChips(){
 function matchesType(r){
   if(state.types.size===0) return true;
   return state.types.has(r.entry_type||"");
+}
+// ---- year range: two boxes, either one usable on its own ----
+const YEARS = DATA.map(r=>+r.year).filter(y=>y>0);
+const YEAR_LO = YEARS.length ? Math.min(...YEARS) : 0;
+const YEAR_HI = YEARS.length ? Math.max(...YEARS) : 0;
+function matchesYear(r){
+  if(state.yearMin===null && state.yearMax===null) return true;
+  const y = +r.year;
+  if(!y) return false;                       // no year, cannot satisfy a range
+  if(state.yearMin!==null && y < state.yearMin) return false;
+  if(state.yearMax!==null && y > state.yearMax) return false;
+  return true;
+}
+function readYearInputs(){
+  const parse = el => { const v = el.value.trim(); return /^\d{3,4}$/.test(v) ? +v : null; };
+  state.yearMin = parse($("#yearMin"));
+  state.yearMax = parse($("#yearMax"));
+  // a reversed range filters everything out; swap it instead
+  if(state.yearMin!==null && state.yearMax!==null && state.yearMin > state.yearMax){
+    [state.yearMin, state.yearMax] = [state.yearMax, state.yearMin];
+  }
+  $("#clearYears").hidden = state.yearMin===null && state.yearMax===null;
+}
+function renderYearInputs(){
+  $("#yearMin").placeholder = YEAR_LO || "";
+  $("#yearMax").placeholder = YEAR_HI || "";
+  $("#yearHint").textContent = YEAR_LO ? `database spans ${YEAR_LO}\u2013${YEAR_HI}` : "";
+  $("#clearYears").hidden = state.yearMin===null && state.yearMax===null;
 }
 function matchesAccess(r){
   if(state.access.size===0) return true;
@@ -960,17 +1009,18 @@ function accessTag(r){
 }
 
 function render(){
-  const active = !!(state.q || state.els.size || state.corrs.size || state.types.size || state.access.size || state.showAll);
+  const active = !!(state.q || state.els.size || state.corrs.size || state.types.size || state.access.size || state.yearMin!==null || state.yearMax!==null || state.showAll);
   $("#hero").classList.toggle("compact", active);
   $("#emptyState").hidden = active;
   $("#meta").hidden = !active;
   $("#table").hidden = !active;
   $("#typeFilterGroup").hidden = !active;
   $("#accessFilterGroup").hidden = !active;
+  $("#yearFilterGroup").hidden = !active;
   $("#corrFilterGroup").hidden = !active;
   if(!active){ $("#tbody").innerHTML = ""; return; }
 
-  let rows = DATA.filter(r=>matchesText(r) && matchesEls(r) && matchesCorr(r) && matchesType(r) && matchesAccess(r));
+  let rows = DATA.filter(r=>matchesText(r) && matchesEls(r) && matchesCorr(r) && matchesType(r) && matchesAccess(r) && matchesYear(r));
   rows.sort((a,b)=>{
     let cmp;
     if(state.sortField==="name") cmp = (a.compound_name||"").localeCompare(b.compound_name||"");
@@ -1076,6 +1126,13 @@ $("#accessChips").addEventListener("click", e=>{
   renderAccessChips(); render();
 });
 $("#clearAccess").addEventListener("click", ()=>{ state.access.clear(); renderAccessChips(); render(); });
+["#yearMin","#yearMax"].forEach(sel=>{
+  $(sel).addEventListener("input", ()=>{ readYearInputs(); render(); });
+});
+$("#clearYears").addEventListener("click", ()=>{
+  $("#yearMin").value = ""; $("#yearMax").value = "";
+  readYearInputs(); render();
+});
 $("#typeChips").addEventListener("click", e=>{
   const c=e.target.closest(".chip"); if(!c) return;
   const t=c.dataset.type;
@@ -1131,9 +1188,9 @@ $("#selCount").addEventListener("click", ()=>{
 $("#downloadBtn").addEventListener("click", downloadCSV);
 $("#showAllBtn").addEventListener("click", ()=>{ state.showAll=true; render(); });
 $("#clear").addEventListener("click", ()=>{
-  state.q=""; state.els.clear(); state.corrs.clear(); state.types.clear(); state.access.clear(); state.scope="all"; state.showAll=false;
+  state.q=""; state.els.clear(); state.corrs.clear(); state.types.clear(); state.access.clear(); state.yearMin=null; state.yearMax=null; $("#yearMin").value=""; $("#yearMax").value=""; state.scope="all"; state.showAll=false;
   $("#q").value=""; $("#scope").value="all";
-  renderChips(); renderCorrChips(); renderTypeChips(); renderAccessChips(); render();
+  renderChips(); renderCorrChips(); renderTypeChips(); renderAccessChips(); renderYearInputs(); render();
 });
 
 // ---- sidebar nav ----
@@ -1145,9 +1202,9 @@ function showView(name){
   if(window.innerWidth<=760) setSidebarHidden(true);
 }
 function goHome(){
-  state.q=""; state.els.clear(); state.corrs.clear(); state.types.clear(); state.access.clear(); state.scope="all"; state.showAll=false;
+  state.q=""; state.els.clear(); state.corrs.clear(); state.types.clear(); state.access.clear(); state.yearMin=null; state.yearMax=null; $("#yearMin").value=""; $("#yearMax").value=""; state.scope="all"; state.showAll=false;
   $("#q").value=""; $("#scope").value="all";
-  renderChips(); renderCorrChips(); renderTypeChips(); renderAccessChips(); render();
+  renderChips(); renderCorrChips(); renderTypeChips(); renderAccessChips(); renderYearInputs(); render();
   showView("home");
 }
 document.querySelectorAll(".nav-item").forEach(b=>{
@@ -1249,6 +1306,7 @@ if(!window.LIT){
   renderCorrChips();
   renderTypeChips();
   renderAccessChips();
+  renderYearInputs();
   render();
 
   // dataset view stats
