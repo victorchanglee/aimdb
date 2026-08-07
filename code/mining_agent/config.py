@@ -61,7 +61,7 @@ DEFAULT_ENTRY_TYPE = "llm_mining"
 # aimdb-only columns appended LAST.
 LITERATURE_COLUMNS = [
     "entry_id", "structure_file", "structure_provenance", "compound_name",
-    "formula", "metal_center",
+    "system_class", "formula", "metal_center",
     "metal_ox_state", "d_electron_count", "ligand_set", "point_group",
     "geometry_source", "method", "software", "basis_set",
     "relativistic_treatment", "soc_included", "ss_included",
@@ -71,10 +71,10 @@ LITERATURE_COLUMNS = [
     "electronic_structure_description", "Other",
     "reference_short", "reference_doi", "year", "notes",
     "correlation_correction", "entry_type", "mining_model", "open_access",
-    "system_class",
 ]
 
 # system_class: what kind of system the row describes, so consumers can filter
+# (it sits next to compound_name, since it describes the compound itself)
 # without the mining policy deciding for them (user decision 2026-08-07: the
 # database excludes nothing by system size or class).
 #   atom         — a single atom or atomic ion
