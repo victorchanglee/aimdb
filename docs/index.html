@@ -690,6 +690,14 @@ them. The full text is available as <code>LICENSE</code> in the repository root.
       <div class="form-section-title">Compound</div>
       <div class="field-group full"><label>Compound name / description <span class="req">*</span></label><input name="compound_name" required=""></div>
       <div class="field-group"><label>Chemical formula</label><input name="formula" placeholder="e.g. C5FeO5"></div>
+      <div class="field-group"><label>System type</label>
+        <select name="system_class">
+          <option value="">—</option>
+          <option value="molecule">Molecule (three or more atoms)</option>
+          <option value="diatomic">Diatomic (two atoms, metal dimers included)</option>
+          <option value="atom">Atom (single atom or atomic ion)</option>
+          <option value="solid-state">Solid state (site in a lattice, surface/adsorbate, or bulk)</option>
+        </select></div>
       <div class="field-group"><label>Metal center</label><input name="metal_center" placeholder="e.g. Fe — or 'none'"></div>
       <div class="field-group"><label>Metal oxidation state</label><input name="metal_ox_state" placeholder="e.g. II"></div>
       <div class="field-group"><label>Ligand set</label><input name="ligand_set"></div>
