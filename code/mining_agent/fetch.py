@@ -1,7 +1,11 @@
-"""Download open-access PDFs for indexed candidates.
+"""Download PDFs for indexed candidates.
 
-Only URLs that came from the search API's OA metadata are ever fetched —
-this module takes the URL from the index row, never discovers its own.
+This module never discovers a URL of its own: fetch_one() uses the one the
+index already holds, and refetch walks the locations OpenAlex reports for the
+DOI. The open-access-only restriction was lifted on 2026-08-07, so those
+locations may include non-OA ones; search.BLOCKED_HOSTS still ranks the
+publisher sites that 403 scripted clients last, and nothing under papers/ is
+ever committed.
 """
 import time
 
@@ -18,7 +22,7 @@ def fetch_one(row, session=None):
     url = row["oa_pdf_url"]
     if not url:
         index.set_status(row["key"], "fetch_failed")
-        return False, "no OA URL in index"
+        return False, "no URL in index"
     dest = config.PAPERS_PENDING_DIR / f"{row['key']}.pdf"
     try:
         resp = session.get(url, timeout=120, stream=True,

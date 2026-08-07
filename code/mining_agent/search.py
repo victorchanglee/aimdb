@@ -18,7 +18,11 @@ def openalex_search(query, max_results=25, from_year=None):
     session = requests.Session()
     session.headers["User-Agent"] = config.USER_AGENT
 
-    filters = ["open_access.is_oa:true"]
+    # No open-access filter (policy change 2026-08-07): the index is meant to
+    # be a full map of the literature, so paywalled works are indexed too.
+    # They usually arrive with no fetchable URL and land as fetch_failed,
+    # which is an honest record rather than a silent omission.
+    filters = []
     if from_year:
         filters.append(f"from_publication_date:{from_year}-01-01")
 
@@ -27,19 +31,24 @@ def openalex_search(query, max_results=25, from_year=None):
     while len(found) < max_results and cursor:
         params = {
             "search": query,
-            "filter": ",".join(filters),
             "per-page": min(50, max_results),
             "cursor": cursor,
             "mailto": config.MAILTO,
             "select": "id,doi,display_name,publication_year,"
                       "best_oa_location,open_access",
         }
+        if filters:
+            params["filter"] = ",".join(filters)
         resp = session.get(config.OPENALEX_WORKS_URL, params=params,
                            timeout=60)
         resp.raise_for_status()
         payload = resp.json()
         for work in payload.get("results", []):
-            hit = _to_candidate(work)
+            # require_url=False since 2026-08-07: a paywalled work has no
+            # best_oa_location, and dropping it here would have silently
+            # undone the removal of the open-access filter above. It is
+            # indexed with an empty URL and fetch records it as fetch_failed.
+            hit = _to_candidate(work, require_url=False)
             if hit:
                 found.append(hit)
                 if len(found) >= max_results:
@@ -86,17 +95,21 @@ def _host_rank(url):
 
 
 def openalex_all_pdf_urls(doi):
-    """Every OA pdf_url OpenAlex knows for this DOI, best-fetchable first.
+    """Every pdf_url OpenAlex knows for this DOI, best-fetchable first.
 
     fetch() originally used only best_oa_location, which for paywalled-
     publisher-hosted OA is a URL that blocks scripts even though a
-    repository copy exists.
+    repository copy exists. Since 2026-08-07 this returns every location,
+    not only the OA-flagged ones — a non-OA location is simply one more URL
+    to try, and BLOCKED_HOSTS still sinks the publisher sites that 403
+    scripted clients, so they are attempted last if at all.
     """
     session = requests.Session()
     session.headers["User-Agent"] = config.USER_AGENT
     resp = session.get(f"{config.OPENALEX_WORKS_URL}/https://doi.org/{doi}",
                        params={"mailto": config.MAILTO,
-                               "select": "locations,best_oa_location"},
+                               "select": "locations,best_oa_location,"
+                                         "primary_location"},
                        timeout=60)
     time.sleep(config.REQUEST_INTERVAL)
     if resp.status_code != 200:
@@ -107,9 +120,10 @@ def openalex_all_pdf_urls(doi):
         u = loc.get("pdf_url")
         if u and u not in urls:
             urls.append(u)
-    best = (payload.get("best_oa_location") or {}).get("pdf_url")
-    if best and best not in urls:
-        urls.append(best)
+    for extra in ("best_oa_location", "primary_location"):
+        u = (payload.get(extra) or {}).get("pdf_url")
+        if u and u not in urls:
+            urls.append(u)
     return sorted(urls, key=_host_rank)
 
 
