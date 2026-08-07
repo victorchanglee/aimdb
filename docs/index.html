@@ -101,6 +101,10 @@
   .tag-oa{color:#15803d;border-color:#15803d;background:rgba(21,128,61,.09)}
   .tag-closed{color:#b91c1c;border-color:#b91c1c;background:rgba(185,28,28,.08)}
   .doi .tag{margin-left:6px}
+  .tag-atom{color:#b45309;border-color:#b45309;background:rgba(180,83,9,.08)}
+  .tag-diatomic{color:#7c3aed;border-color:#7c3aed;background:rgba(124,58,237,.08)}
+  .tag-molecule{color:#0d9488;border-color:#0d9488;background:rgba(13,148,136,.10)}
+  .tag-solid-state{color:#475569;border-color:#94a3b8;background:rgba(71,85,105,.08)}
   .structure-dl{color:var(--accent);text-decoration:none;font-size:13px;margin-right:8px}
   .structure-dl:hover{text-decoration:underline}
   .meta-actions{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
@@ -996,6 +1000,7 @@ function detail(r, i){
     if(f==="reference_doi" && v) v = `<a href="https://doi.org/${esc(v)}" target="_blank" rel="noopener">${esc(v)}</a>`;
     else if(f==="entry_type") v = entryTag(r) || '<span class="empty">—</span>';
     else if(f==="open_access") v = accessTag(r) || '<span class="empty">—</span>';
+    else if(f==="system_class") v = sysTag(r) || '<span class="empty">—</span>';
     else if(f==="structure_file") v = v
       ? `<a class="structure-dl" href="${structureUrl(v)}" target="_blank" rel="noopener" download>⬇ ${esc(v)}</a>${structureTag(r)}`
       : '<span class="empty">—</span>';
@@ -1017,6 +1022,11 @@ function elBadges(r){
 }
 
 const ENTRY_TYPE_LABELS = {llm_mining:"LLM-mined", llm_reproduced:"LLM-reproduced", human:"Human"};
+function sysTag(r){
+  const c = sysOf(r);
+  if(!c) return "";
+  return `<span class="tag tag-${esc(c)}" title="System type: ${esc(SYS_LABELS[c])}">${esc(SYS_LABELS[c])}</span>`;
+}
 function entryTag(r){
   const t = r.entry_type || "";
   if(!t) return "";
@@ -1060,7 +1070,7 @@ function render(){
     const formula = r.formula ? `<span class="formula">${highlight(r.formula)}</span>` : '<span class="empty">—</span>';
     return `<tr class="row" data-i="${i}">
       <td class="selcell"><input type="checkbox" class="rowsel" data-id="${esc(r.entry_id)}" ${state.selected.has(r.entry_id)?"checked":""}></td>
-      <td class="name">${highlight(r.compound_name)} ${entryTag(r)}</td>
+      <td class="name">${highlight(r.compound_name)} ${entryTag(r)} ${sysTag(r)}</td>
       <td>${formula}</td>
       <td>${elBadges(r)}</td>
       <td>${highlight(r.method)}</td>
