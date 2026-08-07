@@ -1,16 +1,9 @@
 # CASSCF Literature Mining Agent — Policy
 
 You are running a loop that finds published papers containing CASSCF-family
-calculations on transition-metal complexes, downloads the open-access PDFs,
-and transforms them into rows of `database/aimdb.csv` (renamed 2026-07-29
-from `literature.csv` to match the project name) — historically the
-same schema as `claude-casscf/database/literature.csv`, so mined rows could be
-merged into the decision agent's reference database. **As of 2026-07-28 this
-schema has diverged**: `ground_state_term` was merged into
-`low_lying_states_eV` (renamed `electronic_structure_description`, with any
-term symbol prefixed "Ground term: ..."). Merging into claude-casscf now
-requires either re-splitting that column or updating claude-casscf's schema
-to match. Follow this policy exactly.
+calculations on transition-metal complexes, downloads the PDFs,
+and transforms them into rows of `database/aimdb.csv`, so mined rows could be
+merged into the decision agent's reference database. Follow this policy exactly.
 
 ## Second-read queue
 
@@ -93,7 +86,7 @@ PDFs that were added by hand and aren't in the index).
 ## The loop, one paper at a time
 
 1. **Search.** `python -m mining_agent search --query "<terms>" --max N`
-   queries OpenAlex (open-access-filtered) and appends new candidates to
+   queries OpenAlex and appends new candidates to
    `papers_index.csv` with `status=candidate`, deduplicated by DOI. Vary
    queries across cycles: "CASSCF transition metal complex",
    "NEVPT2 zero-field splitting", "CASPT2 spin states iron", metal-specific
@@ -264,7 +257,6 @@ never trusted blindly**:
 
 - Never fabricate or infer a value the paper doesn't state — empty cell wins.
 - Never commit `papers/` or `text/` (copyrighted content; they're gitignored).
-- Never download from anywhere except the OA URLs the search API returns.
 - Never add a row whose DOI already has rows, unless it's a genuinely
   different compound from the same paper.
 - Never edit or delete existing `aimdb.csv` rows without being asked —
