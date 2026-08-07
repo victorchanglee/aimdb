@@ -119,5 +119,5 @@ DOI: 10.26434/chemrxiv.15007136/v1
 }
 ```
 
-Every row carries a `reference_doi`. **Please also cite the original paper** for
+Every entry carries a `reference_doi`. **Please also cite the original paper** for
 any value you take from the database.
