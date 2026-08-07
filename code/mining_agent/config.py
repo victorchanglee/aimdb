@@ -37,11 +37,11 @@ REQUEST_INTERVAL = 1.0
 # Refuse PDFs larger than this (broken links sometimes serve huge blobs).
 MAX_PDF_BYTES = 80 * 1024 * 1024
 
-# The LLM (Claude model) that performed the extraction. Stamped onto every
+# The LLM that performed the extraction. Stamped onto every
 # new row by append_row() when the row doesn't already carry one. BUMP THIS
 # whenever the mining model changes so provenance stays accurate; a session
 # may also override per-row by passing "mining_model" in the add-row JSON.
-CURRENT_MINING_MODEL = "claude-opus-5"
+CURRENT_MINING_MODEL = "gpt-5.6"
 
 # How an entry was produced (provenance). Allowed values and the default used
 # when a row omits "entry_type":
