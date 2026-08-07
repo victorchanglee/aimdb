@@ -71,7 +71,19 @@ LITERATURE_COLUMNS = [
     "electronic_structure_description", "Other",
     "reference_short", "reference_doi", "year", "notes",
     "correlation_correction", "entry_type", "mining_model", "open_access",
+    "system_class",
 ]
+
+# system_class: what kind of system the row describes, so consumers can filter
+# without the mining policy deciding for them (user decision 2026-08-07: the
+# database excludes nothing by system size or class).
+#   atom         — a single atom or atomic ion
+#   diatomic     — a two-atom species, metal dimers included
+#   molecule     — three or more atoms, isolated/gas-phase or in solution
+#   solid-state  — a site in a host lattice, a surface/adsorbate model or a
+#                  bulk solid, however it is modelled (embedded cluster,
+#                  bare cluster, periodic); wins over the size-based values
+SYSTEM_CLASSES = ("atom", "diatomic", "molecule", "solid-state")
 
 # open_access: is reference_doi open access according to OpenAlex?
 #   yes / no  — OpenAlex's open_access.is_oa for that DOI

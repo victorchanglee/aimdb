@@ -98,10 +98,25 @@ PDFs that were added by hand and aren't in the index).
    solid-state row must state that the system is a site in a lattice or on a
    surface treated by a cluster model, not an isolated molecule, so the row is
    never mistaken for a gas-phase molecular result.
-   Reviews citing others' numbers, method papers with toy systems only
-   (diatomics/model Hamiltonians benchmarking an algorithm), and papers
-   where the active space is never specified are `status=not_usable`
-   (log why).
+   **No exclusions by system size or class (user decision 2026-08-07):**
+   single atoms, bare diatomics, molecules of any size, clusters and
+   solid-state models are all in scope. This overturns the "bare-diatomic
+   convention" that mining sessions invented between 2026-08-03 and
+   2026-08-05 and used to reject ~167 papers — those are being re-read, and
+   the rule must never be reintroduced. What still makes a paper unusable is
+   only this: **it reports no multireference calculation of its own, or never
+   states the active space.** Reviews that merely cite other people's numbers,
+   and papers where the active space is never specified anywhere (main text or
+   SI), are `status=not_usable` (log why).
+
+   Record what kind of system the row describes in **`system_class`**:
+   `atom`, `diatomic`, `molecule` or `solid-state` (a site in a host lattice,
+   a surface/adsorbate model, or a bulk solid, however it is modelled).
+   Size wins over composition — a two-atom species is `diatomic` even if it
+   is a metal dimer — except that `solid-state` wins over everything, since
+   it describes the environment rather than the size. The column exists so
+   consumers can filter for themselves instead of the policy deciding for
+   them; it is never a reason to reject a paper.
 
 4b. **Fetch SI when it matters.** If the main text defers computational
    details ("see SI"), or key fields (active space composition, geometry,

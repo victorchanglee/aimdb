@@ -513,6 +513,13 @@
       </div>
       <div class="chips" id="accessChips"></div>
     </div>
+    <div class="filter-group" id="sysFilterGroup" hidden="">
+      <div class="ptable-head">
+        <span>Filter by system type</span>
+        <span class="clear-els" id="clearSys" hidden="">Clear ✕</span>
+      </div>
+      <div class="chips" id="sysChips"></div>
+    </div>
     <div class="filter-group" id="yearFilterGroup" hidden="">
       <div class="ptable-head">
         <span>Filter by year</span>
@@ -804,7 +811,7 @@ const PTABLE_F = [
   ["Bk",2,11],["Cf",2,12],["Es",2,13],["Fm",2,14],["Md",2,15],["No",2,16],["Lr",2,17],
 ];
 
-const state = { q:"", scope:"all", sortField:"year", sortDir:"desc", els:new Set(), corrs:new Set(), types:new Set(), access:new Set(), yearMin:null, yearMax:null, selected:new Set(), showAll:false };
+const state = { q:"", scope:"all", sortField:"year", sortDir:"desc", els:new Set(), corrs:new Set(), types:new Set(), access:new Set(), sys:new Set(), yearMin:null, yearMax:null, selected:new Set(), showAll:false };
 
 function pelCell([sym,row,col]){
   const n = elCount[sym]||0;
@@ -856,6 +863,24 @@ function renderCorrChips(){
 function matchesType(r){
   if(state.types.size===0) return true;
   return state.types.has(r.entry_type||"");
+}
+// ---- system type: atom / diatomic / molecule / solid-state ----
+const SYS_CANON = ["atom", "diatomic", "molecule", "solid-state"];
+const SYS_LABELS = {atom:"Atom", diatomic:"Diatomic", molecule:"Molecule", "solid-state":"Solid state"};
+function sysOf(r){ const v=(r.system_class||"").trim().toLowerCase();
+  return SYS_CANON.includes(v) ? v : ""; }
+const sysCount = {};
+DATA.forEach(r => { const c=sysOf(r); if(c) sysCount[c]=(sysCount[c]||0)+1; });
+const sysOrder = SYS_CANON.filter(c=>sysCount[c]);
+function matchesSys(r){
+  if(state.sys.size===0) return true;
+  return state.sys.has(sysOf(r));            // OR semantics
+}
+function renderSysChips(){
+  $("#sysChips").innerHTML = sysOrder.map(c =>
+    `<span class="chip ${state.sys.has(c)?'on':''}" data-sys="${esc(c)}">${esc(SYS_LABELS[c])}<span class="n">${sysCount[c]}</span></span>`
+  ).join("");
+  $("#clearSys").hidden = state.sys.size===0;
 }
 // ---- year range: two boxes, either one usable on its own ----
 const YEARS = DATA.map(r=>+r.year).filter(y=>y>0);
@@ -927,6 +952,7 @@ const FIELD_LABELS = {
   reference_short:"Short citation", reference_doi:"DOI", year:"Year", notes:"Notes",
   correlation_correction:"Correlation correction", entry_type:"Entry source",
   mining_model:"Mining model (LLM)", open_access:"Access (per OpenAlex)",
+  system_class:"System type",
 };
 const WIDE = new Set(["active_space_orbital_description","active_space_protocol",
   "electronic_structure_description","Other","notes","compound_name","ligand_set","geometry_source"]);
@@ -1009,18 +1035,19 @@ function accessTag(r){
 }
 
 function render(){
-  const active = !!(state.q || state.els.size || state.corrs.size || state.types.size || state.access.size || state.yearMin!==null || state.yearMax!==null || state.showAll);
+  const active = !!(state.q || state.els.size || state.corrs.size || state.types.size || state.access.size || state.sys.size || state.yearMin!==null || state.yearMax!==null || state.showAll);
   $("#hero").classList.toggle("compact", active);
   $("#emptyState").hidden = active;
   $("#meta").hidden = !active;
   $("#table").hidden = !active;
   $("#typeFilterGroup").hidden = !active;
   $("#accessFilterGroup").hidden = !active;
+  $("#sysFilterGroup").hidden = !active;
   $("#yearFilterGroup").hidden = !active;
   $("#corrFilterGroup").hidden = !active;
   if(!active){ $("#tbody").innerHTML = ""; return; }
 
-  let rows = DATA.filter(r=>matchesText(r) && matchesEls(r) && matchesCorr(r) && matchesType(r) && matchesAccess(r) && matchesYear(r));
+  let rows = DATA.filter(r=>matchesText(r) && matchesEls(r) && matchesCorr(r) && matchesType(r) && matchesAccess(r) && matchesSys(r) && matchesYear(r));
   rows.sort((a,b)=>{
     let cmp;
     if(state.sortField==="name") cmp = (a.compound_name||"").localeCompare(b.compound_name||"");
@@ -1126,6 +1153,13 @@ $("#accessChips").addEventListener("click", e=>{
   renderAccessChips(); render();
 });
 $("#clearAccess").addEventListener("click", ()=>{ state.access.clear(); renderAccessChips(); render(); });
+$("#sysChips").addEventListener("click", e=>{
+  const c=e.target.closest(".chip"); if(!c) return;
+  const v=c.dataset.sys;
+  state.sys.has(v) ? state.sys.delete(v) : state.sys.add(v);
+  renderSysChips(); render();
+});
+$("#clearSys").addEventListener("click", ()=>{ state.sys.clear(); renderSysChips(); render(); });
 ["#yearMin","#yearMax"].forEach(sel=>{
   $(sel).addEventListener("input", ()=>{ readYearInputs(); render(); });
 });
@@ -1188,9 +1222,9 @@ $("#selCount").addEventListener("click", ()=>{
 $("#downloadBtn").addEventListener("click", downloadCSV);
 $("#showAllBtn").addEventListener("click", ()=>{ state.showAll=true; render(); });
 $("#clear").addEventListener("click", ()=>{
-  state.q=""; state.els.clear(); state.corrs.clear(); state.types.clear(); state.access.clear(); state.yearMin=null; state.yearMax=null; $("#yearMin").value=""; $("#yearMax").value=""; state.scope="all"; state.showAll=false;
+  state.q=""; state.els.clear(); state.corrs.clear(); state.types.clear(); state.access.clear(); state.sys.clear(); state.yearMin=null; state.yearMax=null; $("#yearMin").value=""; $("#yearMax").value=""; state.scope="all"; state.showAll=false;
   $("#q").value=""; $("#scope").value="all";
-  renderChips(); renderCorrChips(); renderTypeChips(); renderAccessChips(); renderYearInputs(); render();
+  renderChips(); renderCorrChips(); renderTypeChips(); renderAccessChips(); renderSysChips(); renderYearInputs(); render();
 });
 
 // ---- sidebar nav ----
@@ -1202,9 +1236,9 @@ function showView(name){
   if(window.innerWidth<=760) setSidebarHidden(true);
 }
 function goHome(){
-  state.q=""; state.els.clear(); state.corrs.clear(); state.types.clear(); state.access.clear(); state.yearMin=null; state.yearMax=null; $("#yearMin").value=""; $("#yearMax").value=""; state.scope="all"; state.showAll=false;
+  state.q=""; state.els.clear(); state.corrs.clear(); state.types.clear(); state.access.clear(); state.sys.clear(); state.yearMin=null; state.yearMax=null; $("#yearMin").value=""; $("#yearMax").value=""; state.scope="all"; state.showAll=false;
   $("#q").value=""; $("#scope").value="all";
-  renderChips(); renderCorrChips(); renderTypeChips(); renderAccessChips(); renderYearInputs(); render();
+  renderChips(); renderCorrChips(); renderTypeChips(); renderAccessChips(); renderSysChips(); renderYearInputs(); render();
   showView("home");
 }
 document.querySelectorAll(".nav-item").forEach(b=>{
@@ -1306,6 +1340,7 @@ if(!window.LIT){
   renderCorrChips();
   renderTypeChips();
   renderAccessChips();
+  renderSysChips();
   renderYearInputs();
   render();
 

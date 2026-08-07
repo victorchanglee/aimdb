@@ -153,6 +153,14 @@ def append_row(fields):
             f"open_access {fields['open_access']!r} not in "
             f"{config.OPEN_ACCESS_VALUES} — leave it empty and run "
             "tools_oa.py --refresh --stamp")
+    # system_class: atom / diatomic / molecule / solid-state. Nothing is out of
+    # scope by system type (user decision 2026-08-07), but the value must be one
+    # of the four so the site facet and any consumer filter stay meaningful.
+    if fields.get("system_class") and \
+            fields["system_class"] not in config.SYSTEM_CLASSES:
+        raise ValueError(
+            f"system_class {fields['system_class']!r} not in "
+            f"{config.SYSTEM_CLASSES}")
     row = {col: str(fields.get(col, "")) for col in config.LITERATURE_COLUMNS}
     with open(config.LITERATURE_CSV, "a", newline="", encoding="utf-8") as f:
         csv.DictWriter(f, fieldnames=config.LITERATURE_COLUMNS).writerow(row)
