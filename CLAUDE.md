@@ -12,6 +12,30 @@ term symbol prefixed "Ground term: ..."). Merging into claude-casscf now
 requires either re-splitting that column or updating claude-casscf's schema
 to match. Follow this policy exactly.
 
+## Second-read queue
+
+`logs/second_read_queue.csv` lists every paper with at least one row missing a
+core field — `active_space_nel`, `active_space_norb`,
+`active_space_orbital_description`, `basis_set` or `software` — sorted so the
+most rewarding re-reads come first. Regenerate it any time from `aimdb.csv`
+plus `papers_index.csv`; it is a derived worklist, not a source of truth.
+
+Tiers, in the order they appear in the file:
+
+- **A-active-space** — the active space itself is missing on some row. Highest
+  value: a row without (nel,norb) cannot answer the question the database
+  exists for.
+- **B-basis-orbitals** — space is present, `basis_set` or the orbital
+  description is not.
+- **D-software-only** — only `software` is missing. Cheapest to close, often a
+  single grep of the methods section.
+- **C-refetch** — no local text; needs `refetch` or `si` before anything can be
+  read. Do these last.
+
+A gap is only worth filling if the paper states the value. Many are genuinely
+absent from the source — that is a finding, not a defect, and the row should
+say so in `notes` rather than be filled by inference.
+
 ## QUEST-sourced rows: keep here, filter on export
 
 QUEST-series papers are **in scope for aimdb** — this is a general database and
@@ -49,6 +73,7 @@ papers/si/<key>/              supplementary information (gitignored)
 text/<key>.txt                extracted text (gitignored — do not commit)
 logs/extractions.csv          append-only audit log, one row per decision
 logs/oa_status.csv            OpenAlex open-access answer per DOI (see open_access below)
+logs/second_read_queue.csv    papers whose rows have gaps worth a second read (see below)
 ```
 
 Run all `python -m mining_agent ...` commands from `code/` with
