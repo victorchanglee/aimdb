@@ -578,16 +578,19 @@
 
 <div class="view-panel" id="view-cite" hidden="">
   <h2>How to cite</h2>
-  <p>If AIMdb was useful in your work, please cite it as:</p>
-  <div class="code-block" id="citeText">Lee, V. C. AIMdb: an AI-mined database of CASSCF-family multiconfigurational calculations. <span id="citeYear">2026</span>. https://github.com/victorchanglee/aimdb</div>
+  <p>If AIMdb was useful in your work, please cite the preprint:</p>
+  <div class="code-block" id="citeText">Lee, V. C.; Lee, J.; Rondinelli, J. M. AIMdb: Artificial Intelligence Multiconfigurational Database. ChemRxiv, 2026. DOI: 10.26434/chemrxiv.15007136/v1</div>
   <button class="copy-btn" data-target="citeText">Copy</button>
   <div class="code-block" id="citeBibtex">@misc{aimdb,
-  author       = {Lee, Victor Chang},
-  title        = {{AIMdb}: An {AI}-mined database of {CASSCF}-family multiconfigurational calculations},
-  year         = {<span id="citeYearBib">2026</span>},
-  howpublished = {\url{https://github.com/victorchanglee/aimdb}}
+  author       = {Lee, Victor Chang and Lee, Jaewon and Rondinelli, James M.},
+  title        = {{AIMdb}: {Artificial} {Intelligence} {Multiconfigurational} {Database}},
+  year         = {2026},
+  howpublished = {ChemRxiv preprint},
+  doi          = {10.26434/chemrxiv.15007136/v1},
+  url          = {https://doi.org/10.26434/chemrxiv.15007136/v1}
 }</div>
   <button class="copy-btn" data-target="citeBibtex">Copy</button>
+  <p class="ds-note">The database itself lives at <a href="https://github.com/victorchanglee/aimdb" target="_blank" rel="noopener">github.com/victorchanglee/aimdb</a>. Every row carries a <code>reference_doi</code> — <strong>please also cite the original paper</strong> for any value you take from it.</p>
 </div>
 
 <div class="view-panel" id="view-acknowledgments" hidden="">
@@ -1279,9 +1282,6 @@ if(!window.LIT){
          + `<td class="pct">${pct.toFixed(1)}%</td></tr>`;
   }).join("");
 
-  const yr = new Date().getFullYear();
-  $("#citeYear").textContent = yr;
-  $("#citeYearBib").textContent = yr;
 }
 </script>
 

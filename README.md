@@ -1,7 +1,7 @@
 [![GitHub release](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/victorchanglee/SpinVibe/releases)
 [![Website](https://img.shields.io/badge/website-AIMdb-blue)](https://victorchanglee.github.io/aimdb/)
 
-<!-- [![DOI]()]() -->
+[![DOI](https://img.shields.io/badge/DOI-10.26434%2Fchemrxiv.15007136-blue)](https://doi.org/10.26434/chemrxiv.15007136/v1)
 
 # AIMdb: Artificial Intelligence Multiconfigurational database
 
@@ -100,10 +100,24 @@ intact.
 Released under [CC BY 4.0](LICENSE) — share and adapt freely, including
 commercially, with attribution.
 
+**Please cite the preprint:**
+
 ```
-AIMdb: Artificial Intelligence Multiconfigurational database.
-Victor Chang Lee, 2026. https://github.com/victorchanglee/aimdb
+Lee, V. C.; Lee, J.; Rondinelli, J. M. AIMdb: Artificial Intelligence
+Multiconfigurational Database. ChemRxiv, 2026.
+DOI: 10.26434/chemrxiv.15007136/v1
 ```
 
-Every row carries a `reference_doi`. **Please cite the original paper** for any
-value you take from the database.
+```bibtex
+@misc{aimdb,
+  author       = {Lee, Victor Chang and Lee, Jaewon and Rondinelli, James M.},
+  title        = {{AIMdb}: {Artificial} {Intelligence} {Multiconfigurational} {Database}},
+  year         = {2026},
+  howpublished = {ChemRxiv preprint},
+  doi          = {10.26434/chemrxiv.15007136/v1},
+  url          = {https://doi.org/10.26434/chemrxiv.15007136/v1}
+}
+```
+
+Every row carries a `reference_doi`. **Please also cite the original paper** for
+any value you take from the database.
