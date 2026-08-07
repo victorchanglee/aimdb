@@ -103,14 +103,14 @@ commercially, with attribution.
 **Please cite the preprint:**
 
 ```
-Lee, V. C.; Lee, J.; Rondinelli, J. M. AIMdb: Artificial Intelligence
+Chang Lee, V.; Lee, J.; Rondinelli, J. M. AIMdb: Artificial Intelligence
 Multiconfigurational Database. ChemRxiv, 2026.
 DOI: 10.26434/chemrxiv.15007136/v1
 ```
 
 ```bibtex
 @misc{aimdb,
-  author       = {Lee, Victor Chang and Lee, Jaewon and Rondinelli, James M.},
+  author       = {Chang Lee, Victor and Lee, Jaewon and Rondinelli, James M.},
   title        = {{AIMdb}: {Artificial} {Intelligence} {Multiconfigurational} {Database}},
   year         = {2026},
   howpublished = {ChemRxiv preprint},
