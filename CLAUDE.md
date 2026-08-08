@@ -53,6 +53,20 @@ mined):
   than QUEST-series**: it is its own CASPT2/CASPT3 study, but its geometries
   and reference values are taken wholesale from the QUEST database, so it
   carries the same contamination risk and must be dropped on export too.
+- `10.1002/wcms.1517` — Véril, Scemama, Caffarel, Loos, Jacquemin et al.,
+  *QUESTDB: a database of highly accurate excitation energies* (row
+  `W3110161356-a`). **The QUEST database paper itself.**
+- `10.1021/acs.jctc.9b01216` — Loos, Scemama, Jacquemin et al., *A
+  Mountaineering Strategy to Excited States* (QUEST#3, row `W3003925803-a`).
+- `10.1021/acs.jctc.4c00410` — Loos, Boggio-Pasqua, Jacquemin et al.,
+  *Reference Energies for Double Excitations: Improvement and Extension* (row
+  `W4399729459-a`). **QUEST-series**: the successor to
+  `10.1021/acs.jctc.8b01205` above.
+- `10.1021/acs.jctc.3c01080` — Jacquemin, Boggio-Pasqua & Loos, *Reference
+  Vertical Excitation Energies for Transition Metal Compounds* (row
+  `W4387325820-a`). **QUEST-series**: an explicit extension of the QUEST
+  database to eleven fourth-row transition metal diatomics (CuCl, CuF, CuH,
+  ScF, ScH, ScO, ScS, TiN, ZnH, ZnO, ZnS).
 - `10.1021/acs.jctc.1c01197` — Sarkar, Loos, Boggio-Pasqua & Jacquemin,
   *Assessing the Performances of CASPT2 and NEVPT2 for Vertical Excitation
   Energies* (row `W3215360477-a`). **QUEST-adjacent** in the same sense: the
