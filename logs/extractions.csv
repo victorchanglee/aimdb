@@ -16112,3 +16112,35 @@ timestamp,key,doi,action,result,reasoning
 2026-08-08T14:54:34Z,W2527457461,10.1039/c6sc03759c,mark,extracted_partial,"The IPEA dilemma in CASPT2: two data sets, a full-valence CASPT2-vs-FCI benchmark on 13 di-/triatomics (MOLCAS 8.0 / MOLPRO 2012.1, 6-31G, 6-311G) and a recomputation of the Thiel set at TZVP; partial because both use per-molecule spaces (full valence, or inherited from the original Thiel study)"
 2026-08-08T14:54:35Z,W4238171836,10.1017/s0252921100021448,mark,extracted_partial,"Malmqvist methods exposition: mostly review, but presents its own RASSCF demonstration on ethene, RAS(5,2,22) with 29 active orbitals vs a CAS series; partial because the CAS labels are OCR-mangled and no electron count is readable"
 2026-08-08T14:54:35Z,W2595864240,10.1021/acs.jpclett.7b00381,mark,not_usable,"Bethe-Salpeter (BSE/GW) benchmark against TD-DFT, CASPT2 and EOM-CCSD: the paper computes BSE/GW, TD-DFT and EOM-CCSD itself, but states explicitly that 'the CASPT2 values are taken from ref 6' and refers the reader there for the active-space and IPEA details. No multireference calculation of its own."
+2026-08-08T14:58:50Z,W2040770475-a,10.1063/1.3633329,add-row,appended,row added via add-row
+2026-08-08T14:58:50Z,W2040770475-b,10.1063/1.3633329,add-row,appended,row added via add-row
+2026-08-08T14:58:50Z,W2022699704-a,10.1063/1.4867118,add-row,appended,row added via add-row
+2026-08-08T14:58:50Z,W2752646845-a,10.3390/ma10091025,add-row,appended,row added via add-row
+2026-08-08T14:58:51Z,W2003921091-a,10.1007/s00214-011-0916-x,add-row,appended,row added via add-row
+2026-08-08T14:58:51Z,W3206913557-a,10.1039/d1ra04636e,add-row,appended,row added via add-row
+2026-08-08T14:58:51Z,W2040770475,10.1063/1.3633329,mark,extracted,"XMS-CASPT2 energy and nuclear gradients (Shiozaki/Werner, MOLPRO): LiF avoided crossing with 6 electrons in 3a1+2b2+2b1, and pyrrole Rydberg states with a pi-only space of 10-11a1/1-3b1/7b2/1-2a2, both aug-cc-pVTZ"
+2026-08-08T14:58:51Z,W2022699704,10.1063/1.4867118,mark,extracted_partial,"MS-CASPT2 exciton coupling in stacked DNA base dimers, ANO-S: (8,8) pyrimidine-pyrimidine, (10,10) mixed, (12,12) purine-purine; partial because the space differs per dimer and no program is named"
+2026-08-08T14:58:52Z,W2752646845,10.3390/ma10091025,mark,extracted,"DASA photoswitch absorption: CASPT2/cc-pVDZ and SC-NEVPT2/cc-pVDZ with a (14,13) active space, MOLCAS and ORCA, PCM solvents"
+2026-08-08T14:58:52Z,W2003921091,10.1007/s00214-011-0916-x,mark,extracted,"Bithiophene CASPT2 detective story: MOLCAS 7.4, single- and multi-state CASPT2, natural valence space 0550 = 12 electrons in 10 pi orbitals plus an extended 0570/0660/0770 series, cc-pVDZ through aug-cc-pVTZ"
+2026-08-08T14:58:52Z,W3206913557,10.1039/d1ra04636e,mark,extracted,"Tetrazole-quinone photoclick: SA2-CASSCF/MS-CASPT2 in OpenMolcas, 6-31G*, 14 electrons (12 pi + 2 sigma) in 6 pi + 1 sigma + 3 pi* orbitals, plus a sigma* at MS-CASPT2"
+2026-08-08T15:01:14Z,W2986990020-a,10.1021/acs.jctc.9b01129,add-row,appended,row added via add-row
+2026-08-08T15:01:14Z,W2986990020-b,10.1021/acs.jctc.9b01129,add-row,appended,row added via add-row
+2026-08-08T15:01:14Z,W2986990020-c,10.1021/acs.jctc.9b01129,add-row,appended,row added via add-row
+2026-08-08T15:01:15Z,W3215360477-a,10.1021/acs.jctc.1c01197,add-row,appended,row added via add-row
+2026-08-08T15:01:15Z,W2735018448-a,10.1002/wcms.1331,add-row,appended,row added via add-row
+2026-08-08T15:01:15Z,W2000400086-a,10.1021/ct050237r,add-row,appended,row added via add-row
+2026-08-08T15:01:15Z,W2986990020,10.1021/acs.jctc.9b01129,mark,extracted,"XDW-CASPT2 (Battaglia & Lindh, OpenMolcas dev branch): LiF SA3-CASSCF(6,6) cc-pVTZ/aug-cc-pVTZ, allene MECI with 4 electrons in 3a'+1a'', and the Thiel set for vertical excitations; three rows"
+2026-08-08T15:01:15Z,W3215360477,10.1021/acs.jctc.1c01197,mark,extracted_partial,"CASPT2 vs NEVPT2 over 265 excited states (MOLPRO + ORCA, aug-cc-pVTZ): per-state active spaces, so nel/norb empty. QUEST-ADJACENT - TBEs and single-reference comparison data come from the QUEST database, must be dropped on export"
+2026-08-08T15:01:16Z,W2735018448,10.1002/wcms.1331,mark,extracted_partial,"BAGEL program description: only stated active space is the sample CASPT2 input, benzene full pi space with nact=6, nclosed=18; no electron count and no basis for that example"
+2026-08-08T15:01:16Z,W2000400086,10.1021/ct050237r,mark,extracted,"Benzene on Cu13 cluster model of Cu(110): CASPT2 in MOLCAS, ECP10MWB on Cu with 6-31+G* on C/H, 13 Cu 4s electrons in 13 Cu 4s orbitals (5a1,2a2,3b1,3b2). Solid-state cluster model"
+2026-08-08T15:01:16Z,W3009380936,10.1021/acs.jpclett.0c00014,mark,not_usable,"'The Quest for Highly Accurate Excitation Energies: A Computational Perspective' (Loos, Scemama, Jacquemin) is a review of how benchmark excitation energies evolved from Roos's CASPT2 through CC3 to selected CI. It computes nothing of its own and states no active space - its only remark on the subject is the generic one that a minimal valence space tailored to the transition gives 0.1-0.2 eV errors. Also QUEST-series, so it would be export-blocked anyway."
+2026-08-08T15:03:50Z,W2015998324-a,10.1063/1.3157463,add-row,appended,row added via add-row
+2026-08-08T15:03:50Z,W2015998324-b,10.1063/1.3157463,add-row,appended,row added via add-row
+2026-08-08T15:03:50Z,W2363632432-a,10.1021/acs.jpclett.6b00616,add-row,appended,row added via add-row
+2026-08-08T15:03:50Z,W2052295668-a,10.1063/1.479534,add-row,appended,row added via add-row
+2026-08-08T15:03:50Z,W2781827178-a,10.1021/jacs.7b12773,add-row,appended,row added via add-row
+2026-08-08T15:03:51Z,W2015998324,10.1063/1.3157463,mark,extracted,"FNO-CASPT2 virtual-space truncation (MOLCAS dev): chloroiron corrole with a (14,14) space and ANO-RCC-VTZP/VDZP, plus LaOn/LaOn+ and glycine dipeptide demonstrations whose spaces are inherited from the reference studies; two rows"
+2026-08-08T15:03:51Z,W2363632432,10.1021/acs.jpclett.6b00616,mark,extracted,"2-thiouracil ISC dynamics: MS-CASPT2(12,9)/cc-pVDZ surface hopping in SHARC, singlets and triplets"
+2026-08-08T15:03:51Z,W2052295668,10.1063/1.479534,mark,extracted,"H2O2 six-dimensional ground-state PES: CASSCF/CASPT2 with 10 electrons in 8 orbitals (1176 CSFs), ANO basis of 120 functions, MOLCAS/MOLPRO, MRSDCI benchmark along the O-O coordinate"
+2026-08-08T15:03:51Z,W2781827178,10.1021/jacs.7b12773,mark,extracted,"Methanol + OH kinetics: CASPT2(11,11)/MG3S with the moderate correlated-participating-orbitals scheme as the benchmark for the multireference channel R2 (TS2, T1 = 0.055)"
+2026-08-08T15:03:52Z,W3011503384,10.1021/acs.jctc.9b01109,mark,not_usable,"DLPNO-CCSD(T) study of spin-crossover energetics: the paper's own results are coupled cluster. Every CASPT2/NEVPT2 number in it is other groups' work quoted for comparison - Pierloot and Vancoillie's CAS(12,10) values for [Fe(H2O)6]2+ and [Fe(NH3)6]2+ among them. The authors did try state-averaged CASSCF orbitals as a CC reference but report that this frequently caused severe CC convergence problems, and state no active space of their own."

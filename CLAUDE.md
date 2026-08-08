@@ -53,6 +53,17 @@ mined):
   than QUEST-series**: it is its own CASPT2/CASPT3 study, but its geometries
   and reference values are taken wholesale from the QUEST database, so it
   carries the same contamination risk and must be dropped on export too.
+- `10.1021/acs.jctc.1c01197` — Sarkar, Loos, Boggio-Pasqua & Jacquemin,
+  *Assessing the Performances of CASPT2 and NEVPT2 for Vertical Excitation
+  Energies* (row `W3215360477-a`). **QUEST-adjacent** in the same sense: the
+  CASPT2/NEVPT2 numbers are its own, but all 265 theoretical best estimates and
+  the single-reference comparison statistics are pulled from the QUEST
+  database. Drop on export.
+
+Related, and already `not_usable` so it produces no row: `10.1021/acs.jpclett.0c00014`
+(Loos, Scemama & Jacquemin, *The Quest for Highly Accurate Excitation Energies:
+A Computational Perspective*, key `W3009380936`) is the QUEST review itself. If
+a future pass ever finds a way to mine it, it belongs on this list.
 
 The Python package does the mechanical work (API search, PDF download, text
 extraction). **You do the reading and extraction** — deciding whether a paper
