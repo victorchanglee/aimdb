@@ -48,6 +48,11 @@ mined):
   Excitations* (rows `W2903558328-a` … `-n`, 14 rows)
 - `10.48550/arxiv.2409.00302` — Song et al., *QUEST#4X* (rows
   `W4402953348-a` … `-q`, 17 rows)
+- `10.1063/5.0095887` — Boggio-Pasqua, Jacquemin & Loos, *Benchmarking CASPT3
+  Vertical Excitation Energies* (row `W4223990773-a`). **QUEST-adjacent rather
+  than QUEST-series**: it is its own CASPT2/CASPT3 study, but its geometries
+  and reference values are taken wholesale from the QUEST database, so it
+  carries the same contamination risk and must be dropped on export too.
 
 The Python package does the mechanical work (API search, PDF download, text
 extraction). **You do the reading and extraction** — deciding whether a paper
