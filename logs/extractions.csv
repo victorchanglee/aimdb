@@ -16057,3 +16057,58 @@ timestamp,key,doi,action,result,reasoning
 2026-08-08T14:33:02Z,W4409219261,10.1051/0004-6361/202452617,mark,extracted,"SA4-CASPT2(6,4)/6-31+G(d,p) (Molpro 2012) reference data for two OH radicals in amorphous solid water clusters, training a machine-learned potential for H2O2 formation routes. One row; the (6,4) space was chosen because smaller and larger ones gave discontinuous scans along the inter-radical distance."
 2026-08-08T14:33:41Z,W2769860797-a,10.1021/acs.jctc.7b00921,add-row,appended,row added via add-row
 2026-08-08T14:33:41Z,W2769860797,10.1021/acs.jctc.7b00921,mark,extracted_partial,"CASPT2 and coupled-cluster reference database of ground- and excited-state geometries for small molecules (OpenMolcas 8.3, IPEA 0.25, ANO-L-VQZP and aug-cc-pVTZ). One condensed row. Partial because per-molecule spaces vary - (10e,10o), (12e,10o) and (12e,15o) all appear - and the table structure did not survive text extraction well enough to assign each space to its compound."
+2026-08-08T14:37:35Z,W4408209368-a,10.2172/2267543,add-row,appended,row added via add-row
+2026-08-08T14:37:35Z,W4324045604-a,10.1063/5.0144260,add-row,appended,row added via add-row
+2026-08-08T14:37:35Z,W2415707633-a,10.1021/acs.jpca.5b05672,add-row,appended,row added via add-row
+2026-08-08T14:37:35Z,W4403054913-a,10.1021/acsphyschemau.4c00065,add-row,appended,row added via add-row
+2026-08-08T14:39:35Z,W4413899784-a,10.1021/acs.jpca.5c04771,add-row,appended,row added via add-row
+2026-08-08T14:40:00Z,W4408209368,10.2172/2267543,mark,extracted,"DOE final technical report (DE-SC0019463): CASPT2/XMS-CASPT2 geometries of Fe(II) SCO complexes and Cu corroles, recommended (10e,12o)/cc-pVTZ, minimal (6e,5o); BAGEL/Block"
+2026-08-08T14:40:00Z,W4324045604,10.1063/5.0144260,mark,extracted,"DLPNO-NEVPT2-F12 (SparseMaps VI), ORCA: CASSCF(10,10) scaling series plus rhodopsin cluster models with a 12-pi/12-orbital space"
+2026-08-08T14:40:00Z,W2415707633,10.1021/acs.jpca.5b05672,mark,extracted,"CHD ring-opening TRPES, MOLPRO 2012.1: MS-MR-CASPT2/cc-pVDZ on CAS(6,4) neutral and SA2-CAS(5,4) cation"
+2026-08-08T14:40:00Z,W4403054913,10.1021/acsphyschemau.4c00065,mark,extracted,"XMS-CASPT2 photoselectivity, BAGEL: SA3-CASSCF(10,10) for BP and (12,12) for ExBP, cc-pVDZ"
+2026-08-08T14:40:00Z,W4413899784,10.1021/acs.jpca.5c04771,mark,extracted,"Singlet pyridinylidenes H2 activation, ORCA 5: NEVPT2-(12,11)/def2-TZVPP on all hydrogenation transition states"
+2026-08-08T14:42:51Z,W3213579438-a,10.48550/arxiv.2111.08424,add-row,appended,row added via add-row
+2026-08-08T14:42:51Z,W4410332617-a,10.7498/aps.74.20250380,add-row,appended,row added via add-row
+2026-08-08T14:42:51Z,W4416060653-a,10.48550/arxiv.2507.05563,add-row,appended,row added via add-row
+2026-08-08T14:42:51Z,W4213022312-a,10.7498/aps.71.20211688,add-row,appended,row added via add-row
+2026-08-08T14:43:04Z,W3213579438,10.48550/arxiv.2111.08424,mark,extracted_partial,"NaO ExoMol XLIII: SA-CASSCF/MR-CISD+Q in MOLPRO, aug-cc-pVQZ, DKH2, active space 7a1+3b1+3b2; partial because only the orbital count is given, no electron count"
+2026-08-08T14:43:04Z,W4410332617,10.7498/aps.74.20250380,mark,extracted,"CO+ opacity (Acta Phys. Sin., Chinese): CASSCF/MRCI+Q, MOLPRO 2012, aug-cc-pV6Z, CAS(9,8) = 4A1+2B1+2B2"
+2026-08-08T14:43:05Z,W4416060653,10.48550/arxiv.2507.05563,mark,extracted_partial,"OH+HO2 multi-state model: ic-MRCISD/aug-cc-pVTZ in MOLPRO, full-valence space per fragment; nel/norb empty because the space differs for each of seven fragments"
+2026-08-08T14:43:05Z,W4213022312,10.7498/aps.71.20211688,mark,extracted,"LiCl- anion (Acta Phys. Sin., Chinese): CASSCF/MRCI+Q with Breit-Pauli SOC, MOLPRO 2010, CAS(9,8)"
+2026-08-08T14:43:05Z,W4395444146,10.48550/arxiv.2404.14593,mark,not_usable,"Collision-induced excitation/quenching of atomic N: the paper does its own time-independent scattering dynamics but takes all potential curves and couplings from earlier MRCI work by Hochlaf et al and Gelfand et al. Its Table IV compares those two SOURCES' active spaces (12 orbitals: valence + 1 sigma_g + 1 pi_g; and 17: 4sigma_u, 3sigma_g, 4pi_u, 4pi_g, 2delta_g) - no multireference calculation of its own."
+2026-08-08T14:45:44Z,W1276278514,10.5283/epub.10142,mark,extracted_partial,"Phototropin thesis (German): CASSCF(2,2)/(4,4)/(8,8) in Gaussian 98 on educt/intermediate cysteine-flavin models vs B3LYP and DFT-MRCI; partial because the CASSCF basis set is never stated"
+2026-08-08T14:45:44Z,W4386162275,10.11606/t.46.2022.tde-09082023-170709,mark,extracted_partial,"CX2+ (X=F,Cl,Br,I) + noble gas thesis (Portuguese): SA-CASSCF/MRCI+Q in Molpro 2010 with per-system C2v orbital partitions; partial because nel/norb differ per system and are mostly given as partitions only"
+2026-08-08T14:45:45Z,W2312371557,10.1103/physreva.89.063416,mark,extracted_partial,"TD-RASSCF II (Miyagi & Madsen): 1D model He/Be/C atoms on a DVR grid, RAS partitions (M0,M1,M2) swept; partial because the RAS partition does not reduce to one (n,m) pair and no software is named"
+2026-08-08T14:45:45Z,W4380589122,10.7498/aps.72.20230541,mark,not_usable,"NO+ thermodynamics (Acta Phys. Sin., Chinese): builds an improved Hulburt-Hirschfelder potential from experimental spectroscopic constants and RKR data, then derives partition functions and thermodynamic properties. Its only multireference content is a COMPARISON against a previously published MRCI/aug-cc-pV6Z curve (their ref 35); no CASSCF/MRCI calculation of its own and no active space."
+2026-08-08T14:45:45Z,W4415437424,10.2172/2584648,mark,not_usable,"DOE final technical report on Langevin-dynamics modeling of gas-phase ion-ion recombination: says PECs were obtained with MOLPRO using CASSCF and MRCI-level theories (citing the authors' own Liu et al. paper), but states no active space anywhere in the report - 'active space' has zero hits and CASSCF one passing mention."
+2026-08-08T14:47:03Z,W1276278514-a,10.5283/epub.10142,add-row,appended,row added via add-row
+2026-08-08T14:47:03Z,W4386162275-a,10.11606/t.46.2022.tde-09082023-170709,add-row,appended,row added via add-row
+2026-08-08T14:47:04Z,W2312371557-a,10.1103/physreva.89.063416,add-row,appended,row added via add-row
+2026-08-08T14:49:34Z,W2804996254-a,10.1021/jacs.7b13455,add-row,appended,row added via add-row
+2026-08-08T14:49:34Z,W2804996254-b,10.1021/jacs.7b13455,add-row,appended,row added via add-row
+2026-08-08T14:49:34Z,W2804996254-c,10.1021/jacs.7b13455,add-row,appended,row added via add-row
+2026-08-08T14:49:34Z,W2323490115-a,10.1021/acs.jctc.5b01104,add-row,appended,row added via add-row
+2026-08-08T14:49:35Z,W2031342533-a,10.1063/1.4872005,add-row,appended,row added via add-row
+2026-08-08T14:49:45Z,W2804996254,10.1021/jacs.7b13455,mark,extracted,"Disulfide UV photochemistry, S K-edge XAS: RASSCF/MS-RASPT2 in MOLCAS 7.8, aug-cc-pVDZ, (14e,12o) for DMDS and the methylperthiyl radical, (11e,11o) for the methylthiyl radical; three rows"
+2026-08-08T14:49:46Z,W2323490115,10.1021/acs.jctc.5b01104,mark,extracted,"Bacteriochlorophyll a in LH2: SA-RASSCF/MS-RASPT2 in MOLCAS 7.8, ANO-RCC DZ, AS10 = 26 electrons in 25 pi/pi* orbitals (RAS1 11 / RAS2 4 / RAS3 10, 3 holes and 3 excitations)"
+2026-08-08T14:49:46Z,W2031342533,10.1063/1.4872005,mark,extracted_partial,"TD-RASSCF-S (Miyagi & Madsen): 1D model He/Be/C atoms on a grid, RAS partition (0,2,2) at M=4; partial because the RAS partition is swept and no software or AO basis is named"
+2026-08-08T14:49:46Z,W2582258508,10.1088/1367-2630/aa6319,mark,not_usable,"TD-RASSCF theory for BOSONIC many-body systems (trapped cold bosons / BEC). No electrons and no electronic active space - the orbital partition applies to bosons in a trap, and the paper's comparison method is MCTDHB. Outside the scope of an electronic-structure active-space database."
+2026-08-08T14:51:58Z,W4401266481-a,10.1021/acs.inorgchem.4c02144,add-row,appended,row added via add-row
+2026-08-08T14:51:58Z,W3205440753-a,10.1021/acs.jctc.1c00570,add-row,appended,row added via add-row
+2026-08-08T14:51:58Z,W4401954843-a,10.1021/acs.jpca.4c03612,add-row,appended,row added via add-row
+2026-08-08T14:51:58Z,W2590045672-a,10.1103/physreva.95.023415,add-row,appended,row added via add-row
+2026-08-08T14:52:10Z,W4401266481,10.1021/acs.inorgchem.4c02144,mark,extracted,"Uranyl O K-edge XANES: RASSCF(16,1,1;2,6,10) RAS(S) and RASSCF(16,1,2;2,6,10) RAS(SD) in OpenMolcas, ANO-RCC TZVP, DKH2, for [UO2]2+, [UO2Cl4]2- and Cs2UO2Cl4"
+2026-08-08T14:52:10Z,W3205440753,10.1021/acs.jctc.1c00570,mark,extracted,"Perylene bisimide nonlinear spectroscopy: SA-10-RASSCF(20,4,4;10,0,10)/RASPT2 in OpenMolcas with ANO-L-VDZP, 20 electrons in 20 orbitals"
+2026-08-08T14:52:11Z,W4401954843,10.1021/acs.jpca.4c03612,mark,extracted,"Methanol photodissociation DD-vMCG: RASSCF(12,2+8+2)[1,1]/aug-cc-pVDZ in OpenMolcas, CASSCF(8,8) for gradients, benchmarked against CASSCF(12,12)/CASPT2(12,12)"
+2026-08-08T14:52:11Z,W2590045672,10.1103/physreva.95.023415,mark,extracted_partial,"TD-RASSCF with space partition: real 3D beryllium atom on an FEDVR grid, TD-RASSCF-SP(Mhat=6, Mcheck=3; Gamma=2; rSigma=30); partial because the spatial partition gives no single orbital count and no software is named"
+2026-08-08T14:52:11Z,W3127706859,10.1002/jcc.26485,mark,not_usable,"iSPECTRON interface paper: RASSCF/RASPT2 spectra of pyrene are computed with OpenMolcas, but the active space is never stated anywhere in the main text - the only electron/orbital numbers given are the generic remark that conventional CASSCF/CASPT2 is limited to about 16 electrons in 16 orbitals. No SI is held locally for this key."
+2026-08-08T14:54:33Z,W2948218330-a,10.1021/acsomega.9b01276,add-row,appended,row added via add-row
+2026-08-08T14:54:33Z,W2398778289-a,10.1063/1.4959817,add-row,appended,row added via add-row
+2026-08-08T14:54:33Z,W2527457461-a,10.1039/c6sc03759c,add-row,appended,row added via add-row
+2026-08-08T14:54:34Z,W2527457461-b,10.1039/c6sc03759c,add-row,appended,row added via add-row
+2026-08-08T14:54:34Z,W4238171836-a,10.1017/s0252921100021448,add-row,appended,row added via add-row
+2026-08-08T14:54:34Z,W2948218330,10.1021/acsomega.9b01276,mark,extracted,"6-selenoguanine photophysics: MS-CASPT2(12,10) in MOLCAS 8.0, cc-pVDZ/cc-pVTZ (aug- on Se), IPEA=0, imaginary shift 0.2, AMFI spin-orbit"
+2026-08-08T14:54:34Z,W2398778289,10.1063/1.4959817,mark,extracted_partial,"DMRG-CASPT2 hyperpolarizability of all-trans polyenes C2nH2n+2 (n=4-12), cc-pVDZ, CheMPS2; partial because the (2n,2n) space differs per chain length"
+2026-08-08T14:54:34Z,W2527457461,10.1039/c6sc03759c,mark,extracted_partial,"The IPEA dilemma in CASPT2: two data sets, a full-valence CASPT2-vs-FCI benchmark on 13 di-/triatomics (MOLCAS 8.0 / MOLPRO 2012.1, 6-31G, 6-311G) and a recomputation of the Thiel set at TZVP; partial because both use per-molecule spaces (full valence, or inherited from the original Thiel study)"
+2026-08-08T14:54:35Z,W4238171836,10.1017/s0252921100021448,mark,extracted_partial,"Malmqvist methods exposition: mostly review, but presents its own RASSCF demonstration on ethene, RAS(5,2,22) with 29 active orbitals vs a CAS series; partial because the CAS labels are OCR-mangled and no electron count is readable"
+2026-08-08T14:54:35Z,W2595864240,10.1021/acs.jpclett.7b00381,mark,not_usable,"Bethe-Salpeter (BSE/GW) benchmark against TD-DFT, CASPT2 and EOM-CCSD: the paper computes BSE/GW, TD-DFT and EOM-CCSD itself, but states explicitly that 'the CASPT2 values are taken from ref 6' and refers the reader there for the active-space and IPEA details. No multireference calculation of its own."
