@@ -78,12 +78,15 @@ LITERATURE_COLUMNS = [
 # without the mining policy deciding for them (user decision 2026-08-07: the
 # database excludes nothing by system size or class).
 #   atom         — a single atom or atomic ion
-#   diatomic     — a two-atom species, metal dimers included
-#   molecule     — three or more atoms, isolated/gas-phase or in solution
+#   molecule     — any bound species of two or more atoms, isolated/gas-phase
+#                  or in solution; diatomics included (user decision
+#                  2026-08-10: O2 and N2 are molecules, so the former
+#                  `diatomic` value was merged into this one and the 221 rows
+#                  carrying it were relabelled)
 #   solid-state  — a site in a host lattice, a surface/adsorbate model or a
 #                  bulk solid, however it is modelled (embedded cluster,
 #                  bare cluster, periodic); wins over the size-based values
-SYSTEM_CLASSES = ("atom", "diatomic", "molecule", "solid-state")
+SYSTEM_CLASSES = ("atom", "molecule", "solid-state")
 
 # open_access: is reference_doi open access according to OpenAlex?
 #   yes / no  — OpenAlex's open_access.is_oa for that DOI

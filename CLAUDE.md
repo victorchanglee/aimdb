@@ -158,11 +158,13 @@ PDFs that were added by hand and aren't in the index).
    SI), are `status=not_usable` (log why).
 
    Record what kind of system the row describes in **`system_class`**:
-   `atom`, `diatomic`, `molecule` or `solid-state` (a site in a host lattice,
-   a surface/adsorbate model, or a bulk solid, however it is modelled).
-   Size wins over composition — a two-atom species is `diatomic` even if it
-   is a metal dimer — except that `solid-state` wins over everything, since
-   it describes the environment rather than the size. The column exists so
+   `atom`, `molecule` or `solid-state` (a site in a host lattice, a
+   surface/adsorbate model, or a bulk solid, however it is modelled).
+   **`molecule` covers any bound species of two or more atoms, diatomics
+   included** — there is no separate `diatomic` value (user decision
+   2026-08-10: O2 and N2 are molecules; the old value was merged and its 221
+   rows relabelled). `solid-state` wins over the size-based values, since it
+   describes the environment rather than the size. The column exists so
    consumers can filter for themselves instead of the policy deciding for
    them; it is never a reason to reject a paper.
 

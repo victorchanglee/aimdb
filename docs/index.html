@@ -102,7 +102,6 @@
   .tag-closed{color:#b91c1c;border-color:#b91c1c;background:rgba(185,28,28,.08)}
   .doi .tag{margin-left:6px}
   .tag-atom{color:#b45309;border-color:#b45309;background:rgba(180,83,9,.08)}
-  .tag-diatomic{color:#7c3aed;border-color:#7c3aed;background:rgba(124,58,237,.08)}
   .tag-molecule{color:#0d9488;border-color:#0d9488;background:rgba(13,148,136,.10)}
   .tag-solid-state{color:#475569;border-color:#94a3b8;background:rgba(71,85,105,.08)}
   .structure-dl{color:var(--accent);text-decoration:none;font-size:13px;margin-right:8px}
@@ -693,8 +692,7 @@ them. The full text is available as <code>LICENSE</code> in the repository root.
       <div class="field-group"><label>System type</label>
         <select name="system_class">
           <option value="">—</option>
-          <option value="molecule">Molecule (three or more atoms)</option>
-          <option value="diatomic">Diatomic (two atoms, metal dimers included)</option>
+          <option value="molecule">Molecule (two or more atoms, diatomics included)</option>
           <option value="atom">Atom (single atom or atomic ion)</option>
           <option value="solid-state">Solid state (site in a lattice, surface/adsorbate, or bulk)</option>
         </select></div>
@@ -876,10 +874,15 @@ function matchesType(r){
   if(state.types.size===0) return true;
   return state.types.has(r.entry_type||"");
 }
-// ---- system type: atom / diatomic / molecule / solid-state ----
-const SYS_CANON = ["atom", "diatomic", "molecule", "solid-state"];
-const SYS_LABELS = {atom:"Atom", diatomic:"Diatomic", molecule:"Molecule", "solid-state":"Solid state"};
-function sysOf(r){ const v=(r.system_class||"").trim().toLowerCase();
+// ---- system type: atom / molecule / solid-state ----
+// "diatomic" was merged into "molecule" on 2026-08-10; SYS_LEGACY keeps a
+// stale data.js or a bookmarked filter resolving instead of silently matching
+// nothing.
+const SYS_CANON = ["atom", "molecule", "solid-state"];
+const SYS_LABELS = {atom:"Atom", molecule:"Molecule", "solid-state":"Solid state"};
+const SYS_LEGACY = {diatomic:"molecule"};
+function sysOf(r){ let v=(r.system_class||"").trim().toLowerCase();
+  v = SYS_LEGACY[v] || v;
   return SYS_CANON.includes(v) ? v : ""; }
 const sysCount = {};
 DATA.forEach(r => { const c=sysOf(r); if(c) sysCount[c]=(sysCount[c]||0)+1; });
