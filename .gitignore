@@ -9,3 +9,6 @@ __pycache__/
 
 # Transient per-run fetch/extract logs (logs/extractions.csv is the audit trail)
 logs/*.log
+
+# Derived QUEST-filtered export — regenerate with code/tools_export.py
+database/aimdb_no_quest.csv
