@@ -157,6 +157,19 @@ PDFs that were added by hand and aren't in the index).
    and papers where the active space is never specified anywhere (main text or
    SI), are `status=not_usable` (log why).
 
+   **Quantum-algorithm papers need a hardware caveat in `notes`.** When the
+   active-space eigenvalue is obtained by VQE (or a simulator of it), the space
+   size is set by the qubit budget — n active orbitals means 2n qubits — not by
+   the chemistry. CAS(2,2) on ethylene or CAS(4,4) on water is a circuit-width
+   decision, and a consumer asking "what space does this molecule need" would be
+   misled by it. Start the caveat with the literal string
+   `ACTIVE SPACE IS HARDWARE-LIMITED:` so the category stays greppable
+   (13 rows carry it as of 2026-08-10). **Do not apply it to molecular
+   spin-qubit chemistry** — VOTPP, vanadyl SMMs, Er(III) complexes, DTDA
+   diradicals — where the molecule *is* the qubit but the active space is chosen
+   on ordinary chemical grounds. The word "qubit" in a row is not the test; the
+   test is whether a quantum processor computed the eigenvalue.
+
    Record what kind of system the row describes in **`system_class`**:
    `atom`, `molecule` or `solid-state` (a site in a host lattice, a
    surface/adsorbate model, or a bulk solid, however it is modelled).
