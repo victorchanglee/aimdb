@@ -41945,3 +41945,46 @@ timestamp,key,doi,action,result,reasoning
 2026-08-14T13:22:00Z,W1987817607,10.1021/jp021722a,paper_read,30-rows-extracted,"GPT-5.6 comprehensively read and visually inspected all seven pages, including the full methods, every structural drawing, all numerical values in Figures 1-3 and Tables 1-3, computational definitions, comparisons, limitations, conclusions, and references. Added 30 source-distinct CASSCF/CiLC records with exact active-space provenance and complete table coverage. Main PDF/text MD5: d5684df3f54110c5e0429b7d92ab7946 / 78ba6ca2848b814019bf98162b3eea25."
 2026-08-14T13:22:19Z,W1987817607,10.1021/jp021722a,mark,extracted,"Comprehensive GPT-5.6 review complete: all seven pages, figures, and Tables 1-3 visually read; no SI; 30 exact CAS(6,6)/CiLC records added with every equilibrium and constrained weight, geometry metrics, limitations, exclusions, and exact OA logged."
 2026-08-14T13:23:26Z,W1988103931,10.1021/ja045652s,si-fetch,1 files,ja045652s_si_001.pdf
+2026-08-14T14:30:29Z,W3042982205,10.1038/s41467-020-17469-x,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W2781135986,10.1126/sciadv.aao4710,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W4307475541,10.1073/pnas.2202931119,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W2995007093,10.1039/c9qi01455a,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W4400659647,10.1021/acs.jctc.4c00558,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W2045316267,10.1103/physrevlett.86.5954,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W2593937320,10.1021/jacs.6b12301,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W2885350704,10.1038/s41467-018-05511-y,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W1985300239,10.1063/1.4902759,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W2354340207,10.1039/c6tc01691j,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W2803163593,10.1039/c8tc02141d,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W2067599123,10.1524/zpch.2013.0406,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W2092149574,10.1021/jp500878s,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W2109006277,10.1039/c3cp53465k,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W3080646904,10.1021/acs.jctc.0c00583,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W2781836458,10.1021/acs.inorgchem.7b02561,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W2007675902,10.1021/jp410542y,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W4408633793,10.1021/acs.jpclett.5c00287,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W1609968331,10.1063/1.1590952,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W2325482429,10.1103/physrevb.70.045109,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W1985762026,10.1016/j.cplett.2011.07.093,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W2612877026,10.1039/c7ra04145d,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W3000697416,10.1021/acs.jpcc.9b11084,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W4321166908,10.1021/acs.jpca.2c05844,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W4390227215,10.1039/d3sc06308a,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W1979863034,10.1016/j.chemphys.2011.08.011,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W4385737852,10.1021/acs.jpcc.3c02083,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W4415688080,10.1021/acs.jpcc.5c06209,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W2089018685,10.1063/1.1796311,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W2021780541,10.1103/physrevlett.98.037601,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W2082950172,10.1039/b512778e,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W2470128712,10.1021/acs.jpclett.6b00924,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W1983292786,10.1063/1.1602692,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W3032230109,10.1021/acs.jpcc.0c04052,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W2203959691,10.1016/j.poly.2015.12.006,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W4392797738,10.1021/acs.jpcc.4c01045,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W4280583973,10.3389/fphy.2022.836784,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W4417241844,10.1063/5.0303245,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W1508965906,10.1063/1.2794040,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W1968578896,10.1063/1.464034,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W2497812304,10.1063/1.1531659,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W2029730115,10.1016/j.cplett.2009.10.042,import,candidate,user DOI list: /tmp/unindexed_dois.csv
+2026-08-14T14:30:29Z,W4386954953,10.1016/j.jlumin.2023.120207,import,candidate,user DOI list: /tmp/unindexed_dois.csv

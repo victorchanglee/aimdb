@@ -12,3 +12,7 @@ logs/*.log
 
 # Derived QUEST-filtered export — regenerate with code/tools_export.py
 database/aimdb_no_quest.csv
+
+# Community submissions were merged into aimdb.csv on 2026-08-14; the raw
+# queue file carried contributor emails and is no longer tracked.
+database/contribution.csv
