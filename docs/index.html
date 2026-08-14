@@ -177,6 +177,7 @@
   .funder-logos img{height:56px;width:auto;max-width:220px;object-fit:contain}
   .stat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin:20px 0}
   .pager{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:0 0 10px}
+  table + .pager{margin:12px 0 0}   /* the copy below the table needs its gap above */
   .pg-btn{padding:4px 10px;border-radius:6px;border:1px solid var(--border);background:transparent;
           color:var(--fg);cursor:pointer;font-size:13px}
   .pg-btn:hover:not(:disabled){border-color:var(--accent);color:var(--accent)}
@@ -561,11 +562,11 @@
       <span class="clear" id="clear" hidden="">Clear all filters ✕</span>
     </span>
   </div>
-  <div class="pager" id="pager" hidden="">
-    <button class="pg-btn" id="pgPrev" type="button">‹ Prev</button>
-    <span id="pgNums"></span>
-    <button class="pg-btn" id="pgNext" type="button">Next ›</button>
-    <span class="pg-info" id="pgInfo"></span>
+  <div class="pager" data-pager hidden="">
+    <button class="pg-btn pg-prev" type="button">‹ Prev</button>
+    <span class="pg-nums"></span>
+    <button class="pg-btn pg-next" type="button">Next ›</button>
+    <span class="pg-info"></span>
   </div>
   <table id="table" hidden="">
     <thead><tr>
@@ -578,6 +579,12 @@
     </tr></thead>
     <tbody id="tbody"></tbody>
   </table>
+  <div class="pager" data-pager hidden="">
+    <button class="pg-btn pg-prev" type="button">‹ Prev</button>
+    <span class="pg-nums"></span>
+    <button class="pg-btn pg-next" type="button">Next ›</button>
+    <span class="pg-info"></span>
+  </div>
   <div class="stats" id="stats">1381 multiconfigurational calculations · 74 elements · last update 2026-07-31</div>
 </div>
 </div><!-- /view-home -->
@@ -1047,7 +1054,7 @@ function render(){
   $("#emptyState").hidden = active;
   $("#meta").hidden = !active;
   $("#table").hidden = !active;
-  $("#pager").hidden = !active;
+  document.querySelectorAll("[data-pager]").forEach(p=>{ p.hidden = !active; });
   $("#typeFilterGroup").hidden = !active;
   $("#accessFilterGroup").hidden = !active;
   $("#sysFilterGroup").hidden = !active;
@@ -1115,18 +1122,20 @@ function pageWindow(cur, total){
   return out;
 }
 function renderPager(nRows, totalPages, offset, nShown){
-  const pager = $("#pager");
-  // one page of results needs no control, but keep the count line honest
-  pager.hidden = totalPages <= 1;
-  $("#pgInfo").textContent = nRows
-    ? `showing ${offset + 1}–${offset + nShown} of ${nRows}`
-    : "";
-  $("#pgPrev").disabled = state.page <= 1;
-  $("#pgNext").disabled = state.page >= totalPages;
-  $("#pgNums").innerHTML = pageWindow(state.page, totalPages).map(v =>
+  // One control above the table and one below; both are driven from here so
+  // they can never disagree about the current page.
+  const info = nRows ? `showing ${offset + 1}–${offset + nShown} of ${nRows}` : "";
+  const nums = pageWindow(state.page, totalPages).map(v =>
     v === "…" ? `<span class="pg-gap">…</span>`
               : `<span class="pg-num ${v === state.page ? "on" : ""}" data-pg="${v}">${v}</span>`
   ).join("");
+  document.querySelectorAll("[data-pager]").forEach(p => {
+    p.hidden = totalPages <= 1;          // a single page needs no control
+    p.querySelector(".pg-info").textContent = info;
+    p.querySelector(".pg-prev").disabled = state.page <= 1;
+    p.querySelector(".pg-next").disabled = state.page >= totalPages;
+    p.querySelector(".pg-nums").innerHTML = nums;
+  });
 }
 function goToPage(p){
   state.page = p;
@@ -1134,11 +1143,13 @@ function goToPage(p){
   const t = $("#table");
   if(t) t.scrollIntoView({block: "start", behavior: "smooth"});
 }
-$("#pgPrev").addEventListener("click", ()=>{ if(state.page > 1) goToPage(state.page - 1); });
-$("#pgNext").addEventListener("click", ()=>goToPage(state.page + 1));
-$("#pgNums").addEventListener("click", e=>{
-  const n = e.target.closest(".pg-num"); if(!n) return;
-  goToPage(+n.dataset.pg);
+document.querySelectorAll("[data-pager]").forEach(p => {
+  p.addEventListener("click", e => {
+    if(e.target.closest(".pg-prev")){ if(state.page > 1) goToPage(state.page - 1); return; }
+    if(e.target.closest(".pg-next")){ goToPage(state.page + 1); return; }
+    const n = e.target.closest(".pg-num");
+    if(n) goToPage(+n.dataset.pg);
+  });
 });
 
 // ---- selection + CSV download ----
