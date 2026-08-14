@@ -177,6 +177,10 @@
   .funder-logos img{height:56px;width:auto;max-width:220px;object-fit:contain}
   .stat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin:20px 0}
   .pager{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:0 0 10px}
+  /* display:flex would otherwise beat the UA rule for [hidden], leaking the
+     controls onto the landing page where there is no table -- same reason
+     .meta needs its own [hidden] rule above. */
+  .pager[hidden]{display:none}
   table + .pager{margin:12px 0 0}   /* the copy below the table needs its gap above */
   .pg-btn{padding:4px 10px;border-radius:6px;border:1px solid var(--border);background:transparent;
           color:var(--fg);cursor:pointer;font-size:13px}
