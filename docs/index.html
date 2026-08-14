@@ -878,7 +878,7 @@ function matchesYear(r){
   return true;
 }
 function readYearInputs(){
-  const parse = el => { const v = el.value.trim(); return /^\d{3,4}$/.test(v) ? +v : null; };
+  const parse = el => { const v = el.value.trim(); return /^\d{4}$/.test(v) ? +v : null; };
   state.yearMin = parse($("#yearMin"));
   state.yearMax = parse($("#yearMax"));
   // a reversed range filters everything out; swap it instead
@@ -1056,7 +1056,7 @@ function render(){
       <td>${esc(r.year)}</td>
       <td class="doi">${doi}</td>
     </tr>
-    <tr class="detail" data-d="${i}" hidden><td colspan="8">${detail(r,i)}</td></tr>`;
+    <tr class="detail" data-d="${i}" hidden><td colspan="8"></td></tr>`;
   }).join("");
   $("#count").textContent = `${rows.length} of ${DATA.length} entries`;
   $("#clear").hidden = false;
@@ -1141,12 +1141,20 @@ $("#sysChips").addEventListener("click", e=>{
   renderSysChips(); render();
 });
 $("#clearSys").addEventListener("click", ()=>{ state.sys.clear(); renderSysChips(); render(); });
+let yearTimer = null;
+function applyYears(){ clearTimeout(yearTimer); yearTimer = null; readYearInputs(); render(); }
 ["#yearMin","#yearMax"].forEach(sel=>{
-  $(sel).addEventListener("input", ()=>{ readYearInputs(); render(); });
+  $(sel).addEventListener("input", ()=>{
+    clearTimeout(yearTimer);
+    yearTimer = setTimeout(applyYears, 180);
+  });
+  // commit immediately on blur or Enter rather than waiting out the debounce
+  $(sel).addEventListener("change", applyYears);
+  $(sel).addEventListener("keydown", e=>{ if(e.key === "Enter") applyYears(); });
 });
 $("#clearYears").addEventListener("click", ()=>{
   $("#yearMin").value = ""; $("#yearMax").value = "";
-  readYearInputs(); render();
+  applyYears();
 });
 $("#typeChips").addEventListener("click", e=>{
   const c=e.target.closest(".chip"); if(!c) return;
@@ -1178,7 +1186,15 @@ $("#tbody").addEventListener("click", e=>{
   if(e.target.closest(".selcell")) return;   // checkbox clicks don't expand
   const tr=e.target.closest("tr.row"); if(!tr) return;
   const d=$(`tr.detail[data-d="${tr.dataset.i}"]`);
-  if(d) d.hidden=!d.hidden;
+  if(!d) return;
+  // Populate on first expand. render() reassigns tbody.innerHTML, so these
+  // caches are discarded whenever the filter changes -- no staleness.
+  const cell = d.firstElementChild;
+  if(!cell.dataset.filled){
+    const r = ($("#tbody")._rows || [])[+tr.dataset.i];
+    if(r){ cell.innerHTML = detail(r, +tr.dataset.i); cell.dataset.filled = "1"; }
+  }
+  d.hidden = !d.hidden;
 });
 // row checkbox toggles (delegated)
 $("#tbody").addEventListener("change", e=>{
