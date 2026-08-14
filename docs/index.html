@@ -176,6 +176,16 @@
   .funder-logos{display:flex;flex-wrap:wrap;align-items:center;gap:28px;margin:6px 0 14px}
   .funder-logos img{height:56px;width:auto;max-width:220px;object-fit:contain}
   .stat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin:20px 0}
+  .pager{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:0 0 10px}
+  .pg-btn{padding:4px 10px;border-radius:6px;border:1px solid var(--border);background:transparent;
+          color:var(--fg);cursor:pointer;font-size:13px}
+  .pg-btn:hover:not(:disabled){border-color:var(--accent);color:var(--accent)}
+  .pg-btn:disabled{opacity:.4;cursor:default}
+  .pg-num{padding:4px 9px;border-radius:6px;border:1px solid transparent;cursor:pointer;font-size:13px;color:var(--muted)}
+  .pg-num:hover{color:var(--accent)}
+  .pg-num.on{border-color:var(--accent);color:var(--accent);font-weight:600}
+  .pg-gap{color:var(--muted);padding:0 2px}
+  .pg-info{color:var(--muted);font-size:12px;margin-left:auto}
   .stat-card{border:1px solid var(--border);border-radius:10px;padding:14px;text-align:center}
   .stat-card .num{font-size:22px;font-weight:700;color:var(--accent)}
   .stat-card .lbl{font-size:11px;color:var(--muted);margin-top:3px}
@@ -551,9 +561,15 @@
       <span class="clear" id="clear" hidden="">Clear all filters ✕</span>
     </span>
   </div>
+  <div class="pager" id="pager" hidden="">
+    <button class="pg-btn" id="pgPrev" type="button">‹ Prev</button>
+    <span id="pgNums"></span>
+    <button class="pg-btn" id="pgNext" type="button">Next ›</button>
+    <span class="pg-info" id="pgInfo"></span>
+  </div>
   <table id="table" hidden="">
     <thead><tr>
-      <th class="selcell"><input type="checkbox" id="selAll" title="Select all shown"></th>
+      <th class="selcell"><input type="checkbox" id="selAll" title="Select all filtered entries (not just this page)"></th>
       <th class="sortable" data-sort="name">Compound <span class="sort-ind"></span></th>
       <th>Formula</th><th>Element(s)</th>
       <th>Method</th><th>Active space</th>
@@ -801,7 +817,9 @@ const PTABLE_F = [
   ["Bk",2,11],["Cf",2,12],["Es",2,13],["Fm",2,14],["Md",2,15],["No",2,16],["Lr",2,17],
 ];
 
-const state = { q:"", scope:"all", sortField:"year", sortDir:"desc", els:new Set(), types:new Set(), access:new Set(), sys:new Set(), yearMin:null, yearMax:null, selected:new Set(), showAll:false };
+const state = { q:"", scope:"all", sortField:"year", sortDir:"desc", els:new Set(), types:new Set(), access:new Set(), sys:new Set(), yearMin:null, yearMax:null, selected:new Set(), showAll:false, page:1 };
+const PAGE_SIZE = 100;
+let lastFilterSig = null;
 
 function pelCell([sym,row,col]){
   const n = elCount[sym]||0;
@@ -1029,11 +1047,12 @@ function render(){
   $("#emptyState").hidden = active;
   $("#meta").hidden = !active;
   $("#table").hidden = !active;
+  $("#pager").hidden = !active;
   $("#typeFilterGroup").hidden = !active;
   $("#accessFilterGroup").hidden = !active;
   $("#sysFilterGroup").hidden = !active;
   $("#yearFilterGroup").hidden = !active;
-  if(!active){ $("#tbody").innerHTML = ""; return; }
+  if(!active){ $("#tbody").innerHTML = ""; lastFilterSig = null; return; }
 
   let rows = DATA.filter(r=>matchesText(r) && matchesEls(r) && matchesType(r) && matchesAccess(r) && matchesSys(r) && matchesYear(r));
   rows.sort((a,b)=>{
@@ -1042,8 +1061,20 @@ function render(){
     else { const ya=+a.year||0, yb=+b.year||0; cmp = ya-yb; }
     return state.sortDir==="asc" ? cmp : -cmp;
   });
+  // Any change to the filters (not the page button) sends you back to page 1.
+  const sig = JSON.stringify([state.q, state.scope, [...state.els], [...state.types],
+    [...state.access], [...state.sys], state.yearMin, state.yearMax,
+    state.sortField, state.sortDir, state.showAll]);
+  if(sig !== lastFilterSig){ state.page = 1; lastFilterSig = sig; }
+
+  const totalPages = Math.max(1, Math.ceil(rows.length / PAGE_SIZE));
+  state.page = Math.min(Math.max(1, state.page), totalPages);
+  const offset = (state.page - 1) * PAGE_SIZE;
+  const pageRows = rows.slice(offset, offset + PAGE_SIZE);
+
   const tb = $("#tbody");
-  tb.innerHTML = rows.map((r,i)=>{
+  tb.innerHTML = pageRows.map((r,j)=>{
+    const i = offset + j;
     const doi = (r.reference_doi ? `<a href="https://doi.org/${esc(r.reference_doi)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(r.reference_short||r.reference_doi)}</a>` : esc(r.reference_short||"")) + accessTag(r);
     const formula = r.formula ? `<span class="formula">${highlight(r.formula)}</span>` : '<span class="empty">—</span>';
     return `<tr class="row" data-i="${i}">
@@ -1059,11 +1090,56 @@ function render(){
     <tr class="detail" data-d="${i}" hidden><td colspan="8"></td></tr>`;
   }).join("");
   $("#count").textContent = `${rows.length} of ${DATA.length} entries`;
+  renderPager(rows.length, totalPages, offset, pageRows.length);
   $("#clear").hidden = false;
-  // store filtered rows for expand/selection/download handlers
+  // store the FULL filtered set (not the page slice): select-all and
+  // "Download all N" act on everything the filters matched, and data-i is an
+  // absolute index into this array.
   tb._rows = rows;
   updateSelUI();
 }
+
+// ---- pagination ----
+// Windowed page numbers: 1 ... 4 5 [6] 7 8 ... 78, so the control stays a
+// fixed width whether there are 3 pages or 300.
+function pageWindow(cur, total){
+  if(total <= 7) return Array.from({length: total}, (_, k) => k + 1);
+  const out = [1];
+  let lo = Math.max(2, cur - 1), hi = Math.min(total - 1, cur + 1);
+  if(cur <= 3){ lo = 2; hi = 4; }
+  if(cur >= total - 2){ lo = total - 3; hi = total - 1; }
+  if(lo > 2) out.push("…");
+  for(let k = lo; k <= hi; k++) out.push(k);
+  if(hi < total - 1) out.push("…");
+  out.push(total);
+  return out;
+}
+function renderPager(nRows, totalPages, offset, nShown){
+  const pager = $("#pager");
+  // one page of results needs no control, but keep the count line honest
+  pager.hidden = totalPages <= 1;
+  $("#pgInfo").textContent = nRows
+    ? `showing ${offset + 1}–${offset + nShown} of ${nRows}`
+    : "";
+  $("#pgPrev").disabled = state.page <= 1;
+  $("#pgNext").disabled = state.page >= totalPages;
+  $("#pgNums").innerHTML = pageWindow(state.page, totalPages).map(v =>
+    v === "…" ? `<span class="pg-gap">…</span>`
+              : `<span class="pg-num ${v === state.page ? "on" : ""}" data-pg="${v}">${v}</span>`
+  ).join("");
+}
+function goToPage(p){
+  state.page = p;
+  render();
+  const t = $("#table");
+  if(t) t.scrollIntoView({block: "start", behavior: "smooth"});
+}
+$("#pgPrev").addEventListener("click", ()=>{ if(state.page > 1) goToPage(state.page - 1); });
+$("#pgNext").addEventListener("click", ()=>goToPage(state.page + 1));
+$("#pgNums").addEventListener("click", e=>{
+  const n = e.target.closest(".pg-num"); if(!n) return;
+  goToPage(+n.dataset.pg);
+});
 
 // ---- selection + CSV download ----
 function updateSelUI(){
