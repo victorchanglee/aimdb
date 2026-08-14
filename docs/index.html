@@ -537,13 +537,6 @@
         <span class="hint" id="yearHint"></span>
       </div>
     </div>
-    <div class="filter-group" id="corrFilterGroup" hidden="">
-      <div class="ptable-head">
-        <span>Filter by correlation correction</span>
-        <span class="clear-els" id="clearCorrs" hidden="">Clear ✕</span>
-      </div>
-      <div class="chips" id="corrChips"><span class="chip " data-corr="CASPT2">CASPT2<span class="n">208</span></span><span class="chip " data-corr="NEVPT2">NEVPT2<span class="n">98</span></span><span class="chip " data-corr="MRCI">MRCI<span class="n">62</span></span><span class="chip " data-corr="CIPSI">CIPSI<span class="n">10</span></span><span class="chip " data-corr="DDCI">DDCI<span class="n">7</span></span><span class="chip " data-corr="XMCQDPT2">XMCQDPT2<span class="n">5</span></span><span class="chip " data-corr="RASPT2">RASPT2<span class="n">4</span></span><span class="chip " data-corr="PT2">PT2<span class="n">3</span></span><span class="chip " data-corr="CASPT3">CASPT3<span class="n">1</span></span><span class="chip " data-corr="MRCC">MRCC<span class="n">1</span></span><span class="chip " data-corr="none">none<span class="n">338</span></span></div>
-    </div>
   </div>
   <div class="empty-state" id="emptyState">
     Search a compound, formula, or element — or click an element above — to browse the database.
@@ -580,9 +573,7 @@
     <div class="stat-card"><div class="num" id="dsCompounds">—</div><div class="lbl">compound entries</div></div>
     <div class="stat-card"><div class="num" id="dsPapers">—</div><div class="lbl">source papers</div></div>
     <div class="stat-card"><div class="num" id="dsElements">—</div><div class="lbl">elements covered</div></div>
-    <div class="stat-card"><div class="num" id="dsOrganic">—</div><div class="lbl">metal-free organic rows</div></div>
     <div class="stat-card"><div class="num" id="dsYears">—</div><div class="lbl">year range</div></div>
-    <div class="stat-card"><div class="num">CC BY 4.0</div><div class="lbl">licence</div></div>
   </div>
 
   <h3 class="ds-h3">Field coverage</h3>
@@ -766,19 +757,6 @@ const elCount = {};
 DATA.forEach(r => (r._elements||[]).forEach(e => elCount[e] = (elCount[e]||0)+1));
 const elOrder = Object.keys(elCount).sort((a,b)=>elCount[b]-elCount[a] || a.localeCompare(b));
 
-// ---- correlation-correction facet counts ----
-// Each row's correlation_correction may hold several "; "-joined tokens
-// (e.g. "CASPT2; MRCI"); count per token so a row can match more than one.
-function corrTokens(r){
-  return (r.correlation_correction||"").split(";").map(s=>s.trim()).filter(Boolean);
-}
-const corrCount = {};
-DATA.forEach(r => corrTokens(r).forEach(c => corrCount[c] = (corrCount[c]||0)+1));
-// "none" (variational-only) sorts last; the rest by frequency.
-const corrOrder = Object.keys(corrCount).sort((a,b)=>
-  (a==="none")-(b==="none") || corrCount[b]-corrCount[a] || a.localeCompare(b));
-
-
 // ---- entry-source facet counts ----
 const TYPE_CANON = ["llm_mining", "llm_reproduced", "human"];
 const typeCount = {};
@@ -821,7 +799,7 @@ const PTABLE_F = [
   ["Bk",2,11],["Cf",2,12],["Es",2,13],["Fm",2,14],["Md",2,15],["No",2,16],["Lr",2,17],
 ];
 
-const state = { q:"", scope:"all", sortField:"year", sortDir:"desc", els:new Set(), corrs:new Set(), types:new Set(), access:new Set(), sys:new Set(), yearMin:null, yearMax:null, selected:new Set(), showAll:false };
+const state = { q:"", scope:"all", sortField:"year", sortDir:"desc", els:new Set(), types:new Set(), access:new Set(), sys:new Set(), yearMin:null, yearMax:null, selected:new Set(), showAll:false };
 
 function pelCell([sym,row,col]){
   const n = elCount[sym]||0;
@@ -857,18 +835,6 @@ function matchesEls(r){
   const set = new Set(r._elements||[]);
   for(const e of state.els) if(!set.has(e)) return false; // AND semantics
   return true;
-}
-function matchesCorr(r){
-  if(state.corrs.size===0) return true;
-  const set = new Set(corrTokens(r));
-  for(const c of state.corrs) if(set.has(c)) return true; // OR semantics
-  return false;
-}
-function renderCorrChips(){
-  $("#corrChips").innerHTML = corrOrder.map(c =>
-    `<span class="chip ${state.corrs.has(c)?'on':''}" data-corr="${esc(c)}">${esc(c)}<span class="n">${corrCount[c]}</span></span>`
-  ).join("");
-  $("#clearCorrs").hidden = state.corrs.size===0;
 }
 function matchesType(r){
   if(state.types.size===0) return true;
@@ -1056,7 +1022,7 @@ function accessTag(r){
 }
 
 function render(){
-  const active = !!(state.q || state.els.size || state.corrs.size || state.types.size || state.access.size || state.sys.size || state.yearMin!==null || state.yearMax!==null || state.showAll);
+  const active = !!(state.q || state.els.size || state.types.size || state.access.size || state.sys.size || state.yearMin!==null || state.yearMax!==null || state.showAll);
   $("#hero").classList.toggle("compact", active);
   $("#emptyState").hidden = active;
   $("#meta").hidden = !active;
@@ -1065,10 +1031,9 @@ function render(){
   $("#accessFilterGroup").hidden = !active;
   $("#sysFilterGroup").hidden = !active;
   $("#yearFilterGroup").hidden = !active;
-  $("#corrFilterGroup").hidden = !active;
   if(!active){ $("#tbody").innerHTML = ""; return; }
 
-  let rows = DATA.filter(r=>matchesText(r) && matchesEls(r) && matchesCorr(r) && matchesType(r) && matchesAccess(r) && matchesSys(r) && matchesYear(r));
+  let rows = DATA.filter(r=>matchesText(r) && matchesEls(r) && matchesType(r) && matchesAccess(r) && matchesSys(r) && matchesYear(r));
   rows.sort((a,b)=>{
     let cmp;
     if(state.sortField==="name") cmp = (a.compound_name||"").localeCompare(b.compound_name||"");
@@ -1160,13 +1125,6 @@ function toggleEl(e){
 $("#ptable").addEventListener("click", toggleEl);
 $("#ptableF").addEventListener("click", toggleEl);
 $("#clearEls").addEventListener("click", ()=>{ state.els.clear(); renderChips(); render(); });
-$("#corrChips").addEventListener("click", e=>{
-  const c=e.target.closest(".chip"); if(!c) return;
-  const corr=c.dataset.corr;
-  state.corrs.has(corr) ? state.corrs.delete(corr) : state.corrs.add(corr);
-  renderCorrChips(); render();
-});
-$("#clearCorrs").addEventListener("click", ()=>{ state.corrs.clear(); renderCorrChips(); render(); });
 $("#accessChips").addEventListener("click", e=>{
   const c=e.target.closest(".chip"); if(!c) return;
   const a=c.dataset.access;
@@ -1243,9 +1201,9 @@ $("#selCount").addEventListener("click", ()=>{
 $("#downloadBtn").addEventListener("click", downloadCSV);
 $("#showAllBtn").addEventListener("click", ()=>{ state.showAll=true; render(); });
 $("#clear").addEventListener("click", ()=>{
-  state.q=""; state.els.clear(); state.corrs.clear(); state.types.clear(); state.access.clear(); state.sys.clear(); state.yearMin=null; state.yearMax=null; $("#yearMin").value=""; $("#yearMax").value=""; state.scope="all"; state.showAll=false;
+  state.q=""; state.els.clear(); state.types.clear(); state.access.clear(); state.sys.clear(); state.yearMin=null; state.yearMax=null; $("#yearMin").value=""; $("#yearMax").value=""; state.scope="all"; state.showAll=false;
   $("#q").value=""; $("#scope").value="all";
-  renderChips(); renderCorrChips(); renderTypeChips(); renderAccessChips(); renderSysChips(); renderYearInputs(); render();
+  renderChips(); renderTypeChips(); renderAccessChips(); renderSysChips(); renderYearInputs(); render();
 });
 
 // ---- sidebar nav ----
@@ -1257,9 +1215,9 @@ function showView(name){
   if(window.innerWidth<=760) setSidebarHidden(true);
 }
 function goHome(){
-  state.q=""; state.els.clear(); state.corrs.clear(); state.types.clear(); state.access.clear(); state.sys.clear(); state.yearMin=null; state.yearMax=null; $("#yearMin").value=""; $("#yearMax").value=""; state.scope="all"; state.showAll=false;
+  state.q=""; state.els.clear(); state.types.clear(); state.access.clear(); state.sys.clear(); state.yearMin=null; state.yearMax=null; $("#yearMin").value=""; $("#yearMax").value=""; state.scope="all"; state.showAll=false;
   $("#q").value=""; $("#scope").value="all";
-  renderChips(); renderCorrChips(); renderTypeChips(); renderAccessChips(); renderSysChips(); renderYearInputs(); render();
+  renderChips(); renderTypeChips(); renderAccessChips(); renderSysChips(); renderYearInputs(); render();
   showView("home");
 }
 document.querySelectorAll(".nav-item").forEach(b=>{
@@ -1358,7 +1316,6 @@ if(!window.LIT){
   $("#stats").textContent =
     `${DATA.length} multiconfigurational calculations · ${elOrder.length} elements · last update ${window.LIT.generated}`;
   renderChips();
-  renderCorrChips();
   renderTypeChips();
   renderAccessChips();
   renderSysChips();
@@ -1371,8 +1328,6 @@ if(!window.LIT){
   $("#dsCompounds").textContent = DATA.length;
   $("#dsPapers").textContent = doiSet.size;
   $("#dsElements").textContent = elOrder.length;
-  $("#dsOrganic").textContent =
-    DATA.filter(r=>(r.metal_center||"").trim().toLowerCase()==="none").length;
   $("#dsYears").textContent = years.length ? `${Math.min(...years)}–${Math.max(...years)}` : "—";
 
   // Field coverage: computed from the data so it can never go stale.
