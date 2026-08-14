@@ -83,10 +83,15 @@ LITERATURE_COLUMNS = [
 #                  2026-08-10: O2 and N2 are molecules, so the former
 #                  `diatomic` value was merged into this one and the 221 rows
 #                  carrying it were relabelled)
-#   solid-state  — a site in a host lattice, a surface/adsorbate model or a
-#                  bulk solid, however it is modelled (embedded cluster,
-#                  bare cluster, periodic); wins over the size-based values
-SYSTEM_CLASSES = ("atom", "molecule", "solid-state")
+#   cluster-model — a finite cluster standing in for a larger system: an
+#                  embedded or bare cluster cut from a solid, a surface/
+#                  adsorbate cluster, an enzyme active-site model, a QM/MM QM
+#                  region. Added 2026-08-14; 419 rows moved here, 403 of them
+#                  from solid-state. Displayed as "Cluster model" on the site.
+#   solid-state  — a site in a host lattice or a bulk solid treated as
+#                  EXTENDED (periodic/PBC). A finite cluster standing in for
+#                  such a system is `cluster-model`, not `solid-state`.
+SYSTEM_CLASSES = ("atom", "molecule", "cluster-model", "solid-state")
 
 # open_access: is reference_doi open access according to OpenAlex?
 #   yes / no  — OpenAlex's open_access.is_oa for that DOI

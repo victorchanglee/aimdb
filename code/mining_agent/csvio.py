@@ -164,9 +164,10 @@ def append_row(fields):
             f"open_access {fields['open_access']!r} not in "
             f"{config.OPEN_ACCESS_VALUES} — leave it empty and run "
             "tools_oa.py --refresh --stamp")
-    # system_class: atom / molecule / solid-state. Nothing is out of scope by
-    # system type (user decision 2026-08-07), but the value must be one of the
-    # three so the site facet and any consumer filter stay meaningful.
+    # system_class: atom / molecule / cluster-model / solid-state. Nothing is
+    # out of scope by system type (user decision 2026-08-07), but the value must
+    # be one of the four so the site facet and any consumer filter stay
+    # meaningful.
     if fields.get("system_class") and \
             fields["system_class"] not in config.SYSTEM_CLASSES:
         raise ValueError(

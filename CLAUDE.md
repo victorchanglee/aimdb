@@ -171,8 +171,15 @@ PDFs that were added by hand and aren't in the index).
    test is whether a quantum processor computed the eigenvalue.
 
    Record what kind of system the row describes in **`system_class`**:
-   `atom`, `molecule` or `solid-state` (a site in a host lattice, a
-   surface/adsorbate model, or a bulk solid, however it is modelled).
+   `atom`, `molecule`, `cluster-model` or `solid-state`.
+   **`cluster-model`** (added 2026-08-14, displayed "Cluster model") is a
+   finite cluster standing in for something larger — an embedded or bare
+   cluster cut from a solid, a surface/adsorbate cluster, an enzyme
+   active-site model, a QM/MM QM region. **`solid-state`** is now reserved for
+   a site in a host lattice or a bulk solid treated as *extended*
+   (periodic/PBC); if the paper models it as a finite cluster, the row is
+   `cluster-model`. 419 rows moved on the split, 403 of them out of
+   `solid-state`.
    **`molecule` covers any bound species of two or more atoms, diatomics
    included** — there is no separate `diatomic` value (user decision
    2026-08-10: O2 and N2 are molecules; the old value was merged and its 221

@@ -102,6 +102,7 @@
   .tag-closed{color:#b91c1c;border-color:#b91c1c;background:rgba(185,28,28,.08)}
   .doi .tag{margin-left:6px}
   .tag-atom{color:#b45309;border-color:#b45309;background:rgba(180,83,9,.08)}
+  .tag-cluster-model{color:#7c3aed;border-color:#7c3aed;background:rgba(124,58,237,.08)}
   .tag-molecule{color:#0d9488;border-color:#0d9488;background:rgba(13,148,136,.10)}
   .tag-solid-state{color:#475569;border-color:#94a3b8;background:rgba(71,85,105,.08)}
   .structure-dl{color:var(--accent);text-decoration:none;font-size:13px;margin-right:8px}
@@ -685,7 +686,8 @@ them. The full text is available as <code>LICENSE</code> in the repository root.
           <option value="">—</option>
           <option value="molecule">Molecule (two or more atoms, diatomics included)</option>
           <option value="atom">Atom (single atom or atomic ion)</option>
-          <option value="solid-state">Solid state (site in a lattice, surface/adsorbate, or bulk)</option>
+          <option value="cluster-model">Cluster model (finite cluster standing in for a larger system)</option>
+          <option value="solid-state">Solid state (site in a lattice, or bulk, treated as extended/periodic)</option>
         </select></div>
       <div class="field-group"><label>Metal center</label><input name="metal_center" placeholder="e.g. Fe — or 'none'"></div>
       <div class="field-group"><label>Metal oxidation state</label><input name="metal_ox_state" placeholder="e.g. II"></div>
@@ -844,8 +846,8 @@ function matchesType(r){
 // "diatomic" was merged into "molecule" on 2026-08-10; SYS_LEGACY keeps a
 // stale data.js or a bookmarked filter resolving instead of silently matching
 // nothing.
-const SYS_CANON = ["atom", "molecule", "solid-state"];
-const SYS_LABELS = {atom:"Atom", molecule:"Molecule", "solid-state":"Solid state"};
+const SYS_CANON = ["atom", "molecule", "cluster-model", "solid-state"];
+const SYS_LABELS = {atom:"Atom", molecule:"Molecule", "cluster-model":"Cluster model", "solid-state":"Solid state"};
 const SYS_LEGACY = {diatomic:"molecule"};
 function sysOf(r){ let v=(r.system_class||"").trim().toLowerCase();
   v = SYS_LEGACY[v] || v;
