@@ -23,11 +23,16 @@ _CORRECTION_DETECTORS = [
     ("RASPT2",   r"RASPT2"),
     ("CASPT3",   r"CASPT3|(?<![A-Z])PT3"),
     ("XMCQDPT2", r"XMCQDPT"),
-    ("MRCI",     r"MRCI"),
+    ("MRCI",     r"MRCI|MR[- ]?CISD"),
     ("DDCI",     r"DDCI"),
     ("CIPSI",    r"CIPSI"),
     ("MRCC",     r"MRCC|MR-CC"),
 ]
+
+
+def normalize_structure_filename(filename):
+    """Store structure references as filenames relative to structures/."""
+    return (filename or "").replace("\\", "/").rsplit("/", 1)[-1]
 
 
 def classify_correction(method):
@@ -70,7 +75,7 @@ def set_structure_file(entry_id, filename, note, provenance="ai_generated"):
         rows = list(csv.DictReader(f))
     for row in rows:
         if row["entry_id"] == entry_id:
-            row["structure_file"] = filename
+            row["structure_file"] = normalize_structure_filename(filename)
             row["structure_provenance"] = provenance
             row["notes"] = (row["notes"] + "; " if row["notes"] else "") + note
             break
@@ -133,6 +138,12 @@ def append_row(fields):
     ensure_header()
     # Stamp the mining model automatically unless the caller set one.
     fields = {**fields}
+    fields["structure_file"] = normalize_structure_filename(
+        fields.get("structure_file", ""))
+    if bool(fields["structure_file"]) != bool(fields.get("structure_provenance")):
+        raise ValueError(
+            "structure_file and structure_provenance must either both be set "
+            "or both be empty")
     if not fields.get("mining_model"):
         fields["mining_model"] = config.CURRENT_MINING_MODEL
     # Derive the correlation correction from `method` unless the caller set it.

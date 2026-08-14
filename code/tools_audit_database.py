@@ -28,6 +28,7 @@ INDEX = ROOT / "database/papers_index.csv"
 OUTPUT = ROOT / "logs/full_database_audit.csv"
 QUEUE = ROOT / "logs/second_read_queue.csv"
 EXTRACTIONS = ROOT / "logs/extractions.csv"
+STRUCTURES = ROOT / "database/structures"
 
 CORE_FIELDS = (
     "active_space_nel",
@@ -141,6 +142,13 @@ def row_issues(row: dict[str, str], duplicate_ids: set[str]) -> list[str]:
         issues.append("invalid_open_access")
     if bool(row["structure_file"].strip()) != bool(row["structure_provenance"].strip()):
         issues.append("structure_provenance_mismatch")
+    structure_file = row["structure_file"].strip()
+    if structure_file:
+        normalized = structure_file.replace("\\", "/")
+        if "/" in normalized:
+            issues.append("noncanonical_structure_path")
+        elif not (STRUCTURES / normalized).is_file():
+            issues.append("missing_structure_file")
     if row["soc_included"].strip().lower() not in {"", "yes", "no"}:
         issues.append("noncanonical_soc_flag")
     if row["ss_included"].strip().lower() not in {"", "yes", "no"}:
