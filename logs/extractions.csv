@@ -46771,3 +46771,22 @@ timestamp,key,doi,action,result,reasoning
 2026-08-17T23:22:58Z,W2024188605-a,10.1021/jp0375259,add-row,appended,row added via add-row
 2026-08-17T23:22:58Z,W2024188605-b,10.1021/jp0375259,add-row,appended,row added via add-row
 2026-08-17T23:22:58Z,W2024188605,10.1021/jp0375259,mark,extracted,"Benzene + boron atom to benzoborirene; (9,10)-CASSCF for entrance channels/addition products and (7,8)-CASSCF for H addition to benzoborirene, both with MC-QDPT2/cc-pVTZ, GAMESS; two rows."
+2026-08-17T23:26:05Z,W2024432083-a,10.1021/ja961954l,add-row,appended,row added via add-row
+2026-08-17T23:26:05Z,W2024432083-b,10.1021/ja961954l,add-row,appended,row added via add-row
+2026-08-17T23:26:06Z,W2024432083-c,10.1021/ja961954l,add-row,appended,row added via add-row
+2026-08-17T23:26:06Z,W2024432083-d,10.1021/ja961954l,add-row,appended,row added via add-row
+2026-08-17T23:26:06Z,W2024432083,10.1021/ja961954l,mark,extracted,"Hammick intermediate (pyridine-2-ylidene) and pyridine plus their radical cations; CASSCF(8,7)/(7,7) with CASSCF-MP2, 6-31G**, Gaussian 94; four rows."
+2026-08-17T23:26:59Z,W2024352044-a,10.1021/jp061310s,add-row,appended,row added via add-row
+2026-08-17T23:26:59Z,W2024352044,10.1021/jp061310s,mark,extracted,"DCS charge-transfer state formation; (8,8)-CASSCF/PCM with MRMP2 validation, GAMESS; one row."
+2026-08-17T23:27:14Z,W2024241621,10.1021/jp076581x,mark,not_usable,"O(1D)+HCl crossed-beam and QCT study. The 1(1A'), 1(1A'') and 2(1A') global PESs were taken from the authors' own PREVIOUS paper (ref 15) and merely refitted here by moving-least-squares/Shepard interpolation for trajectory work; this paper performs no multireference calculation of its own and states no active space, basis set or CASSCF/MRCI details. Not usable per CLAUDE.md step 4 — the source paper would be the one to mine."
+2026-08-17T23:28:31Z,W2025118515-a,10.1021/jo026047f,add-row,appended,row added via add-row
+2026-08-17T23:28:31Z,W2025118515-b,10.1021/jo026047f,add-row,appended,row added via add-row
+2026-08-17T23:28:31Z,W2025118515-c,10.1021/jo026047f,add-row,appended,row added via add-row
+2026-08-17T23:28:32Z,W2025118515,10.1021/jo026047f,mark,extracted,"Photochemical [2+2] cycloadditions to ethylene; CASSCF(6,6)/6-31G(d) cycloaddition surface for 2-cyclohexenone and SA-CASSCF(6,5) T1/S0 crossings for methyl acrylate and methyl crotonate, Gaussian 98. Three rows; acrolein omitted because its CASSCF results come from ref 13."
+2026-08-17T23:29:29Z,W2025454925-a,10.1021/jp970998t,add-row,appended,row added via add-row
+2026-08-17T23:29:29Z,W2025454925,10.1021/jp970998t,mark,extracted,"Ni(C2H4)2 CASPT2-vs-DFT benchmark; CASSCF(14,10) geometries with CASPT2 in (14,12)/(14,13) double-shell-extended spaces, MOLCAS-3; one row covering the four symmetry-distinct critical points."
+2026-08-17T23:30:42Z,W2025496879-a,10.1021/ja003359w,add-row,appended,row added via add-row
+2026-08-17T23:30:42Z,W2025496879-b,10.1021/ja003359w,add-row,appended,row added via add-row
+2026-08-17T23:30:42Z,W2025496879-c,10.1021/ja003359w,add-row,appended,row added via add-row
+2026-08-17T23:30:42Z,W2025496879-d,10.1021/ja003359w,add-row,appended,row added via add-row
+2026-08-17T23:30:43Z,W2025496879,10.1021/ja003359w,mark,extracted,"Intramolecular electron transfer in four organic radical cations (NRB, PLN, DAE, BMA); CASSCF (3,4)/(7,6)/(7,7)/(7,8) with per-structure active spaces and conical intersection optimization; four rows."
