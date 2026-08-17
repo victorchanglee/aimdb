@@ -264,11 +264,35 @@ PDFs that were added by hand and aren't in the index).
      (per-DOI `oa_status` gold/hybrid/green/bronze/diamond/closed plus the
      best OA URL) and restamps the column for every row. It is access
      metadata about the source, not a property of the calculation.
-   - `electronic_structure_description` / `Other`: this column merges the
-     ground-state term symbol (if stated — prefix it "Ground term: ...")
-     with the low-lying state energies; paste the relevant numbers
-     compactly, state units; SOC-corrected vs SOC-free matters
-     (`soc_included` flag).
+   - `electronic_structure_description`: **what the states are.** This
+     column merges the ground-state term symbol (if stated — prefix it
+     "Ground term: ...") with the low-lying state energies; paste the
+     relevant numbers compactly, state units; SOC-corrected vs SOC-free
+     matters (`soc_included` flag).
+   - `Other`: **what the active space did to the answer.** A separate
+     column from the one above — do not fold them together. This is where
+     the *methodological* finding goes: how the choice of active space,
+     or of the correlation treatment on top of it, changed the result.
+     67% of rows carry one, and it is the column a consumer choosing a
+     space actually reads. Good entries look like:
+     - "Cu 3d double-shell effect shifts CASPT2 Delta_EST by >10 kcal/mol
+       between (8in6) and (16in15) reference"
+     - "PT2 correction critical for state ordering: at variational
+       ASCI-SCF level 5A1g is lowest, triplet ground state only after +PT2"
+     - "Stabilization increases monotonically with space size: -0.027 eV
+       at (6e/5o), -0.031 at (10e/9o), -0.057 at (12e/11o)"
+
+     Write it whenever the paper says or shows any of: a space was
+     enlarged/reduced and the number moved; dynamic correlation (PT2/MRCI)
+     changed a state ordering or an energy materially; orbitals were
+     deliberately excluded and why; a space was chosen for surface
+     continuity or dissociation balance rather than for best energies;
+     state-averaging was forced by degeneracy; the authors caveat their
+     own numbers; or the space size was set by hardware rather than
+     chemistry. **Also use it to warn about traps in the source** — e.g. a
+     paper whose "(5,5)" label counts orbitals per irreducible
+     representation rather than (nel,norb). Leave it empty only when the
+     paper genuinely offers no such finding.
    - One row per compound, not per table — condense.
    Then `status=extracted` (or `extracted_partial` if key fields were
    missing but the row is still useful).
