@@ -46752,3 +46752,22 @@ timestamp,key,doi,action,result,reasoning
 2026-08-17T23:15:53Z,W2023426145-a,10.1021/jp0264275,add-row,appended,row added via add-row
 2026-08-17T23:15:53Z,W2023426145-b,10.1021/jp0264275,add-row,appended,row added via add-row
 2026-08-17T23:15:53Z,W2023426145,10.1021/jp0264275,mark,extracted,"(H2O)2+ and (H2S)2+ hemi-bonded vs proton-transferred; CAS(11/10) with MCQDPT2, GAMESS; one row each."
+2026-08-17T23:19:50Z,W2022954616-a,10.1021/jp953143u,add-row,appended,row added via add-row
+2026-08-17T23:19:50Z,W2022954616-b,10.1021/jp953143u,add-row,appended,row added via add-row
+2026-08-17T23:19:50Z,W2022954616-c,10.1021/jp953143u,add-row,appended,row added via add-row
+2026-08-17T23:19:51Z,W2022954616-d,10.1021/jp953143u,add-row,appended,row added via add-row
+2026-08-17T23:19:51Z,W2022954616-e,10.1021/jp953143u,add-row,appended,row added via add-row
+2026-08-17T23:19:51Z,W2022954616-f,10.1021/jp953143u,add-row,appended,row added via add-row
+2026-08-17T23:19:51Z,W2022954616-g,10.1021/jp953143u,add-row,appended,row added via add-row
+2026-08-17T23:19:51Z,W2022954616-h,10.1021/jp953143u,add-row,appended,row added via add-row
+2026-08-17T23:19:51Z,W2022954616-i,10.1021/jp953143u,add-row,appended,row added via add-row
+2026-08-17T23:19:51Z,W2022954616-j,10.1021/jp953143u,add-row,appended,row added via add-row
+2026-08-17T23:19:52Z,W2022954616,10.1021/jp953143u,mark,extracted,"Transition-metal-boryl complexes MBH2/MBH2+ (Sc, Co, Rh, Ir) and RhB(OH)2/RhB(OH)2+; full-valence CASSCF (3/10)-(10/10) with MR-SDCI+DC, MOLPRO; ten rows."
+2026-08-17T23:20:47Z,W2023688401-a,10.1021/jp902426p,add-row,appended,row added via add-row
+2026-08-17T23:20:47Z,W2023688401,10.1021/jp902426p,mark,extracted,"Hole transfer in a stacked guanine dimer radical cation; SA-CASSCF[5,3]_3/MRCI and RASSCF{[0,0];[5,3];[2,1]}_3/RASPT2(61), MOLPRO; one row."
+2026-08-17T23:21:51Z,W2023956248-a,10.1021/jp9528471,add-row,appended,row added via add-row
+2026-08-17T23:21:51Z,W2023956248-b,10.1021/jp9528471,add-row,appended,row added via add-row
+2026-08-17T23:21:51Z,W2023956248,10.1021/jp9528471,mark,extracted,"Trimethylene lifetime by variational RRKM; 2,2-CAS and 4,4-CAS/VTZ(2d,p) with MR-CISD, MESA; one row for trimethylene, one for ethylcarbene."
+2026-08-17T23:22:58Z,W2024188605-a,10.1021/jp0375259,add-row,appended,row added via add-row
+2026-08-17T23:22:58Z,W2024188605-b,10.1021/jp0375259,add-row,appended,row added via add-row
+2026-08-17T23:22:58Z,W2024188605,10.1021/jp0375259,mark,extracted,"Benzene + boron atom to benzoborirene; (9,10)-CASSCF for entrance channels/addition products and (7,8)-CASSCF for H addition to benzoborirene, both with MC-QDPT2/cc-pVTZ, GAMESS; two rows."
