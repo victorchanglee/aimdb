@@ -46728,3 +46728,27 @@ timestamp,key,doi,action,result,reasoning
 2026-08-17T23:06:51Z,W2022074877-c,10.1021/ja104772w,add-row,appended,row added via add-row
 2026-08-17T23:06:51Z,W2022074877-d,10.1021/ja104772w,add-row,appended,row added via add-row
 2026-08-17T23:06:51Z,W2022074877,10.1021/ja104772w,mark,extracted,"PBPB dimer tetraradicals; CASSCF(4,4)/6-31G(d) unpaired-electron counts compared against PP(2 pairs), PP(5 pairs) and RAS-2SF; four planar molecules, one row each."
+2026-08-17T23:09:55Z,W2022767704-a,10.1021/jp9848086,add-row,appended,row added via add-row
+2026-08-17T23:09:55Z,W2022767704,10.1021/jp9848086,mark,extracted,"1,2-Dioxetane thermal decomposition; hierarchy of CAS(8,6)/(12,10)/(12,12)/GVB-CAS spaces with CASMP2 and CASPT2 corrections plus SOC; one row."
+2026-08-17T23:10:48Z,W2022776036-a,10.1021/jp044706h,add-row,appended,row added via add-row
+2026-08-17T23:10:48Z,W2022776036-b,10.1021/jp044706h,add-row,appended,row added via add-row
+2026-08-17T23:10:48Z,W2022776036,10.1021/jp044706h,mark,extracted,"Fluoroethene ozonolysis; CASSCF/CASPT2 (10,9)/cc-pVTZ with channel-wise space splitting and CCSD(T) fallback; one row each for primary and secondary fluorozonide."
+2026-08-17T23:12:04Z,W2022371652-a,10.1021/ct700037z,add-row,appended,row added via add-row
+2026-08-17T23:12:04Z,W2022371652-b,10.1021/ct700037z,add-row,appended,row added via add-row
+2026-08-17T23:12:04Z,W2022371652-c,10.1021/ct700037z,add-row,appended,row added via add-row
+2026-08-17T23:12:04Z,W2022371652-d,10.1021/ct700037z,add-row,appended,row added via add-row
+2026-08-17T23:12:05Z,W2022371652-e,10.1021/ct700037z,add-row,appended,row added via add-row
+2026-08-17T23:12:05Z,W2022371652-f,10.1021/ct700037z,add-row,appended,row added via add-row
+2026-08-17T23:12:05Z,W2022371652,10.1021/ct700037z,mark,extracted,"CASCI-vs-CASSCF reference orbitals for MRMP2 on six Minnesota-database barrier-height reactions; full-valence spaces, one row per reaction system (counts derived from the stated full-valence rule and flagged in notes)."
+2026-08-17T23:14:01Z,W2022737734-a,10.1021/jp065603x,add-row,appended,row added via add-row
+2026-08-17T23:14:01Z,W2022737734-b,10.1021/jp065603x,add-row,appended,row added via add-row
+2026-08-17T23:14:01Z,W2022737734-c,10.1021/jp065603x,add-row,appended,row added via add-row
+2026-08-17T23:14:01Z,W2022737734-d,10.1021/jp065603x,add-row,appended,row added via add-row
+2026-08-17T23:14:01Z,W2022737734-e,10.1021/jp065603x,add-row,appended,row added via add-row
+2026-08-17T23:14:02Z,W2022737734-f,10.1021/jp065603x,add-row,appended,row added via add-row
+2026-08-17T23:14:02Z,W2022737734,10.1021/jp065603x,mark,extracted,"Triplet O2 reduction by reduced quinones; CASSCF (10,8)/(11,8) with MRMP, GAMESS; six rows (four buta-1,4-dione forms, two p-benzoquinone). Internal inconsistency between the printed electron-count, multiplicity and orbital-occupancy groupings flagged in Other rather than reconciled."
+2026-08-17T23:14:58Z,W2023109668-a,10.1021/jp031149a,add-row,appended,row added via add-row
+2026-08-17T23:14:58Z,W2023109668,10.1021/jp031149a,mark,extracted,"Azobenzene trans-to-cis photoisomerization; CAS(6,6)/4-31G scans with cc-pVDZ single points, coordinate-dependent choice of the two added virtual orbitals; one row."
+2026-08-17T23:15:53Z,W2023426145-a,10.1021/jp0264275,add-row,appended,row added via add-row
+2026-08-17T23:15:53Z,W2023426145-b,10.1021/jp0264275,add-row,appended,row added via add-row
+2026-08-17T23:15:53Z,W2023426145,10.1021/jp0264275,mark,extracted,"(H2O)2+ and (H2S)2+ hemi-bonded vs proton-transferred; CAS(11/10) with MCQDPT2, GAMESS; one row each."
