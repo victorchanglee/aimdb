@@ -46803,3 +46803,14 @@ timestamp,key,doi,action,result,reasoning
 2026-08-17T23:37:38Z,W2025766753-a,10.1021/jp971848l,add-row,appended,row added via add-row
 2026-08-17T23:37:38Z,W2025766753-b,10.1021/jp971848l,add-row,appended,row added via add-row
 2026-08-17T23:37:39Z,W2025766753,10.1021/jp971848l,mark,extracted,"Chromium Fischer carbene complexes; CASSCF(6,6) on the Cr=C bond region with NBO analysis, Gaussian 94; two rows (alkoxy model 1, amino 2)."
+2026-08-17T23:41:10Z,W2026508920-a,10.1021/jp071816q,add-row,appended,row added via add-row
+2026-08-17T23:41:10Z,W2026508920,10.1021/jp071816q,mark,extracted,"Oxidative addition of H2 to Ni(PH3)2; systematic CASSCF/CASPT2 (4e4a)/(10e10a)/(12e12a) comparison establishing the 3d/3d' double shell as necessary and sufficient, MOLCAS 5.4. One row; the MeCN reaction is CCSD(T)/DFT only."
+2026-08-17T23:42:11Z,W2026041973-a,10.1021/om0603868,add-row,appended,row added via add-row
+2026-08-17T23:42:11Z,W2026041973,10.1021/om0603868,mark,extracted,"Methyltrioxorhenium photochemistry; SA-CASSCF(14,10) over 6 roots with MS-CASPT2 (level shift 0.3), MOLCAS. One row; the larger RReO3 analogues are TD-DFT only."
+2026-08-17T23:43:19Z,W2026436920-a,10.1021/jp020424a,add-row,appended,row added via add-row
+2026-08-17T23:43:19Z,W2026436920-b,10.1021/jp020424a,add-row,appended,row added via add-row
+2026-08-17T23:43:19Z,W2026436920,10.1021/jp020424a,mark,extracted,"CH + O2 reaction paths; CASSCF(7,7)/6-31G(d,p) with CASPT2 single points, judged unsatisfactory by the authors against B3LYP and experiment, with (17,13) full valence identified as the right but unaffordable space. Two rows."
+2026-08-17T23:44:22Z,W2025851431-a,10.1021/ja203964d,add-row,appended,row added via add-row
+2026-08-17T23:44:23Z,W2025851431-b,10.1021/ja203964d,add-row,appended,row added via add-row
+2026-08-17T23:44:23Z,W2025851431-c,10.1021/ja203964d,add-row,appended,row added via add-row
+2026-08-17T23:44:23Z,W2025851431,10.1021/ja203964d,mark,extracted,"DNA photolyase active-site models; SA-CASSCF(2,2) plus POCAS/XMCQDPT2 in Firefly, 6-31G(d). Three rows covering the protonated (6-4)I/(6-4)II models and the neutral two-His series."
