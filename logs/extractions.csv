@@ -46790,3 +46790,16 @@ timestamp,key,doi,action,result,reasoning
 2026-08-17T23:30:42Z,W2025496879-c,10.1021/ja003359w,add-row,appended,row added via add-row
 2026-08-17T23:30:42Z,W2025496879-d,10.1021/ja003359w,add-row,appended,row added via add-row
 2026-08-17T23:30:43Z,W2025496879,10.1021/ja003359w,mark,extracted,"Intramolecular electron transfer in four organic radical cations (NRB, PLN, DAE, BMA); CASSCF (3,4)/(7,6)/(7,7)/(7,8) with per-structure active spaces and conical intersection optimization; four rows."
+2026-08-17T23:34:32Z,W2025216223-a,10.1021/ct100164m,add-row,appended,row added via add-row
+2026-08-17T23:34:32Z,W2025216223-b,10.1021/ct100164m,add-row,appended,row added via add-row
+2026-08-17T23:34:32Z,W2025216223-c,10.1021/ct100164m,add-row,appended,row added via add-row
+2026-08-17T23:34:32Z,W2025216223-d,10.1021/ct100164m,add-row,appended,row added via add-row
+2026-08-17T23:34:33Z,W2025216223,10.1021/ct100164m,mark,extracted,"Singlet-triplet crossing regions in DNA/RNA nucleobases; CASPT2(14,12)/6-31G(d,p) for purines and CASPT2(14,10)/ANO-S for pyrimidines, MOLCAS 7. Four rows (A, G, T, C); uracil omitted because the paper refers to its earlier results (ref 25) rather than presenting new data."
+2026-08-17T23:35:30Z,W2025815804-a,10.1021/jp0364203,add-row,appended,row added via add-row
+2026-08-17T23:35:31Z,W2025815804,10.1021/jp0364203,mark,extracted,"CHF2 radical ground and first two excited states; CASSCF(19,13) and MRCI(3,4) with 6-31+G*/6-311++G**, MOLPRO; one row."
+2026-08-17T23:36:31Z,W2025779810-a,10.1021/ja0039987,add-row,appended,row added via add-row
+2026-08-17T23:36:31Z,W2025779810-b,10.1021/ja0039987,add-row,appended,row added via add-row
+2026-08-17T23:36:31Z,W2025779810,10.1021/ja0039987,mark,extracted,"Photochemical Bergman cyclization of cis-1,5-hexadiyne-3-ene; CASSCF(10,10) with structure-specific 8e/8o CASMP2 subspaces and MRSDCI checks; two rows (enediyne reactant, p-benzyne product)."
+2026-08-17T23:37:38Z,W2025766753-a,10.1021/jp971848l,add-row,appended,row added via add-row
+2026-08-17T23:37:38Z,W2025766753-b,10.1021/jp971848l,add-row,appended,row added via add-row
+2026-08-17T23:37:39Z,W2025766753,10.1021/jp971848l,mark,extracted,"Chromium Fischer carbene complexes; CASSCF(6,6) on the Cr=C bond region with NBO analysis, Gaussian 94; two rows (alkoxy model 1, amino 2)."
