@@ -1,6 +1,10 @@
 # Downloaded papers and extracted text — copyrighted content, never commit
 papers/
 text/
+# Same, for hand-made drop folders: the filesystem is case-sensitive, so
+# `papers/` above does not cover a capitalised directory.
+Papers/
+site/
 
 # Python environments and bytecode
 code/.venv/
