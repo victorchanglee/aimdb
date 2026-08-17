@@ -46814,3 +46814,15 @@ timestamp,key,doi,action,result,reasoning
 2026-08-17T23:44:23Z,W2025851431-b,10.1021/ja203964d,add-row,appended,row added via add-row
 2026-08-17T23:44:23Z,W2025851431-c,10.1021/ja203964d,add-row,appended,row added via add-row
 2026-08-17T23:44:23Z,W2025851431,10.1021/ja203964d,mark,extracted,"DNA photolyase active-site models; SA-CASSCF(2,2) plus POCAS/XMCQDPT2 in Firefly, 6-31G(d). Three rows covering the protonated (6-4)I/(6-4)II models and the neutral two-His series."
+2026-08-17T23:48:08Z,W2026598123-a,10.1021/ic0010860,add-row,appended,row added via add-row
+2026-08-17T23:48:08Z,W2026598123-b,10.1021/ic0010860,add-row,appended,row added via add-row
+2026-08-17T23:48:08Z,W2026598123,10.1021/ic0010860,mark,extracted,"[V(H2O)6]3+ and [Ni(H2O)6]2+ triplet crystal-field states; identical 13-orbital space (5 3d + 3d correlating shell + diffuse) with 2 or 8 electrons, CASSCF/CASPT2 in MOLCAS 4.1; two rows."
+2026-08-17T23:48:57Z,W2026786332-a,10.1021/jo000493q,add-row,appended,row added via add-row
+2026-08-17T23:49:04Z,W2026786332,10.1021/jo000493q,mark,extracted,"Phosphirane ring-chain rearrangement; CASSCF(10,10)/CASPT2 at MP2 geometries in MOLCAS-4 (CASSCF TS reoptimization impossible for lack of analytical Hessians). One row; halogenated analogues are single-reference only."
+2026-08-17T23:50:05Z,W2026834596-a,10.1021/jp0106808,add-row,appended,row added via add-row
+2026-08-17T23:50:05Z,W2026834596-b,10.1021/jp0106808,add-row,appended,row added via add-row
+2026-08-17T23:50:05Z,W2026834596-c,10.1021/jp0106808,add-row,appended,row added via add-row
+2026-08-17T23:50:05Z,W2026834596,10.1021/jp0106808,mark,extracted,"Diazetine N2 extrusion and Woodward-Hoffmann breakdown; CASSCF(2,2)/(4,4) geometries with BCCD(T) single points after CASPT2 gave negative activation energies. Three rows (parent diazetine, its three-membered isomer, tetramethyl derivative)."
+2026-08-17T23:51:25Z,W2027710928-a,10.1021/jp991657d,add-row,appended,row added via add-row
+2026-08-17T23:51:25Z,W2027710928-b,10.1021/jp991657d,add-row,appended,row added via add-row
+2026-08-17T23:51:25Z,W2027710928,10.1021/jp991657d,mark,extracted,"trans- and cis-urocanic acid low-lying excited states; pi-valence (12,10) SA-CASSCF with lone-pair-augmented and Rydberg-enlarged variants, CASPT2; two rows."
