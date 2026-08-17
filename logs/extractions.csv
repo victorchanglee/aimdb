@@ -46693,3 +46693,38 @@ timestamp,key,doi,action,result,reasoning
 2026-08-17T22:53:25Z,W2019514755-a,10.1021/jp012650a,add-row,appended,"CASSCF(18,12) location of singlet-triplet intersection points for NiO/NiS + H2, Gaussian 98 plus MOLPRO 2000. Other separates the two multireference uses: full-valence CASSCF/MRCI (counts unstated) for the Ni atom and NiO reference energetics where 3d8 4s2 versus 3d9 4s1 near-degeneracy defeats single reference, and the stated (18,12) specifically for the spin-crossing seam."
 2026-08-17T22:53:26Z,W2019514755-b,10.1021/jp012650a,add-row,appended,"CASSCF(18,12) location of singlet-triplet intersection points for NiO/NiS + H2, Gaussian 98 plus MOLPRO 2000. Other separates the two multireference uses: full-valence CASSCF/MRCI (counts unstated) for the Ni atom and NiO reference energetics where 3d8 4s2 versus 3d9 4s1 near-degeneracy defeats single reference, and the stated (18,12) specifically for the spin-crossing seam."
 2026-08-17T22:53:26Z,W2019514755,10.1021/jp012650a,mark,extracted,"NiO and NiS + H2: two rows, CAS(18,12)/6-311G** for the singlet-triplet intersection surface; separate unstated full-valence space for Ni atom and NiO states."
+2026-08-17T22:58:41Z,W2019839918-a,10.1021/jp990030s,add-row,appended,row added via add-row
+2026-08-17T22:58:41Z,W2019839918,10.1021/jp990030s,mark,extracted,"Malonaldehyde photophysics, CASSCF/CASPT2 with three explicitly tabulated spaces (6/5, 10/8, 14/12); one row on the medium space."
+2026-08-17T22:59:28Z,W2020319643-a,10.1021/jp052996b,add-row,appended,row added via add-row
+2026-08-17T22:59:28Z,W2020319643-b,10.1021/jp052996b,add-row,appended,row added via add-row
+2026-08-17T22:59:28Z,W2020319643,10.1021/jp052996b,mark,extracted,"Chromene ring-opening, CASPT2//CASSCF(12e/11o)/6-31G*; one row each for 2H-chromene and 2,2-diethyl-2H-chromene."
+2026-08-17T23:00:25Z,W2020457888-a,10.1021/jp026597h,add-row,appended,row added via add-row
+2026-08-17T23:00:25Z,W2020457888,10.1021/jp026597h,mark,extracted,"CO/Cr2O3(0001) DIET intermediate, state-averaged CASSCF + VCI, CAS 9o:8e on an embedded Cr2O6(6-) cluster; one row."
+2026-08-17T23:01:37Z,W2021266263-a,10.1021/jp809715v,add-row,appended,row added via add-row
+2026-08-17T23:01:37Z,W2021266263-b,10.1021/jp809715v,add-row,appended,row added via add-row
+2026-08-17T23:01:37Z,W2021266263,10.1021/jp809715v,mark,extracted,"Non-Kekule diradicals 2 and 4, (14/14) and (12/12) CASSCF/CASPT2/6-31G(d), MOLCAS; TMM (3) omitted because its numbers are taken from ref 11k."
+2026-08-17T23:02:33Z,W2021558016-a,10.1021/jp073529s,add-row,appended,row added via add-row
+2026-08-17T23:02:33Z,W2021558016-b,10.1021/jp073529s,add-row,appended,row added via add-row
+2026-08-17T23:02:33Z,W2021558016,10.1021/jp073529s,mark,extracted,"HPA and HPA-4W phototrigger, CAS(14,11)/6-31G* seven states plus SA-CAS(10,8) intersections; HPDP/HPPP are B3LYP-only so no rows."
+2026-08-17T23:03:39Z,W2022015616-a,10.1021/jp804856z,add-row,appended,row added via add-row
+2026-08-17T23:03:40Z,W2022015616-b,10.1021/jp804856z,add-row,appended,row added via add-row
+2026-08-17T23:03:40Z,W2022015616-c,10.1021/jp804856z,add-row,appended,row added via add-row
+2026-08-17T23:03:40Z,W2022015616-d,10.1021/jp804856z,add-row,appended,row added via add-row
+2026-08-17T23:03:40Z,W2022015616-e,10.1021/jp804856z,add-row,appended,row added via add-row
+2026-08-17T23:03:40Z,W2022015616-f,10.1021/jp804856z,add-row,appended,row added via add-row
+2026-08-17T23:03:40Z,W2022015616-g,10.1021/jp804856z,add-row,appended,row added via add-row
+2026-08-17T23:03:41Z,W2022015616-h,10.1021/jp804856z,add-row,appended,row added via add-row
+2026-08-17T23:03:41Z,W2022015616,10.1021/jp804856z,mark,extracted,"Pu(VII)/Pu(VIII) redox potentials; CASSCF/RASSI-SO (1 f electron in 7 f orbitals) spin-orbit corrections on eight Pu(VII) species, four bare ions and four hydroxide clusters."
+2026-08-17T23:05:00Z,W2022269049-a,10.1021/jp062494d,add-row,appended,row added via add-row
+2026-08-17T23:05:00Z,W2022269049-b,10.1021/jp062494d,add-row,appended,row added via add-row
+2026-08-17T23:05:00Z,W2022269049-c,10.1021/jp062494d,add-row,appended,row added via add-row
+2026-08-17T23:05:01Z,W2022269049-d,10.1021/jp062494d,add-row,appended,row added via add-row
+2026-08-17T23:05:01Z,W2022269049,10.1021/jp062494d,mark,extracted,"Guanine tautomers; (14,11)/(13,11) CASSCF for enol, (10,9) SA-CASSCF for keto, (8,8) for FC frequencies; four rows, enol N9H syn/anti kept together as rotamers."
+2026-08-17T23:05:43Z,W2022178763-a,10.1021/jp803751b,add-row,appended,row added via add-row
+2026-08-17T23:05:43Z,W2022178763-b,10.1021/jp803751b,add-row,appended,row added via add-row
+2026-08-17T23:05:44Z,W2022178763,10.1021/jp803751b,mark,extracted,"Quasi-classical CASSCF(4,4)/STO-3G surface-hopping dynamics on s-cis-butadiene and its 2,3-dideuterio isotopologue; one row each."
+2026-08-17T23:06:50Z,W2022074877-a,10.1021/ja104772w,add-row,appended,row added via add-row
+2026-08-17T23:06:51Z,W2022074877-b,10.1021/ja104772w,add-row,appended,row added via add-row
+2026-08-17T23:06:51Z,W2022074877-c,10.1021/ja104772w,add-row,appended,row added via add-row
+2026-08-17T23:06:51Z,W2022074877-d,10.1021/ja104772w,add-row,appended,row added via add-row
+2026-08-17T23:06:51Z,W2022074877,10.1021/ja104772w,mark,extracted,"PBPB dimer tetraradicals; CASSCF(4,4)/6-31G(d) unpaired-electron counts compared against PP(2 pairs), PP(5 pairs) and RAS-2SF; four planar molecules, one row each."
