@@ -47373,3 +47373,16 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T04:57:51Z,W2067899217-a,10.1021/jp980501v,add-row,appended,row added via add-row
 2026-08-18T04:57:51Z,W2067899217-b,10.1021/jp980501v,add-row,appended,row added via add-row
 2026-08-18T04:57:59Z,W2067899217,10.1021/jp980501v,mark,extracted,"Dioxirane low-lying states and ring opening to dioxymethane; minimal CASSCF(6,4) naming the O-O sigma, two oxygen pi combinations and O-O sigma*, used only for the TS1 geometry and frequencies while all energies come from MRD-CI+Q, with a qualitative disagreement against earlier CASPT2 on the 1A1/2A1 crossing. Two rows."
+2026-08-18T05:01:09Z,W2068668198-a,10.1021/jp0379648,add-row,appended,row added via add-row
+2026-08-18T05:01:09Z,W2068668198-b,10.1021/jp0379648,add-row,appended,row added via add-row
+2026-08-18T05:01:10Z,W2068668198-c,10.1021/jp0379648,add-row,appended,row added via add-row
+2026-08-18T05:01:10Z,W2068668198-d,10.1021/jp0379648,add-row,appended,row added via add-row
+2026-08-18T05:01:10Z,W2068668198,10.1021/jp0379648,mark,extracted,"Monohalobenzene photodissociation; a single symmetry-specified (2314) space with 12 electrons applied identically to F, Cl, Br and I, giving crossing-point energies that track measured lifetimes, with the ClBz case honestly reported as exceeding the 0.3 eV CASPT2 tolerance. Four rows."
+2026-08-18T05:02:18Z,W2068920852-a,10.1021/ja056181s,add-row,appended,row added via add-row
+2026-08-18T05:02:18Z,W2068920852-b,10.1021/ja056181s,add-row,appended,row added via add-row
+2026-08-18T05:02:19Z,W2068920852-c,10.1021/ja056181s,add-row,appended,row added via add-row
+2026-08-18T05:02:27Z,W2068920852,10.1021/ja056181s,mark,extracted,"Uracil derivatives in aqueous solution; CASSCF(8/8) of six pi plus two nO orbitals used only to locate the S1/S0 conical intersection, validated by matching a published CASSCF(12/9) geometry, with all energetics from PCM/TD-PBE0. Three rows for the compounds treated multiconfigurationally; the other eight derivatives are experimental only."
+2026-08-18T05:03:22Z,W2069537676-a,10.1021/ja066994w,add-row,appended,row added via add-row
+2026-08-18T05:03:28Z,W2069537676,10.1021/ja066994w,mark,extracted,"Phenol blue ultrafast photochemistry; minimal SA2-CASSCF(2,2) on the aniline HOMO and quinoneimine LUMO used for everything including surface-hopping dynamics, with the bare excitation energy over 1 eV too high and MS-CASPT2 on the same two orbitals essentially exact. One row."
+2026-08-18T05:04:24Z,W2069584954-a,10.1021/ja9712128,add-row,appended,row added via add-row
+2026-08-18T05:04:32Z,W2069584954,10.1021/ja9712128,mark,extracted,"Free MnF3 Jahn-Teller structure; two-stage CASSCF with orbitals chosen from MCPF natural orbital populations, where enlarging (6,8) to (8,10) plus CASPT2 collapses the 5A1-5B2 gap from 25.7 to 6.4 kJ/mol without changing the ordering, and the >99% single-configuration weight then licenses SCF/DFT for the frequencies. One row."
