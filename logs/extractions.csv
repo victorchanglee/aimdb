@@ -48423,3 +48423,24 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T18:19:01Z,W2332861264,10.1021/ja507342a,mark,extracted_partial,"Intermediate-spin dinickel dihydride [Cp'Ni(mu-H)]2. CASSCF/CASPT2 alongside DFT. One row. Partial because this is a Communication: the active space size and composition, the basis set and the program are all in the SI only. The four frontier orbital occupations quoted (1.80/1.17/0.91/0.26) sum to 4.14, so they are a subset of a larger space."
 2026-08-18T18:20:16Z,W2333013223-a,10.1021/jp110632g,add-row,appended,row added via add-row
 2026-08-18T18:20:16Z,W2333013223,10.1021/jp110632g,mark,extracted,"Surface-hopping dynamics of ultrafast S1->S0 internal conversion in cyclopropanone. SA-CASSCF(8,7)/cc-pVDZ in Gaussian 03 with MS-MR-CASPT2 single points in MOLPRO 2006. One row. The space size is explicitly capped by a code limitation: nonadiabatic coupling vectors cannot be computed in Gaussian 03 for large active spaces."
+2026-08-18T18:27:17Z,W2333287034-a,10.1021/jp304015k,add-row,appended,row added via add-row
+2026-08-18T18:27:18Z,W2333287034-b,10.1021/jp304015k,add-row,appended,row added via add-row
+2026-08-18T18:27:18Z,W2333287034-c,10.1021/jp304015k,add-row,appended,row added via add-row
+2026-08-18T18:27:18Z,W2333287034-d,10.1021/jp304015k,add-row,appended,row added via add-row
+2026-08-18T18:27:18Z,W2333287034-e,10.1021/jp304015k,add-row,appended,row added via add-row
+2026-08-18T18:27:18Z,W2333287034-f,10.1021/jp304015k,add-row,appended,row added via add-row
+2026-08-18T18:27:18Z,W2333287034-g,10.1021/jp304015k,add-row,appended,row added via add-row
+2026-08-18T18:27:19Z,W2333287034-h,10.1021/jp304015k,add-row,appended,row added via add-row
+2026-08-18T18:27:19Z,W2333287034-i,10.1021/jp304015k,add-row,appended,row added via add-row
+2026-08-18T18:27:19Z,W2333287034-j,10.1021/jp304015k,add-row,appended,row added via add-row
+2026-08-18T18:27:19Z,W2333287034-k,10.1021/jp304015k,add-row,appended,row added via add-row
+2026-08-18T18:27:19Z,W2333287034-l,10.1021/jp304015k,add-row,appended,row added via add-row
+2026-08-18T18:27:20Z,W2333287034,10.1021/jp304015k,mark,extracted,"High-spin biradicaloids in the isobenzofulvene and isobenzoheptafulvene series. Full pi-space CASSCF/CASPT2 up to 14 pi electrons and full pi-space RASSCF/RASPT2 up to 24, MOLCAS 7.4, 6-31G(d), IPEA 0.25. Twelve rows. The RAS partitioning is calibrated against complete-space results before extension; the CAS(2,2)/(4,4)/(10,10) sequence is non-monotonic; and the IPEA shift accounts for a 4.4 kcal/mol swing in one reported gap."
+2026-08-18T18:29:17Z,W2333441302-a,10.1021/acs.jpcb.5b08455,add-row,appended,row added via add-row
+2026-08-18T18:29:17Z,W2333441302-b,10.1021/acs.jpcb.5b08455,add-row,appended,row added via add-row
+2026-08-18T18:29:17Z,W2333441302-c,10.1021/acs.jpcb.5b08455,add-row,appended,row added via add-row
+2026-08-18T18:29:17Z,W2333441302-d,10.1021/acs.jpcb.5b08455,add-row,appended,row added via add-row
+2026-08-18T18:29:17Z,W2333441302-e,10.1021/acs.jpcb.5b08455,add-row,appended,row added via add-row
+2026-08-18T18:29:17Z,W2333441302,10.1021/acs.jpcb.5b08455,mark,extracted_partial,"Mean-field QM/MM vertical excitation energies of N,N-dimethyl-4-nitroaniline in gas phase and four solvents. State-specific CASSCF(12,10)/6-311G(2d,2p) with an MRMP2 correction, modified GAMESS plus DL_POLY 2.20. Five rows. Partial because the active space composition is never itemized, only the counts. Key points: state-specific rather than state-averaged for a charge-transfer excitation, and the correlation correction is a gas-phase additive shift applied unchanged in every solvent."
+2026-08-18T18:30:37Z,W2333785497-a,10.1021/jp508470m,add-row,appended,row added via add-row
+2026-08-18T18:30:38Z,W2333785497,10.1021/jp508470m,mark,extracted,"Heavy-atom effect on the magnetic anisotropy of a monobromine septet trinitrene in an argon matrix. CASCI over 50 septet roots on a SA-CASSCF(12,12) reference, SVP basis, ORCA. One row. The space composition is dictated by the requirement that the bromine valence p lone pairs be active, and the multiconfigurational treatment gives the opposite SIGN of the spin-orbit term to DFT, matching both experimental references where DFT does not."
