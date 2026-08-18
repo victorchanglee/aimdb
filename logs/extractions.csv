@@ -47230,3 +47230,10 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T03:50:39Z,W2056847635-c,10.1021/jp062748v,add-row,appended,row added via add-row
 2026-08-18T03:50:40Z,W2056847635-d,10.1021/jp062748v,add-row,appended,row added via add-row
 2026-08-18T03:50:40Z,W2056847635,10.1021/jp062748v,mark,extracted,"Oligothiophene dications; CAS(4,4)/(6,6)/(10,10) applied to four oligomer lengths. Singlet-triplet gaps vary by up to a factor of three with active space and in three different directions across the series, while the electrons-outside-closed-shell diagnostic is nearly space-independent. Four rows."
+2026-08-18T03:54:07Z,W2056981997-a,10.1021/jp056290t,add-row,appended,row added via add-row
+2026-08-18T03:54:07Z,W2056981997-b,10.1021/jp056290t,add-row,appended,row added via add-row
+2026-08-18T03:54:08Z,W2056981997,10.1021/jp056290t,mark,extracted,"2-Amino-5-methylpyridine photoinduced tautomerism; fixed CASSCF(10,8)/6-31G** for the S1 surface of both tautomers, orbitals enumerated. S0/T1 by DFT, so the mechanism is ruled out by comparing energetics across three methods. Two rows."
+2026-08-18T03:55:20Z,W2057301668-a,10.1021/jp003040y,add-row,appended,row added via add-row
+2026-08-18T03:55:20Z,W2057301668-b,10.1021/jp003040y,add-row,appended,row added via add-row
+2026-08-18T03:55:21Z,W2057301668-c,10.1021/jp003040y,add-row,appended,row added via add-row
+2026-08-18T03:55:21Z,W2057301668,10.1021/jp003040y,mark,extracted_partial,"Quinonoidal diiminediyls; CASSCF(10,10)/D95** with MRCISD in a reduced (6,6) forced by MOLPRO's 16-orbital limit. Only molecule 1 has stated active-space counts; the extended dinitrenes are described as 'varying standard basis sets' with no space size given, so those rows carry blank nel/norb. Three rows."
