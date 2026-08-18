@@ -46892,3 +46892,12 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T00:28:57Z,W2032513157-d,10.1021/acs.jpca.5b00928,add-row,appended,row added via add-row
 2026-08-18T00:28:57Z,W2032513157-e,10.1021/acs.jpca.5b00928,add-row,appended,row added via add-row
 2026-08-18T00:28:57Z,W2032513157,10.1021/acs.jpca.5b00928,mark,extracted_partial,"Five dimethylcyclohexoxy radicals; CASSCF(9,7)/6-31+G(d) with only three active orbitals specified and the rest chosen automatically by the program. Five rows. Marked partial because Table 2's column ordering is not resolvable from the extracted text, so the per-isomer B-X transition energies were not transcribed."
+2026-08-18T00:32:08Z,W2033262860-a,10.1021/ja044321c,add-row,appended,row added via add-row
+2026-08-18T00:32:08Z,W2033262860,10.1021/ja044321c,mark,extracted,"9H-adenine radiationless decay; four task-specific CASSCF spaces (10 pi; 9 pi + n; pi-with-lone-pair-swap; reduced (6,6) for conical intersections) with LS-CASPT2. One row."
+2026-08-18T00:33:07Z,W2033612513-a,10.1021/jp9835216,add-row,appended,row added via add-row
+2026-08-18T00:33:07Z,W2033612513-b,10.1021/jp9835216,add-row,appended,row added via add-row
+2026-08-18T00:33:08Z,W2033612513,10.1021/jp9835216,mark,extracted,"Acetonitrile pyrolysis kinetics; CASSCF(3/4) to (10/10) per species with CASPT2, benchmarked against G2, MRCI and QCISD(T). Two rows (succinonitrile and acrylonitrile decomposition, the two subsystems given explicit active spaces)."
+2026-08-18T00:33:54Z,W2032878189-a,10.1021/jo062256e,add-row,appended,row added via add-row
+2026-08-18T00:33:55Z,W2032878189-b,10.1021/jo062256e,add-row,appended,row added via add-row
+2026-08-18T00:33:55Z,W2032878189-c,10.1021/jo062256e,add-row,appended,row added via add-row
+2026-08-18T00:33:55Z,W2032878189,10.1021/jo062256e,mark,extracted,"o-Benzyne + tropothione biradical mechanism; CASSCF(4,4)/6-31G* used diagnostically to read CI coefficients distinguishing biradical from zwitterionic intermediates. Three rows."
