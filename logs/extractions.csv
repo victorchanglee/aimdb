@@ -47624,3 +47624,15 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T07:15:01Z,W2085113359-f,10.1021/jp0560011,add-row,appended,row added via add-row
 2026-08-18T07:15:01Z,W2085113359-g,10.1021/jp0560011,add-row,appended,row added via add-row
 2026-08-18T07:15:21Z,W2085113359,10.1021/jp0560011,mark,extracted,"Aromaticity of pericyclic transition states via IDA on CASSCF wave functions; reaction-specific spaces of all valence pi/pi*/sigma/sigma*, Boys-localized for a full-CI VB decomposition, with CASPT2N reversing the [1,5]-C shift retention/inversion ordering. Seven rows."
+2026-08-18T07:16:46Z,W2085506059-a,10.1021/ja511607j,add-row,appended,row added via add-row
+2026-08-18T07:16:46Z,W2085506059-b,10.1021/ja511607j,add-row,appended,row added via add-row
+2026-08-18T07:16:47Z,W2085506059-c,10.1021/ja511607j,add-row,appended,row added via add-row
+2026-08-18T07:17:00Z,W2085506059,10.1021/ja511607j,mark,extracted,"Ni2E2 complexes (E = S, Se, Te); ideal (26e/18o) or (28e/18o) truncated by HF-guided orbital removal to (18e/12o) then re-enlarged to (18e/14o) with two 4d-delta orbitals for the double-shell effect, giving leading configurations of only 31-35 percent. Three rows."
+2026-08-18T07:17:55Z,W2085634546-a,10.1021/jp908567m,add-row,appended,row added via add-row
+2026-08-18T07:17:55Z,W2085634546-b,10.1021/jp908567m,add-row,appended,row added via add-row
+2026-08-18T07:17:55Z,W2085634546-c,10.1021/jp908567m,add-row,appended,row added via add-row
+2026-08-18T07:17:55Z,W2085634546,10.1021/jp908567m,mark,extracted,"Benzoic acid monomer photodissociation; three fragment-matched spaces (14,12), (11,10) and (7,7) with ANO-RCC-VDZP and a tuned IPEA shift, superseding earlier CAS(10,8)/cc-pVDZ work. Three rows."
+2026-08-18T07:18:44Z,W2085737048-a,10.1021/jp063967j,add-row,appended,row added via add-row
+2026-08-18T07:18:44Z,W2085737048,10.1021/jp063967j,mark,extracted,"Formic acid photodissociation in water; CAS(10,8)/cc-pVTZ chosen on a documented three-way comparison against full-valence (18,13), held fixed across gas phase, explicit water complex and PCM, with MR-CI single points. One row."
+2026-08-18T07:19:36Z,W2086326092-a,10.1021/ja0451517,add-row,appended,row added via add-row
+2026-08-18T07:19:37Z,W2086326092,10.1021/ja0451517,mark,extracted,"GFP chromophore HBDI in solvent; CASSCF(12,11)/6-31G* truncated from the full (16,14) pi system, with the paper stating the truncation is safe for the reaction path but not for vibrational frequencies, and CASPT2 taken in vacuo because PCM would not converge. One row."
