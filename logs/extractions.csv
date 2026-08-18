@@ -47636,3 +47636,18 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T07:18:44Z,W2085737048,10.1021/jp063967j,mark,extracted,"Formic acid photodissociation in water; CAS(10,8)/cc-pVTZ chosen on a documented three-way comparison against full-valence (18,13), held fixed across gas phase, explicit water complex and PCM, with MR-CI single points. One row."
 2026-08-18T07:19:36Z,W2086326092-a,10.1021/ja0451517,add-row,appended,row added via add-row
 2026-08-18T07:19:37Z,W2086326092,10.1021/ja0451517,mark,extracted,"GFP chromophore HBDI in solvent; CASSCF(12,11)/6-31G* truncated from the full (16,14) pi system, with the paper stating the truncation is safe for the reaction path but not for vibrational frequencies, and CASPT2 taken in vacuo because PCM would not converge. One row."
+2026-08-18T07:22:54Z,W2086399140-a,10.1021/jp903585c,add-row,appended,row added via add-row
+2026-08-18T07:23:03Z,W2086399140,10.1021/jp903585c,mark,extracted,"Pyridine anharmonic Franck-Condon spectra; a shared CASSCF(8,7) space required for S0/S1/S2 on equal footing, giving the best vertical pi-pi* of any method but a 1 eV overestimate for n-pi*. One row."
+2026-08-18T07:23:46Z,W2086582386-a,10.1021/ja029005h,add-row,appended,row added via add-row
+2026-08-18T07:23:46Z,W2086582386,10.1021/ja029005h,mark,extracted,"Acetamide photochemistry; CAS(8,7) whose seventh orbital was fixed by testing three antibonding candidates (energies spanning 6.2 kcal/mol, one-electron densities 0.003/0.01/0.04 tracking the ordering), repeated at every stationary structure. One row."
+2026-08-18T07:24:53Z,W2086674944-a,10.1021/jo070399a,add-row,appended,row added via add-row
+2026-08-18T07:24:54Z,W2086674944-b,10.1021/jo070399a,add-row,appended,row added via add-row
+2026-08-18T07:24:54Z,W2086674944-c,10.1021/jo070399a,add-row,appended,row added via add-row
+2026-08-18T07:24:54Z,W2086674944,10.1021/jo070399a,mark,extracted,"NDMA photodecomposition; CASPT2//CASSCF with a (14,10) parent space enumerated orbital by orbital, grown to (16,12) for tautomerizations, and fragment spaces (11,10) derived by reduction plus (11,8) for NO. Three rows."
+2026-08-18T07:25:55Z,W2086979963-a,10.1021/ja981926y,add-row,appended,row added via add-row
+2026-08-18T07:26:10Z,W2086979963,10.1021/ja981926y,mark,extracted,"CH3O + O2 oxidation; CASSCF geometries for 15 stationary points with the active space generated algorithmically by the Anglada-Bofill natural-orbital occupation criterion from an all-valence MRDCI density, and CCSD(T) single points. One row; nel/norb never stated."
+2026-08-18T07:27:06Z,W2087567000-a,10.1021/jp036864z,add-row,appended,row added via add-row
+2026-08-18T07:27:18Z,W2087567000,10.1021/jp036864z,mark,extracted,"AuH2 gold dihydride; CASSCF/MRSDCI with an 11-orbital 13-electron space fixed by gold's atomic excited-state configurations (5d, 6s and 6p all required), reported by symmetry block, with size-consistency handled supermolecularly. One row."
+2026-08-18T07:28:15Z,W2087611981-a,10.1021/jp983731i,add-row,appended,row added via add-row
+2026-08-18T07:28:15Z,W2087611981-b,10.1021/jp983731i,add-row,appended,row added via add-row
+2026-08-18T07:28:31Z,W2087611981,10.1021/jp983731i,mark,extracted,"Phenyldisilane intramolecular charge-transfer emission; a fixed (6,6) whose contents swap the C-Si sigma pair in for the LE-state orbitals when describing the ICT state, with MRMP corrections and SOCI showing no CT character among the ten lowest vertical singlets. Two rows."
