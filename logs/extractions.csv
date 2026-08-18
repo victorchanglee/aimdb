@@ -47116,3 +47116,19 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T02:36:51Z,W2049347244,10.1021/jp952199l,mark,extracted,"Zinc carbyne and zinc stannyne; constant-composition CASSCF(8,8) sigma/sigma*/pi space with Stevens ECPs, HONDO-8. Two rows."
 2026-08-18T02:38:00Z,W2049412704-a,10.1021/jp994435o,add-row,appended,row added via add-row
 2026-08-18T02:38:13Z,W2049412704,10.1021/jp994435o,mark,extracted,"Cr(CO)4(bpy) photodissociation; two active spaces split by state type -- 6e17a for MLCT and 10e12a for MC states -- with MR-CCI on high-spin S=4 CASSCF references, MOLCAS-3. One row."
+2026-08-18T02:42:43Z,W2049661158-a,10.1021/jp057458d,add-row,appended,row added via add-row
+2026-08-18T02:42:43Z,W2049661158-b,10.1021/jp057458d,add-row,appended,row added via add-row
+2026-08-18T02:42:43Z,W2049661158-c,10.1021/jp057458d,add-row,appended,row added via add-row
+2026-08-18T02:42:43Z,W2049661158-d,10.1021/jp057458d,add-row,appended,row added via add-row
+2026-08-18T02:42:43Z,W2049661158-e,10.1021/jp057458d,add-row,appended,row added via add-row
+2026-08-18T02:42:44Z,W2049661158-f,10.1021/jp057458d,add-row,appended,row added via add-row
+2026-08-18T02:42:44Z,W2049661158,10.1021/jp057458d,mark,extracted,"VB-like representations of six D6h rings; identical CASSCF(6,6)/6-31G(d,p) pi space for B6, C6H6, N6, Al6, Si6H6, P6, with orthogonal vs nonorthogonal transformations of the same wavefunction. Six rows."
+2026-08-18T02:44:14Z,W2049771281-a,10.1021/jp0009103,add-row,appended,row added via add-row
+2026-08-18T02:44:15Z,W2049771281,10.1021/jp0009103,mark,extracted_partial,"FO valence and Rydberg states; CASSCF/MRCI in MOLPRO 98.1 with per-symmetry and per-bond-length-regime active spaces given as symmetry-block orbital counts. No active electron counts are stated anywhere, so nel is blank. One row."
+2026-08-18T02:45:46Z,W2049955951-a,10.1021/jp901553y,add-row,appended,row added via add-row
+2026-08-18T02:45:46Z,W2049955951-b,10.1021/jp901553y,add-row,appended,row added via add-row
+2026-08-18T02:45:46Z,W2049955951-c,10.1021/jp901553y,add-row,appended,row added via add-row
+2026-08-18T02:45:46Z,W2049955951-d,10.1021/jp901553y,add-row,appended,row added via add-row
+2026-08-18T02:45:46Z,W2049955951-e,10.1021/jp901553y,add-row,appended,row added via add-row
+2026-08-18T02:45:46Z,W2049955951-f,10.1021/jp901553y,add-row,appended,row added via add-row
+2026-08-18T02:45:47Z,W2049955951,10.1021/jp901553y,mark,extracted,"CF2 cycloadditions to five alkenes and disilene; identical minimal CAS(4,4)/6-31G(d,p) throughout, with MR-MP2 and CR-CC(2,3) showing the CASSCF stepwise mechanism is artificial. Six rows."
