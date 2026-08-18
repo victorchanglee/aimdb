@@ -46880,3 +46880,15 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T00:22:42Z,W2031523652-b,10.1063/1.460289,add-row,appended,row added via add-row
 2026-08-18T00:22:42Z,W2031523652-c,10.1063/1.460289,add-row,appended,row added via add-row
 2026-08-18T00:22:43Z,W2031523652,10.1063/1.460289,mark,extracted,"InSb2, SbIn2, GaAs2, AsGa2 and their ions; restricted ijkl-CAS spaces with matched bent/linear truncations and MRSDCI restoring the frozen group V s electrons. Three rows (InSb2, SbIn2, Ga2As); GaAs2 shares its table with the InSb2 discussion and was not separately transcribed."
+2026-08-18T00:27:03Z,W2030880924-a,10.1021/jp984449e,add-row,appended,row added via add-row
+2026-08-18T00:27:03Z,W2030880924-b,10.1021/jp984449e,add-row,appended,row added via add-row
+2026-08-18T00:27:03Z,W2030880924-c,10.1021/jp984449e,add-row,appended,row added via add-row
+2026-08-18T00:27:04Z,W2030880924,10.1021/jp984449e,mark,extracted,"TcCO, ReCO and TaCO potential energy surfaces; CASMCSCF(9, 6/2/2/1) chosen for correct dissociation-limit assignments, MRSDCI, and RCI spin-orbit. Three rows; TaCO active space not stated in this paper."
+2026-08-18T00:28:01Z,W2031732717-a,10.1021/jp9058752,add-row,appended,row added via add-row
+2026-08-18T00:28:02Z,W2031732717,10.1021/jp9058752,mark,extracted,"1-Aminonaphthalene photophysics; uniform pi CASSCF(12,11) with CASPT2//CASSCF and CASPT2 MECP searches, ANO-S, MOLCAS-6. One row."
+2026-08-18T00:28:56Z,W2032513157-a,10.1021/acs.jpca.5b00928,add-row,appended,row added via add-row
+2026-08-18T00:28:56Z,W2032513157-b,10.1021/acs.jpca.5b00928,add-row,appended,row added via add-row
+2026-08-18T00:28:56Z,W2032513157-c,10.1021/acs.jpca.5b00928,add-row,appended,row added via add-row
+2026-08-18T00:28:57Z,W2032513157-d,10.1021/acs.jpca.5b00928,add-row,appended,row added via add-row
+2026-08-18T00:28:57Z,W2032513157-e,10.1021/acs.jpca.5b00928,add-row,appended,row added via add-row
+2026-08-18T00:28:57Z,W2032513157,10.1021/acs.jpca.5b00928,mark,extracted_partial,"Five dimethylcyclohexoxy radicals; CASSCF(9,7)/6-31+G(d) with only three active orbitals specified and the rest chosen automatically by the program. Five rows. Marked partial because Table 2's column ordering is not resolvable from the extracted text, so the per-isomer B-X transition energies were not transcribed."
