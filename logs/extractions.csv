@@ -47203,3 +47203,7 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T03:31:19Z,W2054624160-c,10.1021/jp103854y,add-row,appended,row added via add-row
 2026-08-18T03:31:19Z,W2054624160-d,10.1021/jp103854y,add-row,appended,row added via add-row
 2026-08-18T03:31:19Z,W2054624160,10.1021/jp103854y,mark,extracted,"Alkyl peroxynitrate UV spectra; three active spaces AS1(10,6)/AS2(10,7)/AS3(12,7) compared on MPN, with the LARGEST rejected for failing to give balanced wavefunctions. Four rows."
+2026-08-18T03:34:59Z,W2054721324-a,10.1021/ja992069g,add-row,appended,row added via add-row
+2026-08-18T03:35:11Z,W2054721324,10.1021/ja992069g,mark,extracted,"Mn(H)(CO)3(H-DAB) photodissociation; excitation-defined 8e10a CASSCF averaged over five roots per symmetry block with MR-CCI. CASPT2 succeeded for only two states, failing elsewhere from configuration mixing or intruder states. One row."
+2026-08-18T03:36:13Z,W2055140362-a,10.1021/jp9537318,add-row,appended,row added via add-row
+2026-08-18T03:36:13Z,W2055140362,10.1021/jp9537318,mark,extracted,Oligosilane IR/UV spectra; 6-in-8 CASSCF/6-31G* scan of the SiSiSiSi dihedral in MOLCAS-2. Only n-Si4H10 receives the CASSCF treatment; Si3H8 and i-Si4H10 are HF/MP2 vibrational work only. One row.
