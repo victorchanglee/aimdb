@@ -47207,3 +47207,10 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T03:35:11Z,W2054721324,10.1021/ja992069g,mark,extracted,"Mn(H)(CO)3(H-DAB) photodissociation; excitation-defined 8e10a CASSCF averaged over five roots per symmetry block with MR-CCI. CASPT2 succeeded for only two states, failing elsewhere from configuration mixing or intruder states. One row."
 2026-08-18T03:36:13Z,W2055140362-a,10.1021/jp9537318,add-row,appended,row added via add-row
 2026-08-18T03:36:13Z,W2055140362,10.1021/jp9537318,mark,extracted,Oligosilane IR/UV spectra; 6-in-8 CASSCF/6-31G* scan of the SiSiSiSi dihedral in MOLCAS-2. Only n-Si4H10 receives the CASSCF treatment; Si3H8 and i-Si4H10 are HF/MP2 vibrational work only. One row.
+2026-08-18T03:39:17Z,W2055440634-a,10.1021/jo9610319,add-row,appended,row added via add-row
+2026-08-18T03:39:17Z,W2055440634-b,10.1021/jo9610319,add-row,appended,row added via add-row
+2026-08-18T03:39:17Z,W2055440634,10.1021/jo9610319,mark,extracted,"Aminium radical dications bridged by m-phenylene vs m-triazinediyl; pi-CAS(8,8) with orbitals enumerated, CASPT2. The 1A1 state falls 16.7 kcal/mol on correlation in the phenylene system but only 0.3 in the triazine one, tracking ionic character. Two rows."
+2026-08-18T03:40:31Z,W2055793508-a,10.1021/jp0019254,add-row,appended,row added via add-row
+2026-08-18T03:40:31Z,W2055793508-b,10.1021/jp0019254,add-row,appended,row added via add-row
+2026-08-18T03:40:31Z,W2055793508-c,10.1021/jp0019254,add-row,appended,row added via add-row
+2026-08-18T03:40:31Z,W2055793508,10.1021/jp0019254,mark,extracted,"Retinal Schiff base models in bacteriorhodopsin; state-averaged CASSCF(6,6) MRCI references with reference configurations selected across the whole surface, CASSCF(8,8)/(10,10) for excited-state geometries. A CASSCF S0/S1 crossing is LOST after MRCI. Three rows."
