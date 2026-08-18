@@ -47948,3 +47948,14 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T10:09:09Z,W2282707813-b,10.1021/acs.jctc.6b00008,add-row,appended,row added via add-row
 2026-08-18T10:09:09Z,W2282707813-c,10.1021/acs.jctc.6b00008,add-row,appended,row added via add-row
 2026-08-18T10:09:09Z,W2282707813,10.1021/acs.jctc.6b00008,mark,extracted_partial,"Li2, Na2 and SiAu potential energy curves, CASSCF/CASPT2 vs FS-MR-CC, relativistic IOTC. Li2 has two spaces (1s2s2p vs +3s3p, both 6 electrons) with the larger one existing to admit the Rydberg orbitals whose absence causes intruder states. Na2's electron count and SiAu's whole space are unstated, hence partial. The relativistic Hamiltonian is worth 1.53 -> 3.21 eV on the SiAu bond while its expansion order is worth nothing. 3 rows."
+2026-08-18T10:12:14Z,W2283173108-a,10.1021/acs.jpca.5b12219,add-row,appended,row added via add-row
+2026-08-18T10:12:14Z,W2283173108-b,10.1021/acs.jpca.5b12219,add-row,appended,row added via add-row
+2026-08-18T10:12:14Z,W2283173108-c,10.1021/acs.jpca.5b12219,add-row,appended,row added via add-row
+2026-08-18T10:12:14Z,W2283173108,10.1021/acs.jpca.5b12219,mark,extracted,"XCN2+ (X=Cl,Br,I) double-ionization spectra, Molpro SA-CASSCF(14,12)/MRCI+Q with Breit-Pauli SOC. One space held identical across all three halogens and both charge states, which is what makes the ionization-energy and spin-orbit trends readable as chemistry. Note the relativistic treatment is in the pseudopotentials (10/28/46 core electrons), so the identical (14,12) label covers rather different fractions of each atom. 3 rows."
+2026-08-18T10:13:47Z,W2287792474-a,10.1021/acs.joc.5b02223,add-row,appended,row added via add-row
+2026-08-18T10:13:47Z,W2287792474-b,10.1021/acs.joc.5b02223,add-row,appended,row added via add-row
+2026-08-18T10:13:47Z,W2287792474-c,10.1021/acs.joc.5b02223,add-row,appended,row added via add-row
+2026-08-18T10:13:47Z,W2287792474-d,10.1021/acs.joc.5b02223,add-row,appended,row added via add-row
+2026-08-18T10:13:47Z,W2287792474-e,10.1021/acs.joc.5b02223,add-row,appended,row added via add-row
+2026-08-18T10:13:47Z,W2287792474-f,10.1021/acs.joc.5b02223,add-row,appended,row added via add-row
+2026-08-18T10:13:48Z,W2287792474,10.1021/acs.joc.5b02223,mark,extracted,"Six electrocyclic rearrangements, CASSCF(12,10)/6-31G* geometries with CASPT2 single points. The space keeps its size but changes composition along the coordinate, trading a pi bond for the new sigma bond while retaining both heteroatom lone pairs -- necessary because the orbital disconnection that defines pseudopericyclic character cannot be represented without them. CASPT2 corrections of 7-13 kcal/mol turn two barriers negative, and the authors state the CASSCF error exceeds the correction in those cases. 6 rows."
