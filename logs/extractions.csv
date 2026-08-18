@@ -48381,3 +48381,10 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T14:37:32Z,W2330823517-a,10.1021/jp310446c,add-row,appended,row added via add-row
 2026-08-18T14:37:32Z,W2330823517-b,10.1021/jp310446c,add-row,appended,row added via add-row
 2026-08-18T14:37:32Z,W2330823517,10.1021/jp310446c,mark,extracted_partial,"Cob(I)alamin excited states from absorption, CD and MCD; CASSCF(10,11) with MC-XQDPT2 for twenty states. Two rows for the full and simplified structural models. Partial because the basis set for the multiconfigurational calculations is not stated in the main text. Notable for enumerating four independent reasons the treatment may be inaccurate for higher states rather than blaming the space alone."
+2026-08-18T14:44:32Z,W2331886866-a,10.1021/jp972998z,add-row,appended,row added via add-row
+2026-08-18T14:44:32Z,W2331886866-b,10.1021/jp972998z,add-row,appended,row added via add-row
+2026-08-18T14:44:32Z,W2331886866-c,10.1021/jp972998z,add-row,appended,row added via add-row
+2026-08-18T14:44:32Z,W2331886866-d,10.1021/jp972998z,add-row,appended,row added via add-row
+2026-08-18T14:44:32Z,W2331886866,10.1021/jp972998z,mark,extracted,"Electronic structure of NLi2 and PLi2 plus the NLi and PLi diatomics; CASSCF(7,7) with MRCI and Davidson correction in COLUMBUS. Four rows. The space is defined by which atomic shells participate rather than by orbital count, and the paper documents how CSF counts vary from 112 to 404 with state symmetry in the same orbital space."
+2026-08-18T14:46:33Z,W2331908576-a,10.1021/jp5019923,add-row,appended,row added via add-row
+2026-08-18T14:46:33Z,W2331908576,10.1021/jp5019923,mark,extracted,"Photodecarbonylation of cyclopropenone with AIMS dynamics; SA4-CAS(10,9) supplying gradients and nonadiabatic couplings, MS-CASPT2 single points, MOLPRO 2012. One row. Both C-C sigma systems are in the space simultaneously, which is what makes the sequential-versus-concerted distinction computable; the space must also supply derivative quantities over every geometry the trajectories visit."
