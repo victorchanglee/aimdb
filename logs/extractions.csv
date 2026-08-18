@@ -47386,3 +47386,20 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T05:03:28Z,W2069537676,10.1021/ja066994w,mark,extracted,"Phenol blue ultrafast photochemistry; minimal SA2-CASSCF(2,2) on the aniline HOMO and quinoneimine LUMO used for everything including surface-hopping dynamics, with the bare excitation energy over 1 eV too high and MS-CASPT2 on the same two orbitals essentially exact. One row."
 2026-08-18T05:04:24Z,W2069584954-a,10.1021/ja9712128,add-row,appended,row added via add-row
 2026-08-18T05:04:32Z,W2069584954,10.1021/ja9712128,mark,extracted,"Free MnF3 Jahn-Teller structure; two-stage CASSCF with orbitals chosen from MCPF natural orbital populations, where enlarging (6,8) to (8,10) plus CASPT2 collapses the 5A1-5B2 gap from 25.7 to 6.4 kJ/mol without changing the ordering, and the >99% single-configuration weight then licenses SCF/DFT for the frequencies. One row."
+2026-08-18T05:07:50Z,W2069625163-a,10.1021/jp055961k,add-row,appended,row added via add-row
+2026-08-18T05:08:00Z,W2069625163,10.1021/jp055961k,mark,extracted,"O(3P) + C2H2 triplet surfaces; CASSCF(8,8) used purely as a multireference diagnostic, reoptimizing every stationary point including transition structures with analytical Hessians and confirming leading CI coefficients >0.9, which licenses the single-reference composite energetics. One row."
+2026-08-18T05:09:28Z,W2069902075-a,10.1021/jp071975+,add-row,appended,row added via add-row
+2026-08-18T05:09:28Z,W2069902075-b,10.1021/jp071975+,add-row,appended,row added via add-row
+2026-08-18T05:09:28Z,W2069902075-c,10.1021/jp071975+,add-row,appended,row added via add-row
+2026-08-18T05:09:28Z,W2069902075,10.1021/jp071975+,mark,extracted,"Methylbenzonitrile and methylanisole photochemistry; three active spaces by job — CAS(10,8) for S0/S1 geometries, reduced CAS(8,7) for ground-state stationary points, CAS(10,10) for all CASPT2 energies — with the S2 charge-transfer/double-excitation state badly placed by every method and one decisive barrier resting on a CIS geometry after CASSCF convergence failure. Three rows."
+2026-08-18T05:10:49Z,W2069938055-a,10.1021/jp972102q,add-row,appended,row added via add-row
+2026-08-18T05:10:49Z,W2069938055-b,10.1021/jp972102q,add-row,appended,row added via add-row
+2026-08-18T05:10:49Z,W2069938055-c,10.1021/jp972102q,add-row,appended,row added via add-row
+2026-08-18T05:10:49Z,W2069938055-d,10.1021/jp972102q,add-row,appended,row added via add-row
+2026-08-18T05:10:56Z,W2069938055,10.1021/jp972102q,mark,extracted,"Acetone + nH2O n-pi* transition; minimal state-averaged CAS(2,6) on the acetone carbonyl held fixed across all complexes so the 0.25-0.40 eV blue shift is a pure environment effect, with CIS failing by 0.8 eV independent of basis set. Four rows."
+2026-08-18T05:12:32Z,W2070018687-a,10.1021/jp101800z,add-row,appended,row added via add-row
+2026-08-18T05:12:33Z,W2070018687-b,10.1021/jp101800z,add-row,appended,row added via add-row
+2026-08-18T05:12:33Z,W2070018687-c,10.1021/jp101800z,add-row,appended,row added via add-row
+2026-08-18T05:12:33Z,W2070018687-d,10.1021/jp101800z,add-row,appended,row added via add-row
+2026-08-18T05:12:33Z,W2070018687-e,10.1021/jp101800z,add-row,appended,row added via add-row
+2026-08-18T05:12:33Z,W2070018687,10.1021/jp101800z,mark,extracted,"Si(100) surface clusters; a dedicated study of ORMAS active-space PARTITIONING against full CASSCF, justified by cluster-size-invariant pi/pi* NOONs, cutting a 165-million-determinant CASSCF(16,16) by 2-3 orders of magnitude for ~2 mhartree error while GVB-PP errs by 21 mhartree. Five rows by cluster size."
