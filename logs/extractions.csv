@@ -48363,3 +48363,13 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T14:16:34Z,W2329941263-a,10.1021/jo401856r,add-row,appended,row added via add-row
 2026-08-18T14:16:34Z,W2329941263-b,10.1021/jo401856r,add-row,appended,row added via add-row
 2026-08-18T14:17:05Z,W2329941263,10.1021/jo401856r,mark,extracted,"Ring-opening of dimethylidenebicyclohexene derivatives to aromatic intermediates; CASSCF(8,8) with a (10,9) variant, 6-31G(d), spin-orbit couplings at the same level. Two rows for the two asymmetric derivatives treated multiconfigurationally. The space composition transforms continuously as the bond breaks, and the enlargement exists to make an alternative triplet symmetry representable rather than to converge an energy."
+2026-08-18T14:22:50Z,W2330378444-a,10.1021/jp2107654,add-row,appended,row added via add-row
+2026-08-18T14:22:50Z,W2330378444-b,10.1021/jp2107654,add-row,appended,row added via add-row
+2026-08-18T14:22:50Z,W2330378444-c,10.1021/jp2107654,add-row,appended,row added via add-row
+2026-08-18T14:22:50Z,W2330378444-d,10.1021/jp2107654,add-row,appended,row added via add-row
+2026-08-18T14:22:51Z,W2330378444-e,10.1021/jp2107654,add-row,appended,row added via add-row
+2026-08-18T14:22:51Z,W2330378444-f,10.1021/jp2107654,add-row,appended,row added via add-row
+2026-08-18T14:22:51Z,W2330378444-g,10.1021/jp2107654,add-row,appended,row added via add-row
+2026-08-18T14:22:51Z,W2330378444-h,10.1021/jp2107654,add-row,appended,row added via add-row
+2026-08-18T14:22:51Z,W2330378444-i,10.1021/jp2107654,add-row,appended,row added via add-row
+2026-08-18T14:22:51Z,W2330378444,10.1021/jp2107654,mark,extracted_partial,"Multi-zinc-expanded oligoacenes as open-shell singlet diradicals; CASSCF(10,10) with a mixed 6-31G(d)/SDD basis for LUMO occupation numbers. Nine rows across the two series. Partial because the active space composition and the CASSCF details are in the Supporting Information only. Verified two ways: against CCSD(T) occupations and by repeating on restricted-functional geometries."
