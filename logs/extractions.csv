@@ -47713,3 +47713,13 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T07:59:55Z,W2092756259-m,10.1021/jp9845975,add-row,appended,row added via add-row
 2026-08-18T07:59:55Z,W2092756259-n,10.1021/jp9845975,add-row,appended,row added via add-row
 2026-08-18T08:00:15Z,W2092756259,10.1021/jp9845975,mark,extracted,"Triplet ground states of 2,5-dimethylene five-member heterocycles; a fixed all-pi (8,7) space across 14 heteroatom variants, with MCQDPT2 converting three additional singlets to triplets and shifts ranging 3.3 to 13.6 kcal/mol. Fourteen rows."
+2026-08-18T08:03:40Z,W2092821942-a,10.1021/jp972864l,add-row,appended,row added via add-row
+2026-08-18T08:03:41Z,W2092821942-b,10.1021/jp972864l,add-row,appended,row added via add-row
+2026-08-18T08:03:41Z,W2092821942-c,10.1021/jp972864l,add-row,appended,row added via add-row
+2026-08-18T08:03:41Z,W2092821942-d,10.1021/jp972864l,add-row,appended,row added via add-row
+2026-08-18T08:03:41Z,W2092821942-e,10.1021/jp972864l,add-row,appended,row added via add-row
+2026-08-18T08:03:50Z,W2092821942,10.1021/jp972864l,mark,extracted,"Small boron-lithium clusters; per-species CASSCF spaces (4,8)/(5,5)/(6,6)/(2,8) with MCQDPT2, where a shallow D3h BLi3 minimum at CASSCF(6,6) vanishes once dynamic correlation is added via a 40-point grid scan. Five rows."
+2026-08-18T08:04:58Z,W2093149258-a,10.1021/jp711022n,add-row,appended,row added via add-row
+2026-08-18T08:04:58Z,W2093149258-b,10.1021/jp711022n,add-row,appended,row added via add-row
+2026-08-18T08:04:59Z,W2093149258-c,10.1021/jp711022n,add-row,appended,row added via add-row
+2026-08-18T08:04:59Z,W2093149258,10.1021/jp711022n,mark,extracted,"Photoisomerizations of spiro[2,4]hept-1-ene, vinylidenecyclopentane and vinylidenecyclobutane; fixed CAS(6,6) with contents swapping C-C for C-H sigma pairs by reaction type, and MP2-CAS shifting conical intersections by up to 44 kcal/mol. Three rows."
