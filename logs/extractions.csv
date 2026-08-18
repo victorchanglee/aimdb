@@ -48273,3 +48273,10 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T12:49:14Z,W2324837424-b,10.1021/jp071092i,add-row,appended,row added via add-row
 2026-08-18T12:49:14Z,W2324837424-c,10.1021/jp071092i,add-row,appended,row added via add-row
 2026-08-18T12:49:15Z,W2324837424,10.1021/jp071092i,mark,extracted,"S1-S0 internal conversion of 6-cyanoazulene; (10,10)CASSCF with MRMP2 in GAMESS, intersection optimized in (8,8) and verified in (10,10). Three rows. The (10,10) is pruned from the desirable (14,14) using occupation numbers from an SDT-CI, with the criterion checked at all sampled conformations rather than only at equilibrium."
+2026-08-18T12:52:40Z,W2324920391-a,10.1021/jp505473j,add-row,appended,row added via add-row
+2026-08-18T12:52:40Z,W2324920391-b,10.1021/jp505473j,add-row,appended,row added via add-row
+2026-08-18T12:52:40Z,W2324920391,10.1021/jp505473j,mark,extracted,"Charge-transfer state formation in carbonyl carotenoids; SA8-CASSCF(12,12) with SS- and MS-CASPT2. Two rows for the target and its model. The same (12,12) is reached by removing 2+2 pi orbitals from one molecule and 4+4 from the other, and MS-CASPT2 reorders the manifold entirely, with reference state labels not surviving the mixing."
+2026-08-18T12:53:51Z,W2325095698-a,10.1021/ja211441n,add-row,appended,row added via add-row
+2026-08-18T12:53:52Z,W2325095698-b,10.1021/ja211441n,add-row,appended,row added via add-row
+2026-08-18T12:53:52Z,W2325095698-c,10.1021/ja211441n,add-row,appended,row added via add-row
+2026-08-18T12:54:09Z,W2325095698,10.1021/ja211441n,mark,extracted,"Stilbene light-driven rotary motor; SA4-CASSCF(10,10)/6-31G with CASPT2 in MOLPRO 2006.1. Three rows for the motor and its two parent compounds. Notable for stating the space-along-a-path check in the right form: individual orbital characters change significantly during rotation while the space as a whole is well conserved."
