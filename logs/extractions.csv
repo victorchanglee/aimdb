@@ -48332,3 +48332,8 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T13:37:31Z,W2327845191-c,10.1021/ct3007452,add-row,appended,row added via add-row
 2026-08-18T13:37:31Z,W2327845191-d,10.1021/ct3007452,add-row,appended,row added via add-row
 2026-08-18T13:37:32Z,W2327845191,10.1021/ct3007452,mark,extracted,"Spectral tuning of the anionic GFP-like chromophore in four fluorescent proteins; CASPT2//CAS(12,11) with ANO-S-VDZP in MOLCAS 7.6 within QM/MM. Four rows. One space held fixed across chemically identical chromophores so differences are attributable to environment; QM region size shown to matter by less than 0.005 eV."
+2026-08-18T13:42:22Z,W2327925628-a,10.1021/jz3011817,add-row,appended,row added via add-row
+2026-08-18T13:42:42Z,W2327925628,10.1021/jz3011817,mark,extracted,"Benchmark barrier height for H abstraction from phenol by a peroxy radical; MRMP2 on a nom-CPO+pi CASSCF(9,9) reference, MG3S geometries and aug-cc-pVTZ energies. One row. The space comes from a published systematic prescription with a known 1.4 kcal/mol error statistic, and geometries plus Hessians were computed at the correlated level because both CASSCF and DFT distort the surface near the saddle point."
+2026-08-18T13:43:48Z,W2328190211-a,10.1021/acs.jpca.5b01421,add-row,appended,row added via add-row
+2026-08-18T13:43:48Z,W2328190211-b,10.1021/acs.jpca.5b01421,add-row,appended,row added via add-row
+2026-08-18T13:43:48Z,W2328190211,10.1021/acs.jpca.5b01421,mark,extracted,"Luminescence mechanisms of ABN and DMABN in polar solvents; CASSCF(12,11)/6-31G(d) geometries with CASPT2 single points. Two rows. The space spans donor, ring and acceptor so the charge-transfer state is describable, and one space serves both molecules so the comparison is on a common footing."
