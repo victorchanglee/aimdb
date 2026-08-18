@@ -47187,3 +47187,9 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T03:17:41Z,W2053530945-a,10.1021/ct2004758,add-row,appended,row added via add-row
 2026-08-18T03:17:41Z,W2053530945-b,10.1021/ct2004758,add-row,appended,row added via add-row
 2026-08-18T03:17:42Z,W2053530945,10.1021/ct2004758,mark,extracted,"Coelenteramide/Cypridina oxyluciferin model; CAS(10-in-9) pi space plus CAS(12-in-10) adding the oxygen lone pair, which lengthens CO by 0.12 A and lowers the vertical emission by 0.87 eV. MOLCAS 7.6. Two rows."
+2026-08-18T03:20:48Z,W2053803777-a,10.1021/ol7023339,add-row,appended,row added via add-row
+2026-08-18T03:21:04Z,W2053803777,10.1021/ol7023339,mark,extracted,"[6]Cyclacene open-shell singlet; CASSCF(8,8)/6-31G* with MRMP2, GAMESS-US. Natural orbital occupations 1.98-0.01 with a 1.46/0.54 pair confirm open-shell singlet character. One row."
+2026-08-18T03:22:04Z,W2054018876-a,10.1021/jp907492r,add-row,appended,row added via add-row
+2026-08-18T03:22:04Z,W2054018876,10.1021/jp907492r,mark,extracted,"DCDPA photochemistry; (10,10)CASSCF selected by CIS across four structural regions to confirm the orbital set is geometry-invariant, reduced (4,4) for one conical intersection, MRMP2 corrections, GAMESS. One row."
+2026-08-18T03:23:05Z,W2054051340-a,10.1021/jp211518f,add-row,appended,row added via add-row
+2026-08-18T03:23:05Z,W2054051340,10.1021/jp211518f,mark,extracted,"Berson trimethylenemethane rearrangements; (4e,4o)CASSCF with MRMP2/MRCISD. CASSCF pyramidalization shown to be an artifact (reversed by MRMP2), and CASSCF TMM-vs-MCP comparison ruled unreliable because pi orbitals become sigma. One row."
