@@ -47018,3 +47018,18 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T01:41:47Z,W2043310935,10.1021/ct3010694,mark,extracted,"7-Azaindole-alcohol ESDPT; fixed CASSCF(10,9)/6-31G(d,p) with MRPT2, solvent-model comparison. Two rows (methanol and ethanol complexes)."
 2026-08-18T01:42:48Z,W2043389874-a,10.1021/jp203369b,add-row,appended,row added via add-row
 2026-08-18T01:42:48Z,W2043389874,10.1021/jp203369b,mark,extracted,"Lumisantonin photolysis; CASSCF(8,7)/6-31G* geometries, CASPT2/cc-pVDZ energies with 0.4 au imaginary shift, SOC from MOLCAS. One row."
+2026-08-18T01:44:09Z,W2043554728-a,10.1021/jp052837s,add-row,appended,row added via add-row
+2026-08-18T01:44:18Z,W2043554728,10.1021/jp052837s,mark,extracted,"Benzoic acid monomer photophysics; CAS(10,8)/cc-pVDZ across five states, Gaussian 03, RRKM. One row."
+2026-08-18T01:45:22Z,W2043582613-a,10.1021/ja010750o,add-row,appended,row added via add-row
+2026-08-18T01:45:22Z,W2043582613-b,10.1021/ja010750o,add-row,appended,row added via add-row
+2026-08-18T01:45:31Z,W2043582613,10.1021/ja010750o,mark,extracted,"3H-diazirine and diazomethane; chromophore-valence CASSCF(12,10)/cc-pVTZ with CASPT2, state-averaged orbitals at crossings, reduced (8,7)/6-31G* for trajectories. Two rows."
+2026-08-18T01:46:30Z,W2043665326-a,10.1021/jp067590t,add-row,appended,row added via add-row
+2026-08-18T01:46:30Z,W2043665326,10.1021/jp067590t,mark,extracted,"TOD photochemistry; CAS(8,8)/6-31G(d) pi + cyclobutane sigma space validated against a (12,12) test, CASPT2 in MOLCAS 6.0. One row."
+2026-08-18T01:47:23Z,W2044106590-a,10.1021/ja0263137,add-row,appended,row added via add-row
+2026-08-18T01:47:33Z,W2044106590,10.1021/ja0263137,mark,extracted,"DBH photochemical denitrogenation; CAS(12,10)/6-31G* bond-inventory space, CASPT2//CASSCF validated on methyl diazenyl. One row."
+2026-08-18T01:49:04Z,W2044181591-a,10.1021/ic9017745,add-row,appended,row added via add-row
+2026-08-18T01:49:05Z,W2044181591-b,10.1021/ic9017745,add-row,appended,row added via add-row
+2026-08-18T01:49:05Z,W2044181591-c,10.1021/ic9017745,add-row,appended,row added via add-row
+2026-08-18T01:49:05Z,W2044181591,10.1021/ic9017745,mark,extracted,"V(III) tristhiolato family; minimal CAS(2,5) d-only space with 10 triplet + 15 singlet roots, QDPT SOC, SSC by McWeeny-Mizuno, SORCI rescue for the 7-coordinate case. Three rows."
+2026-08-18T01:50:18Z,W2045028772-a,10.1021/jp021125o,add-row,appended,row added via add-row
+2026-08-18T01:50:18Z,W2045028772,10.1021/jp021125o,mark,extracted,"Diels-Alder BS vs SA comparison; CASSCF/UNO CASCI {6,6} with MRMP2 and CASMP2(CI), 6-31G*, GAMESS. One row for the parent system; substituted systems are BS-only with CAS sizes diagnosed from UNOs."
