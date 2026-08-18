@@ -47141,3 +47141,15 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T02:51:00Z,W2050306335-e,10.1021/ja9821652,add-row,appended,row added via add-row
 2026-08-18T02:51:00Z,W2050306335-f,10.1021/ja9821652,add-row,appended,row added via add-row
 2026-08-18T02:51:00Z,W2050306335,10.1021/ja9821652,mark,extracted,"Allene oxide / oxyallyl / cyclopropanone rearrangements; CASSCF(4,4) geometries with CASPT2N on an occupation-window-selected CASSCF(10,11) reference. Paper concludes DFT is more reliable than CASSCF(4,4). Six rows."
+2026-08-18T02:54:40Z,W2050462119-a,10.1021/ja983032j,add-row,appended,row added via add-row
+2026-08-18T02:54:40Z,W2050462119-b,10.1021/ja983032j,add-row,appended,row added via add-row
+2026-08-18T02:54:40Z,W2050462119-c,10.1021/ja983032j,add-row,appended,row added via add-row
+2026-08-18T02:54:41Z,W2050462119-d,10.1021/ja983032j,add-row,appended,row added via add-row
+2026-08-18T02:54:41Z,W2050462119-e,10.1021/ja983032j,add-row,appended,row added via add-row
+2026-08-18T02:54:41Z,W2050462119-f,10.1021/ja983032j,add-row,appended,row added via add-row
+2026-08-18T02:54:41Z,W2050462119,10.1021/ja983032j,mark,extracted,"Cope rearrangement of 1,2,6-heptatriene; constant-composition (8/8)CASSCF/6-31G* across all five stationary points with CASPT2 single points and B3LYP comparison. Six rows."
+2026-08-18T02:56:20Z,W2050511987-a,10.1021/jp011260l,add-row,appended,row added via add-row
+2026-08-18T02:56:20Z,W2050511987-b,10.1021/jp011260l,add-row,appended,row added via add-row
+2026-08-18T02:56:20Z,W2050511987-c,10.1021/jp011260l,add-row,appended,row added via add-row
+2026-08-18T02:56:20Z,W2050511987-d,10.1021/jp011260l,add-row,appended,row added via add-row
+2026-08-18T02:56:21Z,W2050511987,10.1021/jp011260l,mark,extracted,"Phenol and its water/ammonia clusters; CASSCF(6,6) geometries with sigma* substituted for the highest pi* in the 1(pi-sigma*) state, enlarged (8,8)+solvent-pi CASPT2, floating-center diffuse functions, Cs imposed. Four rows; cluster CASPT2 space sizes not given as totals so those nel/norb are blank."
