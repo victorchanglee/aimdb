@@ -46934,3 +46934,9 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T00:54:00Z,W2038014804-a,10.1021/jo0104680,add-row,appended,row added via add-row
 2026-08-18T00:54:00Z,W2038014804-b,10.1021/jo0104680,add-row,appended,row added via add-row
 2026-08-18T00:54:11Z,W2038014804,10.1021/jo0104680,mark,extracted,"4-Aminophenyl cation from 4-chloroaniline photolysis; CASSCF(8,8)/6-31G(d) used diagnostically to test single-determinant validity, which holds for the 3B2 triplet but fails for the 1A' singlet. Two rows."
+2026-08-18T00:57:46Z,W2032918704-a,10.1021/jp807183m,add-row,appended,row added via add-row
+2026-08-18T00:57:46Z,W2032918704-b,10.1021/jp807183m,add-row,appended,row added via add-row
+2026-08-18T00:57:46Z,W2032918704-c,10.1021/jp807183m,add-row,appended,row added via add-row
+2026-08-18T00:57:46Z,W2032918704-d,10.1021/jp807183m,add-row,appended,row added via add-row
+2026-08-18T00:57:46Z,W2032918704-e,10.1021/jp807183m,add-row,appended,row added via add-row
+2026-08-18T00:57:46Z,W2032918704,10.1021/jp807183m,mark,extracted_partial,"CAS-BCCC4 benchmark; five rows for the systems with explicitly stated active spaces (cyclopropyl (3,3), cyclobutene (4,4), cyclobutadiene pi(4,4), TMM (2,2)/(4,4), oxyallyl (2,2)/(4,4)). Marked partial because the bicyclo[3.1.0]hex-2-ene automerization and the C2/N2/O2/CO spectroscopic-constant calculations do not have their active spaces stated in the extracted text and were not transcribed."
