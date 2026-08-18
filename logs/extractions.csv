@@ -47359,3 +47359,17 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T04:49:16Z,W2067154802,10.1021/jp001973o,mark,extracted,"Anti n-tetrasilane valence and Rydberg states; six active electrons fixed by the Sandorfy C truncation with symmetry-dependent orbital sets, where average CASSCF mixes valence and Rydberg states, single-state CASPT2 fails to separate them and only MS-CASPT2 does. One row."
 2026-08-18T04:50:10Z,W2065107782-a,10.1021/jp076716z,add-row,appended,row added via add-row
 2026-08-18T04:50:10Z,W2065107782,10.1021/jp076716z,mark,extracted,"O(3P) + ethylene trajectory surface hopping; the paper's own multireference work is a twelve-state state-averaged CASSCF(8,8)/aug-cc-pVDZ used to compute Breit-Pauli spin-orbit couplings at crossing geometries (average 35 cm-1). One row. The CASSCF(8,8)+MR-CISD+Q and CASPT2 energetics quoted are from ref 16, not this work, and are flagged as such."
+2026-08-18T04:53:19Z,W2067260155-a,10.1021/jp107873w,add-row,appended,row added via add-row
+2026-08-18T04:53:20Z,W2067260155-b,10.1021/jp107873w,add-row,appended,row added via add-row
+2026-08-18T04:53:20Z,W2067260155,10.1021/jp107873w,mark,extracted,"(6-4) and Dewar DNA photolesions; CAS(10,8) covering six pi plus two sigma MOs of the pyrimidone ring ONLY, with the second pyrimidine ring outside the space, and the larger M-2 model dropped to B3LYP because the space could not be afforded. Two rows."
+2026-08-18T04:54:38Z,W2067417921-a,10.1021/ja506934k,add-row,appended,row added via add-row
+2026-08-18T04:54:48Z,W2067417921,10.1021/ja506934k,mark,extracted,"Delta-9 desaturase diiron active site; DMRG-CASSCF/DMRG-CASPT2 with rule-based active spaces from (26e,20o) to (35e,26o), well beyond the ~(15e,15o) conventional ceiling, plus Pipek-Mezey localization and fragment ordering, and a demonstrated qualitative DFT failure (hydroxylation trap). One row for the active site covering all nine pathways."
+2026-08-18T04:56:22Z,W2067872400-a,10.1021/ja9031677,add-row,appended,row added via add-row
+2026-08-18T04:56:22Z,W2067872400-b,10.1021/ja9031677,add-row,appended,row added via add-row
+2026-08-18T04:56:22Z,W2067872400-c,10.1021/ja9031677,add-row,appended,row added via add-row
+2026-08-18T04:56:22Z,W2067872400-d,10.1021/ja9031677,add-row,appended,row added via add-row
+2026-08-18T04:56:22Z,W2067872400-e,10.1021/ja9031677,add-row,appended,row added via add-row
+2026-08-18T04:56:31Z,W2067872400,10.1021/ja9031677,mark,extracted,"Spin-crossover Fe(II) hysteresis; CAS[10,12] of 5 Fe 3d + 5 3d' double shell + 2 ligand eg-like orbitals on experimental X-ray geometries, with relocalization to atomic-like orbitals to extract the LS/HS charge redistribution that drives the Madelung polarization term. Five rows."
+2026-08-18T04:57:51Z,W2067899217-a,10.1021/jp980501v,add-row,appended,row added via add-row
+2026-08-18T04:57:51Z,W2067899217-b,10.1021/jp980501v,add-row,appended,row added via add-row
+2026-08-18T04:57:59Z,W2067899217,10.1021/jp980501v,mark,extracted,"Dioxirane low-lying states and ring opening to dioxymethane; minimal CASSCF(6,4) naming the O-O sigma, two oxygen pi combinations and O-O sigma*, used only for the TS1 geometry and frequencies while all energies come from MRD-CI+Q, with a qualitative disagreement against earlier CASPT2 on the 1A1/2A1 crossing. Two rows."
