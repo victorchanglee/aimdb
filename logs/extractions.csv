@@ -48395,3 +48395,27 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T15:11:24Z,W2332227137-a,10.1021/jp105267q,add-row,appended,row added via add-row
 2026-08-18T15:11:24Z,W2332227137-b,10.1021/jp105267q,add-row,appended,row added via add-row
 2026-08-18T15:11:24Z,W2332227137,10.1021/jp105267q,mark,extracted,"Spectral properties of 5- and 6-aminouracil; CASSCF(16,11) geometries with CASPT2 single points in a reduced (14,10) space, Gaussian 03 and MOLCAS 7.0. Two rows. The reduction is justified four ways including avoiding orbital switching during optimization, and the paper states a state-dependent reliability -- correlation matters greatly for pi-pi* and almost not at all for n-pi*."
+2026-08-18T16:19:37Z,W2331647963-a,10.1021/ct5003362,add-row,appended,row added via add-row
+2026-08-18T16:19:37Z,W2331647963-b,10.1021/ct5003362,add-row,appended,row added via add-row
+2026-08-18T16:19:38Z,W2331647963-c,10.1021/ct5003362,add-row,appended,row added via add-row
+2026-08-18T16:19:38Z,W2331647963,10.1021/ct5003362,mark,extracted,"UVR8 photoreceptor sensing UV-B by tryptophan; SA3-CASSCF/MS-CASPT2(10e,9o) with ANO-RCC bases in MOLCAS 7, ONIOM for the protein. Three rows. Twenty density functionals were tested and all failed to order the two lowest pi-pi* states correctly, which is the argument for the multiconfigurational treatment; an independent SAC-CI calculation agrees on the ordering."
+2026-08-18T16:27:09Z,W2332540986-a,10.1021/jp200650q,add-row,appended,row added via add-row
+2026-08-18T16:27:09Z,W2332540986-b,10.1021/jp200650q,add-row,appended,row added via add-row
+2026-08-18T16:27:09Z,W2332540986-c,10.1021/jp200650q,add-row,appended,row added via add-row
+2026-08-18T16:27:10Z,W2332540986-d,10.1021/jp200650q,add-row,appended,row added via add-row
+2026-08-18T16:27:10Z,W2332540986-e,10.1021/jp200650q,add-row,appended,row added via add-row
+2026-08-18T16:27:18Z,W2332540986,10.1021/jp200650q,mark,extracted,"Photoinduced olefin epoxidation by Ru porphyrin. CASSCF/MOLCAS 6.0 used as a multireference diagnostic on five species: same 14 orbitals (Ru 4d + 5d double shell + Gouterman four) with the electron count following the charge, plus one extra b2 orbital for the Ru-O antibonding interaction in the oxo anion. Five rows. Leading CSF weight >85% everywhere licenses DFT, and it assigns Ru +II in all five, contradicting the experimental +I/+III proposal."
+2026-08-18T16:30:51Z,W2332725797-a,10.1021/jp507554v,add-row,appended,row added via add-row
+2026-08-18T16:30:51Z,W2332725797-b,10.1021/jp507554v,add-row,appended,row added via add-row
+2026-08-18T16:30:51Z,W2332725797-c,10.1021/jp507554v,add-row,appended,row added via add-row
+2026-08-18T16:30:51Z,W2332725797,10.1021/jp507554v,mark,extracted_partial,"GVVPT2 on LDA Kohn-Sham orbitals instead of CASSCF orbitals, UNDMOL. Three rows: H2O symmetric stretch (8e,5o, cc-pVDZ), N2 dissociation (10e,8o, aug-cc-pVTZ), C2 three singlet states (DZP). Partial because the C2 model space is never given as electron and orbital counts. The space is held fixed and only the orbital source changes, isolating orbital optimization as the variable."
+2026-08-18T16:32:53Z,W2332751993-a,10.1021/jp200945a,add-row,appended,row added via add-row
+2026-08-18T16:32:54Z,W2332751993-b,10.1021/jp200945a,add-row,appended,row added via add-row
+2026-08-18T16:32:54Z,W2332751993,10.1021/jp200945a,mark,extracted,"MeCbl:Hcy reactant complex in methionine synthase. Two models: truncated corrin CASSCF(12,13)/MS-CASPT2/ANO-L in MOLCAS 7.4 under Cs, and full corrin CASSCF(12,11)/MC-XQDPT2/6-31G(d) in PC GAMESS/Firefly. Two rows. Space chosen by RASSCF pre-screening; composition repartitions by symmetry block depending on the sulfur p orbital orientation; CASSCF and the perturbative correction disagree on state ordering, which is why many roots were carried."
+2026-08-18T16:36:29Z,W2332811776-a,10.1021/ct200549z,add-row,appended,row added via add-row
+2026-08-18T16:36:29Z,W2332811776-b,10.1021/ct200549z,add-row,appended,row added via add-row
+2026-08-18T16:36:30Z,W2332811776-c,10.1021/ct200549z,add-row,appended,row added via add-row
+2026-08-18T16:36:30Z,W2332811776,10.1021/ct200549z,mark,extracted_partial,"Nonadiabatic ONIOM(CASSCF(12,12)/6-31G:AMBER) dynamics of the retinal protonated Schiff base in bacteriorhodopsin, in methanol, and bare. Three rows. Partial because the quantum chemistry program is not named in this Letter. The space is all pi bonds; the reported sensitivity is that electronic embedding misorders the covalent and ionic excited states, worked around by switching embedding mid-trajectory with a stated control test."
+2026-08-18T16:38:10Z,W2332833233-a,10.1021/ct200295r,add-row,appended,row added via add-row
+2026-08-18T16:38:10Z,W2332833233-b,10.1021/ct200295r,add-row,appended,row added via add-row
+2026-08-18T16:38:10Z,W2332833233,10.1021/ct200295r,mark,extracted,"Solvent effects on radiative and nonradiative decay of a five-double-bond retinal PSB model. SA3-CASSCF(10,10)/6-31G(d) with CASPT2 single points (no IPEA, 0.1i imaginary shift) in MOLCAS 6.4, solvent by ASEP/MD. Two rows, vacuum and methanol. The number of states that must be averaged is set by the solvent, not the molecule, and the ionic/covalent ordering reverses at fixed geometry depending on which state the solvent is equilibrated to."
