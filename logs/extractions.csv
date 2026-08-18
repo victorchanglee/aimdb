@@ -47348,3 +47348,14 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T04:45:38Z,W2064882883-a,10.1021/ja065963y,add-row,appended,row added via add-row
 2026-08-18T04:45:39Z,W2064882883-b,10.1021/ja065963y,add-row,appended,row added via add-row
 2026-08-18T04:45:39Z,W2064882883,10.1021/ja065963y,mark,extracted,"Tetrafluoromethylenecyclopropane rearrangement; fixed-size (4,4) space with content redefined from sigma/pi to the mixed ring-opened MOs, where CASPT2 removes a 4.5 kcal/mol CASSCF barrier entirely and nearly doubles the reaction exothermicity. Two rows, including the bond-stretch isomer 20."
+2026-08-18T04:47:24Z,W2065562050-a,10.1021/jp052944m,add-row,appended,row added via add-row
+2026-08-18T04:47:25Z,W2065562050-b,10.1021/jp052944m,add-row,appended,row added via add-row
+2026-08-18T04:47:25Z,W2065562050-c,10.1021/jp052944m,add-row,appended,row added via add-row
+2026-08-18T04:47:25Z,W2065562050-d,10.1021/jp052944m,add-row,appended,row added via add-row
+2026-08-18T04:47:25Z,W2065562050,10.1021/jp052944m,mark,extracted_partial,"Pt insertion into C-H and C-F bonds of CH4-nFn; fixed-dimension (16,10) space whose ligand orbitals switch with the bond being activated, plus a full valence (24,13) for CH3F only. Four rows. The numeric bodies of Tables 2 and 4 (MRMP2 insertion energies) did not survive text extraction, so those rows carry the Table 1, 3 and 5 values and the barriers quoted in the running text."
+2026-08-18T04:48:13Z,W2066267327-a,10.1021/jp803365u,add-row,appended,row added via add-row
+2026-08-18T04:48:13Z,W2066267327,10.1021/jp803365u,mark,extracted,"2-Norcarene photoisomerization; two different (8,8) compositions selected by reaction type (C-C sigma set versus C-H sigma set for hydrogen migration), state-averaged CASSCF for intersection geometries, MP2-CAS energies. One row."
+2026-08-18T04:49:07Z,W2067154802-a,10.1021/jp001973o,add-row,appended,row added via add-row
+2026-08-18T04:49:16Z,W2067154802,10.1021/jp001973o,mark,extracted,"Anti n-tetrasilane valence and Rydberg states; six active electrons fixed by the Sandorfy C truncation with symmetry-dependent orbital sets, where average CASSCF mixes valence and Rydberg states, single-state CASPT2 fails to separate them and only MS-CASPT2 does. One row."
+2026-08-18T04:50:10Z,W2065107782-a,10.1021/jp076716z,add-row,appended,row added via add-row
+2026-08-18T04:50:10Z,W2065107782,10.1021/jp076716z,mark,extracted,"O(3P) + ethylene trajectory surface hopping; the paper's own multireference work is a twelve-state state-averaged CASSCF(8,8)/aug-cc-pVDZ used to compute Breit-Pauli spin-orbit couplings at crossing geometries (average 35 cm-1). One row. The CASSCF(8,8)+MR-CISD+Q and CASPT2 energetics quoted are from ref 16, not this work, and are flagged as such."
