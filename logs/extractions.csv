@@ -47057,3 +47057,20 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T02:02:05Z,W2046246123-c,10.1021/jp070817f,add-row,appended,row added via add-row
 2026-08-18T02:02:05Z,W2046246123-d,10.1021/jp070817f,add-row,appended,row added via add-row
 2026-08-18T02:02:06Z,W2046246123,10.1021/jp070817f,mark,extracted,"DAFH analysis of H2, Li2, Li4, F2; full-CI (2,12) for H2 as validation plus full-valence CASSCF (2,8), (4,16), (14,8), MOLPRO. Four rows."
+2026-08-18T02:05:56Z,W2046251810-a,10.1021/jo902593s,add-row,appended,row added via add-row
+2026-08-18T02:05:56Z,W2046251810,10.1021/jo902593s,mark,extracted,"APAA photodecarboxylation; CAS(10,9)/6-31G* validated against acetophenone band origins, reduced to (10,8) for the 1,4-biradical, Slater-determinant state averaging for S-T crossings. One row."
+2026-08-18T02:06:53Z,W2046311282-a,10.1021/ja9628260,add-row,appended,row added via add-row
+2026-08-18T02:07:04Z,W2046311282,10.1021/ja9628260,mark,extracted,"Cyclopropene + butadiene endo/exo selectivity; six-pi-electron CAS(6,6) with D95/D95V* and QCISD(T) single points, Sirius/Abacus/GAMESS. One row."
+2026-08-18T02:07:53Z,W2046331553-a,10.1021/jp105206q,add-row,appended,row added via add-row
+2026-08-18T02:07:53Z,W2046331553,10.1021/jp105206q,mark,extracted,"SO2 ion-pair dissociation; deliberately small CASSCF(6,5)/6-311++G** used as a diabatization device to exclude Rydberg mixing, MOLPRO. One row."
+2026-08-18T02:09:49Z,W2046435232-a,10.1021/jp9819036,add-row,appended,row added via add-row
+2026-08-18T02:09:49Z,W2046435232-b,10.1021/jp9819036,add-row,appended,row added via add-row
+2026-08-18T02:09:49Z,W2046435232-c,10.1021/jp9819036,add-row,appended,row added via add-row
+2026-08-18T02:09:49Z,W2046435232-d,10.1021/jp9819036,add-row,appended,row added via add-row
+2026-08-18T02:09:49Z,W2046435232,10.1021/jp9819036,mark,extracted,"Co(II) in zeolite six-rings; CAS(13,8) Co 3p+3d space with ligand orbitals tested and rejected on ionic-bonding grounds, CASPT2 with 0.3 hartree level shift, BP86 geometries, MOLCAS. Four rows by Al content."
+2026-08-18T02:11:01Z,W2046462722-a,10.1021/jp057133x,add-row,appended,row added via add-row
+2026-08-18T02:11:01Z,W2046462722,10.1021/jp057133x,mark,extracted,"Carbonyl oxide + OH; CASSCF(11,10) geometries with NO-occupation-based space selection, additive CASSCF(17,14) = (12,9)+(5,5) CASPT2 reference. One row."
+2026-08-18T02:12:09Z,W2046795313-a,10.1021/jp807247t,add-row,appended,row added via add-row
+2026-08-18T02:12:09Z,W2046795313,10.1021/jp807247t,mark,extracted,"Dimethylnitramine decomposition; CASSCF(14,11) space inherited from Soto's NH2NO2 work, reduced (10,7) for frequencies/IRC due to a Gaussian 03 eight-orbital limit; CASSCF destroys the MP2 tight TS. One row."
+2026-08-18T02:13:30Z,W2046460496-a,10.1021/j100257a009,add-row,appended,row added via add-row
+2026-08-18T02:13:30Z,W2046460496,10.1021/j100257a009,mark,extracted,"Ni(C2H4) singlet/triplet surfaces; seven-orbital CASSCF space with the excluded 3d orbitals explicitly tested, contracted CI on top. One row; active electron count not stated so left blank."
