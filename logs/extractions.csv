@@ -47198,3 +47198,8 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T03:27:29Z,W2054138010-a,10.1021/ic9910559,add-row,appended,row added via add-row
 2026-08-18T03:27:29Z,W2054138010-b,10.1021/ic9910559,add-row,appended,row added via add-row
 2026-08-18T03:27:29Z,W2054138010,10.1021/ic9910559,mark,extracted,"Dinuclear Cot-bridged CpCr/(CO)3M complexes; CAS(9/9) with the a'/a'' symmetry partition systematically varied over five compositions and multiple RHF starting references, after CAS(15/15) and CAS(13/13) declared infeasible. Two rows."
+2026-08-18T03:31:19Z,W2054624160-a,10.1021/jp103854y,add-row,appended,row added via add-row
+2026-08-18T03:31:19Z,W2054624160-b,10.1021/jp103854y,add-row,appended,row added via add-row
+2026-08-18T03:31:19Z,W2054624160-c,10.1021/jp103854y,add-row,appended,row added via add-row
+2026-08-18T03:31:19Z,W2054624160-d,10.1021/jp103854y,add-row,appended,row added via add-row
+2026-08-18T03:31:19Z,W2054624160,10.1021/jp103854y,mark,extracted,"Alkyl peroxynitrate UV spectra; three active spaces AS1(10,6)/AS2(10,7)/AS3(12,7) compared on MPN, with the LARGEST rejected for failing to give balanced wavefunctions. Four rows."
