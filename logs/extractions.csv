@@ -46838,3 +46838,13 @@ timestamp,key,doi,action,result,reasoning
 2026-08-17T23:57:24Z,W2028770952,10.1021/jp0761618,mark,extracted,"MECI optimization without derivative coupling vectors, applied to MS-CASPT2; five rows (ethylene, formaldiminium, butadiene, stilbene, GFP chromophore anion) with SA-N-CAS(m/n) references compared against CAS and MRSDCI. Acrolein MDCI at SA-3-CAS(6/5) noted in the rows but not split out."
 2026-08-17T23:58:20Z,W2028138152-a,10.1021/jp075951e,add-row,appended,row added via add-row
 2026-08-17T23:58:21Z,W2028138152,10.1021/jp075951e,mark,extracted,"K-doped argon clusters; [3,23]-CASSCF scans of the 12 lowest K3 doublet states in MOLPRO with an explicit finite-active-space error estimate and asymptotic correction. One row for K3."
+2026-08-18T00:01:16Z,W2028868456,10.1021/jp0581429,mark,extracted,"[Fe2S2(SCH3)4]2-/3- ferredoxin model; RISM-CASSCF/MRMP with 10-orbital Fe-3d and 13-orbital Fe-3d + S* 3p spaces, symmetry-broken orbitals. Two rows (oxidized, reduced)."
+2026-08-18T00:02:00Z,W2028868456-a,10.1021/jp0581429,add-row,appended,row added via add-row
+2026-08-18T00:02:00Z,W2028868456-b,10.1021/jp0581429,add-row,appended,row added via add-row
+2026-08-18T00:02:59Z,W2028915931-a,10.1021/jp0478108,add-row,appended,row added via add-row
+2026-08-18T00:03:00Z,W2028915931,10.1021/jp0478108,mark,extracted,"anti-Orthogonene stability and rearrangement; CASSCF(4,4)/6-31G* with CASSCF-MP2 single points, Gaussian 03. One row; the syn isomer is B3LYP-only."
+2026-08-18T00:03:58Z,W2029055518-a,10.1021/jp9072697,add-row,appended,row added via add-row
+2026-08-18T00:03:58Z,W2029055518-b,10.1021/jp9072697,add-row,appended,row added via add-row
+2026-08-18T00:03:58Z,W2029055518,10.1021/jp9072697,mark,extracted,"Excited states and electronic couplings of pi-stacked DNA base dimers; CAS(8,6) monomer and CAS(16,12) dimer in GAMESS, compared against CIS, CIS(2), EOM-CCSD and TDDFT. Two rows (thymine monomer, thymine dimer); cytosine and adenine dimers not treated with CASSCF."
+2026-08-18T00:05:02Z,W2028795335-a,10.1063/1.452235,add-row,appended,row added via add-row
+2026-08-18T00:05:02Z,W2028795335,10.1063/1.452235,mark,extracted,"Benzene valence and Rydberg excited states; CASSCF(6,12) with a second pi shell plus contracted CI, three basis sets, orbitals constrained to D6h. One row."
