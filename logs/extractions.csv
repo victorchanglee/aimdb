@@ -47193,3 +47193,8 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T03:22:04Z,W2054018876,10.1021/jp907492r,mark,extracted,"DCDPA photochemistry; (10,10)CASSCF selected by CIS across four structural regions to confirm the orbital set is geometry-invariant, reduced (4,4) for one conical intersection, MRMP2 corrections, GAMESS. One row."
 2026-08-18T03:23:05Z,W2054051340-a,10.1021/jp211518f,add-row,appended,row added via add-row
 2026-08-18T03:23:05Z,W2054051340,10.1021/jp211518f,mark,extracted,"Berson trimethylenemethane rearrangements; (4e,4o)CASSCF with MRMP2/MRCISD. CASSCF pyramidalization shown to be an artifact (reversed by MRMP2), and CASSCF TMM-vs-MCP comparison ruled unreliable because pi orbitals become sigma. One row."
+2026-08-18T03:25:48Z,W2054056590-a,10.1021/jp203185a,add-row,appended,row added via add-row
+2026-08-18T03:26:01Z,W2054056590,10.1021/jp203185a,mark,extracted,"2-Thiopyridone/2-mercaptopyridine ESPT; CASSCF(6,8)/6-311+G(d,p) used only for the 2MP S1 minimum with a CASPT2 single point, rest of the surface by TD-DFT. One row."
+2026-08-18T03:27:29Z,W2054138010-a,10.1021/ic9910559,add-row,appended,row added via add-row
+2026-08-18T03:27:29Z,W2054138010-b,10.1021/ic9910559,add-row,appended,row added via add-row
+2026-08-18T03:27:29Z,W2054138010,10.1021/ic9910559,mark,extracted,"Dinuclear Cot-bridged CpCr/(CO)3M complexes; CAS(9/9) with the a'/a'' symmetry partition systematically varied over five compositions and multiple RHF starting references, after CAS(15/15) and CAS(13/13) declared infeasible. Two rows."
