@@ -47403,3 +47403,16 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T05:12:33Z,W2070018687-d,10.1021/jp101800z,add-row,appended,row added via add-row
 2026-08-18T05:12:33Z,W2070018687-e,10.1021/jp101800z,add-row,appended,row added via add-row
 2026-08-18T05:12:33Z,W2070018687,10.1021/jp101800z,mark,extracted,"Si(100) surface clusters; a dedicated study of ORMAS active-space PARTITIONING against full CASSCF, justified by cluster-size-invariant pi/pi* NOONs, cutting a 165-million-determinant CASSCF(16,16) by 2-3 orders of magnitude for ~2 mhartree error while GVB-PP errs by 21 mhartree. Five rows by cluster size."
+2026-08-18T05:16:18Z,W2070522574-a,10.1021/ja902311y,add-row,appended,row added via add-row
+2026-08-18T05:16:18Z,W2070522574-b,10.1021/ja902311y,add-row,appended,row added via add-row
+2026-08-18T05:16:18Z,W2070522574,10.1021/ja902311y,mark,extracted,"Adenine deactivation channels; dedicated Active Space Selection section showing CAS(12,11) contaminates 1La with n-sigma* configurations (oscillator strength 0.08 vs 0.24 observed, spurious MEP barrier), fixed independently by MS-CASPT2 and by deleting the sigma*(N-H) orbitals to give CAS(12,9). Two rows."
+2026-08-18T05:17:02Z,W2070663402-a,10.1021/jp982811j,add-row,appended,row added via add-row
+2026-08-18T05:17:16Z,W2070663402,10.1021/jp982811j,mark,extracted,"N(2D) + ethylene; CASSCF(5,5) of three N 2p plus ethylene pi/pi* biases against the insertion channel because it lacks C-H sigma/sigma*, and enlarging to (7,7) with exactly those orbitals cuts the insertion-minus-addition gap from 9.8 to 7.3 kcal/mol. One row."
+2026-08-18T05:18:49Z,W2070672832-a,10.1021/jp982921q,add-row,appended,row added via add-row
+2026-08-18T05:18:49Z,W2070672832-b,10.1021/jp982921q,add-row,appended,row added via add-row
+2026-08-18T05:18:49Z,W2070672832-c,10.1021/jp982921q,add-row,appended,row added via add-row
+2026-08-18T05:18:49Z,W2070672832-d,10.1021/jp982921q,add-row,appended,row added via add-row
+2026-08-18T05:18:49Z,W2070672832,10.1021/jp982921q,mark,extracted,"SbCl2, SbBr2 and their cations; symmetry-block CASSCF space (4a1, 3b2, 2b1, 1a2) with 15 valence electrons applied unchanged to all four species, halogen s electrons frozen at CASSCF but correlated at MRSDCI, with Sb 4d correlation and quadruples shown smaller than basis-set error. Four rows."
+2026-08-18T05:19:56Z,W2070921265-a,10.1021/j100093a007,add-row,appended,row added via add-row
+2026-08-18T05:19:57Z,W2070921265-b,10.1021/j100093a007,add-row,appended,row added via add-row
+2026-08-18T05:20:08Z,W2070921265,10.1021/j100093a007,mark,extracted,"PNP radical matrix IR assignment; full-valence CASSCF(15,12) for all four P2N doublet isomers plus multireference ACPF with an iteratively expanded reference space that still carries only 80.5% and 73.6% weight, with the authors reporting the transition energy as unconverged. Two rows."
