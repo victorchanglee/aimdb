@@ -47161,3 +47161,15 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T03:02:05Z,W2051914015-a,10.1021/jp003693e,add-row,appended,row added via add-row
 2026-08-18T03:02:05Z,W2051914015-b,10.1021/jp003693e,add-row,appended,row added via add-row
 2026-08-18T03:02:05Z,W2051914015,10.1021/jp003693e,mark,extracted,"Tyrosine coupling mechanism; full-pi CASSCF gives a 108 kJ/mol error in the phenol O-H bond strength through neglect of sigma-pi correlation, and CASSCF(2,2) vs (10,10) vs CASPT2(2,2) on the diphenoxyl dimer shows enlarging the pi space does not help. Two rows."
+2026-08-18T03:05:11Z,W2052179002-a,10.1021/jp993913s,add-row,appended,row added via add-row
+2026-08-18T03:05:11Z,W2052179002-b,10.1021/jp993913s,add-row,appended,row added via add-row
+2026-08-18T03:05:12Z,W2052179002,10.1021/jp993913s,mark,extracted,"2,2'-Bithiophene radical cation; full valence-pi CASSCF(11,10)/6-31G* selected from MP2 natural orbital occupations, DALTON. Linear response vs state-specific CASSCF on the same space differ by 2-5% vs 9-18% against experiment. Two rows."
+2026-08-18T03:06:08Z,W2052397460-a,10.1021/jp8044109,add-row,appended,row added via add-row
+2026-08-18T03:06:08Z,W2052397460,10.1021/jp8044109,mark,extracted,"Pyrene radical cation photostability; full-pi CASSCF(15,16)/6-31G* at the stated ~10^7 CSF practical ceiling, reduced (13,14) for CI optimization and as CASPT2 reference. CASPT2 splits the CASSCF crossings by over 6 kcal/mol. One row."
+2026-08-18T03:07:57Z,W2052561270-a,10.1021/jp960446v,add-row,appended,row added via add-row
+2026-08-18T03:07:57Z,W2052561270-b,10.1021/jp960446v,add-row,appended,row added via add-row
+2026-08-18T03:07:57Z,W2052561270-c,10.1021/jp960446v,add-row,appended,row added via add-row
+2026-08-18T03:07:57Z,W2052561270-d,10.1021/jp960446v,add-row,appended,row added via add-row
+2026-08-18T03:07:57Z,W2052561270-e,10.1021/jp960446v,add-row,appended,row added via add-row
+2026-08-18T03:07:57Z,W2052561270-f,10.1021/jp960446v,add-row,appended,row added via add-row
+2026-08-18T03:08:09Z,W2052561270,10.1021/jp960446v,mark,extracted,"Sc+ + CH4 mechanism; every active space built additively from fragment spaces with all orbitals listed in Table 1, one common (6/10) MR-SDCI reference correct at both dissociation limits. Six rows."
