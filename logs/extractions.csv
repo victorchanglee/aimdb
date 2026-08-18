@@ -48483,3 +48483,20 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T20:21:56Z,W2335240412-c,10.1021/jp0015473,add-row,appended,row added via add-row
 2026-08-18T20:21:56Z,W2335240412-d,10.1021/jp0015473,add-row,appended,row added via add-row
 2026-08-18T20:21:56Z,W2335240412,10.1021/jp0015473,mark,extracted_partial,"Nondynamical vs dynamical pi correlation energy in planar hydrocarbons. CASSCF(n,n)/CASPT2(n,n) with all non-active electrons frozen, ANO bases, MOLCAS/GAUSSIAN/GAMESS. Four rows: ethylene, cyclobutadiene GS+TS, benzene, naphthalene. Partial because Table 3 lists 18 molecules identified only by number in Figure 2, and the extracted text resolves only these; the rest cannot be named without inferring. The space is used as a partitioning instrument - freezing non-active electrons is what makes the pi/sigma decomposition meaningful."
+2026-08-18T21:03:52Z,W2335264386-a,10.1021/jp409138a,add-row,appended,row added via add-row
+2026-08-18T21:03:52Z,W2335264386-b,10.1021/jp409138a,add-row,appended,row added via add-row
+2026-08-18T21:03:52Z,W2335264386-c,10.1021/jp409138a,add-row,appended,row added via add-row
+2026-08-18T21:03:52Z,W2335264386-d,10.1021/jp409138a,add-row,appended,row added via add-row
+2026-08-18T21:03:52Z,W2335264386,10.1021/jp409138a,mark,extracted,"Isomers and electronic states of Ni2O2H2. MRCI+Q on CASSCF orbitals, relativistic ANO bases, DKH, MOLPRO. Four rows. The space is fixed by occupancy screening: an oversized (30,18) space is pruned by discarding orbitals with occupation above 1.99, which makes the space state-dependent - (6,6), (14,10) or (18,12) for the same isomer. Analytical frequencies are unavailable for the method, so minima were confirmed by manually computing named distortions; one isomer is reported as not a minimum."
+2026-08-18T21:05:33Z,W2335332728-a,10.1021/ct200832u,add-row,appended,row added via add-row
+2026-08-18T21:05:33Z,W2335332728-b,10.1021/ct200832u,add-row,appended,row added via add-row
+2026-08-18T21:05:34Z,W2335332728-c,10.1021/ct200832u,add-row,appended,row added via add-row
+2026-08-18T21:05:34Z,W2335332728-d,10.1021/ct200832u,add-row,appended,row added via add-row
+2026-08-18T21:05:34Z,W2335332728-e,10.1021/ct200832u,add-row,appended,row added via add-row
+2026-08-18T21:05:34Z,W2335332728-f,10.1021/ct200832u,add-row,appended,row added via add-row
+2026-08-18T21:05:34Z,W2335332728,10.1021/ct200832u,mark,extracted,"High-multiplicity natural orbitals as a replacement for CASSCF orbitals in MRCI. Modified COLUMBUS 5.9.2. Six rows: ethylene, formaldehyde, hexatriene, benzene, phenol, uracil. Reference space held fixed while the orbital source varies. Mean absolute deviation 0.12 eV uncorrected, 0.15 with Davidson - the correction makes agreement slightly worse. The largest deviation, 0.48 eV, is for ethylene, the smallest system, because a (2,2) space has too little flexibility to absorb a suboptimal orbital set."
+2026-08-18T21:07:13Z,W2335494209-a,10.1021/jp105860n,add-row,appended,row added via add-row
+2026-08-18T21:07:13Z,W2335494209-b,10.1021/jp105860n,add-row,appended,row added via add-row
+2026-08-18T21:07:14Z,W2335494209-c,10.1021/jp105860n,add-row,appended,row added via add-row
+2026-08-18T21:07:14Z,W2335494209-d,10.1021/jp105860n,add-row,appended,row added via add-row
+2026-08-18T21:07:14Z,W2335494209,10.1021/jp105860n,mark,extracted,"Myers-Saito and Schmittel cyclizations of hepta-1,2,4-triene-6-yne. CASSCF(10,10)/6-31G(d) in Gaussian 03 with MRMP2 and CiLC-IRC analysis in GAMESS. Four rows. The ten orbitals are counted from the reactant pi system but correspond to the sigma, sigma* and two radical orbitals of the biradical products, so one space spans both ends of the path. Natural orbital occupations (1.00/1.00 at products, 1.74/0.26 and 1.65/0.35 at the transition states) are used to show why single-reference methods disagree."
