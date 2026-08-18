@@ -47749,3 +47749,15 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T08:20:18Z,W2094104725,10.1021/ja027352l,mark,extracted,"Retinal chromophore model intersection space; minimal two-root state-averaged CASSCF(6,6)/6-31G* required for seam mapping, showing the relaxation path enters at CI70 rather than the CI92 seam minimum. One row."
 2026-08-18T08:21:27Z,W2094447129-a,10.1021/ct300153f,add-row,appended,row added via add-row
 2026-08-18T08:21:27Z,W2094447129,10.1021/ct300153f,mark,extracted,"Uracil N-H dissociation by low-energy electrons; CASSCF(10,8) full valence pi at minima enlarged to (11,12) with two N-H sigma* and two diffuse orbitals added specifically to stabilize the space against electron detachment along the curves. One row."
+2026-08-18T08:25:27Z,W2094466547-a,10.1021/ct5004912,add-row,appended,row added via add-row
+2026-08-18T08:25:27Z,W2094466547-b,10.1021/ct5004912,add-row,appended,row added via add-row
+2026-08-18T08:25:27Z,W2094466547-c,10.1021/ct5004912,add-row,appended,row added via add-row
+2026-08-18T08:25:27Z,W2094466547-d,10.1021/ct5004912,add-row,appended,row added via add-row
+2026-08-18T08:25:27Z,W2094466547,10.1021/ct5004912,mark,extracted,"Benchmarking DFT for hydrogen-rich peptide radicals; minimal one-electron CASSCF-MRCI reference spaces (1,10)7 and (1,3)3, with the one-electron assumption validated by (1,5) vs (5,5) giving equal excitation energies. Four rows."
+2026-08-18T08:27:00Z,W2094579793-a,10.1021/jp056491x,add-row,appended,row added via add-row
+2026-08-18T08:27:01Z,W2094579793-b,10.1021/jp056491x,add-row,appended,row added via add-row
+2026-08-18T08:27:01Z,W2094579793-c,10.1021/jp056491x,add-row,appended,row added via add-row
+2026-08-18T08:27:01Z,W2094579793-d,10.1021/jp056491x,add-row,appended,row added via add-row
+2026-08-18T08:27:01Z,W2094579793-e,10.1021/jp056491x,add-row,appended,row added via add-row
+2026-08-18T08:27:01Z,W2094579793-f,10.1021/jp056491x,add-row,appended,row added via add-row
+2026-08-18T08:27:01Z,W2094579793,10.1021/jp056491x,mark,extracted,"Carboxylic acid monomers and dimers; active space capped at eight orbitals by stated resource limits, with errors growing from good for formic acid to ~100 nm for benzoic acid and no multireference results at all for the benzoic acid dimer. Six rows."
