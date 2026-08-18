@@ -47740,3 +47740,12 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T08:15:23Z,W2094051011-b,10.1021/j100075a010,add-row,appended,row added via add-row
 2026-08-18T08:15:23Z,W2094051011-c,10.1021/j100075a010,add-row,appended,row added via add-row
 2026-08-18T08:15:23Z,W2094051011,10.1021/j100075a010,mark,extracted,"BCN, BNC and C3; full-valence CASSCF[12,12]/cc-pVDZ as exact internal correlation with no external correlation, giving C3 frequencies within 50 cm-1 of experiment but a badly long bond length. Three rows."
+2026-08-18T08:19:12Z,W2094065247-a,10.1021/ja972826f,add-row,appended,row added via add-row
+2026-08-18T08:19:12Z,W2094065247-b,10.1021/ja972826f,add-row,appended,row added via add-row
+2026-08-18T08:19:12Z,W2094065247-c,10.1021/ja972826f,add-row,appended,row added via add-row
+2026-08-18T08:19:13Z,W2094065247-d,10.1021/ja972826f,add-row,appended,row added via add-row
+2026-08-18T08:19:28Z,W2094065247,10.1021/ja972826f,mark,extracted,"[3,3]-sigmatropy of alkynes, allenes and alkenes; per-system CASSCF spaces (6,6)/(8,8)/(10,10)/(10,10) built by adding pi pairs, with CASSCF uniquely predicting a stepwise mechanism and overestimating barriers by 22-34 kcal/mol in a trend-distorting way. Four rows."
+2026-08-18T08:20:18Z,W2094104725-a,10.1021/ja027352l,add-row,appended,row added via add-row
+2026-08-18T08:20:18Z,W2094104725,10.1021/ja027352l,mark,extracted,"Retinal chromophore model intersection space; minimal two-root state-averaged CASSCF(6,6)/6-31G* required for seam mapping, showing the relaxation path enters at CI70 rather than the CI92 seam minimum. One row."
+2026-08-18T08:21:27Z,W2094447129-a,10.1021/ct300153f,add-row,appended,row added via add-row
+2026-08-18T08:21:27Z,W2094447129,10.1021/ct300153f,mark,extracted,"Uracil N-H dissociation by low-energy electrons; CASSCF(10,8) full valence pi at minima enlarged to (11,12) with two N-H sigma* and two diffuse orbitals added specifically to stabilize the space against electron detachment along the curves. One row."
