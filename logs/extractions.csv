@@ -47074,3 +47074,20 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T02:12:09Z,W2046795313,10.1021/jp807247t,mark,extracted,"Dimethylnitramine decomposition; CASSCF(14,11) space inherited from Soto's NH2NO2 work, reduced (10,7) for frequencies/IRC due to a Gaussian 03 eight-orbital limit; CASSCF destroys the MP2 tight TS. One row."
 2026-08-18T02:13:30Z,W2046460496-a,10.1021/j100257a009,add-row,appended,row added via add-row
 2026-08-18T02:13:30Z,W2046460496,10.1021/j100257a009,mark,extracted,"Ni(C2H4) singlet/triplet surfaces; seven-orbital CASSCF space with the excluded 3d orbitals explicitly tested, contracted CI on top. One row; active electron count not stated so left blank."
+2026-08-18T02:16:53Z,W2046924321-a,10.1021/jp075706v,add-row,appended,row added via add-row
+2026-08-18T02:16:53Z,W2046924321,10.1021/jp075706v,mark,extracted,"Acrolein in water; fixed CASSCF(6,5)/6-31G* across four states and three solvent conditions within ASEP/MD. One row."
+2026-08-18T02:18:52Z,W2047165751-a,10.1021/jp101963p,add-row,appended,row added via add-row
+2026-08-18T02:18:53Z,W2047165751-b,10.1021/jp101963p,add-row,appended,row added via add-row
+2026-08-18T02:18:53Z,W2047165751-c,10.1021/jp101963p,add-row,appended,row added via add-row
+2026-08-18T02:18:53Z,W2047165751-d,10.1021/jp101963p,add-row,appended,row added via add-row
+2026-08-18T02:18:53Z,W2047165751-e,10.1021/jp101963p,add-row,appended,row added via add-row
+2026-08-18T02:18:53Z,W2047165751-f,10.1021/jp101963p,add-row,appended,row added via add-row
+2026-08-18T02:18:54Z,W2047165751-g,10.1021/jp101963p,add-row,appended,row added via add-row
+2026-08-18T02:18:54Z,W2047165751,10.1021/jp101963p,mark,extracted,"Cyano-substituted cyclobutadienes; scaled CAS(x,x) full-pz-pi series (4,4)->(12,12) compared against a fixed ring-only CAS(4,4), with reference weights showing the fixed space hides multireference character. Seven rows."
+2026-08-18T02:20:27Z,W2047223486-a,10.1021/jp074802t,add-row,appended,row added via add-row
+2026-08-18T02:20:27Z,W2047223486-b,10.1021/jp074802t,add-row,appended,row added via add-row
+2026-08-18T02:20:27Z,W2047223486-c,10.1021/jp074802t,add-row,appended,row added via add-row
+2026-08-18T02:20:38Z,W2047223486,10.1021/jp074802t,mark,extracted,"MATI of o-, m-, p-dichlorobenzene; pi-only CAS(6,6)/6-311++G(d,p) for S1, chlorine lone pairs excluded on photoelectron-spectrum energy grounds. Three rows."
+2026-08-18T02:21:50Z,W2047290258-a,10.1021/ja0657861,add-row,appended,row added via add-row
+2026-08-18T02:21:51Z,W2047290258-b,10.1021/ja0657861,add-row,appended,row added via add-row
+2026-08-18T02:22:07Z,W2047290258,10.1021/ja0657861,mark,extracted,"5-Fluorouracil and uracil in acetonitrile/water; CASSCF(8,8) for S0/Spi and (6,6) for Spi/Sn conical intersection geometries, validated against Matsika's MRCI(12/9); energies from PCM/TD-PBE0. Two rows."
