@@ -48167,3 +48167,22 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T11:58:53Z,W2321084666-v,10.1021/acs.inorgchem.6b00244,add-row,appended,row added via add-row
 2026-08-18T11:58:53Z,W2321084666-w,10.1021/acs.inorgchem.6b00244,add-row,appended,row added via add-row
 2026-08-18T11:58:54Z,W2321084666,10.1021/acs.inorgchem.6b00244,mark,extracted,"Periodic trends in lanthanide compounds; CASSCF(n,7)/NEVPT2+QDPT with AILFT analysis in ORCA. Twenty-three rows: eleven embedded-cluster elpasolite sites and twelve free trivalent ions. The 4f-only space gives essentially exact SOC but significantly underestimates the ligand field, traced to charge transfer into the empty 5d and 6s shells."
+2026-08-18T12:02:19Z,W2322019449-a,10.1021/jp305409e,add-row,appended,row added via add-row
+2026-08-18T12:02:19Z,W2322019449,10.1021/jp305409e,mark,extracted_partial,"LuCl, 20 low-lying states by state-averaged CASSCF/MRCI+Q in MOLPRO with a nine-orbital active space. One row. Partial because the number of active electrons is never stated; the space is given by composition only. Two full sets of constants with 16 and 22 correlated electrons quantify the effect of freezing the Lu 4f shell."
+2026-08-18T12:03:20Z,W2321174743-a,10.1021/jp1111372,add-row,appended,row added via add-row
+2026-08-18T12:03:20Z,W2321174743,10.1021/jp1111372,mark,extracted,"Di-8-ANEPPS membrane probe; CASSCF(6,6)/CASPT2 in MOLCAS on a truncated gas-phase model, the space selected from a RASSCF survey of the full (20,19) pi system. One row. CI coefficients and natural orbital occupations both reported for the three states."
+2026-08-18T12:04:46Z,W2321098994-a,10.1021/ja207717k,add-row,appended,row added via add-row
+2026-08-18T12:04:46Z,W2321098994-b,10.1021/ja207717k,add-row,appended,row added via add-row
+2026-08-18T12:04:46Z,W2321098994-c,10.1021/ja207717k,add-row,appended,row added via add-row
+2026-08-18T12:04:47Z,W2321098994,10.1021/ja207717k,mark,extracted,"Isoxazole pyrolysis; state-averaged CAS(8,7)SCF geometries with MR-CISD(Q)/cc-pVTZ single points in MOLPRO 2010.1. Three rows for the species treated multiconfigurationally. Notable for maintaining one space size while changing its orbital composition along the path, and for recomputing a common reference in two incompatible spaces."
+2026-08-18T12:06:37Z,W2321680866-a,10.1021/ct400913z,add-row,appended,row added via add-row
+2026-08-18T12:06:37Z,W2321680866-b,10.1021/ct400913z,add-row,appended,row added via add-row
+2026-08-18T12:06:38Z,W2321680866-c,10.1021/ct400913z,add-row,appended,row added via add-row
+2026-08-18T12:06:38Z,W2321680866-d,10.1021/ct400913z,add-row,appended,row added via add-row
+2026-08-18T12:06:38Z,W2321680866-e,10.1021/ct400913z,add-row,appended,row added via add-row
+2026-08-18T12:06:38Z,W2321680866-f,10.1021/ct400913z,add-row,appended,row added via add-row
+2026-08-18T12:06:38Z,W2321680866-g,10.1021/ct400913z,add-row,appended,row added via add-row
+2026-08-18T12:06:39Z,W2321680866-h,10.1021/ct400913z,add-row,appended,row added via add-row
+2026-08-18T12:06:39Z,W2321680866-i,10.1021/ct400913z,add-row,appended,row added via add-row
+2026-08-18T12:06:39Z,W2321680866-j,10.1021/ct400913z,add-row,appended,row added via add-row
+2026-08-18T12:06:39Z,W2321680866,10.1021/ct400913z,mark,extracted,"Bipyridine innocence across ten Fe, Co, V and Ti complexes; CASSCF/NEVPT2 in ORCA 2.9.0 at M06 geometries, def2-TZVPP (def2-SVP for the two largest). Ten rows; complex 9 excluded because its multiconfigurational results are taken from a previous report. Notable for a documented occupancy-pruning space selection protocol."
