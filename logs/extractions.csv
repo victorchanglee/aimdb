@@ -48143,3 +48143,27 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T11:53:00Z,W2321047839-c,10.1021/acs.jctc.6b00190,add-row,appended,row added via add-row
 2026-08-18T11:53:00Z,W2321047839-d,10.1021/acs.jctc.6b00190,add-row,appended,row added via add-row
 2026-08-18T11:53:00Z,W2321047839,10.1021/acs.jctc.6b00190,mark,extracted,"v2RDM-driven CASSCF methods paper; four rows for the four test systems (N2 (6,6), the linear polyacene series up to (50,50), and two dinitrene biradicals at (10,10) and (16,16)). PSI4 plugin. Notable for an occupation-number crossing at 11-acene attributed to orbital optimization and basis size, absent from earlier minimal-basis CASCI work."
+2026-08-18T11:57:15Z,W2321084666-a,10.1021/acs.inorgchem.6b00244,add-row,appended,row added via add-row
+2026-08-18T11:57:15Z,W2321084666-b,10.1021/acs.inorgchem.6b00244,add-row,appended,row added via add-row
+2026-08-18T11:57:15Z,W2321084666-c,10.1021/acs.inorgchem.6b00244,add-row,appended,row added via add-row
+2026-08-18T11:57:15Z,W2321084666-d,10.1021/acs.inorgchem.6b00244,add-row,appended,row added via add-row
+2026-08-18T11:57:15Z,W2321084666-e,10.1021/acs.inorgchem.6b00244,add-row,appended,row added via add-row
+2026-08-18T11:57:16Z,W2321084666-f,10.1021/acs.inorgchem.6b00244,add-row,appended,row added via add-row
+2026-08-18T11:57:16Z,W2321084666-g,10.1021/acs.inorgchem.6b00244,add-row,appended,row added via add-row
+2026-08-18T11:57:16Z,W2321084666-h,10.1021/acs.inorgchem.6b00244,add-row,appended,row added via add-row
+2026-08-18T11:57:16Z,W2321084666-i,10.1021/acs.inorgchem.6b00244,add-row,appended,row added via add-row
+2026-08-18T11:57:16Z,W2321084666-j,10.1021/acs.inorgchem.6b00244,add-row,appended,row added via add-row
+2026-08-18T11:57:16Z,W2321084666-k,10.1021/acs.inorgchem.6b00244,add-row,appended,row added via add-row
+2026-08-18T11:58:51Z,W2321084666-l,10.1021/acs.inorgchem.6b00244,add-row,appended,row added via add-row
+2026-08-18T11:58:52Z,W2321084666-m,10.1021/acs.inorgchem.6b00244,add-row,appended,row added via add-row
+2026-08-18T11:58:52Z,W2321084666-n,10.1021/acs.inorgchem.6b00244,add-row,appended,row added via add-row
+2026-08-18T11:58:52Z,W2321084666-o,10.1021/acs.inorgchem.6b00244,add-row,appended,row added via add-row
+2026-08-18T11:58:52Z,W2321084666-p,10.1021/acs.inorgchem.6b00244,add-row,appended,row added via add-row
+2026-08-18T11:58:52Z,W2321084666-q,10.1021/acs.inorgchem.6b00244,add-row,appended,row added via add-row
+2026-08-18T11:58:53Z,W2321084666-r,10.1021/acs.inorgchem.6b00244,add-row,appended,row added via add-row
+2026-08-18T11:58:53Z,W2321084666-s,10.1021/acs.inorgchem.6b00244,add-row,appended,row added via add-row
+2026-08-18T11:58:53Z,W2321084666-t,10.1021/acs.inorgchem.6b00244,add-row,appended,row added via add-row
+2026-08-18T11:58:53Z,W2321084666-u,10.1021/acs.inorgchem.6b00244,add-row,appended,row added via add-row
+2026-08-18T11:58:53Z,W2321084666-v,10.1021/acs.inorgchem.6b00244,add-row,appended,row added via add-row
+2026-08-18T11:58:53Z,W2321084666-w,10.1021/acs.inorgchem.6b00244,add-row,appended,row added via add-row
+2026-08-18T11:58:54Z,W2321084666,10.1021/acs.inorgchem.6b00244,mark,extracted,"Periodic trends in lanthanide compounds; CASSCF(n,7)/NEVPT2+QDPT with AILFT analysis in ORCA. Twenty-three rows: eleven embedded-cluster elpasolite sites and twelve free trivalent ions. The 4f-only space gives essentially exact SOC but significantly underestimates the ligand field, traced to charge transfer into the empty 5d and 6s shells."
