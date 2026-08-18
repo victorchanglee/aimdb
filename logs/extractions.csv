@@ -46990,3 +46990,31 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T01:25:15Z,W2041176028,10.1021/ic101064c,mark,extracted,"Heterospin chromocenium/thiadiazolidyl salt magnetic properties; three pair-specific CASSCF spaces (8,8)/(10,10)/(14,14) built additively from monomer orbitals, compared against broken-symmetry DFT. Three rows."
 2026-08-18T01:26:07Z,W2041244757-a,10.1021/jo951867w,add-row,appended,row added via add-row
 2026-08-18T01:26:23Z,W2041244757,10.1021/jo951867w,mark,extracted,"Staudinger reaction periselectivity; CASSCF(2,2) documented as overestimating biradical character and uniquely predicting the wrong product, with TS(delta) unlocatable on either the (2,2) or (4,4) surface. One row."
+2026-08-18T01:30:00Z,W2041677785-a,10.1021/jp908936u,add-row,appended,row added via add-row
+2026-08-18T01:30:00Z,W2041677785,10.1021/jp908936u,mark,extracted,"Cyclopropanone photodissociation; CAS(10,8)/cc-pVDZ validated against both experiment and CCSD before use, MS-MR-CASPT2 refinement. One row."
+2026-08-18T01:33:23Z,W2042245799-a,10.1021/ja0386593,add-row,appended,row added via add-row
+2026-08-18T01:33:23Z,W2042245799-b,10.1021/ja0386593,add-row,appended,row added via add-row
+2026-08-18T01:33:24Z,W2042245799,10.1021/ja0386593,mark,extracted,"Benzotriazole UV photostability; explicit six-space CASSCF reduction ladder (14,12)->(16,13)->(12,11)->two different (10,8) plus RASSCF, 6-31G*. Two rows: BZT2 model and its phenolate anion."
+2026-08-18T01:34:36Z,W2038934525-a,10.1021/jp7098015,add-row,appended,row added via add-row
+2026-08-18T01:34:36Z,W2038934525,10.1021/jp7098015,mark,extracted,"NEO extended to positrons; NEO-CASSCF formulated, all reported numbers at its NEO-FCI (all-particle, all-MO) limit for PsH. One row; e+LiH is NEO-MP2 only so no row."
+2026-08-18T01:36:15Z,W2041526402-a,10.1021/jp0463060,add-row,appended,row added via add-row
+2026-08-18T01:36:15Z,W2041526402-b,10.1021/jp0463060,add-row,appended,row added via add-row
+2026-08-18T01:36:15Z,W2041526402-c,10.1021/jp0463060,add-row,appended,row added via add-row
+2026-08-18T01:36:15Z,W2041526402,10.1021/jp0463060,mark,extracted,"Retinal absorption shifts benchmark; own SORCI (DDCI2 natural orbitals) plus CAS(12,12) and state-averaged CAS(10,10)/6-31G*. Three rows: PSB11, PSB5, PSB3. CASPT2 values are from literature and not extracted."
+2026-08-18T01:37:13Z,W2042361656-a,10.1021/jp805081h,add-row,appended,row added via add-row
+2026-08-18T01:37:13Z,W2042361656,10.1021/jp805081h,mark,extracted,"s-trans-formaldazine SA-CASSCF(14,11)/MS-CASPT2/cc-pVTZ with reduced (10,8) for crossings, MOLCAS 6.2. One row."
+2026-08-18T01:39:04Z,W2042405859-a,10.1021/jp992539t,add-row,appended,row added via add-row
+2026-08-18T01:39:04Z,W2042405859-b,10.1021/jp992539t,add-row,appended,row added via add-row
+2026-08-18T01:39:04Z,W2042405859-c,10.1021/jp992539t,add-row,appended,row added via add-row
+2026-08-18T01:39:04Z,W2042405859-d,10.1021/jp992539t,add-row,appended,row added via add-row
+2026-08-18T01:39:04Z,W2042405859-e,10.1021/jp992539t,add-row,appended,row added via add-row
+2026-08-18T01:39:04Z,W2042405859,10.1021/jp992539t,mark,extracted,"p-Phenylbisphosphinidene and analogues; constant CAS(10,10) ring-pi + radical-centre p-pi/p-sigma space, ANO-L CASPT2 with g1-corrected H0. Five rows: P, N, CH, CCl, CF."
+2026-08-18T01:39:55Z,W2042763359-a,10.1063/1.3242082,add-row,appended,row added via add-row
+2026-08-18T01:39:55Z,W2042763359,10.1063/1.3242082,mark,extracted,"Formaldehyde photodissociation; full-valence CAS(10,9)/6-31G* with reduced (8,7) and augmented (12,10) checks, DD-vMCG dynamics. One row."
+2026-08-18T01:40:49Z,W2042915648-a,10.1021/ja0674690,add-row,appended,row added via add-row
+2026-08-18T01:40:49Z,W2042915648,10.1021/ja0674690,mark,extracted,"Twisted pi-electron electro-optic chromophore TM-1'; SS-CASSCF(2,2) -> SA3-CASSCF(4,3)/6-31G** with CASSCF(14,13) calibration and CASPT2 check, MOLCAS. One row."
+2026-08-18T01:41:47Z,W2043310935-a,10.1021/ct3010694,add-row,appended,row added via add-row
+2026-08-18T01:41:47Z,W2043310935-b,10.1021/ct3010694,add-row,appended,row added via add-row
+2026-08-18T01:41:47Z,W2043310935,10.1021/ct3010694,mark,extracted,"7-Azaindole-alcohol ESDPT; fixed CASSCF(10,9)/6-31G(d,p) with MRPT2, solvent-model comparison. Two rows (methanol and ethanol complexes)."
+2026-08-18T01:42:48Z,W2043389874-a,10.1021/jp203369b,add-row,appended,row added via add-row
+2026-08-18T01:42:48Z,W2043389874,10.1021/jp203369b,mark,extracted,"Lumisantonin photolysis; CASSCF(8,7)/6-31G* geometries, CASPT2/cc-pVDZ energies with 0.4 au imaginary shift, SOC from MOLCAS. One row."
