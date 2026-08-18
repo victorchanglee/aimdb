@@ -47461,3 +47461,9 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T05:55:25Z,W2073570219-b,10.1021/jp993384s,add-row,appended,row added via add-row
 2026-08-18T05:55:25Z,W2073570219-c,10.1021/jp993384s,add-row,appended,row added via add-row
 2026-08-18T05:55:25Z,W2073570219,10.1021/jp993384s,mark,extracted,"Pd and Pt bis(2-thienylpyridine) spectra; (16,12) space carrying both bonding and antibonding metal-ligand combinations, with the unaffordable 26-orbital full-pi alternative calibrated on the free thpyH ligand where the truncation error REVERSES SIGN between singlet and triplet. Three rows including the ligand calibration."
+2026-08-18T05:58:03Z,W2074064018-a,10.1021/ja044245d,add-row,appended,row added via add-row
+2026-08-18T05:58:12Z,W2074064018,10.1021/ja044245d,mark,extracted,"Peroxynitrous acid biradicaloid singlets; CAS(12,10) built to adjudicate a broken-symmetry DFT spin-contamination diagnosis, geometries validated by computing the same Brueckner Doubles energies at both DFT and CASSCF structures, with MRCI and CIPT2 on the same reference differing by 4.1 kcal/mol. One row."
+2026-08-18T05:59:33Z,W2074326879-a,10.1021/jp992912x,add-row,appended,row added via add-row
+2026-08-18T05:59:33Z,W2074326879-b,10.1021/jp992912x,add-row,appended,row added via add-row
+2026-08-18T05:59:33Z,W2074326879-c,10.1021/jp992912x,add-row,appended,row added via add-row
+2026-08-18T05:59:33Z,W2074326879,10.1021/jp992912x,mark,extracted,"Corannulene anions; each charge state given its own active space in TWO sizes with all results reported side by side, revealing a ground-state reversal for the dianion between CAS(6,4) and CAS(6,6) and a sevenfold gap change for the monoanion. Three rows; the tetraanion has no CASSCF and is noted only."
