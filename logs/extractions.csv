@@ -47220,3 +47220,13 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T03:45:28Z,W2056343640-a,10.1063/1.1288377,add-row,appended,row added via add-row
 2026-08-18T03:45:28Z,W2056343640-b,10.1063/1.1288377,add-row,appended,row added via add-row
 2026-08-18T03:45:28Z,W2056343640,10.1063/1.1288377,mark,extracted,Full CI spin density in B and C atoms; systematic CASSCF-to-FCI ladder for carbon showing 20% error three orbitals short of completeness and a sign change across the series. Two rows; electron counts not stated separately so nel blank.
+2026-08-18T03:49:35Z,W2056744265-a,10.1021/ct800546g,add-row,appended,row added via add-row
+2026-08-18T03:49:35Z,W2056744265-b,10.1021/ct800546g,add-row,appended,row added via add-row
+2026-08-18T03:49:35Z,W2056744265-c,10.1021/ct800546g,add-row,appended,row added via add-row
+2026-08-18T03:49:35Z,W2056744265-d,10.1021/ct800546g,add-row,appended,row added via add-row
+2026-08-18T03:49:36Z,W2056744265,10.1021/ct800546g,mark,extracted,"Single-reference perturbation theory paper; active space used as a controlled variable with CASSCF(2,2)/(4,4)/(6,6) references for H2O, NH3, CH4 and CH2. Shows MRPT2 overshoots the variational answer at small reference and converges from below as the space grows, while MRCI is nearly reference-independent. Four rows."
+2026-08-18T03:50:39Z,W2056847635-a,10.1021/jp062748v,add-row,appended,row added via add-row
+2026-08-18T03:50:39Z,W2056847635-b,10.1021/jp062748v,add-row,appended,row added via add-row
+2026-08-18T03:50:39Z,W2056847635-c,10.1021/jp062748v,add-row,appended,row added via add-row
+2026-08-18T03:50:40Z,W2056847635-d,10.1021/jp062748v,add-row,appended,row added via add-row
+2026-08-18T03:50:40Z,W2056847635,10.1021/jp062748v,mark,extracted,"Oligothiophene dications; CAS(4,4)/(6,6)/(10,10) applied to four oligomer lengths. Singlet-triplet gaps vary by up to a factor of three with active space and in three different directions across the series, while the electrons-outside-closed-shell diagnostic is nearly space-independent. Four rows."
