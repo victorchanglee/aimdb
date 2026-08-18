@@ -48509,3 +48509,33 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T21:21:42Z,W2397796665-c,10.1021/jo3017549,add-row,appended,row added via add-row
 2026-08-18T21:21:42Z,W2397796665-d,10.1021/jo3017549,add-row,appended,row added via add-row
 2026-08-18T21:21:42Z,W2397796665,10.1021/jo3017549,mark,extracted,"Conical intersection seam controlling selectivity in the ethylene + benzene photocycloaddition. CASSCF(8,8)/6-31G* in a development Gaussian, CASPT2 single points in MOLCAS 7. Four rows. Two notable disclosures: CASPT2 on CASSCF-optimized S1 transition states gives negative activation energies, so the excited-state energetics are declared uncertain while the seam topology is argued robust; and the seam's shape is controlled by electrons OUTSIDE the active space, because the two diabatic bonding patterns cancel at the intersection."
+2026-08-18T21:34:29Z,W2402090256-a,10.1021/acs.jpcb.5b04833,add-row,appended,row added via add-row
+2026-08-18T21:34:30Z,W2402090256-b,10.1021/acs.jpcb.5b04833,add-row,appended,row added via add-row
+2026-08-18T21:34:30Z,W2402090256,10.1021/acs.jpcb.5b04833,mark,extracted,"Photocatalytic water splitting with the acridine chromophore. SA-CASSCF/single-state CASPT2 with a 0.3 level shift in MOLPRO, ADC(2) and MP2 in TURBOMOLE, CIOpt for conical intersections. Two rows. Each space is itemized and built around the reactive coordinate: the complex space includes the water p donor orbital and the water sigma* that carries the proton; the radical space includes the N-H sigma/sigma* pair. The radical needs the augmented basis because its dissociative pi-sigma* state has Rydberg character."
+2026-08-18T21:36:06Z,W2403382869-a,10.1021/acs.jpca.5b01585,add-row,appended,row added via add-row
+2026-08-18T21:36:06Z,W2403382869-b,10.1021/acs.jpca.5b01585,add-row,appended,row added via add-row
+2026-08-18T21:36:06Z,W2403382869-c,10.1021/acs.jpca.5b01585,add-row,appended,row added via add-row
+2026-08-18T21:36:06Z,W2403382869-d,10.1021/acs.jpca.5b01585,add-row,appended,row added via add-row
+2026-08-18T21:36:06Z,W2403382869-e,10.1021/acs.jpca.5b01585,add-row,appended,row added via add-row
+2026-08-18T21:36:07Z,W2403382869-f,10.1021/acs.jpca.5b01585,add-row,appended,row added via add-row
+2026-08-18T21:36:07Z,W2403382869-g,10.1021/acs.jpca.5b01585,add-row,appended,row added via add-row
+2026-08-18T21:36:07Z,W2403382869-h,10.1021/acs.jpca.5b01585,add-row,appended,row added via add-row
+2026-08-18T21:36:07Z,W2403382869-i,10.1021/acs.jpca.5b01585,add-row,appended,row added via add-row
+2026-08-18T21:36:07Z,W2403382869-j,10.1021/acs.jpca.5b01585,add-row,appended,row added via add-row
+2026-08-18T21:36:07Z,W2403382869-k,10.1021/acs.jpca.5b01585,add-row,appended,row added via add-row
+2026-08-18T21:36:08Z,W2403382869-l,10.1021/acs.jpca.5b01585,add-row,appended,row added via add-row
+2026-08-18T21:36:08Z,W2403382869-m,10.1021/acs.jpca.5b01585,add-row,appended,row added via add-row
+2026-08-18T21:36:08Z,W2403382869-n,10.1021/acs.jpca.5b01585,add-row,appended,row added via add-row
+2026-08-18T21:36:08Z,W2403382869-o,10.1021/acs.jpca.5b01585,add-row,appended,row added via add-row
+2026-08-18T21:36:08Z,W2403382869-p,10.1021/acs.jpca.5b01585,add-row,appended,row added via add-row
+2026-08-18T21:36:09Z,W2403382869-q,10.1021/acs.jpca.5b01585,add-row,appended,row added via add-row
+2026-08-18T21:36:09Z,W2403382869-r,10.1021/acs.jpca.5b01585,add-row,appended,row added via add-row
+2026-08-18T21:36:09Z,W2403382869-s,10.1021/acs.jpca.5b01585,add-row,appended,row added via add-row
+2026-08-18T21:36:09Z,W2403382869-t,10.1021/acs.jpca.5b01585,add-row,appended,row added via add-row
+2026-08-18T21:36:09Z,W2403382869-u,10.1021/acs.jpca.5b01585,add-row,appended,row added via add-row
+2026-08-18T21:36:09Z,W2403382869-v,10.1021/acs.jpca.5b01585,add-row,appended,row added via add-row
+2026-08-18T21:36:10Z,W2403382869-w,10.1021/acs.jpca.5b01585,add-row,appended,row added via add-row
+2026-08-18T21:36:10Z,W2403382869-x,10.1021/acs.jpca.5b01585,add-row,appended,row added via add-row
+2026-08-18T21:36:10Z,W2403382869-y,10.1021/acs.jpca.5b01585,add-row,appended,row added via add-row
+2026-08-18T21:36:10Z,W2403382869-z,10.1021/acs.jpca.5b01585,add-row,appended,row added via add-row
+2026-08-18T21:36:19Z,W2403382869,10.1021/acs.jpca.5b01585,mark,extracted,"PNOF6 benchmark for hydrogen abstraction; CAS(2,2) and CASPT2(2,2) computed in MOLCAS 8.0 as the wave-function reference. 26 rows: 6 hydrides and 20 organics, all named explicitly by formula. The minimal space is used deliberately as a baseline, and its basis behaviour is diagnostic - the uncorrected MAE barely moves from cc-pVDZ to cc-pVTZ (19.2 to 16.5) while the corrected one more than halves (8.8 to 3.4). The uncorrected level also reverses the CH4/NH3 ordering, which the correction restores."
