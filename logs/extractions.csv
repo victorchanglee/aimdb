@@ -47959,3 +47959,14 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T10:13:47Z,W2287792474-e,10.1021/acs.joc.5b02223,add-row,appended,row added via add-row
 2026-08-18T10:13:47Z,W2287792474-f,10.1021/acs.joc.5b02223,add-row,appended,row added via add-row
 2026-08-18T10:13:48Z,W2287792474,10.1021/acs.joc.5b02223,mark,extracted,"Six electrocyclic rearrangements, CASSCF(12,10)/6-31G* geometries with CASPT2 single points. The space keeps its size but changes composition along the coordinate, trading a pi bond for the new sigma bond while retaining both heteroatom lone pairs -- necessary because the orbital disconnection that defines pseudopericyclic character cannot be represented without them. CASPT2 corrections of 7-13 kcal/mol turn two barriers negative, and the authors state the CASSCF error exceeds the correction in those cases. 6 rows."
+2026-08-18T10:17:41Z,W2311215902-a,10.1021/acs.inorgchem.5b02309,add-row,appended,row added via add-row
+2026-08-18T10:17:41Z,W2311215902-b,10.1021/acs.inorgchem.5b02309,add-row,appended,row added via add-row
+2026-08-18T10:17:41Z,W2311215902-c,10.1021/acs.inorgchem.5b02309,add-row,appended,row added via add-row
+2026-08-18T10:17:41Z,W2311215902-d,10.1021/acs.inorgchem.5b02309,add-row,appended,row added via add-row
+2026-08-18T10:17:42Z,W2311215902-e,10.1021/acs.inorgchem.5b02309,add-row,appended,row added via add-row
+2026-08-18T10:17:42Z,W2311215902-f,10.1021/acs.inorgchem.5b02309,add-row,appended,row added via add-row
+2026-08-18T10:17:42Z,W2311215902-g,10.1021/acs.inorgchem.5b02309,add-row,appended,row added via add-row
+2026-08-18T10:17:42Z,W2311215902,10.1021/acs.inorgchem.5b02309,mark,extracted,"Seven mononuclear MnIV complexes, ORCA 3.0 SA-CASSCF(3,5)/NEVPT2 for zero-field splitting vs CP-DFT. A documented failure of the metal-only d space: NEVPT2 fares worse than DFT, wrong in sign for two complexes. The explicit CAS(7,7) enlargement test on [MnIV(O)(H3buea)]- moves D further from experiment (-4.87 vs -3.93 vs exp +2.5) while reproducing E/D exactly. Authors diagnose CASSCF as overly ionic with poor NEVPT2 compensation. 7 rows."
+2026-08-18T10:18:41Z,W2312354031-a,10.1021/ic200073v,add-row,appended,row added via add-row
+2026-08-18T10:18:41Z,W2312354031-b,10.1021/ic200073v,add-row,appended,row added via add-row
+2026-08-18T10:18:41Z,W2312354031,10.1021/ic200073v,mark,extracted,"Five- and six-coordinate FeIII(NO) porphyrin cations, Gaussian 03 CASSCF(6,5) on B3LYP geometries. The space holds exactly the orbitals both candidate bonding pictures need - three nonbonding Fe d plus two NO pi* - so the closed-shell FeII/NO+ assignment (coefficients 0.92 and 0.91 vs 0.07 and 0.09) is a real choice rather than an artefact. Excited states come from CI on ground-state orbitals, and the authors say the resulting gap is probably overestimated; TD-DFT gives roughly half. 2 rows."
