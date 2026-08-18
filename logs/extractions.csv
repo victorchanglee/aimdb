@@ -47610,3 +47610,17 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T07:10:01Z,W2084637981-i,10.1021/jo0011742,add-row,appended,row added via add-row
 2026-08-18T07:10:01Z,W2084637981-j,10.1021/jo0011742,add-row,appended,row added via add-row
 2026-08-18T07:10:02Z,W2084637981,10.1021/jo0011742,mark,extracted,"Inner-sphere reorganization energies of ten arenediazonium/diazenyl couples; full pi-CASSCF/6-31G* whose trend exactly opposes experiment, with the authors stating full valence CASSCF is needed but intractable. Ten rows; active space size never stated numerically."
+2026-08-18T07:12:55Z,W2084961110-a,10.1021/ja953091m,add-row,appended,row added via add-row
+2026-08-18T07:12:55Z,W2084961110,10.1021/ja953091m,mark,extracted,"Bacteriorhodopsin dark adaptation; CASSCF(8,8)/6-31G on MD snapshots with a rule-based four-HOMO/four-LUMO pi space applied automatically across thousands of geometries, basis convergence tested, dynamic correlation absent. One row."
+2026-08-18T07:13:47Z,W2085079925-a,10.1021/ja045747u,add-row,appended,row added via add-row
+2026-08-18T07:13:47Z,W2085079925-b,10.1021/ja045747u,add-row,appended,row added via add-row
+2026-08-18T07:13:48Z,W2085079925-c,10.1021/ja045747u,add-row,appended,row added via add-row
+2026-08-18T07:13:57Z,W2085079925,10.1021/ja045747u,mark,extracted,"11-cis-locked artificial retinal chromophores; a single CASPT2//CASSCF(10,10) full-pi space applied to all three models so ring-lock effects are not confounded by orbital differences, with state-specific vs two-root averaging split by state. Three rows."
+2026-08-18T07:15:00Z,W2085113359-a,10.1021/jp0560011,add-row,appended,row added via add-row
+2026-08-18T07:15:00Z,W2085113359-b,10.1021/jp0560011,add-row,appended,row added via add-row
+2026-08-18T07:15:00Z,W2085113359-c,10.1021/jp0560011,add-row,appended,row added via add-row
+2026-08-18T07:15:01Z,W2085113359-d,10.1021/jp0560011,add-row,appended,row added via add-row
+2026-08-18T07:15:01Z,W2085113359-e,10.1021/jp0560011,add-row,appended,row added via add-row
+2026-08-18T07:15:01Z,W2085113359-f,10.1021/jp0560011,add-row,appended,row added via add-row
+2026-08-18T07:15:01Z,W2085113359-g,10.1021/jp0560011,add-row,appended,row added via add-row
+2026-08-18T07:15:21Z,W2085113359,10.1021/jp0560011,mark,extracted,"Aromaticity of pericyclic transition states via IDA on CASSCF wave functions; reaction-specific spaces of all valence pi/pi*/sigma/sigma*, Boys-localized for a full-CI VB decomposition, with CASPT2N reversing the [1,5]-C shift retention/inversion ordering. Seven rows."
