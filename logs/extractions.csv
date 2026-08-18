@@ -47488,3 +47488,34 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T06:18:26Z,W2076379254,10.1021/jp9528830,mark,extracted_partial,"Polyacetylene two-site electron transfer; four-pi-orbital space validated by a two-vs-four comparison (3.748 eV improvement) and by CASPT2 occupation numbers of the inactive orbitals, but CASSCF still gives an unphysical cusp because it is not a linear variation method — only CASSI gives smooth Marcus curves. Two rows; electron counts are not stated numerically."
 2026-08-18T06:19:17Z,W2076484727-a,10.1021/jp073188i,add-row,appended,row added via add-row
 2026-08-18T06:19:17Z,W2076484727,10.1021/jp073188i,mark,extracted,"[TCNE]2(2-) dimers in dichloromethane; minimal CASSCF(2,2) of the two pi* combinations validated against UB3LYP natural occupations, with bare CASSCF giving an open-shell minimum and only MCQDPT supplying the dispersion that makes the closed-shell singlet the ground state. One row."
+2026-08-18T06:22:06Z,W2076760728-a,10.1021/jp910362z,add-row,appended,row added via add-row
+2026-08-18T06:22:17Z,W2076760728,10.1021/jp910362z,mark,extracted,"p-Aminobenzonitrile aqueous solvation; fragment-built (10,9) of ring pi/pi*, nitrile pi/pi* and amino lone pair, held fixed across eight solvent densities, with MC-QDPT2 closing the S1-S2 gap from 1.59 to 0.67 eV and reversing the dipole trend. One row."
+2026-08-18T06:25:48Z,W2077358203-a,10.1021/jp306817j,add-row,appended,row added via add-row
+2026-08-18T06:25:48Z,W2077358203-b,10.1021/jp306817j,add-row,appended,row added via add-row
+2026-08-18T06:25:48Z,W2077358203-c,10.1021/jp306817j,add-row,appended,row added via add-row
+2026-08-18T06:25:48Z,W2077358203-d,10.1021/jp306817j,add-row,appended,row added via add-row
+2026-08-18T06:25:48Z,W2077358203-e,10.1021/jp306817j,add-row,appended,row added via add-row
+2026-08-18T06:25:55Z,W2077358203,10.1021/jp306817j,mark,extracted,"Five heteroaryl oxenium ions, CASPT2//CASSCF/ANO-L pVTZ in MOLCAS 7.4; rule-based (10,9) for the three pyridinyl isomers and (12,10) for the diaza ions, with (12,12) needed for one root. One row per ion."
+2026-08-18T06:26:38Z,W2077523442-a,10.1021/jp710522n,add-row,appended,row added via add-row
+2026-08-18T06:26:38Z,W2077523442,10.1021/jp710522n,mark,extracted,"2-Methylfuran triplet photoisomerization; CASSCF(10,8) of five ring pi, one lone pair and a sigma/sigma*(C-C) pair, with MP2-CAS single points that reorder the profile by up to 39 kcal/mol. One row."
+2026-08-18T06:27:26Z,W2077845110-a,10.1021/jp104186w,add-row,appended,row added via add-row
+2026-08-18T06:27:26Z,W2077845110,10.1021/jp104186w,mark,extracted,"H-C#C-OH on Si(100)-2x1; SIMOMM:CASSCF/MRMP2 with six channel-specific active spaces from (4,4) to (10,8), cross-validated against a common (10,10). One row; nel/norb left blank since the paper uses six different spaces."
+2026-08-18T06:28:22Z,W2078040914-a,10.1021/j100089a029,add-row,appended,row added via add-row
+2026-08-18T06:28:22Z,W2078040914,10.1021/j100089a029,mark,extracted,"O(3P)+C2H4 minimum energy path; CASSCF(8,8) orbitals as the one-particle basis for MRD-CI with six references plus estimated full CI, barrier falling 16 -> 8.9 -> 4.7 kcal/mol. One row."
+2026-08-18T06:29:18Z,W2078144221-a,10.1021/jp058227+,add-row,appended,row added via add-row
+2026-08-18T06:29:18Z,W2078144221,10.1021/jp058227+,mark,extracted,"Phenol-nitrogen cluster Franck-Condon simulations; (8,7)-CASSCF inherited from the phenol monomer, internally contracted MRCI on the same reference, and full-valence SACCI, with MRCI failing identically to CASSCF. One row."
+2026-08-18T06:31:07Z,W2078198872-a,10.1063/1.3609756,add-row,appended,row added via add-row
+2026-08-18T06:31:07Z,W2078198872-b,10.1063/1.3609756,add-row,appended,row added via add-row
+2026-08-18T06:31:08Z,W2078198872-c,10.1063/1.3609756,add-row,appended,row added via add-row
+2026-08-18T06:31:08Z,W2078198872-d,10.1063/1.3609756,add-row,appended,row added via add-row
+2026-08-18T06:31:08Z,W2078198872-e,10.1063/1.3609756,add-row,appended,row added via add-row
+2026-08-18T06:31:08Z,W2078198872,10.1063/1.3609756,mark,extracted,"ORMAS-PT method paper with four benchmark applications: LiF CAS(6,9), Si15H16 (8,8), oxoMn(salen) (12,11) and its anion (13,11), and trans-polyacetylene (2n,2n). Five rows."
+2026-08-18T06:32:05Z,W2078588948-a,10.1021/jp910533m,add-row,appended,row added via add-row
+2026-08-18T06:32:06Z,W2078588948,10.1021/jp910533m,mark,extracted,"1:1 7-azaindole:H2O excited-state double proton transfer; CASSCF(10,9)/6-31G(d,p) with MRPT2 dual-level VTST surface, and a (8,8) vs (10,9) comparison that reverses the order of protons in flight. One row."
+2026-08-18T06:33:13Z,W2078647531-a,10.1021/jp9838745,add-row,appended,row added via add-row
+2026-08-18T06:33:13Z,W2078647531,10.1021/jp9838745,mark,extracted,"C2H4Si isomerization manifold; species-specific (2,2)/(4,4)/(6,6)/(10,10) CASSCF spaces plus a uniform (12,12)CASPT2 sweep that lowers everything relative to 1 without reordering. One row."
+2026-08-18T06:33:31Z,W2078858759,10.1016/0009-2614(94)00442-0,mark,not_usable,"Barnes & Lindh, symmetry breaking in quartet O4+ via Brueckner coupled cluster. All calculations in this paper are UHF-based single-reference: QCISD(T), CCSD(T) and BD(T) with 6-31G/6-31G* in ACES II. The CASSCF/RASSCF/CASPT2/CASSI results it compares against (including the 1322 cm-1 antisymmetric stretch and the note that CASPT2 could not overcome a localized CASSCF reference) are all quoted from the authors' earlier study, ref 3. No multireference calculation of its own, so not usable per CLAUDE.md step 4."
+2026-08-18T06:34:11Z,W2078873378-a,10.1021/jp103253b,add-row,appended,row added via add-row
+2026-08-18T06:34:11Z,W2078873378,10.1021/jp103253b,mark,extracted,"9-cis retinal PSB nonadiabatic dynamics; state-averaged CASSCF(6,6)/6-31G all-pi space for on-the-fly trajectories, with the S1 barrier falling 10 -> 6.2 -> 1.7 kcal/mol at CASSCF(10,10) and CASPT2(10,10). One row."
+2026-08-18T06:35:08Z,W2078929809-a,10.1021/ct0600114,add-row,appended,row added via add-row
+2026-08-18T06:35:08Z,W2078929809,10.1021/ct0600114,mark,extracted,"LOV photoreceptor lumiflavin-thiomethanol model; CASSCF(2,2)/(4,4)/(4,3) with MCQDPT2, and MRCI-SD used explicitly as the active-space validation instrument. One row."
