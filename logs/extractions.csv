@@ -46951,3 +46951,13 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T01:02:08Z,W2038348018-g,10.1021/jp0003398,add-row,appended,row added via add-row
 2026-08-18T01:02:08Z,W2038348018-h,10.1021/jp0003398,add-row,appended,row added via add-row
 2026-08-18T01:02:08Z,W2038348018,10.1021/jp0003398,mark,extracted,"Radiationless decay of cyclic alkenes in T1; CASSCF(2,2)/SV+d spin-orbit couplings at UDFT geometries, validated against CISDTQ(12,12) at selected points. Eight rows."
+2026-08-18T01:05:11Z,W2038576576-a,10.1021/jo0611622,add-row,appended,row added via add-row
+2026-08-18T01:05:12Z,W2038576576-b,10.1021/jo0611622,add-row,appended,row added via add-row
+2026-08-18T01:05:12Z,W2038576576-c,10.1021/jo0611622,add-row,appended,row added via add-row
+2026-08-18T01:05:12Z,W2038576576-d,10.1021/jo0611622,add-row,appended,row added via add-row
+2026-08-18T01:05:20Z,W2038576576,10.1021/jo0611622,mark,extracted,"DBH photolysis, alpha C-N vs beta C-C cleavage; four region-specific active spaces (12,10)/(10,9)/(12,11)/fragment, with the (10,9) reduction documented as a convergence workaround. Four rows."
+2026-08-18T01:06:19Z,W2038976405-a,10.1021/jp960073y,add-row,appended,row added via add-row
+2026-08-18T01:06:19Z,W2038976405-b,10.1021/jp960073y,add-row,appended,row added via add-row
+2026-08-18T01:06:19Z,W2038976405-c,10.1021/jp960073y,add-row,appended,row added via add-row
+2026-08-18T01:06:19Z,W2038976405-d,10.1021/jp960073y,add-row,appended,row added via add-row
+2026-08-18T01:06:42Z,W2038976405,10.1021/jp960073y,mark,extracted,"Sulfine heat of formation, basicity and bond strengths; CAS-CI with an 8-electron/6-orbital space fixed by the CH2 + SO dissociation limit and applied uniformly across the thermochemical cycle. Four rows."
