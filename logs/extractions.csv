@@ -46971,3 +46971,10 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T01:11:20Z,W2039782778,10.1021/jp047308n,mark,extracted,"Diphenylacetylene low-lying excited states; (10,10)CASSCF chosen after CI screening confirmed the ten pi orbitals suffice and are conformation-invariant, with MRMP2 corrections. One row."
 2026-08-18T01:12:04Z,W2039352378-a,10.1063/1.464340,add-row,appended,row added via add-row
 2026-08-18T01:12:04Z,W2039352378,10.1063/1.464340,mark,extracted,"NH + NO potential energy surface; CASSCF with 13 electrons in 8a'+3a'' orbitals, the central-N 2s pair made active specifically for the H + N2O region, with selected-reference CCI. One row."
+2026-08-18T01:15:05Z,W2040099404-a,10.1021/jp054497g,add-row,appended,row added via add-row
+2026-08-18T01:15:05Z,W2040099404-b,10.1021/jp054497g,add-row,appended,row added via add-row
+2026-08-18T01:15:06Z,W2040099404,10.1021/jp054497g,mark,extracted,"ClC(O)SCl photochemistry; CAS(10,8)/cc-pVDZ with orbital composition varied per stationary structure (full valence stated as impossible), MR-CI single points. Two rows (syn and anti rotamers)."
+2026-08-18T01:16:01Z,W2040860735-a,10.1021/ja991838t,add-row,appended,row added via add-row
+2026-08-18T01:16:01Z,W2040860735-b,10.1021/ja991838t,add-row,appended,row added via add-row
+2026-08-18T01:16:01Z,W2040860735-c,10.1021/ja991838t,add-row,appended,row added via add-row
+2026-08-18T01:16:33Z,W2040860735,10.1021/ja991838t,mark,extracted,"Allenyl Cope rearrangement of syn-7-allenylnorbornene; uniform (8,8)CASSCF/6-31G* with orbital identity verified per structure, (8,8)CASPT2 single points. Three rows. Citation corrected to J. Am. Chem. Soc. 1999, 121, 12029 after checking the article header (initially mistyped as 2000, 122, 1032)."
