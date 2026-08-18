@@ -48114,3 +48114,13 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T11:40:12Z,W2318674172-d,10.1021/jp109830s,add-row,appended,row added via add-row
 2026-08-18T11:40:13Z,W2318674172-e,10.1021/jp109830s,add-row,appended,row added via add-row
 2026-08-18T11:40:13Z,W2318674172,10.1021/jp109830s,mark,extracted_partial,"C2H2 ground-state surface: full valence CASSCF reference with MRCI+Q, aug-cc-pVXZ up to 5Z, MOLPRO; five rows for the five stationary points. Partial because the full valence space is never given as an electron or orbital count."
+2026-08-18T11:43:22Z,W2319109758-a,10.1021/jp0042258,add-row,appended,row added via add-row
+2026-08-18T11:43:22Z,W2319109758,10.1021/jp0042258,mark,extracted,"PH2 radical, three lowest doublet states; CASSCF and CASSCF-SOCI with a (7e,8MO) space in PSI 2.0.8 at CISD geometries. One row. The active space changes the first excitation energy by only 0.2 kcal/mol against SCF; multireference character is diagnosed instead by SCF stability analysis."
+2026-08-18T11:44:38Z,W2319532074-a,10.1021/jp206344r,add-row,appended,row added via add-row
+2026-08-18T11:44:39Z,W2319532074-b,10.1021/jp206344r,add-row,appended,row added via add-row
+2026-08-18T11:44:39Z,W2319532074,10.1021/jp206344r,mark,extracted,"Two of the nineteen reactions carry multiconfigurational corrections: CASMP2(8,8) with a HOMO-3 to LUMO+3 space on the 1-chloro-4-(methylthio)butane decomposition, and CASSCF/CASMP2 (4,4) and (10,10) on tert-butylphosphine C-P dissociation, MG3S, Gaussian 09. Two rows. The (4,4) to (10,10) enlargement shifts the barrier by 9 kcal/mol and the rate constant by three and a half orders of magnitude."
+2026-08-18T11:45:33Z,W2320229692-a,10.1021/jo202645k,add-row,appended,row added via add-row
+2026-08-18T11:45:34Z,W2320229692,10.1021/jo202645k,mark,extracted,"Thermal rearrangements of 1-hexen-5-yne and relatives; the only multiconfigurational species is the 1,3-biradical intermediate, CASSCF(8,8)/6-311G(d,p) with MRMP2 single points in GAMESS. One row. Transition structures were also checked at CASSCF/MRMP2 against CCSD(T)."
+2026-08-18T11:46:47Z,W2320644602-a,10.1021/jp302623q,add-row,appended,row added via add-row
+2026-08-18T11:46:47Z,W2320644602-b,10.1021/jp302623q,add-row,appended,row added via add-row
+2026-08-18T11:46:47Z,W2320644602,10.1021/jp302623q,mark,extracted,"meso-triarylsubporphyrin MCD; CASPT2(4,4) on a Gouterman-type frontier space in ANO-s, MOLCAS 7.4, for the two representative acceptor and donor compounds. Two rows. Angular momenta proved highly orbital-shape dependent, larger spaces fluctuated, and the authors abandoned orbital optimization for CASCI on Kohn-Sham orbitals."
