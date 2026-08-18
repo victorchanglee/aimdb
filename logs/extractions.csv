@@ -47105,3 +47105,14 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T02:29:50Z,W2048034827,10.1021/jo8015242,mark,extracted_partial,"Isoxazoline [2+2] photocycloadditions; CASPT2//CASSCF/6-31G* with three-root state averaging. Active spaces are described only by orbital COMPOSITION -- no electron/orbital counts are stated anywhere except the CAS(14,11) enlargement test on compound 4 -- so two of the three rows carry blank nel/norb. Three rows."
 2026-08-18T02:30:51Z,W2048170136-a,10.1021/j100110a013,add-row,appended,row added via add-row
 2026-08-18T02:30:51Z,W2048170136,10.1021/j100110a013,mark,extracted,"p-Benzosemiquinone radical anion doublet states; CASSCF(15,12) listed orbital-by-orbital, GAMESS, double-zeta. Documents that omitting the 1b2u orbital reverses the 2Au / first 2B1u ordering. One row."
+2026-08-18T02:34:00Z,W2048194163-a,10.1021/jp112230f,add-row,appended,row added via add-row
+2026-08-18T02:34:00Z,W2048194163,10.1021/jp112230f,mark,extracted,"Uracil solvent shifts; five-state SA-CASSCF(14,10)/cc-pVTZ with MCQDPT and EFP1 water. Space adopted from Merchan et al. for geometric robustness under MD sampling. One row."
+2026-08-18T02:35:21Z,W2048346819-a,10.1021/jp9001466,add-row,appended,row added via add-row
+2026-08-18T02:35:21Z,W2048346819-b,10.1021/jp9001466,add-row,appended,row added via add-row
+2026-08-18T02:35:21Z,W2048346819-c,10.1021/jp9001466,add-row,appended,row added via add-row
+2026-08-18T02:35:22Z,W2048346819,10.1021/jp9001466,mark,extracted,"Benzene oxidation bicyclic species; CAS(9,9) for two bicyclisation paths and CAS(11,11) for the H-transfer channel, cc-pVDZ, MOLPRO, with MOLDEN natural-orbital consistency checks. Documents a CASSCF convergence failure when O2 lone pairs are included. Three rows."
+2026-08-18T02:36:51Z,W2049347244-a,10.1021/jp952199l,add-row,appended,row added via add-row
+2026-08-18T02:36:51Z,W2049347244-b,10.1021/jp952199l,add-row,appended,row added via add-row
+2026-08-18T02:36:51Z,W2049347244,10.1021/jp952199l,mark,extracted,"Zinc carbyne and zinc stannyne; constant-composition CASSCF(8,8) sigma/sigma*/pi space with Stevens ECPs, HONDO-8. Two rows."
+2026-08-18T02:38:00Z,W2049412704-a,10.1021/jp994435o,add-row,appended,row added via add-row
+2026-08-18T02:38:13Z,W2049412704,10.1021/jp994435o,mark,extracted,"Cr(CO)4(bpy) photodissociation; two active spaces split by state type -- 6e17a for MLCT and 10e12a for MC states -- with MR-CCI on high-spin S=4 CASSCF references, MOLCAS-3. One row."
