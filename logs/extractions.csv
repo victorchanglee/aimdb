@@ -47572,3 +47572,10 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T06:56:01Z,W2081907963,10.1021/jp3025045,mark,extracted,"Spirooxazine/merocyanine photochromism; CASSCF(12,11)/6-31G(d) surfaces with the oxygen lone pair changing pO/nO character along the coordinate, nitrogen lone pair added for (14,12) verticals then dropped again, and the paper stating outright that CASSCF is not a good approximation to the PM-CAS-CI wave functions here. One row."
 2026-08-18T06:56:59Z,W2081922532-a,10.1021/jp073983w,add-row,appended,row added via add-row
 2026-08-18T06:57:00Z,W2081922532,10.1021/jp073983w,mark,extracted,"SnCl2+ low-lying doublet and quartet states; full valence CASSCF/MRCI survey used as a single-reference diagnostic (all C0 > 0.72) before switching to RCCSD(T), with two excited states computable only at MRCI. One row; active space size never stated numerically."
+2026-08-18T06:58:36Z,W2082158546-a,10.1021/ic901063y,add-row,appended,row added via add-row
+2026-08-18T06:58:36Z,W2082158546-b,10.1021/ic901063y,add-row,appended,row added via add-row
+2026-08-18T06:58:36Z,W2082158546,10.1021/ic901063y,mark,extracted,"Zero-field splitting in di- and trivalent hexaquochromium; SA-CASSCF(4,5) and (3,5) d-only spaces with MR-DDCI2 and SORCI, where the Jahn-Teller surface needs correlation but D does not, and the 5Eg splitting error is geometric. Two rows."
+2026-08-18T06:59:54Z,W2082257602-a,10.1021/ja1004619,add-row,appended,row added via add-row
+2026-08-18T06:59:54Z,W2082257602-b,10.1021/ja1004619,add-row,appended,row added via add-row
+2026-08-18T06:59:55Z,W2082257602-c,10.1021/ja1004619,add-row,appended,row added via add-row
+2026-08-18T06:59:55Z,W2082257602,10.1021/ja1004619,mark,extracted,"Jahn-Teller-active [HIPTN3N]MoL complexes (L = N2, CO, NH3); CASSCF(3,2) for geometries and the two-state model, SA-CASSCF(3,5) with 30 roots plus MR-DDCI2 for g-tensors, with the space enlargement acting through the PJT splitting rather than through extra SOC pathways. Three rows."
