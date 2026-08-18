@@ -46870,3 +46870,13 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T00:16:33Z,W2030561179-c,10.1021/ja010782b,add-row,appended,row added via add-row
 2026-08-18T00:16:33Z,W2030561179-d,10.1021/ja010782b,add-row,appended,row added via add-row
 2026-08-18T00:16:33Z,W2030561179,10.1021/ja010782b,mark,extracted,"[Ru(E)(E')(CO)2(Me-DAB)] UV-vis spectra; SA-CASSCF (10,12) or 10-orbital restricted space with CASPT2, MOLCAS, including (14,14) and (16,15) control calculations. Four rows."
+2026-08-18T00:20:03Z,W2029278535-a,10.1021/jp055678l,add-row,appended,row added via add-row
+2026-08-18T00:20:03Z,W2029278535,10.1021/jp055678l,mark,extracted,"Formaldehyde pi*->n fluorescence solvent shift in water; SA-CASSCF(4,3) pi/n/pi* with CASSI in the QMSTAT solvent model, CASPT2 reference potentials. One row."
+2026-08-18T00:21:08Z,W2030756689-a,10.1021/jp070672c,add-row,appended,row added via add-row
+2026-08-18T00:21:08Z,W2030756689-b,10.1021/jp070672c,add-row,appended,row added via add-row
+2026-08-18T00:21:09Z,W2030756689-c,10.1021/jp070672c,add-row,appended,row added via add-row
+2026-08-18T00:21:09Z,W2030756689,10.1021/jp070672c,mark,extracted,"Hexafluoro-1,3-butadiene and its radical cation isomers; matched CASSCF(12,10)/(11,10) spaces with MS-CASPT2, ANO-RCC, MOLCAS 6.2. Three rows."
+2026-08-18T00:22:42Z,W2031523652-a,10.1063/1.460289,add-row,appended,row added via add-row
+2026-08-18T00:22:42Z,W2031523652-b,10.1063/1.460289,add-row,appended,row added via add-row
+2026-08-18T00:22:42Z,W2031523652-c,10.1063/1.460289,add-row,appended,row added via add-row
+2026-08-18T00:22:43Z,W2031523652,10.1063/1.460289,mark,extracted,"InSb2, SbIn2, GaAs2, AsGa2 and their ions; restricted ijkl-CAS spaces with matched bent/linear truncations and MRSDCI restoring the frozen group V s electrons. Three rows (InSb2, SbIn2, Ga2As); GaAs2 shares its table with the InSb2 discussion and was not separately transcribed."
