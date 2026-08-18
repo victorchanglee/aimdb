@@ -48202,3 +48202,14 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T12:13:08Z,W2322216820-e,10.1021/jp1046084,add-row,appended,row added via add-row
 2026-08-18T12:13:08Z,W2322216820-f,10.1021/jp1046084,add-row,appended,row added via add-row
 2026-08-18T12:13:08Z,W2322216820,10.1021/jp1046084,mark,extracted,"d4 metal-salen model complexes; SA-CASSCF geometries with CASPT2 and CASPT3 in MOLPRO 2006.1, LANL2DZ*. Six rows. Notable because one member of an isovalent series requires an enlarged (8,6) space when ligand pi orbitals stop being doubly occupied at high metal charge."
+2026-08-18T12:16:44Z,W2322507316-a,10.1021/ct500510k,add-row,appended,row added via add-row
+2026-08-18T12:16:44Z,W2322507316-b,10.1021/ct500510k,add-row,appended,row added via add-row
+2026-08-18T12:16:44Z,W2322507316-c,10.1021/ct500510k,add-row,appended,row added via add-row
+2026-08-18T12:16:45Z,W2322507316-d,10.1021/ct500510k,add-row,appended,row added via add-row
+2026-08-18T12:16:45Z,W2322507316-e,10.1021/ct500510k,add-row,appended,row added via add-row
+2026-08-18T12:16:45Z,W2322507316-f,10.1021/ct500510k,add-row,appended,row added via add-row
+2026-08-18T12:16:45Z,W2322507316,10.1021/ct500510k,mark,extracted,"Pentacene oligomers for singlet fission; CASPT2/SA-CASSCF in MOLCAS 7.8 with (14,14) on the monomer as reference and four pi orbitals per unit for dimers (8,8) and trimers (12,12). Six rows. Explicit space-size testing with a stated scope limit: adequate for the lowest vertical states, possibly not for higher states or PES scans."
+2026-08-18T12:18:19Z,W2322579535-a,10.1021/jp406579w,add-row,appended,row added via add-row
+2026-08-18T12:18:19Z,W2322579535-b,10.1021/jp406579w,add-row,appended,row added via add-row
+2026-08-18T12:18:19Z,W2322579535-c,10.1021/jp406579w,add-row,appended,row added via add-row
+2026-08-18T12:18:20Z,W2322579535,10.1021/jp406579w,mark,extracted,"BeCH2 and HBeCH; CASSCF(12,12) including the Be and C 1s cores, with CASPT2 and MRCISD+Q for the singlets and coupled cluster to CCSDTQ for the triplets, MOLPRO/CFOUR. Three rows. Five methods on a common basis let the bare-space error be read state by state: 0.1 to 21 kcal/mol on the same orbitals."
