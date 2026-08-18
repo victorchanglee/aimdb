@@ -47214,3 +47214,9 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T03:40:31Z,W2055793508-b,10.1021/jp0019254,add-row,appended,row added via add-row
 2026-08-18T03:40:31Z,W2055793508-c,10.1021/jp0019254,add-row,appended,row added via add-row
 2026-08-18T03:40:31Z,W2055793508,10.1021/jp0019254,mark,extracted,"Retinal Schiff base models in bacteriorhodopsin; state-averaged CASSCF(6,6) MRCI references with reference configurations selected across the whole surface, CASSCF(8,8)/(10,10) for excited-state geometries. A CASSCF S0/S1 crossing is LOST after MRCI. Three rows."
+2026-08-18T03:44:19Z,W2056285777-a,10.1021/jp803252h,add-row,appended,row added via add-row
+2026-08-18T03:44:20Z,W2056285777-b,10.1021/jp803252h,add-row,appended,row added via add-row
+2026-08-18T03:44:20Z,W2056285777,10.1021/jp803252h,mark,extracted,"Protonated nitrosamine photochemistry; (14,11) valence space enumerated orbital by orbital and transferred from earlier neutral-nitrosamine work, applied unchanged to both tautomers. Imaginary level shift used by default to keep the CASPT2 surface continuous. Two rows."
+2026-08-18T03:45:28Z,W2056343640-a,10.1063/1.1288377,add-row,appended,row added via add-row
+2026-08-18T03:45:28Z,W2056343640-b,10.1063/1.1288377,add-row,appended,row added via add-row
+2026-08-18T03:45:28Z,W2056343640,10.1063/1.1288377,mark,extracted,Full CI spin density in B and C atoms; systematic CASSCF-to-FCI ladder for carbon showing 20% error three orbitals short of completeness and a sign change across the series. Two rows; electron counts not stated separately so nel blank.
