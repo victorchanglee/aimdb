@@ -47033,3 +47033,27 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T01:49:05Z,W2044181591,10.1021/ic9017745,mark,extracted,"V(III) tristhiolato family; minimal CAS(2,5) d-only space with 10 triplet + 15 singlet roots, QDPT SOC, SSC by McWeeny-Mizuno, SORCI rescue for the 7-coordinate case. Three rows."
 2026-08-18T01:50:18Z,W2045028772-a,10.1021/jp021125o,add-row,appended,row added via add-row
 2026-08-18T01:50:18Z,W2045028772,10.1021/jp021125o,mark,extracted,"Diels-Alder BS vs SA comparison; CASSCF/UNO CASCI {6,6} with MRMP2 and CASMP2(CI), 6-31G*, GAMESS. One row for the parent system; substituted systems are BS-only with CAS sizes diagnosed from UNOs."
+2026-08-18T01:54:21Z,W2045039451-a,10.1021/jp953108n,add-row,appended,row added via add-row
+2026-08-18T01:54:21Z,W2045039451-b,10.1021/jp953108n,add-row,appended,row added via add-row
+2026-08-18T01:54:21Z,W2045039451-c,10.1021/jp953108n,add-row,appended,row added via add-row
+2026-08-18T01:54:21Z,W2045039451,10.1021/jp953108n,mark,extracted,"NaNO3 laser desorption; full-valence CASSCF for NO2- (18,12), NO3- (18,13), NO3 (17,13) with CMRCI on NO2-, MOLPRO. Three rows."
+2026-08-18T01:55:50Z,W2045109945-a,10.1021/jp983829x,add-row,appended,row added via add-row
+2026-08-18T01:55:50Z,W2045109945-b,10.1021/jp983829x,add-row,appended,row added via add-row
+2026-08-18T01:55:50Z,W2045109945-c,10.1021/jp983829x,add-row,appended,row added via add-row
+2026-08-18T01:55:50Z,W2045109945-d,10.1021/jp983829x,add-row,appended,row added via add-row
+2026-08-18T01:55:50Z,W2045109945,10.1021/jp983829x,mark,extracted,"Jahn-Teller parameters for CH3O, CF3O, CH3S, CF3S; CAS(5,6)/6-31G* conical intersection algorithm, Gaussian94 + CADPAC. Four rows."
+2026-08-18T01:57:31Z,W2045312473-a,10.1021/jp502207n,add-row,appended,row added via add-row
+2026-08-18T01:57:32Z,W2045312473-b,10.1021/jp502207n,add-row,appended,row added via add-row
+2026-08-18T01:57:32Z,W2045312473-c,10.1021/jp502207n,add-row,appended,row added via add-row
+2026-08-18T01:57:32Z,W2045312473,10.1021/jp502207n,mark,extracted,"Carbon nanoparticle half-metallicity, DFT vs CASSCF; (8,8) for graphite-like G-4H with a (4,4) failure test, (6,6) for amorphous A16H/A22H, def2-TZVP, ORCA. Three rows."
+2026-08-18T01:58:30Z,W2045508665-a,10.1021/jp0633897,add-row,appended,row added via add-row
+2026-08-18T01:58:31Z,W2045508665,10.1021/jp0633897,mark,extracted,"Thymine conical intersections; CAS(12,10) 8pi+2n for minima and paths, reduced 6-in-6 for CI optimization, CASPT2/CC2 across four basis sets. One row."
+2026-08-18T01:59:35Z,W2045663488-a,10.1021/jo070452v,add-row,appended,row added via add-row
+2026-08-18T01:59:35Z,W2045663488,10.1021/jo070452v,mark,extracted,"Dimethyldihydropyrene photochromism; full-pi CAS(16,16)/cc-pVDZ under imposed C2h, reduced (12,12) for CIs and as CASPT2 reference, MRPT2/(16,16) benchmark. One row."
+2026-08-18T02:00:35Z,W2046237703-a,10.1021/ct400537b,add-row,appended,row added via add-row
+2026-08-18T02:00:35Z,W2046237703,10.1021/ct400537b,mark,extracted,"(6-4) photolyase QM/MM electron-transfer energies; state-count-driven spaces CASSCF(2,2)2/(2,3)3/(2,5)5 with MS-CASPT2, MOLCAS/Tinker. One row."
+2026-08-18T02:02:05Z,W2046246123-a,10.1021/jp070817f,add-row,appended,row added via add-row
+2026-08-18T02:02:05Z,W2046246123-b,10.1021/jp070817f,add-row,appended,row added via add-row
+2026-08-18T02:02:05Z,W2046246123-c,10.1021/jp070817f,add-row,appended,row added via add-row
+2026-08-18T02:02:05Z,W2046246123-d,10.1021/jp070817f,add-row,appended,row added via add-row
+2026-08-18T02:02:06Z,W2046246123,10.1021/jp070817f,mark,extracted,"DAFH analysis of H2, Li2, Li4, F2; full-CI (2,12) for H2 as validation plus full-valence CASSCF (2,8), (4,16), (14,8), MOLPRO. Four rows."
