@@ -48298,3 +48298,9 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T13:05:14Z,W2325985253-a,10.1021/jp5083399,add-row,appended,row added via add-row
 2026-08-18T13:05:14Z,W2325985253-b,10.1021/jp5083399,add-row,appended,row added via add-row
 2026-08-18T13:05:14Z,W2325985253,10.1021/jp5083399,mark,extracted,"PrF2+ and PmF2+ ground and excited state manifolds; CASSCF(4,8) and (6,8) with SO-MCQDPT2 and Breit-Pauli spin-orbit. Two rows. The space is pruned from a larger (n,16) by occupation numbers checked across the whole 1.4-2.6 Angstrom scan rather than at equilibrium alone."
+2026-08-18T13:10:27Z,W2326466673-a,10.1021/jo4008783,add-row,appended,row added via add-row
+2026-08-18T13:10:27Z,W2326466673-b,10.1021/jo4008783,add-row,appended,row added via add-row
+2026-08-18T13:10:28Z,W2326466673-c,10.1021/jo4008783,add-row,appended,row added via add-row
+2026-08-18T13:10:28Z,W2326466673,10.1021/jo4008783,mark,extracted,"Water-assisted self-photoredox of 3-(hydroxymethyl)benzophenone; CASPT2//SA5-CASSCF(14,11)/6-31G* with five explicit waters, Gaussian 03 and MOLCAS. Three rows for the three mechanistic species. One fixed space carries a path from closed-shell through charge-separated to open-shell triplet biradical."
+2026-08-18T13:10:59Z,W2325515270-a,10.1021/ct500689u,add-row,appended,row added via add-row
+2026-08-18T13:11:42Z,W2325515270,10.1021/ct500689u,mark,extracted_partial,"Parallel diagonalization algorithm paper using butadiene MRCI matrices as a test case; CASSCF(4,4) with the pi orbitals named by symmetry label, ANO-L, MOLCAS 7.4, CAS+S matrices of 12748 determinants. One row. Partial because it is a numerical methods paper: no geometry source, no excitation energy and no comparison with experiment are reported."
