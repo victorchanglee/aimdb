@@ -48234,3 +48234,8 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T12:30:02Z,W2323371282-e,10.1021/ic401677j,add-row,appended,row added via add-row
 2026-08-18T12:30:03Z,W2323371282-f,10.1021/ic401677j,add-row,appended,row added via add-row
 2026-08-18T12:30:03Z,W2323371282,10.1021/ic401677j,mark,extracted,"Trigonal-planar Fe(II) and Co(II) amido complexes; CAS(6,5) and CAS(7,5) d-only spaces with SOCI in ORCA 3.0.0 on truncated models. Six rows. Supplies a working criterion for when a minimal d space suffices: excited-determinant admixture below 20 percent and lowest transition above 1000 cm-1."
+2026-08-18T12:33:13Z,W2323176945-a,10.1021/jp403082r,add-row,appended,row added via add-row
+2026-08-18T12:33:13Z,W2323176945-b,10.1021/jp403082r,add-row,appended,row added via add-row
+2026-08-18T12:33:13Z,W2323176945,10.1021/jp403082r,mark,extracted,"Photochemical C-P bond cleavage in phosphonium ions; CASSCF(10,10)/6-31G(d) with MS-CASPT2 in Molpro 2006.1 on a truncated model. Two rows for the two conformers. Documents the full chain from an intractable (32,32) space through molecular truncation to a validated (10,10), with the space checked along the dissociation coordinate and against CC2."
+2026-08-18T12:34:18Z,W2323435880-a,10.1021/ic3013443,add-row,appended,row added via add-row
+2026-08-18T12:34:37Z,W2323435880,10.1021/ic3013443,mark,extracted,"One-electron-oxidized methylcobalamin; CASSCF(11,12) with MC-XQDPT2 in PC GAMESS/Firefly at a DFT geometry of the truncated Im-[Co(corrin)]-Me model. One row. The space is transferred from prior cobalamin work and half of it is correlating orbitals for the double shell effect; the ground state is 49 percent metal and 26 percent corrin with a 10 percent quartet contribution."
