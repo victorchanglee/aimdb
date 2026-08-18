@@ -46848,3 +46848,13 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T00:03:58Z,W2029055518,10.1021/jp9072697,mark,extracted,"Excited states and electronic couplings of pi-stacked DNA base dimers; CAS(8,6) monomer and CAS(16,12) dimer in GAMESS, compared against CIS, CIS(2), EOM-CCSD and TDDFT. Two rows (thymine monomer, thymine dimer); cytosine and adenine dimers not treated with CASSCF."
 2026-08-18T00:05:02Z,W2028795335-a,10.1063/1.452235,add-row,appended,row added via add-row
 2026-08-18T00:05:02Z,W2028795335,10.1063/1.452235,mark,extracted,"Benzene valence and Rydberg excited states; CASSCF(6,12) with a second pi shell plus contracted CI, three basis sets, orbitals constrained to D6h. One row."
+2026-08-18T00:08:23Z,W2029428138-a,10.1021/jp013634g,add-row,appended,row added via add-row
+2026-08-18T00:08:23Z,W2029428138-b,10.1021/jp013634g,add-row,appended,row added via add-row
+2026-08-18T00:08:30Z,W2029428138,10.1021/jp013634g,mark,extracted,"TTF and its radical cation; pi-valence (14,10)/(13,10) SA-CASSCF extended per state symmetry with sigma* and Rydberg orbitals, MS-CASPT2, MOLCAS-4. Two rows."
+2026-08-18T00:09:38Z,W2030337726-a,10.1021/ja106902s,add-row,appended,row added via add-row
+2026-08-18T00:09:39Z,W2030337726-b,10.1021/ja106902s,add-row,appended,row added via add-row
+2026-08-18T00:09:39Z,W2030337726-c,10.1021/ja106902s,add-row,appended,row added via add-row
+2026-08-18T00:09:39Z,W2030337726-d,10.1021/ja106902s,add-row,appended,row added via add-row
+2026-08-18T00:09:39Z,W2030337726,10.1021/ja106902s,mark,extracted,"Intermediate-valence tautomerism in Cp*2Yb(Me-bipy) complexes; CASSCF(4,5) with two 4f plus pi1*/pi2*/pi3* orbitals and CASSCF-MP2, Gaussian 03. Four rows (bipy, 4-Me, 5-Me, 6-Me); dimethyl complexes excluded by intruder states."
+2026-08-18T00:10:26Z,W2029554596-a,10.1021/jo0614184,add-row,appended,row added via add-row
+2026-08-18T00:10:37Z,W2029554596,10.1021/jo0614184,mark,extracted,"1,2-Dihydronaphthalene oxide photochemistry; three different CAS(4,4)/6-31G(d) spaces for three intersection types plus a carbenic space for the T1/S0 crossing, aromatic pi deliberately excluded as (10,10) was unaffordable. One row."
