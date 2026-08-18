@@ -46978,3 +46978,9 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T01:16:01Z,W2040860735-b,10.1021/ja991838t,add-row,appended,row added via add-row
 2026-08-18T01:16:01Z,W2040860735-c,10.1021/ja991838t,add-row,appended,row added via add-row
 2026-08-18T01:16:33Z,W2040860735,10.1021/ja991838t,mark,extracted,"Allenyl Cope rearrangement of syn-7-allenylnorbornene; uniform (8,8)CASSCF/6-31G* with orbital identity verified per structure, (8,8)CASPT2 single points. Three rows. Citation corrected to J. Am. Chem. Soc. 1999, 121, 12029 after checking the article header (initially mistyped as 2000, 122, 1032)."
+2026-08-18T01:20:02Z,W2039968473-a,10.1021/jp206893n,add-row,appended,row added via add-row
+2026-08-18T01:20:02Z,W2039968473,10.1021/jp206893n,mark,extracted,"Thiophene ultrafast deactivation by surface hopping; SA-CASSCF(8,7) with a C-S sigma/sigma* pair added for the ring-opening coordinate, MS-MR-CASPT2 single points. One row."
+2026-08-18T01:20:53Z,W2041053173-a,10.1021/jz100551y,add-row,appended,row added via add-row
+2026-08-18T01:20:53Z,W2041053173,10.1021/jz100551y,mark,extracted,"Acetone photodissociation and slow ISC; (8e,7o) CASPT2-optimized minima, TSs and MSX structures, which converge to different crossings than the earlier CASSCF ones. One row."
+2026-08-18T01:21:38Z,W2040860811-a,10.1021/jp100983t,add-row,appended,row added via add-row
+2026-08-18T01:21:48Z,W2040860811,10.1021/jp100983t,mark,extracted,"TT dimerization in DNA conjugates; the CASSCF(4,12) work covers the ethylene+ethylene model for the [2+2] cyclobutane dimer, doubling the Ben-Nun CASSCF(2,6) monomer space and including carbon Rydberg orbitals. One row; the bulk of the paper is classical MD."
