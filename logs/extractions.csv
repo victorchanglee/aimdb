@@ -48280,3 +48280,13 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T12:53:52Z,W2325095698-b,10.1021/ja211441n,add-row,appended,row added via add-row
 2026-08-18T12:53:52Z,W2325095698-c,10.1021/ja211441n,add-row,appended,row added via add-row
 2026-08-18T12:54:09Z,W2325095698,10.1021/ja211441n,mark,extracted,"Stilbene light-driven rotary motor; SA4-CASSCF(10,10)/6-31G with CASPT2 in MOLPRO 2006.1. Three rows for the motor and its two parent compounds. Notable for stating the space-along-a-path check in the right form: individual orbital characters change significantly during rotation while the space as a whole is well conserved."
+2026-08-18T12:57:16Z,W2325189081-a,10.1021/jp4120892,add-row,appended,row added via add-row
+2026-08-18T12:57:16Z,W2325189081-b,10.1021/jp4120892,add-row,appended,row added via add-row
+2026-08-18T12:57:16Z,W2325189081-c,10.1021/jp4120892,add-row,appended,row added via add-row
+2026-08-18T12:57:16Z,W2325189081-d,10.1021/jp4120892,add-row,appended,row added via add-row
+2026-08-18T12:57:16Z,W2325189081-e,10.1021/jp4120892,add-row,appended,row added via add-row
+2026-08-18T12:57:16Z,W2325189081-f,10.1021/jp4120892,add-row,appended,row added via add-row
+2026-08-18T12:57:17Z,W2325189081,10.1021/jp4120892,mark,extracted,"Singly occupied MOs in conjugated mono- and diradicals; full valence pi CASSCF from (7,7) to (12,12) in MOLCAS 7.2, compared against ROHF, Huckel and UDFT. Six rows. The correlated natural orbital restores the Huckel spin distribution that the single-determinant reference badly distorts."
+2026-08-18T12:58:26Z,W2325294932-a,10.1021/jp311286k,add-row,appended,row added via add-row
+2026-08-18T12:58:26Z,W2325294932-b,10.1021/jp311286k,add-row,appended,row added via add-row
+2026-08-18T12:58:27Z,W2325294932,10.1021/jp311286k,mark,extracted_partial,"Photocleaved cyclic tetrapeptide folding; CASPT2//CASSCF/Amber QM/MM with a (10,8) space in acetonitrile and a (10,9) space in methanol. Two rows. Partial because no basis set is stated anywhere. The two solvents use spaces differing in composition as well as size, so solvent and space effects are not separated."
