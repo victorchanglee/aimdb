@@ -48319,3 +48319,10 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T13:25:17Z,W2327300449-b,10.1021/acs.jpca.6b00047,add-row,appended,row added via add-row
 2026-08-18T13:25:17Z,W2327300449-c,10.1021/acs.jpca.6b00047,add-row,appended,row added via add-row
 2026-08-18T13:25:17Z,W2327300449,10.1021/acs.jpca.6b00047,mark,extracted_partial,"Oxidation of CO by IO radicals; CASPT2/RASSI spin-orbit corrections on CASSCF references with three different spaces along one profile ((11,14), (19,14), (15,13)), MOLCAS 7.9. Three rows. Partial because no basis set is stated for the multiconfigurational calculations and the orbital compositions are not itemized."
+2026-08-18T13:30:21Z,W2327369364-a,10.1021/ja402445a,add-row,appended,row added via add-row
+2026-08-18T13:30:21Z,W2327369364-b,10.1021/ja402445a,add-row,appended,row added via add-row
+2026-08-18T13:30:21Z,W2327369364-c,10.1021/ja402445a,add-row,appended,row added via add-row
+2026-08-18T13:30:21Z,W2327369364-d,10.1021/ja402445a,add-row,appended,row added via add-row
+2026-08-18T13:30:22Z,W2327369364,10.1021/ja402445a,mark,extracted_partial,"Heavy-atom tunnelling in the Bergman cyclization of a 10-membered enediyne; 10,10-CASSCF/6-31G(d) geometries and IRCs in GAMESS with mBLYP and CCSD(T) energy corrections. Four rows. Partial because the active space composition is never itemized. The space is used to cure a ZPE discontinuity at the closed-to-open-shell transition while its own barrier is 14 kcal/mol too high."
+2026-08-18T13:31:25Z,W2327600507-a,10.1021/jp5123129,add-row,appended,row added via add-row
+2026-08-18T13:31:25Z,W2327600507,10.1021/jp5123129,mark,extracted,"Singlet oxygen generation via a thiophene exciplex; CAS(10,8)/cc-pVDZ with MRMP2 single points, Gaussian 09 and GAMESS. One row. The space is scoped by an explicit exclusion -- no ring sigma orbitals, because ring opening is out of scope -- and the correction is chosen on the basis of observed multiconfigurational character."
