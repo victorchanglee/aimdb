@@ -47885,3 +47885,7 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T09:35:03Z,W2163651447-b,10.1021/ic801337f,add-row,appended,row added via add-row
 2026-08-18T09:35:03Z,W2163651447-c,10.1021/ic801337f,add-row,appended,row added via add-row
 2026-08-18T09:35:03Z,W2163651447,10.1021/ic801337f,mark,extracted,"Copper nitrenes, GAMESS CASSCF(10,10)/CEP-31G(d) plus SIMOMM QM/MM. Space built by frontier orbital rank across a1+a2+b1+b2; several sizes tested with similar results, the b1/b2 Cu-N pi orbitals always dominating the correlation. NOONs of 1.5/0.5 on the Cu-N pi bond show diradical character the DFT treatment missed, and survive enlargement to the sterically realistic model. 3 rows."
+2026-08-18T09:36:49Z,W2165298969-a,10.1021/jp901308n,add-row,appended,row added via add-row
+2026-08-18T09:36:49Z,W2165298969-b,10.1021/jp901308n,add-row,appended,row added via add-row
+2026-08-18T09:36:50Z,W2165298969-c,10.1021/jp901308n,add-row,appended,row added via add-row
+2026-08-18T09:36:50Z,W2165298969,10.1021/jp901308n,mark,extracted,"Group 6 terminal arsenides As=MF3, MOLCAS 7 CASSCF/CASPT2 with DKH and ANO-RCC, geometries optimized at CASPT2. One (6,6) bond space (3 bonding + 3 antibonding) held identical across Cr/Mo/W and P/As, so the EBO series 2.18/2.67/2.74 vs 1.96/2.60/2.70 is comparable both ways; the Cr arsenide's 1.96 flags it as not a real triple bond, matching its experimental absence. Semicore correlated in CASPT2. 3 rows."
