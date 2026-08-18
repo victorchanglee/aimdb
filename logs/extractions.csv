@@ -47132,3 +47132,12 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T02:45:46Z,W2049955951-e,10.1021/jp901553y,add-row,appended,row added via add-row
 2026-08-18T02:45:46Z,W2049955951-f,10.1021/jp901553y,add-row,appended,row added via add-row
 2026-08-18T02:45:47Z,W2049955951,10.1021/jp901553y,mark,extracted,"CF2 cycloadditions to five alkenes and disilene; identical minimal CAS(4,4)/6-31G(d,p) throughout, with MR-MP2 and CR-CC(2,3) showing the CASSCF stepwise mechanism is artificial. Six rows."
+2026-08-18T02:49:20Z,W2050079943-a,10.1021/jp026202u,add-row,appended,row added via add-row
+2026-08-18T02:49:20Z,W2050079943,10.1021/jp026202u,mark,extracted_partial,"PO2 states and Franck-Condon simulation; CASSCF/MRCI in MOLPRO with a full-valence active space whose electron and orbital counts are never stated, so nel/norb are blank. Documents an explicit state-specific vs state-averaged orbital argument. One row."
+2026-08-18T02:50:59Z,W2050306335-a,10.1021/ja9821652,add-row,appended,row added via add-row
+2026-08-18T02:50:59Z,W2050306335-b,10.1021/ja9821652,add-row,appended,row added via add-row
+2026-08-18T02:50:59Z,W2050306335-c,10.1021/ja9821652,add-row,appended,row added via add-row
+2026-08-18T02:51:00Z,W2050306335-d,10.1021/ja9821652,add-row,appended,row added via add-row
+2026-08-18T02:51:00Z,W2050306335-e,10.1021/ja9821652,add-row,appended,row added via add-row
+2026-08-18T02:51:00Z,W2050306335-f,10.1021/ja9821652,add-row,appended,row added via add-row
+2026-08-18T02:51:00Z,W2050306335,10.1021/ja9821652,mark,extracted,"Allene oxide / oxyallyl / cyclopropanone rearrangements; CASSCF(4,4) geometries with CASPT2N on an occupation-window-selected CASSCF(10,11) reference. Paper concludes DFT is more reliable than CASSCF(4,4). Six rows."
