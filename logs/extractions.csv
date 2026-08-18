@@ -48290,3 +48290,11 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T12:58:26Z,W2325294932-a,10.1021/jp311286k,add-row,appended,row added via add-row
 2026-08-18T12:58:26Z,W2325294932-b,10.1021/jp311286k,add-row,appended,row added via add-row
 2026-08-18T12:58:27Z,W2325294932,10.1021/jp311286k,mark,extracted_partial,"Photocleaved cyclic tetrapeptide folding; CASPT2//CASSCF/Amber QM/MM with a (10,8) space in acetonitrile and a (10,9) space in methanol. Two rows. Partial because no basis set is stated anywhere. The two solvents use spaces differing in composition as well as size, so solvent and space effects are not separated."
+2026-08-18T13:03:48Z,W2325901605-a,10.1021/jp982730n,add-row,appended,row added via add-row
+2026-08-18T13:03:49Z,W2325901605-b,10.1021/jp982730n,add-row,appended,row added via add-row
+2026-08-18T13:03:49Z,W2325901605-c,10.1021/jp982730n,add-row,appended,row added via add-row
+2026-08-18T13:03:49Z,W2325901605-d,10.1021/jp982730n,add-row,appended,row added via add-row
+2026-08-18T13:03:49Z,W2325901605,10.1021/jp982730n,mark,extracted_partial,"In3Sb2, In2Sb3 and their cations; CASSCF/MRSDCI+Q with relativistic ECPs in GAMESS and modified ALCHEMY II. Four rows. Partial because the active electron counts are never stated; the spaces are given only as symmetry-block orbital distributions (3331 and 4221)."
+2026-08-18T13:05:14Z,W2325985253-a,10.1021/jp5083399,add-row,appended,row added via add-row
+2026-08-18T13:05:14Z,W2325985253-b,10.1021/jp5083399,add-row,appended,row added via add-row
+2026-08-18T13:05:14Z,W2325985253,10.1021/jp5083399,mark,extracted,"PrF2+ and PmF2+ ground and excited state manifolds; CASSCF(4,8) and (6,8) with SO-MCQDPT2 and Breit-Pauli spin-orbit. Two rows. The space is pruned from a larger (n,16) by occupation numbers checked across the whole 1.4-2.6 Angstrom scan rather than at equilibrium alone."
