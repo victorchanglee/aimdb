@@ -48351,3 +48351,10 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T14:03:06Z,W2329048394-b,10.1021/jp509859f,add-row,appended,row added via add-row
 2026-08-18T14:03:06Z,W2329048394-c,10.1021/jp509859f,add-row,appended,row added via add-row
 2026-08-18T14:03:06Z,W2329048394,10.1021/jp509859f,mark,extracted,"Ferrocenium-based ionic liquids; 7SA-CASSCF(13e,11o) reduced to (11e,10o) with DZVP and Breit-Pauli spin-orbit, coupled to RISM-SCF-SEDD for solution. Three rows. The reduction rests on two criteria together -- dz2 occupation 1.995 and a 60 kcal/mol gap to the state needing it -- and the reduced space is then applied where it was validated."
+2026-08-18T14:09:00Z,W2329651955-a,10.1021/ct100336q,add-row,appended,row added via add-row
+2026-08-18T14:09:00Z,W2329651955-b,10.1021/ct100336q,add-row,appended,row added via add-row
+2026-08-18T14:09:00Z,W2329651955-c,10.1021/ct100336q,add-row,appended,row added via add-row
+2026-08-18T14:09:00Z,W2329651955-d,10.1021/ct100336q,add-row,appended,row added via add-row
+2026-08-18T14:09:00Z,W2329651955-e,10.1021/ct100336q,add-row,appended,row added via add-row
+2026-08-18T14:09:00Z,W2329651955-f,10.1021/ct100336q,add-row,appended,row added via add-row
+2026-08-18T14:09:01Z,W2329651955,10.1021/ct100336q,mark,extracted,"Electron capture activation of the Se-Se bond in diselenides; CASSCF(10,8) neutrals and (11,9) anions with CASPT2, MOLCAS 7.2. Six rows. Notable for a diagnosed state-averaging artifact: state-specific optimization overestimates the Se-Se lengthening because the sigma* orbital gets an unphysically high contribution, corrected by six-state averaging."
