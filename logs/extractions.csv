@@ -47831,3 +47831,14 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T09:08:59Z,W2122026376,10.1021/jz300235z,mark,extracted,"DNQ light-induced Wolff rearrangement, CASPT2//CASSCF with (10,10) for optimizations and (14,13) for the CASPT2 energies; the space must carry both the bright (pi,pi*) and the dark (pi,pi*NN) diazo state or the carbene/ketene branching disappears. Basis set only in SI. 1 row."
 2026-08-18T09:10:02Z,W2122439802-a,10.1021/ja3029729,add-row,appended,row added via add-row
 2026-08-18T09:10:02Z,W2122439802,10.1021/ja3029729,mark,extracted,"Photoexcited aniline, CASSCF/6-311+G(d) in Gaussian. CAS1 (8,7) pi+n cannot represent the 1pisigma* state at all (dash in Table 1); CAS2 (10,9) adds N-H sigma/sigma* and it appears at 5.78 eV, at 490 -> 5292 CSFs. Enlargement makes the 2(1)pipi* ICT energy worse, not better. 1 row."
+2026-08-18T09:11:37Z,W2123546240-a,10.1021/jp991821x,add-row,appended,row added via add-row
+2026-08-18T09:11:37Z,W2123546240-b,10.1021/jp991821x,add-row,appended,row added via add-row
+2026-08-18T09:11:38Z,W2123546240,10.1021/jp991821x,mark,extracted,"Pyridine valence isomerization to prefulvene, Gaussian 98 CASSCF(8,7)/STO-3G and 6-31G*. Explicit saturation test: (8,8) and (10,8) showed the seven-orbital space is saturated. Counterpart failure: the n-pi* boat geometry needs many mixed n/pi orbitals, converged too slowly, so CIS was used instead. 2 rows."
+2026-08-18T09:12:54Z,W2126209986-a,10.1021/ic100407e,add-row,appended,row added via add-row
+2026-08-18T09:12:54Z,W2126209986-b,10.1021/ic100407e,add-row,appended,row added via add-row
+2026-08-18T09:12:54Z,W2126209986-c,10.1021/ic100407e,add-row,appended,row added via add-row
+2026-08-18T09:12:54Z,W2126209986-d,10.1021/ic100407e,add-row,appended,row added via add-row
+2026-08-18T09:12:54Z,W2126209986-e,10.1021/ic100407e,add-row,appended,row added via add-row
+2026-08-18T09:13:08Z,W2126209986,10.1021/ic100407e,mark,extracted,"U + P4 reaction products, CASSCF/CASPT2/ANO-RCC-VTZP with CASSI spin-orbit. UP uses the full (9,16) U 7s/6d/5f + P 3p rule; the analogous (12,19) for PUP is too large for current code, truncated by removing near-doubly-occupied and near-empty orbitals to (12,13). NU and NUN deliberately run with matched spaces so the EBO comparison holds. 5 rows."
+2026-08-18T09:14:16Z,W2128136129-a,10.1021/jp802204w,add-row,appended,row added via add-row
+2026-08-18T09:14:16Z,W2128136129,10.1021/jp802204w,mark,extracted,"Previtamin D conical intersection by ONIOM, CASSCF(6,6) hexatriene pi space held identical across Target, ONIOM model and low-level-CASSCF cases. The all-CASSCF combination has the Target geometry yet still overestimates the S1-S0 gap by ~3 kcal/mol, isolating the cost of localizing the excitation as a floor no ONIOM combination can beat. 1 row."
