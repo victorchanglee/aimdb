@@ -48213,3 +48213,12 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T12:18:19Z,W2322579535-b,10.1021/jp406579w,add-row,appended,row added via add-row
 2026-08-18T12:18:19Z,W2322579535-c,10.1021/jp406579w,add-row,appended,row added via add-row
 2026-08-18T12:18:20Z,W2322579535,10.1021/jp406579w,mark,extracted,"BeCH2 and HBeCH; CASSCF(12,12) including the Be and C 1s cores, with CASPT2 and MRCISD+Q for the singlets and coupled cluster to CCSDTQ for the triplets, MOLPRO/CFOUR. Three rows. Five methods on a common basis let the bare-space error be read state by state: 0.1 to 21 kcal/mol on the same orbitals."
+2026-08-18T12:21:55Z,W2322564103-a,10.1021/jp509774t,add-row,appended,row added via add-row
+2026-08-18T12:21:55Z,W2322564103,10.1021/jp509774t,mark,extracted,"Toluene cation Ehrenfest dynamics near a conical intersection; state-averaged CASSCF(5,6)/6-31G* in a Gaussian development version. One row. The space is justified by the energy gap to the first excluded state (0.2 eV within the pair against more than 2 eV to the next) rather than by a size test."
+2026-08-18T12:23:31Z,W2322625376-a,10.1021/jp509492e,add-row,appended,row added via add-row
+2026-08-18T12:23:32Z,W2322625376-b,10.1021/jp509492e,add-row,appended,row added via add-row
+2026-08-18T12:23:32Z,W2322625376-c,10.1021/jp509492e,add-row,appended,row added via add-row
+2026-08-18T12:23:32Z,W2322625376-d,10.1021/jp509492e,add-row,appended,row added via add-row
+2026-08-18T12:23:32Z,W2322625376-e,10.1021/jp509492e,add-row,appended,row added via add-row
+2026-08-18T12:23:32Z,W2322625376-f,10.1021/jp509492e,add-row,appended,row added via add-row
+2026-08-18T12:23:32Z,W2322625376,10.1021/jp509492e,mark,extracted,"Energy transfer in a dinuclear Eu/Tb complex; XMCQDPT2/CASSCF in Firefly with 4f-in-core pseudopotentials, spaces of (4,4), (6,6) and (8,8) built one frontier pair per ligand. Six rows for the three Gd calibration models and the three fragments. The full complex would need (14,14), which is why it was fragmented."
