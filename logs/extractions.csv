@@ -47732,3 +47732,11 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T08:09:43Z,W2093216221-e,10.1021/j100192a029,add-row,appended,row added via add-row
 2026-08-18T08:09:43Z,W2093216221-f,10.1021/j100192a029,add-row,appended,row added via add-row
 2026-08-18T08:09:43Z,W2093216221,10.1021/j100192a029,mark,extracted,"Hexatriene radical cation rotamers; all-pi CASSCF in the six lowest pi valence orbitals applied uniformly to planar and nonplanar rotamers, with excitation-energy spreads (0.1 and 0.3 eV) smaller than the basis-set shift. Six rows."
+2026-08-18T08:13:23Z,W2093219356-a,10.1021/jp003224c,add-row,appended,row added via add-row
+2026-08-18T08:13:36Z,W2093219356,10.1021/jp003224c,mark,extracted,"C(3P) + vinyl radical excited-state surface; CASSCF(11,11) geometries refined by internally contracted MRCI(7,8)+D on the same reference, with the 4es isomer stabilized 9.2 kcal/mol by MRCI while others move under 1 kcal/mol. One row."
+2026-08-18T08:14:23Z,W2093564433-a,10.1063/1.449206,add-row,appended,row added via add-row
+2026-08-18T08:14:23Z,W2093564433,10.1063/1.449206,mark,extracted,"HCN vibrational band strengths; staged CASSCF with (6a',2a'') over 384 geometries and full valence (7a',2a'') over 83, where enlarging the space and the basis both fail to explain the nu2 intensity error, and removing the 3sigma orbital causes convergence failure. One row."
+2026-08-18T08:15:22Z,W2094051011-a,10.1021/j100075a010,add-row,appended,row added via add-row
+2026-08-18T08:15:23Z,W2094051011-b,10.1021/j100075a010,add-row,appended,row added via add-row
+2026-08-18T08:15:23Z,W2094051011-c,10.1021/j100075a010,add-row,appended,row added via add-row
+2026-08-18T08:15:23Z,W2094051011,10.1021/j100075a010,mark,extracted,"BCN, BNC and C3; full-valence CASSCF[12,12]/cc-pVDZ as exact internal correlation with no external correlation, giving C3 frequencies within 50 cm-1 of experiment but a badly long bond length. Three rows."
