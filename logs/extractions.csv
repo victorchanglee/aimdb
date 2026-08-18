@@ -47519,3 +47519,13 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T06:34:11Z,W2078873378,10.1021/jp103253b,mark,extracted,"9-cis retinal PSB nonadiabatic dynamics; state-averaged CASSCF(6,6)/6-31G all-pi space for on-the-fly trajectories, with the S1 barrier falling 10 -> 6.2 -> 1.7 kcal/mol at CASSCF(10,10) and CASPT2(10,10). One row."
 2026-08-18T06:35:08Z,W2078929809-a,10.1021/ct0600114,add-row,appended,row added via add-row
 2026-08-18T06:35:08Z,W2078929809,10.1021/ct0600114,mark,extracted,"LOV photoreceptor lumiflavin-thiomethanol model; CASSCF(2,2)/(4,4)/(4,3) with MCQDPT2, and MRCI-SD used explicitly as the active-space validation instrument. One row."
+2026-08-18T06:36:31Z,W2078948945-a,10.1021/ja711173z,add-row,appended,row added via add-row
+2026-08-18T06:36:42Z,W2078948945,10.1021/ja711173z,mark,extracted,"Diarylethene photochromism; CASSCF(10,10)/6-31G* on the mod-DAE surrogate with contents swapping pi/pi* for sigma/sigma* along the coordinate, CASPT2 restoring the S0/T1 crossings that CASSCF erases, and (8,8) for SOC. One row for mod-DAE; DAE and the Ru dyads are DFT only."
+2026-08-18T06:37:27Z,W2079011258-a,10.1021/ja973710m,add-row,appended,row added via add-row
+2026-08-18T06:37:27Z,W2079011258,10.1021/ja973710m,mark,extracted,"7-Hydroxyquinoline triple proton transfer in methanol; CASSCF(14,10)/3-21G chosen by trimming a (14,12) trial on occupation numbers, with the T* state carrying >50 percent double-excitation character that CIS cannot reach. One row."
+2026-08-18T06:38:16Z,W2079031849-a,10.1021/jp004041t,add-row,appended,row added via add-row
+2026-08-18T06:38:16Z,W2079031849,10.1021/jp004041t,mark,extracted,"Benzaldehyde electronic spectrum; MS-CASPT2 on average CASSCF references with eight symmetry- and class-specific spaces, and the valence pi space cut from 8 to 4 orbitals whenever a' Rydberg orbitals are included. One row; nel/norb left blank since eight different spaces are used."
+2026-08-18T06:39:20Z,W2078987963-a,10.1039/c4sc00751d,add-row,appended,row added via add-row
+2026-08-18T06:39:20Z,W2078987963-b,10.1039/c4sc00751d,add-row,appended,row added via add-row
+2026-08-18T06:39:20Z,W2078987963-c,10.1039/c4sc00751d,add-row,appended,row added via add-row
+2026-08-18T06:39:20Z,W2078987963,10.1039/c4sc00751d,mark,extracted,"LnPc2 double deckers (Dy, Ho, Er); CASSCF with the seven 4f orbitals plus RASSI in MOLCAS 7.8, energies requiring per-metal scaling factors of 0.68, 1.31 and 1.27. Three rows; active electron count never stated."
