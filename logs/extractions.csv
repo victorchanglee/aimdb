@@ -48082,3 +48082,13 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T11:23:21Z,W2317548820-a,10.1021/jp212079f,add-row,appended,row added via add-row
 2026-08-18T11:23:21Z,W2317548820-b,10.1021/jp212079f,add-row,appended,row added via add-row
 2026-08-18T11:23:34Z,W2317548820,10.1021/jp212079f,mark,extracted,"DMAZ thermal decomposition, CASSCF(10,8)/aug-cc-pVDZ used as a calibration standard on the smaller methyl azide to license a cheap DFT model for the target. Agreement quantified: within 1 kcal/mol on the singlet surface, 2 on the triplet. The instructive result is that the shallow singlet nitrene-N2 intermediate found at CASSCF does not survive the higher-level single points, which put the following TS 1-2 kcal/mol below it. 2 rows."
+2026-08-18T11:27:14Z,W2317892435-a,10.1021/jo402756y,add-row,appended,row added via add-row
+2026-08-18T11:27:15Z,W2317892435-b,10.1021/jo402756y,add-row,appended,row added via add-row
+2026-08-18T11:27:15Z,W2317892435-c,10.1021/jo402756y,add-row,appended,row added via add-row
+2026-08-18T11:27:15Z,W2317892435,10.1021/jo402756y,mark,extracted,"Quinolizinium derivatives, CASSCF/CASPT2(12,10) for full systems and (6,6) for models, 6-31G(d,p). Active spaces seeded from Kohn-Sham DFT eigenvectors with NOs and NOONs monitored to confirm convergence onto the intended space; an (8,7) space used as an initial guess where (12,10) would not converge - a practical detail rarely printed. The argument rests on orbital localization: separate donor/acceptor domains suppress triplet exchange and collapse the S1-T1 gap to 0.04 eV. 3 rows."
+2026-08-18T11:28:23Z,W2318409227-a,10.1021/acs.jpca.5b01645,add-row,appended,row added via add-row
+2026-08-18T11:28:23Z,W2318409227-b,10.1021/acs.jpca.5b01645,add-row,appended,row added via add-row
+2026-08-18T11:28:24Z,W2318409227-c,10.1021/acs.jpca.5b01645,add-row,appended,row added via add-row
+2026-08-18T11:28:24Z,W2318409227-d,10.1021/acs.jpca.5b01645,add-row,appended,row added via add-row
+2026-08-18T11:28:24Z,W2318409227-e,10.1021/acs.jpca.5b01645,add-row,appended,row added via add-row
+2026-08-18T11:28:38Z,W2318409227,10.1021/acs.jpca.5b01645,mark,extracted_partial,"Gaseous ruthenium species thermodynamics, MOLPRO full-valence CASSCF with MRCI+Q, CASPT2 and QD-PCNEVPT2. Space composition given (O 2s2p plus Ru 5s4d) but never as electron/orbital counts, hence partial. Three independent MR diagnostics that partly disagree - T1 up to 0.054, spin contamination 40% for RuO2 only, leading configuration weight above 0.9 throughout - with the configuration weight arbitrating. Full valence was feasible only for Ru, RuO and RuO2; the two chemically dominant oxides were never treated multiconfigurationally. 5 rows."
