@@ -47241,3 +47241,34 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T03:59:34Z,W2057487897,10.1021/ja016915a,mark,extracted,"Tryptophan fluorescence quenching; active space adapted four times along one path -- (10,9) base, (12,11) with sigma(N-H)/sigma*(N-H) for the H-transfer TS, back to (10,9) when the new C-H orbitals reach occupations 2 and 0, then (8,8) so the coupled MCSCF equations could be solved. One row."
 2026-08-18T04:00:25Z,W2057589799-a,10.1021/jp0042462,add-row,appended,row added via add-row
 2026-08-18T04:00:25Z,W2057589799,10.1021/jp0042462,mark,extracted,"Dimethylaluminum hydride decomposition; minimal bond-pair CAS(6,6) covering the Al-H and two Al-CH3 bonds, reused for ICCI+Q. CASSCF supplies geometries and frequencies while energetics come from CCSD(T)/CBS. One row."
+2026-08-18T04:04:15Z,W2058136404-a,10.1021/jp066384i,add-row,appended,row added via add-row
+2026-08-18T04:04:15Z,W2058136404,10.1021/jp066384i,mark,extracted_partial,"Koopmans-based optical spectra paper; the CASSCF/CASPT2 for the biphenylene radical cation is marked 'This work' but NO computational details are given -- no active space, basis or program -- so the single row carries blank nel/norb. Polyene CASPT2 values are from the literature and not extracted."
+2026-08-18T04:05:31Z,W2058315415-a,10.1021/jp802759v,add-row,appended,row added via add-row
+2026-08-18T04:05:31Z,W2058315415-b,10.1021/jp802759v,add-row,appended,row added via add-row
+2026-08-18T04:05:31Z,W2058315415-c,10.1021/jp802759v,add-row,appended,row added via add-row
+2026-08-18T04:05:31Z,W2058315415,10.1021/jp802759v,mark,extracted,"Guanine tautomer photophysics; several active spaces stated per state and path, with the enol-amino tautomer forced to (12,10) by a convergence failure and using different orbital sets per structure. CASPT2 leaves a 0.3 eV gap at the corrected CASSCF intersections. Three rows."
+2026-08-18T04:09:22Z,W2058365741-a,10.1021/ja00084a056,add-row,appended,row added via add-row
+2026-08-18T04:09:22Z,W2058365741,10.1021/ja00084a056,mark,extracted,"Acrolein excited-state surface crossings; CASSCF(6,5)/6-31G* fragment-additive pi+n space, Gaussian 92, state-averaged MC-SCF for intersection optimizations. One row."
+2026-08-18T04:10:40Z,W2058576263-a,10.1021/jp905898j,add-row,appended,row added via add-row
+2026-08-18T04:10:41Z,W2058576263-b,10.1021/jp905898j,add-row,appended,row added via add-row
+2026-08-18T04:10:41Z,W2058576263-c,10.1021/jp905898j,add-row,appended,row added via add-row
+2026-08-18T04:10:41Z,W2058576263-d,10.1021/jp905898j,add-row,appended,row added via add-row
+2026-08-18T04:10:41Z,W2058576263-e,10.1021/jp905898j,add-row,appended,row added via add-row
+2026-08-18T04:10:41Z,W2058576263-f,10.1021/jp905898j,add-row,appended,row added via add-row
+2026-08-18T04:10:41Z,W2058576263-g,10.1021/jp905898j,add-row,appended,row added via add-row
+2026-08-18T04:10:42Z,W2058576263,10.1021/jp905898j,mark,extracted,"Seven SiC2H2 isomers; identical full-valence CASSCF(14,14)/cc-pV(Q+d)Z single points at CCSD(T) geometries used diagnostically, with per-isomer CI coefficients and natural orbital occupations. Seven rows."
+2026-08-18T04:12:29Z,W2058655184-a,10.1021/ja980468q,add-row,appended,row added via add-row
+2026-08-18T04:12:29Z,W2058655184-b,10.1021/ja980468q,add-row,appended,row added via add-row
+2026-08-18T04:12:29Z,W2058655184-c,10.1021/ja980468q,add-row,appended,row added via add-row
+2026-08-18T04:12:29Z,W2058655184-d,10.1021/ja980468q,add-row,appended,row added via add-row
+2026-08-18T04:12:29Z,W2058655184,10.1021/ja980468q,mark,extracted,"10-membered cyclic diyne transannular ring closures; fixed-size (8,8) space whose composition switches from in-plane pi/pi* to sigma/sigma*+nonbonding along the path, CASSCF vs CASPT2[0]/[g1]. Four rows."
+2026-08-18T04:13:54Z,W2058783139-a,10.1021/acs.jctc.5b00004,add-row,appended,row added via add-row
+2026-08-18T04:13:54Z,W2058783139-b,10.1021/acs.jctc.5b00004,add-row,appended,row added via add-row
+2026-08-18T04:13:54Z,W2058783139-c,10.1021/acs.jctc.5b00004,add-row,appended,row added via add-row
+2026-08-18T04:13:55Z,W2058783139-d,10.1021/acs.jctc.5b00004,add-row,appended,row added via add-row
+2026-08-18T04:13:55Z,W2058783139-e,10.1021/acs.jctc.5b00004,add-row,appended,row added via add-row
+2026-08-18T04:14:03Z,W2058783139,10.1021/acs.jctc.5b00004,mark,extracted,"ONIOM(CASSCF:UFF) MECI algorithms; chromophore-only spaces (6,6) fulvene/benzene/ergosterol, (4,4) butadiene, (12,12) DPDBF crystal cluster. Five rows grouped by chromophore."
+2026-08-18T04:15:33Z,W2059000803-a,10.1021/jp044498t,add-row,appended,row added via add-row
+2026-08-18T04:15:33Z,W2059000803-b,10.1021/jp044498t,add-row,appended,row added via add-row
+2026-08-18T04:15:33Z,W2059000803-c,10.1021/jp044498t,add-row,appended,row added via add-row
+2026-08-18T04:15:34Z,W2059000803,10.1021/jp044498t,mark,extracted,"2HP-(H2O)n proton transfer; CAS(10,8) whose content swaps pi for O-H/N-H sigma/sigma* at the S1 transition states, with the authors diagnosing the resulting barrier overestimate; MR-CI refinement. Three rows."
