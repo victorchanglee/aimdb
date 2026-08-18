@@ -47173,3 +47173,10 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T03:07:57Z,W2052561270-e,10.1021/jp960446v,add-row,appended,row added via add-row
 2026-08-18T03:07:57Z,W2052561270-f,10.1021/jp960446v,add-row,appended,row added via add-row
 2026-08-18T03:08:09Z,W2052561270,10.1021/jp960446v,mark,extracted,"Sc+ + CH4 mechanism; every active space built additively from fragment spaces with all orbitals listed in Table 1, one common (6/10) MR-SDCI reference correct at both dissociation limits. Six rows."
+2026-08-18T03:10:59Z,W2052705129-a,10.1021/jp0032208,add-row,appended,row added via add-row
+2026-08-18T03:11:10Z,W2052705129,10.1021/jp0032208,mark,extracted,"H2 + O2 kinetic stability; full-valence (14,10)CASSCF/6-31G** across three mechanisms with MR-(S)DCI/cc-pVTZ single points, validated against five experimental quantities. One row."
+2026-08-18T03:12:53Z,W2052854489-a,10.1021/jp047768g,add-row,appended,row added via add-row
+2026-08-18T03:12:53Z,W2052854489-b,10.1021/jp047768g,add-row,appended,row added via add-row
+2026-08-18T03:12:53Z,W2052854489-c,10.1021/jp047768g,add-row,appended,row added via add-row
+2026-08-18T03:12:53Z,W2052854489-d,10.1021/jp047768g,add-row,appended,row added via add-row
+2026-08-18T03:12:53Z,W2052854489,10.1021/jp047768g,mark,extracted,"5-Dehydro-m-xylylene triradical and N/P derivatives; CASSCF(10,9)/(9,9)/(13,11) with MS-CASPT2 and MCQDPT. Documents oversizing a space for neutral/cation consistency, and including lone pairs with occupation >1.97 because omitting them costs 15% of a 2 kcal/mol gap. Four rows."
