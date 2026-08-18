@@ -47684,3 +47684,11 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T07:47:52Z,W2089838371,10.1021/jp068542b,mark,extracted,"Oxyluciferin geometries and fluorescence; (6,6)/(8,8)/(10,10) run in parallel throughout, showing monotone convergence for keto forms, false convergence for enol-s-trans, and an 11 kcal/mol non-monotone jump for keto-s-twist resolved against the larger space. Two rows."
 2026-08-18T07:48:41Z,W2089948046-a,10.1021/jp1018197,add-row,appended,row added via add-row
 2026-08-18T07:48:42Z,W2089948046,10.1021/jp1018197,mark,extracted,"N2 double ionization from multiple orbitals; full valence CASSCF/MRCI/cc-pV5Z with only 1sigma-g and 1sigma-u frozen, state-averaged in D2h and corrected to D-infinity-h, giving 12 dication states with KER assignments. One row; active space size never stated numerically."
+2026-08-18T07:52:10Z,W2090106084-a,10.1021/ja9741741,add-row,appended,row added via add-row
+2026-08-18T07:52:24Z,W2090106084,10.1021/ja9741741,mark,extracted,"Diels-Alder spin-coupled VB analysis; CASSCF(6,6)/4-31G IRC with the same six orbitals recast as nonorthogonal SC orbitals recovering 92.9-95.8 percent of the CAS correlation energy, and CASSCF(6,6) reversing the concerted/stepwise ordering relative to RQCISD(T). One row."
+2026-08-18T07:53:47Z,W2090351611-a,10.1021/ja800616s,add-row,appended,row added via add-row
+2026-08-18T07:53:47Z,W2090351611-b,10.1021/ja800616s,add-row,appended,row added via add-row
+2026-08-18T07:53:47Z,W2090351611-c,10.1021/ja800616s,add-row,appended,row added via add-row
+2026-08-18T07:53:48Z,W2090351611-d,10.1021/ja800616s,add-row,appended,row added via add-row
+2026-08-18T07:53:48Z,W2090351611-e,10.1021/ja800616s,add-row,appended,row added via add-row
+2026-08-18T07:53:48Z,W2090351611,10.1021/ja800616s,mark,extracted,"Spin-orbit effects on Ru/Os reduction potentials; minimum (5,3) t2g space for CASSCF/CASPT2/CASSI but enlarged (6,5)/(5,5) all-d reference for MRCI because MRCI does not relax orbitals. Five rows for the ruthenium and osmium complexes."
