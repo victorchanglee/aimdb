@@ -46923,3 +46923,14 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T00:47:48Z,W2037042858,10.1021/ar700205f,mark,not_usable,"Accounts of Chemical Research review by Fang on dark structures in radiationless transitions of aromatic carbonyls. Every multireference number is attributed to prior publications: Table 2 footnotes give the CASSCF/6-31G* values as 'from ref 31', MCSCF/6-311G** 'from ref 13', CASPT2 'from ref 35' and MCQDPT 'from ref 13', and the CAS(10,9) adiabatic energies in the text carry a ref 31 citation. No calculation is performed in this Account itself, and no phrase indicating new work appears. Not usable per CLAUDE.md step 4 — the cited source papers are the ones to mine."
 2026-08-18T00:48:49Z,W2037145111-a,10.1021/ct800513v,add-row,appended,row added via add-row
 2026-08-18T00:48:49Z,W2037145111,10.1021/ct800513v,mark,extracted_partial,"HSiCl/DSiCl A-X Franck-Condon simulations; single-state full-valence CASSCF/MRCI+D with CBS and core-correlation corrections. One row. Marked partial because the paper states only 'a full valence active space was employed' without giving electron or orbital counts, so active_space_nel and active_space_norb are left blank."
+2026-08-18T00:51:54Z,W2037276570-a,10.1021/jp9803945,add-row,appended,row added via add-row
+2026-08-18T00:52:06Z,W2037276570,10.1021/jp9803945,mark,extracted,"Menshutkin SN2 in water; CAS(4,4) a1 space chosen to describe both reactant and product bonding, coupled to PCM in GAMESS. One row."
+2026-08-18T00:53:09Z,W2037628795-a,10.1021/jp1026543,add-row,appended,row added via add-row
+2026-08-18T00:53:09Z,W2037628795-b,10.1021/jp1026543,add-row,appended,row added via add-row
+2026-08-18T00:53:10Z,W2037628795-c,10.1021/jp1026543,add-row,appended,row added via add-row
+2026-08-18T00:53:10Z,W2037628795-d,10.1021/jp1026543,add-row,appended,row added via add-row
+2026-08-18T00:53:10Z,W2037628795-e,10.1021/jp1026543,add-row,appended,row added via add-row
+2026-08-18T00:53:10Z,W2037628795,10.1021/jp1026543,mark,extracted,"CX2=MX2 methylidene complexes from Co/Rh/Ir; CAS(5,6) single points at B3LYP geometries used solely to extract effective bond orders from natural orbital occupancies, validated against CASPT2. Five rows."
+2026-08-18T00:54:00Z,W2038014804-a,10.1021/jo0104680,add-row,appended,row added via add-row
+2026-08-18T00:54:00Z,W2038014804-b,10.1021/jo0104680,add-row,appended,row added via add-row
+2026-08-18T00:54:11Z,W2038014804,10.1021/jo0104680,mark,extracted,"4-Aminophenyl cation from 4-chloroaniline photolysis; CASSCF(8,8)/6-31G(d) used diagnostically to test single-determinant validity, which holds for the 3B2 triplet but fails for the 1A' singlet. Two rows."
