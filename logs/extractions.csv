@@ -46908,3 +46908,13 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T00:38:20Z,W2034587219,10.1021/jp710633s,mark,extracted,"C2H3Cl+ low-lying states and Cl-loss photodissociation; CAS(13,11) inherited from the neutral molecule's HF frontier block, CASPT2 geometries and three distinct excitation-energy definitions. One row. Reference page corrected to 1688 after checking the article header (initially mistyped as 2444)."
 2026-08-18T00:39:13Z,W2034005028-a,10.1021/jp801660b,add-row,appended,row added via add-row
 2026-08-18T00:39:13Z,W2034005028,10.1021/jp801660b,mark,extracted,"Betaine dye PNP excited state with RISM-SCF/CASSCF; (12,11) pi + n(O) space that would not converge for a C1-optimized S1, with the workaround documented. One row."
+2026-08-18T00:42:13Z,W2035185191-a,10.1021/ja9635241,add-row,appended,row added via add-row
+2026-08-18T00:42:13Z,W2035185191-b,10.1021/ja9635241,add-row,appended,row added via add-row
+2026-08-18T00:42:14Z,W2035185191-c,10.1021/ja9635241,add-row,appended,row added via add-row
+2026-08-18T00:42:14Z,W2035185191-d,10.1021/ja9635241,add-row,appended,row added via add-row
+2026-08-18T00:42:21Z,W2035185191,10.1021/ja9635241,mark,extracted,"Phenylnitrene ring expansion; constant-size CASSCF(8,8) with per-structure orbital composition documented, CASPT2N single points. Four rows (1a, 2a, 3a, 4a); phenylcarbene analogues taken from ref 24."
+2026-08-18T00:43:09Z,W2035281466-a,10.1021/jp0533527,add-row,appended,row added via add-row
+2026-08-18T00:43:09Z,W2035281466,10.1021/jp0533527,mark,extracted,"Aniline low-lying singlet and triplet states; CASSCF(10,12)/ANO-S with 3s/3p Rydberg orbitals (3d screened out via RASSCF inspection) and MS-CASPT2, MOLCAS 6.0. One row."
+2026-08-18T00:44:06Z,W2035812238-a,10.1021/jp074391g,add-row,appended,row added via add-row
+2026-08-18T00:44:06Z,W2035812238-b,10.1021/jp074391g,add-row,appended,row added via add-row
+2026-08-18T00:44:06Z,W2035812238,10.1021/jp074391g,mark,extracted,"Diels-Alder of butadiene with silaethylene and disilene; uniform CASSCF(6,6)/6-31G(d) across both surfaces with CASPT2 single points and CiLC-IRC analysis. Two rows."
