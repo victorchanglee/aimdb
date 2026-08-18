@@ -47416,3 +47416,14 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T05:19:56Z,W2070921265-a,10.1021/j100093a007,add-row,appended,row added via add-row
 2026-08-18T05:19:57Z,W2070921265-b,10.1021/j100093a007,add-row,appended,row added via add-row
 2026-08-18T05:20:08Z,W2070921265,10.1021/j100093a007,mark,extracted,"PNP radical matrix IR assignment; full-valence CASSCF(15,12) for all four P2N doublet isomers plus multireference ACPF with an iteratively expanded reference space that still carries only 80.5% and 73.6% weight, with the authors reporting the transition energy as unconverged. Two rows."
+2026-08-18T05:23:25Z,W2071088013-a,10.1021/jp072565o,add-row,appended,row added via add-row
+2026-08-18T05:23:26Z,W2071088013-b,10.1021/jp072565o,add-row,appended,row added via add-row
+2026-08-18T05:23:26Z,W2071088013-c,10.1021/jp072565o,add-row,appended,row added via add-row
+2026-08-18T05:23:26Z,W2071088013,10.1021/jp072565o,mark,extracted,"NAPA peptide conformers; CASSCF(8,8) of four amide/acetyl carbonyl orbitals plus four benzene e1g/e2u frontier orbitals used to disprove TD-DFT's spurious low-lying charge-transfer states, with imaginary and reduced IPEA level shifts documented. Three rows."
+2026-08-18T05:24:58Z,W2071092630-a,10.1021/ja990064d,add-row,appended,row added via add-row
+2026-08-18T05:24:58Z,W2071092630-b,10.1021/ja990064d,add-row,appended,row added via add-row
+2026-08-18T05:24:58Z,W2071092630-c,10.1021/ja990064d,add-row,appended,row added via add-row
+2026-08-18T05:24:58Z,W2071092630-d,10.1021/ja990064d,add-row,appended,row added via add-row
+2026-08-18T05:25:13Z,W2071092630,10.1021/ja990064d,mark,extracted,"Formamide electronic spectrum with explicit solvent; two active spaces — a 10-orbital Rydberg-containing space state-averaged over 11-12 roots, and a separate (8,7) with four Rydberg orbitals deleted and the second oxygen lone pair added, built specifically to remove valence-Rydberg mixing at the reference level. Four rows."
+2026-08-18T05:26:21Z,W2071203343-a,10.1021/jp102635s,add-row,appended,row added via add-row
+2026-08-18T05:26:31Z,W2071203343,10.1021/jp102635s,mark,extracted,"Ethylene + singlet oxygen; CASSCF(10e,8o) geometries with MRMP2 checks, but MkCCSD(2e,2o) chosen for energies specifically to escape the documented active-space dependence of MRPT on this system, giving a TS1 barrier of 21.8 kcal/mol against ~21 measured versus 17.5 from CASPT2(10e,10o). One row."
