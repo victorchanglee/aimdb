@@ -47237,3 +47237,7 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T03:55:20Z,W2057301668-b,10.1021/jp003040y,add-row,appended,row added via add-row
 2026-08-18T03:55:21Z,W2057301668-c,10.1021/jp003040y,add-row,appended,row added via add-row
 2026-08-18T03:55:21Z,W2057301668,10.1021/jp003040y,mark,extracted_partial,"Quinonoidal diiminediyls; CASSCF(10,10)/D95** with MRCISD in a reduced (6,6) forced by MOLPRO's 16-orbital limit. Only molecule 1 has stated active-space counts; the extended dinitrenes are described as 'varying standard basis sets' with no space size given, so those rows carry blank nel/norb. Three rows."
+2026-08-18T03:59:14Z,W2057487897-a,10.1021/ja016915a,add-row,appended,row added via add-row
+2026-08-18T03:59:34Z,W2057487897,10.1021/ja016915a,mark,extracted,"Tryptophan fluorescence quenching; active space adapted four times along one path -- (10,9) base, (12,11) with sigma(N-H)/sigma*(N-H) for the H-transfer TS, back to (10,9) when the new C-H orbitals reach occupations 2 and 0, then (8,8) so the coupled MCSCF equations could be solved. One row."
+2026-08-18T04:00:25Z,W2057589799-a,10.1021/jp0042462,add-row,appended,row added via add-row
+2026-08-18T04:00:25Z,W2057589799,10.1021/jp0042462,mark,extracted,"Dimethylaluminum hydride decomposition; minimal bond-pair CAS(6,6) covering the Al-H and two Al-CH3 bonds, reused for ICCI+Q. CASSCF supplies geometries and frequencies while energetics come from CCSD(T)/CBS. One row."
