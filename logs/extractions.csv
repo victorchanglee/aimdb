@@ -47337,3 +47337,14 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T04:39:04Z,W2063663276-b,10.1063/1.2140687,add-row,appended,row added via add-row
 2026-08-18T04:39:04Z,W2063663276-c,10.1063/1.2140687,add-row,appended,row added via add-row
 2026-08-18T04:39:04Z,W2063663276,10.1063/1.2140687,mark,extracted,"SiC3 low-lying isomers; a dedicated active-space-dependence study with a nested ladder from (8,8) to full-valence FORS(16,16) derived from FORS natural orbital occupations, showing no monotonic trend and the linear triplet 1t wrongly predicted as global minimum by every space below full valence. Three rows."
+2026-08-18T04:41:59Z,W2063777765-a,10.1021/jp021781o,add-row,appended,row added via add-row
+2026-08-18T04:41:59Z,W2063777765,10.1021/jp021781o,mark,extracted,"Hypoxanthine vertical transitions; 2 sigma + 6 pi + 4 pi* space with two pipi* states forced to 88% and 96.5% state weight by convergence failure, and MCQDPT2 corrections up to 2.2 eV. One row; electron count is arithmetic from the stated orbital composition and flagged."
+2026-08-18T04:42:45Z,W2064018996-a,10.1021/jp905795n,add-row,appended,row added via add-row
+2026-08-18T04:42:53Z,W2064018996,10.1021/jp905795n,mark,extracted,"9H-adenine excited states and vibronic activities; fixed CASSCF(12,9) with two-state averaging for geometries and eight-state averaging for energies, where the n-pi* puckering barrier changes from 0.37 to 0.57 eV purely with the number of averaged roots. One row."
+2026-08-18T04:44:22Z,W2064566657-a,10.1021/jp508723d,add-row,appended,row added via add-row
+2026-08-18T04:44:22Z,W2064566657-b,10.1021/jp508723d,add-row,appended,row added via add-row
+2026-08-18T04:44:22Z,W2064566657-c,10.1021/jp508723d,add-row,appended,row added via add-row
+2026-08-18T04:44:22Z,W2064566657,10.1021/jp508723d,mark,extracted_partial,"Para-substituted neutral GFP chromophore models; minimal CAS(4,3) defended as a Pauling point where intermediate spaces are worse, with thermostatistical SA-CASSCF weighting and an isolobal CASVB analysis across the series. Three rows for the members with compound-specific findings (H, OH, NH2); the CH3 and F members appear only in Figure 3, and all diabatic energies are plotted rather than tabulated."
+2026-08-18T04:45:38Z,W2064882883-a,10.1021/ja065963y,add-row,appended,row added via add-row
+2026-08-18T04:45:39Z,W2064882883-b,10.1021/ja065963y,add-row,appended,row added via add-row
+2026-08-18T04:45:39Z,W2064882883,10.1021/ja065963y,mark,extracted,"Tetrafluoromethylenecyclopropane rearrangement; fixed-size (4,4) space with content redefined from sigma/pi to the mixed ring-opened MOs, where CASPT2 removes a 4.5 kcal/mol CASSCF barrier entirely and nearly doubles the reaction exothermicity. Two rows, including the bond-stretch isomer 20."
