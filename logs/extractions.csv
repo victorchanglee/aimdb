@@ -46858,3 +46858,15 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T00:09:39Z,W2030337726,10.1021/ja106902s,mark,extracted,"Intermediate-valence tautomerism in Cp*2Yb(Me-bipy) complexes; CASSCF(4,5) with two 4f plus pi1*/pi2*/pi3* orbitals and CASSCF-MP2, Gaussian 03. Four rows (bipy, 4-Me, 5-Me, 6-Me); dimethyl complexes excluded by intruder states."
 2026-08-18T00:10:26Z,W2029554596-a,10.1021/jo0614184,add-row,appended,row added via add-row
 2026-08-18T00:10:37Z,W2029554596,10.1021/jo0614184,mark,extracted,"1,2-Dihydronaphthalene oxide photochemistry; three different CAS(4,4)/6-31G(d) spaces for three intersection types plus a carbenic space for the T1/S0 crossing, aromatic pi deliberately excluded as (10,10) was unaffordable. One row."
+2026-08-18T00:14:04Z,W2030517289-a,10.1021/jo015865p,add-row,appended,row added via add-row
+2026-08-18T00:14:04Z,W2030517289-b,10.1021/jo015865p,add-row,appended,row added via add-row
+2026-08-18T00:14:05Z,W2030517289-c,10.1021/jo015865p,add-row,appended,row added via add-row
+2026-08-18T00:14:05Z,W2030517289-d,10.1021/jo015865p,add-row,appended,row added via add-row
+2026-08-18T00:14:05Z,W2030517289,10.1021/jo015865p,mark,extracted,"T1 3(pi-pi*)/S0 intersections and triplet lifetimes of cyclic alpha,beta-enones; uniform CASSCF(6,5)/6-31G* across the series with SA crossings and SOC. Four rows; acrolein omitted as its data come from ref 4."
+2026-08-18T00:15:05Z,W2030535917-a,10.1021/jp9625218,add-row,appended,row added via add-row
+2026-08-18T00:15:05Z,W2030535917,10.1021/jp9625218,mark,extracted,"Sn5 cluster, 24 electronic states; full 15-orbital valence space unaffordable so RASSCF 3221 used, with valence s correlation restored at the MRSDCI stage. One row."
+2026-08-18T00:16:33Z,W2030561179-a,10.1021/ja010782b,add-row,appended,row added via add-row
+2026-08-18T00:16:33Z,W2030561179-b,10.1021/ja010782b,add-row,appended,row added via add-row
+2026-08-18T00:16:33Z,W2030561179-c,10.1021/ja010782b,add-row,appended,row added via add-row
+2026-08-18T00:16:33Z,W2030561179-d,10.1021/ja010782b,add-row,appended,row added via add-row
+2026-08-18T00:16:33Z,W2030561179,10.1021/ja010782b,mark,extracted,"[Ru(E)(E')(CO)2(Me-DAB)] UV-vis spectra; SA-CASSCF (10,12) or 10-orbital restricted space with CASPT2, MOLCAS, including (14,14) and (16,15) control calculations. Four rows."
