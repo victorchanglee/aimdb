@@ -47789,3 +47789,29 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T08:49:42Z,W2101449690,10.1021/ja303804r,mark,extracted,"Trivalent lanthanide vs actinide borates; common f-manifold-plus-one-bonding-pair rule that admits a metal 6p for Ce/Pu but a ligand O 2p for Am/Cm once the An 6p drops below the valence region, and a Ce enlargement abandoned for admitting virtual 5d. Six rows."
 2026-08-18T08:50:23Z,W2107355979-a,10.1021/jp051108+,add-row,appended,row added via add-row
 2026-08-18T08:50:36Z,W2107355979,10.1021/jp051108+,mark,extracted,"o-Hydroxyphenyl-triazine photostabilizer; three-tier space ladder (14,13)/(12,11)/(10,8) with occupation-threshold cuts, 106953 vs 1176 configurations, validated on wave functions as well as energies, and minima reoptimized in the smaller space before frequencies. One row."
+2026-08-18T08:54:16Z,W2102728191-a,10.1021/ja017083j,add-row,appended,row added via add-row
+2026-08-18T08:54:16Z,W2102728191-b,10.1021/ja017083j,add-row,appended,row added via add-row
+2026-08-18T08:54:16Z,W2102728191-c,10.1021/ja017083j,add-row,appended,row added via add-row
+2026-08-18T08:54:16Z,W2102728191-d,10.1021/ja017083j,add-row,appended,row added via add-row
+2026-08-18T08:56:39Z,W2102728191,10.1021/ja017083j,mark,extracted,"CASPT2//CASSCF/6-31G(d) ring-walk study of bicyclo[n.1.0]polyenes; (n,n) space rule gives (4,4)/(6,6)/(8,8) for the three parents, (12,12) for the 9,9-dicyano compound where the CSF count jumps 1764 -> 226512 and both CASSCF frequencies and CASPT2 become intractable. 4 rows."
+2026-08-18T08:57:24Z,W2106222920-a,10.1021/jp0557619,add-row,appended,row added via add-row
+2026-08-18T08:57:35Z,W2106222920,10.1021/jp0557619,mark,extracted_partial,"Cl(2P)-HF precursor complex. CASSCF/MRCI used only to compute Lz for the diabatic mixing angle; energies are RCCSD(T). Active space size never stated, so nel/norb left empty -- partial. Key finding: freezing only Cl 1s let the Cl 2pz drift into the valence space and made Lz jump with geometry; fixed by freezing Cl 2s and 2p too."
+2026-08-18T08:58:45Z,W2108182735-a,10.1021/ja060176m,add-row,appended,row added via add-row
+2026-08-18T08:58:45Z,W2108182735-b,10.1021/ja060176m,add-row,appended,row added via add-row
+2026-08-18T08:58:45Z,W2108182735-c,10.1021/ja060176m,add-row,appended,row added via add-row
+2026-08-18T08:58:55Z,W2108182735,10.1021/ja060176m,mark,extracted,"Dewar benzene radical cation and analogues, CASSCF(5,6)/CASPT2/ANO-S. Key finding: artifactual CASSCF symmetry breaking for the parent only, 7.9 kcal/mol below C2v; enlargement reported inconsistently as (13,12) in Results vs 13e/14o in Computational Details with opposite verdicts -- both recorded. 3 rows."
+2026-08-18T08:59:45Z,W2108968431-a,10.1021/ct400460h,add-row,appended,row added via add-row
+2026-08-18T08:59:55Z,W2108968431,10.1021/ct400460h,mark,extracted,"PSB3 retinal model benchmark; fixed 6-in-6 pi space, MRCISD+Q reference vs CASPT2/MS-CASPT2/QD-NEVPT2/XMCQDPT2 variants and EOM-SF-CCSD(dT). Key finding: CASSCF seam has correct CI dimensionality but MRCISD+Q lifts degeneracy only along BLA since Davidson corrects energies not wavefunctions. 1 row."
+2026-08-18T09:00:48Z,W2110164527-a,10.1021/ja0363157,add-row,appended,row added via add-row
+2026-08-18T09:00:48Z,W2110164527,10.1021/ja0363157,mark,extracted,"HCOOH photodissociation, CASSCF/MR-CI. Three-space ladder (8,7) preliminary -> CAS(18,13) full valence -> CAS(10,8) reconverged from the larger wavefunction; barriers agree within ~2 kcal/mol across spaces and MR-CI, so dynamic correlation has little influence on the S1/T1 barriers. 1 row."
+2026-08-18T09:01:57Z,W2110385621-a,10.1021/tx00045a016,add-row,appended,row added via add-row
+2026-08-18T09:01:57Z,W2110385621-b,10.1021/tx00045a016,add-row,appended,row added via add-row
+2026-08-18T09:01:57Z,W2110385621-c,10.1021/tx00045a016,add-row,appended,row added via add-row
+2026-08-18T09:01:57Z,W2110385621,10.1021/tx00045a016,mark,extracted,"Para-substituted anisoles, P450 metabolite prediction by CASSCF/STO-3G geometries + CASSCF/SV 6-31G single points in GAMESS-UK. Rank-defined spaces: 4x4 (HOMO-1..LUMO+1) closed shell, 5x5 (HOMO-2..LUMO+1) radicals, so the space changes size across the reaction coordinate being scored. 3 rows."
+2026-08-18T09:03:22Z,W2112736113-a,10.1021/ic5007204,add-row,appended,row added via add-row
+2026-08-18T09:03:22Z,W2112736113-b,10.1021/ic5007204,add-row,appended,row added via add-row
+2026-08-18T09:03:22Z,W2112736113-c,10.1021/ic5007204,add-row,appended,row added via add-row
+2026-08-18T09:03:22Z,W2112736113-d,10.1021/ic5007204,add-row,appended,row added via add-row
+2026-08-18T09:03:22Z,W2112736113-e,10.1021/ic5007204,add-row,appended,row added via add-row
+2026-08-18T09:03:22Z,W2112736113-f,10.1021/ic5007204,add-row,appended,row added via add-row
+2026-08-18T09:03:34Z,W2112736113,10.1021/ic5007204,mark,extracted,"M2(dpa)4 and M2O(dpa)4 (Mo2/MoW/W2), CASSCF/CASPT2 MOLCAS 7.7, DKH, ANO-RCC. Fixed CAS(6,6) across the M2 series gives monotonic sigma2pi2delta2 weights 24/33/42% and EBOs 1.01/1.33/1.59; CAS(10,8) M-O space yields metal-localized dxy/dz2 so no M-M interaction is visible. 6 rows. Compound 1 (Cr2) has no CASSCF results reported despite the Computational Details claiming 1-4."
