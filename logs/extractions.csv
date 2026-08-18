@@ -47467,3 +47467,8 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T05:59:33Z,W2074326879-b,10.1021/jp992912x,add-row,appended,row added via add-row
 2026-08-18T05:59:33Z,W2074326879-c,10.1021/jp992912x,add-row,appended,row added via add-row
 2026-08-18T05:59:33Z,W2074326879,10.1021/jp992912x,mark,extracted,"Corannulene anions; each charge state given its own active space in TWO sizes with all results reported side by side, revealing a ground-state reversal for the dianion between CAS(6,4) and CAS(6,6) and a sevenfold gap change for the monoanion. Three rows; the tetraanion has no CASSCF and is noted only."
+2026-08-18T06:03:42Z,W2074386380-a,10.1021/jp953763v,add-row,appended,row added via add-row
+2026-08-18T06:03:42Z,W2074386380-b,10.1021/jp953763v,add-row,appended,row added via add-row
+2026-08-18T06:03:51Z,W2074386380,10.1021/jp953763v,mark,extracted_partial,"Group 2 metal dioxide IR calibration; CASSCF space named by atomic orbital composition for OBeO and full valence for CaO2, with the study concluding CASSCF cannot be applied equivalently across the series and adopting B3LYP. Two rows with blank nel/norb since neither electron nor total orbital count is stated numerically."
+2026-08-18T06:04:32Z,W2074900663-a,10.1021/ct050040z,add-row,appended,row added via add-row
+2026-08-18T06:04:45Z,W2074900663,10.1021/ct050040z,mark,extracted,"Highly reduced V/Mo polyoxometalate; (10,12) space of V-3d and Mo-4d combinations truncated from 16 possible to the 12 lowest, built to be unbiased between the two metals, giving a singlet whose largest CI coefficient is only 0.1737 and correcting a BP86 6/4 electron distribution to 8/2. One row."
