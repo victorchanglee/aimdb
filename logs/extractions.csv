@@ -47529,3 +47529,25 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T06:39:20Z,W2078987963-b,10.1039/c4sc00751d,add-row,appended,row added via add-row
 2026-08-18T06:39:20Z,W2078987963-c,10.1039/c4sc00751d,add-row,appended,row added via add-row
 2026-08-18T06:39:20Z,W2078987963,10.1039/c4sc00751d,mark,extracted,"LnPc2 double deckers (Dy, Ho, Er); CASSCF with the seven 4f orbitals plus RASSI in MOLCAS 7.8, energies requiring per-metal scaling factors of 0.68, 1.31 and 1.27. Three rows; active electron count never stated."
+2026-08-18T06:42:05Z,W2079095689-a,10.1021/bi0515624,add-row,appended,row added via add-row
+2026-08-18T06:42:05Z,W2079095689-b,10.1021/bi0515624,add-row,appended,row added via add-row
+2026-08-18T06:42:05Z,W2079095689-c,10.1021/bi0515624,add-row,appended,row added via add-row
+2026-08-18T06:42:05Z,W2079095689-d,10.1021/bi0515624,add-row,appended,row added via add-row
+2026-08-18T06:42:05Z,W2079095689-e,10.1021/bi0515624,add-row,appended,row added via add-row
+2026-08-18T06:42:06Z,W2079095689,10.1021/bi0515624,mark,extracted,"Rhodopsin binding pocket steric strain; CASSCF/CASPT2 in MOLCAS5 with an all-valence-pi rule-based space on five-double-bond truncated chromophores. Five rows, one per chromophore; nel/norb never stated numerically."
+2026-08-18T06:42:54Z,W2079304534-a,10.1021/jp905085x,add-row,appended,row added via add-row
+2026-08-18T06:43:04Z,W2079304534,10.1021/jp905085x,mark,extracted,"Thymine photodynamics; SA-3-CASSCF(10,8)/6-31G* trajectories with MS-CASPT2, MR-CISD(6,5)+Q and RI-CC2 benchmarks showing the pi-pi* state 1.5-2 eV too high at CASSCF while n-pi* and surface topography are accurate. One row."
+2026-08-18T06:44:30Z,W2079948504-a,10.1021/jp025562e,add-row,appended,row added via add-row
+2026-08-18T06:44:30Z,W2079948504-b,10.1021/jp025562e,add-row,appended,row added via add-row
+2026-08-18T06:44:31Z,W2079948504-c,10.1021/jp025562e,add-row,appended,row added via add-row
+2026-08-18T06:44:31Z,W2079948504-d,10.1021/jp025562e,add-row,appended,row added via add-row
+2026-08-18T06:44:31Z,W2079948504,10.1021/jp025562e,mark,extracted,"Gas-phase ozonolysis of ethene, fluoroethene and chloroethene; a fixed CASSCF(10,9)/cc-pVTZ transition-state space partitioned into (2,2) on the alkene and (8,7) on ozone for proper energy scaling, with CASPT2 refinement. Four rows: ozone plus the three reactions."
+2026-08-18T06:45:23Z,W2080015026-a,10.1021/jp8076408,add-row,appended,row added via add-row
+2026-08-18T06:45:23Z,W2080015026-b,10.1021/jp8076408,add-row,appended,row added via add-row
+2026-08-18T06:45:32Z,W2080015026,10.1021/jp8076408,mark,extracted,"Aqueous Ce(III); CASSCF(1,1) vs (1,7) on the 4f manifold used as a diagnostic showing single-configuration character (CI coefficient 0.99998), licensing DFT for the thermodynamics. Two rows for the octa- and nonaaqua cations."
+2026-08-18T06:46:18Z,W2080037750-a,10.1021/jp027532h,add-row,appended,row added via add-row
+2026-08-18T06:46:27Z,W2080037750,10.1021/jp027532h,mark,extracted,"Nitromethane-methyl nitrite rearrangement; CASSCF(10,10)/(aug)-cc-pVTZ fails to reproduce the loose TS found earlier with MCSCF(4,4), even when the (4,4) space and original basis sets are rerun; C-N BDE spans 68.0/51.8/59.9 kcal/mol across CASSCF/CASPT2/MRCISD. One row."
+2026-08-18T06:47:43Z,W2080222234-a,10.1021/ic501385r,add-row,appended,row added via add-row
+2026-08-18T06:47:43Z,W2080222234-b,10.1021/ic501385r,add-row,appended,row added via add-row
+2026-08-18T06:47:43Z,W2080222234-c,10.1021/ic501385r,add-row,appended,row added via add-row
+2026-08-18T06:47:55Z,W2080222234,10.1021/ic501385r,mark,extracted,"Mononuclear Cr(III) polyoxotungstates; CASSCF/NEVPT2 in ORCA on three CrO6(3-) model complexes mapped to angular overlap parameters, showing D varies 0.356-2.255 cm-1 from second-sphere effects alone. Three rows; active space size never stated."
