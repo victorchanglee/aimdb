@@ -46901,3 +46901,10 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T00:33:55Z,W2032878189-b,10.1021/jo062256e,add-row,appended,row added via add-row
 2026-08-18T00:33:55Z,W2032878189-c,10.1021/jo062256e,add-row,appended,row added via add-row
 2026-08-18T00:33:55Z,W2032878189,10.1021/jo062256e,mark,extracted,"o-Benzyne + tropothione biradical mechanism; CASSCF(4,4)/6-31G* used diagnostically to read CI coefficients distinguishing biradical from zwitterionic intermediates. Three rows."
+2026-08-18T00:36:59Z,W2034035164-a,10.1021/jp403798d,add-row,appended,row added via add-row
+2026-08-18T00:36:59Z,W2034035164-b,10.1021/jp403798d,add-row,appended,row added via add-row
+2026-08-18T00:36:59Z,W2034035164,10.1021/jp403798d,mark,extracted,"1,3-Dimethyluracil excited-state decay; two different CASSCF(8,7)/6-31G* spaces for the S1/S2 conical intersection and the S1/T1 intersystem crossing. Two rows; 5BrDMU treated only by TD-DFT."
+2026-08-18T00:37:58Z,W2034587219-a,10.1021/jp710633s,add-row,appended,row added via add-row
+2026-08-18T00:38:20Z,W2034587219,10.1021/jp710633s,mark,extracted,"C2H3Cl+ low-lying states and Cl-loss photodissociation; CAS(13,11) inherited from the neutral molecule's HF frontier block, CASPT2 geometries and three distinct excitation-energy definitions. One row. Reference page corrected to 1688 after checking the article header (initially mistyped as 2444)."
+2026-08-18T00:39:13Z,W2034005028-a,10.1021/jp801660b,add-row,appended,row added via add-row
+2026-08-18T00:39:13Z,W2034005028,10.1021/jp801660b,mark,extracted,"Betaine dye PNP excited state with RISM-SCF/CASSCF; (12,11) pi + n(O) space that would not converge for a C1-optimized S1, with the workaround documented. One row."
