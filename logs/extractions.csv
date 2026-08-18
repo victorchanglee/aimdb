@@ -48444,3 +48444,21 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T18:29:17Z,W2333441302,10.1021/acs.jpcb.5b08455,mark,extracted_partial,"Mean-field QM/MM vertical excitation energies of N,N-dimethyl-4-nitroaniline in gas phase and four solvents. State-specific CASSCF(12,10)/6-311G(2d,2p) with an MRMP2 correction, modified GAMESS plus DL_POLY 2.20. Five rows. Partial because the active space composition is never itemized, only the counts. Key points: state-specific rather than state-averaged for a charge-transfer excitation, and the correlation correction is a gas-phase additive shift applied unchanged in every solvent."
 2026-08-18T18:30:37Z,W2333785497-a,10.1021/jp508470m,add-row,appended,row added via add-row
 2026-08-18T18:30:38Z,W2333785497,10.1021/jp508470m,mark,extracted,"Heavy-atom effect on the magnetic anisotropy of a monobromine septet trinitrene in an argon matrix. CASCI over 50 septet roots on a SA-CASSCF(12,12) reference, SVP basis, ORCA. One row. The space composition is dictated by the requirement that the bromine valence p lone pairs be active, and the multiconfigurational treatment gives the opposite SIGN of the spin-orbit term to DFT, matching both experimental references where DFT does not."
+2026-08-18T19:04:58Z,W2333898474-a,10.1021/ct400423u,add-row,appended,row added via add-row
+2026-08-18T19:04:58Z,W2333898474-b,10.1021/ct400423u,add-row,appended,row added via add-row
+2026-08-18T19:04:58Z,W2333898474-c,10.1021/ct400423u,add-row,appended,row added via add-row
+2026-08-18T19:04:59Z,W2333898474-d,10.1021/ct400423u,add-row,appended,row added via add-row
+2026-08-18T19:04:59Z,W2333898474-e,10.1021/ct400423u,add-row,appended,row added via add-row
+2026-08-18T19:04:59Z,W2333898474-f,10.1021/ct400423u,add-row,appended,row added via add-row
+2026-08-18T19:04:59Z,W2333898474-g,10.1021/ct400423u,add-row,appended,row added via add-row
+2026-08-18T19:04:59Z,W2333898474-h,10.1021/ct400423u,add-row,appended,row added via add-row
+2026-08-18T19:04:59Z,W2333898474,10.1021/ct400423u,mark,extracted,"CASPT2 benchmark of geometries and vertical excitation energies for twelve five-double-bond retinal PSB analogues. Fixed full-pi CASSCF(10,10), 6-31G(d) and ANO-L-VDZP, MOLPRO and MOLCAS. Eight rows (conformers of the same compound combined). The same space gives qualitatively wrong geometries without the perturbative correction - a twisted global minimum that all correlated methods relax to near-planar - and the resulting excitation energy error reaches 0.27 eV purely through the geometry."
+2026-08-18T19:07:03Z,W2333908328-a,10.1021/jp2062095,add-row,appended,row added via add-row
+2026-08-18T19:07:04Z,W2333908328-b,10.1021/jp2062095,add-row,appended,row added via add-row
+2026-08-18T19:07:04Z,W2333908328,10.1021/jp2062095,mark,extracted,"Ultrafast ring-opening/closing of a model spiropyran-merocyanine system. MS-CASPT2//SA-CASSCF(14,12), ANO-S, MOLCAS 6.4, with CIs and branching-plane vectors from MOLPRO 2009 in 6-31G(d,p). Two rows. The space is described as a compromise; the number of averaged states changes between the geometry step (3 roots) and the energy step (5 roots), and the state ordering changes under the correction in both forms."
+2026-08-18T19:09:08Z,W2333961964-a,10.1021/jp401343j,add-row,appended,row added via add-row
+2026-08-18T19:09:08Z,W2333961964-b,10.1021/jp401343j,add-row,appended,row added via add-row
+2026-08-18T19:09:09Z,W2333961964-c,10.1021/jp401343j,add-row,appended,row added via add-row
+2026-08-18T19:09:09Z,W2333961964-d,10.1021/jp401343j,add-row,appended,row added via add-row
+2026-08-18T19:09:09Z,W2333961964-e,10.1021/jp401343j,add-row,appended,row added via add-row
+2026-08-18T19:09:09Z,W2333961964,10.1021/jp401343j,mark,extracted,"FeS4 anion/neutral structures from the anion photoelectron spectra. SA-CASSCF/MS-CASPT2 with the technically maximal space, 24 or 25 electrons in 17 orbitals (full Fe 3d plus all S 3p), ANO-RCC, Douglas-Kroll, MOLCAS 7.4; RCCSD(T) in MOLPRO 2009 for relative isomer stabilities. Five rows. The authors state explicitly that CASPT2 failed to get the global minima right for related FeO3/FeO4 clusters and therefore defer isomer energetics to coupled cluster."
