@@ -48267,3 +48267,9 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T12:44:42Z,W2324426245-i,10.1021/jp107823s,add-row,appended,row added via add-row
 2026-08-18T12:44:42Z,W2324426245-j,10.1021/jp107823s,add-row,appended,row added via add-row
 2026-08-18T12:44:42Z,W2324426245,10.1021/jp107823s,mark,extracted,"Zero-field splitting in ten Mn(III) complexes; SA-CASSCF(4,5) with a d-only space plus NEVPT2 and QDPT spin-orbit over 5 quintets and 35 triplets, ORCA. Ten rows. The minimal space beats every functional tested, NEVPT2 adds almost nothing because the d-d energies are already accurate, and excited triplets supply half the axial parameter."
+2026-08-18T12:48:05Z,W2324451264-a,10.1021/jp012100c,add-row,appended,row added via add-row
+2026-08-18T12:48:06Z,W2324451264,10.1021/jp012100c,mark,extracted,"meta-Benzyne structure; CASSCF(2,2) and (8,8) potential curves with CAS(8,8)-CISD+Q, CASPT2 and CCSD(T) single points, Gaussian 98 and MOLPRO. One row. A direct null result on space enlargement: (2,2) to (8,8) moves the radical-centre separation by 0.6 pm while the correlation treatment moves it 8 pm."
+2026-08-18T12:49:14Z,W2324837424-a,10.1021/jp071092i,add-row,appended,row added via add-row
+2026-08-18T12:49:14Z,W2324837424-b,10.1021/jp071092i,add-row,appended,row added via add-row
+2026-08-18T12:49:14Z,W2324837424-c,10.1021/jp071092i,add-row,appended,row added via add-row
+2026-08-18T12:49:15Z,W2324837424,10.1021/jp071092i,mark,extracted,"S1-S0 internal conversion of 6-cyanoazulene; (10,10)CASSCF with MRMP2 in GAMESS, intersection optimized in (8,8) and verified in (10,10). Three rows. The (10,10) is pruned from the desirable (14,14) using occupation numbers from an SDT-CI, with the criterion checked at all sampled conformations rather than only at equilibrium."
