@@ -47091,3 +47091,17 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T02:21:50Z,W2047290258-a,10.1021/ja0657861,add-row,appended,row added via add-row
 2026-08-18T02:21:51Z,W2047290258-b,10.1021/ja0657861,add-row,appended,row added via add-row
 2026-08-18T02:22:07Z,W2047290258,10.1021/ja0657861,mark,extracted,"5-Fluorouracil and uracil in acetonitrile/water; CASSCF(8,8) for S0/Spi and (6,6) for Spi/Sn conical intersection geometries, validated against Matsika's MRCI(12/9); energies from PCM/TD-PBE0. Two rows."
+2026-08-18T02:25:23Z,W2047357532,10.1021/jp001868e,mark,not_usable,"Ozone + Cl reaction mechanism. All calculations in this work are density functional theory (Perdew-Wang 91 exchange and correlation, Gaussian 98); the CASSCF, CASPT2 and MRCI references are to prior literature (Hwang & Mebel and refs 15-22) used as comparison points. No multireference calculation of its own, so not usable per CLAUDE.md step 4."
+2026-08-18T02:26:23Z,W2047361556-a,10.1021/jo902080z,add-row,appended,row added via add-row
+2026-08-18T02:26:23Z,W2047361556,10.1021/jo902080z,mark,extracted,"Valerophenone photoreactivity in water; fixed CAS(10,9)/6-31G* across bare, one-water-complexed and bulk-embedded systems with five-root state-averaged CASPT2. One row."
+2026-08-18T02:27:36Z,W2047399517-a,10.1021/jp8043972,add-row,appended,row added via add-row
+2026-08-18T02:27:36Z,W2047399517-b,10.1021/jp8043972,add-row,appended,row added via add-row
+2026-08-18T02:27:36Z,W2047399517,10.1021/jp8043972,mark,extracted,"t-Diphenyldiphosphene vs t-azobenzene torsional potentials; (14,12)CASSCF reduced from a defined-then-rejected (18,16) using preliminary CI, MRMP2 corrections, GAMESS. Two rows."
+2026-08-18T02:28:25Z,W2047883084-a,10.1021/jp909362c,add-row,appended,row added via add-row
+2026-08-18T02:28:25Z,W2047883084,10.1021/jp909362c,mark,extracted,"Cyclohexadiene photochemical ring-opening; three-state SA-CASSCF(6,6)/TZVP global surface with (8,12) and diffuse-basis convergence checks, CASPT2 on both spaces. One row."
+2026-08-18T02:29:49Z,W2048034827-a,10.1021/jo8015242,add-row,appended,row added via add-row
+2026-08-18T02:29:50Z,W2048034827-b,10.1021/jo8015242,add-row,appended,row added via add-row
+2026-08-18T02:29:50Z,W2048034827-c,10.1021/jo8015242,add-row,appended,row added via add-row
+2026-08-18T02:29:50Z,W2048034827,10.1021/jo8015242,mark,extracted_partial,"Isoxazoline [2+2] photocycloadditions; CASPT2//CASSCF/6-31G* with three-root state averaging. Active spaces are described only by orbital COMPOSITION -- no electron/orbital counts are stated anywhere except the CAS(14,11) enlargement test on compound 4 -- so two of the three rows carry blank nel/norb. Three rows."
+2026-08-18T02:30:51Z,W2048170136-a,10.1021/j100110a013,add-row,appended,row added via add-row
+2026-08-18T02:30:51Z,W2048170136,10.1021/j100110a013,mark,extracted,"p-Benzosemiquinone radical anion doublet states; CASSCF(15,12) listed orbital-by-orbital, GAMESS, double-zeta. Documents that omitting the 1b2u orbital reverses the 2Au / first 2B1u ordering. One row."
