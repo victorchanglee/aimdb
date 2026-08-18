@@ -47579,3 +47579,13 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T06:59:54Z,W2082257602-b,10.1021/ja1004619,add-row,appended,row added via add-row
 2026-08-18T06:59:55Z,W2082257602-c,10.1021/ja1004619,add-row,appended,row added via add-row
 2026-08-18T06:59:55Z,W2082257602,10.1021/ja1004619,mark,extracted,"Jahn-Teller-active [HIPTN3N]MoL complexes (L = N2, CO, NH3); CASSCF(3,2) for geometries and the two-state model, SA-CASSCF(3,5) with 30 roots plus MR-DDCI2 for g-tensors, with the space enlargement acting through the PJT splitting rather than through extra SOC pathways. Three rows."
+2026-08-18T07:03:05Z,W2082782701-a,10.1021/j100024a029,add-row,appended,row added via add-row
+2026-08-18T07:03:05Z,W2082782701,10.1021/j100024a029,mark,extracted,"1,5-Diaza-1,3-pentadiene excited-state proton transfer; CASSCF(6,7)/4-31G with occupied orbitals selected by a CIS coefficient threshold of 0.3, and a pi*-for-sigma* swap run explicitly to quantify active-space uncertainty. One row."
+2026-08-18T07:04:33Z,W2083160793-a,10.1021/ic801679m,add-row,appended,row added via add-row
+2026-08-18T07:04:34Z,W2083160793-b,10.1021/ic801679m,add-row,appended,row added via add-row
+2026-08-18T07:04:34Z,W2083160793-c,10.1021/ic801679m,add-row,appended,row added via add-row
+2026-08-18T07:04:34Z,W2083160793,10.1021/ic801679m,mark,extracted,"Decamethylferrocenium tetracyanoethenide ferromagnet; three pair-type-specific spaces, (8,7) with Fe dz2 demoted on a 1.99 occupation, (2,2) validated against (6,6) occupations, and (14,12) without MCQDPT for the largest pairs. Three rows."
+2026-08-18T07:05:30Z,W2083371726-a,10.1021/ja050002p,add-row,appended,row added via add-row
+2026-08-18T07:05:31Z,W2083371726,10.1021/ja050002p,mark,extracted,"DBO photolysis; CASPT2//CASSCF(12,10) of both C-N sigma/sigma* pairs plus the full N2 valence set, deliberately reduced to (10,9) near the diazenyl diradicals where an N lone pair reaches occupancy 2 and wrecks convergence. One row."
+2026-08-18T07:06:32Z,W2083670310-a,10.1021/ja8100038,add-row,appended,row added via add-row
+2026-08-18T07:06:32Z,W2083670310,10.1021/ja8100038,mark,extracted_partial,"Dy(III) magnetic anisotropy; CASSCF(9,7) 4f manifold with four RASSI-SO root subsets showing negligible 6H mixing, easy axis within 7 degrees of experiment. One row; marked partial because the numeric body of Table 1 (split 6H15/2 level energies and g values for calculations A-D) was lost in text extraction."
