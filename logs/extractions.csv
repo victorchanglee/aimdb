@@ -47980,3 +47980,19 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T10:24:56Z,W2312727442-b,10.1021/jp312362e,add-row,appended,row added via add-row
 2026-08-18T10:24:56Z,W2312727442-c,10.1021/jp312362e,add-row,appended,row added via add-row
 2026-08-18T10:24:56Z,W2312727442,10.1021/jp312362e,mark,extracted_partial,"UF and UF+ spectroscopy and theory, MOLPRO 2010 SA-CASSCF/CASPT2 with ECP spin-orbit. Thirteen orbitals given by symmetry block but the active electron count is never stated, hence partial. Both an upward test (3 more 6d7p orbitals change nothing) and a downward one (atomic space cut 13 to 8 because 6d is inert) are reported. IPEA shift had to differ between the two species, 0.25 vs 0.27, chosen for convergence not accuracy. CASPT2 only at one bond length, so the curves carry no dynamic correlation. 3 rows."
+2026-08-18T10:28:06Z,W2312798981-a,10.1021/ic402754y,add-row,appended,row added via add-row
+2026-08-18T10:28:06Z,W2312798981-b,10.1021/ic402754y,add-row,appended,row added via add-row
+2026-08-18T10:28:06Z,W2312798981,10.1021/ic402754y,mark,extracted_partial,"Hydroxyheme in heme oxygenase, primarily a DFT study with CAS(7e,7o)+PT2 applied to two oxidized species to confirm electronic structures. Same (7,7) label but different contents: five Fe 3d plus oxophlorin a2u shared, with a1u for [(Im)Fe(PO)] and O2 pi* for the superoxo adduct. Neither basis set nor program is stated for the multiconfigurational step, hence partial. Leading CI coefficients 0.75 and 0.65 with sub-0.3 configurations carrying the spin polarization. 2 rows."
+2026-08-18T10:29:14Z,W2312959821-a,10.1021/jo501450k,add-row,appended,row added via add-row
+2026-08-18T10:29:14Z,W2312959821-b,10.1021/jo501450k,add-row,appended,row added via add-row
+2026-08-18T10:29:14Z,W2312959821-c,10.1021/jo501450k,add-row,appended,row added via add-row
+2026-08-18T10:29:14Z,W2312959821-d,10.1021/jo501450k,add-row,appended,row added via add-row
+2026-08-18T10:29:24Z,W2312959821,10.1021/jo501450k,mark,extracted,"Enyne-allene radical cascade, GAMESS CASSCF(10,10)/6-31G(d) with MRPT2 single points. One fixed space of all valence pi/pi* orbitals of the reactant, applied unchanged across the whole cascade, which is what makes the NOON trend (1.92/0.09 closed shell -> 1.01/0.99 at 98% biradical -> 1.89/0.12) readable as chemistry. Multireference adopted because the single-determinant method gave <S2> near 1.0 for the diradicals; MRPT2 added because CASSCF barriers are dramatically underestimated. 4 rows."
+2026-08-18T10:30:43Z,W2313244919-a,10.1021/jp211690y,add-row,appended,row added via add-row
+2026-08-18T10:30:43Z,W2313244919-b,10.1021/jp211690y,add-row,appended,row added via add-row
+2026-08-18T10:30:43Z,W2313244919-c,10.1021/jp211690y,add-row,appended,row added via add-row
+2026-08-18T10:30:44Z,W2313244919-d,10.1021/jp211690y,add-row,appended,row added via add-row
+2026-08-18T10:30:44Z,W2313244919-e,10.1021/jp211690y,add-row,appended,row added via add-row
+2026-08-18T10:30:44Z,W2313244919-f,10.1021/jp211690y,add-row,appended,row added via add-row
+2026-08-18T10:30:44Z,W2313244919-g,10.1021/jp211690y,add-row,appended,row added via add-row
+2026-08-18T10:30:44Z,W2313244919,10.1021/jp211690y,mark,extracted,"Ti and V chloride reduction thermodynamics, Molcas 7.6 CASSCF/CASPT2 on CCSD(T) geometries. Per-species spaces from (1,1) to (12,14) tabulated explicitly; TiCl3 deliberately downgraded to a single CSF for being more ionic, so the Ti reduction enthalpy spans a (10,10) reactant and a single-determinant product. CASPT2 is worse than any DFT for the Ti reduction (48.05 vs 31.44 experimental) yet very good for V, and the author states that larger active spaces do not improve it. 7 rows."
