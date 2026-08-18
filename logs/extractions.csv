@@ -47692,3 +47692,24 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T07:53:48Z,W2090351611-d,10.1021/ja800616s,add-row,appended,row added via add-row
 2026-08-18T07:53:48Z,W2090351611-e,10.1021/ja800616s,add-row,appended,row added via add-row
 2026-08-18T07:53:48Z,W2090351611,10.1021/ja800616s,mark,extracted,"Spin-orbit effects on Ru/Os reduction potentials; minimum (5,3) t2g space for CASSCF/CASPT2/CASSI but enlarged (6,5)/(5,5) all-d reference for MRCI because MRCI does not relax orbitals. Five rows for the ruthenium and osmium complexes."
+2026-08-18T07:57:06Z,W2090664836-a,10.1021/jp511035p,add-row,appended,row added via add-row
+2026-08-18T07:57:06Z,W2090664836,10.1021/jp511035p,mark,extracted,"Excitonic coupling of formaldehyde dimer dark states; CASSCF/ANO-s underestimates by ~40 percent versus MS-CASPT2 and EOM-CCSD, with ANO-s diffuse-function deficiency isolated as the residual MS-CASPT2 error. One row; active space size never stated."
+2026-08-18T07:57:53Z,W2091582792-a,10.1021/jp100573b,add-row,appended,row added via add-row
+2026-08-18T07:58:02Z,W2091582792,10.1021/jp100573b,mark,extracted,"AdoCbl-tyrosine diradical in B12 mutases; (12,12) space spanning corrin, Co-C, cobalt d and tyrosine pi so a cross-fragment diradical can compete with the anionic state, with the tyrosine O lone pair correlated by a corrin pi* for want of a partner. One row."
+2026-08-18T07:58:51Z,W2092091100-a,10.1021/jo7025542,add-row,appended,row added via add-row
+2026-08-18T07:58:52Z,W2092091100,10.1021/jo7025542,mark,extracted,"Photocyclization of iminyl radicals; CASPT2//CASSCF(14,11) holding three pi/pi* pairs, both lone pairs and the N-O sigma/sigma* so imine pi*/sigma*(N-O) coupling can be seen, with a computed >70 kcal/mol gap licensing the handoff to DFT. One row."
+2026-08-18T07:59:52Z,W2092756259-a,10.1021/jp9845975,add-row,appended,row added via add-row
+2026-08-18T07:59:53Z,W2092756259-b,10.1021/jp9845975,add-row,appended,row added via add-row
+2026-08-18T07:59:53Z,W2092756259-c,10.1021/jp9845975,add-row,appended,row added via add-row
+2026-08-18T07:59:53Z,W2092756259-d,10.1021/jp9845975,add-row,appended,row added via add-row
+2026-08-18T07:59:53Z,W2092756259-e,10.1021/jp9845975,add-row,appended,row added via add-row
+2026-08-18T07:59:53Z,W2092756259-f,10.1021/jp9845975,add-row,appended,row added via add-row
+2026-08-18T07:59:53Z,W2092756259-g,10.1021/jp9845975,add-row,appended,row added via add-row
+2026-08-18T07:59:54Z,W2092756259-h,10.1021/jp9845975,add-row,appended,row added via add-row
+2026-08-18T07:59:54Z,W2092756259-i,10.1021/jp9845975,add-row,appended,row added via add-row
+2026-08-18T07:59:54Z,W2092756259-j,10.1021/jp9845975,add-row,appended,row added via add-row
+2026-08-18T07:59:54Z,W2092756259-k,10.1021/jp9845975,add-row,appended,row added via add-row
+2026-08-18T07:59:54Z,W2092756259-l,10.1021/jp9845975,add-row,appended,row added via add-row
+2026-08-18T07:59:55Z,W2092756259-m,10.1021/jp9845975,add-row,appended,row added via add-row
+2026-08-18T07:59:55Z,W2092756259-n,10.1021/jp9845975,add-row,appended,row added via add-row
+2026-08-18T08:00:15Z,W2092756259,10.1021/jp9845975,mark,extracted,"Triplet ground states of 2,5-dimethylene five-member heterocycles; a fixed all-pi (8,7) space across 14 heteroatom variants, with MCQDPT2 converting three additional singlets to triplets and shifts ranging 3.3 to 13.6 kcal/mol. Fourteen rows."
