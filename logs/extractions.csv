@@ -47723,3 +47723,12 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T08:04:58Z,W2093149258-b,10.1021/jp711022n,add-row,appended,row added via add-row
 2026-08-18T08:04:59Z,W2093149258-c,10.1021/jp711022n,add-row,appended,row added via add-row
 2026-08-18T08:04:59Z,W2093149258,10.1021/jp711022n,mark,extracted,"Photoisomerizations of spiro[2,4]hept-1-ene, vinylidenecyclopentane and vinylidenecyclobutane; fixed CAS(6,6) with contents swapping C-C for C-H sigma pairs by reaction type, and MP2-CAS shifting conical intersections by up to 44 kcal/mol. Three rows."
+2026-08-18T08:08:19Z,W2093043252-a,10.1063/1.2180775,add-row,appended,row added via add-row
+2026-08-18T08:08:30Z,W2093043252,10.1063/1.2180775,mark,extracted,"Ozone TCCSD; CAS ladder (2,2)/(6,5)/(8,7)/(10,8)/(12,9) built from RHF stability-analysis eigenvalues and accepted on frequency ORDERING rather than energy, with nu3 error non-monotone at 34/56/10/17/12 percent. One row."
+2026-08-18T08:09:42Z,W2093216221-a,10.1021/j100192a029,add-row,appended,row added via add-row
+2026-08-18T08:09:42Z,W2093216221-b,10.1021/j100192a029,add-row,appended,row added via add-row
+2026-08-18T08:09:42Z,W2093216221-c,10.1021/j100192a029,add-row,appended,row added via add-row
+2026-08-18T08:09:42Z,W2093216221-d,10.1021/j100192a029,add-row,appended,row added via add-row
+2026-08-18T08:09:43Z,W2093216221-e,10.1021/j100192a029,add-row,appended,row added via add-row
+2026-08-18T08:09:43Z,W2093216221-f,10.1021/j100192a029,add-row,appended,row added via add-row
+2026-08-18T08:09:43Z,W2093216221,10.1021/j100192a029,mark,extracted,"Hexatriene radical cation rotamers; all-pi CASSCF in the six lowest pi valence orbitals applied uniformly to planar and nonplanar rotamers, with excitation-energy spreads (0.1 and 0.3 eV) smaller than the basis-set shift. Six rows."
