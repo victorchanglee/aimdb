@@ -47153,3 +47153,11 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T02:56:20Z,W2050511987-c,10.1021/jp011260l,add-row,appended,row added via add-row
 2026-08-18T02:56:20Z,W2050511987-d,10.1021/jp011260l,add-row,appended,row added via add-row
 2026-08-18T02:56:21Z,W2050511987,10.1021/jp011260l,mark,extracted,"Phenol and its water/ammonia clusters; CASSCF(6,6) geometries with sigma* substituted for the highest pi* in the 1(pi-sigma*) state, enlarged (8,8)+solvent-pi CASPT2, floating-center diffuse functions, Cs imposed. Four rows; cluster CASPT2 space sizes not given as totals so those nel/norb are blank."
+2026-08-18T03:00:42Z,W2050849181-a,10.1021/jo991026f,add-row,appended,row added via add-row
+2026-08-18T03:00:43Z,W2050849181-b,10.1021/jo991026f,add-row,appended,row added via add-row
+2026-08-18T03:00:43Z,W2050849181-c,10.1021/jo991026f,add-row,appended,row added via add-row
+2026-08-18T03:00:43Z,W2050849181-d,10.1021/jo991026f,add-row,appended,row added via add-row
+2026-08-18T03:00:43Z,W2050849181,10.1021/jo991026f,mark,extracted,"Vinylcyclopropane-cyclopentene rearrangements; CASSCF(4,4)/6-31G* single points on UB3LYP geometries for parent plus three substituted systems, MRCI on the parent only. Four rows; the (4,4) orbital composition is never stated."
+2026-08-18T03:02:05Z,W2051914015-a,10.1021/jp003693e,add-row,appended,row added via add-row
+2026-08-18T03:02:05Z,W2051914015-b,10.1021/jp003693e,add-row,appended,row added via add-row
+2026-08-18T03:02:05Z,W2051914015,10.1021/jp003693e,mark,extracted,"Tyrosine coupling mechanism; full-pi CASSCF gives a 108 kJ/mol error in the phenol O-H bond strength through neglect of sigma-pi correlation, and CASSCF(2,2) vs (10,10) vs CASPT2(2,2) on the diphenoxyl dimer shows enlarging the pi space does not help. Two rows."
