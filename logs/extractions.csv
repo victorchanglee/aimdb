@@ -47483,3 +47483,8 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T06:14:34Z,W2076301449-a,10.1021/jp809597m,add-row,appended,row added via add-row
 2026-08-18T06:14:34Z,W2076301449-b,10.1021/jp809597m,add-row,appended,row added via add-row
 2026-08-18T06:14:34Z,W2076301449,10.1021/jp809597m,mark,extracted,"Open-lantern dinuclear Cr(II) complexes; CASSCF(8,8) of the four metal-metal bonding orbitals and their antibonding partners with d(x2-y2) excluded for ligand-antibonding reasons, giving bond orders of 2.53 and 2.40 against a formal quadruple bond, and ONIOM(MRMP2:DFT) the only surface with a minimum. Two rows."
+2026-08-18T06:18:18Z,W2076379254-a,10.1021/jp9528830,add-row,appended,row added via add-row
+2026-08-18T06:18:18Z,W2076379254-b,10.1021/jp9528830,add-row,appended,row added via add-row
+2026-08-18T06:18:26Z,W2076379254,10.1021/jp9528830,mark,extracted_partial,"Polyacetylene two-site electron transfer; four-pi-orbital space validated by a two-vs-four comparison (3.748 eV improvement) and by CASPT2 occupation numbers of the inactive orbitals, but CASSCF still gives an unphysical cusp because it is not a linear variation method — only CASSI gives smooth Marcus curves. Two rows; electron counts are not stated numerically."
+2026-08-18T06:19:17Z,W2076484727-a,10.1021/jp073188i,add-row,appended,row added via add-row
+2026-08-18T06:19:17Z,W2076484727,10.1021/jp073188i,mark,extracted,"[TCNE]2(2-) dimers in dichloromethane; minimal CASSCF(2,2) of the two pi* combinations validated against UB3LYP natural occupations, with bare CASSCF giving an open-shell minimum and only MCQDPT supplying the dispersion that makes the closed-shell singlet the ground state. One row."
