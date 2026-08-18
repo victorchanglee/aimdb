@@ -48253,3 +48253,17 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T12:40:18Z,W2323974146-d,10.1021/jp306894x,add-row,appended,row added via add-row
 2026-08-18T12:40:18Z,W2323974146-e,10.1021/jp306894x,add-row,appended,row added via add-row
 2026-08-18T12:40:18Z,W2323974146,10.1021/jp306894x,mark,extracted,"Stone-Wales rearrangement in pyrene; [6,6]-SA-CASSCF/MS-CASPT2 in MOLPRO 2010.1. Five rows for the two isomers, the ground-state intermediate and the two conical intersections. Rank-defined space validated by confirming orbital characters vary continuously along the paths, and it beats a larger (12,11) space against experiment."
+2026-08-18T12:43:23Z,W2324243913-a,10.1021/ct2001182,add-row,appended,row added via add-row
+2026-08-18T12:43:23Z,W2324243913-b,10.1021/ct2001182,add-row,appended,row added via add-row
+2026-08-18T12:43:23Z,W2324243913,10.1021/ct2001182,mark,extracted,"1-Phenylpyrrole absorption and fluorescence; SA(5)-CASSCF(12,11)/CASPT2 in gas phase and acetonitrile via ASEP/MD. Two rows. Every energy reported at two IPEA settings, which differ uniformly by 0.3-0.4 eV, with an explicit warning about comparing against literature values computed with the other setting."
+2026-08-18T12:44:40Z,W2324426245-a,10.1021/jp107823s,add-row,appended,row added via add-row
+2026-08-18T12:44:41Z,W2324426245-b,10.1021/jp107823s,add-row,appended,row added via add-row
+2026-08-18T12:44:41Z,W2324426245-c,10.1021/jp107823s,add-row,appended,row added via add-row
+2026-08-18T12:44:41Z,W2324426245-d,10.1021/jp107823s,add-row,appended,row added via add-row
+2026-08-18T12:44:41Z,W2324426245-e,10.1021/jp107823s,add-row,appended,row added via add-row
+2026-08-18T12:44:41Z,W2324426245-f,10.1021/jp107823s,add-row,appended,row added via add-row
+2026-08-18T12:44:41Z,W2324426245-g,10.1021/jp107823s,add-row,appended,row added via add-row
+2026-08-18T12:44:42Z,W2324426245-h,10.1021/jp107823s,add-row,appended,row added via add-row
+2026-08-18T12:44:42Z,W2324426245-i,10.1021/jp107823s,add-row,appended,row added via add-row
+2026-08-18T12:44:42Z,W2324426245-j,10.1021/jp107823s,add-row,appended,row added via add-row
+2026-08-18T12:44:42Z,W2324426245,10.1021/jp107823s,mark,extracted,"Zero-field splitting in ten Mn(III) complexes; SA-CASSCF(4,5) with a d-only space plus NEVPT2 and QDPT spin-orbit over 5 quintets and 35 triplets, ORCA. Ten rows. The minimal space beats every functional tested, NEVPT2 adds almost nothing because the d-d energies are already accurate, and excited triplets supply half the axial parameter."
