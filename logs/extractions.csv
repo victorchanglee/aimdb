@@ -47432,3 +47432,11 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T05:31:41Z,W2071664995-a,10.1063/1.469638,add-row,appended,row added via add-row
 2026-08-18T05:31:41Z,W2071664995-b,10.1063/1.469638,add-row,appended,row added via add-row
 2026-08-18T05:31:55Z,W2071664995,10.1063/1.469638,mark,extracted,"Ozone-Li+ potential surfaces; an extended six-way active space comparison showing the conventional 18/12 and 12/9 spaces contain NO vacant p-symmetry orbital for cyclic ozone so permit no p correlation, with swapping p for 2s orbitals lowering the energy and a smaller 10/9 beating 18/12. Two rows."
+2026-08-18T05:35:22Z,W2071741002-a,10.1021/ct800078j,add-row,appended,row added via add-row
+2026-08-18T05:35:23Z,W2071741002-b,10.1021/ct800078j,add-row,appended,row added via add-row
+2026-08-18T05:35:23Z,W2071741002,10.1021/ct800078j,mark,extracted,"Cyclopropene and 1,3,3-trimethylcyclopropene photoisomerization; fixed-size (6,6) with content switched from C-C to C-H sigma/sigma* for hydrogen shifts, with both CASSCF and MP2-CAS energies tabulated showing non-uniform corrections up to 30 kcal/mol that move CI-3 from inaccessible to competitive. Two rows."
+2026-08-18T05:36:40Z,W2071798566-a,10.1021/ja012565g,add-row,appended,row added via add-row
+2026-08-18T05:36:40Z,W2071798566-b,10.1021/ja012565g,add-row,appended,row added via add-row
+2026-08-18T05:36:40Z,W2071798566,10.1021/ja012565g,mark,extracted,"Cyclohexene and norbornene conical intersections to carbenes; (6,6) at intersections containing the cleaving bond and (8,8) in the reactant region run in TWO compositions (adjacent C-C vs C-H sigma orbitals) with both sets of energies published, differing by only 1.3-1.5 kcal/mol. Two rows."
+2026-08-18T05:37:38Z,W2072243835-a,10.1021/jp064711g,add-row,appended,row added via add-row
+2026-08-18T05:37:48Z,W2072243835,10.1021/jp064711g,mark,extracted,"Naphthalene radical cation sloped conical intersections; full pi-valence CASSCF(9,10) with pi-MRCI and CASPT2 run side by side to isolate sigma-pi polarization, showing the CASSCF D1/D2 crossing opens to a -6 kcal/mol gap at CASPT2 and cannot be reoptimized because no CASPT2 conical intersection gradients exist. One row."
