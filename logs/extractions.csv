@@ -47761,3 +47761,12 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T08:27:01Z,W2094579793-e,10.1021/jp056491x,add-row,appended,row added via add-row
 2026-08-18T08:27:01Z,W2094579793-f,10.1021/jp056491x,add-row,appended,row added via add-row
 2026-08-18T08:27:01Z,W2094579793,10.1021/jp056491x,mark,extracted,"Carboxylic acid monomers and dimers; active space capped at eight orbitals by stated resource limits, with errors growing from good for formic acid to ~100 nm for benzoic acid and no multireference results at all for the benzoic acid dimer. Six rows."
+2026-08-18T08:30:08Z,W2094582918-a,10.1021/jp064377o,add-row,appended,row added via add-row
+2026-08-18T08:30:08Z,W2094582918-b,10.1021/jp064377o,add-row,appended,row added via add-row
+2026-08-18T08:30:08Z,W2094582918-c,10.1021/jp064377o,add-row,appended,row added via add-row
+2026-08-18T08:30:08Z,W2094582918,10.1021/jp064377o,mark,extracted,"One-way photoisomerization of maleic/fumaric acid anion radicals; CAS(11,8) truncated to CAS(7,6) on an occupation threshold of 1.99 for the OH oxygen lone pairs, with single-state and state-averaged energies both tabulated. Three rows."
+2026-08-18T08:31:29Z,W2095288018,10.1021/jp402706x,mark,extracted,"Ce-doped La2CaB10O19; embedded-cluster CASSCF/CASPT2 with a [4f,5d,6s] space limited by electron count, semicore and ligand correlation recovered only perturbatively, and the two Ca-site clusters agreeing to 36/226 cm-1. Three rows."
+2026-08-18T08:32:32Z,W2095498574-a,10.1021/jp805394k,add-row,appended,row added via add-row
+2026-08-18T08:32:32Z,W2095498574-b,10.1021/jp805394k,add-row,appended,row added via add-row
+2026-08-18T08:32:32Z,W2095498574-c,10.1021/jp805394k,add-row,appended,row added via add-row
+2026-08-18T08:32:32Z,W2095498574,10.1021/jp805394k,mark,extracted,"Photochemical pyrazole-to-imidazole transposition; CAS(8,6) of five ring p-pi plus one nonbonding orbital underpinning a p-pi topology model, with MP2-CAS reordering the conical intersections. Three rows; Table 1 parenthetical column labelled CAS(8,7)/6-311G(d,p) and internally inconsistent, flagged."
