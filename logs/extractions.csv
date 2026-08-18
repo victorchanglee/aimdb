@@ -47664,3 +47664,14 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T07:34:42Z,W2088128718-b,10.1021/jp902527a,add-row,appended,row added via add-row
 2026-08-18T07:34:43Z,W2088128718-c,10.1021/jp902527a,add-row,appended,row added via add-row
 2026-08-18T07:34:43Z,W2088128718,10.1021/jp902527a,mark,extracted,"NH(X) oxidation by O2; full valence CASSCF(18,13) replacing an earlier (6,6) with frozen orbitals, changing the hydroperoxynitrene O-O bond from 1.472 to 1.87-2.03 A and its identity from covalent peroxide to radical complex. Three rows."
+2026-08-18T07:37:46Z,W2088327757-a,10.1021/jp014683w,add-row,appended,row added via add-row
+2026-08-18T07:38:00Z,W2088327757,10.1021/jp014683w,mark,extracted,"trans-Acetanilide REMPI/ZEKE; CASSCF(10/9,8)/cc-pVDZ with six ring pi plus O and N a'' lone pairs held fixed across S0, S1 and D0 while the electron count steps 10 to 9 on ionization. One row."
+2026-08-18T07:39:15Z,W2088487691-a,10.1021/ja802531j,add-row,appended,row added via add-row
+2026-08-18T07:39:16Z,W2088487691-b,10.1021/ja802531j,add-row,appended,row added via add-row
+2026-08-18T07:39:16Z,W2088487691-c,10.1021/ja802531j,add-row,appended,row added via add-row
+2026-08-18T07:39:33Z,W2088487691,10.1021/ja802531j,mark,extracted,"Fumaramide threads photoisomerization; CASPT2//CASSCF(14,10) full-pi-plus-two-oxygen-lone-pairs space applied identically to parent and two methylated models, with CASPT2 lowering pi-pi* states twice as much as n-pi*. Three rows."
+2026-08-18T07:40:23Z,W2088695814-a,10.1021/jp904954k,add-row,appended,row added via add-row
+2026-08-18T07:40:35Z,W2088695814,10.1021/jp904954k,mark,extracted,"O + CN dynamics on two coupled surfaces; CASSCF/RASSI spin-orbit couplings needing twice the grid density of the CASPT2 surfaces, with non-convergent points filled by interpolation. One row; active space size never stated, surfaces inherited from earlier work."
+2026-08-18T07:41:38Z,W2089064680-a,10.1021/jp025692n,add-row,appended,row added via add-row
+2026-08-18T07:41:38Z,W2089064680-b,10.1021/jp025692n,add-row,appended,row added via add-row
+2026-08-18T07:41:54Z,W2089064680,10.1021/jp025692n,mark,extracted,"NCl + NCl 18 surfaces; full valence 24e/16o versus reduced 16e/12o compared on the monomer against experiment, with the reduced space failing near 2.0 A where N 2s enters and Cl 3p leaves the valence region. Two rows."
