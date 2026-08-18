@@ -47651,3 +47651,16 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T07:28:15Z,W2087611981-a,10.1021/jp983731i,add-row,appended,row added via add-row
 2026-08-18T07:28:15Z,W2087611981-b,10.1021/jp983731i,add-row,appended,row added via add-row
 2026-08-18T07:28:31Z,W2087611981,10.1021/jp983731i,mark,extracted,"Phenyldisilane intramolecular charge-transfer emission; a fixed (6,6) whose contents swap the C-Si sigma pair in for the LE-state orbitals when describing the ICT state, with MRMP corrections and SOCI showing no CT character among the ten lowest vertical singlets. Two rows."
+2026-08-18T07:31:01Z,W2087717178-a,10.1021/om0302591,add-row,appended,row added via add-row
+2026-08-18T07:31:01Z,W2087717178-b,10.1021/om0302591,add-row,appended,row added via add-row
+2026-08-18T07:31:12Z,W2087717178,10.1021/om0302591,mark,extracted,"CH2 vs SiH2 singlet-triplet ordering; a six-electron six-orbital CASSCF defined by asymptotic correlation to H 1s and heavy-atom ns/np, identical for both molecules, enabling term-by-term energy decomposition. Two rows."
+2026-08-18T07:32:32Z,W2087728979-a,10.1021/jp993496j,add-row,appended,row added via add-row
+2026-08-18T07:32:32Z,W2087728979-b,10.1021/jp993496j,add-row,appended,row added via add-row
+2026-08-18T07:32:32Z,W2087728979,10.1021/jp993496j,mark,extracted,"Matrix-isolated phenylcarbene and cycloheptatetraene; CASPT2 excited states on state-averaged CASSCF with a (8,8) pi-plus-sigma space for the carbene versus a purely pi (7,10) for benzyl radical, and CASPT2 reordering states by up to 2.3 eV. Two rows; cycloheptatetraene is characterized only by IR/SQM force field, not by multireference calculations."
+2026-08-18T07:33:35Z,W2087780888-a,10.1021/jp065308c,add-row,appended,row added via add-row
+2026-08-18T07:33:35Z,W2087780888-b,10.1021/jp065308c,add-row,appended,row added via add-row
+2026-08-18T07:33:35Z,W2087780888,10.1021/jp065308c,mark,extracted,"Imidazole photochemical rearrangements; one CAS(10,8) of five p-pi, a nonbonding orbital and the sigma/sigma*(C-N) pair applied to both substrates, with MP2-CAS shifting CI-3 by 17 kcal/mol and reversing the CI-3/CI-4 ordering. Two rows."
+2026-08-18T07:34:42Z,W2088128718-a,10.1021/jp902527a,add-row,appended,row added via add-row
+2026-08-18T07:34:42Z,W2088128718-b,10.1021/jp902527a,add-row,appended,row added via add-row
+2026-08-18T07:34:43Z,W2088128718-c,10.1021/jp902527a,add-row,appended,row added via add-row
+2026-08-18T07:34:43Z,W2088128718,10.1021/jp902527a,mark,extracted,"NH(X) oxidation by O2; full valence CASSCF(18,13) replacing an earlier (6,6) with frozen orbitals, changing the hydroperoxynitrene O-O bond from 1.472 to 1.87-2.03 A and its identity from covalent peroxide to radical complex. Three rows."
