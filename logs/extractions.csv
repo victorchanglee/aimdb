@@ -47328,3 +47328,12 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T04:34:04Z,W2062641189,10.1021/jp0209392,mark,extracted,"Thymine-acrylamide PCET; fragment-balanced CASSCF(9,8) with four orbitals on each molecule, used to show that a DFT-vs-CASSCF SOMO localization discrepancy is a method effect not a basis effect, and where the active space dictated the basis set choice. One row."
 2026-08-18T04:35:05Z,W2063232237-a,10.1021/jp991404k,add-row,appended,row added via add-row
 2026-08-18T04:35:05Z,W2063232237,10.1021/jp991404k,mark,extracted,"Pyrazine excited-state vibrations; per-mode-symmetry active spaces and state averages, with the central finding that CASSCF(10,8) gives a discontinuous T1 surface which CASPT2 and MRCI cannot repair because they inherit the spurious conical intersection. One row."
+2026-08-18T04:36:44Z,W2063341937-a,10.1021/jp0305741,add-row,appended,row added via add-row
+2026-08-18T04:36:44Z,W2063341937-b,10.1021/jp0305741,add-row,appended,row added via add-row
+2026-08-18T04:36:53Z,W2063341937,10.1021/jp0305741,mark,extracted,"Bond-stretch isomerism in benzocyclobutene and benzo[1,2:4,5]dicyclobutadiene; single- vs two-state CASSCF/CASPT2 on pi-only spaces, with the isomer ordering reversing when sigma dynamic correlation is added and an acknowledged unphysical cusp in the TWS-CASPT2 surface. Two rows."
+2026-08-18T04:37:39Z,W2063599913-a,10.1021/cm0112993,add-row,appended,row added via add-row
+2026-08-18T04:37:39Z,W2063599913,10.1021/cm0112993,mark,extracted_partial,"Carbomer hyperpolarizability study; CASSCF/6-31G** relative energies for the HNC4O2 fragment conformers are reported but NO active space is specified anywhere in the article, so the row carries blank nel/norb. One row."
+2026-08-18T04:39:04Z,W2063663276-a,10.1063/1.2140687,add-row,appended,row added via add-row
+2026-08-18T04:39:04Z,W2063663276-b,10.1063/1.2140687,add-row,appended,row added via add-row
+2026-08-18T04:39:04Z,W2063663276-c,10.1063/1.2140687,add-row,appended,row added via add-row
+2026-08-18T04:39:04Z,W2063663276,10.1063/1.2140687,mark,extracted,"SiC3 low-lying isomers; a dedicated active-space-dependence study with a nested ladder from (8,8) to full-valence FORS(16,16) derived from FORS natural orbital occupations, showing no monotonic trend and the linear triplet 1t wrongly predicted as global minimum by every space below full valence. Three rows."
