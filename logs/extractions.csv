@@ -47675,3 +47675,12 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T07:41:38Z,W2089064680-a,10.1021/jp025692n,add-row,appended,row added via add-row
 2026-08-18T07:41:38Z,W2089064680-b,10.1021/jp025692n,add-row,appended,row added via add-row
 2026-08-18T07:41:54Z,W2089064680,10.1021/jp025692n,mark,extracted,"NCl + NCl 18 surfaces; full valence 24e/16o versus reduced 16e/12o compared on the monomer against experiment, with the reduced space failing near 2.0 A where N 2s enters and Cl 3p leaves the valence region. Two rows."
+2026-08-18T07:45:14Z,W2089174293-a,10.1039/c4cp05546b,add-row,appended,row added via add-row
+2026-08-18T07:45:24Z,W2089174293,10.1039/c4cp05546b,mark,extracted,"DNA stacked adenines; CASPT2//CASSCF(8,8)/Amber QM/MM with four frontier orbitals per base so La, Lb, CT, Ba and Bb coexist, plus three independently varied state-averaging schemes (SA-5/CAS(8,8), SA-7/CAS(12,10), SA-12/CAS(8,8)) on common geometries. One row."
+2026-08-18T07:46:32Z,W2089595819-a,10.1021/jp0535339,add-row,appended,row added via add-row
+2026-08-18T07:46:32Z,W2089595819,10.1021/jp0535339,mark,extracted,"Malonaldehyde ESIPT; explicit five-space calibration where the S2/S1 gap improves monotonically with space size while the S0 barrier degrades from 0.44 to 1.89 eV against a 0.19 benchmark, with SA-3-CAS(4/4) chosen for dynamics. One row."
+2026-08-18T07:47:44Z,W2089838371-a,10.1021/jp068542b,add-row,appended,row added via add-row
+2026-08-18T07:47:44Z,W2089838371-b,10.1021/jp068542b,add-row,appended,row added via add-row
+2026-08-18T07:47:52Z,W2089838371,10.1021/jp068542b,mark,extracted,"Oxyluciferin geometries and fluorescence; (6,6)/(8,8)/(10,10) run in parallel throughout, showing monotone convergence for keto forms, false convergence for enol-s-trans, and an 11 kcal/mol non-monotone jump for keto-s-twist resolved against the larger space. Two rows."
+2026-08-18T07:48:41Z,W2089948046-a,10.1021/jp1018197,add-row,appended,row added via add-row
+2026-08-18T07:48:42Z,W2089948046,10.1021/jp1018197,mark,extracted,"N2 double ionization from multiple orbitals; full valence CASSCF/MRCI/cc-pV5Z with only 1sigma-g and 1sigma-u frozen, state-averaged in D2h and corrected to D-infinity-h, giving 12 dication states with KER assignments. One row; active space size never stated numerically."
