@@ -48186,3 +48186,19 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T12:06:39Z,W2321680866-i,10.1021/ct400913z,add-row,appended,row added via add-row
 2026-08-18T12:06:39Z,W2321680866-j,10.1021/ct400913z,add-row,appended,row added via add-row
 2026-08-18T12:06:39Z,W2321680866,10.1021/ct400913z,mark,extracted,"Bipyridine innocence across ten Fe, Co, V and Ti complexes; CASSCF/NEVPT2 in ORCA 2.9.0 at M06 geometries, def2-TZVPP (def2-SVP for the two largest). Ten rows; complex 9 excluded because its multiconfigurational results are taken from a previous report. Notable for a documented occupancy-pruning space selection protocol."
+2026-08-18T12:10:07Z,W2322040474-a,10.1021/ct200367y,add-row,appended,row added via add-row
+2026-08-18T12:10:07Z,W2322040474,10.1021/ct200367y,mark,extracted,"Triplet ketene photodissociation; CASSCF(14,11)/cc-pVTZ with MRMP in GAMESS, used to build a dual-level surface for trajectories. One row. The bare CASSCF barrier is 16.3 against 29.3 kcal/mol corrected, and the resulting lifetime changes by a factor of twenty-six, overturning an earlier nonstatistical conclusion."
+2026-08-18T12:11:38Z,W2322131761-a,10.1021/ac4034592,add-row,appended,row added via add-row
+2026-08-18T12:11:38Z,W2322131761-b,10.1021/ac4034592,add-row,appended,row added via add-row
+2026-08-18T12:11:38Z,W2322131761-c,10.1021/ac4034592,add-row,appended,row added via add-row
+2026-08-18T12:11:39Z,W2322131761-d,10.1021/ac4034592,add-row,appended,row added via add-row
+2026-08-18T12:11:39Z,W2322131761-e,10.1021/ac4034592,add-row,appended,row added via add-row
+2026-08-18T12:11:39Z,W2322131761-f,10.1021/ac4034592,add-row,appended,row added via add-row
+2026-08-18T12:11:39Z,W2322131761,10.1021/ac4034592,mark,extracted_partial,"Cyclam-methylbenzimidazole fluorescent sensor with Zn, Cd and Cu; CASPT2//CASSCF in MOLCAS with (12e,9o), (12e,10o) and (11e,9o) spaces. Six rows. Partial because the basis set is given only in the Supporting Information, the orbital compositions are never enumerated, and the spaces for benzimidazole and the heptacoordinated Cd complex are not stated."
+2026-08-18T12:13:07Z,W2322216820-a,10.1021/jp1046084,add-row,appended,row added via add-row
+2026-08-18T12:13:07Z,W2322216820-b,10.1021/jp1046084,add-row,appended,row added via add-row
+2026-08-18T12:13:07Z,W2322216820-c,10.1021/jp1046084,add-row,appended,row added via add-row
+2026-08-18T12:13:07Z,W2322216820-d,10.1021/jp1046084,add-row,appended,row added via add-row
+2026-08-18T12:13:08Z,W2322216820-e,10.1021/jp1046084,add-row,appended,row added via add-row
+2026-08-18T12:13:08Z,W2322216820-f,10.1021/jp1046084,add-row,appended,row added via add-row
+2026-08-18T12:13:08Z,W2322216820,10.1021/jp1046084,mark,extracted,"d4 metal-salen model complexes; SA-CASSCF geometries with CASPT2 and CASPT3 in MOLPRO 2006.1, LANL2DZ*. Six rows. Notable because one member of an isovalent series requires an enlarged (8,6) space when ligand pi orbitals stop being doubly occupied at high metal charge."
