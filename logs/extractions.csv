@@ -47780,3 +47780,12 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T08:45:21Z,W2097766728,10.1039/c3cp52703d,mark,extracted,"Triplet acetophenone photogeneration; SA-CASSCF(10,9) of eight p orbitals plus the O lone pair, with all stationary and crossing points optimized at XMCQDPT2 rather than CASSCF, isolating a 0.31 eV geometry effect on the n-pi* state alone. One row."
 2026-08-18T08:46:11Z,W2098255597-a,10.1021/jp811330v,add-row,appended,row added via add-row
 2026-08-18T08:46:25Z,W2098255597,10.1021/jp811330v,mark,extracted,"5-Bromouracil benign decay vs photolysis; three active spaces for three tasks -- (12,10) for paths, (8,7) forced small by the coupled-perturbed MCSCF gradient requirement and validated by 0.1 eV degeneracy retention at CASPT2, and (16,12) for energies. One row."
+2026-08-18T08:49:24Z,W2101449690-a,10.1021/ja303804r,add-row,appended,row added via add-row
+2026-08-18T08:49:24Z,W2101449690-b,10.1021/ja303804r,add-row,appended,row added via add-row
+2026-08-18T08:49:24Z,W2101449690-c,10.1021/ja303804r,add-row,appended,row added via add-row
+2026-08-18T08:49:24Z,W2101449690-d,10.1021/ja303804r,add-row,appended,row added via add-row
+2026-08-18T08:49:24Z,W2101449690-e,10.1021/ja303804r,add-row,appended,row added via add-row
+2026-08-18T08:49:24Z,W2101449690-f,10.1021/ja303804r,add-row,appended,row added via add-row
+2026-08-18T08:49:42Z,W2101449690,10.1021/ja303804r,mark,extracted,"Trivalent lanthanide vs actinide borates; common f-manifold-plus-one-bonding-pair rule that admits a metal 6p for Ce/Pu but a ligand O 2p for Am/Cm once the An 6p drops below the valence region, and a Ce enlargement abandoned for admitting virtual 5d. Six rows."
+2026-08-18T08:50:23Z,W2107355979-a,10.1021/jp051108+,add-row,appended,row added via add-row
+2026-08-18T08:50:36Z,W2107355979,10.1021/jp051108+,mark,extracted,"o-Hydroxyphenyl-triazine photostabilizer; three-tier space ladder (14,13)/(12,11)/(10,8) with occupation-threshold cuts, 106953 vs 1176 configurations, validated on wave functions as well as energies, and minima reoptimized in the smaller space before frequencies. One row."
