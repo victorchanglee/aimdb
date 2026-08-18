@@ -47447,3 +47447,10 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T05:43:36Z,W2072815931-a,10.1021/ja048782+,add-row,appended,row added via add-row
 2026-08-18T05:43:36Z,W2072815931-b,10.1021/ja048782+,add-row,appended,row added via add-row
 2026-08-18T05:43:36Z,W2072815931,10.1021/ja048782+,mark,extracted,"Counterion-controlled retinal PSB photoisomerization; full pi active space of the chromophore with ALL acetate orbitals excluded to core and virtual, so counterion effects are purely electrostatic and comparable across four positions. Two rows."
+2026-08-18T05:47:36Z,W2072916332-a,10.1021/ja710275e,add-row,appended,row added via add-row
+2026-08-18T05:47:36Z,W2072916332-b,10.1021/ja710275e,add-row,appended,row added via add-row
+2026-08-18T05:47:36Z,W2072916332,10.1021/ja710275e,mark,extracted,"Azobenzene photoisomerization from n-pi* and pi-pi* singlets; (14,12) space of ten pi orbitals plus both nitrogen lone pairs, needed because the mechanism runs through a doubly excited state appearing as S7 at the FC geometry, with nine-root state averaging for energies and two-root for CI location. Two rows."
+2026-08-18T05:48:39Z,W2073187340-a,10.1021/jp011925j,add-row,appended,row added via add-row
+2026-08-18T05:48:48Z,W2073187340,10.1021/jp011925j,mark,extracted,"Ga.N2 LIF spectrum simulation; STATE-SPECIFIC active spaces because the 2Delta state occupies Ga 4d-derived delta orbitals absent from the ground-state space, so one pi set is traded for two delta orbitals, with each state's MRCI built on its own CASSCF orbitals. One row."
+2026-08-18T05:49:45Z,W2073509892-a,10.1021/ja016092p,add-row,appended,row added via add-row
+2026-08-18T05:49:45Z,W2073509892,10.1021/ja016092p,mark,extracted,"Paterno-Buchi 1,4-diradical spin-orbit coupling map; (6,6) of the two odd electrons plus two oxygen lone pairs, size settled by an explicit bracketing test ((4,4) insufficient, (8,8) no change), held fixed across a 3D torsional scan. One row."
