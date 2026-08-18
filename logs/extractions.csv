@@ -48092,3 +48092,25 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T11:28:24Z,W2318409227-d,10.1021/acs.jpca.5b01645,add-row,appended,row added via add-row
 2026-08-18T11:28:24Z,W2318409227-e,10.1021/acs.jpca.5b01645,add-row,appended,row added via add-row
 2026-08-18T11:28:38Z,W2318409227,10.1021/acs.jpca.5b01645,mark,extracted_partial,"Gaseous ruthenium species thermodynamics, MOLPRO full-valence CASSCF with MRCI+Q, CASPT2 and QD-PCNEVPT2. Space composition given (O 2s2p plus Ru 5s4d) but never as electron/orbital counts, hence partial. Three independent MR diagnostics that partly disagree - T1 up to 0.054, spin contamination 40% for RuO2 only, leading configuration weight above 0.9 throughout - with the configuration weight arbitrating. Full valence was feasible only for Ru, RuO and RuO2; the two chemically dominant oxides were never treated multiconfigurationally. 5 rows."
+2026-08-18T11:34:21Z,W2318550341-a,10.1021/ct200372y,add-row,appended,row added via add-row
+2026-08-18T11:34:26Z,W2318550341,10.1021/ct200372y,mark,extracted_partial,"FeO CASSCF(12,12)/MRCI(12,12) and MRCI(12,9)-DKH2 in MOLPRO 2006.1; one row. Partial because the basis set for the multireference calculations is never stated (the cc-pVTZ label in the same figure attaches to the coupled cluster curves)."
+2026-08-18T11:36:51Z,W2318605583-a,10.1021/jp011532k,add-row,appended,row added via add-row
+2026-08-18T11:36:51Z,W2318605583-b,10.1021/jp011532k,add-row,appended,row added via add-row
+2026-08-18T11:36:51Z,W2318605583-c,10.1021/jp011532k,add-row,appended,row added via add-row
+2026-08-18T11:36:51Z,W2318605583-d,10.1021/jp011532k,add-row,appended,row added via add-row
+2026-08-18T11:36:51Z,W2318605583-e,10.1021/jp011532k,add-row,appended,row added via add-row
+2026-08-18T11:36:51Z,W2318605583-f,10.1021/jp011532k,add-row,appended,row added via add-row
+2026-08-18T11:36:52Z,W2318605583-g,10.1021/jp011532k,add-row,appended,row added via add-row
+2026-08-18T11:36:52Z,W2318605583-h,10.1021/jp011532k,add-row,appended,row added via add-row
+2026-08-18T11:36:52Z,W2318605583-i,10.1021/jp011532k,add-row,appended,row added via add-row
+2026-08-18T11:36:52Z,W2318605583-j,10.1021/jp011532k,add-row,appended,row added via add-row
+2026-08-18T11:36:52Z,W2318605583-k,10.1021/jp011532k,add-row,appended,row added via add-row
+2026-08-18T11:37:01Z,W2318605583,10.1021/jp011532k,mark,extracted,"SC3H system: MRCI+Q vertical gaps on a four-orbital state-averaged CASSCF reference (5e for the five planar minima, 3e for the four nonplanar ones, 6-311G**) plus CASSCF/cc-pVDZ entrance-channel profiles with 11-electron spaces; MOLPRO. Eleven rows, nine minima plus the two entrance channels."
+2026-08-18T11:38:39Z,W2318622155-a,10.1021/ct300170y,add-row,appended,row added via add-row
+2026-08-18T11:38:39Z,W2318622155,10.1021/ct300170y,mark,extracted,"Methylcobalamin Co-C dissociation; CASSCF/CASPT2 with a 10-electron 11-orbital space (labelled (11,10) in the paper) in ANO-S, MOLCAS 7.4, benchmarked against CR-CC(2,3)/CCSD. One row; the paper's own conclusion is that affordable active spaces are inadequate for this system."
+2026-08-18T11:40:12Z,W2318674172-a,10.1021/jp109830s,add-row,appended,row added via add-row
+2026-08-18T11:40:12Z,W2318674172-b,10.1021/jp109830s,add-row,appended,row added via add-row
+2026-08-18T11:40:12Z,W2318674172-c,10.1021/jp109830s,add-row,appended,row added via add-row
+2026-08-18T11:40:12Z,W2318674172-d,10.1021/jp109830s,add-row,appended,row added via add-row
+2026-08-18T11:40:13Z,W2318674172-e,10.1021/jp109830s,add-row,appended,row added via add-row
+2026-08-18T11:40:13Z,W2318674172,10.1021/jp109830s,mark,extracted_partial,"C2H2 ground-state surface: full valence CASSCF reference with MRCI+Q, aug-cc-pVXZ up to 5Z, MOLPRO; five rows for the five stationary points. Partial because the full valence space is never given as an electron or orbital count."
