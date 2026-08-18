@@ -47454,3 +47454,10 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T05:48:48Z,W2073187340,10.1021/jp011925j,mark,extracted,"Ga.N2 LIF spectrum simulation; STATE-SPECIFIC active spaces because the 2Delta state occupies Ga 4d-derived delta orbitals absent from the ground-state space, so one pi set is traded for two delta orbitals, with each state's MRCI built on its own CASSCF orbitals. One row."
 2026-08-18T05:49:45Z,W2073509892-a,10.1021/ja016092p,add-row,appended,row added via add-row
 2026-08-18T05:49:45Z,W2073509892,10.1021/ja016092p,mark,extracted,"Paterno-Buchi 1,4-diradical spin-orbit coupling map; (6,6) of the two odd electrons plus two oxygen lone pairs, size settled by an explicit bracketing test ((4,4) insufficient, (8,8) no change), held fixed across a 3D torsional scan. One row."
+2026-08-18T05:53:43Z,W2073223386-a,10.1021/jp8078925,add-row,appended,row added via add-row
+2026-08-18T05:53:43Z,W2073223386-b,10.1021/jp8078925,add-row,appended,row added via add-row
+2026-08-18T05:53:52Z,W2073223386,10.1021/jp8078925,mark,extracted,"Tricyanoaniline ICT absence; the chemically correct (20e,19o) is unaffordable so a small CAS is embedded in RASSCF(20,7+5+7)[2,2] with the extra orbitals at double-excitation level, and both lone-pair-in and lone-pair-out variants are published showing a 1.2 eV sensitivity to one orbital. Two rows."
+2026-08-18T05:55:25Z,W2073570219-a,10.1021/jp993384s,add-row,appended,row added via add-row
+2026-08-18T05:55:25Z,W2073570219-b,10.1021/jp993384s,add-row,appended,row added via add-row
+2026-08-18T05:55:25Z,W2073570219-c,10.1021/jp993384s,add-row,appended,row added via add-row
+2026-08-18T05:55:25Z,W2073570219,10.1021/jp993384s,mark,extracted,"Pd and Pt bis(2-thienylpyridine) spectra; (16,12) space carrying both bonding and antibonding metal-ligand combinations, with the unaffordable 26-orbital full-pi alternative calibrated on the free thpyH ligand where the truncation error REVERSES SIGN between singlet and triplet. Three rows including the ligand calibration."
