@@ -47180,3 +47180,10 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T03:12:53Z,W2052854489-c,10.1021/jp047768g,add-row,appended,row added via add-row
 2026-08-18T03:12:53Z,W2052854489-d,10.1021/jp047768g,add-row,appended,row added via add-row
 2026-08-18T03:12:53Z,W2052854489,10.1021/jp047768g,mark,extracted,"5-Dehydro-m-xylylene triradical and N/P derivatives; CASSCF(10,9)/(9,9)/(13,11) with MS-CASPT2 and MCQDPT. Documents oversizing a space for neutral/cation consistency, and including lone pairs with occupation >1.97 because omitting them costs 15% of a 2 kcal/mol gap. Four rows."
+2026-08-18T03:16:23Z,W2053159686-a,10.1021/ct300237f,add-row,appended,row added via add-row
+2026-08-18T03:16:23Z,W2053159686-b,10.1021/ct300237f,add-row,appended,row added via add-row
+2026-08-18T03:16:23Z,W2053159686-c,10.1021/ct300237f,add-row,appended,row added via add-row
+2026-08-18T03:16:35Z,W2053159686,10.1021/ct300237f,mark,extracted,"NiTpX zero-field splittings; minimal CAS(8,5) Ni 3d space with complete d8 multiplet state averaging (10 triplet + 15 singlet roots), QDPT spin-orbit, NEVPT2 and SORCI comparison, ZORA. Three rows."
+2026-08-18T03:17:41Z,W2053530945-a,10.1021/ct2004758,add-row,appended,row added via add-row
+2026-08-18T03:17:41Z,W2053530945-b,10.1021/ct2004758,add-row,appended,row added via add-row
+2026-08-18T03:17:42Z,W2053530945,10.1021/ct2004758,mark,extracted,"Coelenteramide/Cypridina oxyluciferin model; CAS(10-in-9) pi space plus CAS(12-in-10) adding the oxygen lone pair, which lengthens CO by 0.12 A and lowers the vertical emission by 0.87 eV. MOLCAS 7.6. Two rows."
