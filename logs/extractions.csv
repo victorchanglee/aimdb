@@ -47589,3 +47589,24 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T07:05:31Z,W2083371726,10.1021/ja050002p,mark,extracted,"DBO photolysis; CASPT2//CASSCF(12,10) of both C-N sigma/sigma* pairs plus the full N2 valence set, deliberately reduced to (10,9) near the diazenyl diradicals where an N lone pair reaches occupancy 2 and wrecks convergence. One row."
 2026-08-18T07:06:32Z,W2083670310-a,10.1021/ja8100038,add-row,appended,row added via add-row
 2026-08-18T07:06:32Z,W2083670310,10.1021/ja8100038,mark,extracted_partial,"Dy(III) magnetic anisotropy; CASSCF(9,7) 4f manifold with four RASSI-SO root subsets showing negligible 6H mixing, easy axis within 7 degrees of experiment. One row; marked partial because the numeric body of Table 1 (split 6H15/2 level energies and g values for calculations A-D) was lost in text extraction."
+2026-08-18T07:07:43Z,W2083728213-a,10.1021/ct300625u,add-row,appended,row added via add-row
+2026-08-18T07:07:43Z,W2083728213,10.1021/ct300625u,mark,extracted,"Benzene prefulvene conical intersection seam; CAS(6,6)/cc-pVDZ pi space used as a bridge to a valence bond description, with VB predicting a counterintuitive C2 seam saddle point that CASSCF then confirms 0.75 eV above the minimum. One row."
+2026-08-18T07:09:02Z,W2084030297-a,10.1021/jp2092225,add-row,appended,row added via add-row
+2026-08-18T07:09:02Z,W2084030297-b,10.1021/jp2092225,add-row,appended,row added via add-row
+2026-08-18T07:09:03Z,W2084030297-c,10.1021/jp2092225,add-row,appended,row added via add-row
+2026-08-18T07:09:03Z,W2084030297-d,10.1021/jp2092225,add-row,appended,row added via add-row
+2026-08-18T07:09:03Z,W2084030297-e,10.1021/jp2092225,add-row,appended,row added via add-row
+2026-08-18T07:09:03Z,W2084030297-f,10.1021/jp2092225,add-row,appended,row added via add-row
+2026-08-18T07:09:03Z,W2084030297-g,10.1021/jp2092225,add-row,appended,row added via add-row
+2026-08-18T07:09:03Z,W2084030297,10.1021/jp2092225,mark,extracted,"Oligoacenes and PAHs by RASSCF; complete pi orbital space with the CI expansion truncated at two or four excitations, isolating truncation level as the variable, with anthracene's D2h-Cs energy difference running 0.3/16.8/26.5 kcal/mol. Seven rows, one per molecule."
+2026-08-18T07:10:00Z,W2084637981-a,10.1021/jo0011742,add-row,appended,row added via add-row
+2026-08-18T07:10:00Z,W2084637981-b,10.1021/jo0011742,add-row,appended,row added via add-row
+2026-08-18T07:10:00Z,W2084637981-c,10.1021/jo0011742,add-row,appended,row added via add-row
+2026-08-18T07:10:00Z,W2084637981-d,10.1021/jo0011742,add-row,appended,row added via add-row
+2026-08-18T07:10:01Z,W2084637981-e,10.1021/jo0011742,add-row,appended,row added via add-row
+2026-08-18T07:10:01Z,W2084637981-f,10.1021/jo0011742,add-row,appended,row added via add-row
+2026-08-18T07:10:01Z,W2084637981-g,10.1021/jo0011742,add-row,appended,row added via add-row
+2026-08-18T07:10:01Z,W2084637981-h,10.1021/jo0011742,add-row,appended,row added via add-row
+2026-08-18T07:10:01Z,W2084637981-i,10.1021/jo0011742,add-row,appended,row added via add-row
+2026-08-18T07:10:01Z,W2084637981-j,10.1021/jo0011742,add-row,appended,row added via add-row
+2026-08-18T07:10:02Z,W2084637981,10.1021/jo0011742,mark,extracted,"Inner-sphere reorganization energies of ten arenediazonium/diazenyl couples; full pi-CASSCF/6-31G* whose trend exactly opposes experiment, with the authors stating full valence CASSCF is needed but intractable. Ten rows; active space size never stated numerically."
