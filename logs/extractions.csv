@@ -48222,3 +48222,15 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T12:23:32Z,W2322625376-e,10.1021/jp509492e,add-row,appended,row added via add-row
 2026-08-18T12:23:32Z,W2322625376-f,10.1021/jp509492e,add-row,appended,row added via add-row
 2026-08-18T12:23:32Z,W2322625376,10.1021/jp509492e,mark,extracted,"Energy transfer in a dinuclear Eu/Tb complex; XMCQDPT2/CASSCF in Firefly with 4f-in-core pseudopotentials, spaces of (4,4), (6,6) and (8,8) built one frontier pair per ligand. Six rows for the three Gd calibration models and the three fragments. The full complex would need (14,14), which is why it was fragmented."
+2026-08-18T12:27:22Z,W2322744077-a,10.1021/jp3000575,add-row,appended,row added via add-row
+2026-08-18T12:27:22Z,W2322744077-b,10.1021/jp3000575,add-row,appended,row added via add-row
+2026-08-18T12:27:22Z,W2322744077,10.1021/jp3000575,mark,extracted_partial,"Thermal rearrangements of 1-ethynyl-2-methylcyclopropane; CASSCF geometries with MRMP2 single points in GAMESS, applied only to the two spin-contaminated transition states. Two rows. Partial because the active space size and composition are never stated anywhere in the paper."
+2026-08-18T12:28:27Z,W2323424308-a,10.1021/jp306213n,add-row,appended,row added via add-row
+2026-08-18T12:28:27Z,W2323424308,10.1021/jp306213n,mark,extracted,"N2O nuclear quadrupole coupling constants; CASSCF(16,12) full valence with MRCI in MOLPRO 2008.1 across four correlation-consistent bases. One row. The bare space is adequate to 1 percent at oxygen and off by 35 percent at the central nitrogen, and CCSD(T) beats MRCI against experiment."
+2026-08-18T12:30:02Z,W2323371282-a,10.1021/ic401677j,add-row,appended,row added via add-row
+2026-08-18T12:30:02Z,W2323371282-b,10.1021/ic401677j,add-row,appended,row added via add-row
+2026-08-18T12:30:02Z,W2323371282-c,10.1021/ic401677j,add-row,appended,row added via add-row
+2026-08-18T12:30:02Z,W2323371282-d,10.1021/ic401677j,add-row,appended,row added via add-row
+2026-08-18T12:30:02Z,W2323371282-e,10.1021/ic401677j,add-row,appended,row added via add-row
+2026-08-18T12:30:03Z,W2323371282-f,10.1021/ic401677j,add-row,appended,row added via add-row
+2026-08-18T12:30:03Z,W2323371282,10.1021/ic401677j,mark,extracted,"Trigonal-planar Fe(II) and Co(II) amido complexes; CAS(6,5) and CAS(7,5) d-only spaces with SOCI in ORCA 3.0.0 on truncated models. Six rows. Supplies a working criterion for when a minimal d space suffices: excited-determinant admixture below 20 percent and lowest transition above 1000 cm-1."
