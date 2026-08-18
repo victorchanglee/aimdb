@@ -47815,3 +47815,19 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T09:03:22Z,W2112736113-e,10.1021/ic5007204,add-row,appended,row added via add-row
 2026-08-18T09:03:22Z,W2112736113-f,10.1021/ic5007204,add-row,appended,row added via add-row
 2026-08-18T09:03:34Z,W2112736113,10.1021/ic5007204,mark,extracted,"M2(dpa)4 and M2O(dpa)4 (Mo2/MoW/W2), CASSCF/CASPT2 MOLCAS 7.7, DKH, ANO-RCC. Fixed CAS(6,6) across the M2 series gives monotonic sigma2pi2delta2 weights 24/33/42% and EBOs 1.01/1.33/1.59; CAS(10,8) M-O space yields metal-localized dxy/dz2 so no M-M interaction is visible. 6 rows. Compound 1 (Cr2) has no CASSCF results reported despite the Computational Details claiming 1-4."
+2026-08-18T09:05:11Z,W2113304275-a,10.1021/ja037252v,add-row,appended,row added via add-row
+2026-08-18T09:05:11Z,W2113304275,10.1021/ja037252v,mark,extracted,"TME/bisallyl radical cation electromers, CASSCF/CASPT2 (11,12)/ANO-S in MOLCAS at fixed planar D2h and perpendicular D2d geometries. Key point: the authors explicitly refuse to address localized vs delocalized states computationally, arguing a localized HF reference is too poor a zero order for a correlated delocalized wavefunction for PT to work. 1 row; octamethyl derivative is B3LYP only."
+2026-08-18T09:06:40Z,W2116920507-a,10.1021/om3010367,add-row,appended,row added via add-row
+2026-08-18T09:06:40Z,W2116920507-b,10.1021/om3010367,add-row,appended,row added via add-row
+2026-08-18T09:06:41Z,W2116920507-c,10.1021/om3010367,add-row,appended,row added via add-row
+2026-08-18T09:06:41Z,W2116920507-d,10.1021/om3010367,add-row,appended,row added via add-row
+2026-08-18T09:06:41Z,W2116920507,10.1021/om3010367,mark,extracted,"Arene-bridged diuranium complexes, Molcas 7.7 CASSCF/CASPT2 with DKH and ANO-RCC. Four spaces: 5f-only (3,7) and (2,7) for non-covalent ligands; (7,10) for the imide failed because CASSCF and CASPT2 disagreed on the ground state, repaired to (19,15) by adding six doubly occupied U 6p/5d/N 2s orbitals; (8,14) for the bridged dimer. 4 rows."
+2026-08-18T09:08:11Z,W2117281143-a,10.1021/ct100227k,add-row,appended,row added via add-row
+2026-08-18T09:08:11Z,W2117281143-b,10.1021/ct100227k,add-row,appended,row added via add-row
+2026-08-18T09:08:12Z,W2117281143-c,10.1021/ct100227k,add-row,appended,row added via add-row
+2026-08-18T09:08:12Z,W2117281143-d,10.1021/ct100227k,add-row,appended,row added via add-row
+2026-08-18T09:08:12Z,W2117281143,10.1021/ct100227k,mark,extracted,"GFP chromophore HBDI in four protonation forms, Firefly SA-CASSCF + XMCQDPT2/cc-pVDZ. Two-space protocol: CASSCF(12/11) geometries/MECIs, XMCQDPT2 on SA-CASSCF(14/12) energies, with the state-averaging weights switched per stationary point (SA3 at Min-S0, SA2 at MECI/twisted, state-specific (0,1) at Plan-S1). 4 rows."
+2026-08-18T09:08:59Z,W2122026376-a,10.1021/jz300235z,add-row,appended,row added via add-row
+2026-08-18T09:08:59Z,W2122026376,10.1021/jz300235z,mark,extracted,"DNQ light-induced Wolff rearrangement, CASPT2//CASSCF with (10,10) for optimizations and (14,13) for the CASPT2 energies; the space must carry both the bright (pi,pi*) and the dark (pi,pi*NN) diazo state or the carbene/ketene branching disappears. Basis set only in SI. 1 row."
+2026-08-18T09:10:02Z,W2122439802-a,10.1021/ja3029729,add-row,appended,row added via add-row
+2026-08-18T09:10:02Z,W2122439802,10.1021/ja3029729,mark,extracted,"Photoexcited aniline, CASSCF/6-311+G(d) in Gaussian. CAS1 (8,7) pi+n cannot represent the 1pisigma* state at all (dash in Table 1); CAS2 (10,9) adds N-H sigma/sigma* and it appears at 5.78 eV, at 490 -> 5292 CSFs. Enlargement makes the 2(1)pipi* ICT energy worse, not better. 1 row."
