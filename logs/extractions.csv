@@ -47551,3 +47551,11 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T06:47:43Z,W2080222234-b,10.1021/ic501385r,add-row,appended,row added via add-row
 2026-08-18T06:47:43Z,W2080222234-c,10.1021/ic501385r,add-row,appended,row added via add-row
 2026-08-18T06:47:55Z,W2080222234,10.1021/ic501385r,mark,extracted,"Mononuclear Cr(III) polyoxotungstates; CASSCF/NEVPT2 in ORCA on three CrO6(3-) model complexes mapped to angular overlap parameters, showing D varies 0.356-2.255 cm-1 from second-sphere effects alone. Three rows; active space size never stated."
+2026-08-18T06:48:52Z,W2080764301-a,10.1021/jp953566w,add-row,appended,row added via add-row
+2026-08-18T06:48:52Z,W2080764301,10.1021/jp953566w,mark,extracted,"Phenoxy radical thermal decomposition; CASSCF(9e/8o)/6-31G* pi space augmented with the oxygen lone pair, state-specific and six-state averaged, with all verticals 10-20 kcal/mol above experiment and CASPT2/SDCI explicitly unaffordable. One row."
+2026-08-18T06:50:07Z,W2080864423-a,10.1021/ja074402j,add-row,appended,row added via add-row
+2026-08-18T06:50:07Z,W2080864423-b,10.1021/ja074402j,add-row,appended,row added via add-row
+2026-08-18T06:50:07Z,W2080864423-c,10.1021/ja074402j,add-row,appended,row added via add-row
+2026-08-18T06:50:08Z,W2080864423-d,10.1021/ja074402j,add-row,appended,row added via add-row
+2026-08-18T06:50:08Z,W2080864423-e,10.1021/ja074402j,add-row,appended,row added via add-row
+2026-08-18T06:50:17Z,W2080864423,10.1021/ja074402j,mark,extracted,"Electrocyclic ring closures of 7-azahepta-1,2,4,6-tetraenes; graded CASSCF spaces (6,6)/(8,7)/(8,8)/(10,9) each matched to the feature under test, with CASPT2 single points and B3LYP agreeing to 0.4-1.4 kcal/mol. Five rows, one per reactant."
