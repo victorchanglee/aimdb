@@ -46940,3 +46940,14 @@ timestamp,key,doi,action,result,reasoning
 2026-08-18T00:57:46Z,W2032918704-d,10.1021/jp807183m,add-row,appended,row added via add-row
 2026-08-18T00:57:46Z,W2032918704-e,10.1021/jp807183m,add-row,appended,row added via add-row
 2026-08-18T00:57:46Z,W2032918704,10.1021/jp807183m,mark,extracted_partial,"CAS-BCCC4 benchmark; five rows for the systems with explicitly stated active spaces (cyclopropyl (3,3), cyclobutene (4,4), cyclobutadiene pi(4,4), TMM (2,2)/(4,4), oxyallyl (2,2)/(4,4)). Marked partial because the bicyclo[3.1.0]hex-2-ene automerization and the C2/N2/O2/CO spectroscopic-constant calculations do not have their active spaces stated in the extracted text and were not transcribed."
+2026-08-18T01:01:01Z,W2038202084-a,10.1021/jp020529d,add-row,appended,row added via add-row
+2026-08-18T01:01:10Z,W2038202084,10.1021/jp020529d,mark,extracted_partial,"Br(2P)...H2 pre-reactive complex; state-averaged CASSCF over 1A'/2A'/1A'' used only for the off-diagonal coupling and fourth diabatic surface, with R-UCCSD(T) supplying the diagonal diabats. One row. Marked partial because the active space is specified by orbital labels (Br 4s/4p plus H2 sigma-g/sigma-u*) without electron or orbital counts, so those fields are blank."
+2026-08-18T01:02:07Z,W2038348018-a,10.1021/jp0003398,add-row,appended,row added via add-row
+2026-08-18T01:02:07Z,W2038348018-b,10.1021/jp0003398,add-row,appended,row added via add-row
+2026-08-18T01:02:07Z,W2038348018-c,10.1021/jp0003398,add-row,appended,row added via add-row
+2026-08-18T01:02:07Z,W2038348018-d,10.1021/jp0003398,add-row,appended,row added via add-row
+2026-08-18T01:02:08Z,W2038348018-e,10.1021/jp0003398,add-row,appended,row added via add-row
+2026-08-18T01:02:08Z,W2038348018-f,10.1021/jp0003398,add-row,appended,row added via add-row
+2026-08-18T01:02:08Z,W2038348018-g,10.1021/jp0003398,add-row,appended,row added via add-row
+2026-08-18T01:02:08Z,W2038348018-h,10.1021/jp0003398,add-row,appended,row added via add-row
+2026-08-18T01:02:08Z,W2038348018,10.1021/jp0003398,mark,extracted,"Radiationless decay of cyclic alkenes in T1; CASSCF(2,2)/SV+d spin-orbit couplings at UDFT geometries, validated against CISDTQ(12,12) at selected points. Eight rows."
