@@ -50130,3 +50130,10 @@ timestamp,key,doi,action,result,reasoning
 2026-08-19T19:52:09Z,W2951108169-b,10.1021/jp992105y,add-row,appended,row added via add-row
 2026-08-19T19:52:09Z,W2951108169-c,10.1021/jp992105y,add-row,appended,row added via add-row
 2026-08-19T19:52:17Z,W2951108169,10.1021/jp992105y,mark,extracted_partial,"Three rows for B2Li, B2Li2 and B2Li3. Partial on three grounds: B2Li4 receives NO multireference treatment at all despite being fully characterized and carrying one of the paper's headline results (the D4h global minimum), so it gets no row; the active space COMPOSITION is never stated for any of the three clusters, only the electron and orbital counts; and the paper reports B2Li2 as (8,10) in the methodology and tables but as CASSCF(7,10) in the discussion of the triplet linear isomer, an unresolved internal inconsistency."
+2026-08-19T19:56:13Z,W2951340880-a,10.1021/jp993074+,add-row,appended,row added via add-row
+2026-08-19T19:56:13Z,W2951340880-b,10.1021/jp993074+,add-row,appended,row added via add-row
+2026-08-19T19:56:13Z,W2951340880-c,10.1021/jp993074+,add-row,appended,row added via add-row
+2026-08-19T19:56:13Z,W2951340880-d,10.1021/jp993074+,add-row,appended,row added via add-row
+2026-08-19T19:56:13Z,W2951340880-e,10.1021/jp993074+,add-row,appended,row added via add-row
+2026-08-19T19:56:14Z,W2951340880-f,10.1021/jp993074+,add-row,appended,row added via add-row
+2026-08-19T19:56:22Z,W2951340880,10.1021/jp993074+,mark,extracted,"Six rows, one per stoichiometry and charge state (Al3As2, Al3As2+, Al3As2-, Al2As3, Al2As3+, Al2As3-). Full extraction: the active space is disclosed by symmetry block (3232-CAS = 3a1+2b2+3b1+2a2) with orbital-by-orbital atomic-orbital composition, electron counts given per species, RECPs and basis stated, MRSDCI reference threshold (0.07) and CSF count given, and geometries optimized at both CASSCF and MRSDCI levels. The capped rhombus isomer of Al3As2 is described within that species' row. The As3 atomization energy of 5.18 eV used to assemble the Al2As3 atomization is another study's number and is flagged as such rather than given a row."
