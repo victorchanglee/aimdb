@@ -69,7 +69,7 @@ a future pass ever finds a way to mine it, it belongs on this list.
 
 **QUEST-sourced DOIs that no longer have rows** (2026-08-17). Their single row
 named a dataset rather than a compound and was stripped under the rule below;
-the rows are preserved in `database/removed_rows.csv`. They are listed here
+the rows are preserved in `logs/removed_rows.csv`. They are listed here
 because the contamination risk returns the moment anyone re-mines them:
 
 - `10.1002/wcms.1517` — Véril, Scemama, Caffarel, Loos, Jacquemin et al.,
@@ -102,10 +102,19 @@ Naming *several* compounds is fine: "test set: acrolein, benzene, benzyne,
 PSB3" names four, and is an over-merged row rather than a nameless one. Split
 it if you have the per-compound data; do not strip it.
 
-39 rows failing the test were removed on 2026-08-17 with
+39 rows failing the test were removed on 2026-08-19 with
 `code/tools/tools_strip_rows.py`, which quarantines every removed row to
-`database/removed_rows.csv` first. Decide this by reading, never by pattern:
+`logs/removed_rows.csv` first. Decide this by reading, never by pattern:
 an early attempt matched `n ?= ?` and flagged every formula containing `N=O`.
+
+The quarantine file is a log, not a data source — do not load it alongside
+`aimdb.csv`. It lived at `database/removed_rows.csv` until 2026-08-19, so the
+54 `strip_row` entries already in `logs/extractions.csv` name that old path;
+they were accurate when written and are left alone, because the log is
+append-only. It is also not the same content as the row's last version in git:
+four of the 39 rows had `software` or `basis_set` filled in the same commit
+that removed them, so the quarantine holds the row as it actually was at
+removal and the git parent holds an emptier one.
 
 The Python package does the mechanical work (API search, PDF download, text
 extraction). **You do the reading and extraction** — deciding whether a paper

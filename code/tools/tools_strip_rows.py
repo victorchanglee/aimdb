@@ -9,7 +9,7 @@ cannot be checked against the paper either.
 
 This tool strips such rows. It never deletes silently:
 
-  - every removed row is written verbatim to `database/removed_rows.csv`,
+  - every removed row is written verbatim to `logs/removed_rows.csv`,
     with the reason and the date, so the extraction is recoverable;
   - every removal appends to `logs/extractions.csv`;
   - the list of entry_ids is supplied by the caller and is expected to have
@@ -33,7 +33,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 DB = ROOT / "database" / "aimdb.csv"
-QUARANTINE = ROOT / "database" / "removed_rows.csv"
+QUARANTINE = ROOT / "logs" / "removed_rows.csv"
 LOG = ROOT / "logs" / "extractions.csv"
 
 
@@ -87,7 +87,7 @@ def main(argv=None):
                 stamp, r["entry_id"], r.get("reference_doi", ""), "strip_row",
                 f"compound_name={r['compound_name'][:120]}",
                 f"row names no compound: {wanted[r['entry_id']]}; "
-                f"full row preserved in database/removed_rows.csv",
+                f"full row preserved in logs/removed_rows.csv",
             ])
 
     tmp = DB.with_suffix(".csv.tmp")

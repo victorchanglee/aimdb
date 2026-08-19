@@ -44,7 +44,7 @@ evidence or without preserving what it replaces.
 | tool | what it does |
 | --- | --- |
 | `tools/tools_fill_gaps.py` | applies reviewed gap-fills. Refuses to overwrite a non-empty cell (unless `--allow-replace`) and refuses any fill without a quoted sentence. Logs every edit. |
-| `tools/tools_strip_rows.py` | removes rows whose `compound_name` names no compound, quarantining each removed row verbatim to `database/removed_rows.csv` first. |
+| `tools/tools_strip_rows.py` | removes rows whose `compound_name` names no compound, quarantining each removed row verbatim to `logs/removed_rows.csv` first. |
 | `tools/tools_stampdoi.py` | stamps `reference_doi` into row JSONs from the index, so a DOI is never typed from memory. |
 
 ## Audit and derived files
