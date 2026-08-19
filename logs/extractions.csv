@@ -48810,3 +48810,15 @@ timestamp,key,doi,action,result,reasoning
 2026-08-19T07:03:31Z,W2777265398-a,10.1021/jacs.7b12495,add-row,appended,row added via add-row
 2026-08-19T07:03:31Z,W2777265398-b,10.1021/jacs.7b12495,add-row,appended,row added via add-row
 2026-08-19T07:03:31Z,W2777265398,10.1021/jacs.7b12495,mark,extracted_partial,"Both Dy compounds extracted with their g-tensors, Kramers doublet compositions, barriers and coupling constants. Marked partial because this is a JACS Communication whose computational details - active space size and composition, roots per multiplicity into the spin-orbit step, and basis sets - are entirely in the SI; the body text gives only the method chain and results. The Y analogues had no CASSCF and get no rows."
+2026-08-19T08:06:56Z,W2779940547-a,10.1021/acs.joc.7b02982,add-row,appended,row added via add-row
+2026-08-19T08:06:56Z,W2779940547-b,10.1021/acs.joc.7b02982,add-row,appended,row added via add-row
+2026-08-19T08:06:56Z,W2779940547-c,10.1021/acs.joc.7b02982,add-row,appended,row added via add-row
+2026-08-19T08:06:56Z,W2779940547,10.1021/acs.joc.7b02982,mark,extracted_partial,"The three intermediates given multiconfigurational treatment (6a, 6b, 16) extracted with their active spaces, wave function compositions and mechanistic roles. Marked partial because compounds are identified only by number against figures the extracted text does not resolve into systematic names, so rows use the paper's own labels plus its explicit descriptive characterization."
+2026-08-19T08:09:21Z,W2782833875-a,10.1021/acs.jctc.7b01144,add-row,appended,row added via add-row
+2026-08-19T08:09:21Z,W2782833875-b,10.1021/acs.jctc.7b01144,add-row,appended,row added via add-row
+2026-08-19T08:09:22Z,W2782833875-c,10.1021/acs.jctc.7b01144,add-row,appended,row added via add-row
+2026-08-19T08:09:22Z,W2782833875-d,10.1021/acs.jctc.7b01144,add-row,appended,row added via add-row
+2026-08-19T08:09:22Z,W2782833875-e,10.1021/acs.jctc.7b01144,add-row,appended,row added via add-row
+2026-08-19T08:09:22Z,W2782833875-f,10.1021/acs.jctc.7b01144,add-row,appended,row added via add-row
+2026-08-19T08:09:22Z,W2782833875-g,10.1021/acs.jctc.7b01144,add-row,appended,row added via add-row
+2026-08-19T08:09:22Z,W2782833875,10.1021/acs.jctc.7b01144,mark,extracted_partial,"All seven benchmark and application systems extracted with their active spaces, embedding regions and the documented measures for keeping active orbitals from dropping out. Marked partial because the two large complexes are described only by element, atom count and basis-function count in the body text, without compound identities, and per-region orbital counts are in tables the extracted text does not fully resolve."
