@@ -48884,3 +48884,21 @@ timestamp,key,doi,action,result,reasoning
 2026-08-19T13:09:58Z,W2862963997-e,10.1021/acs.jpca.8b04846,add-row,appended,row added via add-row
 2026-08-19T13:09:59Z,W2862963997-f,10.1021/acs.jpca.8b04846,add-row,appended,row added via add-row
 2026-08-19T13:09:59Z,W2862963997,10.1021/acs.jpca.8b04846,mark,extracted,"All six CoGen species (n=1-3, anion and neutral) extracted with their spaces, ground states and the RAS partition. The paper states the 14-orbital CAS ceiling explicitly and names 17 and 20 orbitals as required, reaching them via restricted excitations with Co 4d in RAS3 for the double-shell effect. All perturbative settings (imaginary 0.1, IPEA 0.25, semicore correlated) are in the body text."
+2026-08-19T13:19:26Z,W2885983020-a,10.1021/acs.jctc.8b00513,add-row,appended,row added via add-row
+2026-08-19T13:19:26Z,W2885983020-b,10.1021/acs.jctc.8b00513,add-row,appended,row added via add-row
+2026-08-19T13:19:26Z,W2885983020-c,10.1021/acs.jctc.8b00513,add-row,appended,row added via add-row
+2026-08-19T13:19:27Z,W2885983020-d,10.1021/acs.jctc.8b00513,add-row,appended,row added via add-row
+2026-08-19T13:19:27Z,W2885983020-e,10.1021/acs.jctc.8b00513,add-row,appended,row added via add-row
+2026-08-19T13:19:27Z,W2885983020-f,10.1021/acs.jctc.8b00513,add-row,appended,row added via add-row
+2026-08-19T13:19:27Z,W2885983020-g,10.1021/acs.jctc.8b00513,add-row,appended,row added via add-row
+2026-08-19T13:19:27Z,W2885983020-h,10.1021/acs.jctc.8b00513,add-row,appended,row added via add-row
+2026-08-19T13:19:27Z,W2885983020-i,10.1021/acs.jctc.8b00513,add-row,appended,row added via add-row
+2026-08-19T13:19:28Z,W2885983020-j,10.1021/acs.jctc.8b00513,add-row,appended,row added via add-row
+2026-08-19T13:19:28Z,W2885983020-k,10.1021/acs.jctc.8b00513,add-row,appended,row added via add-row
+2026-08-19T13:19:28Z,W2885983020-l,10.1021/acs.jctc.8b00513,add-row,appended,row added via add-row
+2026-08-19T13:19:28Z,W2885983020-m,10.1021/acs.jctc.8b00513,add-row,appended,row added via add-row
+2026-08-19T13:19:28Z,W2885983020-n,10.1021/acs.jctc.8b00513,add-row,appended,row added via add-row
+2026-08-19T13:19:28Z,W2885983020-o,10.1021/acs.jctc.8b00513,add-row,appended,row added via add-row
+2026-08-19T13:19:29Z,W2885983020-p,10.1021/acs.jctc.8b00513,add-row,appended,row added via add-row
+2026-08-19T13:19:29Z,W2885983020-q,10.1021/acs.jctc.8b00513,add-row,appended,row added via add-row
+2026-08-19T13:19:43Z,W2885983020,10.1021/acs.jctc.8b00513,mark,extracted_partial,"Seventeen complexes extracted: all fifteen d9 members of Table 2 with their full CAS/NEVPT2/experiment g-shift triples, plus the two low-spin d7 complexes given explicit numbers in the body text. Marked partial because the study covers 34 complexes - the remaining d1, d5 and d7 members appear in tables the extracted text does not resolve, and per-complex active spaces for those groups are referred to the SI. The active-space escalation ladder on the prototype and the affordability ceiling are fully captured."
