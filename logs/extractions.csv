@@ -48902,3 +48902,9 @@ timestamp,key,doi,action,result,reasoning
 2026-08-19T13:19:29Z,W2885983020-p,10.1021/acs.jctc.8b00513,add-row,appended,row added via add-row
 2026-08-19T13:19:29Z,W2885983020-q,10.1021/acs.jctc.8b00513,add-row,appended,row added via add-row
 2026-08-19T13:19:43Z,W2885983020,10.1021/acs.jctc.8b00513,mark,extracted_partial,"Seventeen complexes extracted: all fifteen d9 members of Table 2 with their full CAS/NEVPT2/experiment g-shift triples, plus the two low-spin d7 complexes given explicit numbers in the body text. Marked partial because the study covers 34 complexes - the remaining d1, d5 and d7 members appear in tables the extracted text does not resolve, and per-complex active spaces for those groups are referred to the SI. The active-space escalation ladder on the prototype and the affordability ceiling are fully captured."
+2026-08-19T13:28:10Z,W2890071487-a,10.1021/acs.jpca.8b07582,add-row,appended,row added via add-row
+2026-08-19T13:28:10Z,W2890071487-b,10.1021/acs.jpca.8b07582,add-row,appended,row added via add-row
+2026-08-19T13:28:11Z,W2890071487-c,10.1021/acs.jpca.8b07582,add-row,appended,row added via add-row
+2026-08-19T13:28:11Z,W2890071487-d,10.1021/acs.jpca.8b07582,add-row,appended,row added via add-row
+2026-08-19T13:28:11Z,W2890071487-e,10.1021/acs.jpca.8b07582,add-row,appended,row added via add-row
+2026-08-19T13:28:11Z,W2890071487,10.1021/acs.jpca.8b07582,mark,extracted_partial,"All five flavin redox forms extracted with their Table 1 energies and conical-intersection accessibility. Marked partial because the body text does not state which of the two active spaces applies to FADH2 (neither oxidized nor anionic), and the larger-active-space validation data are SI-only."
