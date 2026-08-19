@@ -48627,3 +48627,15 @@ timestamp,key,doi,action,result,reasoning
 2026-08-19T00:41:19Z,W2530556964-b,10.1021/acs.inorgchem.6b01863,add-row,appended,row added via add-row
 2026-08-19T00:41:19Z,W2530556964-c,10.1021/acs.inorgchem.6b01863,add-row,appended,row added via add-row
 2026-08-19T00:41:19Z,W2530556964,10.1021/acs.inorgchem.6b01863,mark,extracted,"Six isotypic dinuclear Ln2 complexes with tuned Schiff-base linkers. CAS(9,7) on the Dy 4f shell with RASSI-SO and SINGLE_ANISO/POLY_ANISO in MOLCAS, ANO-RCC graded by proximity, DKH. Three rows for the three Dy complexes; the Gd analogues got broken-symmetry DFT only. Notably austere state manifold: only the 21 sextets, no quadruplets or doublets, unlike other Dy work in this database that carries hundreds of lower-multiplicity roots."
+2026-08-19T00:54:27Z,W2531098318-a,10.1021/acs.inorgchem.6b01831,add-row,appended,row added via add-row
+2026-08-19T00:54:27Z,W2531098318-b,10.1021/acs.inorgchem.6b01831,add-row,appended,row added via add-row
+2026-08-19T00:54:27Z,W2531098318-c,10.1021/acs.inorgchem.6b01831,add-row,appended,row added via add-row
+2026-08-19T00:54:27Z,W2531098318-d,10.1021/acs.inorgchem.6b01831,add-row,appended,row added via add-row
+2026-08-19T00:54:27Z,W2531098318-e,10.1021/acs.inorgchem.6b01831,add-row,appended,row added via add-row
+2026-08-19T00:54:28Z,W2531098318-f,10.1021/acs.inorgchem.6b01831,add-row,appended,row added via add-row
+2026-08-19T00:54:28Z,W2531098318-g,10.1021/acs.inorgchem.6b01831,add-row,appended,row added via add-row
+2026-08-19T00:54:28Z,W2531098318-h,10.1021/acs.inorgchem.6b01831,add-row,appended,row added via add-row
+2026-08-19T00:54:28Z,W2531098318,10.1021/acs.inorgchem.6b01831,mark,extracted_partial,"Single-ion anisotropy and exchange in eight {3d-4f} SMMs. CASSCF/RASSI-SO/SINGLE_ANISO in MOLCAS 7.8 with the Lines model for exchange and BS-DFT for the mechanism. Eight rows. Partial because neither the active space nor the roots per multiplicity appear in the main text - both are SI-only, which matters for a lanthanide. Notable: BS-DFT implicates 3d-4f overlap plus the empty 5d/6s/6p orbitals, which lie outside a conventional 4f active space, which is why the exchange is fitted rather than computed."
+2026-08-19T00:55:35Z,W2532977300-a,10.1021/jacs.6b05746,add-row,appended,row added via add-row
+2026-08-19T00:55:36Z,W2532977300-b,10.1021/jacs.6b05746,add-row,appended,row added via add-row
+2026-08-19T00:55:36Z,W2532977300,10.1021/jacs.6b05746,mark,extracted_partial,"Reactivity of a triplet vinylnitrene. CASSCF(12,12) and CASSCF(14,14)/cc-pVDZ geometries with CASPT2 single points in MOLCAS. Two rows. Partial because the compounds are identified only by number in schemes, not by chemical name in the extracted text. The correction shows DFT overestimates the singlet-triplet gap by ~7 kcal/mol on a gap of 10 - a 70% error, as expected when one state is open-shell singlet and the other is not."
