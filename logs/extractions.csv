@@ -48829,3 +48829,9 @@ timestamp,key,doi,action,result,reasoning
 2026-08-19T09:14:47Z,W2788710974-a,10.1021/acs.jpca.7b09593,add-row,appended,row added via add-row
 2026-08-19T09:14:48Z,W2788710974-b,10.1021/acs.jpca.7b09593,add-row,appended,row added via add-row
 2026-08-19T09:14:48Z,W2788710974,10.1021/acs.jpca.7b09593,mark,extracted_partial,"Rows written for the two systems with presented conical-intersection results (ptztz in the main text, ptztzb in the SI). The paper states the same CAS(6,6) was used for all considered systems but gives no CI data for ptztzp, mtztzm or the substituted variants, so no rows for those. CASSCF supplies only the CI geometry; all energetics are CC2 and the authors state the two cannot be placed on a common energy landscape."
+2026-08-19T10:19:02Z,W2789937552-a,10.1021/acs.jpca.8b00266,add-row,appended,row added via add-row
+2026-08-19T10:19:02Z,W2789937552-b,10.1021/acs.jpca.8b00266,add-row,appended,row added via add-row
+2026-08-19T10:19:02Z,W2789937552-c,10.1021/acs.jpca.8b00266,add-row,appended,row added via add-row
+2026-08-19T10:19:02Z,W2789937552-d,10.1021/acs.jpca.8b00266,add-row,appended,row added via add-row
+2026-08-19T10:19:03Z,W2789937552-e,10.1021/acs.jpca.8b00266,add-row,appended,row added via add-row
+2026-08-19T10:19:03Z,W2789937552,10.1021/acs.jpca.8b00266,mark,extracted_partial,"All five HBT derivatives extracted with their Table 1 excitation energies. Marked partial because the paper states the same CAS(6,6) was used for all systems but presents conical-intersection analysis only for the parent HBT, and the active orbitals are SI-only. Also flagged a source-internal inconsistency: the body text quotes 540 nm for the trans-keto absorption while Table 1 gives 2.89 eV (429 nm) with a matching oscillator strength."
