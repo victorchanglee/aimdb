@@ -48606,3 +48606,17 @@ timestamp,key,doi,action,result,reasoning
 2026-08-19T00:09:39Z,W2510765543-a,10.1021/acs.jpca.6b07258,add-row,appended,row added via add-row
 2026-08-19T00:09:39Z,W2510765543-b,10.1021/acs.jpca.6b07258,add-row,appended,row added via add-row
 2026-08-19T00:09:40Z,W2510765543,10.1021/acs.jpca.6b07258,mark,extracted,"Electronic structure and energy transfer in Eu(III)-ciprofloxacin complexes. XMCQDPT2/SA-CASSCF(12,10) in Firefly, with a 4f-in-core pseudopotential on europium. Two rows for the two ligands. The space is deliberately ligand-only and symmetric between the two ligands - three highest occupied and two lowest unoccupied from each - so neither is favoured when identifying which carries the sensitizing triplet. Dispersion correction borrowed from HF parameterization since none exists for CASSCF."
+2026-08-19T00:24:20Z,W2514920869-a,10.1021/acs.jpcc.5b08239,add-row,appended,row added via add-row
+2026-08-19T00:24:20Z,W2514920869-b,10.1021/acs.jpcc.5b08239,add-row,appended,row added via add-row
+2026-08-19T00:24:21Z,W2514920869-c,10.1021/acs.jpcc.5b08239,add-row,appended,row added via add-row
+2026-08-19T00:24:21Z,W2514920869-d,10.1021/acs.jpcc.5b08239,add-row,appended,row added via add-row
+2026-08-19T00:24:21Z,W2514920869,10.1021/acs.jpcc.5b08239,mark,extracted,"Spectral and charge-transport parameters of Bebq2. XMCQDPT2/SA-CASSCF in Firefly with a per-ligand space rule: one HOMO and one LUMO from each ligand, orbital count fixed by ligand number and electron count following the charge. Four rows. The state-averaging set is chosen by symmetry equivalence, which keeps the two charge-localized minima degenerate by construction as a self-exchange barrier requires; delocalized hole states act as deep traps while electron states stay localized."
+2026-08-19T00:25:46Z,W2519258762-a,10.1021/acs.jctc.6b00737,add-row,appended,row added via add-row
+2026-08-19T00:25:47Z,W2519258762-b,10.1021/acs.jctc.6b00737,add-row,appended,row added via add-row
+2026-08-19T00:25:47Z,W2519258762-c,10.1021/acs.jctc.6b00737,add-row,appended,row added via add-row
+2026-08-19T00:25:47Z,W2519258762-d,10.1021/acs.jctc.6b00737,add-row,appended,row added via add-row
+2026-08-19T00:25:47Z,W2519258762-e,10.1021/acs.jctc.6b00737,add-row,appended,row added via add-row
+2026-08-19T00:25:47Z,W2519258762-f,10.1021/acs.jctc.6b00737,add-row,appended,row added via add-row
+2026-08-19T00:25:47Z,W2519258762-g,10.1021/acs.jctc.6b00737,add-row,appended,row added via add-row
+2026-08-19T00:25:48Z,W2519258762-h,10.1021/acs.jctc.6b00737,add-row,appended,row added via add-row
+2026-08-19T00:25:48Z,W2519258762,10.1021/acs.jctc.6b00737,mark,extracted_partial,"Intramolecular singlet fission in quinoidal bi- and tetrathiophenes. SA-CASSCF/6-31G(d) geometries with CASPT2 (RS2C, IPEA 0.3). Eight rows, one per named compound. Partial because the active spaces are never stated in the main text - only that some of the highest pi/pi* orbitals were included, with per-compound details in a supporting figure. The central claim is that dynamic correlation is crucial for the multiexciton 1[TT] state, established by disagreement between CASPT2, CASSCF and RAS-2SF."
