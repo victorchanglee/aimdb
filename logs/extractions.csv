@@ -48877,3 +48877,10 @@ timestamp,key,doi,action,result,reasoning
 2026-08-19T13:02:32Z,W2810876127-c,10.1021/acscatal.8b00601,add-row,appended,row added via add-row
 2026-08-19T13:02:32Z,W2810876127-d,10.1021/acscatal.8b00601,add-row,appended,row added via add-row
 2026-08-19T13:02:32Z,W2810876127,10.1021/acscatal.8b00601,mark,extracted_partial,"Three iridium photocatalysts and the ternary reacting complex extracted with the CAS(12,11), the localization-and-selection procedure used to choose it, the mixed-basis boundary rule and the Marcus/Condon caveat on the rate constants. Marked partial because the active orbital composition, root counts and any perturbative shifts are not given in the body text - the methods section refers those details to SI sections S1, S2.2 and S2.3."
+2026-08-19T13:09:58Z,W2862963997-a,10.1021/acs.jpca.8b04846,add-row,appended,row added via add-row
+2026-08-19T13:09:58Z,W2862963997-b,10.1021/acs.jpca.8b04846,add-row,appended,row added via add-row
+2026-08-19T13:09:58Z,W2862963997-c,10.1021/acs.jpca.8b04846,add-row,appended,row added via add-row
+2026-08-19T13:09:58Z,W2862963997-d,10.1021/acs.jpca.8b04846,add-row,appended,row added via add-row
+2026-08-19T13:09:58Z,W2862963997-e,10.1021/acs.jpca.8b04846,add-row,appended,row added via add-row
+2026-08-19T13:09:59Z,W2862963997-f,10.1021/acs.jpca.8b04846,add-row,appended,row added via add-row
+2026-08-19T13:09:59Z,W2862963997,10.1021/acs.jpca.8b04846,mark,extracted,"All six CoGen species (n=1-3, anion and neutral) extracted with their spaces, ground states and the RAS partition. The paper states the 14-orbital CAS ceiling explicitly and names 17 and 20 orbitals as required, reaching them via restricted excitations with Co 4d in RAS3 for the double-shell effect. All perturbative settings (imaginary 0.1, IPEA 0.25, semicore correlated) are in the body text."
