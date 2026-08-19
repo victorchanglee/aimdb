@@ -22,7 +22,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parents[2]
 DB = ROOT / "database/aimdb.csv"
 INDEX = ROOT / "database/papers_index.csv"
 OUTPUT = ROOT / "logs/full_database_audit.csv"

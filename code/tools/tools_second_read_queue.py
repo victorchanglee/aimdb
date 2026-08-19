@@ -21,7 +21,7 @@ Tiers, in the order the file is sorted:
                    anything can be read. Do these last.
 
 Usage, from code/:
-    .venv/bin/python tools_second_read_queue.py [--out PATH]
+    .venv/bin/python tools/tools_second_read_queue.py [--out PATH]
 """
 
 import argparse
@@ -30,7 +30,7 @@ import re
 from collections import defaultdict
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parents[2]
 DB = ROOT / "database" / "aimdb.csv"
 INDEX = ROOT / "database" / "papers_index.csv"
 TEXT = ROOT / "text"

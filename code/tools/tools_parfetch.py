@@ -6,7 +6,7 @@ a per-host gate, and *all* index writes happen in one serial pass at the end.
 The serial fetcher managed ~5 papers/min on batch 5 (1487 candidates ≈ 4.5 h),
 almost all of it waiting on dead publisher links.
 
-Usage:  .venv/bin/python tools_parfetch.py [--workers 8] [--max N]
+Usage:  .venv/bin/python tools/tools_parfetch.py [--workers 8] [--max N]
 """
 import argparse
 import csv
@@ -18,6 +18,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from urllib.parse import urlparse
 
 import requests
+
+import _bootstrap  # noqa: F401  (puts code/ on sys.path)
 
 from mining_agent import config, index
 

@@ -19,7 +19,7 @@ This tool strips such rows. It never deletes silently:
     containing `N=O`).
 
 Usage, from code/:
-    .venv/bin/python tools_strip_rows.py --json strip.json [--dry-run]
+    .venv/bin/python tools/tools_strip_rows.py --json strip.json [--dry-run]
 
 where strip.json is [{"entry_id": "...", "reason": "..."}, ...].
 """
@@ -31,7 +31,7 @@ import json
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parents[2]
 DB = ROOT / "database" / "aimdb.csv"
 QUARANTINE = ROOT / "database" / "removed_rows.csv"
 LOG = ROOT / "logs" / "extractions.csv"

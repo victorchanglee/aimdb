@@ -103,7 +103,7 @@ PSB3" names four, and is an over-merged row rather than a nameless one. Split
 it if you have the per-compound data; do not strip it.
 
 39 rows failing the test were removed on 2026-08-17 with
-`code/tools_strip_rows.py`, which quarantines every removed row to
+`code/tools/tools_strip_rows.py`, which quarantines every removed row to
 `database/removed_rows.csv` first. Decide this by reading, never by pattern:
 an early attempt matched `n ?= ?` and flagged every formula containing `N=O`.
 
@@ -116,6 +116,7 @@ text is judgment work, not regex work.
 
 ```
 code/mining_agent/            Python implementation (search/fetch/text/csv helpers)
+code/tools/                   standalone re-runnable tools (see code/README.md)
 database/aimdb.csv            output database (schema diverged from claude-casscf 2026-07-28, see above)
 database/papers_index.csv     one row per candidate paper: doi, title, status, paths
 papers/pending/<key>.pdf      downloaded PDFs still to be read (gitignored)
@@ -287,7 +288,7 @@ PDFs that were added by hand and aren't in the index).
      `claude-casscf` merges just drop it.
    - `open_access` (last column, aimdb-only): `yes`/`no`/`unknown` — is
      `reference_doi` open access per OpenAlex's `open_access.is_oa`? Don't
-     fill it by hand; run `.venv/bin/python tools_oa.py --refresh --stamp`
+     fill it by hand; run `.venv/bin/python tools/tools_oa.py --refresh --stamp`
      from `code/` after a batch of rows. That rewrites `logs/oa_status.csv`
      (per-DOI `oa_status` gold/hybrid/green/bronze/diamond/closed plus the
      best OA URL) and restamps the column for every row. It is access

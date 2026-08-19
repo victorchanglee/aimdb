@@ -10,11 +10,13 @@ tokens are single characters. Repair joins runs of single characters back into
 words and collapses the doubled spaces that separated real words.
 
 Usage:
-  .venv/bin/python tools_despace.py --key W123          # rewrite in place
-  .venv/bin/python tools_despace.py --scan              # list affected files
+  .venv/bin/python tools/tools_despace.py --key W123          # rewrite in place
+  .venv/bin/python tools/tools_despace.py --scan              # list affected files
 """
 import argparse
 import re
+
+import _bootstrap  # noqa: F401  (puts code/ on sys.path)
 
 from mining_agent import config, index
 

@@ -10,11 +10,13 @@ pure method paper still has to be opened before it can be called not_usable —
 benchmark papers routinely report full active spaces on real molecules.
 
 Usage:
-  .venv/bin/python tools_heads.py --status text_ready --limit 20 --skip 0
-  .venv/bin/python tools_heads.py --key W1 W2 --chars 1500
+  .venv/bin/python tools/tools_heads.py --status text_ready --limit 20 --skip 0
+  .venv/bin/python tools/tools_heads.py --key W1 W2 --chars 1500
 """
 import argparse
 import re
+
+import _bootstrap  # noqa: F401  (puts code/ on sys.path)
 
 from mining_agent import config, index
 

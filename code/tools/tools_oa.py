@@ -12,9 +12,9 @@ unknown (batch misses happen for DOIs OpenAlex has stored in a different
 normalized form).
 
 Usage (from code/, with .venv/bin/python):
-  .venv/bin/python tools_oa.py --refresh      # query OpenAlex, rewrite logs/oa_status.csv
-  .venv/bin/python tools_oa.py --stamp        # write the column from logs/oa_status.csv
-  .venv/bin/python tools_oa.py --refresh --stamp
+  .venv/bin/python tools/tools_oa.py --refresh      # query OpenAlex, rewrite logs/oa_status.csv
+  .venv/bin/python tools/tools_oa.py --stamp        # write the column from logs/oa_status.csv
+  .venv/bin/python tools/tools_oa.py --refresh --stamp
 """
 import argparse
 import csv
@@ -24,6 +24,8 @@ import sys
 import time
 
 import requests
+
+import _bootstrap  # noqa: F401  (puts code/ on sys.path)
 
 from mining_agent import config
 

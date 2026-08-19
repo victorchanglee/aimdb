@@ -6,14 +6,16 @@ another paper. The index already holds the authoritative DOI for every key, so
 the entry_id prefix is all that is needed.
 
 Usage:
-  .venv/bin/python tools_stampdoi.py rows/*.json        # rewrite in place
-  .venv/bin/python tools_stampdoi.py --check rows/*.json
+  .venv/bin/python tools/tools_stampdoi.py rows/*.json        # rewrite in place
+  .venv/bin/python tools/tools_stampdoi.py --check rows/*.json
 """
 import argparse
 import csv
 import json
 import re
 import sys
+
+import _bootstrap  # noqa: F401  (puts code/ on sys.path)
 
 from mining_agent import config
 

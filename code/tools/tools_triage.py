@@ -12,12 +12,14 @@ Two traps this avoids, both of which caused real false negatives:
     grep — read with errors="replace".
 
 Usage:
-  .venv/bin/python tools_triage.py                 # all text_ready papers
-  .venv/bin/python tools_triage.py --key W123 ...  # specific keys
-  .venv/bin/python tools_triage.py --sort          # best candidates first
+  .venv/bin/python tools/tools_triage.py                 # all text_ready papers
+  .venv/bin/python tools/tools_triage.py --key W123 ...  # specific keys
+  .venv/bin/python tools/tools_triage.py --sort          # best candidates first
 """
 import argparse
 import re
+
+import _bootstrap  # noqa: F401  (puts code/ on sys.path)
 
 from mining_agent import config, index
 

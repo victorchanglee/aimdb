@@ -6,14 +6,14 @@ benchmark and must not reach a database the decision agent can read. The DOI
 list below is the one maintained in CLAUDE.md ("QUEST-sourced rows: keep here,
 filter on export") — keep the two in sync.
 
-Usage: tools_export.py [output.csv]
+Usage, from code/: tools/tools_export.py [output.csv]
 """
 import csv
 import re
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parents[2]
 
 # Kept in sync with the list in CLAUDE.md. Lower-cased for comparison.
 QUEST_DOIS = {

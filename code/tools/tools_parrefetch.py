@@ -12,7 +12,7 @@ matter at 1000+ papers:
   * All index writes happen in one serial pass at the end, so the run can be
     killed at any point without a half-written `papers_index.csv`.
 
-Usage:  .venv/bin/python tools_parrefetch.py [--workers 24] [--max N]
+Usage:  .venv/bin/python tools/tools_parrefetch.py [--workers 24] [--max N]
 """
 import argparse
 import csv
@@ -21,6 +21,8 @@ import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import requests
+
+import _bootstrap  # noqa: F401  (puts code/ on sys.path)
 
 from mining_agent import config, europepmc, index, search
 from tools_parfetch import _gate, HOST_SPACING, TIMEOUT, _gate_lock, _host_last

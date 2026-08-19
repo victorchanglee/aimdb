@@ -10,11 +10,13 @@ it does not surface is still the paper's to state. Never conclude
 `not_usable` from a quiet output — open the full text (and the SI) first.
 
 Usage:
-  .venv/bin/python tools_ctx.py --key W123 [--win 700] [--pat EXTRA_REGEX]
-  .venv/bin/python tools_ctx.py --key W123 --si       # include SI text files
+  .venv/bin/python tools/tools_ctx.py --key W123 [--win 700] [--pat EXTRA_REGEX]
+  .venv/bin/python tools/tools_ctx.py --key W123 --si       # include SI text files
 """
 import argparse
 import re
+
+import _bootstrap  # noqa: F401  (puts code/ on sys.path)
 
 from mining_agent import config
 

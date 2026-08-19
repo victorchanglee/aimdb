@@ -23,7 +23,7 @@ Rules enforced here:
   - every applied edit appends to logs/extractions.csv.
 
 Usage, from code/:
-    .venv/bin/python tools_fill_gaps.py --json fills.json [--dry-run]
+    .venv/bin/python tools/tools_fill_gaps.py --json fills.json [--dry-run]
 """
 
 import argparse
@@ -33,7 +33,7 @@ import json
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parents[2]
 DB = ROOT / "database" / "aimdb.csv"
 LOG = ROOT / "logs" / "extractions.csv"
 

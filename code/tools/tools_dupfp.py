@@ -1,13 +1,27 @@
-"""Content-fingerprint duplicate scan: catches papers retitled between preprint and publication."""
-import csv,re,os,glob,collections,itertools,json
-idx={r['key']:r for r in csv.DictReader(open('database/papers_index.csv'))}
-rows=list(csv.DictReader(open('database/aimdb.csv')))
+"""Content-fingerprint duplicate scan: catches papers retitled between preprint and publication.
+
+DOI deduplication cannot see these: a preprint and its published version carry
+different DOIs and often different titles, but the numbers in their text are the
+same. This fingerprints each paper by its rare decimals and reports pairs that
+share too many of them.
+
+Usage, from code/:
+    .venv/bin/python tools/tools_dupfp.py [--out PATH]
+"""
+import argparse,csv,re,os,collections,itertools,json
+from pathlib import Path
+ROOT = Path(__file__).resolve().parents[2]
+ap = argparse.ArgumentParser(description=__doc__)
+ap.add_argument("--out", default=str(ROOT / "logs" / "dupfp_candidates.json"))
+args = ap.parse_args()
+idx={r['key']:r for r in csv.DictReader(open(ROOT / 'database/papers_index.csv'))}
+rows=list(csv.DictReader(open(ROOT / 'database/aimdb.csv')))
 cnt=collections.Counter(r['entry_id'].rsplit('-',1)[0] for r in rows)
 NUM=re.compile(r'(?<![\d.])\d{1,3}\.\d{2,4}(?![\d])')   # distinctive decimals like 7.43, 2.291
 fp={}
 for k in idx:
-    p=f'text/{k}.txt'
-    if not os.path.exists(p): continue
+    p=ROOT / f'text/{k}.txt'
+    if not p.exists(): continue
     t=open(p,encoding='utf-8',errors='replace').read()
     s=set(NUM.findall(t))
     if len(s)>=25: fp[k]=s          # need enough numbers for the signature to mean anything
@@ -38,4 +52,5 @@ for j,shared,a,b in cands[:25]:
     print(f"     {b:14s} [{rb['status']:16s}] rows={cnt.get(b,0)}  {rb['doi']}")
     print(f"        {rb['title'][:88]}\n")
     out.append({'a':a,'b':b,'jaccard':round(j,3),'shared':shared})
-json.dump(out,open('/tmp/claude-8718/-gpfs-projects-p32664-claude/a3ee635e-4675-4541-b751-7dbc05edfde9/scratchpad/dupfp.json','w'),indent=1)
+json.dump(out,open(args.out,'w'),indent=1)
+print(f'wrote {len(out)} candidate pair(s) to {args.out}')
