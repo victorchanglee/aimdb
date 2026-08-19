@@ -48757,3 +48757,17 @@ timestamp,key,doi,action,result,reasoning
 2026-08-19T04:03:02Z,W2737166405-a,10.1021/acs.jpca.7b04592,add-row,appended,row added via add-row
 2026-08-19T04:03:02Z,W2737166405-b,10.1021/acs.jpca.7b04592,add-row,appended,row added via add-row
 2026-08-19T04:03:02Z,W2737166405,10.1021/acs.jpca.7b04592,mark,extracted,"Both systems (NO3 radical, CAS(9,8), and benzene radical cation, CAS(29,15)) extracted with their five-state SA-CASSCF setups, state labels, coupling topology and the symmetry-degeneracy validation of the space."
+2026-08-19T04:17:58Z,W2738114448-a,10.1021/acs.jctc.7b00302,add-row,appended,row added via add-row
+2026-08-19T04:17:59Z,W2738114448-b,10.1021/acs.jctc.7b00302,add-row,appended,row added via add-row
+2026-08-19T04:17:59Z,W2738114448-c,10.1021/acs.jctc.7b00302,add-row,appended,row added via add-row
+2026-08-19T04:17:59Z,W2738114448-d,10.1021/acs.jctc.7b00302,add-row,appended,row added via add-row
+2026-08-19T04:17:59Z,W2738114448-e,10.1021/acs.jctc.7b00302,add-row,appended,row added via add-row
+2026-08-19T04:17:59Z,W2738114448-f,10.1021/acs.jctc.7b00302,add-row,appended,row added via add-row
+2026-08-19T04:18:00Z,W2738114448,10.1021/acs.jctc.7b00302,mark,extracted,"All six acenes (naphthalene through heptacene) extracted with their MCSCF and CASPT2 La/Lb energies at the recommended CAS(14,14)/1s level from Tables 3 and 4, plus the full active-space and freezing-scheme sensitivity analysis from Tables 1 and 2."
+2026-08-19T04:19:44Z,W2746228898,10.1021/acs.jpca.7b07459,mark,extracted,"All three isomers of both charge states of VGe3 extracted (6 rows) with Table 1 relative energies, Table 3 detachment energies and band assignments. The paper's own stated limitation - the D band needs a larger space including Ge 4s - is recorded in the Other column."
+2026-08-19T04:19:56Z,W2746228898-a,10.1021/acs.jpca.7b07459,add-row,appended,row added via add-row
+2026-08-19T04:19:56Z,W2746228898-b,10.1021/acs.jpca.7b07459,add-row,appended,row added via add-row
+2026-08-19T04:19:56Z,W2746228898-c,10.1021/acs.jpca.7b07459,add-row,appended,row added via add-row
+2026-08-19T04:19:56Z,W2746228898-d,10.1021/acs.jpca.7b07459,add-row,appended,row added via add-row
+2026-08-19T04:19:56Z,W2746228898-e,10.1021/acs.jpca.7b07459,add-row,appended,row added via add-row
+2026-08-19T04:19:57Z,W2746228898-f,10.1021/acs.jpca.7b07459,add-row,appended,row added via add-row
