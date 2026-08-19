@@ -48853,3 +48853,9 @@ timestamp,key,doi,action,result,reasoning
 2026-08-19T12:23:48Z,W2794154550-a,10.1021/acs.jpca.7b11003,add-row,appended,row added via add-row
 2026-08-19T12:23:48Z,W2794154550-b,10.1021/acs.jpca.7b11003,add-row,appended,row added via add-row
 2026-08-19T12:23:49Z,W2794154550,10.1021/acs.jpca.7b11003,mark,extracted,"1-Nitronaphthalene and its nitrite isomer extracted with the two different active spaces (CASSCF(12,11) for geometries, CASPT2(16,13) for energies), the itemized composition of the smaller space, the decay mechanism and the T1/TS energies. Flagged that the transition state is computed 3.2 kcal/mol BELOW the minimum it connects from, an artefact of DFT-located stationary points carrying multireference single-point energies."
+2026-08-19T12:30:41Z,W2795562645-a,10.1021/acs.jpclett.8b00242,add-row,appended,row added via add-row
+2026-08-19T12:30:41Z,W2795562645-b,10.1021/acs.jpclett.8b00242,add-row,appended,row added via add-row
+2026-08-19T12:30:42Z,W2795562645-c,10.1021/acs.jpclett.8b00242,add-row,appended,row added via add-row
+2026-08-19T12:30:42Z,W2795562645-d,10.1021/acs.jpclett.8b00242,add-row,appended,row added via add-row
+2026-08-19T12:30:42Z,W2795562645-e,10.1021/acs.jpclett.8b00242,add-row,appended,row added via add-row
+2026-08-19T12:30:42Z,W2795562645,10.1021/acs.jpclett.8b00242,mark,extracted_partial,"Five named cationic systems extracted (H2+, He2+, ArKr+, (NH3)2+, (H2O)2+) with the MUE ladder against exact-exchange fraction and the full-valence-reduces-to-ROHF limiting case. Marked partial: the per-system active space sizes and basis sets are SI-only, and the six SIE11 neutral reactions are not itemized in the body text so no rows were written for them."
