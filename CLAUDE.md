@@ -48,20 +48,8 @@ mined):
   Excitations* (rows `W2903558328-a` … `-n`, 14 rows)
 - `10.48550/arxiv.2409.00302` — Song et al., *QUEST#4X* (rows
   `W4402953348-a` … `-q`, 17 rows)
-- `10.1063/5.0095887` — Boggio-Pasqua, Jacquemin & Loos, *Benchmarking CASPT3
-  Vertical Excitation Energies* (row `W4223990773-a`). **QUEST-adjacent rather
-  than QUEST-series**: it is its own CASPT2/CASPT3 study, but its geometries
-  and reference values are taken wholesale from the QUEST database, so it
-  carries the same contamination risk and must be dropped on export too.
-- `10.1002/wcms.1517` — Véril, Scemama, Caffarel, Loos, Jacquemin et al.,
-  *QUESTDB: a database of highly accurate excitation energies* (row
-  `W3110161356-a`). **The QUEST database paper itself.**
 - `10.1021/acs.jctc.9b01216` — Loos, Scemama, Jacquemin et al., *A
   Mountaineering Strategy to Excited States* (QUEST#3, row `W3003925803-a`).
-- `10.1021/acs.jctc.4c00410` — Loos, Boggio-Pasqua, Jacquemin et al.,
-  *Reference Energies for Double Excitations: Improvement and Extension* (row
-  `W4399729459-a`). **QUEST-series**: the successor to
-  `10.1021/acs.jctc.8b01205` above.
 - `10.1021/acs.jctc.3c01080` — Jacquemin, Boggio-Pasqua & Loos, *Reference
   Vertical Excitation Energies for Transition Metal Compounds* (row
   `W4387325820-a`). **QUEST-series**: an explicit extension of the QUEST
@@ -78,6 +66,46 @@ Related, and already `not_usable` so it produces no row: `10.1021/acs.jpclett.0c
 (Loos, Scemama & Jacquemin, *The Quest for Highly Accurate Excitation Energies:
 A Computational Perspective*, key `W3009380936`) is the QUEST review itself. If
 a future pass ever finds a way to mine it, it belongs on this list.
+
+**QUEST-sourced DOIs that no longer have rows** (2026-08-17). Their single row
+named a dataset rather than a compound and was stripped under the rule below;
+the rows are preserved in `database/removed_rows.csv`. They are listed here
+because the contamination risk returns the moment anyone re-mines them:
+
+- `10.1002/wcms.1517` — Véril, Scemama, Caffarel, Loos, Jacquemin et al.,
+  *QUESTDB: a database of highly accurate excitation energies*. The QUEST
+  database paper itself (was row `W3110161356-a`).
+- `10.1021/acs.jctc.4c00410` — Loos, Boggio-Pasqua, Jacquemin et al.,
+  *Reference Energies for Double Excitations: Improvement and Extension*,
+  QUEST-series successor to `10.1021/acs.jctc.8b01205` (was `W4399729459-a`).
+- `10.1063/5.0095887` — Boggio-Pasqua, Jacquemin & Loos, *Benchmarking CASPT3
+  Vertical Excitation Energies*. QUEST-adjacent: its own CASPT2/CASPT3 study,
+  but geometries and reference values taken wholesale from QUEST (was
+  `W4223990773-a`).
+
+## A row must name a compound
+
+`compound_name` is what makes a row answerable — a consumer asks *what active
+space does this molecule need*. A row whose `compound_name` names no chemical
+species answers that for nothing, and cannot be checked against the paper
+either. Three shapes fail the test and must not be added:
+
+- a dataset or benchmark label — "Thiel benchmark set of organic molecules",
+  "STGABS27 TADF emitter benchmark set", "HAB79 dataset";
+- a class with no species — "iron(II) complexes - spin-state energetics
+  benchmark set", "free d- and f-block metal ions", "planar cis-[MA2B2]
+  transition-metal complexes" (`MA2B2` is a placeholder, not a formula);
+- the paper's internal numbering — "compound 6", "complex 4, Dy(II) site",
+  "benchmark molecule 3" — unless a sibling row resolves it.
+
+Naming *several* compounds is fine: "test set: acrolein, benzene, benzyne,
+PSB3" names four, and is an over-merged row rather than a nameless one. Split
+it if you have the per-compound data; do not strip it.
+
+39 rows failing the test were removed on 2026-08-17 with
+`code/tools_strip_rows.py`, which quarantines every removed row to
+`database/removed_rows.csv` first. Decide this by reading, never by pattern:
+an early attempt matched `n ?= ?` and flagged every formula containing `N=O`.
 
 The Python package does the mechanical work (API search, PDF download, text
 extraction). **You do the reading and extraction** — deciding whether a paper

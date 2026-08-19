@@ -102,6 +102,22 @@ def move_to_mined(row):
     return dest
 
 
+def move_to_pending(row):
+    """Move a paper's PDF back into papers/pending/ and return the new path
+    (or None if there is no file to move). The mirror of move_to_mined, for a
+    paper whose status has gone back to unread — otherwise papers/pending/
+    stops meaning "the work still to do". Idempotent."""
+    src = find_pdf(row)
+    if src is None:
+        return None
+    dest = config.PAPERS_PENDING_DIR / f"{row['key']}.pdf"
+    if src.resolve() == dest.resolve():
+        return dest
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    src.replace(dest)
+    return dest
+
+
 def set_status(key, status, **fields):
     if status not in config.INDEX_STATUSES:
         raise ValueError(f"unknown status {status!r}")
@@ -115,11 +131,12 @@ def set_status(key, status, **fields):
         if name not in config.INDEX_COLUMNS:
             raise ValueError(f"unknown index column {name!r}")
         row[name] = value
-    # A paper that has been read moves out of the pending queue.
-    if status in config.MINED_STATUSES:
-        moved = move_to_mined(row)
-        if moved is not None:
-            row["pdf_path"] = config.rel_path(moved)
+    # A paper that has been read moves out of the pending queue; one that goes
+    # back to unread moves into it, so pending/ keeps meaning "still to do".
+    moved = (move_to_mined(row) if status in config.MINED_STATUSES
+             else move_to_pending(row))
+    if moved is not None:
+        row["pdf_path"] = config.rel_path(moved)
     save(rows)
     return row
 

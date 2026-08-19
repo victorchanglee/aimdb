@@ -195,6 +195,12 @@ def cmd_tidy(args):
                 moved += 1
                 print(f"  -> mined/  {row['key']}  ({row['status']})")
             found = dest or found
+        else:
+            dest = index.move_to_pending(row)
+            if dest is not None and str(dest) != str(found):
+                moved += 1
+                print(f"  -> pending/  {row['key']}  ({row['status']})")
+            found = dest or found
         rel = config.rel_path(found)
         if rel != row["pdf_path"]:
             row["pdf_path"] = rel
@@ -203,7 +209,7 @@ def cmd_tidy(args):
         index.save(rows)
     n_pending = len(list(config.PAPERS_PENDING_DIR.glob("*.pdf")))
     n_mined = len(list(config.PAPERS_MINED_DIR.glob("*.pdf")))
-    print(f"moved {moved} PDF(s) to mined/, repaired {relinked} path(s)")
+    print(f"moved {moved} PDF(s) between the queues, repaired {relinked} path(s)")
     print(f"papers/pending: {n_pending} PDF(s)   papers/mined: {n_mined} PDF(s)")
     untracked = sorted(
         p.stem for p in config.PAPERS_PENDING_DIR.glob("*.pdf")
