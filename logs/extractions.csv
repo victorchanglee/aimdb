@@ -50119,3 +50119,10 @@ timestamp,key,doi,action,result,reasoning
 2026-08-19T19:44:03Z,W2950512649-b,10.1021/ja9717525,add-row,appended,row added via add-row
 2026-08-19T19:44:03Z,W2950512649-c,10.1021/ja9717525,add-row,appended,row added via add-row
 2026-08-19T19:44:10Z,W2950512649,10.1021/ja9717525,mark,extracted_partial,"CASSCF applied only to the parent furanone protoanemonin (1) with butadiene; the 3-bromo and 3-methoxy derivatives 2 and 3, which carry much of the experimental work, receive no calculations and their mechanism is asserted by extension. The [2+2] and 1,2-to-1,4 isomerization routes are treated by spin-unrestricted B3-LYP alone. Three rows written: butadiene (4,4), protoanemonin (6,6) with an (8,8) enlargement test, and the (10,10) supersystem stationary points."
+2026-08-19T19:48:02Z,W2950941372-a,10.1021/ja954296y,add-row,appended,row added via add-row
+2026-08-19T19:48:02Z,W2950941372-b,10.1021/ja954296y,add-row,appended,row added via add-row
+2026-08-19T19:48:02Z,W2950941372-c,10.1021/ja954296y,add-row,appended,row added via add-row
+2026-08-19T19:48:02Z,W2950941372-d,10.1021/ja954296y,add-row,appended,row added via add-row
+2026-08-19T19:48:03Z,W2950941372-e,10.1021/ja954296y,add-row,appended,row added via add-row
+2026-08-19T19:48:03Z,W2950941372-f,10.1021/ja954296y,add-row,appended,row added via add-row
+2026-08-19T19:48:09Z,W2950941372,10.1021/ja954296y,mark,extracted_partial,"Six rows written, one per ring-opening system. Partial because the (2/2) active space used for the three hydrocarbon systems (7a-12a) is given only as a COUNT in table footnotes and a passing phrase - its composition is never stated, and the surfaces are attributed to earlier work by reference. The Computational Methodology section itemizes orbitals only for the ketone series 1-6. Substituted derivatives (b, c series) share their parent's active space and are described within the parent rows; the (10/10)-CASSCF benchmark for 7a/10a is prior work by others and gets no row."
