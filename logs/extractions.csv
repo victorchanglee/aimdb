@@ -48786,3 +48786,12 @@ timestamp,key,doi,action,result,reasoning
 2026-08-19T04:41:53Z,W2754187439-g,10.1021/acs.jpca.7b08351,add-row,appended,row added via add-row
 2026-08-19T04:41:53Z,W2754187439-h,10.1021/acs.jpca.7b08351,add-row,appended,row added via add-row
 2026-08-19T04:41:53Z,W2754187439,10.1021/acs.jpca.7b08351,mark,extracted,"All four cluster sizes in both charge states extracted (8 rows) with their ground and low-lying states, the size-dependent active spaces including the added-virtuals device, the geometry/energy space mismatch for VGe2, and the pure-vs-hybrid functional disagreement that the CASPT2 arbitrates."
+2026-08-19T05:11:12Z,W2756276745-a,10.1021/acs.jpcc.7b05761,add-row,appended,row added via add-row
+2026-08-19T05:11:12Z,W2756276745-b,10.1021/acs.jpcc.7b05761,add-row,appended,row added via add-row
+2026-08-19T05:11:12Z,W2756276745-c,10.1021/acs.jpcc.7b05761,add-row,appended,row added via add-row
+2026-08-19T05:11:13Z,W2756276745-d,10.1021/acs.jpcc.7b05761,add-row,appended,row added via add-row
+2026-08-19T05:11:13Z,W2756276745,10.1021/acs.jpcc.7b05761,mark,extracted_partial,All four OLED host molecules extracted with their Table 1 bond dissociation energies and the stability series. Marked partial because the per-molecule active spaces and state-averaging schemes are given only in SI Tables S1 and S2; the body text supplies only the three fragment spaces.
+2026-08-19T05:12:47Z,W2761133199-a,10.1021/jacs.7b08412,add-row,appended,row added via add-row
+2026-08-19T05:12:47Z,W2761133199-b,10.1021/jacs.7b08412,add-row,appended,row added via add-row
+2026-08-19T05:12:47Z,W2761133199-c,10.1021/jacs.7b08412,add-row,appended,row added via add-row
+2026-08-19T05:12:47Z,W2761133199,10.1021/jacs.7b08412,mark,extracted,"All three stationary points on the SiH2OO cyclization path extracted with their frontier natural occupation numbers, plus the Table 1 excited-state data. No row written for CH2OO: its structural parameters and comparison values are taken from other groups' studies, so they are not this paper's multireference results."
