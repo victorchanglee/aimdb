@@ -48847,3 +48847,6 @@ timestamp,key,doi,action,result,reasoning
 2026-08-19T11:54:40Z,W2793318929-a,10.1021/acs.jpca.8b00773,add-row,appended,row added via add-row
 2026-08-19T11:54:40Z,W2793318929-b,10.1021/acs.jpca.8b00773,add-row,appended,row added via add-row
 2026-08-19T11:54:40Z,W2793318929,10.1021/acs.jpca.8b00773,mark,extracted,"Both retinal Schiff bases extracted with the full-pi-system (12,12) space, Table 1 vertical excitations across all four method/geometry combinations plus the two-root variant, and the substituent's effect on the conical intersections. The quantified sensitivity hierarchy (correlation ~1.05 eV, geometry source ~0.38 eV, root count ~0.02 eV) is recorded in Other."
+2026-08-19T12:08:40Z,W2793319923-a,10.1021/acs.jpclett.8b00407,add-row,appended,row added via add-row
+2026-08-19T12:08:40Z,W2793319923-b,10.1021/acs.jpclett.8b00407,add-row,appended,row added via add-row
+2026-08-19T12:08:40Z,W2793319923,10.1021/acs.jpclett.8b00407,mark,extracted_partial,"Both olivine phosphates extracted with their g- and D-tensors, the DFT-underestimates/CASSCF-overshoots arbitration, and the apportioned error budget (cluster model half, NEVPT2 half, ~20% total). Marked partial because the active space size, composition and root counts appear only in the supporting information - the body text of this Letter gives only the method chain."
