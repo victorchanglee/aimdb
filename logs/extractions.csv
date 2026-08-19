@@ -48803,3 +48803,10 @@ timestamp,key,doi,action,result,reasoning
 2026-08-19T05:58:26Z,W2763709501-c,10.1021/acsami.7b12045,add-row,appended,row added via add-row
 2026-08-19T05:58:26Z,W2763709501-d,10.1021/acsami.7b12045,add-row,appended,row added via add-row
 2026-08-19T05:58:26Z,W2763709501,10.1021/acsami.7b12045,mark,extracted,"All four model systems from Figure 3 extracted: the local Cu(II) C4v centre, the Cu(II)/Cu(II) D4h dimer, and the two Cu(II)/Cu(I) defect models (symmetric delocalized and hand-distorted localized), with their symmetry-derived selection rules, the 1.6 eV agreement across models, and the quantified 0.2 eV cost of omitting dynamic correlation."
+2026-08-19T07:02:00Z,W2766436633-a,10.1021/acs.jpcb.7b09046,add-row,appended,row added via add-row
+2026-08-19T07:02:00Z,W2766436633-b,10.1021/acs.jpcb.7b09046,add-row,appended,row added via add-row
+2026-08-19T07:02:00Z,W2766436633-c,10.1021/acs.jpcb.7b09046,add-row,appended,row added via add-row
+2026-08-19T07:02:00Z,W2766436633,10.1021/acs.jpcb.7b09046,mark,extracted,"All three systems extracted: isolated d5SICS, isolated dNaM, and the d5SICS:dNaM pair embedded in DNA, with their vertical excitation energies, state characters, relaxation mechanisms and the three-space division of labour. Orbital compositions are in SI Figure S1 but the space sizes and all energies are in the body text."
+2026-08-19T07:03:31Z,W2777265398-a,10.1021/jacs.7b12495,add-row,appended,row added via add-row
+2026-08-19T07:03:31Z,W2777265398-b,10.1021/jacs.7b12495,add-row,appended,row added via add-row
+2026-08-19T07:03:31Z,W2777265398,10.1021/jacs.7b12495,mark,extracted_partial,"Both Dy compounds extracted with their g-tensors, Kramers doublet compositions, barriers and coupling constants. Marked partial because this is a JACS Communication whose computational details - active space size and composition, roots per multiplicity into the spin-orbit step, and basis sets - are entirely in the SI; the body text gives only the method chain and results. The Y analogues had no CASSCF and get no rows."
