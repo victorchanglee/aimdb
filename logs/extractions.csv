@@ -48872,3 +48872,8 @@ timestamp,key,doi,action,result,reasoning
 2026-08-19T12:54:22Z,W2808024689-c,10.1021/acs.jctc.8b00184,add-row,appended,row added via add-row
 2026-08-19T12:54:22Z,W2808024689-d,10.1021/acs.jctc.8b00184,add-row,appended,row added via add-row
 2026-08-19T12:54:22Z,W2808024689,10.1021/acs.jctc.8b00184,mark,extracted,"All four erbium systems extracted (free ion, point-charge model, the amide complex and the carbonate complex) with the fixed CAS(11,7), the quantified root-count convergence (35 quartets + 40 doublets; >500 cm-1 below that, 20-30 cm-1 above), the diagonal-only CASPT2 correction, and the authors' explicit statement that CASSCF's agreement with experiment is coincidental error compensation."
+2026-08-19T13:02:32Z,W2810876127-a,10.1021/acscatal.8b00601,add-row,appended,row added via add-row
+2026-08-19T13:02:32Z,W2810876127-b,10.1021/acscatal.8b00601,add-row,appended,row added via add-row
+2026-08-19T13:02:32Z,W2810876127-c,10.1021/acscatal.8b00601,add-row,appended,row added via add-row
+2026-08-19T13:02:32Z,W2810876127-d,10.1021/acscatal.8b00601,add-row,appended,row added via add-row
+2026-08-19T13:02:32Z,W2810876127,10.1021/acscatal.8b00601,mark,extracted_partial,"Three iridium photocatalysts and the ternary reacting complex extracted with the CAS(12,11), the localization-and-selection procedure used to choose it, the mixed-basis boundary rule and the Marcus/Condon caveat on the rate constants. Marked partial because the active orbital composition, root counts and any perturbative shifts are not given in the body text - the methods section refers those details to SI sections S1, S2.2 and S2.3."
