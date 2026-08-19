@@ -48771,3 +48771,18 @@ timestamp,key,doi,action,result,reasoning
 2026-08-19T04:19:56Z,W2746228898-d,10.1021/acs.jpca.7b07459,add-row,appended,row added via add-row
 2026-08-19T04:19:56Z,W2746228898-e,10.1021/acs.jpca.7b07459,add-row,appended,row added via add-row
 2026-08-19T04:19:57Z,W2746228898-f,10.1021/acs.jpca.7b07459,add-row,appended,row added via add-row
+2026-08-19T04:38:34Z,W2741433142-a,10.1021/acs.organomet.7b00384,add-row,appended,row added via add-row
+2026-08-19T04:38:34Z,W2741433142-b,10.1021/acs.organomet.7b00384,add-row,appended,row added via add-row
+2026-08-19T04:38:34Z,W2741433142,10.1021/acs.organomet.7b00384,mark,extracted,"Both computationally studied mixed-valent ytterbocenes extracted: the hydride- and methyl-bridged [Cp*2Yb]2(mu-X) dimers, with the three-space reduction sequence (27,15 unaffordable, 21,11 run, 9,5 identical), the MP2 cancellation figures and the qualitative spin-orbit argument. The synthetic bulk of the paper contains no further computed species."
+2026-08-19T04:39:39Z,W2753022444-a,10.1021/acs.jpca.7b00564,add-row,appended,row added via add-row
+2026-08-19T04:39:39Z,W2753022444-b,10.1021/acs.jpca.7b00564,add-row,appended,row added via add-row
+2026-08-19T04:39:39Z,W2753022444,10.1021/acs.jpca.7b00564,mark,extracted_partial,"Rows written only for the two complexes (I and III) whose SA-CASSCF/XMCQDPT2 results are actually presented, both in the SI. The authors state the same data were obtained for all eight complexes but give no numbers for the other six, so no rows were written for them. The paper's own energetics are DFT; the multireference step only verifies the closed-shell singlet ground state."
+2026-08-19T04:41:52Z,W2754187439-a,10.1021/acs.jpca.7b08351,add-row,appended,row added via add-row
+2026-08-19T04:41:52Z,W2754187439-b,10.1021/acs.jpca.7b08351,add-row,appended,row added via add-row
+2026-08-19T04:41:52Z,W2754187439-c,10.1021/acs.jpca.7b08351,add-row,appended,row added via add-row
+2026-08-19T04:41:52Z,W2754187439-d,10.1021/acs.jpca.7b08351,add-row,appended,row added via add-row
+2026-08-19T04:41:52Z,W2754187439-e,10.1021/acs.jpca.7b08351,add-row,appended,row added via add-row
+2026-08-19T04:41:53Z,W2754187439-f,10.1021/acs.jpca.7b08351,add-row,appended,row added via add-row
+2026-08-19T04:41:53Z,W2754187439-g,10.1021/acs.jpca.7b08351,add-row,appended,row added via add-row
+2026-08-19T04:41:53Z,W2754187439-h,10.1021/acs.jpca.7b08351,add-row,appended,row added via add-row
+2026-08-19T04:41:53Z,W2754187439,10.1021/acs.jpca.7b08351,mark,extracted,"All four cluster sizes in both charge states extracted (8 rows) with their ground and low-lying states, the size-dependent active spaces including the added-virtuals device, the geometry/energy space mismatch for VGe2, and the pure-vs-hybrid functional disagreement that the CASPT2 arbitrates."
