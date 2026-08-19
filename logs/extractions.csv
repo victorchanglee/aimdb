@@ -48835,3 +48835,12 @@ timestamp,key,doi,action,result,reasoning
 2026-08-19T10:19:02Z,W2789937552-d,10.1021/acs.jpca.8b00266,add-row,appended,row added via add-row
 2026-08-19T10:19:03Z,W2789937552-e,10.1021/acs.jpca.8b00266,add-row,appended,row added via add-row
 2026-08-19T10:19:03Z,W2789937552,10.1021/acs.jpca.8b00266,mark,extracted_partial,"All five HBT derivatives extracted with their Table 1 excitation energies. Marked partial because the paper states the same CAS(6,6) was used for all systems but presents conical-intersection analysis only for the parent HBT, and the active orbitals are SI-only. Also flagged a source-internal inconsistency: the body text quotes 540 nm for the trans-keto absorption while Table 1 gives 2.89 eV (429 nm) with a matching oscillator strength."
+2026-08-19T11:22:59Z,W2790553034-a,10.1021/acs.jpca.8b00883,add-row,appended,row added via add-row
+2026-08-19T11:23:00Z,W2790553034-b,10.1021/acs.jpca.8b00883,add-row,appended,row added via add-row
+2026-08-19T11:23:00Z,W2790553034-c,10.1021/acs.jpca.8b00883,add-row,appended,row added via add-row
+2026-08-19T11:23:00Z,W2790553034,10.1021/acs.jpca.8b00883,mark,extracted,"GeH2 singlet, triplet and the minimum-energy crossing point extracted with the full-valence CAS(6,6), the quantified error cancellation between higher DFT barriers and stronger DFT spin-orbit coupling, and the software limitation that forces CAS-CI to supply the coupling even in the nominally DFT dynamics. Barrier and gap differences are all in the body text."
+2026-08-19T11:25:04Z,W2792845969-a,10.1021/acs.jpca.8b01366,add-row,appended,row added via add-row
+2026-08-19T11:25:04Z,W2792845969-b,10.1021/acs.jpca.8b01366,add-row,appended,row added via add-row
+2026-08-19T11:25:04Z,W2792845969-c,10.1021/acs.jpca.8b01366,add-row,appended,row added via add-row
+2026-08-19T11:25:04Z,W2792845969-d,10.1021/acs.jpca.8b01366,add-row,appended,row added via add-row
+2026-08-19T11:25:04Z,W2792845969,10.1021/acs.jpca.8b01366,mark,extracted,"All four species (AuSi-, AuSi, AuGe-, AuGe) extracted with the shared ten-orbital composition rule, bond lengths, frequencies, VDEs, spin-orbit splittings and the shift parameters. Key finding recorded: this work and an earlier CASSCF/CASPT2 study state they use the SAME active space yet differ by 478 cm-1 on the AuSi spin-orbit splitting, so the space does not determine the calculation."
