@@ -48859,3 +48859,6 @@ timestamp,key,doi,action,result,reasoning
 2026-08-19T12:30:42Z,W2795562645-d,10.1021/acs.jpclett.8b00242,add-row,appended,row added via add-row
 2026-08-19T12:30:42Z,W2795562645-e,10.1021/acs.jpclett.8b00242,add-row,appended,row added via add-row
 2026-08-19T12:30:42Z,W2795562645,10.1021/acs.jpclett.8b00242,mark,extracted_partial,"Five named cationic systems extracted (H2+, He2+, ArKr+, (NH3)2+, (H2O)2+) with the MUE ladder against exact-exchange fraction and the full-valence-reduces-to-ROHF limiting case. Marked partial: the per-system active space sizes and basis sets are SI-only, and the six SIE11 neutral reactions are not itemized in the body text so no rows were written for them."
+2026-08-19T12:37:39Z,W2801102281-a,10.1021/acs.jpca.8b03439,add-row,appended,row added via add-row
+2026-08-19T12:37:39Z,W2801102281-b,10.1021/acs.jpca.8b03439,add-row,appended,row added via add-row
+2026-08-19T12:37:39Z,W2801102281,10.1021/acs.jpca.8b03439,mark,extracted,"o-Nitrotoluene and its aci-nitro tautomer extracted with all four active spaces and the stated reason for each reduction, including the geometry-dependent one that preserves the sigma/sigma-star orbitals at the stretched transition state. Active orbital pictures are SI-only but the composition is itemized in the body text."
