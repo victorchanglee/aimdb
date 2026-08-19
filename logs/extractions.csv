@@ -48844,3 +48844,6 @@ timestamp,key,doi,action,result,reasoning
 2026-08-19T11:25:04Z,W2792845969-c,10.1021/acs.jpca.8b01366,add-row,appended,row added via add-row
 2026-08-19T11:25:04Z,W2792845969-d,10.1021/acs.jpca.8b01366,add-row,appended,row added via add-row
 2026-08-19T11:25:04Z,W2792845969,10.1021/acs.jpca.8b01366,mark,extracted,"All four species (AuSi-, AuSi, AuGe-, AuGe) extracted with the shared ten-orbital composition rule, bond lengths, frequencies, VDEs, spin-orbit splittings and the shift parameters. Key finding recorded: this work and an earlier CASSCF/CASPT2 study state they use the SAME active space yet differ by 478 cm-1 on the AuSi spin-orbit splitting, so the space does not determine the calculation."
+2026-08-19T11:54:40Z,W2793318929-a,10.1021/acs.jpca.8b00773,add-row,appended,row added via add-row
+2026-08-19T11:54:40Z,W2793318929-b,10.1021/acs.jpca.8b00773,add-row,appended,row added via add-row
+2026-08-19T11:54:40Z,W2793318929,10.1021/acs.jpca.8b00773,mark,extracted,"Both retinal Schiff bases extracted with the full-pi-system (12,12) space, Table 1 vertical excitations across all four method/geometry combinations plus the two-root variant, and the substituent's effect on the conical intersections. The quantified sensitivity hierarchy (correlation ~1.05 eV, geometry source ~0.38 eV, root count ~0.02 eV) is recorded in Other."
