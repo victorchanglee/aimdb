@@ -48862,3 +48862,8 @@ timestamp,key,doi,action,result,reasoning
 2026-08-19T12:37:39Z,W2801102281-a,10.1021/acs.jpca.8b03439,add-row,appended,row added via add-row
 2026-08-19T12:37:39Z,W2801102281-b,10.1021/acs.jpca.8b03439,add-row,appended,row added via add-row
 2026-08-19T12:37:39Z,W2801102281,10.1021/acs.jpca.8b03439,mark,extracted,"o-Nitrotoluene and its aci-nitro tautomer extracted with all four active spaces and the stated reason for each reduction, including the geometry-dependent one that preserves the sigma/sigma-star orbitals at the stretched transition state. Active orbital pictures are SI-only but the composition is itemized in the body text."
+2026-08-19T12:45:45Z,W2807338464-a,10.1021/acs.jpca.8b03731,add-row,appended,row added via add-row
+2026-08-19T12:45:45Z,W2807338464-b,10.1021/acs.jpca.8b03731,add-row,appended,row added via add-row
+2026-08-19T12:45:45Z,W2807338464-c,10.1021/acs.jpca.8b03731,add-row,appended,row added via add-row
+2026-08-19T12:45:45Z,W2807338464-d,10.1021/acs.jpca.8b03731,add-row,appended,row added via add-row
+2026-08-19T12:45:45Z,W2807338464,10.1021/acs.jpca.8b03731,mark,extracted_partial,"Four species with multireference treatment extracted (OCeS, OThS and the two side-on SO adducts), with both (12,12) space compositions and the stabilizing-orbital note. Marked partial: the bis-adducts OM(eta2-SO)(eta2-O2S) are characterized experimentally and by DFT but the methods section names CASSCF/CASPT2 only for OMS and OM(eta2-SO), so no rows were written for them; root counts and perturbative shifts are not stated anywhere."
