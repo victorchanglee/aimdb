@@ -48668,3 +48668,32 @@ timestamp,key,doi,action,result,reasoning
 2026-08-19T01:56:44Z,W2571181479-e,10.1016/j.comptc.2017.01.003,add-row,appended,row added via add-row
 2026-08-19T01:56:44Z,W2571181479-f,10.1016/j.comptc.2017.01.003,add-row,appended,row added via add-row
 2026-08-19T01:56:44Z,W2571181479,10.1016/j.comptc.2017.01.003,mark,extracted,"Modern valence-bond descriptions of polycyclic fused aromatics with cyclopropenyl rings. Pi-space CASSCF(10,10)/cc-pVTZ compared against spin-coupled SC(10) at the same orbital count, on MP2(Full) geometries. Six rows (azulene plus five compounds, all named in the text). The comparison isolates compactness from accuracy: at equal orbital count the full space succeeds but conveys less, since the aromatic/antiaromatic switch on excitation is read from spin coupling, not configuration weights. Text is a White Rose accepted-version deposit giving pages 32-39 but no volume, so no volume was recorded."
+2026-08-19T02:11:15Z,W2574467222-a,10.1021/acs.jpclett.6b02773,add-row,appended,row added via add-row
+2026-08-19T02:11:16Z,W2574467222-b,10.1021/acs.jpclett.6b02773,add-row,appended,row added via add-row
+2026-08-19T02:11:16Z,W2574467222-c,10.1021/acs.jpclett.6b02773,add-row,appended,row added via add-row
+2026-08-19T02:11:16Z,W2574467222-d,10.1021/acs.jpclett.6b02773,add-row,appended,row added via add-row
+2026-08-19T02:11:16Z,W2574467222-e,10.1021/acs.jpclett.6b02773,add-row,appended,row added via add-row
+2026-08-19T02:11:16Z,W2574467222-f,10.1021/acs.jpclett.6b02773,add-row,appended,row added via add-row
+2026-08-19T02:11:16Z,W2574467222-g,10.1021/acs.jpclett.6b02773,add-row,appended,row added via add-row
+2026-08-19T02:11:17Z,W2574467222-h,10.1021/acs.jpclett.6b02773,add-row,appended,row added via add-row
+2026-08-19T02:11:17Z,W2574467222-i,10.1021/acs.jpclett.6b02773,add-row,appended,row added via add-row
+2026-08-19T02:11:17Z,W2574467222-j,10.1021/acs.jpclett.6b02773,add-row,appended,row added via add-row
+2026-08-19T02:11:17Z,W2574467222-k,10.1021/acs.jpclett.6b02773,add-row,appended,row added via add-row
+2026-08-19T02:11:17Z,W2574467222-l,10.1021/acs.jpclett.6b02773,add-row,appended,row added via add-row
+2026-08-19T02:11:18Z,W2574467222-m,10.1021/acs.jpclett.6b02773,add-row,appended,row added via add-row
+2026-08-19T02:11:18Z,W2574467222-n,10.1021/acs.jpclett.6b02773,add-row,appended,row added via add-row
+2026-08-19T02:11:18Z,W2574467222-o,10.1021/acs.jpclett.6b02773,add-row,appended,row added via add-row
+2026-08-19T02:11:18Z,W2574467222-p,10.1021/acs.jpclett.6b02773,add-row,appended,row added via add-row
+2026-08-19T02:11:18Z,W2574467222-q,10.1021/acs.jpclett.6b02773,add-row,appended,row added via add-row
+2026-08-19T02:11:19Z,W2574467222-r,10.1021/acs.jpclett.6b02773,add-row,appended,row added via add-row
+2026-08-19T02:11:19Z,W2574467222-s,10.1021/acs.jpclett.6b02773,add-row,appended,row added via add-row
+2026-08-19T02:11:19Z,W2574467222-t,10.1021/acs.jpclett.6b02773,add-row,appended,row added via add-row
+2026-08-19T02:11:19Z,W2574467222-u,10.1021/acs.jpclett.6b02773,add-row,appended,row added via add-row
+2026-08-19T02:11:19Z,W2574467222-v,10.1021/acs.jpclett.6b02773,add-row,appended,row added via add-row
+2026-08-19T02:11:20Z,W2574467222-w,10.1021/acs.jpclett.6b02773,add-row,appended,row added via add-row
+2026-08-19T02:11:20Z,W2574467222-x,10.1021/acs.jpclett.6b02773,add-row,appended,row added via add-row
+2026-08-19T02:11:20Z,W2574467222-y,10.1021/acs.jpclett.6b02773,add-row,appended,row added via add-row
+2026-08-19T02:11:20Z,W2574467222-z,10.1021/acs.jpclett.6b02773,add-row,appended,row added via add-row
+2026-08-19T02:11:20Z,W2574467222-A,10.1021/acs.jpclett.6b02773,add-row,appended,row added via add-row
+2026-08-19T02:11:20Z,W2574467222-B,10.1021/acs.jpclett.6b02773,add-row,appended,row added via add-row
+2026-08-19T02:11:29Z,W2574467222,10.1021/acs.jpclett.6b02773,mark,extracted,"Multiconfigurational states of H-passivated silicene nanoclusters. CASSCF(10,10)/6-31G(d) in Gaussian 09 on TURBOMOLE DFT geometries. 28 rows, one per cluster from Table 2. The fixed modest space held across 1-42 fused rings makes the leading CI coefficient comparable along the series: the singlet falls from 0.78 to 0.33-0.40 while the triplet stays flat at 0.49-0.77, so multireference character grows with size and asymmetrically between spin states - which is why single-determinant methods misorder these ground states."
