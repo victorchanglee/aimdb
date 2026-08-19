@@ -50115,3 +50115,7 @@ timestamp,key,doi,action,result,reasoning
 2026-08-19T19:23:45+00:00,W2084250155-f,10.1016/j.cplett.2005.03.048,provenance_restore,notes,"PR #13 audit: the 2026-08-19 reread replaced this row notes and dropped the record that it arrived as a community contribution (merged 2026-08-14). entry_type is llm_mining, so no other field marked it. Restored in notes."
 2026-08-19T19:35:16Z,W2950448355-a,10.1021/jp9900133,add-row,appended,row added via add-row
 2026-08-19T19:35:20Z,W2950448355,10.1021/jp9900133,mark,extracted_partial,"CASSCF(8,8) applied to only ONE of the twelve gallium-phosphorus hydrides characterized in the paper (compound 4, H2PGa); the other eleven are Hartree-Fock, B3LYP and MP2 only. One row written for H2PGa."
+2026-08-19T19:44:02Z,W2950512649-a,10.1021/ja9717525,add-row,appended,row added via add-row
+2026-08-19T19:44:03Z,W2950512649-b,10.1021/ja9717525,add-row,appended,row added via add-row
+2026-08-19T19:44:03Z,W2950512649-c,10.1021/ja9717525,add-row,appended,row added via add-row
+2026-08-19T19:44:10Z,W2950512649,10.1021/ja9717525,mark,extracted_partial,"CASSCF applied only to the parent furanone protoanemonin (1) with butadiene; the 3-bromo and 3-methoxy derivatives 2 and 3, which carry much of the experimental work, receive no calculations and their mechanism is asserted by extension. The [2+2] and 1,2-to-1,4 isomerization routes are treated by spin-unrestricted B3-LYP alone. Three rows written: butadiene (4,4), protoanemonin (6,6) with an (8,8) enlargement test, and the (10,10) supersystem stationary points."
