@@ -48739,3 +48739,21 @@ timestamp,key,doi,action,result,reasoning
 2026-08-19T03:41:14Z,W2623870228-c,10.1021/jp905931j,add-row,appended,row added via add-row
 2026-08-19T03:41:15Z,W2623870228-d,10.1021/jp905931j,add-row,appended,row added via add-row
 2026-08-19T03:41:15Z,W2623870228,10.1021/jp905931j,mark,extracted,"Can cyclopentadienyl recombination produce naphthalene? CASSCF(8,8)/6-311G** for diradical-mechanism structures that B3LYP cannot locate, CASPT2 refinement, CCSD(T) alongside, RRKM rates. Four rows. Exemplary space validation: extending to (10,10) returned occupancies above 1.98 and below 0.02 for the added orbitals, demonstrating the smaller space adequate. Also candid about freezing 20 valence electrons into the core at the CASPT2 stage for cost."
+2026-08-19T03:58:54Z,W2604601226-a,10.1021/acs.organomet.7b00082,add-row,appended,row added via add-row
+2026-08-19T03:58:54Z,W2604601226-b,10.1021/acs.organomet.7b00082,add-row,appended,row added via add-row
+2026-08-19T03:58:54Z,W2604601226-c,10.1021/acs.organomet.7b00082,add-row,appended,row added via add-row
+2026-08-19T03:58:54Z,W2604601226-d,10.1021/acs.organomet.7b00082,add-row,appended,row added via add-row
+2026-08-19T03:58:54Z,W2604601226-e,10.1021/acs.organomet.7b00082,add-row,appended,row added via add-row
+2026-08-19T03:58:54Z,W2604601226-f,10.1021/acs.organomet.7b00082,add-row,appended,row added via add-row
+2026-08-19T03:58:55Z,W2604601226-g,10.1021/acs.organomet.7b00082,add-row,appended,row added via add-row
+2026-08-19T03:58:55Z,W2604601226-h,10.1021/acs.organomet.7b00082,add-row,appended,row added via add-row
+2026-08-19T03:58:55Z,W2604601226-i,10.1021/acs.organomet.7b00082,add-row,appended,row added via add-row
+2026-08-19T03:59:05Z,W2604601226,10.1021/acs.organomet.7b00082,mark,extracted_partial,"Nine multi-Be-expanded graphene-like molecules extracted (2Be-1A, 3Be-2A, 2Be-2A through 2Be-5A, 3Be-Pyr, 3Be-Ant, 3Be-Bpe). CASSCF(10,10)/6-31G(d) is used only for natural orbital occupation numbers; all energetics are broken-symmetry UB3LYP. Individual LUMO occupation numbers for 2Be-2A through 2Be-5A appear only in SI Table S3, the body text giving the series range 0.648-0.884."
+2026-08-19T04:00:15Z,W2716083417-a,10.1021/acs.jpca.7b04259,add-row,appended,row added via add-row
+2026-08-19T04:00:15Z,W2716083417,10.1021/acs.jpca.7b04259,mark,extracted,"Single-system analytic study of H2 dissociation with CASSCF(2,2) versus RHF in a minimal Slater basis; one row written covering the full dissociation curve. All quantities discussed in the body text are captured; the supporting-information tables give the same quantities at additional sampling points."
+2026-08-19T04:01:52Z,W2735900925-a,10.1002/chem.201703051,add-row,appended,row added via add-row
+2026-08-19T04:01:52Z,W2735900925-b,10.1002/chem.201703051,add-row,appended,row added via add-row
+2026-08-19T04:01:52Z,W2735900925,10.1002/chem.201703051,mark,extracted_partial,"Both molecules (C2 and C2H2) extracted with full-valence CASSCF-GIAO spaces (8,8) and (10,10) and the complete Table 1 shielding data. Marked partial because the text is a White Rose accepted-version deposit that states pages 12949-12954 but no journal volume number, so reference_short omits the volume."
+2026-08-19T04:03:02Z,W2737166405-a,10.1021/acs.jpca.7b04592,add-row,appended,row added via add-row
+2026-08-19T04:03:02Z,W2737166405-b,10.1021/acs.jpca.7b04592,add-row,appended,row added via add-row
+2026-08-19T04:03:02Z,W2737166405,10.1021/acs.jpca.7b04592,mark,extracted,"Both systems (NO3 radical, CAS(9,8), and benzene radical cation, CAS(29,15)) extracted with their five-state SA-CASSCF setups, state labels, coupling topology and the symmetry-degeneracy validation of the space."
