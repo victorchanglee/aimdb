@@ -48795,3 +48795,11 @@ timestamp,key,doi,action,result,reasoning
 2026-08-19T05:12:47Z,W2761133199-b,10.1021/jacs.7b08412,add-row,appended,row added via add-row
 2026-08-19T05:12:47Z,W2761133199-c,10.1021/jacs.7b08412,add-row,appended,row added via add-row
 2026-08-19T05:12:47Z,W2761133199,10.1021/jacs.7b08412,mark,extracted,"All three stationary points on the SiH2OO cyclization path extracted with their frontier natural occupation numbers, plus the Table 1 excited-state data. No row written for CH2OO: its structural parameters and comparison values are taken from other groups' studies, so they are not this paper's multireference results."
+2026-08-19T05:56:55Z,W2758357310-a,10.1021/acs.jpcc.7b08011,add-row,appended,row added via add-row
+2026-08-19T05:56:55Z,W2758357310-b,10.1021/acs.jpcc.7b08011,add-row,appended,row added via add-row
+2026-08-19T05:56:55Z,W2758357310,10.1021/acs.jpcc.7b08011,mark,extracted_partial,"Both compounds extracted with their CASSCF(12,12)/CASPT2 diradical characters, absorption assignments and the CASPT2-geometry workaround. Marked partial because the full chemical structures of QM1CN and QM2CN appear only in Scheme 3, which the extracted text does not resolve into systematic names, so the compounds are recorded under the paper's own labels and descriptive characterization."
+2026-08-19T05:58:26Z,W2763709501-a,10.1021/acsami.7b12045,add-row,appended,row added via add-row
+2026-08-19T05:58:26Z,W2763709501-b,10.1021/acsami.7b12045,add-row,appended,row added via add-row
+2026-08-19T05:58:26Z,W2763709501-c,10.1021/acsami.7b12045,add-row,appended,row added via add-row
+2026-08-19T05:58:26Z,W2763709501-d,10.1021/acsami.7b12045,add-row,appended,row added via add-row
+2026-08-19T05:58:26Z,W2763709501,10.1021/acsami.7b12045,mark,extracted,"All four model systems from Figure 3 extracted: the local Cu(II) C4v centre, the Cu(II)/Cu(II) D4h dimer, and the two Cu(II)/Cu(I) defect models (symmetric delocalized and hand-distorted localized), with their symmetry-derived selection rules, the 1.6 eV agreement across models, and the quantified 0.2 eV cost of omitting dynamic correlation."
