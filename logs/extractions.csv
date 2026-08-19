@@ -48917,3 +48917,14 @@ timestamp,key,doi,action,result,reasoning
 2026-08-19T13:42:56Z,W2904042891,10.1021/acs.jpclett.8b03277,mark,extracted,"Benzene extracted as the single system, with all four active spaces itemized, the full Table 1 excitation energies and MUDs, the bigger-is-not-better finding (largest RAS space worst because it holds sigma-star rather than Rydberg orbitals), the second-moment confirmation, and the mechanism distinguishing perturbative from density-based corrections."
 2026-08-19T13:50:55Z,W2904332468-a,10.1021/acs.inorgchem.8b02300,add-row,appended,row added via add-row
 2026-08-19T13:50:55Z,W2904332468,10.1021/acs.inorgchem.8b02300,mark,extracted_partial,"CASSCF used only to supply wave functions for a QTAIM topological bonding analysis and orbital plots of the isolated [UO2Cl4]2- anion; no active space size, composition list, root count, multiplicity or state-averaging scheme is given anywhere in the body text, and the selection criterion (U f/d orbitals bonding with O) is aligned with one side of the U-O vs U-Cl comparison the paper draws. One row written."
+2026-08-19T13:57:03Z,W2904335186-a,10.1021/jacs.8b11739,add-row,appended,row added via add-row
+2026-08-19T13:57:03Z,W2904335186-b,10.1021/jacs.8b11739,add-row,appended,row added via add-row
+2026-08-19T13:57:03Z,W2904335186-c,10.1021/jacs.8b11739,add-row,appended,row added via add-row
+2026-08-19T13:57:03Z,W2904335186-d,10.1021/jacs.8b11739,add-row,appended,row added via add-row
+2026-08-19T13:57:03Z,W2904335186-e,10.1021/jacs.8b11739,add-row,appended,row added via add-row
+2026-08-19T13:57:04Z,W2904335186-f,10.1021/jacs.8b11739,add-row,appended,row added via add-row
+2026-08-19T13:57:04Z,W2904335186-g,10.1021/jacs.8b11739,add-row,appended,row added via add-row
+2026-08-19T13:57:04Z,W2904335186-h,10.1021/jacs.8b11739,add-row,appended,row added via add-row
+2026-08-19T13:57:04Z,W2904335186-i,10.1021/jacs.8b11739,add-row,appended,row added via add-row
+2026-08-19T13:57:04Z,W2904335186-j,10.1021/jacs.8b11739,add-row,appended,row added via add-row
+2026-08-19T13:57:13Z,W2904335186,10.1021/jacs.8b11739,mark,extracted_partial,"Ten diatomic 3d metal carbide cations ScC+ to ZnC+ at NEVPT2//CASSCF, one row each. Marked partial because the active space size and orbital composition appear nowhere in the article - the composition for each MC+ is relegated to the Supporting Information - which for a paper whose whole claim is a trend across the 3d row leaves undetermined whether one space was held fixed, a rule applied, or each species tuned. Also noted: T1 diagnostics gate the multireference decision (nine of ten multireference, CuC+ the exception), CuC+ energetics are B2PLYP imported from earlier work, only four of ten verified experimentally, and one MECP could not be located due to CASSCF convergence failure."
