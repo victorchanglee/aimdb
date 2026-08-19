@@ -48908,3 +48908,6 @@ timestamp,key,doi,action,result,reasoning
 2026-08-19T13:28:11Z,W2890071487-d,10.1021/acs.jpca.8b07582,add-row,appended,row added via add-row
 2026-08-19T13:28:11Z,W2890071487-e,10.1021/acs.jpca.8b07582,add-row,appended,row added via add-row
 2026-08-19T13:28:11Z,W2890071487,10.1021/acs.jpca.8b07582,mark,extracted_partial,"All five flavin redox forms extracted with their Table 1 energies and conical-intersection accessibility. Marked partial because the body text does not state which of the two active spaces applies to FADH2 (neither oxidized nor anionic), and the larger-active-space validation data are SI-only."
+2026-08-19T13:32:36Z,W2895356514-a,10.1021/acs.inorgchem.8b01761,add-row,appended,row added via add-row
+2026-08-19T13:32:37Z,W2895356514-b,10.1021/acs.inorgchem.8b01761,add-row,appended,row added via add-row
+2026-08-19T13:32:37Z,W2895356514,10.1021/acs.inorgchem.8b01761,mark,extracted_partial,"Both Cr and Mo bis(tetrazinylpyridine) complexes extracted with the balanced CAS(6,7), the 69% vs 36% closed-shell weights, the corroborating broken-symmetry S2 = 1.85, and the occupancy-derived charges overturning the formal zerovalent assignment. Marked partial because the basis set for the multiconfigurational calculations, root counts and any correction are not stated in the body text."
