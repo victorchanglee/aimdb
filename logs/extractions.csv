@@ -50738,3 +50738,18 @@ timestamp,key,doi,action,result,reasoning
 2026-08-20T03:11:43Z,W4384944583-g,10.1021/acs.jpclett.3c01474,add-row,appended,row added via add-row
 2026-08-20T03:11:43Z,W4384944583-h,10.1021/acs.jpclett.3c01474,add-row,appended,row added via add-row
 2026-08-20T03:11:43Z,W4384944583,10.1021/acs.jpclett.3c01474,mark,extracted_partial,"CASCI/CASSCF in PySCF and DMRG in BLOCK, both on GVB orbitals, used as references for a new EOM-GVB-BCCC2b method; eight rows added for H6, H2O, CF2, (H2O)6 and four diradicals. The active space is determined automatically by the GVB pairing - one pair per bond - so sizes run CAS(4,4) to CAS(32,32). Partial because three of the four diradicals (m-QDM, DMCBD-3, BDBCHB) are identified only by abbreviations the article body never expands into systematic names. Notable: the paper states the water hexamer's CAS(24,24) is beyond CASSCF, diagnoses a state MISSING from its own method as due to three-pair configurations, and refuses comparison with experiment because dynamic correlation is absent."
+2026-08-20T03:15:08Z,W4385286083-a,10.1021/acs.jpca.3c02543,add-row,appended,row added via add-row
+2026-08-20T03:15:08Z,W4385286083-b,10.1021/acs.jpca.3c02543,add-row,appended,row added via add-row
+2026-08-20T03:15:08Z,W4385286083-c,10.1021/acs.jpca.3c02543,add-row,appended,row added via add-row
+2026-08-20T03:15:08Z,W4385286083-d,10.1021/acs.jpca.3c02543,add-row,appended,row added via add-row
+2026-08-20T03:15:09Z,W4385286083-e,10.1021/acs.jpca.3c02543,add-row,appended,row added via add-row
+2026-08-20T03:15:09Z,W4385286083-f,10.1021/acs.jpca.3c02543,add-row,appended,row added via add-row
+2026-08-20T03:15:09Z,W4385286083-g,10.1021/acs.jpca.3c02543,add-row,appended,row added via add-row
+2026-08-20T03:15:09Z,W4385286083-h,10.1021/acs.jpca.3c02543,add-row,appended,row added via add-row
+2026-08-20T03:15:09Z,W4385286083-i,10.1021/acs.jpca.3c02543,add-row,appended,row added via add-row
+2026-08-20T03:15:09Z,W4385286083-j,10.1021/acs.jpca.3c02543,add-row,appended,row added via add-row
+2026-08-20T03:15:10Z,W4385286083-k,10.1021/acs.jpca.3c02543,add-row,appended,row added via add-row
+2026-08-20T03:15:10Z,W4385286083-l,10.1021/acs.jpca.3c02543,add-row,appended,row added via add-row
+2026-08-20T03:15:10Z,W4385286083-m,10.1021/acs.jpca.3c02543,add-row,appended,row added via add-row
+2026-08-20T03:15:10Z,W4385286083-n,10.1021/acs.jpca.3c02543,add-row,appended,row added via add-row
+2026-08-20T03:15:10Z,W4385286083,10.1021/acs.jpca.3c02543,mark,extracted_partial,"CASSCF + NEVPT2 + SOC over the complete 45-ket d8 manifold in ORCA 5.0.4 on fourteen hexa-, penta- and tetracoordinate Ni(II) complexes at experimental geometries; fourteen rows added. Partial because the ligand abbreviations in Table 2 are never expanded into systematic names in the article body, and because the rhombicity E/|D| values and multiplet weight decompositions sit in a dense table whose column alignment cannot be read unambiguously from the extracted text. Headline: the paper defines E/|D| near 0.33 as the point where D 'stays meaningless' and italicizes such values, and shows D is UNDEFINED for the D3h complexes with orbitally degenerate 3E ground terms - which are precisely the ones returning the largest computed |D|."
