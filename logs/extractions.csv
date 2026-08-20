@@ -50653,3 +50653,16 @@ timestamp,key,doi,action,result,reasoning
 2026-08-20T02:36:09Z,W4361205130-a,10.1021/acs.inorgchem.3c00463,add-row,appended,row added via add-row
 2026-08-20T02:36:09Z,W4361205130-b,10.1021/acs.inorgchem.3c00463,add-row,appended,row added via add-row
 2026-08-20T02:36:09Z,W4361205130,10.1021/acs.inorgchem.3c00463,mark,extracted,"Matched CASSCF(11,13) and CASSCF(10,13) spaces on the Co- and Fe-porphyrin-nitrene intermediates; two rows added. Active spaces are itemized orbital by orbital in the article body, with the five metal 4d orbitals named as the double d-shell, along with basis, software, state-specific protocol, occupation numbers, orbital percentages, configuration weights and spin populations. Headline: CASSCF overturns a B3LYP orbital assignment, showing the second Fe SOMO to be 94 percent Fe d(xz) rather than an Fe-N pi antibond, with the DFT error in the direction of too much covalency."
+2026-08-20T02:39:24Z,W4361254469-a,10.1021/acs.jpca.3c00599,add-row,appended,row added via add-row
+2026-08-20T02:39:24Z,W4361254469-b,10.1021/acs.jpca.3c00599,add-row,appended,row added via add-row
+2026-08-20T02:39:24Z,W4361254469-c,10.1021/acs.jpca.3c00599,add-row,appended,row added via add-row
+2026-08-20T02:39:25Z,W4361254469-d,10.1021/acs.jpca.3c00599,add-row,appended,row added via add-row
+2026-08-20T02:39:25Z,W4361254469-e,10.1021/acs.jpca.3c00599,add-row,appended,row added via add-row
+2026-08-20T02:39:25Z,W4361254469-f,10.1021/acs.jpca.3c00599,add-row,appended,row added via add-row
+2026-08-20T02:39:25Z,W4361254469-g,10.1021/acs.jpca.3c00599,add-row,appended,row added via add-row
+2026-08-20T02:39:25Z,W4361254469-h,10.1021/acs.jpca.3c00599,add-row,appended,row added via add-row
+2026-08-20T02:39:26Z,W4361254469-i,10.1021/acs.jpca.3c00599,add-row,appended,row added via add-row
+2026-08-20T02:39:26Z,W4361254469-j,10.1021/acs.jpca.3c00599,add-row,appended,row added via add-row
+2026-08-20T02:39:26Z,W4361254469-k,10.1021/acs.jpca.3c00599,add-row,appended,row added via add-row
+2026-08-20T02:39:26Z,W4361254469-l,10.1021/acs.jpca.3c00599,add-row,appended,row added via add-row
+2026-08-20T02:39:34Z,W4361254469,10.1021/acs.jpca.3c00599,mark,extracted,"CASSCF + NEVPT2 + SOMF over the complete d-shell active space on twelve transition-metal complexes, used to test the validity of the spin-Hamiltonian formalism by projecting the relativistic states back onto the spin-only subspace; twelve rows added. Active space (5 d orbitals, complete dn ket manifold), basis, relativistic treatment, software and the per-complex critical parameters of Table 4 are all in the article body. Eight of the twelve species are metal-substituted models at a host geometry, recorded as such."
