@@ -43,13 +43,20 @@ def main():
     out_rows = []
     for r in rows:
         row = {k: (r.get(k) or "").strip() for k in fields}
-        # Elements to filter on: metals named in metal_center, plus every
-        # element symbol appearing in the chemical formula.
+        # Elements to filter on come from the curated `element` column, which
+        # is derived from metal_center and formula but masks ligand
+        # abbreviations that elements_in() misreads as symbols (OAc -> Ac,
+        # Por -> Po, Nor -> No, BArF -> Ar, the word Table -> Ta). Fall back to
+        # deriving them here only if that column is absent, so this script
+        # still works against a pre-36-column CSV.
         metal = row.get("metal_center", "")
         metals = sorted(elements_in(metal)) if metal.lower() != "none" else []
-        formula_els = sorted(elements_in(row.get("formula", "")))
         row["_metals"] = metals
-        row["_elements"] = sorted(set(metals) | set(formula_els))
+        if "element" in fields:
+            row["_elements"] = row.get("element", "").split()
+        else:
+            formula_els = sorted(elements_in(row.get("formula", "")))
+            row["_elements"] = sorted(set(metals) | set(formula_els))
         out_rows.append(row)
 
     payload = {

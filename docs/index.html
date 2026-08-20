@@ -968,7 +968,7 @@ const FIELD_LABELS = {
 };
 const WIDE = new Set(["active_space_orbital_description","active_space_protocol",
   "electronic_structure_description","Other","notes","compound_name","ligand_set","geometry_source"]);
-const HIDE = new Set(["_metals","_elements","structure_provenance"]);
+const HIDE = new Set(["_metals","_elements","element","structure_provenance"]);
 const STRUCTURE_PROVENANCE_LABELS = {computational:"Computational", experimental:"Experimental", ai_generated:"AI-generated"};
 function structureTag(r){
   const p = r.structure_provenance || "";
