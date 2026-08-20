@@ -50643,3 +50643,8 @@ timestamp,key,doi,action,result,reasoning
 2026-08-20T02:26:42Z,W4322726838-a,10.1007/s00214-023-02968-z,add-row,appended,row added via add-row
 2026-08-20T02:26:42Z,W4322726838-b,10.1007/s00214-023-02968-z,add-row,appended,row added via add-row
 2026-08-20T02:26:42Z,W4322726838,10.1007/s00214-023-02968-z,mark,extracted_partial,"CASSCF(5,10)/(3,6) on doublet C2N and CASSCF(4,8) on singlet and triplet C2O, run as a check on a DFT/NBO long-bond claim; two rows added. Partial because the multireference covers only the elementary C2 species while the paper's claim ranges over CnX with n = 2,4,6,8, and the T1 diagnostic table is in SI Table S1. Deposited copy is the Research Square preprint with no journal line, so journal/volume/page omitted and DOI taken from the index."
+2026-08-20T02:30:50Z,W4323347345-a,10.1021/acs.jpca.2c08461,add-row,appended,row added via add-row
+2026-08-20T02:30:50Z,W4323347345-b,10.1021/acs.jpca.2c08461,add-row,appended,row added via add-row
+2026-08-20T02:30:50Z,W4323347345-c,10.1021/acs.jpca.2c08461,add-row,appended,row added via add-row
+2026-08-20T02:30:50Z,W4323347345-d,10.1021/acs.jpca.2c08461,add-row,appended,row added via add-row
+2026-08-20T02:30:50Z,W4323347345,10.1021/acs.jpca.2c08461,mark,extracted,"SA-CASSCF with XMS-CASPT2, XMS-PDFT and CMS-PDFT on NdO2 and SmO2(2+) plus the free Nd+ and Sm2+ reference ions; four rows added. All active spaces are itemized orbital by orbital in the article body along with root counts, basis sets, relativistic treatment and the principal energy tables. Headline: the same bare SA-CASSCF is within 0.02 eV of the measured Nd+ spin splitting but wrong by 2-4 eV on isomer energies, with the error changing sign between the two isoelectronic molecules."
