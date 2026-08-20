@@ -50790,3 +50790,23 @@ timestamp,key,doi,action,result,reasoning
 2026-08-20T03:30:39Z,W4386305654-k,10.1021/acs.inorgchem.3c01632,add-row,appended,row added via add-row
 2026-08-20T03:30:39Z,W4386305654-l,10.1021/acs.inorgchem.3c01632,add-row,appended,row added via add-row
 2026-08-20T03:30:39Z,W4386305654,10.1021/acs.inorgchem.3c01632,mark,extracted_partial,"CASSCF/NEVPT2 in two spaces - metal-only CAS(n,5) and CAS(n,8) adding the two oxo p-pi and one oxo p-sigma orbitals - across twelve [M(H3buea)(O/OH)] species with M = Mn/Fe and n = II to V; twelve rows added. Partial because the configuration weights are in SI Table S1a, the spin-state energetics in Figure S3 and the AILFT diagrams in Figures S4-S6, because the electron count of the enlarged space is never stated, and because no root set is given for the d6 configuration (the Fe(II)-hydroxo member). Headline: the Mn(III)-oxo wavefunction has leading configurations at 49 and 48 percent - effectively degenerate - with the second arising from excitation into the very sigma orbital the enlargement adds; and CASSCF/NEVPT2 fails to reproduce the high-spin ground state for the two M(IV)=O species that DFT and experiment give."
+2026-08-20T03:33:39Z,W4386306375-a,10.1021/acs.jpca.3c04254,add-row,appended,row added via add-row
+2026-08-20T03:33:39Z,W4386306375-b,10.1021/acs.jpca.3c04254,add-row,appended,row added via add-row
+2026-08-20T03:33:39Z,W4386306375-c,10.1021/acs.jpca.3c04254,add-row,appended,row added via add-row
+2026-08-20T03:33:39Z,W4386306375-d,10.1021/acs.jpca.3c04254,add-row,appended,row added via add-row
+2026-08-20T03:33:40Z,W4386306375-e,10.1021/acs.jpca.3c04254,add-row,appended,row added via add-row
+2026-08-20T03:33:40Z,W4386306375-f,10.1021/acs.jpca.3c04254,add-row,appended,row added via add-row
+2026-08-20T03:33:40Z,W4386306375-g,10.1021/acs.jpca.3c04254,add-row,appended,row added via add-row
+2026-08-20T03:33:40Z,W4386306375-h,10.1021/acs.jpca.3c04254,add-row,appended,row added via add-row
+2026-08-20T03:33:40Z,W4386306375-i,10.1021/acs.jpca.3c04254,add-row,appended,row added via add-row
+2026-08-20T03:33:41Z,W4386306375-j,10.1021/acs.jpca.3c04254,add-row,appended,row added via add-row
+2026-08-20T03:33:41Z,W4386306375-k,10.1021/acs.jpca.3c04254,add-row,appended,row added via add-row
+2026-08-20T03:33:41Z,W4386306375-l,10.1021/acs.jpca.3c04254,add-row,appended,row added via add-row
+2026-08-20T03:33:41Z,W4386306375-m,10.1021/acs.jpca.3c04254,add-row,appended,row added via add-row
+2026-08-20T03:33:41Z,W4386306375-n,10.1021/acs.jpca.3c04254,add-row,appended,row added via add-row
+2026-08-20T03:33:42Z,W4386306375-o,10.1021/acs.jpca.3c04254,add-row,appended,row added via add-row
+2026-08-20T03:33:42Z,W4386306375-p,10.1021/acs.jpca.3c04254,add-row,appended,row added via add-row
+2026-08-20T03:33:42Z,W4386306375-q,10.1021/acs.jpca.3c04254,add-row,appended,row added via add-row
+2026-08-20T03:33:42Z,W4386306375-r,10.1021/acs.jpca.3c04254,add-row,appended,row added via add-row
+2026-08-20T03:33:42Z,W4386306375-s,10.1021/acs.jpca.3c04254,add-row,appended,row added via add-row
+2026-08-20T03:33:43Z,W4386306375,10.1021/acs.jpca.3c04254,mark,extracted_partial,"CAS(8,11) - five Fe 3d, five Fe 4d for the double shell, one sigma(Fe-N) - across nineteen FeN4 complexes with a battery of multireference corrections benchmarked against RCCSD(T); nineteen rows added. Partial because the numerical spin-state energetics are in SI Tables S5/S6, the active-space plots in Figure S1, and the body never enumerates which nine of the nineteen received the RCCSD(T) benchmark. Headline: most multireference methods inherit an overstabilization of high-spin states FROM THE CASSCF REFERENCE, only CASPT2/CC, DSRG-MRPT3 and MR-LDSRG(2) escaping it; CAS(8,11) is reported to give results identical to CAS(26,27); and a prior claim that a much larger active space was needed for Fe(L2) is rebutted as a planarity assumption rather than a space-convergence problem."
