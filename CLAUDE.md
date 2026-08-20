@@ -267,6 +267,20 @@ PDFs that were added by hand and aren't in the index).
      save a geometry to `database/structures/`. `structure_provenance`:
      `computational` / `experimental` / `ai_generated` — mandatory whenever
      `structure_file` is set (see step 4b); empty otherwise.
+   - `element` (added 2026-08-20, sits after `metal_center`): the element
+     symbols the site's periodic-table filter matches on, space separated
+     and alphabetical — `C Mg Ni O`. **Derived, not read from the paper**:
+     it is the union of the symbols in `metal_center` (unless that is
+     `none`) and those in `formula`, so it is only as good as those two and
+     is regenerated whenever either changes. Empty is correct and common
+     (1522 rows) when neither a metal centre nor a formula is stated.
+     `docs/build_site.py` reads this column directly; it falls back to
+     deriving the set itself only if the column is absent. The derivation
+     masks ligand abbreviations that a bare `[A-Z][a-z]?` scan misreads as
+     symbols — `OAc`/`SAc`/`HOAc` as actinium, `Por` as polonium, `Nor` as
+     nobelium, `BArF` as argon, `CmH2m` as curium, and the word `Table` as
+     tantalum. Genuine entries are untouched: `PoCl6(2-)`, `XeH+`, `NoO`,
+     `Ta2`, `AcCO` and `Co2O37W10^6-` all keep their tags.
    - **Metal-free organic compounds**: set `metal_center` to `none`
      (deliberate absence, distinct from empty = not stated); leave
      `metal_ox_state`, `d_electron_count`, and `ligand_set` empty. All
@@ -293,8 +307,8 @@ PDFs that were added by hand and aren't in the index).
      When a new Claude model takes over the mining, bump
      `CURRENT_MINING_MODEL` in `code/mining_agent/config.py` so new rows
      record the model that actually extracted them (or pass `mining_model`
-     explicitly per row). This is the last column and is aimdb-only —
-     `claude-casscf` merges just drop it.
+     explicitly per row). This is the second-to-last column and is
+     aimdb-only — `claude-casscf` merges just drop it.
    - `open_access` (last column, aimdb-only): `yes`/`no`/`unknown` — is
      `reference_doi` open access per OpenAlex's `open_access.is_oa`? Don't
      fill it by hand; run `.venv/bin/python tools/tools_oa.py --refresh --stamp`
