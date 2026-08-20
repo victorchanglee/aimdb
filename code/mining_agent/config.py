@@ -61,7 +61,7 @@ DEFAULT_ENTRY_TYPE = "llm_mining"
 # aimdb-only columns appended LAST.
 LITERATURE_COLUMNS = [
     "entry_id", "structure_file", "structure_provenance", "compound_name",
-    "system_class", "formula", "metal_center",
+    "system_class", "formula", "metal_center", "element",
     "metal_ox_state", "d_electron_count", "ligand_set", "point_group",
     "geometry_source", "method", "software", "basis_set",
     "relativistic_treatment", "soc_included", "ss_included",
