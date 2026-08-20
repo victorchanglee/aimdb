@@ -261,7 +261,7 @@
 <div class="wrap">
   <div class="controls">
     <div class="searchrow">
-      <input id="q" type="search" placeholder="Search name, formula, element, method, reference…" autocomplete="off">
+      <input id="q" type="search" placeholder="Search name, formula, element, method, reference, entry ID…" autocomplete="off">
       <select id="scope" title="Restrict the search box to one field">
         <option value="all" selected="selected">All fields</option>
         <option value="compound_name">Name</option>
@@ -269,6 +269,7 @@
         <option value="element">Element</option>
         <option value="method">Method</option>
         <option value="reference_short">Reference</option>
+        <option value="entry_id">Entry ID</option>
       </select>
     </div>
     <div class="ptable-head">
@@ -851,7 +852,7 @@ function matchesText(r){
   const pick = state.scope;
   let hay;
   if(pick==="all"){
-    hay = [r.compound_name, r.formula, r.metal_center, r.method, r.software,
+    hay = [r.entry_id, r.compound_name, r.formula, r.metal_center, r.method, r.software,
            r.ligand_set, r.reference_short, r.reference_doi, r.notes,
            r.correlation_correction, (r._elements||[]).join(" ")].join("  ");
   } else if(pick==="element"){
