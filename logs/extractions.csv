@@ -50753,3 +50753,19 @@ timestamp,key,doi,action,result,reasoning
 2026-08-20T03:15:10Z,W4385286083-m,10.1021/acs.jpca.3c02543,add-row,appended,row added via add-row
 2026-08-20T03:15:10Z,W4385286083-n,10.1021/acs.jpca.3c02543,add-row,appended,row added via add-row
 2026-08-20T03:15:10Z,W4385286083,10.1021/acs.jpca.3c02543,mark,extracted_partial,"CASSCF + NEVPT2 + SOC over the complete 45-ket d8 manifold in ORCA 5.0.4 on fourteen hexa-, penta- and tetracoordinate Ni(II) complexes at experimental geometries; fourteen rows added. Partial because the ligand abbreviations in Table 2 are never expanded into systematic names in the article body, and because the rhombicity E/|D| values and multiplet weight decompositions sit in a dense table whose column alignment cannot be read unambiguously from the extracted text. Headline: the paper defines E/|D| near 0.33 as the point where D 'stays meaningless' and italicizes such values, and shows D is UNDEFINED for the D3h complexes with orbitally degenerate 3E ground terms - which are precisely the ones returning the largest computed |D|."
+2026-08-20T03:19:04Z,W4386086288-a,10.1021/acs.jctc.3c00688,add-row,appended,row added via add-row
+2026-08-20T03:19:05Z,W4386086288-b,10.1021/acs.jctc.3c00688,add-row,appended,row added via add-row
+2026-08-20T03:19:05Z,W4386086288-c,10.1021/acs.jctc.3c00688,add-row,appended,row added via add-row
+2026-08-20T03:19:05Z,W4386086288-d,10.1021/acs.jctc.3c00688,add-row,appended,row added via add-row
+2026-08-20T03:19:05Z,W4386086288-e,10.1021/acs.jctc.3c00688,add-row,appended,row added via add-row
+2026-08-20T03:19:05Z,W4386086288-f,10.1021/acs.jctc.3c00688,add-row,appended,row added via add-row
+2026-08-20T03:19:06Z,W4386086288-g,10.1021/acs.jctc.3c00688,add-row,appended,row added via add-row
+2026-08-20T03:19:06Z,W4386086288-h,10.1021/acs.jctc.3c00688,add-row,appended,row added via add-row
+2026-08-20T03:19:06Z,W4386086288-i,10.1021/acs.jctc.3c00688,add-row,appended,row added via add-row
+2026-08-20T03:19:06Z,W4386086288-j,10.1021/acs.jctc.3c00688,add-row,appended,row added via add-row
+2026-08-20T03:19:06Z,W4386086288-k,10.1021/acs.jctc.3c00688,add-row,appended,row added via add-row
+2026-08-20T03:19:07Z,W4386086288-l,10.1021/acs.jctc.3c00688,add-row,appended,row added via add-row
+2026-08-20T03:19:07Z,W4386086288-m,10.1021/acs.jctc.3c00688,add-row,appended,row added via add-row
+2026-08-20T03:19:07Z,W4386086288-n,10.1021/acs.jctc.3c00688,add-row,appended,row added via add-row
+2026-08-20T03:19:07Z,W4386086288-o,10.1021/acs.jctc.3c00688,add-row,appended,row added via add-row
+2026-08-20T03:19:07Z,W4386086288,10.1021/acs.jctc.3c00688,mark,extracted_partial,"ASCI-SCF references with DSRG-MRPT2 dynamic correlation on polyacenes, periacenes, FeO+ + methane and cethrene; fifteen rows added, active spaces from (14,14) to (44,44). Partial because the abstract lists iron porphyrins among the applications but no porphyrin appears in the numerical examples, all geometries are in the SI, and for the two largest polyacenes only the three-cumulant-approximated value is tabulated so the column assignment is read from context. Headline findings: CAS(5,5) plus CASPT2 assigns the WRONG ground spin state to the FeO+ reactant, a composition failure the correction cannot repair; the sign of the 4- and 5-periacene singlet-triplet gaps flips with the reference-relaxation treatment; and the cethrene orbital optimizer ejected the sigma/sigma* orbitals of the bond being formed, forcing an inconsistent space across the reaction profile, which the author flags."
