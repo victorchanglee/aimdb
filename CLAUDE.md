@@ -281,9 +281,10 @@ PDFs that were added by hand and aren't in the index).
      nobelium, `BArF` as argon, `CmH2m` as curium, and the word `Table` as
      tantalum. Genuine entries are untouched: `PoCl6(2-)`, `XeH+`, `NoO`,
      `Ta2`, `AcCO` and `Co2O37W10^6-` all keep their tags.
-   - **Metal-free organic compounds**: set `metal_center` to `none`
-     (deliberate absence, distinct from empty = not stated); leave
-     `metal_ox_state`, `d_electron_count`, and `ligand_set` empty. All
+   - **Metal-free organic compounds**: leave `metal_center` **empty**, and
+     likewise `metal_ox_state`, `d_electron_count` and `ligand_set`. The
+     `none` marker used until 2026-08-20 was emptied database-wide; the
+     absence of a metal is evident from `formula` and `compound_name`. All
      other columns apply as usual (pi/lone-pair active spaces go in
      `active_space_orbital_description`; ground-state term, excitation
      energies, etc. go in `electronic_structure_description` as stated).
@@ -293,8 +294,10 @@ PDFs that were added by hand and aren't in the index).
    - `reference_doi` is mandatory — a row without a DOI is not addable.
    - `correlation_correction`: which post-CASSCF dynamic-correlation
      correction the reported result uses (`NEVPT2`, `CASPT2`, `RASPT2`,
-     `MRCI`, ...) or `none` for a variational CASSCF/RASSCF/DMRG-only
-     result. Leave it out of the JSON and `add-row` derives it from
+     `MRCI`, ...), or **empty** when the reported result is variational
+     CASSCF/RASSCF/DMRG only — that is evident from `method`, and since
+     2026-08-20 only stated values are recorded. Leave it out of the JSON
+     and `add-row` derives it from
      `method` via `csvio.classify_correction`; set it explicitly only when
      the paper's wording makes the derivation wrong.
    - `entry_type`: how the entry was produced — `llm_mining` (LLM-mined from
@@ -320,7 +323,9 @@ PDFs that were added by hand and aren't in the index).
      column merges the ground-state term symbol (if stated — prefix it
      "Ground term: ...") with the low-lying state energies; paste the
      relevant numbers compactly, state units; SOC-corrected vs SOC-free
-     matters (`soc_included` flag).
+     matters (`soc_included` flag: `yes` when stated, otherwise empty —
+     the bare `no` used until 2026-08-20 was emptied database-wide, as was
+     `ss_included` `no`).
    - `Other`: **what the active space did to the answer.** A separate
      column from the one above — do not fold them together. This is where
      the *methodological* finding goes: how the choice of active space,

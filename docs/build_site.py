@@ -50,6 +50,8 @@ def main():
         # deriving them here only if that column is absent, so this script
         # still works against a pre-36-column CSV.
         metal = row.get("metal_center", "")
+        # "none" was emptied database-wide on 2026-08-20; the guard is kept so
+        # the script still works against an older CSV.
         metals = sorted(elements_in(metal)) if metal.lower() != "none" else []
         row["_metals"] = metals
         if "element" in fields:

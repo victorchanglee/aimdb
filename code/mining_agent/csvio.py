@@ -39,15 +39,19 @@ def classify_correction(method):
     """Derive `correlation_correction` from a `method` string.
 
     Returns the name(s) of the dynamic-correlation correction(s) applied
-    (e.g. "NEVPT2", "CASPT2; MRCI"), or "none" for a variational
-    CASSCF/RASSCF/DMRG-only result. This is a restatement of the already-%
-    extracted `method` field; an extractor may override it per row.
+    (e.g. "NEVPT2", "CASPT2; MRCI"), or "" when none is detected. This is a
+    restatement of the already-extracted `method` field; an extractor may
+    override it per row.
+
+    Empty rather than "none" since 2026-08-20: only stated values are
+    recorded, and a variational CASSCF/RASSCF/DMRG-only result is evident
+    from `method`.
     """
     m = (method or "").upper()
     hits = [name for name, pat in _CORRECTION_DETECTORS if re.search(pat, m)]
     if not hits and re.search(r"PT2", m):   # generic +PT2 (e.g. ASCI+PT2)
         hits = ["PT2"]
-    return "; ".join(dict.fromkeys(hits)) if hits else "none"
+    return "; ".join(dict.fromkeys(hits)) if hits else ""
 
 
 def ensure_header():
