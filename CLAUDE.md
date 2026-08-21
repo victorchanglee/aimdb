@@ -330,7 +330,7 @@ PDFs that were added by hand and aren't in the index).
      column from the one above — do not fold them together. This is where
      the *methodological* finding goes: how the choice of active space,
      or of the correlation treatment on top of it, changed the result.
-     67% of rows carry one, and it is the column a consumer choosing a
+     86% of rows carry one, and it is the column a consumer choosing a
      space actually reads. Good entries look like:
      - "Cu 3d double-shell effect shifts CASPT2 Delta_EST by >10 kcal/mol
        between (8in6) and (16in15) reference"
@@ -350,6 +350,31 @@ PDFs that were added by hand and aren't in the index).
      paper whose "(5,5)" label counts orbitals per irreducible
      representation rather than (nel,norb). Leave it empty only when the
      paper genuinely offers no such finding.
+
+     **What `Other` is not for.** Not a paper-level summary of what the
+     study found — that is `electronic_structure_description`. Not a
+     restatement of a value another column already holds: naming the row's
+     own space is fine when the sentence needs it ("the (8,7) space alone
+     places this diradical too high"), but a field that only repeats
+     `basis_set`, `software` or `(nel,norb)` adds nothing. And never a
+     copy of another field's text.
+
+     **An empty `Other` is a better answer than a filled one that dodges
+     the question.** A paper-level takeaway sitting in this column does not
+     read as a gap, so nobody comes back to it, and the finding the column
+     exists for is silently lost. Audit of 2026-08-21: 434 rows carried
+     `Other` values of the form "Paper-level takeaway beyond the
+     active-space specification: <verbatim copy of
+     electronic_structure_description>". On 376 of them the field said
+     nothing about the active space at all. If the paper offers no
+     active-space finding, leave the cell empty and say why in `notes`.
+
+     **One prose field, one job.** Do not open several fields with the same
+     bracketed identifier tag. 83 rows begin `Other`, `notes`,
+     `electronic_structure_description` and `active_space_protocol` with
+     the same `[CAS(32,34); Fe(II) porphyrin - ...]` prefix, which restates
+     `active_space_nel`/`norb` and `compound_name` four times over. The
+     row is already identified by `entry_id`.
    - One row per compound, not per table — condense.
    Then `status=extracted` (or `extracted_partial` if key fields were
    missing but the row is still useful).
