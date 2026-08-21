@@ -375,6 +375,37 @@ PDFs that were added by hand and aren't in the index).
      the same `[CAS(32,34); Fe(II) porphyrin - ...]` prefix, which restates
      `active_space_nel`/`norb` and `compound_name` four times over. The
      row is already identified by `entry_id`.
+
+     **Length is not the defect; restatement is.** The 2026-08-21 audit of
+     the 1,210 rows whose `Other` runs past 2,500 characters found 96% of
+     them genuinely about the active space, with no repeated sentences and a
+     *lower* numeric density than shorter rows — long because the finding
+     was long, which is fine. Do not trim a row for its size alone. Two
+     habits inside a long field are the real problem, and both are
+     mechanical:
+
+     - Opening every pipe-separated segment with the row's own
+       `compound_name`. 309 rows did this across 2,702 segments — some
+       65,000 characters restating a column the row already holds, one row
+       naming its compound 112 times in a single cell. A segment naming a
+       *different* species is data, not restatement: leave it.
+     - Repeating a paper-level sentence inside every segment. 46 rows did;
+       one restated its trajectory-ensemble setup 33 times, once per
+       stationary point, so 8,820 characters said what 1,677 say now. Write
+       such a statement once, as the field's last segment.
+
+     `code/tools/tools_trim_restated_name.py` and
+     `tools_hoist_repeated_sentence.py` fix these two and nothing else. They
+     removed ~98,000 characters on 2026-08-21 without touching a non-prose
+     column or emptying a field, because they only ever delete a second copy
+     of text the row already contains — they reword nothing, and where the
+     redundancy would be a judgment call they leave it alone.
+
+     What they deliberately do not touch: 572 segments in these rows
+     describe a related species that has no row of its own — reaction-path
+     stationary points, other members of a benchmark set. That is extra
+     data, not duplication. Splitting it into rows is the fix if you have
+     the per-compound values; deleting it is not.
    - One row per compound, not per table — condense.
    Then `status=extracted` (or `extracted_partial` if key fields were
    missing but the row is still useful).
