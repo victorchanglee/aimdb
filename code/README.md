@@ -38,7 +38,7 @@ from anywhere else. `tools/_bootstrap.py` is the one non-tool in there: it puts
 
 ## Writing to the database
 
-Only these six touch `database/aimdb.csv`, and each refuses to act without
+Only these seven touch `database/aimdb.csv`, and each refuses to act without
 evidence or without preserving what it replaces. The last two delete text, so
 they are held to a stricter rule: they only ever remove a second copy of
 something the row still says elsewhere, they reword nothing, and both run
@@ -51,6 +51,7 @@ something the row still says elsewhere, they reword nothing, and both run
 | `tools/tools_stampdoi.py` | stamps `reference_doi` into row JSONs from the index, so a DOI is never typed from memory. |
 | `tools/tools_trim_restated_name.py` | removes the row's own `compound_name` where it opens a prose segment. Keeps any qualifier after the name, and never touches a segment naming a different species. |
 | `tools/tools_strip_llm_narration.py` | removes the mining model's account of its own reading, and records of past bulk edits, from `notes`. Re-appends any MD5 or DOI found inside a deleted sentence, and keeps contribution provenance and the QUEST export rule. |
+| `tools/tools_dedupe_within_head.py` | where several segments open with the same head, says a clause common to all of them once. Requires the clause in every segment of the group, so a clause telling those segments apart is never collapsed. |
 | `tools/tools_hoist_repeated_sentence.py` | moves a sentence repeated in every segment of a field to a single copy at the end. Requires three recurrences; splits on periods only, so a semicolon-joined clause is never orphaned. |
 
 ## Audit and derived files
