@@ -406,6 +406,23 @@ PDFs that were added by hand and aren't in the index).
      stationary points, other members of a benchmark set. That is extra
      data, not duplication. Splitting it into rows is the fix if you have
      the per-compound values; deleting it is not.
+   - `notes`: **what a reader needs in order to trust the row** — a caveat
+     the authors give, a value that is arithmetic rather than quoted, a field
+     left empty because the paper never states it, a source checksum, a data
+     DOI, or provenance that is not obvious from the other columns (a row
+     contributed by an outside pull request, say).
+
+     **Never narrate the extraction.** "GPT-5.6 comprehensively read all 17
+     pages of the complete local article, including methods,
+     active-space/system definitions, results, tables/figures, and
+     conclusions" is not a fact about the chemistry, and neither is a record
+     of a past bulk edit — `logs/extractions.csv` already holds those, with
+     a timestamp. Which model did the extraction is `mining_model`; that the
+     row came from mining at all is `entry_type`. The audit of 2026-08-21
+     removed 1,024,000 characters of this from 3,377 rows, a fifth of the
+     whole column, and left 96 rows with an empty `notes` because narration
+     was all they had ever contained. An empty `notes` is the honest result.
+     `code/tools/tools_strip_llm_narration.py` does this and is re-runnable.
    - One row per compound, not per table — condense.
    Then `status=extracted` (or `extracted_partial` if key fields were
    missing but the row is still useful).
