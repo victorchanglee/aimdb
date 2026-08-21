@@ -38,7 +38,7 @@ from anywhere else. `tools/_bootstrap.py` is the one non-tool in there: it puts
 
 ## Writing to the database
 
-Only these eight touch `database/aimdb.csv`, and each refuses to act without
+Only these nine touch `database/aimdb.csv`, and each refuses to act without
 evidence or without preserving what it replaces. The last two delete text, so
 they are held to a stricter rule: they only ever remove a second copy of
 something the row still says elsewhere, they reword nothing, and both run
@@ -47,6 +47,7 @@ something the row still says elsewhere, they reword nothing, and both run
 | tool | what it does |
 | --- | --- |
 | `tools/tools_fill_gaps.py` | applies reviewed gap-fills. Refuses to overwrite a non-empty cell (unless `--allow-replace`) and refuses any fill without a quoted sentence. Logs every edit. |
+| `tools/tools_resolve_duplicate_papers.py` | resolves a paper mined twice, once from its preprint and once from the journal. Keeps whichever key has more rows (journal wins a tie), quarantines the loser's, marks its index record `not_usable`, and puts the alternate DOI in the survivor's `notes`. Acts only when the survivor already covers every `(nel,norb)` the loser holds. |
 | `tools/tools_strip_rows.py` | removes rows whose `compound_name` names no compound, quarantining each removed row verbatim to `logs/removed_rows.csv` first. |
 | `tools/tools_stampdoi.py` | stamps `reference_doi` into row JSONs from the index, so a DOI is never typed from memory. |
 | `tools/tools_trim_restated_name.py` | removes the row's own `compound_name` where it opens a prose segment. Keeps any qualifier after the name, and never touches a segment naming a different species. |

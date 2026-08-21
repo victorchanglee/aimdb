@@ -459,6 +459,36 @@ never trusted blindly**:
   stays `human`, `mining_model` empty), then mark the contribution row
   reviewed. Contributions are **never auto-merged**.
 
+## Preprint and journal versions are one paper
+
+A paper mined from its preprint and again from the published version gets two
+`entry_id` keys and two DOIs, so neither DOI dedup nor a hash catches it. Match
+on the **whole** normalized title — a prefix pulls in series papers sharing a
+long stem ("...NEVPT2 I / II / III") and every such false positive disappears
+at full length. Then read the DOI: `10.26434` (chemRxiv), `10.48550` (arXiv)
+and `10.21203` (Research Square) are preprints, anything else the journal.
+
+**This recurs.** 14 pairs were resolved on 2026-07-30 and there were 29 by
+2026-08-21, because each intake pass can reintroduce it. Run
+`code/tools/tools_resolve_duplicate_papers.py` after every intake.
+
+The survivor is whichever key carries more rows — the preprint was often mined
+more thoroughly than the published version — and the journal DOI wins a tie.
+**Only resolve a pair when the survivor already covers every `(nel,norb)` the
+loser holds.** Where it does not, the second copy is not a duplicate but a
+different reading of the same paper, and deleting it loses data: of the 29
+pairs, 7 were held back, one because the published version reported six
+molecules (AlCH2, CPP, CCO, CNN, both cyanomethanimine isomers) that the
+preprint pass never extracted. Those need merging by hand, not deletion.
+
+A second mechanism produces the same damage invisibly: a paper that already has
+rows being **re-mined from a hand-supplied PDF**. It writes under the same key
+and DOI, so no title or DOI check can see it — look for `read-supplied-file`
+after an `add-row` for the same key in `logs/extractions.csv`. Ten papers were
+mined twice this way on 2026-08-06/07, and the second pass read a *different
+document*: `W4253843485`'s rows claim (64,64) and (60,60), `W4205703165-d`
+claims (54,36), and none of those appear in the stored `text/<key>.txt`.
+
 ## Things to never do
 
 - Never fabricate or infer a value the paper doesn't state — empty cell wins.
