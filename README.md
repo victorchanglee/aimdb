@@ -1,4 +1,4 @@
-[![GitHub release](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/victorchanglee/SpinVibe/releases)
+[![GitHub release](https://img.shields.io/badge/version-1.1-blue)](https://github.com/victorchanglee/SpinVibe/releases)
 [![Website](https://img.shields.io/badge/website-AIMdb-blue)](https://victorchanglee.github.io/aimdb/)
 
 [![DOI](https://img.shields.io/badge/DOI-10.26434%2Fchemrxiv.15007136-blue)](https://doi.org/10.26434/chemrxiv.15007136/v1)
