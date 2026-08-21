@@ -47,6 +47,7 @@ something the row still says elsewhere, they reword nothing, and both run
 | tool | what it does |
 | --- | --- |
 | `tools/tools_fill_gaps.py` | applies reviewed gap-fills. Refuses to overwrite a non-empty cell (unless `--allow-replace`) and refuses any fill without a quoted sentence. Logs every edit. |
+| `tools/tools_repoint_duplicate_text.py` | after a duplicate is resolved, gives the surviving key the local text sitting under the discarded one. Prefixes the copy with a banner naming the key and DOI it came from, because preprint and published text are not the same document. Touches no row. |
 | `tools/tools_resolve_duplicate_papers.py` | resolves a paper mined twice, once from its preprint and once from the journal. Keeps whichever key has more rows (journal wins a tie), quarantines the loser's, marks its index record `not_usable`, and puts the alternate DOI in the survivor's `notes`. Acts only when the survivor already covers every `(nel,norb)` the loser holds. |
 | `tools/tools_strip_rows.py` | removes rows whose `compound_name` names no compound, quarantining each removed row verbatim to `logs/removed_rows.csv` first. |
 | `tools/tools_stampdoi.py` | stamps `reference_doi` into row JSONs from the index, so a DOI is never typed from memory. |

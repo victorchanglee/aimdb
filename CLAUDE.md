@@ -472,6 +472,15 @@ and `10.21203` (Research Square) are preprints, anything else the journal.
 2026-08-21, because each intake pass can reintroduce it. Run
 `code/tools/tools_resolve_duplicate_papers.py` after every intake.
 
+**Row count says nothing about which copy was fetched.** After the 2026-08-21
+pass, 21 of the 49 removed rows had local text while their survivor had none —
+the discarded key was the readable one. Nothing is deleted, since `not_usable`
+is only an index status, but a later audit checking a surviving row finds no
+source and no reason to look under the twin. Run
+`code/tools/tools_repoint_duplicate_text.py` after resolving: it copies the
+text across and banners it, since a preprint and a published article are not
+the same document.
+
 The survivor is whichever key carries more rows — the preprint was often mined
 more thoroughly than the published version — and the journal DOI wins a tie.
 **Only resolve a pair when the survivor already covers every `(nel,norb)` the
