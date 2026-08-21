@@ -69,16 +69,37 @@ def main(argv=None):
 
     stamp = _dt.datetime.now(_dt.timezone.utc).isoformat(timespec="seconds")
 
-    # quarantine: schema of aimdb.csv plus why and when it left
+    # Quarantine: the schema of aimdb.csv plus why and when the row left.
+    # aimdb.csv gains columns over time (`element` was added 2026-08-20), so an
+    # existing quarantine file can have a narrower header than the rows we are
+    # about to append. Appending regardless would write more values than the
+    # header has columns and silently shift every field in every new row. When
+    # the headers disagree, rewrite the file under the union instead.
     qfields = fieldnames + ["removed_reason", "removed_at"]
-    new_q = not QUARANTINE.exists()
-    with QUARANTINE.open("a", newline="", encoding="utf-8") as fh:
-        writer = csv.DictWriter(fh, fieldnames=qfields)
-        if new_q:
+    existing = []
+    if QUARANTINE.exists():
+        with QUARANTINE.open(newline="", encoding="utf-8") as fh:
+            reader = csv.DictReader(fh)
+            old_fields = reader.fieldnames or []
+            existing = list(reader)
+        if old_fields != qfields:
+            qfields = old_fields + [c for c in qfields if c not in old_fields]
+            print(f"  quarantine header differs from aimdb.csv; rewriting "
+                  f"{QUARANTINE.name} under {len(qfields)} columns "
+                  f"(added: {[c for c in qfields if c not in old_fields] or 'none'})",
+                  file=sys.stderr)
+        else:
+            existing = None  # header matches, plain append is safe
+
+    rows_out = [{**r, "removed_reason": wanted[r["entry_id"]], "removed_at": stamp}
+                for r in removed]
+    mode = "a" if existing is None else "w"
+    with QUARANTINE.open(mode, newline="", encoding="utf-8") as fh:
+        writer = csv.DictWriter(fh, fieldnames=qfields, restval="")
+        if mode == "w":
             writer.writeheader()
-        for r in removed:
-            writer.writerow({**r, "removed_reason": wanted[r["entry_id"]],
-                             "removed_at": stamp})
+            writer.writerows(existing)
+        writer.writerows(rows_out)
 
     with LOG.open("a", newline="", encoding="utf-8") as fh:
         writer = csv.writer(fh)
