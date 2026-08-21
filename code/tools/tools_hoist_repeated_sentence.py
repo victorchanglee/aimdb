@@ -31,7 +31,7 @@ LOG = ROOT / "logs" / "extractions.csv"
 
 FIELDS = ("Other", "electronic_structure_description")
 SEP = " | "
-MIN_SEGMENTS = 3   # a sentence must recur in this many segments to be boilerplate
+MIN_SEGMENTS = 3   # fields with fewer segments are left alone entirely
 MIN_CHARS = 45     # shorter fragments repeat innocently
 
 
@@ -73,7 +73,14 @@ def hoist_field(value):
         for sentence in set(_sentences(body)):
             if len(sentence) >= MIN_CHARS:
                 counts[sentence] += 1
-    repeated = {s for s, n in counts.items() if n >= MIN_SEGMENTS}
+    # Universal only. A sentence in *some* segments discriminates between them,
+    # and hoisting it to the end destroys which one it belonged to: an NO3 row
+    # had "single-point at CASSCF geometry; single-state reference" on four of
+    # its cases and a state-averaged variant on four others, and once both sat
+    # at the end, eight cases were bare labels with no way to tell them apart.
+    # A sentence that appears in every segment cannot lose an association,
+    # because it belongs to all of them.
+    repeated = {s for s, n in counts.items() if n == len(segments)}
     if not repeated:
         return value, 0, []
 

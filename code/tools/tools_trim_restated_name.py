@@ -41,7 +41,7 @@ FIELDS = ("Other", "electronic_structure_description")
 SEP = " | "
 # Separators that may sit between the restated name and whatever qualifies it.
 TRIM = " ,;:-–—()[]"
-MIN_NAME = 4  # shorter names match too much to be safe
+MIN_NAME = 3  # NO3, GeH, CdF: shorter than this matches too much to be safe
 
 
 def _norm(s):
