@@ -1,0 +1,6 @@
+4
+Exact source MP2/aug-cc-pVQZ(-PP) geometry for CuF side-on dihydrogen complex, F-Cu...H2; CASSCF/CASPT2 single points used this MP2 geometry; DOI 10.1039/c6cp00046k
+Cu    -0.311181    -0.000023    -0.000009
+F      1.392322     0.000031     0.000013
+H     -1.753229     0.418378     0.000071
+H     -1.753420    -0.417994     0.000071

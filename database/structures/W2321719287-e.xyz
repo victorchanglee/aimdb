@@ -1,0 +1,6 @@
+4
+Exact source MP2/aug-cc-pVQZ(-PP) geometry for AuF side-on dihydrogen complex, F-Au...H2; CASSCF/CASPT2 single points used this MP2 geometry; DOI 10.1039/c6cp00046k
+Au     0.155783     0.000000     0.000006
+F     -1.737230     0.000001    -0.000068
+H      1.664108    -0.477565     0.000061
+H      1.664104     0.477577     0.000070

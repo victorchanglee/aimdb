@@ -1,0 +1,5 @@
+3
+H2O experimental geometry used for the article's large-basis benchmark; rOH=1.809 bohr and angle HOH=104.5 degrees; canonical Cartesian embedding derived exactly from those complete source internal coordinates
+O  0.0000000000  0.0000000000  0.0000000000
+H  0.7569125601  0.0000000000  0.5860643218
+H -0.7569125601  0.0000000000  0.5860643218

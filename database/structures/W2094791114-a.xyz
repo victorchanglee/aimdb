@@ -1,0 +1,8 @@
+6
+MP2/6-31G* valence-benchmark geometry adopted by Bostrom et al. (2010) from the cited Schreiber et al. protocol
+H   0.000000  0.923274  1.238289
+H   0.000000 -0.923274  1.238289
+H   0.000000  0.923274 -1.238289
+H   0.000000 -0.923274 -1.238289
+C   0.000000  0.000000  0.668188
+C   0.000000  0.000000 -0.668188
