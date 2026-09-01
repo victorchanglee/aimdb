@@ -47,7 +47,7 @@ SUBSTANTIVE_FIELDS = (
     "multiplicities_studied", "nroots_per_mult", "ground_state_mult",
     "electronic_structure_description", "Other", "correlation_correction",
 )
-VALID_SYSTEM_CLASSES = {"atom", "molecule", "solid-state"}
+VALID_SYSTEM_CLASSES = {"atom", "molecule", "cluster-model", "solid-state"}
 VALID_ENTRY_TYPES = {"llm_mining", "llm_reproduced", "human"}
 VALID_OA = {"yes", "no", "unknown"}
 AUDIT_FIELDS = (

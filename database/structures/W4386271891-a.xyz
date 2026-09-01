@@ -1,0 +1,10 @@
+8
+VERBATIM DFT input geometry for the CASPT2 reaction PES: ESI 3EC (ground-triplet reactant/encounter complex); uPBE0/aug-cc-pVTZ
+C       2.274453      -0.692350       0.000111
+H       1.598281      -1.545558       0.000201
+H       2.938063      -0.729745       0.871328
+H       2.938133      -0.729994      -0.871041
+C       1.572509       0.596297      -0.000124
+H       2.180354       1.510709      -0.000056
+O       0.354619       0.748727      -0.000112
+Co     -1.317539      -0.145145       0.000020
