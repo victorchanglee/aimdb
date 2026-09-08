@@ -352,6 +352,7 @@ C-refetch,W3211972474,10.1021/acs.jctc.1c00915,Dipole Moment Calculations Using 
 C-refetch,W2069024422,10.1039/fs9841900097,Current status of the multiconfiguration–configuration interaction (MC–CI) method as applied to molecules containing transition-metal atoms,extracted,6,6,24,0,0,0,6,6,gpt-5.6,no,no
 C-refetch,W2100352694,10.1039/c3ra47088a,f-Orbital covalency in the actinocenes (An = Th–Cm): multiconfigurational studies and topological analysis,extracted,7,7,21,0,0,0,7,0,claude-opus-5,no,no
 C-refetch,W4366996515,10.1063/5.0143793,Local N-electron valence state perturbation theory using pair-natural orbitals based on localized virtual molecular orbitals,extracted,7,7,21,0,0,0,7,0,gpt-5.6,no,no
+C-refetch,W2137682360,10.1080/00268979100101041,"Correlated studies of electric properties of ionic molecules: alkali and alkaline-earth hydrides, halides and chalcogenides",extracted,20,20,20,0,0,0,0,20,claude-opus-5,no,no
 C-refetch,W4386306375,10.1021/acs.jpca.3c04254,Unraveling the Spin-State Energetics of FeN<sub>4</sub> Complexes with Ab Initio Methods,extracted_partial,19,19,19,0,0,0,0,19,claude-opus-5,no,no
 C-refetch,W2599194239,10.1016/j.ccr.2017.03.018,Covalency and chemical bonding in transition metal complexes: An ab initio based ligand field perspective,extracted_partial,6,6,18,0,0,0,6,0,claude-opus-5,no,no
 C-refetch,W4392051448,10.26434/chemrxiv-2024-7zqx1,Quasi-degenerate extension of local N-electron valence state perturbation theory with pair-natural orbital method based on localized virtual molecular orbitals,extracted,6,6,18,0,0,0,6,0,gpt-5.6,no,no
@@ -426,9 +427,11 @@ C-refetch,W7168174609,10.2139/ssrn.7094198,Triplet-State Formation in Thio- and 
 C-refetch,W2008880590,10.1007/978-94-011-0193-6_8,Theoretical Studies of the Electronic Spectra of Organic Molecules,extracted_partial,4,4,7,0,0,0,1,4,claude-opus-5,no,no
 C-refetch,W2794279393,10.1021/acs.jpclett.8b00684,Inclusion of Machine Learning Kernel Ridge Regression Potential Energy Surfaces in On-the-Fly Nonadiabatic Molecular Dynamics Simulation,extracted_partial,1,1,7,0,0,1,1,0,claude-opus-4-8,no,no
 C-refetch,W1995092221,10.1080/00268970701604689,A BSSE-corrected CASSCF/NEVPT2 procedure. An application to weakly bonded OH..<b><i>π</i></b>heterodimer complexes,extracted_partial,2,1,7,0,0,1,1,0,claude-opus-5,no,no
+C-refetch,W2046506151,10.1103/PhysRevA.64.042502,Spin-orbit multireference multistate perturbation theory,extracted,7,7,7,0,0,0,0,7,claude-opus-5,no,no
 C-refetch,W7164300004,10.2139/ssrn.6919244,Excited-State Nonradiative Decay in a ratiometric probe PBQ: Insights from Nonadiabatic Dynamics Simulations,extracted,1,1,7,0,0,1,1,0,gpt-5.6,no,no
 C-refetch,W4412572672,10.26434/chemrxiv-2025-cmd6s,Nonadiabatic Dynamics of the Molecular Tully Models with the Mixed-Reference Spin-Flip Time-Dependent Density Functional Theory,extracted,3,3,7,0,0,1,0,3,gpt-5.6,no,no
 C-refetch,W3162021482,10.1002/ejic.202100524,Synthesis and Characterization of a Cobalt(III) Corrole with an S‐Bound DMSO Ligand,extracted,2,2,6,0,0,0,2,0,claude-opus-5,no,no
+C-refetch,W2052442945,10.1002/qua.21042,Assessing the zero‐field splitting in magnetic molecules by wave function‐based methods,extracted,4,2,6,0,0,0,2,0,claude-opus-5,no,no
 C-refetch,W2070467709,10.1016/0166-1280(94)03888-r,"Calculations of the energies, geometries and vibrational frequencies of the ground and first excited singlet states of toluene and p-cresol",extracted_partial,2,2,6,0,0,0,2,0,claude-opus-5,no,no
 C-refetch,W2571181479,10.1016/j.comptc.2017.01.003,Modern valence-bond descriptions of polycyclic fused aromatic compounds involving cyclopropenyl rings,extracted,6,6,6,0,0,0,0,6,claude-opus-5,no,no
 C-refetch,W3177508800,10.1016/j.ica.2021.120524,"Synthesis of heptanuclear Ni4Dy3 coordination aggregate using tridentate ligand: X-ray structure, magnetism and theoretical studies",extracted,2,2,6,0,0,0,2,0,claude-opus-5,no,no
@@ -455,6 +458,7 @@ C-refetch,W2939577324,10.3390/inorganics7040052,Electronic Structure of Cubane-L
 C-refetch,W2998952615,10.3390/molecules25020277,"The Structural and Magnetic Properties of FeII and CoII Complexes with 2-(furan-2-yl)-5-pyridin-2-yl-1,3,4-oxadiazole",extracted,2,2,6,0,0,0,2,0,claude-opus-4-8,no,no
 C-refetch,W3201157272,10.3390/photochem1020018,Modelling Photoionisations in Tautomeric DNA Nucleobase Derivatives 7H-Adenine and 7H-Guanine: Ultrafast Decay and Photostability,extracted,2,2,6,0,0,0,2,0,claude-opus-5,no,no
 C-refetch,W7167974851,10.48550/arxiv.2607.08178,State-Averaged Density Matrix Embedding Theory for Local Excitations,extracted,2,2,6,0,0,0,2,0,claude-opus-5,no,no
+C-refetch,W2112600751,10.1002/jcc.20319,A multireference configuration interaction method based on the separated electron pair wave functions,extracted,5,5,5,0,0,0,0,5,claude-opus-5,no,no
 C-refetch,W1989964669,10.1007/bf01112867,A comparison of variational and non-variational internally contracted multiconfiguration-reference configuration interaction calculations,extracted,5,5,5,0,0,0,0,5,claude-opus-5,no,no
 C-refetch,W2058783139,10.1021/acs.jctc.5b00004,Conical Intersection Optimization Using Composed Steps Inside the ONIOM(QM:MM) Scheme: CASSCF:UFF Implementation with Microiterations,extracted,5,5,5,0,0,0,0,5,claude-opus-5,no,no
 C-refetch,W3025686545,10.1021/acs.jpclett.0c01094,Photoinduced Forward and Backward Pedalo-Type Motion of a Molecular Switch,extracted_partial,1,1,5,0,0,1,0,1,claude-opus-5,no,no
@@ -464,6 +468,7 @@ C-refetch,W2001206467,10.1021/jo960884y,Carbene Rearrangements Unsurpassed:  D
 C-refetch,W2314728672,10.1021/jp111303a,Ab Initio Study of Phosphorescent Emitters Based on Rare-Earth Complexes with Organic Ligands for Organic Electroluminescent Devices,extracted,5,5,5,0,0,0,0,5,claude-opus-5,no,no
 C-refetch,W2032918704,10.1021/jp807183m,"Performance of Block Correlated Coupled Cluster Method with the CASSCF Reference Function for the Prediction of Activation Barriers, Spectroscopic Constants in Diatomic Molecules, and Singlet−Triplet Gaps in Diradicals",extracted_partial,5,5,5,0,0,0,0,5,claude-opus-5,no,no
 C-refetch,W4386462810,10.1039/d3sc03993e,"A five-carbon unsaturated Criegee intermediate: synthesis, spectroscopic identification, and theoretical study of 3-penten-2-one oxide",extracted_partial,1,1,5,0,0,1,0,1,claude-opus-5,no,no
+C-refetch,W2027127591,10.1063/1.457003,"The singlet–triplet splittings in AsH+2, SbH+2, and BiH+2 and bond energies and ionization potentials of AsH2",extracted,5,5,5,0,0,0,0,5,claude-opus-5,no,no
 C-refetch,W1580318476,10.1063/1.4921956,An atomic orbital-based formulation of the complete active space self-consistent field method on graphical processing units,extracted,5,5,5,0,0,0,0,5,claude-opus-5,no,no
 C-refetch,W4308869741,10.3390/magnetochemistry8110153,Mononuclear Heptacoordinated 3d-Metal Helicates as a New Family of Single Ion Magnets,extracted,5,5,5,0,0,0,0,5,claude-opus-5,no,no
 C-refetch,W4211008483,10.3390/molecules27041200,Ultrafast Excited-State Decay Mechanisms of 6-Thioguanine Followed by Sub-20 fs UV Transient Absorption Spectroscopy,extracted_partial,1,1,5,0,0,1,0,1,claude-opus-5,no,no
@@ -556,6 +561,7 @@ C-refetch,W4319984943,10.3390/molecules28041668,Photodynamics of the Molecular R
 C-refetch,W4306176109,10.48550/arxiv.2210.05702,Strongly Contracted N-Electron Valence State Perturbation Theory Using Reduced Density Matrices from a Quantum Computer,extracted,3,1,4,0,0,1,0,0,claude-opus-5,no,no
 C-refetch,W7125610045,10.62684/uhjs3297,DFT Study on the Photoisomerization of Carvone,extracted_partial,1,1,4,0,0,0,1,1,claude-opus-4-8,no,no
 C-refetch,W2041299220,10.1002/(SICI)1097-461X(2000)77:6<961::AID-QUA4>3.0.CO;2-A,"Structure and spectroscopy of Cr3+ defects in KMgF3, KZnF3, and CsCaF3 crystals. An ab initio model potential embedded cluster study",fetch_failed,3,3,3,0,0,0,0,3,gpt-5-codex,no,no
+C-refetch,W2143973684,10.1002/anie.200805289,Pentagerma[1.1.1]propellane: A Combined Experimental and Quantum Chemical Study on the Nature of the Interactions between the Bridgehead Atoms,extracted,3,3,3,0,0,0,0,3,claude-opus-5,no,no
 C-refetch,W4416293277,10.1002/anie.202517979,Absolute Configuration Determination with Electronically Enhanced Vibrational Circular Dichroism,extracted,1,1,3,0,0,0,1,0,claude-opus-4-8,no,no
 C-refetch,W2606848775,10.1002/chem.201701058,Electronic g Tensors in U<sup>V</sup> Complexes–A Computational Study,extracted,1,1,3,0,0,0,1,0,claude-opus-4-8,no,no
 C-refetch,W3171941253,10.1002/chem.202101755,Janus Pyrrolopyrrole Aza‐dipyrrin: Hydrogen‐Bonded Assemblies and Slow Magnetic Relaxation of the Cobalt(II) Complex in the Solid State,extracted,1,1,3,0,0,0,1,0,claude-opus-4-8,no,no
@@ -564,6 +570,7 @@ C-refetch,W4324311281,10.1002/chem.202203449,Exchange Interactions and Magnetic 
 C-refetch,W2103604779,10.1002/cphc.200700540,Triplet‐State Aromaticity of 4<i>n</i>π‐Electron Monocycles: Analysis of Bifurcation in the π Contribution to the Electron Localization Function,extracted,3,3,3,0,0,0,0,3,claude-opus-5,no,no
 C-refetch,W3172993499,10.1002/ejic.202100465,The Quest for Optimal 3 d Orbital Splitting in Tetrahedral Cobalt Single‐Molecule Magnets Featuring Colossal Anisotropy and Hysteresis,extracted_partial,1,1,3,0,0,0,1,0,claude-opus-5,no,no
 C-refetch,W2059207928,10.1002/jcc.21892,Proton‐coupled electron transfer of the phenoxyl/phenol couple: Effect of Hartree‐Fock exchange on transition structures,extracted,1,1,3,0,0,0,1,0,claude-opus-5,no,no
+C-refetch,W2001349157,10.1002/jcc.23873,"State‐specific multireference perturbation theory with improved virtual orbitals: Taming the ground state of <scp>F</scp><sub>2</sub>, <scp>B</scp>e<sub>2,</sub> and <scp>N</scp><sub>2</sub>",extracted,3,3,3,0,0,0,0,3,claude-opus-5,no,no
 C-refetch,W2963701598,10.1002/jcc.25113,CERES: An<i>ab initio</i>code dedicated to the calculation of the electronic structure and magnetic properties of lanthanide complexes,extracted,1,1,3,0,0,0,1,0,claude-opus-5,no,no
 C-refetch,W2782686502,10.1002/jcc.25150,Spin density accuracy and distribution in azido Cu(II) complexes: A source function analysis,extracted_partial,1,1,3,0,0,0,1,0,claude-opus-5,no,no
 C-refetch,W4311205491,10.1002/jcc.27018,<scp>MoBioTools</scp> : A toolkit to setup quantum mechanics/molecular mechanics calculations,extracted_partial,1,1,3,0,0,0,1,0,claude-opus-4-8,no,no
@@ -574,6 +581,7 @@ C-refetch,W2898343233,10.1002/qua.25819,Multireference exciplex binding energies
 C-refetch,W3019275772,10.1002/qua.26254,Theoretical examination of covalency in berkelium(<scp>IV</scp>) carbonate complexes,extracted,1,1,3,0,0,0,1,0,claude-opus-4-8,no,no
 C-refetch,W3092159548,10.1002/qua.26454,"Chemical insights into the electronic structure of Fe( <scp>II</scp> ) porphyrin using <scp>FCIQMC</scp> , <scp>DMRG</scp> , and generalized active spaces",extracted,1,1,3,0,0,0,1,0,claude-opus-5,no,no
 C-refetch,W1994136125,10.1016/0009-2614(89)85347-3,The CASSCF state interaction method,extracted,3,3,3,0,0,0,0,3,claude-opus-5,no,no
+C-refetch,W2130111293,10.1016/1010-6030(95)04047-J,"Ab initio study of the potential energy functions relevant for hydrogen transfer in formamide, its dimer and its complex with water",extracted,3,3,3,0,0,0,0,3,claude-opus-5,no,no
 C-refetch,W2581052400,10.1016/j.optmat.2017.01.033,Site occupation and photoluminescence properties of Ce 3+ in Sr 4 Ca 4 La 2 (PO 4 ) 6 O 2 : Experiments and ab initio calculations,fetch_failed,1,1,3,0,0,0,1,0,gpt-5.6,no,no
 C-refetch,W4408388082,10.1016/j.tet.2025.134583,"The photochemical isomerization of 2-picoline N-oxide, 4,6-dimethylpyrimidine N-oxide and 2-methoxypyrimidine N-oxide. A DFT study",extracted_partial,3,3,3,0,0,0,0,3,claude-opus-5,no,no
 C-refetch,W4293493562,10.1021/acs.cgd.2c00674,"Ln<sup>III</sup> (Ln = La, Gd, and Dy) Benzimidazolium Tricarboxylate Coordination Polymers with Hydrogen Bonding Modulated Magnetic Relaxation",extracted_partial,1,1,3,0,0,0,1,0,claude-opus-5,no,no
@@ -640,6 +648,7 @@ C-refetch,W1994759132,10.1063/1.3442374,The low-lying states of the scandium dim
 C-refetch,W1989551593,10.1063/1.3456001,A tractable and accurate electronic structure method for static correlations: The perfect hextuples model,extracted,8,1,3,0,0,0,1,0,gpt-5.6,no,no
 C-refetch,W2079780924,10.1063/1.449649,"On 3<i>d</i> bonding in the transition metal trimers: The electronic structure of equilateral triangle Ca3, Sc3, Sc+3, and Ti+3",extracted_partial,1,1,3,0,0,0,1,0,claude-opus-4-8,no,no
 C-refetch,W3085402209,10.1063/5.0024134,A cautionary tale: Problems in the valence-CASSCF description of the ground state (X1Σ+) of BF,extracted,1,1,3,0,0,0,1,0,gpt-5.6,no,no
+C-refetch,W1991923002,10.1080/00268978400101031,On bonding in transition-metal helide ions,extracted,3,3,3,0,0,0,0,3,claude-opus-5,no,no
 C-refetch,W4394624704,10.1088/1742-6596/2734/1/012052,A Simulation of Hydrazine Molecule’s Potential Energy Surface using Variational Quantum Eigensolver Algorithm,extracted_partial,1,1,3,0,0,0,1,0,claude-opus-5,no,no
 C-refetch,W2021780541,10.1103/physrevlett.98.037601,Understanding Surface Photochemistry from First Principles: The Case of CO-NiO(100),candidate,1,1,3,0,0,0,1,0,gpt-5.6-sol xhigh,no,no
 C-refetch,W2215624575,10.18297/etd/782,Computational modelling of chemical reactions catalyzed by cobalamin (B12)-dependent enzymes : mechanistic insights.,extracted_partial,1,1,3,0,0,0,1,0,claude-opus-5,no,no
@@ -689,6 +698,7 @@ C-refetch,W2076301449,10.1021/jp809597m,Bonding Nature of Open-Lantern-type Dinu
 C-refetch,W1998052516,10.1021/jp9810062,"Theoretical Study of the Molecular Properties of Cerium Trihalides and Tetrahalides CeX<i><sub>n</sub></i> (<i>n </i>= 3, 4; X = F, Cl)",extracted,2,2,2,0,0,0,0,2,claude-opus-5,no,no
 C-refetch,W2033612513,10.1021/jp9835216,Ab Initio Quantum Chemical and Experimental (Shock Tube) Studies of the Pyrolysis Kinetics of Acetonitrile,extracted,2,2,2,0,0,0,0,2,claude-opus-5,no,no
 C-refetch,W2314032563,10.1021/om501142k,"Electronic Structure of N<sub>2</sub>P<sub>2</sub> Four-Membered Rings and the Effect of Their Ligand Coordination to M(CO)<sub>5</sub> (Cr, Mo, and W)",extracted,2,2,2,0,0,0,0,2,claude-opus-5,no,no
+C-refetch,W109683779,10.1023/A:1019100703879,Nonorthogonal weights of modern VB wavefunctions. Implementation and applications within CASVB,extracted,2,2,2,0,0,0,0,2,claude-opus-5,no,no
 C-refetch,W2581740502,10.1039/c6cp07563k,Ligand non-innocence and strong correlation in manganese superoxide dismutase mimics,extracted,2,2,2,0,0,0,0,2,gpt-5.6,no,no
 C-refetch,W1968578896,10.1063/1.464034,<i>Ab initio</i> model potential study of pressure effects on K2NaGaF6:Cr3+,extracted,2,2,2,0,0,0,0,2,gpt-5.6,no,no
 C-refetch,W2999956771,10.1063/1.5143747,Time-dependent optimized coupled-cluster method for multielectron dynamics. II. A coupled electron-pair approximation,extracted_partial,2,2,2,0,0,0,0,2,claude-opus-4-8,no,no
@@ -710,11 +720,17 @@ C-refetch,W2085771382,10.1002/qua.24250,Implementation of a variational code for
 C-refetch,W2075891430,10.1002/qua.560280822,Multireference determinant CI calculations and CASSCF calculations on the CH3-NO2 decomposition pathway of nitromethane,extracted,1,1,1,0,0,0,0,1,claude-opus-5,no,no
 C-refetch,W2047966729,10.1007/BF01025839,A CASSCF study of the singlet-singlet and triplet-triplet spectroscopy of naphthalene,extracted,1,1,1,0,0,0,0,1,claude-opus-5,no,no
 C-refetch,W2153804762,10.1007/s00214-007-0272-z,Potential energy functions for an intramolecular proton transfer reaction in the ground and excited state,extracted,1,1,1,0,0,0,0,1,claude-opus-4-8,no,no
+C-refetch,W2072568784,10.1016/0009-2614(90)85117-U,Ab initio study of the vibrational spectra of NO3,extracted,1,1,1,0,0,0,0,1,claude-opus-5,no,no
 C-refetch,W2060215639,10.1016/0009-2614(90)87291-X,Discontinuity of valence CASSCF wave functions around weakly avoided crossing between valence configurations,extracted,1,1,1,0,0,0,0,1,claude-opus-5,no,no
 C-refetch,W2067279759,10.1016/0009-2614(91)90381-i,A CASSCF description of the nπ* singlet and triplet electronic excited states of the trans-glyoxal molecule,extracted,1,1,1,0,0,0,0,1,claude-opus-5,no,no
 C-refetch,W2076198299,10.1016/0009-2614(92)85419-b,Towards an accurate molecular orbital theory for excited states: the benzene molecule,extracted,1,1,1,0,0,0,0,1,claude-opus-5,no,no
 C-refetch,W2115890974,10.1016/0009-2614(93)87155-v,Reply to comment on “A MRCI PS and CASSCF study of the ground state MgO dissociation energy”,extracted,1,1,1,0,0,0,0,1,claude-opus-5,no,no
+C-refetch,W4242655124,10.1016/0022-2852(87)90272-4,Relativistic quantum calculations of spectroscopic properties of Ge2,extracted,1,1,1,0,0,0,0,1,claude-opus-5,no,no
 C-refetch,W1972149408,10.1016/0301-0104(89)80157-0,Theoretical study of the CO2+ dication,extracted,1,1,1,0,0,0,0,1,claude-opus-5,no,no
+C-refetch,W1987907023,10.1016/0301-0104(90)85045-X,The effect of dynamical correlation on the valence wavefunction of molecules: Dressed complete active space self-consistent field calculations,extracted,2,1,1,0,0,0,0,1,claude-opus-5,no,no
+C-refetch,W2094074622,10.1016/0301-0104(91)89006-V,A theoretical study of the chemisorption of methane on a Ni(100) surface,extracted,1,1,1,0,0,0,0,1,claude-opus-5,no,no
+C-refetch,W1993659876,10.1016/0368-2048(86)85009-5,Multireference CI calculations of radiative transition probabilities between low lying quartet states of the C2+ ion,extracted,1,1,1,0,0,0,0,1,claude-opus-5,no,no
+C-refetch,W2138746210,10.1016/S0009-2614(98)00986-5,Theoretical study of the electronic ground state of iron(II) porphine,extracted,1,1,1,0,0,0,0,1,claude-opus-5,no,no
 C-refetch,W1979863034,10.1016/j.chemphys.2011.08.011,Transition energies and oscillator strength calculated for d–s symmetry-forbidden electronic transition for Cu+ impurities in sodium fluoride host lattice,fetch_failed,1,1,1,0,0,0,0,1,gpt-5.6,no,no
 C-refetch,W2029730115,10.1016/j.cplett.2009.10.042,Intensity of d–s symmetry-forbidden electronic transition for Cu+ impurity in sodium chloride,fetch_failed,1,1,1,0,0,0,0,1,gpt-5.6,no,no
 C-refetch,W2156819210,10.1016/j.cplett.2010.01.026,Comparison of ab initio molecular properties of EDO-TTF with the properties of the (EDO-TTF)2PF6 crystal,extracted,1,1,1,0,0,0,0,1,claude-opus-5,no,no
@@ -788,11 +804,15 @@ C-refetch,W2033344127,10.1063/1.442053,Bonding and backbonding in NiCO: A MCSCF 
 C-refetch,W1988181636,10.1063/1.448628,CASSCF-wave packet <i>a</i> <i>b</i> <i>i</i> <i>n</i> <i>i</i> <i>t</i> <i>i</i> <i>o</i> prediction of electronic and vibrational spectra: Application to the <i>A</i>(2Π) ← <i>X</i>(2Σ+) absorption of C2H at 3000 K,extracted,1,1,1,0,0,0,0,1,gpt-5.6,no,no
 C-refetch,W2093564433,10.1063/1.449206,CASSCF and CCI calculations of the vibrational band strengths of HCN,extracted,1,1,1,0,0,0,0,1,claude-opus-5,no,no
 C-refetch,W2013107215,10.1063/1.449818,Theoretical calculation of ozone vibrational infrared intensities,extracted,1,1,1,0,0,0,0,1,claude-opus-5,no,no
+C-refetch,W2089675462,10.1063/1.450344,Theoretical investigations of small multiply charged cations. I. SiH2+,extracted,1,1,1,0,0,0,0,1,claude-opus-5,no,no
+C-refetch,W2053034837,10.1063/1.451154,"Theoretical study of OH+: Potential curves, transition moments, and photodissociation cross sections",extracted,1,1,1,0,0,0,0,1,claude-opus-5,no,no
 C-refetch,W2083986062,10.1063/1.451431,A full CI treatment of the 1<i>A</i>1–3<i>B</i>1 separation in methylene,extracted,1,1,1,0,0,0,0,1,gpt-5.6,no,no
 C-refetch,W2028795335,10.1063/1.452235,A CASSCF-CCI study of the valence and lower excited states of the benzene molecule,extracted,1,1,1,0,0,0,0,1,claude-opus-5,no,no
 C-refetch,W2032158667,10.1063/1.452416,Theoretical <i>A</i> 1<i>A</i>″2–<i>X</i> 1<i>A</i>1 absorption and emission spectrum of ammonia,extracted,1,1,1,0,0,0,0,1,claude-opus-5,no,no
 C-refetch,W2060216219,10.1063/1.452535,Full CI benchmark calculations on CH3,extracted,1,1,1,0,0,0,0,1,gpt-5.6,no,no
 C-refetch,W2037556155,10.1063/1.454098,Theoretical studies of the potential surface for the F+H2→HF+H reaction,extracted,1,1,1,0,0,0,0,1,claude-opus-5,no,no
+C-refetch,W2080128452,10.1063/1.455264,The <i>A</i> 2Π–<i>X</i> 2Σ+ red and <i>B</i> 2Σ+–<i>X</i> 2Σ+ violet systems of the CN radical: Accurate multireference configuration interaction calculations of the radiative transition probabilities,extracted,1,1,1,0,0,0,0,1,claude-opus-5,no,no
+C-refetch,W2092943762,10.1063/1.455483,A theoretical study of the <i>A</i> 1Π←<i>X</i> 1Σ+ system of SiH+,extracted,1,1,1,0,0,0,0,1,claude-opus-5,no,no
 C-refetch,W2036816885,10.1063/1.469899,"Vibronic activity in <i>trans</i>,<i>trans</i>-1,3,5,7 octatetraene: The <i>S</i>0→<i>S</i>1 spectrum",extracted,1,1,1,0,0,0,0,1,claude-opus-4-8,no,no
 C-refetch,W2070272897,10.1063/1.471372,An accurate multireference configuration interaction calculation of the potential energy surface for the F+H2→HF+H reaction,extracted,1,1,1,0,0,0,0,1,claude-opus-5,no,no
 C-refetch,W2619410558,10.1063/1.4983813,Dissociation cross sections for N2 + N → 3N and O2 + O → 3O using the QCT method,extracted,1,1,1,0,0,0,0,1,claude-opus-5,no,no
@@ -802,6 +822,8 @@ C-refetch,W7105923768,10.1063/5.0294497,A novel probe of photochemical reaction 
 C-refetch,W7147045669,10.1063/5.0313670,"Excited-state-dependent chiral pathways in the photoisomerization of cis-4,4'-azopyridine",extracted_partial,1,1,1,0,0,0,0,1,claude-opus-5,no,no
 C-refetch,W7163639019,10.1063/5.0324882,Ionic modulation of the charge transfer transitions in host-guest complexes of carbon nanorings and fullerenes,extracted_partial,1,1,1,0,0,0,0,1,claude-opus-5,no,no
 C-refetch,W1969775463,10.1071/ch09563,Computational Photobiology and Beyond,extracted,1,1,1,0,0,0,0,1,gpt-5.6,no,no
+C-refetch,W2127347278,10.1080/00268978200100092,A theoretical study of NiH Optical spectrum and potential curves,extracted,1,1,1,0,0,0,0,1,claude-opus-5,no,no
+C-refetch,W2001180829,10.1086/161302,A theoretical investigation of the radiative properties of the CN red and violet systems,extracted,1,1,1,0,0,0,0,1,claude-opus-5,no,no
 C-refetch,W2000157121,10.1103/physrevlett.99.153001,"Multireference Quantum Monte Carlo Study of the<mml:math xmlns:mml=""http://www.w3.org/1998/Math/MathML"" display=""inline""><mml:msub><mml:mi>O</mml:mi><mml:mn>4</mml:mn></mml:msub></mml:math>Molecule",extracted,1,1,1,0,0,0,0,1,claude-opus-5,no,no
 C-refetch,W3121447074,10.20944/preprints201611.0077.v1,New Insights into the State Trapping of UV-Excited Thymine,extracted_partial,1,1,1,0,0,0,0,1,claude-opus-5,no,no
 C-refetch,W3138432165,10.21203/rs.3.rs-320873/v1,Nature of a Long Carbon–Carbon Bond Beyond 2.0 Å,extracted,1,1,1,0,0,0,0,1,claude-opus-4-8,no,no
