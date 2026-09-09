@@ -63419,3 +63419,1053 @@ timestamp,key,doi,action,result,reasoning
 2026-09-08T18:51:14Z,W41235033,10.1007/978-94-009-5474-8_2,mark,extracted,"Usable: nine transition metal dimers surveyed at CASSCF with CI; spaces given by orbital type rather than (nel,norb), Cr2 identified as the failure case."
 2026-09-08T18:51:14Z,W4239666621,10.1063/1.480553,mark,extracted,"Usable: trans-hexatriene S1-S2 vibronic coupling at CASSCF(6,6)/CASPT2 with block-restricted orbital rotations."
 2026-09-08T18:53:20Z,W2889337430,10.1039/c8cp03851a,mark,not_usable,"No CASSCF calculation of the paper's own: this is a TSH-GS surface-hopping study on azobenzene run at SF-TDDFT and TDDFT (GAMESS and Turbomole). Every SA2-CAS(6,6)/6-31G number it shows, including the Fig. 1C/D conical-intersection surfaces and the 810 fs lifetime, is quoted from previous work (ref. 46), so there is nothing here to mine that is not another paper's active space."
+2026-09-09T13:02:46Z,W1992737978,10.1063/1.4817965,fetch,fetched,"PDF supplied by hand in papers/pending as '074102_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:46Z,W1976647854,10.1016/0009-2614(92)85301-P,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-000926149285301P-main.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:46Z,W2142146002,10.1016/0009-2614(93)87123-K,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-000926149387123K-main.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:46Z,W2078897031,10.1016/0009-2614(95)00427-6,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-0009261495004276-main.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:46Z,W2069373756,10.1016/0009-2614(95)00570-T,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-000926149500570T-main.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:46Z,W2117323824,10.1016/0009-2614(95)00833-P,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-000926149500833P-main.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:46Z,W2038349616,10.1016/0009-2614(96)00183-2,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-0009261496001832-main.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:46Z,W2045141801,10.1016/0009-2614(96)00525-8,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-0009261496005258-main.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:47Z,W1968152379,10.1016/0022-2852(89)90244-0,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-0022285289902440-main.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:47Z,W2048301749,10.1016/0022-2852(90)90161-I,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-002228529090161I-main.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:47Z,W2012892074,10.1016/0166-1280(88)80275-6,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-0166128088802756-main.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:47Z,W2003364926,10.1016/0166-1280(88)80399-3,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-0166128088803993-main.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:47Z,W2034698327,10.1016/0301-0104(91)80002-Y,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-030101049180002Y-main.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:47Z,W2008249638,10.1016/0301-0104(94)00053-0,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-0301010494000530-main.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:47Z,W1997560332,10.1016/0301-0104(94)00356-F,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-030101049400356F-main.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:47Z,W2034426974,10.1016/0301-0104(94)00357-G,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-030101049400357G-main.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:47Z,W2082738588,10.1016/S0009-2614(00)00167-6,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261400001676-main.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:47Z,W4243420839,10.1016/S0009-2614(00)00284-0,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261400002840-main.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:47Z,W2000269280,10.1016/S0009-2614(00)00936-2,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261400009362-main.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:47Z,W2081058966,10.1016/S0009-2614(01)01002-8,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261401010028-main.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:47Z,W1970783164,10.1016/S0009-2614(01)01273-8,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261401012738-main.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:47Z,W1986777923,10.1016/S0009-2614(02)00537-7,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261402005377-main.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:47Z,W3148586001,10.1016/j.cplett.2021.138600,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261421002839-main.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:47Z,W2054632978,10.1016/S0009-2614(98)00072-4,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261498000724-main.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:47Z,W1982406560,10.1016/S0009-2614(98)00250-4,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261498002504-main.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:47Z,W2044841574,10.1016/S0009-2614(98)01371-2,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261498013712-main.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:47Z,W2021051581,10.1016/S0009-2614(99)00051-2,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261499000512-main.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:47Z,W2077424295,10.1016/S0009-2614(99)00180-3,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261499001803-main.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:47Z,W2063261166,10.1016/S0009-2614(99)00880-5,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261499008805-main.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:47Z,W2058080097,10.1016/S0039-6028(96)01595-6,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0039602896015956-main.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:47Z,W1996441949,10.1016/S0301-0104(02)00804-2,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0301010402008042-main.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:47Z,W2029265532,10.1016/j.chemphys.2007.11.009,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0301010407005423-main.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:47Z,W1974829704,10.1016/S0301-0104(96)00334-5,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0301010496003345-main.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:47Z,W1982524785,10.1016/S0301-0104(96)00363-1,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0301010496003631-main.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:47Z,W2078993648,10.1016/S0301-0104(97)00159-6,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0301010497001596-main.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:48Z,W2042465446,10.1016/S0301-0104(98)00213-4,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0301010498002134-main.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:48Z,W2157641203,10.1016/j.jphotochem.2007.04.015,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S1010603007002122-main.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:48Z,W2004572171,10.1016/j.cap.2005.04.023,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S1567173905000799-main.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:48Z,W2064977251,10.1063/1.1711597,fetch,fetched,"PDF supplied by hand in papers/pending as '10089_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:48Z,W2062302150,10.1063/1.1574315,fetch,fetched,"PDF supplied by hand in papers/pending as '10602_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:48Z,W1970285349,10.1063/1.481712,fetch,fetched,"PDF supplied by hand in papers/pending as '10703_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:48Z,W2015661663,10.1063/1.468919,fetch,fetched,"PDF supplied by hand in papers/pending as '1306_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:48Z,W1826398548,10.1063/1.4931471,fetch,fetched,"PDF supplied by hand in papers/pending as '134110_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:48Z,W1532315043,10.1063/1.3382912,fetch,fetched,"PDF supplied by hand in papers/pending as '154108_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:48Z,W2038729541,10.1063/1.4828739,fetch,fetched,"PDF supplied by hand in papers/pending as '174111_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:48Z,W2050145622,10.1063/1.479285,fetch,fetched,"PDF supplied by hand in papers/pending as '205_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:48Z,W1614069146,10.1063/1.1381577,fetch,fetched,"PDF supplied by hand in papers/pending as '2178_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:48Z,W1526637858,10.1063/1.481592,fetch,fetched,"PDF supplied by hand in papers/pending as '2227_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:48Z,W1997344097,10.1063/1.457895,fetch,fetched,"PDF supplied by hand in papers/pending as '3000_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:48Z,W1987622747,10.1063/1.472181,fetch,fetched,"PDF supplied by hand in papers/pending as '3132_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:48Z,W2033184258,10.1063/1.462973,fetch,fetched,"PDF supplied by hand in papers/pending as '3357_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:48Z,W1537024160,10.1063/1.473537,fetch,fetched,"PDF supplied by hand in papers/pending as '4877_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:48Z,W1536435220,10.1063/1.480544,fetch,fetched,"PDF supplied by hand in papers/pending as '527_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:48Z,W1996862864,10.1063/1.455550,fetch,fetched,"PDF supplied by hand in papers/pending as '5747_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:48Z,W2082825974,10.1063/1.464753,fetch,fetched,"PDF supplied by hand in papers/pending as '7098_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:48Z,W2019603693,10.1063/1.1358869,fetch,fetched,"PDF supplied by hand in papers/pending as '7450_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:48Z,W2049868029,10.1063/1.1361073,fetch,fetched,"PDF supplied by hand in papers/pending as '7518_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:48Z,W2084170801,10.1063/1.465668,fetch,fetched,"PDF supplied by hand in papers/pending as '7907_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:48Z,W2016729768,10.1063/1.1316010,fetch,fetched,"PDF supplied by hand in papers/pending as '7976_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:48Z,W1974188015,10.1063/1.1578476,fetch,fetched,"PDF supplied by hand in papers/pending as '814_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:48Z,W2024016791,10.1063/1.479371,fetch,fetched,"PDF supplied by hand in papers/pending as '849_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:48Z,W2069071385,10.1063/1.464443,fetch,fetched,"PDF supplied by hand in papers/pending as '8859_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:49Z,W2025266004,10.1063/1.472730,fetch,fetched,"PDF supplied by hand in papers/pending as '9007_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:49Z,W111207664,10.1007/978-1-4020-8184-2_5,fetch,fetched,"PDF supplied by hand in papers/pending as '978-1-4020-8184-2_5.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:49Z,W2117330735,10.1080/00268978300101461,fetch,fetched,"PDF supplied by hand in papers/pending as 'A potential energy surface for the ground state of CH2.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:49Z,W2002061350,10.1080/00268979600100601,fetch,fetched,"PDF supplied by hand in papers/pending as 'Accurate ab initio prediction of the equilibrium geometry of HCO and of rovibration energy levels of DCO .pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:49Z,W2168615313,10.1002/anie.201405303,fetch,fetched,"PDF supplied by hand in papers/pending as 'Angew Chem Int Ed - 2014 - Zhang - Concerted Asynchronous Hula‐Twist Photoisomerization in the S65T H148D Mutant of Green.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:49Z,W4232913731,10.1002/ange.200805289,fetch,fetched,"PDF supplied by hand in papers/pending as 'Angewandte Chemie - 2009 - Nied - Pentagerma 1 1 1 propellane A Combined Experimental and Quantum Chemical Study on the.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:49Z,W2079327395,10.1007/BF00527715,fetch,fetched,"PDF supplied by hand in papers/pending as 'BF00527715.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:49Z,W2039084080,10.1007/BF00528018,fetch,fetched,"PDF supplied by hand in papers/pending as 'BF00528018.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:49Z,W1968557292,10.1002/cphc.201000968,fetch,fetched,"PDF supplied by hand in papers/pending as 'ChemPhysChem - 2011 - Cui - Mechanistic Photodissociation of Glycolaldehyde Insights from Ab Initio and RRKM Calculations.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:49Z,W2098807144,10.1002/cphc.201402355,fetch,fetched,"PDF supplied by hand in papers/pending as 'ChemPhysChem - 2014 - Davari - The Lineshape of the Electronic Spectrum of the Green Fluorescent Protein Chromophore Part.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:49Z,W2131784752,10.1002/chem.201102702,fetch,fetched,"PDF supplied by hand in papers/pending as 'Chemistry A European J - 2011 - Han - Energy Transfer Tunes Phosphorescent Color of Single‐Dopant White OLEDs.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:49Z,W2545672696,10.1002/chem.201604340,fetch,fetched,"PDF supplied by hand in papers/pending as 'Chemistry A European J - 2016 - Klementyeva - The First Lanthanide Complexes with a Redox‐Active Sulfur Diimide Ligand .pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:49Z,W2098065001,10.1002/qua.1326,fetch,fetched,"PDF supplied by hand in papers/pending as 'Int J of Quantum Chemistry - 2001 - Arenas - Nitrenes as intermediates in the thermal decomposition of aliphatic azides.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:49Z,W2038470370,10.1002/qua.990,fetch,fetched,"PDF supplied by hand in papers/pending as 'Int J of Quantum Chemistry - 2002 - Jensen - Benzocyclobutadiene The question of structures magnetic shieldings and.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:49Z,W2062517283,10.1002/qua.20910,fetch,fetched,"PDF supplied by hand in papers/pending as 'Int J of Quantum Chemistry - 2006 - Nemukhin - Modeling dioxygen binding to the non‐heme iron‐containing enzymes.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:49Z,W2150697514,10.1002/qua.21201,fetch,fetched,"PDF supplied by hand in papers/pending as 'Int J of Quantum Chemistry - 2006 - Shoji - Theory of chemical bonds in metalloenzymes V Hybrid‐DFT studies of the.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:49Z,W2066612990,10.1002/ijch.199300037,fetch,fetched,"PDF supplied by hand in papers/pending as 'Israel Journal of Chemistry - 1993 - Musaev - Ab Initio Molecular Orbital Study of Electronic and Geometrical Structures of.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:49Z,W2147652433,10.1002/jcc.10299,fetch,fetched,"PDF supplied by hand in papers/pending as 'J Comput Chem - 2003 - Peiró‐García - Ab initio study of the mechanism of the atmospheric reaction NO2 O3 NO3 O2.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:49Z,W2016204572,10.1002/jcc.23458,fetch,fetched,"PDF supplied by hand in papers/pending as 'J Comput Chem - 2013 - Viegas - Coupled‐cluster reaction barriers of An application of the coupled‐cluster Kohn Sham.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:49Z,W2040712927,10.1080/00268976.2015.1012128,fetch,fetched,"PDF supplied by hand in papers/pending as 'Molecular g-tensors from analytical response theory and quasi-degenerate perturbation theory in the framework of complete active space self-consistent.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:49Z,W1981061574,10.1103/PhysRevA.38.6098,fetch,fetched,"PDF supplied by hand in papers/pending as 'PhysRevA.38.6098.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:49Z,W2031306424,10.1080/00268976.2013.771800,fetch,fetched,"PDF supplied by hand in papers/pending as 'Role of non-Condon vibronic coupling and conformation change on two-photon absorption spectra of green fluorescent protein.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:49Z,W1903185053,10.1080/00268978300100901,fetch,fetched,"PDF supplied by hand in papers/pending as 'The HeI excited electron spectrum of phosphine.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:49Z,W2082490600,10.1080/00268978300100631,fetch,fetched,"PDF supplied by hand in papers/pending as 'The binding in ClF3.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:49Z,W2138078922,10.1007/s00894-005-0040-8,fetch,fetched,"PDF supplied by hand in papers/pending as 's00894-005-0040-8.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:49Z,W4417193259,10.1007/s11224-025-02687-0,fetch,fetched,"PDF supplied by hand in papers/pending as 's11224-025-02687-0.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:50Z,W2032291848,10.1007/s12043-010-0006-y,fetch,fetched,"PDF supplied by hand in papers/pending as 's12043-010-0006-y.pdf'; DOI confirmed against Crossref and matched to this index entry, which was fetch_failed."
+2026-09-09T13:02:53Z,W2147652433,10.1002/jcc.10299,text,text_ready,7 pages -> W2147652433.txt
+2026-09-09T13:02:54Z,W2016204572,10.1002/jcc.23458,text,text_ready,11 pages -> W2016204572.txt
+2026-09-09T13:02:54Z,W2058080097,10.1016/s0039-6028(96)01595-6,text,text_ready,18 pages -> W2058080097.txt
+2026-09-09T13:02:54Z,W2034426974,10.1016/0301-0104(94)00357-g,text,text_ready,11 pages -> W2034426974.txt
+2026-09-09T13:02:55Z,W2084170801,10.1063/1.465668,text,text_ready,10 pages -> W2084170801.txt
+2026-09-09T13:02:55Z,W2150697514,10.1002/qua.21201,text,text_ready,15 pages -> W2150697514.txt
+2026-09-09T13:02:55Z,W2029265532,10.1016/j.chemphys.2007.11.009,text,text_ready,11 pages -> W2029265532.txt
+2026-09-09T13:02:55Z,W2098065001,10.1002/qua.1326,text,text_ready,8 pages -> W2098065001.txt
+2026-09-09T13:02:55Z,W2039084080,10.1007/bf00528018,text,text_ready,13 pages -> W2039084080.txt
+2026-09-09T13:02:56Z,W2048301749,10.1016/0022-2852(90)90161-i,text,text_ready,15 pages -> W2048301749.txt
+2026-09-09T13:02:56Z,W1903185053,10.1080/00268978300100901,text,text_ready,14 pages -> W1903185053.txt
+2026-09-09T13:02:57Z,W2066612990,10.1002/ijch.199300037,text,text_ready,10 pages -> W2066612990.txt
+2026-09-09T13:02:57Z,W1614069146,10.1063/1.1381577,text,text_ready,11 pages -> W1614069146.txt
+2026-09-09T13:02:57Z,W1986777923,10.1016/s0009-2614(02)00537-7,text,text_ready,7 pages -> W1986777923.txt
+2026-09-09T13:02:57Z,W1974829704,10.1016/s0301-0104(96)00334-5,text,text_ready,8 pages -> W1974829704.txt
+2026-09-09T13:02:57Z,W2000269280,10.1016/s0009-2614(00)00936-2,text,text_ready,6 pages -> W2000269280.txt
+2026-09-09T13:02:57Z,W2021051581,10.1016/s0009-2614(99)00051-2,text,text_ready,9 pages -> W2021051581.txt
+2026-09-09T13:02:58Z,W2025266004,10.1063/1.472730,text,text_ready,15 pages -> W2025266004.txt
+2026-09-09T13:02:58Z,W2078897031,10.1016/0009-2614(95)00427-6,text,text_ready,7 pages -> W2078897031.txt
+2026-09-09T13:02:58Z,W1532315043,10.1063/1.3382912,text,text_ready,15 pages -> W1532315043.txt
+2026-09-09T13:02:59Z,W2038729541,10.1063/1.4828739,text,text_ready,11 pages -> W2038729541.txt
+2026-09-09T13:02:59Z,W2042465446,10.1016/s0301-0104(98)00213-4,text,text_ready,9 pages -> W2042465446.txt
+2026-09-09T13:02:59Z,W1996441949,10.1016/s0301-0104(02)00804-2,text,text_ready,11 pages -> W1996441949.txt
+2026-09-09T13:02:59Z,W2168615313,10.1002/anie.201405303,text,text_ready,5 pages -> W2168615313.txt
+2026-09-09T13:02:59Z,W3148586001,10.1016/j.cplett.2021.138600,text,text_ready,9 pages -> W3148586001.txt
+2026-09-09T13:02:59Z,W2031306424,10.1080/00268976.2013.771800,text,text_ready,7 pages -> W2031306424.txt
+2026-09-09T13:03:00Z,W2078993648,10.1016/s0301-0104(97)00159-6,text,text_ready,11 pages -> W2078993648.txt
+2026-09-09T13:03:00Z,W2049868029,10.1063/1.1361073,text,text_ready,10 pages -> W2049868029.txt
+2026-09-09T13:03:00Z,W2157641203,10.1016/j.jphotochem.2007.04.015,text,text_ready,7 pages -> W2157641203.txt
+2026-09-09T13:03:00Z,W2038349616,10.1016/0009-2614(96)00183-2,text,text_ready,7 pages -> W2038349616.txt
+2026-09-09T13:03:00Z,W2062302150,10.1063/1.1574315,text,text_ready,10 pages -> W2062302150.txt
+2026-09-09T13:03:01Z,W2098807144,10.1002/cphc.201402355,text,text_ready,10 pages -> W2098807144.txt
+2026-09-09T13:03:01Z,W2040712927,10.1080/00268976.2015.1012128,text,text_ready,19 pages -> W2040712927.txt
+2026-09-09T13:03:01Z,W2050145622,10.1063/1.479285,text,text_ready,12 pages -> W2050145622.txt
+2026-09-09T13:03:01Z,W2012892074,10.1016/0166-1280(88)80275-6,text,text_ready,10 pages -> W2012892074.txt
+2026-09-09T13:03:01Z,W2069373756,10.1016/0009-2614(95)00570-t,text,text_ready,7 pages -> W2069373756.txt
+2026-09-09T13:03:02Z,W2082738588,10.1016/s0009-2614(00)00167-6,text,text_ready,8 pages -> W2082738588.txt
+2026-09-09T13:03:02Z,W1968152379,10.1016/0022-2852(89)90244-0,text,text_ready,8 pages -> W1968152379.txt
+2026-09-09T13:03:02Z,W2138078922,10.1007/s00894-005-0040-8,text,text_ready,9 pages -> W2138078922.txt
+2026-09-09T13:03:02Z,W2054632978,10.1016/s0009-2614(98)00072-4,text,text_ready,9 pages -> W2054632978.txt
+2026-09-09T13:03:02Z,W1968557292,10.1002/cphc.201000968,text,text_ready,7 pages -> W1968557292.txt
+2026-09-09T13:03:03Z,W1996862864,10.1063/1.455550,text,text_ready,7 pages -> W1996862864.txt
+2026-09-09T13:03:03Z,W2063261166,10.1016/s0009-2614(99)00880-5,text,text_ready,9 pages -> W2063261166.txt
+2026-09-09T13:03:03Z,W2117323824,10.1016/0009-2614(95)00833-p,text,text_ready,7 pages -> W2117323824.txt
+2026-09-09T13:03:03Z,W1970783164,10.1016/s0009-2614(01)01273-8,text,text_ready,10 pages -> W1970783164.txt
+2026-09-09T13:03:03Z,W2044841574,10.1016/s0009-2614(98)01371-2,text,text_ready,9 pages -> W2044841574.txt
+2026-09-09T13:03:03Z,W2019603693,10.1063/1.1358869,text,text_ready,12 pages -> W2019603693.txt
+2026-09-09T13:03:05Z,W2033184258,10.1063/1.462973,text,text_ready,19 pages -> W2033184258.txt
+2026-09-09T13:03:05Z,W1982406560,10.1016/s0009-2614(98)00250-4,text,text_ready,6 pages -> W1982406560.txt
+2026-09-09T13:03:05Z,W1997344097,10.1063/1.457895,text,text_ready,6 pages -> W1997344097.txt
+2026-09-09T13:03:05Z,W4417193259,10.1007/s11224-025-02687-0,text,text_ready,13 pages -> W4417193259.txt
+2026-09-09T13:03:06Z,W1826398548,10.1063/1.4931471,text,text_ready,9 pages -> W1826398548.txt
+2026-09-09T13:03:06Z,W2131784752,10.1002/chem.201102702,text,text_ready,7 pages -> W2131784752.txt
+2026-09-09T13:03:06Z,W2015661663,10.1063/1.468919,text,text_ready,29 pages -> W2015661663.txt
+2026-09-09T13:03:07Z,W2008249638,10.1016/0301-0104(94)00053-0,text,text_ready,10 pages -> W2008249638.txt
+2026-09-09T13:03:07Z,W4232913731,10.1002/ange.200805289,text,text_ready,6 pages -> W4232913731.txt
+2026-09-09T13:03:07Z,W1976647854,10.1016/0009-2614(92)85301-p,text,text_ready,8 pages -> W1976647854.txt
+2026-09-09T13:03:07Z,W1536435220,10.1063/1.480544,text,text_ready,5 pages -> W1536435220.txt
+2026-09-09T13:03:07Z,W2079327395,10.1007/bf00527715,text,text_ready,17 pages -> W2079327395.txt
+2026-09-09T13:03:08Z,W2064977251,10.1063/1.1711597,text,text_ready,13 pages -> W2064977251.txt
+2026-09-09T13:03:08Z,W2002061350,10.1080/00268979600100601,text,text_ready,21 pages -> W2002061350.txt
+2026-09-09T13:03:08Z,W1970285349,10.1063/1.481712,text,text_ready,5 pages -> W1970285349.txt
+2026-09-09T13:03:08Z,W2016729768,10.1063/1.1316010,text,text_ready,7 pages -> W2016729768.txt
+2026-09-09T13:03:08Z,W2142146002,10.1016/0009-2614(93)87123-k,text,text_ready,5 pages -> W2142146002.txt
+2026-09-09T13:03:08Z,W1526637858,10.1063/1.481592,text,text_ready,13 pages -> W1526637858.txt
+2026-09-09T13:03:08Z,W1974188015,10.1063/1.1578476,text,text_ready,7 pages -> W1974188015.txt
+2026-09-09T13:03:09Z,W1992737978,10.1063/1.4817965,text,text_ready,13 pages -> W1992737978.txt
+2026-09-09T13:03:09Z,W1981061574,10.1103/physreva.38.6098,text,text_ready,9 pages -> W1981061574.txt
+2026-09-09T13:03:09Z,W1987622747,10.1063/1.472181,text,text_ready,11 pages -> W1987622747.txt
+2026-09-09T13:03:09Z,W2081058966,10.1016/s0009-2614(01)01002-8,text,text_ready,9 pages -> W2081058966.txt
+2026-09-09T13:03:09Z,W2117330735,10.1080/00268978300101461,text,text_ready,15 pages -> W2117330735.txt
+2026-09-09T13:03:10Z,W111207664,10.1007/978-1-4020-8184-2_5,text,text_ready,32 pages -> W111207664.txt
+2026-09-09T13:03:10Z,W2062517283,10.1002/qua.20910,text,text_ready,7 pages -> W2062517283.txt
+2026-09-09T13:03:10Z,W2032291848,10.1007/s12043-010-0006-y,text,text_ready,7 pages -> W2032291848.txt
+2026-09-09T13:03:11Z,W2082825974,10.1063/1.464753,text,text_ready,10 pages -> W2082825974.txt
+2026-09-09T13:03:11Z,W2077424295,10.1016/s0009-2614(99)00180-3,text,text_ready,9 pages -> W2077424295.txt
+2026-09-09T13:03:11Z,W1537024160,10.1063/1.473537,text,text_ready,13 pages -> W1537024160.txt
+2026-09-09T13:03:11Z,W1997560332,10.1016/0301-0104(94)00356-f,text,text_ready,11 pages -> W1997560332.txt
+2026-09-09T13:03:11Z,W2034698327,10.1016/0301-0104(91)80002-y,text,text_ready,10 pages -> W2034698327.txt
+2026-09-09T13:03:11Z,W2004572171,10.1016/j.cap.2005.04.023,text,text_ready,6 pages -> W2004572171.txt
+2026-09-09T13:03:12Z,W2038470370,10.1002/qua.990,text,text_ready,13 pages -> W2038470370.txt
+2026-09-09T13:03:12Z,W2003364926,10.1016/0166-1280(88)80399-3,text,text_ready,11 pages -> W2003364926.txt
+2026-09-09T13:03:12Z,W2082490600,10.1080/00268978300100631,text,text_ready,15 pages -> W2082490600.txt
+2026-09-09T13:03:12Z,W2045141801,10.1016/0009-2614(96)00525-8,text,text_ready,7 pages -> W2045141801.txt
+2026-09-09T13:03:12Z,W1982524785,10.1016/s0301-0104(96)00363-1,text,text_ready,13 pages -> W1982524785.txt
+2026-09-09T13:03:13Z,W2545672696,10.1002/chem.201604340,text,text_ready,13 pages -> W2545672696.txt
+2026-09-09T13:03:13Z,W4243420839,10.1016/s0009-2614(00)00284-0,text,text_ready,7 pages -> W4243420839.txt
+2026-09-09T13:03:14Z,W2069071385,10.1063/1.464443,text,text_ready,12 pages -> W2069071385.txt
+2026-09-09T13:03:14Z,W2024016791,10.1063/1.479371,text,text_ready,11 pages -> W2024016791.txt
+2026-09-09T13:03:22Z,W1970783164,10.1016/s0009-2614(01)01273-8,text,text_ready,re-extracted with poppler pdftotext -layout; pypdf output was glyph-encoded and unreadable
+2026-09-09T13:03:22Z,W2081058966,10.1016/s0009-2614(01)01002-8,text,text_ready,re-extracted with poppler pdftotext -layout; pypdf output was glyph-encoded and unreadable
+2026-09-09T13:05:27Z,W2082738588-a,10.1016/s0009-2614(00)00167-6,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:05:27Z,W3148586001-a,10.1016/j.cplett.2021.138600,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:05:27Z,W2063261166-a,10.1016/s0009-2614(99)00880-5,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:05:27Z,W2142146002-a,10.1016/0009-2614(93)87123-k,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:05:40Z,W2082738588,10.1016/s0009-2614(00)00167-6,mark,extracted,"Usable: butadiene/cyclobutene/bicyclobutane photochemistry at CASSCF with a four-pi-orbital (4,4) space and a (2,2) for the TS3 biradical, GAUSSIAN 94."
+2026-09-09T13:05:40Z,W3148586001,10.1016/j.cplett.2021.138600,mark,extracted,"Usable: Eu(III) beta-diketone antenna complexes with a fragmented space - CAS(6,7) on Eu, CAS(8,8) on the ligands - NEVPT2, DKH2 and QDPT spin-orbit coupling in ORCA."
+2026-09-09T13:05:40Z,W2063261166,10.1016/s0009-2614(99)00880-5,mark,extracted,"Usable: propargyl radical CASSCF(7,7) wavefunction used as one input to an ELF topological comparison across methods."
+2026-09-09T13:05:40Z,W2142146002,10.1016/0009-2614(93)87123-k,mark,extracted,"Usable: Pt + CO potential surface at CASSCF with twenty valence electrons in 13 orbitals (13 150 CSFs), MRSDCI spot checks, ALCHEMY II with RECPs."
+2026-09-09T13:05:40Z,W1536435220,10.1063/1.480544,mark,not_usable,"No active space of the paper's own: this is a TDDFT study of the 3Sigma_u- first excited state of H2 run in TURBOMOLE with CCSD-based reference calculations. CASSCF appears only in the introduction, as the alternative class of method TDDFT is being compared against in general terms; no CASSCF calculation is performed and no active space is specified."
+2026-09-09T13:05:40Z,W2168615313,10.1002/anie.201405303,mark,not_usable,"No active space recoverable: this Angewandte communication on the GFP S65T/H148D mutant reports QM(CASPT2//CASSCF)/AMBER results but the main text never states the active space, the number of roots, or the basis - the computational details are in the supporting information, which we do not have. Nothing can be mined without inferring the space."
+2026-09-09T13:06:41Z,W2079327395-a,10.1007/bf00527715,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:06:41Z,W2117330735-a,10.1080/00268978300101461,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:06:41Z,W1532315043-a,10.1063/1.3382912,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:07:13Z,W2138078922-a,10.1007/s00894-005-0040-8,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:07:13Z,W2079327395,10.1007/bf00527715,mark,extracted,Usable: Ni13H2/Cu13H2 on-top dissociation with a five-orbital CASSCF reference (3+2 by symmetry) feeding contracted CI; the paper argues explicitly for excluding cluster near-degeneracies from the reference.
+2026-09-09T13:07:13Z,W2117330735,10.1080/00268978300101461,mark,extracted,"Usable: CH2 ground-state surface at CASSCF with six valence orbitals plus one a1 Rydberg orbital, 39-function basis."
+2026-09-09T13:07:13Z,W1532315043,10.1063/1.3382912,mark,extracted,Usable: CH4+ 2T2 Jahn-Teller surfaces from full-valence SA-CASSCF over the three T2 components with MRCI/cc-pVTZ.
+2026-09-09T13:07:13Z,W2138078922,10.1007/s00894-005-0040-8,mark,extracted,"Usable: retinal model chromophore CASSCF-BOMD on a (6,6) pi space with SA2 gradients, GAUSSIAN 98 and MOLCAS."
+2026-09-09T13:07:14Z,W2008249638,10.1016/0301-0104(94)00053-0,mark,not_usable,"No active space of the paper's own: this is a wave-packet dynamics study of SO2(1B1/1A2) run on diabatic potential energy surfaces adjusted from the large-scale CASSCF calculations of Rosmus and co-workers (ref. 13). The CASSCF numbers it tabulates are that earlier paper's, and no active space is specified here."
+2026-09-09T13:08:10Z,W1970285349-a,10.1063/1.481712,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:08:10Z,W1987622747-a,10.1063/1.472181,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:08:11Z,W2012892074-a,10.1016/0166-1280(88)80275-6,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:08:11Z,W4232913731-a,10.1002/ange.200805289,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:08:40Z,W1981061574-a,10.1103/physreva.38.6098,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:08:40Z,W1970285349,10.1063/1.481712,mark,extracted,"Usable: C2H nonadiabatic couplings from three-root SA-CASSCF on the full valence (9,9) space, MOLPRO/6-311G**."
+2026-09-09T13:08:40Z,W1987622747,10.1063/1.472181,mark,extracted,"Usable: HCP surface from CASSCF(10,9) (1436 CSFs) plus MRCI in MOLPRO with a 144-function basis."
+2026-09-09T13:08:40Z,W2012892074,10.1016/0166-1280(88)80275-6,mark,extracted,"Usable: CH3Li VB analysis of an (8,8) CASSCF built one orbital pair per bond, 1764 configurations."
+2026-09-09T13:08:40Z,W4232913731,10.1002/ange.200805289,mark,extracted,"Usable: heavy-group-14 [1.1.1]propellanes with a symmetry-chosen (6,4) space, occupation numbers calibrated against a (2,2) on stretched H2."
+2026-09-09T13:08:40Z,W1981061574,10.1103/physreva.38.6098,mark,extracted,"Usable: HBr/HI and their anions with a five-orbital CASSCF space (8 electrons neutral, 9 anion) feeding SOCI and RCI."
+2026-09-09T13:09:35Z,W1976647854-a,10.1016/0009-2614(92)85301-p,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:09:35Z,W1997560332-a,10.1016/0301-0104(94)00356-f,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:09:35Z,W2032291848-a,10.1007/s12043-010-0006-y,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:10:21Z,W1982406560-a,10.1016/s0009-2614(98)00250-4,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:10:22Z,W2021051581-a,10.1016/s0009-2614(99)00051-2,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:10:22Z,W2042465446-a,10.1016/s0301-0104(98)00213-4,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:10:22Z,W1976647854,10.1016/0009-2614(92)85301-p,mark,extracted,"Usable: NO2+ A 2Pi / X 2Sigma+ curves from an all-valence CASSCF (616/588 configurations) with ACPF, plus an explicit atomic test of the space's adequacy."
+2026-09-09T13:10:22Z,W1997560332,10.1016/0301-0104(94)00356-f,mark,extracted,"Usable: naphthalene cation with a (7,8) pi CASSCF used to generate natural orbitals for a nine-class multireference CI."
+2026-09-09T13:10:22Z,W2032291848,10.1007/s12043-010-0006-y,mark,extracted,"Usable: CO and CO+/2+/3+ curves at MRCI on CASSCF references with two symmetry-defined spaces, MOLPRO/cc-pVQZ."
+2026-09-09T13:10:22Z,W1982406560,10.1016/s0009-2614(98)00250-4,mark,extracted,"Usable: Ga3P and GaP3 at CASSCF/MRSDCI with the group's ij-CAS orbital-by-symmetry spaces (7,3 and 7,4), GAMESS with RECPs."
+2026-09-09T13:10:22Z,W2021051581,10.1016/s0009-2614(99)00051-2,mark,extracted,"Usable: Al3P/AlP3 and their cations at CASSCF/MRSDCI with 7,3- and 7,4-CAS symmetry-block spaces."
+2026-09-09T13:10:23Z,W2042465446,10.1016/s0301-0104(98)00213-4,mark,extracted,"Usable: vinyl radical vertical excitations at CASSCF(3,3)/CASPT2 with MOLCAS ANO basis."
+2026-09-09T13:11:25Z,W2117323824-a,10.1016/0009-2614(95)00833-p,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:11:25Z,W2131784752-a,10.1002/chem.201102702,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:11:25Z,W1903185053-a,10.1080/00268978300100901,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:12:20Z,W1614069146-a,10.1063/1.1381577,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:12:20Z,W1974188015-a,10.1063/1.1578476,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:12:20Z,W1986777923-a,10.1016/s0009-2614(02)00537-7,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:12:20Z,W2117323824,10.1016/0009-2614(95)00833-p,mark,extracted,"Usable: PF 19 states at CASSCF/FOCI/SOCI with a dissociation-limit-defined space, state-specific per symmetry and multiplicity, ALCHEMY II."
+2026-09-09T13:12:20Z,W2131784752,10.1002/chem.201102702,mark,extracted,"Usable: Pt(II) OLED emitter at SA4-CASSCF(12,10)/CASPT2 with CASSI spin-orbit coupling in MOLCAS."
+2026-09-09T13:12:21Z,W1903185053,10.1080/00268978300100901,mark,extracted,"Usable: PH3/PH3+ photoelectron spectrum from a CASSCF over the 5a1, 6a1, 2e and 3e orbitals with second-order PTCI."
+2026-09-09T13:12:21Z,W1614069146,10.1063/1.1381577,mark,extracted,"Usable: SH/SD A 2Sigma+ lifetimes from SA-CASSCF(7,9)/icMRCI in MOLPRO, with a quantified 9% active-space sensitivity in the transition moment."
+2026-09-09T13:12:21Z,W1974188015,10.1063/1.1578476,mark,extracted,"Usable: linear HC(2n+1)H chains at SA-CASSCF(10,12)/6-31G* held fixed across the series, MOLPRO."
+2026-09-09T13:12:21Z,W1986777923,10.1016/s0009-2614(02)00537-7,mark,extracted,"Usable: phenalenyl radical dimer exchange integrals at CASSCF(2,2) benchmarked against UHF and DFT, GAUSSIAN 94 and GAMESS."
+2026-09-09T13:13:24Z,W4417193259-a,10.1007/s11224-025-02687-0,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:13:24Z,W2029265532-a,10.1016/j.chemphys.2007.11.009,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:13:24Z,W1968152379-a,10.1016/0022-2852(89)90244-0,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:13:24Z,W2002061350-a,10.1080/00268979600100601,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:14:07Z,W1974829704-a,10.1016/s0301-0104(96)00334-5,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:14:07Z,W4417193259,10.1007/s11224-025-02687-0,mark,extracted,"Usable: stilbene radical isomers at SA-CASSCF(8,8)/NEVPT2 over 9 singlets and 9 triplets in ORCA, used to validate three DFT functionals."
+2026-09-09T13:14:07Z,W2029265532,10.1016/j.chemphys.2007.11.009,mark,extracted,"Usable: OCS2+ surfaces from a full-valence CASSCF with multiplicity-wise state averaging feeding icMRCI in MOLPRO, cc-pV5Z."
+2026-09-09T13:14:07Z,W1968152379,10.1016/0022-2852(89)90244-0,mark,extracted,"Usable: YH 29 states from CASSCF with four active electrons in seven asymptote-defined orbitals, then SOCI and relativistic CI."
+2026-09-09T13:14:07Z,W2002061350,10.1080/00268979600100601,mark,extracted,"Usable: HCO+/DCO+ surface from a valence CASSCF truncated by dropping the O 2s pair on natural-orbital-occupation evidence, with icMRCI in MOLPRO."
+2026-09-09T13:14:08Z,W1974829704,10.1016/s0301-0104(96)00334-5,mark,extracted,"Usable: propargyl radical UV bands at CASSCF/CASPT2 with both a (5,5) and a (7,11) space compared on the same transitions, MOLCAS ANO basis."
+2026-09-09T13:14:08Z,W2150697514,10.1002/qua.21201,mark,not_usable,"No active space was used: this is a broken-symmetry hybrid-DFT study of the [8Fe-7S] core with a natural-orbital analysis. From the 17 HONO/LUNO pairs the paper concludes that CASSCF{34,34} or CASCI{34,34} would be desirable for this system, then states plainly that such computations are impossible at the present stage and that the SA CASSCF is impossible for complex 1. The {34,34} is a requirement the paper derives, not a calculation it performs, so there is no computed active space to record."
+2026-09-09T13:15:01Z,W2078897031-a,10.1016/0009-2614(95)00427-6,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:15:01Z,W2098065001-a,10.1002/qua.1326,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:15:01Z,W2016729768-a,10.1063/1.1316010,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:15:58Z,W2062517283-a,10.1002/qua.20910,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:15:58Z,W2031306424-a,10.1080/00268976.2013.771800,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:15:58Z,W2147652433-a,10.1002/jcc.10299,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:15:58Z,W2078897031,10.1016/0009-2614(95)00427-6,mark,extracted,"Usable: Ga3As2/Ga2As3 at restricted-active-space MCSCF plus MRSDCI in GAMESS, with the full (15 orbital) space documented as unaffordable."
+2026-09-09T13:15:58Z,W2098065001,10.1002/qua.1326,mark,extracted,"Usable: aliphatic azide decomposition at CAS(10,8) - stated as the smallest space giving correct results - with CASPT2, GAUSSIAN 98 and MOLCAS 4.1."
+2026-09-09T13:15:59Z,W2016729768,10.1063/1.1316010,mark,extracted,"Usable: HOONO excited states from a (16,11) CASSCF specified by orbital list, feeding internally contracted MRCI in MOLPRO 96."
+2026-09-09T13:15:59Z,W2062517283,10.1002/qua.20910,mark,extracted,"Usable: non-heme iron dioxygen binding at QM(CASSCF(10,9))/MM with the space built from NBOs of the S=3 state, PC GAMESS."
+2026-09-09T13:15:59Z,W2031306424,10.1080/00268976.2013.771800,mark,extracted,"Usable: GFP chromophore one- and two-photon spectra at CASSCF(12,11)/CASPT2 with vibronic Herzberg-Teller analysis."
+2026-09-09T13:15:59Z,W2147652433,10.1002/jcc.10299,mark,extracted,"Usable: NO2 + O3 barrier at CASSCF/CASPT2 with three spaces - (15,11), (17,12), (19,13) - and the resulting barrier series tabulated."
+2026-09-09T13:16:46Z,W2034698327-a,10.1016/0301-0104(91)80002-y,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:16:46Z,W2003364926-a,10.1016/0166-1280(88)80399-3,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:16:46Z,W2058080097-a,10.1016/s0039-6028(96)01595-6,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:17:58Z,W2545672696-a,10.1002/chem.201604340,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:17:58Z,W2034426974-a,10.1016/0301-0104(94)00357-g,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:17:58Z,W1537024160-a,10.1063/1.473537,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:17:58Z,W2034698327,10.1016/0301-0104(91)80002-y,mark,extracted,"Usable: linear OCuO 52 doublet states from a (19,12) CASSCF over Cu 3d/4s and O 2p, with POLCI."
+2026-09-09T13:17:58Z,W2003364926,10.1016/0166-1280(88)80399-3,mark,extracted,Usable: singlet biradical VTST on a 4-in-4 CASSCF/6-31G surface (all 20 singlet configurations).
+2026-09-09T13:17:58Z,W2058080097,10.1016/s0039-6028(96)01595-6,mark,extracted,"Usable: Pt4-CO cluster model with a (9,8) all-e-symmetry CASSCF for the 2E ground state, CSOV bonding analysis."
+2026-09-09T13:17:59Z,W2545672696,10.1002/chem.201604340,mark,extracted,"Usable: [LnCp*2(Me3SiN=)2S] with Ln = Sm, Eu, Yb at SA-CASSCF(8or,6el)/SO-RASSI/ANO-RCC-VDZ; note the orbitals-first (nor,nel) convention."
+2026-09-09T13:17:59Z,W2034426974,10.1016/0301-0104(94)00357-g,mark,extracted,"Usable: Ni(II)-O-Ni(II) superexchange on a four-eg-orbital space, with state-averaged, state-specific and frozen-orbital procedures compared directly."
+2026-09-09T13:17:59Z,W1537024160,10.1063/1.473537,mark,extracted,"Usable: H2O2+ vibrational spectrum at full-valence CASSCF(13,10), with the symmetry-breaking failure attributed to the space."
+2026-09-09T13:18:43Z,W1996441949-a,10.1016/s0301-0104(02)00804-2,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:18:43Z,W2049868029-a,10.1063/1.1361073,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:19:43Z,W4243420839-a,10.1016/s0009-2614(00)00284-0,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:19:44Z,W2000269280-a,10.1016/s0009-2614(00)00936-2,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:19:44Z,W2004572171-a,10.1016/j.cap.2005.04.023,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:19:44Z,W1996441949,10.1016/s0301-0104(02)00804-2,mark,extracted,"Usable: carbonyl oxide and dioxirane at CASSCF(14,10)/CASPT2 with the space sized for cross-species consistency and symmetry preservation; MOLCAS 4.1."
+2026-09-09T13:19:44Z,W2049868029,10.1063/1.1361073,mark,extracted,"Usable: 7-azaindole-water phototautomerization at CASSCF(8,8)/6-31G* with four occupied pi and four pi* orbitals."
+2026-09-09T13:19:44Z,W4243420839,10.1016/s0009-2614(00)00284-0,mark,extracted,"Usable: CoC2 at CASSCF(15,13)/CASPT2, documenting a double-shell-effect failure of the 12-orbital FeC2 space."
+2026-09-09T13:19:44Z,W2000269280,10.1016/s0009-2614(00)00936-2,mark,extracted,"Usable: pyrene excited states with state-dependent spaces selected by an SCI coefficient threshold - (8,8) and (12,12) - feeding MRSD-CI."
+2026-09-09T13:19:44Z,W2004572171,10.1016/j.cap.2005.04.023,mark,extracted,"Usable: pyrene and derivatives at CAS(12,11) with multireference perturbation theory, GAMESS."
+2026-09-09T13:19:45Z,W2016204572,10.1002/jcc.23458,mark,not_usable,"No active space of the paper's own: the new work here is coupled-cluster//Kohn-Sham DFT reaction barriers for HO2 + H2O + O3. Every multireference number it tabulates - MRPT2(11,11)/AVTZ//CASSCF(11,11)/VTZ and MRCI//CASSCF - is quoted from the authors' earlier paper (ref. 24) for comparison, and the paper's only comment on that space is that those CASSCF calculations suffer from a reduced, smaller-than-full-valence space and lack of dynamical correlation. The (11,11) belongs to ref. 24, not to this paper."
+2026-09-09T13:20:38Z,W2050145622-a,10.1063/1.479285,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:20:38Z,W2038349616-a,10.1016/0009-2614(96)00183-2,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:20:38Z,W2077424295-a,10.1016/s0009-2614(99)00180-3,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:21:39Z,W2082490600-a,10.1080/00268978300100631,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:21:39Z,W2039084080-a,10.1007/bf00528018,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:21:40Z,W2045141801-a,10.1016/0009-2614(96)00525-8,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:21:40Z,W2050145622,10.1063/1.479285,mark,extracted,"Usable: acetone n-pi* vibronic coupling with a (10,11) valence space for the geometry and Rydberg-augmented SA-CASSCF(6,13)/(6,14) for the coupling elements."
+2026-09-09T13:21:40Z,W2038349616,10.1016/0009-2614(96)00183-2,mark,extracted,"Usable: SiN X 2Sigma+/A 2Pi at CASSCF(9,9) - eight valence orbitals plus a sigma Rydberg - with MRCI and CCSD(T)."
+2026-09-09T13:21:40Z,W2077424295,10.1016/s0009-2614(99)00180-3,mark,extracted,Usable: NiC electronic states from an all-electron valence CASSCF in MOLCAS 3 with three different root-handling strategies.
+2026-09-09T13:21:40Z,W2082490600,10.1080/00268978300100631,mark,extracted,"Usable: ClF3 at full-valence-minus-F-2s CASSCF (22,13) and ClF at (14,8) or a 4pi-augmented variant, MOLECULE-ALCHEMY."
+2026-09-09T13:21:40Z,W2039084080,10.1007/bf00528018,mark,extracted,"Usable: nickel atomic states with 3d/3d' double-shell CASSCF spaces tuned per state, cutting the 3D-1S error from 0.5 to 0.1 eV."
+2026-09-09T13:21:40Z,W2045141801,10.1016/0009-2614(96)00525-8,mark,extracted,"Usable: Co+ hydridoalkyl complexes at CASSCF(10,8)/CASPT2 with the metal 3d/4s manifold plus one C-H bonding/antibonding pair, MOLCAS-3."
+2026-09-09T13:22:47Z,W2081058966-a,10.1016/s0009-2614(01)01002-8,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:22:47Z,W2069071385-a,10.1063/1.464443,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:22:47Z,W1968557292-a,10.1002/cphc.201000968,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:23:56Z,W2069373756-a,10.1016/0009-2614(95)00570-t,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:23:56Z,W2038729541-a,10.1063/1.4828739,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:23:56Z,W2081058966,10.1016/s0009-2614(01)01002-8,mark,extracted,"Usable: D2h N4 at CAS(12,12) over the nitrogen 2p manifold with MR-AQCC, correcting an earlier CAS(8,8) that symmetry-broke."
+2026-09-09T13:23:56Z,W2069071385,10.1063/1.464443,mark,extracted,"Usable: PHn and PHn+ (n=1-3) at all-electron CASSCF(8,7) with full SOCI up to 1.7 million configurations."
+2026-09-09T13:23:56Z,W1968557292,10.1002/cphc.201000968,mark,extracted,"Usable: glycolaldehyde photodissociation at CASSCF(10,8)/MS-MR-CASPT2 with the sigma/sigma* pair swapped per bond fission channel."
+2026-09-09T13:23:57Z,W2069373756,10.1016/0009-2614(95)00570-t,mark,extracted,"Usable: N2O4 at CASSCF(18,12)/CASPT2 in MOLCAS-3, with a deliberately equivalent (9,6) on the NO2 fragment for the binding energy."
+2026-09-09T13:23:57Z,W2038729541,10.1063/1.4828739,mark,extracted,"Usable: GVB-BCPT2 benchmark with GVB(1) = CAS(2,2) as the shared reference for its own CASPT2 comparison; NiC identified as needing three active sigma orbitals."
+2026-09-09T13:23:57Z,W2084170801,10.1063/1.465668,mark,not_usable,"No active space of the paper's own: this develops the two-determinant coupled-cluster method for electric properties of the singlet and triplet B1 states of water. Every CASSCF number it tabulates is footnoted as taken from Ref. 15 (the Urban-Sadlej study), including the '(6a1,3b1,3b2) active orbital space' quoted in the table notes. The paper's own calculations are TD-CCSD and full CI in selected orbital spaces, and it discusses the CAS results only as the comparison point it is arguing against."
+2026-09-09T13:24:55Z,W1996862864-a,10.1063/1.455550,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:24:55Z,W2082825974-a,10.1063/1.464753,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:24:55Z,W2054632978-a,10.1016/s0009-2614(98)00072-4,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:25:45Z,W2033184258-a,10.1063/1.462973,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:25:45Z,W2048301749-a,10.1016/0022-2852(90)90161-i,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:25:45Z,W1996862864,10.1063/1.455550,mark,extracted,"Usable: AlC spectrum from SA-CASSCF over Al 3s3p and C 2s2p with SOCI/MRCI, two averaging widths compared."
+2026-09-09T13:25:46Z,W2082825974,10.1063/1.464753,mark,extracted,"Usable: Y2-Y4 clusters at restricted active space MCSCF with variationally selected orbitals, ALCHEMY II."
+2026-09-09T13:25:46Z,W2054632978,10.1016/s0009-2614(98)00072-4,mark,extracted,"Usable: Cr(CO)5-PH at CASSCF(12,12)/CASPT2 in MOLCAS-4.0, the space built as Cr(CO)6's 10/10 plus PH's two singly occupied pi orbitals."
+2026-09-09T13:25:46Z,W2033184258,10.1063/1.462973,mark,extracted,"Usable: ClNO T1 photodissociation with three closed-shell choices priced in eV, all-valence occ(15/4) CASSCF feeding MRCI and MR-ACPF in MOLPRO."
+2026-09-09T13:25:46Z,W2048301749,10.1016/0022-2852(90)90161-i,mark,extracted,"Usable: FeH spectroscopy at SA-CASSCF(9,10) as (5221), documenting an orbital-identity failure in the quartet space and its fix by freezing an atomic 4p_pi."
+2026-09-09T13:26:49Z,W2038470370-a,10.1002/qua.990,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:26:50Z,W1997344097-a,10.1063/1.457895,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:26:50Z,W2044841574-a,10.1016/s0009-2614(98)01371-2,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:27:36Z,W2066612990-a,10.1002/ijch.199300037,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:27:36Z,W2098807144-a,10.1002/cphc.201402355,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:27:36Z,W2038470370,10.1002/qua.990,mark,extracted,"Usable: benzocyclobutadiene at [2,2]- and [8,8]-CASSCF with higher roots optimized; shieldings sensitive to correlation."
+2026-09-09T13:27:36Z,W1997344097,10.1063/1.457895,mark,extracted,Usable: C2 A 1Pi_u lifetime from SA-CASSCF/MRCI with a systematic active-space expansion used to prove one- and n-particle spaces are uncoupled.
+2026-09-09T13:27:36Z,W2044841574,10.1016/s0009-2614(98)01371-2,mark,extracted,"Usable: EBS-MRMP on a CASSCF(10,10) reference for the H2CO -> H2 + CO barrier, arguing CASSCF virtuals are by-products and need a separate basis."
+2026-09-09T13:27:36Z,W2066612990,10.1002/ijch.199300037,mark,extracted,"Usable: MCH2+ (M = Co, Rh, Ir) plus H2 at CASSCF/MR-SDCI with four species-specific spaces all derived from a (12/10) parent, GAMESS and MOLPRO."
+2026-09-09T13:27:37Z,W2098807144,10.1002/cphc.201402355,mark,extracted,"Usable: GFP chromophore lineshape with CASSCF(16,14), CASPT2 on (10,9) and XMCQDPT2 on (14,13)."
+2026-09-09T13:28:45Z,W1982524785-a,10.1016/s0301-0104(96)00363-1,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:28:45Z,W1970783164-a,10.1016/s0009-2614(01)01273-8,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:28:46Z,W2157641203-a,10.1016/j.jphotochem.2007.04.015,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:29:38Z,W2064977251-a,10.1063/1.1711597,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:29:39Z,W2078993648-a,10.1016/s0301-0104(97)00159-6,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:29:39Z,W2025266004-a,10.1063/1.472730,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:29:39Z,W1982524785,10.1016/s0301-0104(96)00363-1,mark,extracted,"Usable: methyl radical valence and Rydberg states with four spaces - (7,8), (1,9), (7,12)/MRCI(7,9) and (1,11) - matched to state class."
+2026-09-09T13:29:39Z,W1970783164,10.1016/s0009-2614(01)01273-8,mark,extracted,"Usable: CH2BrCl at SA-CASSCF(12,12) over 11 A' and 10 A'' roots with MS-CASPT2; documents choosing a level shift because the space is at its practical limit."
+2026-09-09T13:29:39Z,W2157641203,10.1016/j.jphotochem.2007.04.015,mark,extracted,"Usable: cytosine monohydrates at CASSCF/CASPT2 with (12,11), (12,12) and (10,9) spaces and the (pi,pi*) energy double-reported."
+2026-09-09T13:29:39Z,W2064977251,10.1063/1.1711597,mark,extracted,"Usable: NCO and CNO radicals, cations and anions at full-valence CASSCF with MRSD-CI and CASPT2, MOLCAS 5.0."
+2026-09-09T13:29:39Z,W2078993648,10.1016/s0301-0104(97)00159-6,mark,extracted,"Usable: 1,2,3-triazine absorption with CASSCF(6,6) and CASSCF(6,12) compared as a sensitivity test, plus CASPT2."
+2026-09-09T13:29:39Z,W2025266004,10.1063/1.472730,mark,extracted,"Usable: ethylene vibronic spectra at CASSCF(2,11)/CASPT2 with six sigma and five pi orbitals, MOLCAS-3."
+2026-09-09T13:30:58Z,W1526637858-a,10.1063/1.481592,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:30:59Z,W2024016791-a,10.1063/1.479371,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:30:59Z,W2019603693-a,10.1063/1.1358869,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:30:59Z,W2062302150-a,10.1063/1.1574315,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:31:11Z,W1526637858,10.1063/1.481592,mark,extracted,"Usable: CF2, CCl2 and CBr2 in three states each at full-valence CASSCF(18,12) with CASPT2, MRCI and CCSD(T), cc-pVTZ."
+2026-09-09T13:31:11Z,W2024016791,10.1063/1.479371,mark,extracted,Usable: malonaldehyde and diazapentadiene hydrogen bonds with (6/7) and (8/8) spaces whose virtual composition was selected variationally; CASSCF barriers found to be large overestimates.
+2026-09-09T13:31:11Z,W2019603693,10.1063/1.1358869,mark,extracted,"Usable: HNC, NH and NH2 with three active sets compared, showing CASPT2 collapses the active-space spread from ~0.02 to ~0.001 hartree; MOLCAS-4.1."
+2026-09-09T13:31:11Z,W2062302150,10.1063/1.1574315,mark,extracted,"Usable: N + NO on the two lowest triplet surfaces with CAS(16,12) and CAS(10,9) compared, MOLCAS 4.1; 2s dynamical correlation identified as the missing piece in earlier work."
+2026-09-09T13:32:39Z,W2040712927-a,10.1080/00268976.2015.1012128,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:32:40Z,W1992737978-a,10.1063/1.4817965,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:32:40Z,W1826398548-a,10.1063/1.4931471,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:33:40Z,W2015661663-a,10.1063/1.468919,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:33:40Z,W111207664-a,10.1007/978-1-4020-8184-2_5,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:33:40Z,W2040712927,10.1080/00268976.2015.1012128,mark,extracted,"Usable: g-tensor benchmark of 14 small radicals, each with a space declared as an atomic-shell list, QDPT and CP-CASSCF implementations with DKH2 Zeeman picture change."
+2026-09-09T13:33:40Z,W1992737978,10.1063/1.4817965,mark,extracted,"Usable: SEAS-CASCI symmetry-breaking study scanning active spaces on Td clusters and ethylene, with degeneracy error and S0 dipole as the diagnostics."
+2026-09-09T13:33:40Z,W1826398548,10.1063/1.4931471,mark,extracted,"Usable: ACSE 2-RDM benchmark on water (6,5) and the polyenes ((2,2), (6,6), (10,10), full pi), mapping accuracy against active-space truncation."
+2026-09-09T13:33:40Z,W2015661663,10.1063/1.468919,mark,extracted,Usable: N2 third-order effective-Hamiltonian MR-MBPT with reference spaces scanned from none to eight orbitals; larger spaces found to violate the method's quasidegeneracy requirement.
+2026-09-09T13:33:41Z,W111207664,10.1007/978-1-4020-8184-2_5,mark,extracted,"Usable in part: the Roos chapter's own N2 10in8/10in16 demonstration, with the space selected by a 0.02-1.98 natural occupation window; the Ni, Cr2, Cr(CO)6 and benzene numbers it discusses are cited from other work and were not mined."
+2026-09-09T13:34:23Z,W35845520,10.1007/978-1-4020-8184-2_16,fetch,fetched,"Chapter extracted from the full book PDF (978-1-4020-8184-2.pdf) supplied by hand in papers/pending and moved to papers/books; pages 439-475 of the PDF correspond to printed pages 435-472, chapter 16."
+2026-09-09T13:34:23Z,W35845520,10.1007/978-1-4020-8184-2_16,text,text_ready,37 pages -> W35845520.txt
+2026-09-09T13:34:54Z,W35845520-a,10.1007/978-1-4020-8184-2_16,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T13:34:54Z,W35845520,10.1007/978-1-4020-8184-2_16,mark,extracted,"Usable: nucleobase photostability at CASPT2//CASSCF - (14,10) for pyrimidines, (16,13) for purines - documenting that uracil needs (10,11) rather than the valence pi (10,8) for the optimization to reach the ethene-like conical intersection. MOLCAS-6.0."
+2026-09-09T14:03:29Z,W1526169862,10.1063/1.1829052,fetch,fetched,"PDF supplied by hand in papers/pending as '014315_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:29Z,W1971261617,10.1063/1.2822283,fetch,fetched,"PDF supplied by hand in papers/pending as '034303_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:29Z,W2052997757,10.1063/1.4861670,fetch,fetched,"PDF supplied by hand in papers/pending as '034320_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:29Z,W3193775202,10.26902/JSC_id59826,fetch,fetched,"PDF supplied by hand in papers/pending as '03_Kurbatov.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:29Z,W2587880401,10.1063/1.4975322,fetch,fetched,"PDF supplied by hand in papers/pending as '064111_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:29Z,W2020608829,10.1063/1.4913515,fetch,fetched,"PDF supplied by hand in papers/pending as '094105_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:29Z,W2041670570,10.1016/0009-2614(89)87145-3,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-0009261489871453-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:29Z,W2060827160,10.1016/0009-2614(90)87048-V,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-000926149087048V-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:29Z,W2062357187,10.1016/0009-2614(91)90226-Y,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-000926149190226Y-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:29Z,W1992745138,10.1016/0009-2614(92)85361-D,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-000926149285361D-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:29Z,W1997473022,10.1016/0009-2614(93)89211-Y,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-000926149389211Y-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:29Z,W1976943265,10.1016/0009-2614(93)89356-M,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-000926149389356M-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:29Z,W2162377719,10.1016/0009-2614(94)00967-8,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-0009261494009678-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:29Z,W2085917192,10.1016/0009-2614(94)01040-4,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-0009261494010404-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:29Z,W2011963499,10.1016/0009-2614(94)01501-L,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-000926149401501L-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:29Z,W2169978701,10.1016/0009-2614(95)01094-P,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-000926149501094P-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:29Z,W1993715210,10.1016/0022-2852(88)90242-1,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-0022285288902421-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:29Z,W2083395661,10.1016/0022-2852(89)90104-5,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-0022285289901045-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:29Z,W2001227273,10.1016/0022-2852(89)90326-3,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-0022285289903263-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:29Z,W2004487737,10.1016/0039-6028(92)90820-V,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-003960289290820V-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:29Z,W2038628579,10.1016/0039-6028(96)00607-3,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-0039602896006073-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:29Z,W2016027679,10.1016/0301-0104(89)87017-X,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-030101048987017X-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:29Z,W1982925801,10.1016/0301-0104(92)85012-J,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-030101049285012J-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:29Z,W2063060872,10.1016/0301-0104(92)85013-K,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-030101049285013K-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:29Z,W2072316483,10.1016/0301-0104(95)00115-5,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-0301010495001155-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:29Z,W2039052636,10.1016/0301-0104(95)00300-4,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-0301010495003004-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:29Z,W2062635466,10.1016/S0009-2614(00)00202-5,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261400002025-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:29Z,W1973865255,10.1016/S0009-2614(00)00442-5,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261400004425-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:30Z,W1974628417,10.1016/S0009-2614(00)00560-1,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261400005601-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:30Z,W2083317387,10.1016/S0009-2614(00)01175-1,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261400011751-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:30Z,W2032542865,10.1016/S0009-2614(00)01338-5,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261400013385-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:30Z,W2011233376,10.1016/S0009-2614(01)00454-7,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261401004547-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:30Z,W2064119851,10.1016/S0009-2614(01)00644-3,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261401006443-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:30Z,W359409544,10.1016/S0009-2614(02)00195-1,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261402001951-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:30Z,W2064752251,10.1016/S0009-2614(02)00208-7,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261402002087-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:30Z,W1964334642,10.1016/S0009-2614(02)00786-8,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261402007868-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:30Z,W1983658472,10.1016/S0009-2614(02)01117-X,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S000926140201117X-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:30Z,W1966750986,10.1016/S0009-2614(02)01791-8,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261402017918-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:30Z,W1994115086,10.1016/j.cplett.2003.11.002,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261403019468-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:30Z,W2064255623,10.1016/j.cplett.2004.02.061,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261404002775-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:30Z,W2045886478,10.1016/j.cplett.2004.05.004,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S000926140400661X-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:30Z,W1982346964,10.1016/j.cplett.2004.07.084,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261404011443-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:30Z,W1994682089,10.1016/j.cplett.2004.08.090,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261404013004-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:30Z,W1970902618,10.1016/j.cplett.2004.11.136,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261404019347-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:30Z,W1974417848,10.1016/j.cplett.2005.01.101,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261405001466-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:30Z,W2090905614,10.1016/j.cplett.2005.08.101,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261405012856-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:30Z,W1985404477,10.1016/j.cplett.2006.05.012,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261406006609-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:30Z,W1974712395,10.1016/j.cplett.2007.01.073,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261407001340-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:30Z,W2068611060,10.1016/j.cplett.2007.06.037,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261407007713-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:30Z,W2071843586,10.1016/j.cplett.2007.08.067,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S000926140701158X-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:30Z,W1979085665,10.1016/j.cplett.2007.12.013,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261407016557-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:30Z,W2094610061,10.1016/j.cplett.2008.07.011,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261408009317-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:30Z,W1999017056,10.1016/j.cplett.2008.11.079,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261408016138-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:30Z,W2019215052,10.1016/j.cplett.2011.02.018,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261411001771-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:30Z,W2013309461,10.1016/j.cplett.2012.02.047,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261412002527-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:30Z,W2077728931,10.1016/j.cplett.2013.06.056,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261413008336-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:30Z,W2136926394,10.1016/S0009-2614(90)87129-F,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S000926149087129F-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:30Z,W1969842664,10.1016/S0009-2614(96)01266-3,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261496012663-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:31Z,W2130417374,10.1016/S0009-2614(97)00442-9,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261497004429-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:31Z,W1985458962,10.1016/S0009-2614(97)00484-3,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261497004843-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:31Z,W2138562076,10.1016/S0009-2614(99)00771-X,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S000926149900771X-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:31Z,W2017207402,10.1016/S0009-2614(99)00861-1,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0009261499008611-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:31Z,W2069121506,10.1016/j.jms.2007.11.012,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0022285207003190-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:31Z,W1984335107,10.1006/jmsp.1993.1100,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0022285283711008-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:31Z,W2035369023,10.1016/S0039-6028(00)00405-2,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0039602800004052-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:31Z,W2104257434,10.1016/S0039-6028(98)00835-8,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0039602898008358-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:31Z,W2172599360,10.1016/j.poly.2015.09.044,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S027753871500546X-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:31Z,W1973191689,10.1016/S0301-0104(00)00108-7,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0301010400001087-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:31Z,W2092065509,10.1016/S0301-0104(00)00207-X,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S030101040000207X-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:31Z,W1978385381,10.1016/S0301-0104(00)00212-3,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0301010400002123-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:31Z,W1965679096,10.1016/S0301-0104(00)00344-X,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S030101040000344X-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:31Z,W2087455573,10.1016/S0301-0104(01)00323-8,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0301010401003238-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:31Z,W2057928678,10.1016/S0301-0104(01)00709-1,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0301010401007091-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:31Z,W2024270447,10.1016/j.chemphys.2005.04.005,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0301010405001163-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:31Z,W2029818738,10.1016/j.chemphys.2010.07.004,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0301010410003162-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:31Z,W2030512233,10.1016/j.chemphys.2011.02.003,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0301010411000371-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:31Z,W2084438527,10.1016/j.chemphys.2011.04.015,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0301010411001340-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:31Z,W2027817749,10.1016/j.chemphys.2012.03.010,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0301010412001206-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:31Z,W2000899826,10.1016/j.chemphys.2012.08.014,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0301010412003102-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:31Z,W2885676681,10.1016/j.chemphys.2018.07.041,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0301010418303252-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:31Z,W2913679044,10.1016/j.chemphys.2019.02.010,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0301010418311959-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:31Z,W2001093629,10.1016/S0301-0104(97)00142-0,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0301010497001420-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:31Z,W1977686200,10.1016/S0301-0104(97)00220-6,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0301010497002206-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:31Z,W1977567671,10.1016/S0301-0104(97)00268-1,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0301010497002681-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:31Z,W2907739916,10.1016/j.bpc.2019.01.001,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S0301462218303363-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:31Z,W2049486220,10.1016/j.cclet.2014.01.050,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S1001841714000692-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:31Z,W2554235816,10.1016/j.jphotochem.2016.11.023,fetch,fetched,"PDF supplied by hand in papers/pending as '1-s2.0-S1010603016308929-main.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:31Z,W2046219521,10.1063/1.464298,fetch,fetched,"PDF supplied by hand in papers/pending as '1299_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:32Z,W1989289437,10.1063/1.2770719,fetch,fetched,"PDF supplied by hand in papers/pending as '134111_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:32Z,W1998971208,10.1063/1.2047551,fetch,fetched,"PDF supplied by hand in papers/pending as '134306_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:32Z,W2094849716,10.1063/1.455138,fetch,fetched,"PDF supplied by hand in papers/pending as '1388_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:32Z,W2018472957,10.1063/1.475517,fetch,fetched,"PDF supplied by hand in papers/pending as '1452_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:32Z,W2004514813,10.1063/1.3652893,fetch,fetched,"PDF supplied by hand in papers/pending as '154305_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:32Z,W2067508969,10.1063/1.3129822,fetch,fetched,"PDF supplied by hand in papers/pending as '184305_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:32Z,W2085561920,10.1063/1.1335596,fetch,fetched,"PDF supplied by hand in papers/pending as '2013_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:32Z,W2012476119,10.1063/1.469688,fetch,fetched,"PDF supplied by hand in papers/pending as '2117_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:32Z,W1970570409,10.1063/1.4882135,fetch,fetched,"PDF supplied by hand in papers/pending as '224314_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:32Z,W2078381736,10.1063/1.454758,fetch,fetched,"PDF supplied by hand in papers/pending as '260_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:32Z,W2009566101,10.1063/1.449159,fetch,fetched,"PDF supplied by hand in papers/pending as '3538_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:32Z,W2056308638,10.1063/1.470728,fetch,fetched,"PDF supplied by hand in papers/pending as '4476_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:32Z,W2051844989,10.1063/1.1390504,fetch,fetched,"PDF supplied by hand in papers/pending as '4496_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:32Z,W1521617169,10.1063/1.473985,fetch,fetched,"PDF supplied by hand in papers/pending as '4536_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:32Z,W2019305654,10.1063/1.458640,fetch,fetched,"PDF supplied by hand in papers/pending as '5029_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:32Z,W4242702293,10.1063/1.452538,fetch,fetched,"PDF supplied by hand in papers/pending as '5617_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:32Z,W2057688749,10.1063/1.1290012,fetch,fetched,"PDF supplied by hand in papers/pending as '6235_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:32Z,W2024075205,10.1063/1.466833,fetch,fetched,"PDF supplied by hand in papers/pending as '7867_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:32Z,W2133231428,10.1063/1.461257,fetch,fetched,"PDF supplied by hand in papers/pending as '8301_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:32Z,W1664791239,10.1063/1.1412469,fetch,fetched,"PDF supplied by hand in papers/pending as '8858_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:32Z,W1995658424,10.1063/1.472751,fetch,fetched,"PDF supplied by hand in papers/pending as '9175_1_online.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:32Z,W181330492,10.1007/978-94-009-4734-4_17,fetch,fetched,"PDF supplied by hand in papers/pending as '978-94-009-4734-4_17.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:32Z,W1551545380,10.1007/978-94-011-4894-8_5,fetch,fetched,"PDF supplied by hand in papers/pending as '978-94-011-4894-8_5.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:32Z,W2145774517,10.1080/00268970701618440,fetch,fetched,"PDF supplied by hand in papers/pending as 'A CAS-DFT study of fundamental degenerate and nearly degenerate systems.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:32Z,W4251375387,10.1023/A:1008270112260,fetch,fetched,"PDF supplied by hand in papers/pending as 'A_1008270112260.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:32Z,W2944393913,10.1002/anie.201904732,fetch,fetched,"PDF supplied by hand in papers/pending as 'Angew Chem Int Ed - 2019 - Bower - Four‐Coordinate Copper Halonitrosyl CuNO 10 Complexes.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:32Z,W3021088535,10.1002/anie.202001934,fetch,fetched,"PDF supplied by hand in papers/pending as 'Angew Chem Int Ed - 2020 - Karadakov - Can Anti‐Aufbau DFT Calculations Estimate Singlet Excited State Aromaticity .pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:32Z,W4248691538,10.1002/ange.200904797,fetch,fetched,"PDF supplied by hand in papers/pending as 'Angewandte Chemie - 2009 - Wang - Calculations and Matrix Infrared Spectra of Terminal Borylene Complexes FB MF2.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:32Z,W2773087018,10.1002/anie.201711658,fetch,fetched,"PDF supplied by hand in papers/pending as 'Angewandte Chemie - 2017 - Wang - Cleavage of Unstrained C C Bonds in Acenes by Boron and Light Transformation of.pdf'; DOI confirmed against Crossref and matched to this index entry, previously not_usable."
+2026-09-09T14:03:33Z,W2016984104,10.1007/BF00527643,fetch,fetched,"PDF supplied by hand in papers/pending as 'BF00527643.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:33Z,W1984737161,10.1007/BF00529300,fetch,fetched,"PDF supplied by hand in papers/pending as 'BF00529300.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:33Z,W2167592558,10.1007/BF01277567,fetch,fetched,"PDF supplied by hand in papers/pending as 'BF01277567.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:33Z,W2021236881,10.1080/00268970701326978,fetch,fetched,"PDF supplied by hand in papers/pending as 'Calculation of transition moments between internally contracted MRCI wave functions with non-orthogonal orbitals .pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:33Z,W2041908939,10.1080/00268979909483001,fetch,extracted,"PDF supplied by hand in papers/pending as 'Characterization of the indacene S0 S1 conical intersection An MMVB and CASSCF study.pdf'; this paper was already extracted, so the file is filed without re-mining."
+2026-09-09T14:03:33Z,W2093388901,10.1002/chin.199222017,fetch,fetched,"PDF supplied by hand in papers/pending as 'ChemInform - June 2 1992 - MARQUEZ - ChemInform Abstract An ab initio CASSCF Study of the HO NOCl Reaction.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:33Z,W2949451637,10.1002/chin.198842116,fetch,fetched,"PDF supplied by hand in papers/pending as 'ChemInform - October 18 1988 - MOROKUMA - ChemInform Abstract Chair and Boat Transition States for the Cope Rearrangement.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:33Z,W2950137022,10.1002/chin.198839241,fetch,fetched,"PDF supplied by hand in papers/pending as 'ChemInform - September 27 1988 - VEILLARD - ChemInform Abstract A CASSCF and CCI Study of the Photochemistry of HCo CO 4.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:33Z,W2950560338,10.1002/chin.199239055,fetch,fetched,"PDF supplied by hand in papers/pending as 'ChemInform - September 29 1992 - CAVE - ChemInform Abstract A CASSCF Study of Various Rotamers of the Hexatriene Radical.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:33Z,W3037394660,10.1002/cptc.202000098,fetch,fetched,"PDF supplied by hand in papers/pending as 'ChemPhotoChem - 2020 - Omar - Elucidating the Relationship between Multiradical Character and Predicted Singlet Fission.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:33Z,W2160498705,10.1002/cphc.200200579,fetch,fetched,"PDF supplied by hand in papers/pending as 'ChemPhysChem - 2003 - Diau - Femtochemistry of trans‐Azomethane A Combined Experimental and Theoretical Study.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:33Z,W2164390430,10.1002/cphc.200600043,fetch,fetched,"PDF supplied by hand in papers/pending as 'ChemPhysChem - 2006 - Carra - Experimental and Theoretical Study of 2 6‐Difluorophenylnitrene Its Radical Cation and.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:33Z,W2058415590,10.1002/cphc.201100136,fetch,fetched,"PDF supplied by hand in papers/pending as 'ChemPhysChem - 2011 - Lopez - Diradicals and Diradicaloids in Natural Orbital Functional Theory.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:33Z,W2035122975,10.1002/cphc.201100559,fetch,fetched,"PDF supplied by hand in papers/pending as 'ChemPhysChem - 2011 - Vogiatzis - Magnetic Properties of Paddlewheels and Trinuclear Clusters with Exposed Metal Sites.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:33Z,W2115373155,10.1002/cphc.201402743,fetch,fetched,"PDF supplied by hand in papers/pending as 'ChemPhysChem - 2015 - Guan - Computational Photochemistry of the Azobenzene Scaffold of Sudan I and Orange II Dyes .pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:33Z,W2056964646,10.1002/chem.200204633,fetch,fetched,"PDF supplied by hand in papers/pending as 'Chemistry A European J - 2003 - Köhn - Why Does a Ga2 Dimer React Spontaneously with H2 but a Ga Atom Does Not A Detailed.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:33Z,W2167464233,10.1002/chem.200204583,fetch,fetched,"PDF supplied by hand in papers/pending as 'Chemistry A European J - 2003 - Ottosson - Zwitterionic Silenes Interesting Goals for Synthesis.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:33Z,W2117165830,10.1002/chem.201303489,fetch,fetched,"PDF supplied by hand in papers/pending as 'Chemistry A European J - 2013 - Singh - Can Anisotropic Exchange Be Reliably Calculated Using Density Functional Methods A.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:33Z,W2147172075,10.1002/chem.201304631,fetch,fetched,"PDF supplied by hand in papers/pending as 'Chemistry A European J - 2014 - Zell - Iron Dicarbonyl Complexes Featuring Bipyridine‐Based PNN Pincer Ligands with Short.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:33Z,W2175930880,10.1002/chem.201503102,fetch,fetched,"PDF supplied by hand in papers/pending as 'Chemistry A European J - 2015 - Singh - Role of Magnetic Exchange Interactions in the Magnetization Relaxation of 3d 4f .pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:33Z,W2747899145,10.1002/chem.201703237,fetch,fetched,"PDF supplied by hand in papers/pending as 'Chemistry A European J - 2017 - Conti - Multiple Electronic and Structural Factors Control Cyclobutane Pyrimidine Dimer and.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:33Z,W2592993315,10.1002/chem.201700231,fetch,fetched,"PDF supplied by hand in papers/pending as 'Chemistry A European J - 2017 - Thapa - Computational Study of Oxidation of Guanine by Singlet Oxygen 1 g and Formation.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:33Z,W2616557405,10.1002/chem.201606031,fetch,fetched,"PDF supplied by hand in papers/pending as 'Chemistry A European J - 2017 - Vaidya - Role of Halide Ions in the Nature of the Magnetic Anisotropy in Tetrahedral CoII.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:33Z,W2921632035,10.1002/chem.201900677,fetch,fetched,"PDF supplied by hand in papers/pending as 'Chemistry A European J - 2019 - Martinez‐Fernandez - Excited‐State Dynamics of Thienoguanosine an Isomorphic Highly.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:33Z,W2976584306,10.1002/asia.201900828,fetch,fetched,"PDF supplied by hand in papers/pending as 'Chemistry An Asian Journal - 2019 - Swain - Role of Ab Initio Calculations in the Design and Development of.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:33Z,W2079179858,10.1080/0026897021000037672,fetch,fetched,"PDF supplied by hand in papers/pending as 'Combining two-body density functionals with multiconfigurational wavefunctions diatomic molecules.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:33Z,W1973069831,10.1002/kin.10006,fetch,fetched,"PDF supplied by hand in papers/pending as 'Int J of Chemical Kinetics - 2001 - Kiefer - Thermodynamic functions for the cyclopentadienyl radical The effect of Jahn.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:33Z,W2088643447,10.1002/kin.20299,fetch,fetched,"PDF supplied by hand in papers/pending as 'Int J of Chemical Kinetics - 2008 - Li - CASPT2 investigation of ethane dissociation and methyl recombination using.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:33Z,W2111343751,10.1002/qua.560460502,fetch,fetched,"PDF supplied by hand in papers/pending as 'Int J of Quantum Chemistry - 1993 - Cassam‐Chenaï - Spin‐unrestricted calculations in quantum chemistry.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:33Z,W2002702987,10.1002/qua.21612,fetch,fetched,"PDF supplied by hand in papers/pending as 'Int J of Quantum Chemistry - 2008 - Zechmann - Ab initio study of the photochemistry of aminopyrimidine.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:34Z,W1967307948,10.1002/jccs.200000099,fetch,fetched,"PDF supplied by hand in papers/pending as 'J Chinese Chemical Soc - 2013 - Kummrow - Ultrafast Charge Transfer Studied by Femtosecond IR‐Spectroscopy and ab Initio.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:34Z,W2140875459,10.1002/jcc.20949,fetch,fetched,"PDF supplied by hand in papers/pending as 'J Comput Chem - 2008 - Corral - Theoretical investigation of anthracene‐9 10‐endoperoxide vertical singlet and triplet.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:34Z,W2149066803,10.1002/jcc.21042,fetch,fetched,"PDF supplied by hand in papers/pending as 'J Comput Chem - 2008 - Zyubin - Quantum chemical modeling of photoadsorption properties of the nitrogen‐vacancy point.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:34Z,W1993875641,10.1002/jcc.23103,fetch,fetched,"PDF supplied by hand in papers/pending as 'J Comput Chem - 2012 - Song - An efficient algorithm for complete active space valence bond self‐consistent field.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:34Z,W2220861689,10.1002/jcc.24283,fetch,fetched,"PDF supplied by hand in papers/pending as 'J Comput Chem - 2015 - Vela - On the zeroth‐order hamiltonian for CASPT2 calculations of spin crossover compounds.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:34Z,W2145246665,10.1002/jcc.540090806,fetch,fetched,"PDF supplied by hand in papers/pending as 'J Comput Chem - December 1988 - Rubio - Doublet instability and the molecular structure of AlO2.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:34Z,W2067936763,10.1002/jcc.540090608,fetch,fetched,"PDF supplied by hand in papers/pending as 'J Comput Chem - September 1988 - Yamamoto - Development of a program for MCSCF calculations with large basis sets.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:34Z,W2109086238,10.1080/00268979609484538,fetch,fetched,"PDF supplied by hand in papers/pending as 'Millimetre-wave and infrared spectroscopy of Br13CN anharmonic force field of cyanogen bromide from spectroscopic data and ab initio calculations.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:34Z,W2599598833,10.1080/00268976.2017.1303207,fetch,fetched,"PDF supplied by hand in papers/pending as 'Natural molecular orbitals limits of a Lowdin s conjecture.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:34Z,W2000660292,10.1080/00268970412331333023,fetch,fetched,"PDF supplied by hand in papers/pending as 'On the choice of reference in multi-reference electronic structure theory minimal references for bond breaking.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:34Z,W1833156349,10.1080/00268970210162727,fetch,fetched,"PDF supplied by hand in papers/pending as 'Structure and bonding of the C6H6 2 radical.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:34Z,W2020801480,10.1080/00268978200101281,fetch,fetched,"PDF supplied by hand in papers/pending as 'Theoretical and experimental studies of a new predissociation in the A 2 state of CCl.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:34Z,W2092288980,10.1080/00268970802454786,fetch,fetched,"PDF supplied by hand in papers/pending as 'Theoretical study of molecular properties of low-lying electronic excited states of H2O and H2S.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:34Z,W2042082656,10.1080/00268970500417580,fetch,fetched,"PDF supplied by hand in papers/pending as 'Theoretical study of the formation and isomerization of Al2H2.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:34Z,W4405455336,10.26434/chemrxiv-2024-dcpqv-v2,fetch,extracted,"PDF supplied by hand in papers/pending as 'chemrxiv-2024-dcpqv-v2.pdf'; this paper was already extracted, so the file is filed without re-mining."
+2026-09-09T14:03:34Z,W4417449308,10.26434/chemrxiv-2025-nnc73,fetch,fetched,"PDF supplied by hand in papers/pending as 'chemrxiv-2025-nnc73.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:34Z,W4416881924,10.1039/d5sc09498d,fetch,extracted,"PDF supplied by hand in papers/pending as 'd5sc09498d.pdf'; this paper was already extracted, so the file is filed without re-mining."
+2026-09-09T14:03:34Z,W2012798961,10.1139/v93-206,fetch,fetched,"PDF supplied by hand in papers/pending as 'johnston-et-al-2011-assignment-and-vibrational-analysis-of-the-600-nm-absorption-band-in-the-phenoxyl-radical-and-some.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:34Z,W2517200413,10.1021/jp980779n,fetch,fetched,"PDF supplied by hand in papers/pending as 'jp980779n.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:34Z,W4400358557,10.1364/OL.532228,fetch,fetched,"PDF supplied by hand in papers/pending as 'ol-49-15-4190.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:34Z,W2020895676,10.1007/s00214-002-0334-1,fetch,fetched,"PDF supplied by hand in papers/pending as 's00214-002-0334-1.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:34Z,W1986439999,10.1007/s00214-002-0420-4,fetch,fetched,"PDF supplied by hand in papers/pending as 's00214-002-0420-4.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:34Z,W1994492781,10.1007/s00214-006-0094-4,fetch,fetched,"PDF supplied by hand in papers/pending as 's00214-006-0094-4.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:34Z,W1977583863,10.1007/s00214-007-0259-9,fetch,fetched,"PDF supplied by hand in papers/pending as 's00214-007-0259-9.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:34Z,W2031532506,10.1007/s002140050257,fetch,fetched,"PDF supplied by hand in papers/pending as 's002140050257.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:34Z,W2044303189,10.1007/s002140050382,fetch,fetched,"PDF supplied by hand in papers/pending as 's002140050382.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:34Z,W2001061639,10.1007/s002140050512,fetch,fetched,"PDF supplied by hand in papers/pending as 's002140050512.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:34Z,W2170696532,10.1007/s002140050524,fetch,fetched,"PDF supplied by hand in papers/pending as 's002140050524.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:34Z,W2015726607,10.1007/s11244-013-0061-y,fetch,fetched,"PDF supplied by hand in papers/pending as 's11244-013-0061-y.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:35Z,W1765844519,10.1007/s11426-007-0127-4,fetch,fetched,"PDF supplied by hand in papers/pending as 's11426-007-0127-4.pdf'; DOI confirmed against Crossref and matched to this index entry, previously fetch_failed."
+2026-09-09T14:03:40Z,W2773087018,10.1002/anie.201711658,text,text_ready,5 pages -> W2773087018.txt
+2026-09-09T14:03:40Z,W2020608829,10.1063/1.4913515,text,text_ready,10 pages -> W2020608829.txt
+2026-09-09T14:03:40Z,W1971261617,10.1063/1.2822283,text,text_ready,12 pages -> W1971261617.txt
+2026-09-09T14:03:40Z,W1521617169,10.1063/1.473985,text,text_ready,8 pages -> W1521617169.txt
+2026-09-09T14:03:40Z,W2136926394,10.1016/s0009-2614(90)87129-f,text,text_ready,7 pages -> W2136926394.txt
+2026-09-09T14:03:41Z,W2084438527,10.1016/j.chemphys.2011.04.015,text,text_ready,8 pages -> W2084438527.txt
+2026-09-09T14:03:41Z,W1994492781,10.1007/s00214-006-0094-4,text,text_ready,7 pages -> W1994492781.txt
+2026-09-09T14:03:41Z,W1974417848,10.1016/j.cplett.2005.01.101,text,text_ready,5 pages -> W1974417848.txt
+2026-09-09T14:03:41Z,W2092065509,10.1016/s0301-0104(00)00207-x,text,text_ready,9 pages -> W2092065509.txt
+2026-09-09T14:03:41Z,W2000899826,10.1016/j.chemphys.2012.08.014,text,text_ready,10 pages -> W2000899826.txt
+2026-09-09T14:03:42Z,W1993875641,10.1002/jcc.23103,text,text_ready,11 pages -> W1993875641.txt
+2026-09-09T14:03:42Z,W2885676681,10.1016/j.chemphys.2018.07.041,text,text_ready,9 pages -> W2885676681.txt
+2026-09-09T14:03:42Z,W1986439999,10.1007/s00214-002-0420-4,text,text_ready,6 pages -> W1986439999.txt
+2026-09-09T14:03:42Z,W359409544,10.1016/s0009-2614(02)00195-1,text,text_ready,10 pages -> W359409544.txt
+2026-09-09T14:03:43Z,W2133231428,10.1063/1.461257,text,text_ready,9 pages -> W2133231428.txt
+2026-09-09T14:03:43Z,W3193775202,10.26902/jsc_id59826,text,text_ready,7 pages -> W3193775202.txt
+2026-09-09T14:03:43Z,W1973191689,10.1016/s0301-0104(00)00108-7,text,text_ready,8 pages -> W1973191689.txt
+2026-09-09T14:03:43Z,W2554235816,10.1016/j.jphotochem.2016.11.023,text,text_ready,6 pages -> W2554235816.txt
+2026-09-09T14:03:43Z,W2039052636,10.1016/0301-0104(95)00300-4,text,text_ready,8 pages -> W2039052636.txt
+2026-09-09T14:03:43Z,W1977583863,10.1007/s00214-007-0259-9,text,text_ready,11 pages -> W1977583863.txt
+2026-09-09T14:03:44Z,W2145774517,10.1080/00268970701618440,text,text_ready,14 pages -> W2145774517.txt
+2026-09-09T14:03:44Z,W1966750986,10.1016/s0009-2614(02)01791-8,text,text_ready,8 pages -> W1966750986.txt
+2026-09-09T14:03:45Z,W2064255623,10.1016/j.cplett.2004.02.061,text,text_ready,6 pages -> W2064255623.txt
+2026-09-09T14:03:45Z,W2517200413,10.1021/jp980779n,text,text_ready,8 pages -> W2517200413.txt
+2026-09-09T14:03:45Z,W2021236881,10.1080/00268970701326978,text,text_ready,12 pages -> W2021236881.txt
+2026-09-09T14:03:45Z,W1989289437,10.1063/1.2770719,text,text_ready,12 pages -> W1989289437.txt
+2026-09-09T14:03:45Z,W2077728931,10.1016/j.cplett.2013.06.056,text,text_ready,5 pages -> W2077728931.txt
+2026-09-09T14:03:45Z,W1765844519,10.1007/s11426-007-0127-4,text,text_ready,6 pages -> W1765844519.txt
+2026-09-09T14:03:46Z,W2018472957,10.1063/1.475517,text,text_ready,8 pages -> W2018472957.txt
+2026-09-09T14:03:46Z,W2057928678,10.1016/s0301-0104(01)00709-1,text,text_ready,12 pages -> W2057928678.txt
+2026-09-09T14:03:46Z,W2032542865,10.1016/s0009-2614(00)01338-5,text,text_ready,9 pages -> W2032542865.txt
+2026-09-09T14:03:46Z,W2062635466,10.1016/s0009-2614(00)00202-5,text,text_ready,6 pages -> W2062635466.txt
+2026-09-09T14:03:46Z,W2063060872,10.1016/0301-0104(92)85013-k,text,text_ready,9 pages -> W2063060872.txt
+2026-09-09T14:03:46Z,W2085561920,10.1063/1.1335596,text,text_ready,10 pages -> W2085561920.txt
+2026-09-09T14:03:47Z,W2747899145,10.1002/chem.201703237,text,text_ready,12 pages -> W2747899145.txt
+2026-09-09T14:03:47Z,W2220861689,10.1002/jcc.24283,text,text_ready,7 pages -> W2220861689.txt
+2026-09-09T14:03:47Z,W3037394660,10.1002/cptc.202000098,text,text_ready,7 pages -> W3037394660.txt
+2026-09-09T14:03:47Z,W2017207402,10.1016/s0009-2614(99)00861-1,text,text_ready,6 pages -> W2017207402.txt
+2026-09-09T14:03:47Z,W2921632035,10.1002/chem.201900677,text,text_ready,12 pages -> W2921632035.txt
+2026-09-09T14:03:48Z,W2976584306,10.1002/asia.201900828,text,text_ready,18 pages -> W2976584306.txt
+2026-09-09T14:03:48Z,W1978385381,10.1016/s0301-0104(00)00212-3,text,text_ready,9 pages -> W1978385381.txt
+2026-09-09T14:03:48Z,W1970570409,10.1063/1.4882135,text,text_ready,9 pages -> W1970570409.txt
+2026-09-09T14:03:48Z,W2056308638,10.1063/1.470728,text,text_ready,9 pages -> W2056308638.txt
+2026-09-09T14:03:48Z,W1994682089,10.1016/j.cplett.2004.08.090,text,text_ready,6 pages -> W1994682089.txt
+2026-09-09T14:03:48Z,W2090905614,10.1016/j.cplett.2005.08.101,text,text_ready,4 pages -> W2090905614.txt
+2026-09-09T14:03:49Z,W1983658472,10.1016/s0009-2614(02)01117-x,text,text_ready,7 pages -> W1983658472.txt
+2026-09-09T14:03:49Z,W1969842664,10.1016/s0009-2614(96)01266-3,text,text_ready,4 pages -> W1969842664.txt
+2026-09-09T14:03:49Z,W1965679096,10.1016/s0301-0104(00)00344-x,text,text_ready,11 pages -> W1965679096.txt
+2026-09-09T14:03:49Z,W1997473022,10.1016/0009-2614(93)89211-y,text,text_ready,7 pages -> W1997473022.txt
+2026-09-09T14:03:49Z,W1993715210,10.1016/0022-2852(88)90242-1,text,text_ready,15 pages -> W1993715210.txt
+2026-09-09T14:03:49Z,W1985404477,10.1016/j.cplett.2006.05.012,text,text_ready,7 pages -> W1985404477.txt
+2026-09-09T14:03:50Z,W2016027679,10.1016/0301-0104(89)87017-x,text,text_ready,8 pages -> W2016027679.txt
+2026-09-09T14:03:50Z,W2031532506,10.1007/s002140050257,text,text_ready,8 pages -> W2031532506.txt
+2026-09-09T14:03:50Z,W1977567671,10.1016/s0301-0104(97)00268-1,text,text_ready,9 pages -> W1977567671.txt
+2026-09-09T14:03:50Z,W4400358557,10.1364/ol.532228,text,text_ready,4 pages -> W4400358557.txt
+2026-09-09T14:03:50Z,W2175930880,10.1002/chem.201503102,text,text_ready,9 pages -> W2175930880.txt
+2026-09-09T14:03:51Z,W2027817749,10.1016/j.chemphys.2012.03.010,text,text_ready,11 pages -> W2027817749.txt
+2026-09-09T14:03:51Z,W2088643447,10.1002/kin.20299,text,text_ready,13 pages -> W2088643447.txt
+2026-09-09T14:03:51Z,W2111343751,10.1002/qua.560460502,text,text_ready,15 pages -> W2111343751.txt
+2026-09-09T14:03:51Z,W1976943265,10.1016/0009-2614(93)89356-m,text,text_ready,6 pages -> W1976943265.txt
+2026-09-09T14:03:51Z,W2012798961,10.1139/v93-206,text,text_ready,8 pages -> W2012798961.txt
+2026-09-09T14:03:51Z,W2104257434,10.1016/s0039-6028(98)00835-8,text,text_ready,10 pages -> W2104257434.txt
+2026-09-09T14:03:51Z,W2062357187,10.1016/0009-2614(91)90226-y,text,text_ready,5 pages -> W2062357187.txt
+2026-09-09T14:03:52Z,W1974628417,10.1016/s0009-2614(00)00560-1,text,text_ready,7 pages -> W1974628417.txt
+2026-09-09T14:03:52Z,W1984335107,10.1006/jmsp.1993.1100,text,text_unreadable,ValueError: only 116 chars extracted — likely a scanned/image PDF
+2026-09-09T14:03:52Z,W2094610061,10.1016/j.cplett.2008.07.011,text,text_ready,4 pages -> W2094610061.txt
+2026-09-09T14:03:52Z,W2009566101,10.1063/1.449159,text,text_ready,10 pages -> W2009566101.txt
+2026-09-09T14:03:52Z,W2145246665,10.1002/jcc.540090806,text,text_ready,8 pages -> W2145246665.txt
+2026-09-09T14:03:53Z,W1970902618,10.1016/j.cplett.2004.11.136,text,text_ready,6 pages -> W1970902618.txt
+2026-09-09T14:03:53Z,W2044303189,10.1007/s002140050382,text,text_ready,10 pages -> W2044303189.txt
+2026-09-09T14:03:53Z,W2083395661,10.1016/0022-2852(89)90104-5,text,text_ready,15 pages -> W2083395661.txt
+2026-09-09T14:03:53Z,W2093388901,10.1002/chin.199222017,text,text_ready,1 pages -> W2093388901.txt
+2026-09-09T14:03:53Z,W2950137022,10.1002/chin.198839241,text,text_unreadable,ValueError: only 169 chars extracted — likely a scanned/image PDF
+2026-09-09T14:03:55Z,W2046219521,10.1063/1.464298,text,text_ready,31 pages -> W2046219521.txt
+2026-09-09T14:03:55Z,W2035122975,10.1002/cphc.201100559,text,text_ready,13 pages -> W2035122975.txt
+2026-09-09T14:03:55Z,W2944393913,10.1002/anie.201904732,text,text_ready,5 pages -> W2944393913.txt
+2026-09-09T14:03:55Z,W1999017056,10.1016/j.cplett.2008.11.079,text,text_ready,5 pages -> W1999017056.txt
+2026-09-09T14:03:56Z,W1973069831,10.1002/kin.10006,text,text_ready,12 pages -> W1973069831.txt
+2026-09-09T14:03:56Z,W2051844989,10.1063/1.1390504,text,text_ready,7 pages -> W2051844989.txt
+2026-09-09T14:03:56Z,W2913679044,10.1016/j.chemphys.2019.02.010,text,text_ready,7 pages -> W2913679044.txt
+2026-09-09T14:03:56Z,W1974712395,10.1016/j.cplett.2007.01.073,text,text_ready,5 pages -> W1974712395.txt
+2026-09-09T14:03:56Z,W2160498705,10.1002/cphc.200200579,text,text_ready,12 pages -> W2160498705.txt
+2026-09-09T14:03:56Z,W2030512233,10.1016/j.chemphys.2011.02.003,text,text_ready,7 pages -> W2030512233.txt
+2026-09-09T14:03:57Z,W2056964646,10.1002/chem.200204633,text,text_ready,11 pages -> W2056964646.txt
+2026-09-09T14:03:57Z,W2020801480,10.1080/00268978200101281,text,text_ready,19 pages -> W2020801480.txt
+2026-09-09T14:03:57Z,W1964334642,10.1016/s0009-2614(02)00786-8,text,text_ready,7 pages -> W1964334642.txt
+2026-09-09T14:03:57Z,W2060827160,10.1016/0009-2614(90)87048-v,text,text_ready,5 pages -> W2060827160.txt
+2026-09-09T14:03:58Z,W2078381736,10.1063/1.454758,text,text_ready,13 pages -> W2078381736.txt
+2026-09-09T14:03:58Z,W2162377719,10.1016/0009-2614(94)00967-8,text,text_ready,8 pages -> W2162377719.txt
+2026-09-09T14:03:58Z,W2950560338,10.1002/chin.199239055,text,text_unreadable,ValueError: only 309 chars extracted — likely a scanned/image PDF
+2026-09-09T14:03:58Z,W2616557405,10.1002/chem.201606031,text,text_ready,14 pages -> W2616557405.txt
+2026-09-09T14:04:00Z,W2029818738,10.1016/j.chemphys.2010.07.004,text,text_ready,7 pages -> W2029818738.txt
+2026-09-09T14:04:01Z,W2907739916,10.1016/j.bpc.2019.01.001,text,text_ready,9 pages -> W2907739916.txt
+2026-09-09T14:04:01Z,W2140875459,10.1002/jcc.20949,text,text_ready,10 pages -> W2140875459.txt
+2026-09-09T14:04:01Z,W2016984104,10.1007/bf00527643,text,text_ready,10 pages -> W2016984104.txt
+2026-09-09T14:04:01Z,W2035369023,10.1016/s0039-6028(00)00405-2,text,text_ready,5 pages -> W2035369023.txt
+2026-09-09T14:04:01Z,W1994115086,10.1016/j.cplett.2003.11.002,text,text_ready,6 pages -> W1994115086.txt
+2026-09-09T14:04:01Z,W2064119851,10.1016/s0009-2614(01)00644-3,text,text_ready,11 pages -> W2064119851.txt
+2026-09-09T14:04:02Z,W2072316483,10.1016/0301-0104(95)00115-5,text,text_ready,11 pages -> W2072316483.txt
+2026-09-09T14:04:02Z,W2109086238,10.1080/00268979609484538,text,text_ready,19 pages -> W2109086238.txt
+2026-09-09T14:04:02Z,W1833156349,10.1080/00268970210162727,text,text_ready,7 pages -> W1833156349.txt
+2026-09-09T14:04:02Z,W2020895676,10.1007/s00214-002-0334-1,text,text_ready,4 pages -> W2020895676.txt
+2026-09-09T14:04:02Z,W2038628579,10.1016/0039-6028(96)00607-3,text,text_ready,6 pages -> W2038628579.txt
+2026-09-09T14:04:02Z,W1995658424,10.1063/1.472751,text,text_ready,8 pages -> W1995658424.txt
+2026-09-09T14:04:02Z,W2001227273,10.1016/0022-2852(89)90326-3,text,text_ready,9 pages -> W2001227273.txt
+2026-09-09T14:04:03Z,W2169978701,10.1016/0009-2614(95)01094-p,text,text_ready,6 pages -> W2169978701.txt
+2026-09-09T14:04:03Z,W2083317387,10.1016/s0009-2614(00)01175-1,text,text_ready,6 pages -> W2083317387.txt
+2026-09-09T14:04:03Z,W1992745138,10.1016/0009-2614(92)85361-d,text,text_ready,10 pages -> W1992745138.txt
+2026-09-09T14:04:04Z,W181330492,10.1007/978-94-009-4734-4_17,text,text_ready,21 pages -> W181330492.txt
+2026-09-09T14:04:04Z,W2949451637,10.1002/chin.198842116,text,text_unreadable,ValueError: only 76 chars extracted — likely a scanned/image PDF
+2026-09-09T14:04:04Z,W4417449308,10.26434/chemrxiv-2025-nnc73,text,text_ready,20 pages -> W4417449308.txt
+2026-09-09T14:04:04Z,W2167464233,10.1002/chem.200204583,text,text_ready,12 pages -> W2167464233.txt
+2026-09-09T14:04:04Z,W2115373155,10.1002/cphc.201402743,text,text_ready,7 pages -> W2115373155.txt
+2026-09-09T14:04:04Z,W2069121506,10.1016/j.jms.2007.11.012,text,text_ready,5 pages -> W2069121506.txt
+2026-09-09T14:04:05Z,W2172599360,10.1016/j.poly.2015.09.044,text,text_ready,5 pages -> W2172599360.txt
+2026-09-09T14:04:05Z,W2587880401,10.1063/1.4975322,text,text_ready,20 pages -> W2587880401.txt
+2026-09-09T14:04:05Z,W2011963499,10.1016/0009-2614(94)01501-l,text,text_ready,8 pages -> W2011963499.txt
+2026-09-09T14:04:05Z,W2117165830,10.1002/chem.201303489,text,text_ready,11 pages -> W2117165830.txt
+2026-09-09T14:04:06Z,W2049486220,10.1016/j.cclet.2014.01.050,text,text_ready,5 pages -> W2049486220.txt
+2026-09-09T14:04:06Z,W2024270447,10.1016/j.chemphys.2005.04.005,text,text_ready,9 pages -> W2024270447.txt
+2026-09-09T14:04:06Z,W2000660292,10.1080/00268970412331333023,text,text_ready,13 pages -> W2000660292.txt
+2026-09-09T14:04:06Z,W2170696532,10.1007/s002140050524,text,text_ready,5 pages -> W2170696532.txt
+2026-09-09T14:04:06Z,W2011233376,10.1016/s0009-2614(01)00454-7,text,text_ready,7 pages -> W2011233376.txt
+2026-09-09T14:04:06Z,W2068611060,10.1016/j.cplett.2007.06.037,text,text_ready,6 pages -> W2068611060.txt
+2026-09-09T14:04:07Z,W1526169862,10.1063/1.1829052,text,text_ready,8 pages -> W1526169862.txt
+2026-09-09T14:04:07Z,W2094849716,10.1063/1.455138,text,text_ready,14 pages -> W2094849716.txt
+2026-09-09T14:04:08Z,W2067936763,10.1002/jcc.540090608,text,text_ready,9 pages -> W2067936763.txt
+2026-09-09T14:04:08Z,W2015726607,10.1007/s11244-013-0061-y,text,text_ready,12 pages -> W2015726607.txt
+2026-09-09T14:04:08Z,W2592993315,10.1002/chem.201700231,text,text_ready,10 pages -> W2592993315.txt
+2026-09-09T14:04:08Z,W2058415590,10.1002/cphc.201100136,text,text_ready,5 pages -> W2058415590.txt
+2026-09-09T14:04:08Z,W2067508969,10.1063/1.3129822,text,text_ready,6 pages -> W2067508969.txt
+2026-09-09T14:04:08Z,W2092288980,10.1080/00268970802454786,text,text_ready,13 pages -> W2092288980.txt
+2026-09-09T14:04:08Z,W2013309461,10.1016/j.cplett.2012.02.047,text,text_ready,4 pages -> W2013309461.txt
+2026-09-09T14:04:09Z,W1982925801,10.1016/0301-0104(92)85012-j,text,text_ready,9 pages -> W1982925801.txt
+2026-09-09T14:04:09Z,W1973865255,10.1016/s0009-2614(00)00442-5,text,text_ready,5 pages -> W1973865255.txt
+2026-09-09T14:04:09Z,W2052997757,10.1063/1.4861670,text,text_ready,12 pages -> W2052997757.txt
+2026-09-09T14:04:09Z,W2087455573,10.1016/s0301-0104(01)00323-8,text,text_ready,9 pages -> W2087455573.txt
+2026-09-09T14:04:09Z,W4248691538,10.1002/ange.200904797,text,text_ready,4 pages -> W4248691538.txt
+2026-09-09T14:04:10Z,W2004487737,10.1016/0039-6028(92)90820-v,text,text_ready,9 pages -> W2004487737.txt
+2026-09-09T14:04:10Z,W2041670570,10.1016/0009-2614(89)87145-3,text,text_ready,6 pages -> W2041670570.txt
+2026-09-09T14:04:10Z,W2064752251,10.1016/s0009-2614(02)00208-7,text,text_ready,10 pages -> W2064752251.txt
+2026-09-09T14:04:10Z,W2002702987,10.1002/qua.21612,text,text_ready,11 pages -> W2002702987.txt
+2026-09-09T14:04:10Z,W2045886478,10.1016/j.cplett.2004.05.004,text,text_ready,5 pages -> W2045886478.txt
+2026-09-09T14:04:10Z,W2042082656,10.1080/00268970500417580,text,text_ready,13 pages -> W2042082656.txt
+2026-09-09T14:04:11Z,W4251375387,10.1023/a:1008270112260,text,text_ready,19 pages -> W4251375387.txt
+2026-09-09T14:04:11Z,W1664791239,10.1063/1.1412469,text,text_ready,11 pages -> W1664791239.txt
+2026-09-09T14:04:11Z,W2085917192,10.1016/0009-2614(94)01040-4,text,text_ready,10 pages -> W2085917192.txt
+2026-09-09T14:04:11Z,W1967307948,10.1002/jccs.200000099,text,text_ready,8 pages -> W1967307948.txt
+2026-09-09T14:04:12Z,W4242702293,10.1063/1.452538,text,text_ready,9 pages -> W4242702293.txt
+2026-09-09T14:04:12Z,W1977686200,10.1016/s0301-0104(97)00220-6,text,text_ready,10 pages -> W1977686200.txt
+2026-09-09T14:04:12Z,W2071843586,10.1016/j.cplett.2007.08.067,text,text_ready,6 pages -> W2071843586.txt
+2026-09-09T14:04:12Z,W1984737161,10.1007/bf00529300,text,text_ready,6 pages -> W1984737161.txt
+2026-09-09T14:04:12Z,W2147172075,10.1002/chem.201304631,text,text_ready,11 pages -> W2147172075.txt
+2026-09-09T14:04:13Z,W2004514813,10.1063/1.3652893,text,text_ready,11 pages -> W2004514813.txt
+2026-09-09T14:04:13Z,W2149066803,10.1002/jcc.21042,text,text_ready,13 pages -> W2149066803.txt
+2026-09-09T14:04:13Z,W2079179858,10.1080/0026897021000037672,text,text_ready,12 pages -> W2079179858.txt
+2026-09-09T14:04:13Z,W1979085665,10.1016/j.cplett.2007.12.013,text,text_ready,5 pages -> W1979085665.txt
+2026-09-09T14:04:13Z,W2164390430,10.1002/cphc.200600043,text,text_ready,8 pages -> W2164390430.txt
+2026-09-09T14:04:13Z,W2019215052,10.1016/j.cplett.2011.02.018,text,text_ready,5 pages -> W2019215052.txt
+2026-09-09T14:04:13Z,W3021088535,10.1002/anie.202001934,text,text_ready,3 pages -> W3021088535.txt
+2026-09-09T14:04:14Z,W2012476119,10.1063/1.469688,text,text_ready,10 pages -> W2012476119.txt
+2026-09-09T14:04:14Z,W1982346964,10.1016/j.cplett.2004.07.084,text,text_ready,7 pages -> W1982346964.txt
+2026-09-09T14:04:14Z,W2130417374,10.1016/s0009-2614(97)00442-9,text,text_ready,7 pages -> W2130417374.txt
+2026-09-09T14:04:14Z,W2167592558,10.1007/bf01277567,text,text_ready,19 pages -> W2167592558.txt
+2026-09-09T14:04:15Z,W2599598833,10.1080/00268976.2017.1303207,text,text_ready,13 pages -> W2599598833.txt
+2026-09-09T14:04:15Z,W1998971208,10.1063/1.2047551,text,text_ready,6 pages -> W1998971208.txt
+2026-09-09T14:04:15Z,W2024075205,10.1063/1.466833,text,text_ready,9 pages -> W2024075205.txt
+2026-09-09T14:04:15Z,W2138562076,10.1016/s0009-2614(99)00771-x,text,text_ready,10 pages -> W2138562076.txt
+2026-09-09T14:04:15Z,W2001093629,10.1016/s0301-0104(97)00142-0,text,text_ready,12 pages -> W2001093629.txt
+2026-09-09T14:04:16Z,W2057688749,10.1063/1.1290012,text,text_ready,11 pages -> W2057688749.txt
+2026-09-09T14:04:16Z,W1985458962,10.1016/s0009-2614(97)00484-3,text,text_ready,7 pages -> W1985458962.txt
+2026-09-09T14:04:16Z,W2019305654,10.1063/1.458640,text,text_ready,9 pages -> W2019305654.txt
+2026-09-09T14:04:17Z,W1551545380,10.1007/978-94-011-4894-8_5,text,text_ready,19 pages -> W1551545380.txt
+2026-09-09T14:04:17Z,W2001061639,10.1007/s002140050512,text,text_ready,8 pages -> W2001061639.txt
+2026-09-09T14:04:17Z,W2064119851,10.1016/s0009-2614(01)00644-3,text,text_ready,re-extracted with poppler pdftotext -layout; pypdf output was glyph-encoded and unreadable
+2026-09-09T14:04:17Z,W2011233376,10.1016/s0009-2614(01)00454-7,text,text_ready,re-extracted with poppler pdftotext -layout; pypdf output was glyph-encoded and unreadable
+2026-09-09T14:04:17Z,W2087455573,10.1016/s0301-0104(01)00323-8,text,text_ready,re-extracted with poppler pdftotext -layout; pypdf output was glyph-encoded and unreadable
+2026-09-09T14:05:42Z,W2170696532-a,10.1007/s002140050524,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:05:42Z,W2109086238-a,10.1080/00268979609484538,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:05:42Z,W4400358557-a,10.1364/ol.532228,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:05:43Z,W2068611060-a,10.1016/j.cplett.2007.06.037,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:06:16Z,W2068611060,10.1016/j.cplett.2007.06.037,mark,extracted,"Usable: s-trans-acrolein 1(n->pi*) conical intersection in water at CASSCF(6,5)/6-31G* inside an ASEP/MD sequential QM/MM scheme, GAUSSIAN 98."
+2026-09-09T14:06:16Z,W2170696532,10.1007/s002140050524,mark,extracted,"Usable: Ti basis set development tested on TiCl, TiH, TiH+ and the Ti 3F-5F separation, with full-valence CASSCF supplying the spin-orbit contributions."
+2026-09-09T14:06:16Z,W2109086238,10.1080/00268979609484538,mark,extracted,"Usable: BrCN intramolecular potential surface at full-valence CASSCF supporting an experimental anharmonic force field, MOLPRO, with a bromine basis built for the purpose."
+2026-09-09T14:06:16Z,W4400358557,10.1364/ol.532228,mark,extracted,"Usable: salicylideneaniline ESIPT at CASSCF(12e,11o)/6-31G(d,p) with TD-B3LYP for the spectra."
+2026-09-09T14:06:16Z,W2093388901,10.1002/chin.199222017,mark,not_usable,"ChemInform abstract only: the supplied PDF is a single-page ChemInform secondary abstract record (755 characters of text) for Marquez's ab initio CASSCF study of the HO + NOCl reaction. It carries no computational details - no active space, basis set or software - so there is nothing to mine. The primary paper would need to be fetched separately."
+2026-09-09T14:07:33Z,W1995658424-a,10.1063/1.472751,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:07:33Z,W1967307948-a,10.1002/jccs.200000099,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:07:34Z,W2072316483-a,10.1016/0301-0104(95)00115-5,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:07:34Z,W1995658424,10.1063/1.472751,mark,extracted,"Usable: HF Auger spectrum with CASSCF valence curves (5 sigma, 3 pi, 1 delta) and RASSCF core-hole states, SIRIUS."
+2026-09-09T14:07:34Z,W1967307948,10.1002/jccs.200000099,mark,extracted,"Usable: ultrafast charge transfer at CASSCF 4e/4o for planar structures with the lone pair added for the twisted CT geometry, GAUSSIAN and MOLPRO."
+2026-09-09T14:07:34Z,W2072316483,10.1016/0301-0104(95)00115-5,mark,extracted,"Usable: CH3CN and CH3CN- at CASSCF(8,8)/CASPT2 in MOLCAS, space given as a symmetry-resolved core/active partition."
+2026-09-09T14:07:34Z,W2083317387,10.1016/s0009-2614(00)01175-1,mark,not_usable,"No active space of the paper's own: this is a density functional study of the MOH -> HMO isomerisation for M = Be and Mg, run in Gaussian 94. Its CASSCF content is limited to comparing the DFT geometries, frequencies, zero-point energies and reaction endothermicities against the CASSCF results of Kong and coworkers; no CASSCF calculation is performed here and no active space is stated."
+2026-09-09T14:07:34Z,W2035369023,10.1016/s0039-6028(00)00405-2,mark,not_usable,"No active space of the paper's own: this computes bulk and (100) surface d-d excitation energies in NiO from first-principles Hartree-Fock. The CASSCF/CASPT2 numbers in its comparison tables are quoted from refs. 13 and 14, alongside multireference CEPA and electron energy-loss data, and no active space is specified for any calculation performed here."
+2026-09-09T14:07:34Z,W2773087018,10.1002/anie.201711658,mark,not_usable,"Active space not recoverable: this Angewandte communication on boron- and light-mediated C-C cleavage in acenes does report a CASPT2//CASSCF potential energy profile for the 1a -> 2a isomerisation (Figure 5), but the main text states that the computational details are in the Supporting Information, which we do not have. No active space, basis set or root count appears in the article itself. Previously marked not_usable without the PDF; re-read with the PDF and the verdict stands, now for a documented reason."
+2026-09-09T14:08:44Z,W1973069831-a,10.1002/kin.10006,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:08:44Z,W2069121506-a,10.1016/j.jms.2007.11.012,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:08:44Z,W1973865255-a,10.1016/s0009-2614(00)00442-5,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:09:34Z,W2944393913-a,10.1002/anie.201904732,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:09:35Z,W2039052636-a,10.1016/0301-0104(95)00300-4,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:09:35Z,W2913679044-a,10.1016/j.chemphys.2019.02.010,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:09:35Z,W1973069831,10.1002/kin.10006,mark,extracted,Usable: cyclopentadienyl radical Jahn-Teller thermodynamics at CASSCF/cc-pVDZ in GAUSSIAN 98; space inherited from Bearpark et al. and not restated.
+2026-09-09T14:09:35Z,W2069121506,10.1016/j.jms.2007.11.012,mark,extracted,"Usable: ScCl low-lying states at CASSCF(16,9) as [4,2,2,1] with all-scandium active orbitals, full-space MRCI, MOLPRO."
+2026-09-09T14:09:35Z,W1973865255,10.1016/s0009-2614(00)00442-5,mark,extracted,"Usable: triplet norbornene ISC rate from CASSCF(2,2) surface crossing and spin-orbit matrix elements."
+2026-09-09T14:09:35Z,W2944393913,10.1002/anie.201904732,mark,extracted,"Usable: [Cl3CuNO]- at CASSCF(12,12) on a NEVPT2 geometry, resolving the {CuNO}10 oxidation-state ambiguity as a 75.5/21.5 configuration mixture."
+2026-09-09T14:09:35Z,W2039052636,10.1016/0301-0104(95)00300-4,mark,extracted,"Usable: oxo-bridged Cr(III) dimer exchange coupling on a six t2g-derived orbital space, VCI and state-specific CASSCF shown equivalent."
+2026-09-09T14:09:36Z,W2913679044,10.1016/j.chemphys.2019.02.010,mark,extracted,Usable: pi-stacked GFP chromophore at XMCQDPT2/sa2-CASSCF(12/12)/cc-pVDZ in Firefly.
+2026-09-09T14:10:28Z,W2015726607-a,10.1007/s11244-013-0061-y,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:10:28Z,W2167464233-a,10.1002/chem.200204583,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:10:28Z,W2038628579-a,10.1016/0039-6028(96)00607-3,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:11:12Z,W1982346964-a,10.1016/j.cplett.2004.07.084,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:11:12Z,W2020608829-a,10.1063/1.4913515,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:11:12Z,W2015726607,10.1007/s11244-013-0061-y,mark,extracted,"Usable: S2 ground and excited states at CASSCF(6e,6MO)/6-311++G(d,p) in Gaussian 09, benchmarked against B3LYP."
+2026-09-09T14:11:12Z,W2167464233,10.1002/chem.200204583,mark,extracted,"Usable: zwitterionic silene 21A at CASSCF(10,8)/6-31+G(d), the space built from pi(SiC), both N lone pairs and the SiH2 sigma framework; returns a 96% single configuration."
+2026-09-09T14:11:12Z,W2038628579,10.1016/0039-6028(96)00607-3,mark,extracted,"Usable: H2 on Si(100)-2x1 with bond-built CAS spaces - (4,4) dihydride, (6,6) monohydride - and MRSDCI energies."
+2026-09-09T14:11:12Z,W1982346964,10.1016/j.cplett.2004.07.084,mark,extracted,"Usable: PCl low-lying states at SA-CASSCF(10,10) as (4,3,3,0) with internally contracted MRCI in MOLPRO 98; singlet space reduced with an explicit correction."
+2026-09-09T14:11:12Z,W2020608829,10.1063/1.4913515,mark,extracted,"Usable: benzene, toluene and p-xylene cation electron dynamics from CASSCF(5,6)/6-31G* Ehrenfest simulations with and without nuclear motion."
+2026-09-09T14:12:07Z,W2001093629-a,10.1016/s0301-0104(97)00142-0,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:12:07Z,W2921632035-a,10.1002/chem.201900677,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:12:07Z,W2001227273-a,10.1016/0022-2852(89)90326-3,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:12:53Z,W2017207402-a,10.1016/s0009-2614(99)00861-1,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:12:53Z,W2172599360-a,10.1016/j.poly.2015.09.044,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:12:53Z,W1997473022-a,10.1016/0009-2614(93)89211-y,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:12:53Z,W2001093629,10.1016/s0301-0104(97)00142-0,mark,extracted,"Usable: N + CH -> NC + H quasidiabatic states from a full-valence CASSCF(10,9)/cc-pVTZ in MOLCAS."
+2026-09-09T14:12:53Z,W2921632035,10.1002/chem.201900677,mark,extracted,"Usable: thienoguanosine conical intersections at SA4-CASSCF(14/12)/6-31G* in OpenMOLCAS, with sigma(C=S) orbitals added to reach the out-of-plane sulfur CI."
+2026-09-09T14:12:54Z,W2001227273,10.1016/0022-2852(89)90326-3,mark,extracted,"Usable: GaH valence and Rydberg states at relativistic CASSCF/SOCI with ECPs, 17 new states predicted."
+2026-09-09T14:12:54Z,W2017207402,10.1016/s0009-2614(99)00861-1,mark,extracted,"Usable: C3/C3- linear-bent isomerization with CAS8 and near-full-valence CAS11 spaces plus MRD-CI, GAMESS; attributes an earlier broken-symmetry result to active space choice."
+2026-09-09T14:12:54Z,W2172599360,10.1016/j.poly.2015.09.044,mark,extracted,"Usable: pseudotetrahedral Co(II) halide complexes at SA-CASSCF(7,5)/NEVPT2 over 10 quartets and 40 doublets in ORCA, for zero-field splitting."
+2026-09-09T14:12:54Z,W1997473022,10.1016/0009-2614(93)89211-y,mark,extracted,"Usable: PH2-/PH2/PH2+ at all-electron CASSCF/SOCI in a shared six-orbital valence space, ALCHEMY II."
+2026-09-09T14:13:38Z,W2051844989-a,10.1063/1.1390504,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:13:38Z,W2060827160-a,10.1016/0009-2614(90)87048-v,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:13:39Z,W2090905614-a,10.1016/j.cplett.2005.08.101,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:14:28Z,W1970902618-a,10.1016/j.cplett.2004.11.136,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:14:28Z,W2175930880-a,10.1002/chem.201503102,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:14:28Z,W2012476119-a,10.1063/1.469688,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:14:28Z,W2051844989,10.1063/1.1390504,mark,extracted,"Usable: OsC and OsC2 at CASSCF with (6,6) and (10,10) spaces differing by the pi manifold, GAUSSIAN 98; supports a triple-bond assignment."
+2026-09-09T14:14:28Z,W2060827160,10.1016/0009-2614(90)87048-v,mark,extracted,"Usable: hypervalent SiH5 with a three-orbital CASSCF (a2'' bonding/antibonding plus non-bonding a1'), GAUSSIAN 86."
+2026-09-09T14:14:28Z,W2090905614,10.1016/j.cplett.2005.08.101,mark,extracted,"Usable: [FeO]2+ and OFe(OH)2 at CASSCF(10,10)/ISA-MRMP, the space sized to span the Fe-O spin-coupling schemes."
+2026-09-09T14:14:28Z,W1970902618,10.1016/j.cplett.2004.11.136,mark,extracted,"Usable: Ga2N/GaN2 and their ions at CASSCF/MRSDCI with a 6330-CAS symmetry-block space, ALCHEMY II."
+2026-09-09T14:14:29Z,W2175930880,10.1002/chem.201503102,mark,extracted,"Usable: {3d-4f} SMMs with CAS(9,7) on Dy(III) over 21 sextets and CAS(8,5) on Ni(II), RASSI-SO in MOLCAS 8.0."
+2026-09-09T14:14:29Z,W2012476119,10.1063/1.469688,mark,extracted,"Usable: V2+-doped fluoroperovskites as embedded (VF6)4- clusters, CASSCF(3d) geometries with ACPF correlating 15 electrons, MOLCAS-2."
+2026-09-09T14:15:34Z,W2004487737-a,10.1016/0039-6028(92)90820-v,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:15:34Z,W1993715210-a,10.1016/0022-2852(88)90242-1,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:15:35Z,W4242702293-a,10.1063/1.452538,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:15:42Z,W3193775202,10.26902/jsc_id59826,text,text_ready,re-extracted with poppler pdftotext -layout; pypdf output was glyph-encoded and unreadable
+2026-09-09T14:16:34Z,W2056308638-a,10.1063/1.470728,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:16:34Z,W1979085665-a,10.1016/j.cplett.2007.12.013,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:16:34Z,W3193775202-a,10.26902/jsc_id59826,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:16:35Z,W2004487737,10.1016/0039-6028(92)90820-v,mark,extracted,"Usable: O atom migration on CaO(100) at CASSCF(2,2) with a (4,4) check at the symmetric geometry, CCI at some points."
+2026-09-09T14:16:35Z,W1993715210,10.1016/0022-2852(88)90242-1,mark,extracted,"Usable: BH A 1Pi predissociation from a CASSCF curve (7 sigma, 4 pi, 1 delta active) scaled against RKR data."
+2026-09-09T14:16:35Z,W4242702293,10.1063/1.452538,mark,extracted,Usable: CNe(n)+ cations at full-valence CASSCF with pi components symmetry-averaged; quoted accuracy bars for comparable diatomics.
+2026-09-09T14:16:35Z,W2056308638,10.1063/1.470728,mark,extracted,"Usable: CF2 A-state frequencies at full-valence CASSCF(18,12) with analytic gradients in SIRIUS/ABACUS."
+2026-09-09T14:16:35Z,W1979085665,10.1016/j.cplett.2007.12.013,mark,extracted,"Usable: anthracene-9,10-endoperoxide at CASSCF(14,12)/MS-CASPT2 with the anthracene pi system plus the full O-O sigma and pi manifold, 19 roots."
+2026-09-09T14:16:35Z,W3193775202,10.26902/jsc_id59826,mark,extracted,"Usable: Eu(Macr)3 polymer luminophore at SS-/SA-CASSCF(8,5) with XMCQDPT2 in Firefly, using a 4f-in-core ECP so the space is ligand-centred. Russian-language article; row built from the Latin-script technical content that survived the font encoding."
+2026-09-09T14:17:45Z,W1964334642-a,10.1016/s0009-2614(02)00786-8,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:17:45Z,W2147172075-a,10.1002/chem.201304631,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:17:45Z,W2094610061-a,10.1016/j.cplett.2008.07.011,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:18:30Z,W2046219521-a,10.1063/1.464298,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:18:31Z,W2045886478-a,10.1016/j.cplett.2004.05.004,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:18:31Z,W1983658472-a,10.1016/s0009-2614(02)01117-x,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:18:31Z,W1964334642,10.1016/s0009-2614(02)00786-8,mark,extracted,"Usable: ethylene valence and Rydberg states with state-specific CASSCF(2,11)/(2,12) orbitals compared against HF, LHF and BLYP as MR-CI bases."
+2026-09-09T14:18:31Z,W2147172075,10.1002/chem.201304631,mark,extracted,"Usable: Fe dicarbonyl PNN pincer complexes 5-7 at NEVPT2/CASSCF(12,12)/Def2-TZVPP in ORCA."
+2026-09-09T14:18:31Z,W2094610061,10.1016/j.cplett.2008.07.011,mark,extracted,"Usable: Mn2 at CASSCF(14,12)/MCQDPT2 with a new relativistic model core potential; CASSCF alone gives an unbound dimer."
+2026-09-09T14:18:31Z,W2046219521,10.1063/1.464298,mark,extracted,"Usable: HNCO X 1A' at CASSCF(8,6) built as the analogue of a full pi space for the linear form, with CISD+(Q)."
+2026-09-09T14:18:31Z,W2045886478,10.1016/j.cplett.2004.05.004,mark,extracted,"Usable: F + O3 -> FO + O2 at CASSCF(17,12)/CASPT2 spanning the O and F 2p manifolds, ANO basis."
+2026-09-09T14:18:31Z,W1983658472,10.1016/s0009-2614(02)01117-x,mark,extracted,"Usable: C36 fullerene isomers with a minimal consistent (2,4) space whose orbitals are listed per isomer, plus MRMP2."
+2026-09-09T14:19:34Z,W2013309461-a,10.1016/j.cplett.2012.02.047,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:19:34Z,W1977686200-a,10.1016/s0301-0104(97)00220-6,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:19:34Z,W1976943265-a,10.1016/0009-2614(93)89356-m,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:19:34Z,W2013309461,10.1016/j.cplett.2012.02.047,mark,extracted,"Usable: cationic diarylmethanes at SA2-CAS(4,3)/RS2C in MOLPRO, quantifying the Dewar-Knott colour rule through bridge hole and pair density."
+2026-09-09T14:19:35Z,W1977686200,10.1016/s0301-0104(97)00220-6,mark,extracted,"Usable: carbon cumulenes with CASSCF restricted to H2C3 and H2C4, documenting where the method runs out for longer chains; GAUSSIAN 94."
+2026-09-09T14:19:35Z,W1976943265,10.1016/0009-2614(93)89356-m,mark,extracted,Usable: NO+ X 1Sigma+ multipole moment functions at full-valence CASSCF and MR-CI in GAMESS-UK.
+2026-09-09T14:19:35Z,W2111343751,10.1002/qua.560460502,mark,not_usable,"No calculation to mine: this is a formal paper proving that an unrestricted CASSCF function that is an eigenfunction of S2 is a CASSCF function, that a UHF eigenfunction of S2 is an ROHF function, and evaluating UHF spin contamination with Araki angle operators. It discusses active spaces only as an abstract construction - the active space of a UCASSCF function of rank p as a direct sum of alpha and beta subspaces - and performs no calculation on any chemical system, so there is no active space, molecule, basis or software to record."
+2026-09-09T14:20:53Z,W1521617169-a,10.1063/1.473985,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:20:54Z,W1526169862-a,10.1063/1.1829052,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:20:54Z,W1551545380-a,10.1007/978-94-011-4894-8_5,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:21:43Z,W1664791239-a,10.1063/1.1412469,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:21:43Z,W1765844519-a,10.1007/s11426-007-0127-4,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:21:43Z,W181330492-a,10.1007/978-94-009-4734-4_17,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:21:43Z,W1521617169,10.1063/1.473985,mark,extracted,"Usable: C3H2/C3H/C3H-/C3H+ conformers at full-valence CASSCF with RCCSD(T), MOLCAS 3."
+2026-09-09T14:21:44Z,W1526169862,10.1063/1.1829052,mark,extracted,"Usable: CuCl2 benchmark at CASSCF(21,14) with state-dependent symmetry-block distributions, CASPT2 and ACPF plus effective-Hamiltonian spin-orbit, MOLPRO-2002.3."
+2026-09-09T14:21:44Z,W1551545380,10.1007/978-94-011-4894-8_5,mark,extracted,Usable: CASVB demonstrated on methane ('8 in 8') and diborane ('12 in 12') in MOLPRO.
+2026-09-09T14:21:44Z,W1664791239,10.1063/1.1412469,mark,extracted,"Usable: GaAs3/Ga3As tetramers and ions at 84-CASSCF (8a' + 4a'') with higher-order CI, ALCHEMY II."
+2026-09-09T14:21:44Z,W1765844519,10.1007/s11426-007-0127-4,mark,extracted,"Usable: firefly luciferin at CASSCF(16,14)/MS-CASPT2 in MOLCAS 6.2, space spanning the pi system plus N/O/S lone pairs."
+2026-09-09T14:21:44Z,W181330492,10.1007/978-94-009-4734-4_17,mark,extracted,Usable: nitromethane CH3-NO2 dissociation at CASSCF with seven active orbitals plus a 19-reference MRD-CI; documents the HOMO/LUMO crossing along the path.
+2026-09-09T14:22:35Z,W1833156349-a,10.1080/00268970210162727,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:22:36Z,W1965679096-a,10.1016/s0301-0104(00)00344-x,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:22:36Z,W1966750986-a,10.1016/s0009-2614(02)01791-8,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:23:30Z,W1969842664-a,10.1016/s0009-2614(96)01266-3,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:23:31Z,W1970570409-a,10.1063/1.4882135,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:23:31Z,W1971261617-a,10.1063/1.2822283,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:23:31Z,W1833156349,10.1080/00268970210162727,mark,extracted,"Usable: benzene dimer cation at CASSCF(7,8) over the e1u/e2g pairs with MRSDCI and MRCPA, GAMESS and ALCHEMY 2."
+2026-09-09T14:23:31Z,W1965679096,10.1016/s0301-0104(00)00344-x,mark,extracted,"Usable: Hg-rare gas van der Waals molecules at CASSCF/CASPT2 with 20 Hg valence electrons over 5s5p5d/6s6p/7s7p, spin-orbit pseudopotentials, MOLPRO."
+2026-09-09T14:23:31Z,W1966750986,10.1016/s0009-2614(02)01791-8,mark,extracted,"Usable: 8-hydroxyquinoline and its water complex at CAS(14,12), with a reduced space for the geometry optimizations and a CAS(10,8) comparison."
+2026-09-09T14:23:31Z,W1969842664,10.1016/s0009-2614(96)01266-3,mark,extracted,"Usable: CO as a ResHF test case, benchmarked against a (pi,pi*) 12-CSF CASSCF and a full-valence 328-CSF CASSCF in MOLPRO 94."
+2026-09-09T14:23:32Z,W1970570409,10.1063/1.4882135,mark,extracted,"Usable: NdF and LuF with a 12-orbital space (F 2pz, Nd 4f/5d/6s) pruned from 16 on occupation evidence, GAMESS."
+2026-09-09T14:23:32Z,W1971261617,10.1063/1.2822283,mark,extracted,"Usable: furazan CASSCF(10,7) and DAF CASSCF(14,9) excited-state decomposition surfaces, GAUSSIAN 03."
+2026-09-09T14:24:25Z,W1973191689-a,10.1016/s0301-0104(00)00108-7,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:24:26Z,W1974417848-a,10.1016/j.cplett.2005.01.101,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:24:26Z,W1974628417-a,10.1016/s0009-2614(00)00560-1,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:25:07Z,W1974712395-a,10.1016/j.cplett.2007.01.073,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:25:08Z,W1977567671-a,10.1016/s0301-0104(97)00268-1,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:25:08Z,W1977583863-a,10.1007/s00214-007-0259-9,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:25:08Z,W1973191689,10.1016/s0301-0104(00)00108-7,mark,extracted,"Usable: CO2 spin-forbidden decomposition at full-valence CASSCF(16,12)/6-311+G(3df) with SEAM crossing-point searches."
+2026-09-09T14:25:08Z,W1974417848,10.1016/j.cplett.2005.01.101,mark,extracted,"Usable: water benchmark quantifying CAS(4,4) error against full CI (60-83 mHartree, 14 mHartree non-parallelity), PSI 3.2 and DBQC."
+2026-09-09T14:25:08Z,W1974628417,10.1016/s0009-2614(00)00560-1,mark,extracted,"Usable: ethyl radical with (11,11), (13,11) and (13,10) spaces compared, using the residual dipole moment as a symmetry-breaking diagnostic; MOLPRO."
+2026-09-09T14:25:08Z,W1974712395,10.1016/j.cplett.2007.01.073,mark,extracted,"Usable: FeS/FeS- photoelectron spectra at CASSCF(12,14)/CASPT2 with a double-shell 3d/3d' space, MOLCAS 6.2 and ANO-RCC."
+2026-09-09T14:25:08Z,W1977567671,10.1016/s0301-0104(97)00268-1,mark,extracted,"Usable: CH2 four lowest states at CASSCF(6,6)-SOCI with state-specific and four-root state-averaged references compared."
+2026-09-09T14:25:09Z,W1977583863,10.1007/s00214-007-0259-9,mark,extracted,"Usable: 11-cis retinal chromophore at CASSCF(12,12)/CASPT2 with a documented switch from single-root to three-root averaging along the S1 path."
+2026-09-09T14:26:16Z,W1978385381-a,10.1016/s0301-0104(00)00212-3,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:26:16Z,W1982925801-a,10.1016/0301-0104(92)85012-j,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:26:16Z,W1984737161-a,10.1007/bf00529300,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:26:59Z,W1985458962-a,10.1016/s0009-2614(97)00484-3,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:26:59Z,W1986439999-a,10.1007/s00214-002-0420-4,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:26:59Z,W1978385381,10.1016/s0301-0104(00)00212-3,mark,extracted,"Usable: N2O singlet/triplet mechanisms with a CASSCF(16,12) full-valence reference and MRCI on a (10,9) subset, GAUSSIAN 94."
+2026-09-09T14:26:59Z,W1982925801,10.1016/0301-0104(92)85012-j,mark,extracted,"Usable: pyrimidine excited singlets with separate pi-pi* and n-pi* spaces in MOLCAS-1 RASSCF notation, MRCI on top."
+2026-09-09T14:26:59Z,W1984737161,10.1007/bf00529300,mark,extracted,"Usable: LiBO, where different active space choices gave contradictory geometries despite strong HF dominance; CASSCF-8/10 plus a delta_p orbital-selection scheme."
+2026-09-09T14:26:59Z,W1985404477,10.1016/j.cplett.2006.05.012,mark,extracted,"Usable: CH2Cl2+ at full-valence CASSCF(19,14)/CASPT2 with reference weights above 0.83, GAUSSIAN 03."
+2026-09-09T14:27:00Z,W1985458962,10.1016/s0009-2614(97)00484-3,mark,extracted,"Usable: Li5 pseudorotation from GVB- and CASSCF(5,5)-based ab initio molecular dynamics."
+2026-09-09T14:27:00Z,W1986439999,10.1007/s00214-002-0420-4,mark,extracted,"Usable: silicon surface dimer clusters with the space scaled per dimer - (4,4), (6,6), (10,10) - CASSCF geometries plus MRMP, GAMESS."
+2026-09-09T14:27:09Z,W1985404477-a,10.1016/j.cplett.2006.05.012,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:27:51Z,W1989289437-a,10.1063/1.2770719,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:27:51Z,W1992745138-a,10.1016/0009-2614(92)85361-d,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:27:51Z,W1994115086-a,10.1016/j.cplett.2003.11.002,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:28:33Z,W1993875641-a,10.1002/jcc.23103,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:28:33Z,W1994492781-a,10.1007/s00214-006-0094-4,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:28:33Z,W1994682089-a,10.1016/j.cplett.2004.08.090,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:28:34Z,W1989289437,10.1063/1.2770719,mark,extracted,"Usable: planar PAH radical cations with CASSCF references up to (15,16) pi used to parameterize MMVB; marks where CASSCF stops scaling."
+2026-09-09T14:28:34Z,W1992745138,10.1016/0009-2614(92)85361-d,mark,extracted,"Usable: FCO low-lying states at CASSCF(5 in 4) over the O lone pair, C non-bonding and out-of-plane n_CO/pi_CO orbitals."
+2026-09-09T14:28:34Z,W1994115086,10.1016/j.cplett.2003.11.002,mark,extracted,"Usable: NiC singlet/triplet revision at CASSCF(14,10) as (5221) with icMRCI in MOLPRO-98.1; space chosen to remove orbital bias."
+2026-09-09T14:28:34Z,W1993875641,10.1002/jcc.23103,mark,extracted,Usable in principle: VBSCF(CAS) algorithm paper recording that VBSCF over all VB structures in a given active space is equivalent to CASSCF; no specific system or space is stated in the extracted text.
+2026-09-09T14:28:34Z,W1994492781,10.1007/s00214-006-0094-4,mark,extracted,"Usable: Be + H2 insertion at CAS(2,2)CCSD state-specific multireference coupled cluster, GAMESS."
+2026-09-09T14:28:34Z,W1994682089,10.1016/j.cplett.2004.08.090,mark,extracted,"Usable: AmF3 and AmCl3 at CASSCF(6,7)/CASPT2 over the 5f shell with Douglas-Kroll-Hess and ECP relativistic treatments."
+2026-09-09T14:30:01Z,W1998971208-a,10.1063/1.2047551,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:30:02Z,W1999017056-a,10.1016/j.cplett.2008.11.079,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:30:02Z,W2000660292-a,10.1080/00268970412331333023,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:30:50Z,W2000899826-a,10.1016/j.chemphys.2012.08.014,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:30:50Z,W2001061639-a,10.1007/s002140050512,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:30:50Z,W2002702987-a,10.1002/qua.21612,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:30:50Z,W1998971208,10.1063/1.2047551,mark,extracted,"Usable: mixed-valence system at CAS(13,12)/CASPT2 in MOLCAS 5.4, all d orbitals plus two s orbitals."
+2026-09-09T14:30:50Z,W1999017056,10.1016/j.cplett.2008.11.079,mark,extracted,"Usable: dimethyldisulfide at SA-CASSCF/MS-CASPT2 with [10,8] and [10,9] spaces, the ninth orbital added to fix an orbital-ordering intrusion; MOLCAS 6.4."
+2026-09-09T14:30:51Z,W2000660292,10.1080/00268970412331333023,mark,extracted,"Usable: reference space comparison - minimal versus full-valence versus one-to-one - benchmarked against full CI for bond breaking, MOLPRO."
+2026-09-09T14:30:51Z,W2000899826,10.1016/j.chemphys.2012.08.014,mark,extracted,"Usable: titanium oxide vibronic coupling at CAS(8,8) and CAS(7,7), showing that symmetry-restricting the CSF set changes an imaginary frequency; GAUSSIAN 03."
+2026-09-09T14:30:51Z,W2001061639,10.1007/s002140050512,mark,extracted,"Usable: Cope rearrangement chair and boat transition structures at CAS(6,6)/6-31G* read through spin-coupled valence bond analysis."
+2026-09-09T14:30:51Z,W2002702987,10.1002/qua.21612,mark,extracted,"Usable: 6-aminopyrimidine photodeactivation at SA-3-CAS(10,8) with an MR-CISD(6,5) reference selected by natural orbital occupations."
+2026-09-09T14:31:46Z,W2004514813-a,10.1063/1.3652893,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:31:46Z,W2009566101-a,10.1063/1.449159,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:31:47Z,W2011233376-a,10.1016/s0009-2614(01)00454-7,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:32:10Z,W2011963499-a,10.1016/0009-2614(94)01501-l,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:32:10Z,W2004514813,10.1063/1.3652893,mark,extracted,"Usable: PETN photodecomposition at ONIOM[CASSCF(6,6)/6-31G(d):UFF] in GAUSSIAN 09, the six orbitals localized on one nitrate group."
+2026-09-09T14:32:10Z,W2009566101,10.1063/1.449159,mark,extracted,"Usable: ClF and CCl, establishing that including the Cl 3d shell in the active space removes a ~0.10 a.u. bond-length error through F 2p to Cl back bonding."
+2026-09-09T14:32:10Z,W2011233376,10.1016/s0009-2614(01)00454-7,mark,extracted,"Usable: tetrahedral N4 singlet excited states at CAS(12,12) - full valence minus N 2s - with CASPT2, CASPT3 and icMRCI."
+2026-09-09T14:32:11Z,W2011963499,10.1016/0009-2614(94)01501-l,mark,extracted,"Usable: C(3P) + NO surfaces at CASSCF(13,11) with CASPT2 reoptimization in MOLCAS-2; space extended for the CO-N transition state search."
+2026-09-09T14:32:52Z,W2012798961-a,10.1139/v93-206,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:32:52Z,W2016027679-a,10.1016/0301-0104(89)87017-x,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:32:52Z,W2018472957-a,10.1063/1.475517,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:32:52Z,W2012798961,10.1139/v93-206,mark,extracted,"Usable: phenoxyl radical 600 nm band at CASSCF(7,7)/3-21G, documenting a 0.89 eV improvement from keeping the intended pi orbitals in the space."
+2026-09-09T14:32:52Z,W2016027679,10.1016/0301-0104(89)87017-x,mark,extracted,"Usable: NO2 radical at CASSCF 13e-/10MO, with CASSCF beating the energetically superior CISD on frequencies and dipole moment."
+2026-09-09T14:32:53Z,W2018472957,10.1063/1.475517,mark,extracted,Usable: HNCO S1 dissociation at sa-CASSCF(12e/10o) with icMRSDCI in MOLPRO 96; documents orbitals slipping out of the space along the path.
+2026-09-09T14:32:53Z,W2016984104,10.1007/bf00527643,mark,not_usable,"No active space of the paper's own: this proposes an effective potential method for adding dynamic correlation to MCSCF wavefunctions, with the parameterization designed for insertion into existing LCAO programs using Gaussian integral packages. It discusses CASSCF only as the special case of MCSCF in which one specifies an internal orbital space rather than selecting configurations, and reports no calculation with a stated active space on a named chemical system."
+2026-09-09T14:33:39Z,W2019215052-a,10.1016/j.cplett.2011.02.018,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:33:40Z,W2019305654-a,10.1063/1.458640,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:33:40Z,W2020801480-a,10.1080/00268978200101281,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:34:17Z,W2020895676-a,10.1007/s00214-002-0334-1,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:34:17Z,W2024075205-a,10.1063/1.466833,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:34:18Z,W2019215052,10.1016/j.cplett.2011.02.018,mark,extracted,"Usable: binuclear Cu(II) exchange coupling at Mk-MRCCSD on a (2e,2o) broken-symmetry natural orbital space, comparing UNO and Brueckner orbitals."
+2026-09-09T14:34:18Z,W2019305654,10.1063/1.458640,mark,extracted,"Usable: CO a 3Pi and a' 3Sigma+ dipole moment functions at CASSCF alongside CI-SD, QCI-SD(T) and CEPA-1; the active space itself is not stated."
+2026-09-09T14:34:18Z,W2020801480,10.1080/00268978200101281,mark,extracted,"Usable: CCl A 2Delta predissociation with one C 2s2p / Cl 3s3p space shared by all five states, 126-252 configurations each."
+2026-09-09T14:34:18Z,W2020895676,10.1007/s00214-002-0334-1,mark,extracted,"Usable: MnO+ at CASSCF over Mn 3d/4s and O 2p with IC-MRCI and IC-ACPF, MOLPRO; O 2s correlated but inactive."
+2026-09-09T14:34:18Z,W2024075205,10.1063/1.466833,mark,extracted,"Usable: Mg2+/Mg3+/Mg4+ cluster cations at CASSCF with atomic 3s and 3p orbitals active, matched against matrix ESR."
+2026-09-09T14:34:18Z,W2021236881,10.1080/00268970701326978,mark,not_usable,"No active space of the paper's own: this is a methods paper on computing transition moments between internally contracted MRCI wavefunctions with non-orthogonal orbitals, implemented in MOLPRO. It reviews the CASSCF, RASSCF and RASSI/CASSI machinery and notes that a further division of valence orbitals into inactive and active is possible but is explicitly not considered in the algorithm derivation. No calculation on a named chemical system with a stated active space appears in the extracted text."
+2026-09-09T14:35:02Z,W2024270447-a,10.1016/j.chemphys.2005.04.005,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:35:02Z,W2027817749-a,10.1016/j.chemphys.2012.03.010,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:35:02Z,W2029818738-a,10.1016/j.chemphys.2010.07.004,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:35:35Z,W2030512233-a,10.1016/j.chemphys.2011.02.003,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:35:35Z,W2031532506-a,10.1007/s002140050257,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:35:35Z,W2024270447,10.1016/j.chemphys.2005.04.005,mark,extracted,"Usable: H2S+ low-lying doublets at CASSCF(7,10)/CASPT2 in MOLCAS 5.2, full valence plus four named virtual MOs."
+2026-09-09T14:35:35Z,W2027817749,10.1016/j.chemphys.2012.03.010,mark,extracted,"Usable: pyrimidine S0/S1/S2 geometries and frequencies at CAS(6,6) with CASPT2 for anharmonic Franck-Condon spectra."
+2026-09-09T14:35:36Z,W2029818738,10.1016/j.chemphys.2010.07.004,mark,extracted,"Usable: tryptophan and indole at MS-CASPT2/CASSCF(12e,12a) with 9 states in MOLCAS 7.4; La/Lb ordering shown sensitive to the space."
+2026-09-09T14:35:36Z,W2030512233,10.1016/j.chemphys.2011.02.003,mark,extracted,"Usable: p-xylylene at CASSCF(8,8) (four pi, four pi*) with separate biradical spaces; C2 symmetry imposed to distinguish biradical from closed-shell singlets."
+2026-09-09T14:35:36Z,W2031532506,10.1007/s002140050257,mark,extracted,"Usable: reg-CASSCF plus a Coulomb hole for effective dynamic correlation, with the space confined to explicit 2s-2p static correlation; MOLCAS."
+2026-09-09T14:36:29Z,W2032542865-a,10.1016/s0009-2614(00)01338-5,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:36:29Z,W2035122975-a,10.1002/cphc.201100559,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:36:29Z,W2041670570-a,10.1016/0009-2614(89)87145-3,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:37:12Z,W2042082656-a,10.1080/00268970500417580,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:37:12Z,W2044303189-a,10.1007/s002140050382,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:37:13Z,W2049486220-a,10.1016/j.cclet.2014.01.050,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:37:13Z,W2032542865,10.1016/s0009-2614(00)01338-5,mark,extracted,"Usable: LH2 carotenoid rhodopin glucoside at sa-CASSCF(8,7) over four states in a bacteriochlorophyll point-charge field."
+2026-09-09T14:37:13Z,W2035122975,10.1002/cphc.201100559,mark,extracted,"Usable: paddlewheel and trinuclear magnetic clusters with the high-spin ROHF singly occupied orbitals as the active space, CASPT2 in MOLPRO."
+2026-09-09T14:37:13Z,W2041670570,10.1016/0009-2614(89)87145-3,mark,extracted,"Usable: ZrH 36 states at CASSCF/SOCI/RCI with relativistic ECPs and spin-orbit coupling, ALCHEMY II."
+2026-09-09T14:37:13Z,W2042082656,10.1080/00268970500417580,mark,extracted,"Usable: Al2H2 surfaces at full-valence CAS(8|10)/6-311++G(d,p) with MRMP2 and CCSD(T) corrections, GAMESS and MOLPRO."
+2026-09-09T14:37:13Z,W2044303189,10.1007/s002140050382,mark,extracted,"Usable: CH2NO formation and decomposition at CASSCF(11,11)/CASPT2, with three orbitals added beyond the minimum for convergence stability."
+2026-09-09T14:37:13Z,W2049486220,10.1016/j.cclet.2014.01.050,mark,extracted,"Usable: spiropyran ring-opening dynamics on SA3-CASSCF(12,10)/MS-CASPT2 curves."
+2026-09-09T14:38:11Z,W2052997757-a,10.1063/1.4861670,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:38:12Z,W2056964646-a,10.1002/chem.200204633,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:38:12Z,W2057688749-a,10.1063/1.1290012,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:38:55Z,W2057928678-a,10.1016/s0301-0104(01)00709-1,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:38:55Z,W2058415590-a,10.1002/cphc.201100136,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:38:55Z,W2062357187-a,10.1016/0009-2614(91)90226-y,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:38:55Z,W2052997757,10.1063/1.4861670,mark,extracted,"Usable: nitropyrazole decomposition at CASSCF(12,8)/6-31+G(d) with (S2/S1) and (S1/S0) conical intersections, GAUSSIAN 09."
+2026-09-09T14:38:55Z,W2056964646,10.1002/chem.200204633,mark,extracted,Usable: Ga + H2 versus Ga2 + H2 at full-valence CASSCF/SVP in DALTON with MRCI near the transition state.
+2026-09-09T14:38:56Z,W2057688749,10.1063/1.1290012,mark,extracted,"Usable: cyclic ketones and thioketones with per-molecule spaces - pi only for larger rings, pi plus sigma for the strained three-membered rings - CASPT2 in MOLCAS-4."
+2026-09-09T14:38:56Z,W2057928678,10.1016/s0301-0104(01)00709-1,mark,extracted,"Usable: Ge2 and Ge2- at CASSCF/MRCI over the valence 4s/4p space with relativistic and spin-orbit effects, MOLCAS 3."
+2026-09-09T14:38:56Z,W2058415590,10.1002/cphc.201100136,mark,extracted,"Usable: TMM, IMA and OXA diradical character across CASSCF(n,n) for n = 4-12, showing the ordering is window-independent."
+2026-09-09T14:38:56Z,W2062357187,10.1016/0009-2614(91)90226-y,mark,extracted,"Usable: fulminic acid bent-versus-linear question, where including the C-H bond in the CASSCF space changes the result relative to a five-HOMO/five-LUMO (10,10)."
+2026-09-09T14:39:42Z,W2062635466-a,10.1016/s0009-2614(00)00202-5,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:39:42Z,W2063060872-a,10.1016/0301-0104(92)85013-k,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:39:43Z,W2064119851-a,10.1016/s0009-2614(01)00644-3,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:40:40Z,W2064255623-a,10.1016/j.cplett.2004.02.061,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:40:41Z,W2064752251-a,10.1016/s0009-2614(02)00208-7,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:40:41Z,W2067508969-a,10.1063/1.3129822,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:40:41Z,W2062635466,10.1016/s0009-2614(00)00202-5,mark,extracted,"Usable: four hydrogen abstraction reactions at MRMP on species-specific CASSCF references ((5,6), (6,6), (7,8)); DFT fails on the barriers."
+2026-09-09T14:40:41Z,W2063060872,10.1016/0301-0104(92)85013-k,mark,extracted,"Usable: p-benzoquinone lone-pair ionization with three inactive/active symmetry-resolved spaces, C2v imposed to allow symmetry breaking; MOLCAS-1."
+2026-09-09T14:40:41Z,W2064119851,10.1016/s0009-2614(01)00644-3,mark,extracted,"Usable: O(3P) + N2O -> 2NO ground 3A' surface with a (14,12) search space and an (18,14) reoptimization, CASPT2 in MOLCAS 4.1."
+2026-09-09T14:40:41Z,W2064255623,10.1016/j.cplett.2004.02.061,mark,extracted,"Usable: ScC2/ScC3 electron affinities on an all-valence (11,14)/(12,14) space with symmetry-resolved orbital counts."
+2026-09-09T14:40:41Z,W2064752251,10.1016/s0009-2614(02)00208-7,mark,extracted,"Usable: BeO 1Sigma+ MCSCF convergence, comparing a four-CSF model, a singles-and-doubles set and a 55-CSF CASSCF in one orbital space."
+2026-09-09T14:40:42Z,W2067508969,10.1063/1.3129822,mark,extracted,"Usable: BNB symmetry breaking at full-valence (11,12), where SA-CASSCF gives D_infh and SS-CASSCF an artefactual broken-symmetry structure; MOLPRO 2006.1."
+2026-09-09T14:41:27Z,W2067936763-a,10.1002/jcc.540090608,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:41:27Z,W2071843586-a,10.1016/j.cplett.2007.08.067,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:41:28Z,W2077728931-a,10.1016/j.cplett.2013.06.056,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:42:11Z,W2078381736-a,10.1063/1.454758,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:42:12Z,W2079179858-a,10.1080/0026897021000037672,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:42:12Z,W2083395661-a,10.1016/0022-2852(89)90104-5,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:42:12Z,W2067936763,10.1002/jcc.540090608,mark,extracted,"Usable: iron-porphine CASSCF with metal orbitals active to span local Fe-O transitions, 232 CGTFs, GAMESS-based program."
+2026-09-09T14:42:12Z,W2071843586,10.1016/j.cplett.2007.08.067,mark,extracted,"Usable: model organic endoperoxide at CASSCF(10,8) and (14,12) with MS-CASPT2, benchmarked against TD-DFT and RI-CC2."
+2026-09-09T14:42:12Z,W2077728931,10.1016/j.cplett.2013.06.056,mark,extracted,"Usable: thiophenol torsional barriers at CASPT2//CASSCF(12,11) in MOLPRO, the space including sigma_CS, sigma_SH and the sulfur lone pair."
+2026-09-09T14:42:12Z,W2078381736,10.1063/1.454758,mark,extracted,Usable: Cu5/Cu5H/Ag5/Ag5H at valence CASSCF and CAS-CI with localized-orbital space definition and PAO/PHO virtuals.
+2026-09-09T14:42:13Z,W2079179858,10.1080/0026897021000037672,mark,extracted,"Usable: two-body density functionals with multiconfigurational wavefunctions on diatomic curves, documenting failure for large complete active spaces."
+2026-09-09T14:42:13Z,W2083395661,10.1016/0022-2852(89)90104-5,mark,extracted,"Usable: MnH spectroscopy at SA-CASSCF (5221), with an enlarged (6222) for the quintets to restore 3d_delta equivalence."
+2026-09-09T14:43:06Z,W2084438527-a,10.1016/j.chemphys.2011.04.015,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:43:06Z,W2085561920-a,10.1063/1.1335596,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:43:06Z,W2085917192-a,10.1016/0009-2614(94)01040-4,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:43:47Z,W2087455573-a,10.1016/s0301-0104(01)00323-8,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:43:48Z,W2088643447-a,10.1002/kin.20299,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:43:48Z,W2092065509-a,10.1016/s0301-0104(00)00207-x,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:43:48Z,W2084438527,10.1016/j.chemphys.2011.04.015,mark,extracted,"Usable: SiH4/SiF4/SiCl4 double core-hole spectroscopy at CASSCF (18,12) and (32,20) with frozen core-hole orbitals, MOLPRO 2008."
+2026-09-09T14:43:48Z,W2085561920,10.1063/1.1335596,mark,extracted,"Usable: CASSCF trial wavefunctions for diffusion Monte Carlo on acetylene and C2H, with CSF truncation studied; GAMESS."
+2026-09-09T14:43:48Z,W2085917192,10.1016/0009-2614(94)01040-4,mark,extracted,"Usable: dioxirane/dioxymethane and anion, where CASPT2 intruder states diagnose the (1111) six-electron space as too small for the anion; MOLCAS-2."
+2026-09-09T14:43:48Z,W2087455573,10.1016/s0301-0104(01)00323-8,mark,extracted,Usable: Zn-rare gas complexes at CASSCF with Zn 4s4p/4s5p/4s5s active; adding the 5p orbitals substantially improves the states.
+2026-09-09T14:43:49Z,W2088643447,10.1002/kin.20299,mark,extracted,"Usable: ethane dissociation and methyl recombination at CASPT2//CASSCF(10,10) with a (2,2) for the hindered rotor curves, MOLCAS 6.2."
+2026-09-09T14:43:49Z,W2092065509,10.1016/s0301-0104(00)00207-x,mark,extracted,"Usable: 2H-azirine photoreactions at CASSCF(6,5) with the sigma/sigma* pair swapped per channel, GAUSSIAN 98 and MOLPRO 96."
+2026-09-09T14:44:41Z,W2092288980-a,10.1080/00268970802454786,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:44:41Z,W2094849716-a,10.1063/1.455138,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:44:41Z,W2104257434-a,10.1016/s0039-6028(98)00835-8,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:45:56Z,W2115373155-a,10.1002/cphc.201402743,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:45:56Z,W2117165830-a,10.1002/chem.201303489,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:45:57Z,W2130417374-a,10.1016/s0009-2614(97)00442-9,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:45:57Z,W2092288980,10.1080/00268970802454786,mark,extracted,"Usable: water excited states at CASSCF with a (7341) base space extended per state to (8341) and (7351), MOLCAS 6.4."
+2026-09-09T14:45:57Z,W2094849716,10.1063/1.455138,mark,extracted,"Usable: HN3 IR multiphoton dissociation at CASSCF(14,11) specified as orbital ranges, with MCSCF-CI."
+2026-09-09T14:45:57Z,W2104257434,10.1016/s0039-6028(98)00835-8,mark,extracted,"Usable: NiO(100) surface d-d transitions on an embedded Ni2+ cluster at CASSCF(8,5), with 21:1 state averaging to avoid root flipping; MOLCAS."
+2026-09-09T14:45:57Z,W2115373155,10.1002/cphc.201402743,mark,extracted,"Usable: 2-hydroxyazobenzene photochemistry at SA-CASSCF(10,8)/MS-CASPT2, the space recomposed between n-pi* and pi-pi* states."
+2026-09-09T14:45:57Z,W2117165830,10.1002/chem.201303489,mark,extracted,"Usable: trinuclear MnIII2-MIII anisotropic exchange at CASSCF(4,5)/NEVPT2 with 40 roots, plus a (13,13) Os(III) reference; ORCA and MOLCAS 7.6."
+2026-09-09T14:45:57Z,W2130417374,10.1016/s0009-2614(97)00442-9,mark,extracted,Usable: Pb5 24 states at relativistic CASSCF/MRSDCI/RCI with a 5442 orbital space over the 6p manifold; 8% triplet admixture in the ground state.
+2026-09-09T14:46:58Z,W2133231428-a,10.1063/1.461257,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:46:58Z,W2136926394-a,10.1016/s0009-2614(90)87129-f,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:46:58Z,W2138562076-a,10.1016/s0009-2614(99)00771-x,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:47:41Z,W2140875459-a,10.1002/jcc.20949,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:47:41Z,W2145246665-a,10.1002/jcc.540090806,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:47:42Z,W2145774517-a,10.1080/00268970701618440,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:47:42Z,W2133231428,10.1063/1.461257,mark,extracted,"Usable: nine S4 isomers and their anions, with the CASSCF electron affinity moving from 0.961 to 0.636 eV between spaces and the reference documented as unbalanceable; MOLCAS."
+2026-09-09T14:47:42Z,W2136926394,10.1016/s0009-2614(90)87129-f,mark,extracted,Usable: LaH low-lying states at SA-CASSCF/SOCI/RCI with four valence electrons over separated-atom orbitals; three band systems reassigned.
+2026-09-09T14:47:42Z,W2138562076,10.1016/s0009-2614(99)00771-x,mark,extracted,"Usable: Pd5 across seven geometries at CASSCF/MRSDCI with symmetry-specific orbital sets holding the ten d electrons, GAMESS and ALCHEMY II."
+2026-09-09T14:47:42Z,W2140875459,10.1002/jcc.20949,mark,extracted,"Usable: anthracene-9,10-endoperoxide at MS-CASPT2//CASSCF(14,12)/ANO-S, the (18,16) full space declared unaffordable and trimmed on occupation-number evidence."
+2026-09-09T14:47:42Z,W2145246665,10.1002/jcc.540090806,mark,extracted,"Usable: AlO2 with the three MCSCF active orbitals (1b2, 1a2, 2b2) identified from a doublet instability analysis."
+2026-09-09T14:47:42Z,W2145774517,10.1080/00268970701618440,mark,extracted,"Usable: CAS-DFT on N and N+ at CASSCF[2,5]-DFT, with the active space entering the functional through a screening measure k(r)."
+2026-09-09T14:48:28Z,W2149066803-a,10.1002/jcc.21042,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:48:29Z,W2160498705-a,10.1002/cphc.200200579,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:48:29Z,W2162377719-a,10.1016/0009-2614(94)00967-8,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:49:02Z,W2164390430-a,10.1002/cphc.200600043,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:49:02Z,W2169978701-a,10.1016/0009-2614(95)01094-p,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:49:02Z,W2149066803,10.1002/jcc.21042,mark,extracted,"Usable: diamond NV centre cluster models at CASSCF (8,11) and (4,11) with CASPT2, using C3v symmetry restoration as the space-adequacy test."
+2026-09-09T14:49:03Z,W2160498705,10.1002/cphc.200200579,mark,extracted,"Usable: trans-azomethane femtochemistry at CASSCF(8,7)/cc-pVDZ, S0/S1 conical intersection at 93.1 degrees torsion."
+2026-09-09T14:49:03Z,W2162377719,10.1016/0009-2614(94)00967-8,mark,extracted,"Usable: PF2 and PF2+ at CASSCF/MRSDCI with a ten-orbital space, in both all-electron and RECP treatments."
+2026-09-09T14:49:03Z,W2164390430,10.1002/cphc.200600043,mark,extracted,"Usable: 2,6-difluorophenylnitrene and its radical cation at SA-CASSCF(8,7)/CASPT2 with per-state reference weights, MOLCAS."
+2026-09-09T14:49:03Z,W2169978701,10.1016/0009-2614(95)01094-p,mark,extracted,"Usable: YC2 at CASSCF with an asymptote-defined space (Y 5s/4d, C 2p) and CI to 530 000 configurations."
+2026-09-09T14:49:03Z,W2167592558,10.1007/bf01277567,mark,not_usable,"No calculation to mine: this is a formal paper on the variational spaces of electronic structure methods, defining the active space of an MCSCF process as the orthogonal complement of the frozen space in the internal space, deriving Brillouin theorems for the UHF case, and constructing the variational spaces of the UCASSCF and CASSCF processes in exterior algebra, illustrated abstractly for two electrons in two orbitals. No chemical system, basis set or computed active space appears."
+2026-09-09T14:49:54Z,W2220861689-a,10.1002/jcc.24283,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:49:55Z,W2517200413-a,10.1021/jp980779n,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:49:55Z,W2554235816-a,10.1016/j.jphotochem.2016.11.023,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:50:42Z,W2587880401-a,10.1063/1.4975322,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:50:42Z,W2592993315-a,10.1002/chem.201700231,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:50:42Z,W2599598833-a,10.1080/00268976.2017.1303207,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:50:42Z,W2220861689,10.1002/jcc.24283,mark,extracted,"Usable: seven Fe(II) spin crossover compounds at CAS(10,12)/CASPT2 in MOLCAS 8.0, recalibrating the IPEA shift for this class."
+2026-09-09T14:50:42Z,W2517200413,10.1021/jp980779n,mark,extracted,"Usable: NH2+ low-lying states at full-valence CASSCF(6,6)-SOCI across nine basis sets."
+2026-09-09T14:50:43Z,W2554235816,10.1016/j.jphotochem.2016.11.023,mark,extracted,"Usable: 3-amino-1,2,4-triazole phototautomerization at SA-CASSCF(8,8)/6-311++G(2d,2p) with the S1/S0 conical intersection and IR spectra, GAUSSIAN 09."
+2026-09-09T14:50:43Z,W2587880401,10.1063/1.4975322,mark,extracted,"Usable: IVO-SSMRPT on an IVO-CASCI reference for six quasidegenerate prototypes, GAMESS; records why CASSCF references are normally preferred."
+2026-09-09T14:50:43Z,W2592993315,10.1002/chem.201700231,mark,extracted,"Usable: guanine oxidation by singlet oxygen with a (12,8) O2 calibration and (20,14)/(14,11) spaces for the endoperoxide, CASPT2 and NEVPT2."
+2026-09-09T14:50:43Z,W2599598833,10.1080/00268976.2017.1303207,mark,extracted,"Usable: limits of Loewdin's conjecture - CASSCF orbitals beat the leading natural orbitals at fixed count in gapless systems, arguing against occupation-based space selection."
+2026-09-09T14:51:35Z,W2616557405-a,10.1002/chem.201606031,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:51:35Z,W2747899145-a,10.1002/chem.201703237,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:51:36Z,W2885676681-a,10.1016/j.chemphys.2018.07.041,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:52:39Z,W2907739916-a,10.1016/j.bpc.2019.01.001,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:52:40Z,W2976584306-a,10.1002/asia.201900828,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:52:40Z,W3021088535-a,10.1002/anie.202001934,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:52:40Z,W2616557405,10.1002/chem.201606031,mark,extracted,"Usable: tetrahedral Co(II) halide complexes at CAS(7,5) and CAS(13,8)/NEVPT2 in ORCA, the larger space adding metal-ligand sigma orbitals to probe covalency."
+2026-09-09T14:52:40Z,W2747899145,10.1002/chem.201703237,mark,extracted,"Usable: thymine dinucleotide CPD and 6-4 photoproduct formation at CASSCF(8,8)/MM with SA-15 CASPT2(12,12); documents restricting the space for state selection."
+2026-09-09T14:52:40Z,W2885676681,10.1016/j.chemphys.2018.07.041,mark,extracted,"Usable: azomethane and azoxymethane AIMS dynamics at CASSCF(6,4) and (10,8)/6-31G(d), where the larger space reveals a 25% C-N dissociation channel."
+2026-09-09T14:52:40Z,W2907739916,10.1016/j.bpc.2019.01.001,mark,extracted,"Usable: LHCII chlorophyll-lutein exciton coupling with RASSCF [10,0,10,sd] orbital preparation and CASSCF[14,14]; the entire lutein pi system required for transition properties."
+2026-09-09T14:52:40Z,W2976584306,10.1002/asia.201900828,mark,extracted,"Usable: lanthanide SMM review recording that metal-only active spaces miss covalency and that (14,14) is the practical ceiling for these systems."
+2026-09-09T14:52:40Z,W3021088535,10.1002/anie.202001934,mark,extracted,"Usable: singlet excited state aromaticity via CASSCF(2,2) plus NICS, argued sufficient for Baird-rule S1 states."
+2026-09-09T14:53:26Z,W3037394660-a,10.1002/cptc.202000098,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:53:27Z,W359409544-a,10.1016/s0009-2614(02)00195-1,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:53:27Z,W4248691538-a,10.1002/ange.200904797,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:54:03Z,W4251375387-a,10.1023/a:1008270112260,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:54:04Z,W4417449308-a,10.26434/chemrxiv-2025-nnc73,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:54:04Z,W3037394660,10.1002/cptc.202000098,mark,extracted,"Usable: 241-molecule singlet fission screen on a fixed (6,6) HOMO-2 to LUMO+2 window, with both failure modes of the fixed window documented; GAUSSIAN 16."
+2026-09-09T14:54:04Z,W359409544,10.1016/s0009-2614(02)00195-1,mark,extracted,"Usable: O(3P) + N2O ground 3A'' surface at CASSCF(14,12)/CASPT2, with an (18,14) enlargement as the remedy for multiple qualitatively different solutions at fixed CI size."
+2026-09-09T14:54:04Z,W4248691538,10.1002/ange.200904797,mark,extracted,"Usable: FB=MF2 borylene complexes (M = Ti, Zr, Hf) at CASSCF(6,6)/CASPT2 spanning only the M=B sigma and pi bonds, MOLCAS-7 with DKH."
+2026-09-09T14:54:04Z,W4251375387,10.1023/a:1008270112260,mark,extracted,Usable: CASVB on methane ('8 in 8') and diborane ('12 in 12') in MOLPRO; journal version of the book chapter also in this batch.
+2026-09-09T14:54:04Z,W4417449308,10.26434/chemrxiv-2025-nnc73,mark,extracted,"Usable: flavin in QM/AMOEBA polarizable embedding, comparing UNO-selected CAS(8,8) for LR-CASSCF against CAS(14,8) and CAS(14,11) for SA-CASSCF; flags the (14,8) as unbalanced."
+2026-09-09T14:55:14+00:00,W4417449308-a,10.26434/chemrxiv-2025-nnc73,resolve_duplicate_paper,removed,duplicate of the same paper under 10.53941/ps.2026.100011; this row came from the other version of record; full row preserved in logs/removed_rows.csv
+2026-09-09T14:55:14+00:00,W4417449308,,resolve_duplicate_paper,not_usable,preprint/journal duplicate of W7140277076; its rows were removed and the surviving rows carry both DOIs
+2026-09-09T14:58:28Z,W1984335107-a,10.1006/jmsp.1993.1100,add-row,appended,Batch mining of hand-supplied paywalled papers.
+2026-09-09T14:58:28Z,W1984335107,10.1006/jmsp.1993.1100,mark,extracted,"Usable: Sc2 partition function and dissociation energy at CASSCF(6,12) feeding IC-ACPF with a core polarization potential. The PDF is a scan with no usable text layer (116 characters), so the pages were rendered with pdftoppm and read as images."
+2026-09-09T14:58:28Z,W2950137022,10.1002/chin.198839241,mark,not_usable,"ChemInform abstract only: the supplied PDF is a single-page ChemInform secondary abstract record carrying under 350 characters of text and no computational details - no active space, basis set, software or root count. The status was initially set to text_unreadable by the text extraction step, but the file is not a failed extraction: there is simply nothing in a ChemInform abstract to mine. The primary paper would need to be fetched separately."
+2026-09-09T14:58:28Z,W2950560338,10.1002/chin.199239055,mark,not_usable,"ChemInform abstract only: the supplied PDF is a single-page ChemInform secondary abstract record carrying under 350 characters of text and no computational details - no active space, basis set, software or root count. The status was initially set to text_unreadable by the text extraction step, but the file is not a failed extraction: there is simply nothing in a ChemInform abstract to mine. The primary paper would need to be fetched separately."
+2026-09-09T14:58:29Z,W2949451637,10.1002/chin.198842116,mark,not_usable,"ChemInform abstract only: the supplied PDF is a single-page ChemInform secondary abstract record carrying under 350 characters of text and no computational details - no active space, basis set, software or root count. The status was initially set to text_unreadable by the text extraction step, but the file is not a failed extraction: there is simply nothing in a ChemInform abstract to mine. The primary paper would need to be fetched separately."
