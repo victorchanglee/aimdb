@@ -140,6 +140,7 @@ A-active-space,W3116954969,10.1021/acs.jpcc.0c07861,Nonadiabatic Dynamics at the
 A-active-space,W2076263093,10.1080/0026897031000109356,The CASPT2 method in inorganic electronic spectroscopy: from ionic transition metal to covalent actinide complexes*,extracted,3,3,13,1,0,0,1,3,claude-opus-5,yes,no
 A-active-space,W2055715426,10.1063/1.460240,Theoretical characterization of the potential energy surface for H+O2 = HO*2 = OH+O. III. Computed points to define a global potential energy surface,extracted,1,1,11,1,0,0,1,1,claude-opus-5,yes,no
 A-active-space,W2083395661,10.1016/0022-2852(89)90104-5,The spectroscopy of MnH,extracted,1,1,11,1,0,0,1,1,claude-opus-5,yes,no
+A-active-space,W2120344945,10.1016/j.chemphys.2008.11.006,Ab initio potential energy curves and transition dipole moments for the interaction of a ground state He with Na(3s–3p),extracted_partial,1,1,11,1,0,0,1,1,claude-opus-5,yes,no
 A-active-space,W2145246665,10.1002/jcc.540090806,Doublet instability and the molecular structure of AlO<sub>2</sub>,extracted,1,1,11,1,0,0,1,1,claude-opus-5,yes,no
 A-active-space,W2169978701,10.1016/0009-2614(95)01094-p,Theoretical study of structure and thermodynamic properties of YC2,extracted,1,1,11,1,0,0,1,1,claude-opus-5,yes,no
 A-active-space,W1970570409,10.1063/1.4882135,Low valency in lanthanides: A theoretical study of NdF and LuF,extracted,1,1,10,1,0,0,1,0,claude-opus-5,yes,no
@@ -148,6 +149,7 @@ A-active-space,W2060827160,10.1016/0009-2614(90)87048-v,Is the hypervalent radic
 A-active-space,W2077424295,10.1016/s0009-2614(99)00180-3,All-electron ab initio investigations of the electronic states of the NiC molecule,extracted,1,1,10,1,0,0,1,0,claude-opus-5,yes,no
 A-active-space,W2092288980,10.1080/00268970802454786,Theoretical study of molecular properties of low-lying electronic excited states of H<sub>2</sub>O and H<sub>2</sub>S,extracted,1,1,10,1,0,0,1,0,claude-opus-5,yes,no
 A-active-space,W1903185053,10.1080/00268978300100901,The HeI excited electron spectrum of phosphine,extracted,1,1,9,1,0,0,0,1,claude-opus-5,yes,no
+A-active-space,W1996356185,10.1016/j.chemphys.2005.03.024,Theoretical structure of the low lying electronic states of yttrium fluoride YF,extracted_partial,1,1,9,1,0,0,0,1,claude-opus-5,yes,no
 A-active-space,W2015661663,10.1063/1.468919,Application of complete space multireference many-body perturbation theory to N2: Dependence on reference space and <i>H</i>0,extracted,1,1,9,1,0,0,0,1,claude-opus-5,yes,no
 A-active-space,W2024328721,10.1016/0166-1280(88)80268-9,Bonding and electronic structure in diatomic ThO: Quasirelativistic effective core potential calculations,extracted,1,1,9,0,1,0,0,1,claude-opus-5,yes,no
 A-active-space,W2034426974,10.1016/0301-0104(94)00357-g,A quantum chemical ab initio study of the superexchange coupling in binuclear oxygen-bridged Ni(II) complexes,extracted,1,1,9,1,0,0,0,1,claude-opus-5,yes,no
@@ -162,6 +164,7 @@ A-active-space,W181330492,10.1007/978-94-009-4734-4_17,Ab-Initio Multireference 
 A-active-space,W1965679096,10.1016/s0301-0104(00)00344-x,Quasirelativistic valence ab initio calculation of the potential energy curves for the Hg–rare gas atom complexes,extracted,1,1,8,0,1,0,0,0,claude-opus-5,yes,no
 A-active-space,W1989443028,10.1021/jp049648e,"Absorption and Fluorescence of 3-Methylindole:  A Theoretical Study, Including H<sub>2</sub>O Interactions",extracted_partial,1,1,8,1,0,0,0,0,claude-opus-5,yes,no
 A-active-space,W1995658424,10.1063/1.472751,Adiabatic and nonadiabatic effects of nuclear dynamics in spectra of decaying states: Auger spectrum of HF,extracted,1,1,8,1,0,0,0,0,claude-opus-5,yes,no
+A-active-space,W1999955948,10.1016/j.cplett.2003.10.127,Al3+· He: stability and spectroscopy,extracted_partial,1,1,8,1,0,0,0,0,claude-opus-5,yes,no
 A-active-space,W2004190822,10.1002/qua.21779,Theoretical electronic structure of the molecule ScI,extracted_partial,1,1,8,1,0,0,0,0,claude-opus-5,yes,no
 A-active-space,W2019081669,10.1021/jp064588t,Theoretical Studies on the Ene Reaction Mechanisms of Propene and Cyclopropene with Ethylene and Cyclopropene:  Concerted or Stepwise,extracted_partial,1,1,8,1,0,0,0,0,claude-opus-5,yes,no
 A-active-space,W2030561179,10.1021/ja010782b,"UV−Visible Absorption Spectra of [Ru(E)(E‘)(CO)<sub>2</sub>(iPr-DAB)] (E = E‘ = SnPh<sub>3</sub> or Cl; E = SnPh<sub>3</sub> or Cl, E‘ = CH<sub>3</sub>; iPr-DAB = <i>N,N‘</i>-Di-isopropyl-1,4-diaza-1,3-butadiene):  Combination of CASSCF/CASPT2 and TD-DFT Calculations",extracted,4,1,8,1,0,0,0,0,claude-opus-5,yes,no
@@ -215,12 +218,14 @@ B-basis-orbitals,W1985458962,10.1016/s0009-2614(97)00484-3,Ab initio molecular d
 B-basis-orbitals,W2004487737,10.1016/0039-6028(92)90820-v,The bonding and migration of an O atom on a CaO(100) surface: a theoretical study,extracted,1,1,3,0,0,0,1,1,claude-opus-5,yes,no
 B-basis-orbitals,W2008185468,10.1021/ic0354973,"DFT Study of the Geometry and Energy Order of the Low Singlet and Triplet States of [d<sup>4</sup>-η<sup>5</sup>-CpMo(CO)<sub>2</sub>X] 16-Electron Complexes (X = Halogen, CN, H, and CH<sub>3</sub>)",extracted,1,1,3,0,0,0,1,1,claude-opus-5,yes,no
 B-basis-orbitals,W2011611135,10.1021/jp506876v,Theoretical Study of Solvent Effects on the Ground and Low-Lying Excited Free Energy Surfaces of a Push–Pull Substituted Azobenzene,extracted,1,1,3,0,0,0,1,1,claude-opus-5,yes,no
+B-basis-orbitals,W2015774350,10.1016/s0009-2614(98)00492-8,"Equilibrium geometry of the HCCP triplet ground state: phospho-carbene, phospho-allene or phosphorene? A combined density functional and ab initio study",extracted,1,1,3,0,0,0,1,1,claude-opus-5,yes,no
 B-basis-orbitals,W2022573691,10.1002/jcc.10278,A simple approach for improving the hybrid MMVB force field: Application to the photoisomerization of <i>s</i>‐<i>cis</i> butadiene,extracted,1,1,3,0,0,0,1,1,claude-opus-5,yes,no
 B-basis-orbitals,W2038341583,10.1016/0166-1280(91)85251-2,"Novel carbon suboxides and subsulpffldes (C5O2, C5S2, C4O2 and C2S2: assignment of UV and IR spectra by quantum chemical calculations",extracted,1,1,3,0,0,0,1,1,claude-opus-5,yes,no
 B-basis-orbitals,W2038628579,10.1016/0039-6028(96)00607-3,Ab initio explanation of the apparent violation of detailed balance for H2 adsorption/desorption from Si(100),extracted,1,1,3,0,0,0,1,1,claude-opus-5,yes,no
 B-basis-orbitals,W2040712927,10.1080/00268976.2015.1012128,Molecular <i>g-</i>tensors from analytical response theory and quasi-degenerate perturbation theory in the framework of complete active space self-consistent field method,extracted,1,1,3,0,0,0,1,1,claude-opus-5,yes,no
 B-basis-orbitals,W2049486220,10.1016/j.cclet.2014.01.050,A semiclassical molecular dynamics of the photochromic ring-opening reaction of spiropyran,extracted,1,1,3,0,0,0,1,1,claude-opus-5,yes,no
 B-basis-orbitals,W2052121130,10.1016/0301-0104(91)87031-p,Localization and correlation corrections in electronic interactions through single bonded hydrocarbon spacers,extracted,1,1,3,0,0,0,1,1,claude-opus-5,yes,no
+B-basis-orbitals,W2068734024,10.1006/jmsp.1997.7452,Anab InitioStudy of the NH2+Absorption Spectrum,extracted,1,1,3,0,0,0,1,1,claude-opus-5,yes,no
 B-basis-orbitals,W2088154280,10.1016/s0301-0104(01)00508-0,"Ab initio study on the photochemical behavior of 4-dimethylamino,4′-cyanostilbene",extracted,1,1,3,0,0,0,1,1,claude-opus-5,yes,no
 B-basis-orbitals,W2090905614,10.1016/j.cplett.2005.08.101,Electron structure of oxygen complexes of ferrous ion center,extracted,1,1,3,0,0,0,1,1,claude-opus-5,yes,no
 B-basis-orbitals,W2107355979,10.1021/jp051108+,"Mechanism of an Exceptional Class of Photostabilizers:  A Seam of Conical Intersection Parallel to Excited State Intramolecular Proton Transfer (ESIPT) in <i>o</i>-Hydroxyphenyl-(1,3,5)-triazine",extracted,1,1,3,0,0,0,1,1,claude-opus-5,yes,no
@@ -258,7 +263,9 @@ B-basis-orbitals,W2019215052,10.1016/j.cplett.2011.02.018,Broken-symmetry natura
 B-basis-orbitals,W2025276481,10.1016/s0009-2614(97)01440-1,[2.2.2]propellane rearrangements,extracted,1,1,2,0,0,0,1,0,claude-opus-5,yes,no
 B-basis-orbitals,W2029818738,10.1016/j.chemphys.2010.07.004,Ab initio study of the electronic singlet excited-state properties of tryptophan in the gas phase: The role of alanyl side-chain conformations,extracted,1,1,2,0,0,0,1,0,claude-opus-5,yes,no
 B-basis-orbitals,W2030512233,10.1016/j.chemphys.2011.02.003,The electronic structure of p-xylylene and its reactivity with vinyl molecules,extracted,1,1,2,0,0,0,1,0,claude-opus-5,yes,no
+B-basis-orbitals,W2037136396,10.1016/j.cplett.2004.11.116,Reactivity of aluminium dimer with H2: the performance of high level ab initio and density functional methods for prediction of reaction paths,extracted,1,1,2,0,0,0,1,0,claude-opus-5,yes,no
 B-basis-orbitals,W2038470370,10.1002/qua.990,"Benzocyclobutadiene: The question of structures, magnetic shieldings, and aromatic character*",extracted,1,1,2,0,0,0,1,0,claude-opus-5,yes,no
+B-basis-orbitals,W2045618201,10.1016/j.chemphys.2004.04.021,Multimode Jahn–Teller and pseudo-Jahn–Teller coupling effects in the photoelectron spectrum of CH3F,extracted,1,1,2,0,0,0,1,0,claude-opus-5,yes,no
 B-basis-orbitals,W2051844989,10.1063/1.1390504,Structure and thermodynamic stability of the OsC and OsC2 molecules by theoretical calculations and by Knudsen cell mass spectrometry,extracted,1,1,2,0,0,0,1,0,claude-opus-5,yes,no
 B-basis-orbitals,W2060304580,10.1016/j.cplett.2011.06.064,"Validity of describing reaction coordinate of intramolecular charge transfer of 1,3-dinitrobenzene anion radical using constrained density functional theory",extracted,1,1,2,0,0,0,1,0,claude-opus-5,yes,no
 B-basis-orbitals,W2061514673,10.1016/0301-0104(93)80052-b,Theoretical study of a basic process in interstellar nitrogen chemistry: reaction of N with OH,extracted,1,1,2,0,0,0,1,0,claude-opus-5,yes,no
@@ -266,6 +273,7 @@ B-basis-orbitals,W2063060872,10.1016/0301-0104(92)85013-k,Through-bond interacti
 B-basis-orbitals,W2064255623,10.1016/j.cplett.2004.02.061,Adiabatic electron affinities of ScC2 and ScC3 evaluated by a multiconfigurational approach,extracted,1,1,2,0,0,0,1,0,claude-opus-5,yes,no
 B-basis-orbitals,W2071203343,10.1021/jp102635s,Reinvestigation of the Reaction of Ethylene and Singlet Oxygen by the Approximate Spin Projection Method. Comparison with Multireference Coupled-Cluster Calculations,extracted,1,1,2,0,0,0,1,0,claude-opus-5,yes,no
 B-basis-orbitals,W2072316483,10.1016/0301-0104(95)00115-5,A theoretical study on the structure of acetonitrile (CH3CN) and its anion CH3CN−,extracted,1,1,2,0,0,0,1,0,claude-opus-5,yes,no
+B-basis-orbitals,W2075329794,10.1016/j.cplett.2006.09.006,"The 12B1, 12B2, 12A1, 12A2, 32A′(22B2), and 22A1 states of the 1,1-difluoromethane ion studied using multiconfiguration second-order perturbation theory",extracted,1,1,2,0,0,0,1,0,claude-opus-5,yes,no
 B-basis-orbitals,W2088643447,10.1002/kin.20299,CASPT2 investigation of ethane dissociation and methyl recombination using canonical variational transition state theory,extracted,1,1,2,0,0,0,1,0,claude-opus-5,yes,no
 B-basis-orbitals,W2092065509,10.1016/s0301-0104(00)00207-x,Conical intersections and photoreactions of 2H-azirines,extracted,1,1,2,0,0,0,1,0,claude-opus-5,yes,no
 B-basis-orbitals,W2097766728,10.1039/c3cp52703d,Theoretical study of the photochemical generation of triplet acetophenone,extracted,1,1,2,0,0,0,1,0,claude-opus-5,yes,no
@@ -332,6 +340,7 @@ D-software,W2252860036,10.1021/jp983856n,"Ab Initio Molecular Orbital Study of X
 D-software,W2623870228,10.1021/jp905931j,Can the C<sub>5</sub>H<sub>5</sub> + C<sub>5</sub>H<sub>5</sub> → C<sub>10</sub>H<sub>10</sub> → C<sub>10</sub>H<sub>9</sub> + H/C<sub>10</sub>H<sub>8</sub> + H<sub>2</sub> Reaction Produce Naphthalene? An Ab Initio/RRKM Study,extracted,4,4,4,0,0,0,0,4,claude-opus-5,yes,no
 D-software,W2808024689,10.1021/acs.jctc.8b00184,Crystal Field Splittings in Lanthanide Complexes: Inclusion of Correlation Effects beyond Second Order Perturbation Theory,extracted,4,4,4,0,0,0,0,4,claude-opus-5,yes,no
 D-software,W2970445189,10.1021/acs.inorgchem.9b01393,Understanding the Multiconfigurational Ground and Excited States in Lanthanide Tetrakis Bipyridine Complexes from Experimental and CASSCF Computational Studies,extracted_partial,4,4,4,0,0,0,0,4,claude-opus-5,yes,no
+D-software,W1991290547,10.1016/s0009-2614(99)00031-7,Ab initio potential curves of the fragments and diatomics-in-molecules potential energy surfaces for the SH⋯Kr complex,extracted,3,3,3,0,0,0,0,3,claude-opus-5,yes,no
 D-software,W1991923002,10.1080/00268978400101031,On bonding in transition-metal helide ions,extracted,3,3,3,0,0,0,0,3,claude-opus-5,yes,no
 D-software,W1994136125,10.1016/0009-2614(89)85347-3,The CASSCF state interaction method,extracted,3,3,3,0,0,0,0,3,claude-opus-5,yes,no
 D-software,W2001349157,10.1002/jcc.23873,"State‐specific multireference perturbation theory with improved virtual orbitals: Taming the ground state of <scp>F</scp><sub>2</sub>, <scp>B</scp>e<sub>2,</sub> and <scp>N</scp><sub>2</sub>",extracted,3,3,3,0,0,0,0,3,claude-opus-5,yes,no
@@ -386,7 +395,9 @@ D-software,W2758357310,10.1021/acs.jpcc.7b08011,Carbon-Bridged Phenylene-Vinylen
 D-software,W2895356514,10.1021/acs.inorgchem.8b01761,Seeking Redox Activity in a Tetrazinyl Pincer Ligand: Installing Zerovalent Cr and Mo,extracted_partial,2,2,2,0,0,0,0,2,claude-opus-5,yes,no
 D-software,W4307788675,10.1021/acs.jpca.2c05711,Global Kinetics and Spectral Modeling of <i>p</i>-Methoxyphenyl Azide Photooxidation,extracted_partial,2,2,2,0,0,0,0,2,claude-opus-5,yes,no
 D-software,W4389298728,10.1021/acs.jpclett.3c02536,Quantum Information-Assisted Complete Active Space Optimization (QICAS),extracted_partial,2,2,2,0,0,0,0,2,claude-opus-5,yes,no
+D-software,W1141477784,10.1016/j.cplett.2015.07.057,Theoretical analysis on the aromaticity of uracil: Important electronic configurations and solvent effect on the aromaticity,extracted,1,1,1,0,0,0,0,1,claude-opus-5,yes,no
 D-software,W1526637858,10.1063/1.481592,"Spectroscopic constants of the X(1A1), ã(3B1), and Ã(1B1) states of CF2, CCl2, and CBr2 and heats of formation of selected halocarbenes: An <i>ab initio</i> quantum chemical study",extracted,1,1,1,0,0,0,0,1,claude-opus-5,yes,no
+D-software,W1908966210,10.1016/j.chemphys.2015.10.016,Prediction of electronically nonadiabatic decomposition mechanisms of isolated gas phase nitrogen-rich energetic salt: Guanidium-triazolate,extracted,1,1,1,0,0,0,0,1,claude-opus-5,yes,no
 D-software,W1968152379,10.1016/0022-2852(89)90244-0,Spectroscopic properties and potential energy curves of 29 electronic states of YH,extracted,1,1,1,0,0,0,0,1,claude-opus-5,yes,no
 D-software,W1970783164,10.1016/s0009-2614(01)01273-8,A MS-CASPT2 study of the low-lying electronic excited states of CH2BrCl,extracted,1,1,1,0,0,0,0,1,claude-opus-5,yes,no
 D-software,W1972149408,10.1016/0301-0104(89)80157-0,Theoretical study of the CO2+ dication,extracted,1,1,1,0,0,0,0,1,claude-opus-5,yes,no
@@ -412,11 +423,13 @@ D-software,W2009842088,10.1063/1.473337,Quantum chemical <i>ab initio</i> calcul
 D-software,W2011233376,10.1016/s0009-2614(01)00454-7,Theoretical study of the singlet electronically excited states of N4,extracted,1,1,1,0,0,0,0,1,claude-opus-5,yes,no
 D-software,W2011455161,10.1021/jp993386c,Photodissociation of HN<sub>3</sub> at 248 nm and Longer Wavelength:  A CASSCF Study,extracted,1,1,1,0,0,0,0,1,claude-opus-5,yes,no
 D-software,W2011668523,10.1039/b100883h,"Laser induced, dispersed fluorescence spectroscopy, and ab initio calculations of p-cyanophenol",extracted,1,1,1,0,0,0,0,1,claude-opus-5,yes,no
+D-software,W2011935052,10.1063/1.1471909,Vinyl radical visible spectroscopy and excited state dynamics,extracted,1,1,1,0,0,0,0,1,claude-opus-5,yes,no
 D-software,W2012201264,10.1021/jp984614q,"Ground and Low-Lying States of the Vanadium Boride Cation, VB<sup>+</sup>:  An ab Initio Investigation",extracted,1,1,1,0,0,0,0,1,claude-opus-5,yes,no
 D-software,W2012892074,10.1016/0166-1280(88)80275-6,Valence bond calculations of the degree of covalency in a CX bond: Application to CH4 and CH3Li,extracted,1,1,1,0,0,0,0,1,claude-opus-5,yes,no
 D-software,W2013107215,10.1063/1.449818,Theoretical calculation of ozone vibrational infrared intensities,extracted,1,1,1,0,0,0,0,1,claude-opus-5,yes,no
 D-software,W2014212895,10.1021/jp981088u,"Bonding Investigation of the Ground and Low-Lying States of the Titanium Boride Cation, TiB<sup>+</sup>",extracted,1,1,1,0,0,0,0,1,claude-opus-5,yes,no
 D-software,W2016027679,10.1016/0301-0104(89)87017-x,"NO2 radical spectroscopy: Vibrational frequencies, dipole moment, and the energy difference between the bent and linear stationary points on the ground state potential surface",extracted,1,1,1,0,0,0,0,1,claude-opus-5,yes,no
+D-software,W2017204327,10.1016/s0010-8545(01)00360-5,"Photochemistry and electronic spectroscopy of the Ru(SnPh3)2(CO)2(α-diimine) complexes: an ab initio investigation of the model system Ru(SnH3)2(CO)2(Me-DAB) (DAB=1,4-diaza-1,3-butadiene)",extracted,1,1,1,0,0,0,0,1,claude-opus-5,yes,no
 D-software,W2020608829,10.1063/1.4913515,Electron dynamics upon ionization: Control of the timescale through chemical substitution and effect of nuclear motion,extracted,1,1,1,0,0,0,0,1,claude-opus-5,yes,no
 D-software,W2021463305,10.1016/0009-2614(89)85020-1,Geometries and bond energies of GaH and GaH+ (n=1–3),extracted,1,1,1,0,0,0,0,1,claude-opus-5,yes,no
 D-software,W2028795335,10.1063/1.452235,A CASSCF-CCI study of the valence and lower excited states of the benzene molecule,extracted,1,1,1,0,0,0,0,1,claude-opus-5,yes,no
@@ -442,6 +455,8 @@ D-software,W2047850685,10.1016/s0301-0104(98)00368-1,"Ab initio study of the ami
 D-software,W2047966729,10.1007/bf01025839,A CASSCF study of the singlet-singlet and triplet-triplet spectroscopy of naphthalene,extracted,1,1,1,0,0,0,0,1,claude-opus-5,yes,no
 D-software,W2048194163,10.1021/jp112230f,Solvent-Induced Shifts in Electronic Spectra of Uracil,extracted,1,1,1,0,0,0,0,1,claude-opus-5,yes,no
 D-software,W2048301749,10.1016/0022-2852(90)90161-i,Theoretical study of the spectroscopy of FeH,extracted,1,1,1,0,0,0,0,1,claude-opus-5,yes,no
+D-software,W2048790727,10.1016/j.cplett.2005.10.048,The lowest quartet electronic states of MnC,extracted,1,1,1,0,0,0,0,1,claude-opus-5,yes,no
+D-software,W2050384520,10.1016/j.cplett.2010.08.084,Four-state conical intersections: The nonradiative deactivation funnel connected to O–O homolysis in benzene endoperoxide,extracted,1,1,1,0,0,0,0,1,claude-opus-5,yes,no
 D-software,W2053034837,10.1063/1.451154,"Theoretical study of OH+: Potential curves, transition moments, and photodissociation cross sections",extracted,1,1,1,0,0,0,0,1,claude-opus-5,yes,no
 D-software,W2054051340,10.1021/jp211518f,Potential Energy Surfaces for Rearrangements of Berson Trimethylenemethanes,extracted,1,1,1,0,0,0,0,1,claude-opus-5,yes,no
 D-software,W2055412687,10.1016/0009-2614(94)00899-x,The discontinuities of state-average MCSCF potential surfaces,extracted,1,1,1,0,0,0,0,1,claude-opus-5,yes,no
@@ -489,6 +504,7 @@ D-software,W2138746210,10.1016/s0009-2614(98)00986-5,Theoretical study of the el
 D-software,W2140056353,10.1002/chem.201303792,Heavy‐Atom Tunneling in the Ring Opening of a Strained Cyclopropene at Very Low Temperatures,extracted,1,1,1,0,0,0,0,1,claude-opus-5,yes,no
 D-software,W2145774517,10.1080/00268970701618440,A CAS-DFT study of fundamental degenerate and nearly degenerate systems,extracted,1,1,1,0,0,0,0,1,claude-opus-5,yes,no
 D-software,W2170685633,10.1039/b618745e,Conical intersections involving the dissociative <sup>1</sup> πσ* state in 9H-adenine: a quantum chemical ab initio study,extracted,1,1,1,0,0,0,0,1,claude-opus-5,yes,no
+D-software,W2182006695,10.1016/j.jphotochem.2015.10.025,"Photo-induced 1,3-cyclohexadiene ring opening reaction: Ab initio on-the-fly nonadiabatic molecular dynamics simulation",extracted,1,1,1,0,0,0,0,1,claude-opus-5,yes,no
 D-software,W2312397760,10.1021/jp952915j,Electronic Structure and Thermodynamic Properties of LaC<sub>2</sub>,extracted,1,1,1,0,0,0,0,1,claude-opus-5,yes,no
 D-software,W2314196990,10.1021/jp110894v,CASSCF and CASPT2 Study on O- and Cl-Loss Predissociation Mechanisms of OClO (<i>A</i><sup>2</sup>A<sub>2</sub>),extracted,1,1,1,0,0,0,0,1,claude-opus-5,yes,no
 D-software,W2316198672,10.1021/jp970980i,"X <sup>1</sup>A<sub>1</sub>, ã <sup>3</sup>B<sub>1</sub>, Ã <sup>1</sup>B<sub>1</sub>, and B <sup>1</sup>A<sub>1</sub> Electronic States of",extracted,1,1,1,0,0,0,0,1,claude-opus-5,yes,no
@@ -511,6 +527,7 @@ D-software,W4387296944,10.1021/acs.jpca.3c04099,High-Level Multireference Invest
 D-software,W4388035599,10.1021/acs.jctc.3c00792,Variational Active Space Selection with Multiconfiguration Pair-Density Functional Theory,extracted_partial,1,1,1,0,0,0,0,1,claude-opus-5,yes,no
 D-software,W4400358557,10.1364/ol.532228,Theoretical study of the substituent effects on the ESIPT mechanism of salicylideneaniline and the TICT photochemistry reactions,extracted,1,1,1,0,0,0,0,1,claude-opus-5,yes,no
 D-software,W4401079383,10.1021/acs.jpca.4c03213,Geometric Optimization of Restricted-Open and Complete Active Space Self-Consistent Field Wave Functions,extracted_partial,1,1,1,0,0,0,0,1,claude-opus-5,yes,no
+D-software,W4411011493,10.1016/j.cplett.2025.142223,Unveiling the ring-deformation-driven photostability of isolated G-C Base pair: A CASPT2//CASSCF and nonadiabatic dynamics perspective,extracted,1,1,1,0,0,0,0,1,claude-opus-5,yes,no
 C-refetch,W3034858611,10.1021/acs.jctc.0c00324,Reduced Density Matrix-Driven Complete Active Apace Self-Consistent Field Corrected for Dynamic Correlation from the Adiabatic Connection,extracted,35,33,528,33,33,0,0,0,gpt-5.6,no,no
 C-refetch,W3140850877,10.1021/acs.jctc.1c00327,Second-Order CASSCF Algorithm with the Cholesky Decomposition of the Two-Electron Integrals,extracted_partial,31,31,93,0,0,31,0,0,claude-opus-4-8,no,no
 C-refetch,W4287578679,10.1063/5.0101838,Computation of NMR shieldings at the CASSCF level using gauge-including atomic orbitals and Cholesky decomposition,extracted_partial,28,28,84,0,0,28,0,0,claude-opus-4-8,no,no
