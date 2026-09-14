@@ -58,6 +58,53 @@ something the row still says elsewhere, they reword nothing, and both run
 | `tools/tools_dedupe_within_head.py` | where several segments open with the same head, says a clause common to all of them once. Requires the clause in every segment of the group, so a clause telling those segments apart is never collapsed. |
 | `tools/tools_hoist_repeated_sentence.py` | moves a sentence repeated in every segment of a field to a single copy at the end. Requires three recurrences; splits on periods only, so a semicolon-joined clause is never orphaned. |
 
+## Querying the database (for other code and agents)
+
+`mining_agent/query.py` is the read-only way in, for `claude-casscf` and for
+anything else that wants rows without loading and grepping the whole 11 MB
+CSV. It is a library first and a CLI second:
+
+```python
+from mining_agent import query
+
+query.get("W2971968767-e")                      # one row, or None
+query.find(metal="Dy", has_space=True, limit=5) # filtered, with an envelope
+query.spaces_for(element="Fe")                  # histogram the spaces used
+```
+
+```
+.venv/bin/python -m mining_agent query --element Fe --spaces --format tsv
+.venv/bin/python -m mining_agent query --doi 10.1063/5.0269968 --format json
+.venv/bin/python -m mining_agent query --schema
+```
+
+Three things about it are deliberate.
+
+**QUEST rows are withheld by default.** The export boundary in CLAUDE.md is
+enforced in code here, not left to whoever remembers to run
+`tools_export.py`; `include_quest=True` (`--include-quest`) is the only way
+past it, and the envelope always says how many rows were withheld. The DOI
+list now lives in `mining_agent/config.py` so this module and
+`tools_export.py` cannot drift apart.
+
+**Every result reports its blind spots.** A filter can only match rows whose
+field is filled, and coverage is uneven — `metal_center` is set on 38% of
+rows, `formula` on 73%, `element` on 86%. So each result counts the rows an
+active filter could never have matched, and names the column a caller would
+have to go and fill. An empty result and an unextracted field are different
+answers.
+
+**The schema is a published contract.** `query.schema()` returns
+`config.SCHEMA_VERSION` together with a fingerprint derived from the column
+names, so a consumer can detect drift even if a schema change forgets to bump
+the version. Bump it when `LITERATURE_COLUMNS` changes — the schema has
+drifted once already (2026-07-28).
+
+There is no write path here on purpose. Rows go in through
+`csvio.append_row`, and CLAUDE.md is explicit that extraction is judgement
+work, so nothing in this module lets an agent append a row it has not read a
+paper for.
+
 ## Audit and derived files
 
 | tool | what it does |

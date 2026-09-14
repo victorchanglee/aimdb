@@ -2,35 +2,26 @@
 
 The QUEST database is held out as a benchmark in claude-casscf/test/questdb/.
 Any row mined from a QUEST-series or QUEST-adjacent paper shadows that
-benchmark and must not reach a database the decision agent can read. The DOI
-list below is the one maintained in CLAUDE.md ("QUEST-sourced rows: keep here,
-filter on export") — keep the two in sync.
+benchmark and must not reach a database the decision agent can read.
+
+The DOI list used to live here. It now lives in mining_agent.config, because
+mining_agent.query enforces the same boundary and two copies of a rule this
+one matters would drift. CLAUDE.md keeps the annotated version.
 
 Usage, from code/: tools/tools_export.py [output.csv]
 """
 import csv
-import re
 import sys
 from pathlib import Path
 
+import _bootstrap  # noqa: F401  (puts code/ on sys.path)
+from mining_agent import config
+
 ROOT = Path(__file__).resolve().parents[2]
 
-# Kept in sync with the list in CLAUDE.md. Lower-cased for comparison.
-QUEST_DOIS = {
-    "10.1021/acs.jctc.8b01205",   # Reference Energies for Double Excitations
-    "10.48550/arxiv.2409.00302",  # QUEST#4X
-    "10.1063/5.0095887",          # CASPT3 benchmark (QUEST-adjacent)
-    "10.1002/wcms.1517",          # QUESTDB, the database paper itself
-    "10.1021/acs.jctc.9b01216",   # QUEST#3, Mountaineering Strategy
-    "10.1021/acs.jctc.4c00410",   # Double Excitations: Improvement and Extension
-    "10.1021/acs.jctc.3c01080",   # Transition metal compounds (QUEST-TM)
-    "10.1021/acs.jctc.1c01197",   # CASPT2 vs NEVPT2 assessment (QUEST-adjacent)
-}
-
-# Any row that mentions QUEST outside the known DOIs is reported, not dropped —
-# a paper mined without being added to the list above would show up here.
-QUEST_TEXT = re.compile(r"\bquest\b", re.I)
-SCAN_FIELDS = ("reference_short", "notes", "compound_name", "active_space_protocol")
+QUEST_DOIS = config.QUEST_DOIS
+QUEST_TEXT = config.QUEST_TEXT
+SCAN_FIELDS = config.QUEST_SCAN_FIELDS
 
 
 def main():

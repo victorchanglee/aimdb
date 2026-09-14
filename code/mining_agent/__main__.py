@@ -8,7 +8,7 @@ import json
 import sys
 from collections import Counter
 
-from . import config, csvio, fetch, index, pdftext, search
+from . import config, csvio, fetch, index, pdftext, query, search
 
 
 def cmd_search(args):
@@ -228,6 +228,60 @@ def cmd_show(args):
         print(f"{col:12s} {row[col]}")
 
 
+def _range(text):
+    """--year-range 1990:2000, or a bare 1995 meaning 1995:1995."""
+    lo, _, hi = text.partition(":")
+    return (int(lo), int(hi or lo))
+
+
+def cmd_query(args):
+    if args.schema:
+        print(json.dumps(query.schema(), indent=2))
+        return
+    spec = dict(
+        entry_id=args.entry_id, doi=args.doi, element=args.element,
+        metal=args.metal, system_class=args.system_class, formula=args.formula,
+        compound=args.compound, method=args.method,
+        correlation=args.correlation, software=args.software,
+        open_access=args.open_access, nel=args.nel, norb=args.norb,
+        nel_range=args.nel_range, norb_range=args.norb_range,
+        year_range=args.year_range, has_space=args.has_space or None,
+    )
+    fields = args.fields.split(",") if args.fields else None
+    try:
+        if args.spaces:
+            result = query.spaces_for(include_quest=args.include_quest, **spec)
+        else:
+            result = query.find(include_quest=args.include_quest,
+                                limit=args.limit, offset=args.offset,
+                                fields=fields, **spec)
+    except ValueError as exc:
+        sys.exit(str(exc))
+
+    if args.format == "json":
+        print(json.dumps(result, indent=2))
+        return
+    # tsv: the envelope on stderr so stdout stays a clean table to pipe.
+    summary = (f"{result['count']} matched of {result['database']['rows_searched']} "
+               f"searched ({result['database']['quest_rows_withheld']} QUEST withheld)")
+    print(summary, file=sys.stderr)
+    for name, spot in result.get("blind_spots", {}).items():
+        print(f"  blind spot: {spot['rows_without_this_field']} rows have no "
+              f"{spot['field']} and could not match", file=sys.stderr)
+    if args.spaces:
+        print("space\trows\texamples")
+        for s in result["spaces"]:
+            print(f"{s['space']}\t{s['rows']}\t{','.join(s['examples'])}")
+        print(f"(no space recorded)\t{result['without_space']}\t",
+              file=sys.stderr)
+        return
+    cols = fields or ["entry_id", "compound_name", "active_space_nel",
+                      "active_space_norb", "reference_doi"]
+    print("\t".join(cols))
+    for row in result["rows"]:
+        print("\t".join((row.get(c) or "").replace("\t", " ") for c in cols))
+
+
 def main():
     parser = argparse.ArgumentParser(prog="mining_agent")
     sub = parser.add_subparsers(dest="command", required=True)
@@ -303,6 +357,43 @@ def main():
     p = sub.add_parser("show", help="print one index entry")
     p.add_argument("--key", required=True)
     p.set_defaults(func=cmd_show)
+
+    p = sub.add_parser("query", help="read-only query over aimdb.csv "
+                                     "(QUEST rows withheld by default)")
+    p.add_argument("--entry-id", action="append")
+    p.add_argument("--doi", action="append")
+    p.add_argument("--element", action="append",
+                   help="element symbol; repeat to require all of them")
+    p.add_argument("--metal", action="append", help="metal_center symbol")
+    p.add_argument("--system-class", action="append",
+                   choices=sorted(config.SYSTEM_CLASSES))
+    p.add_argument("--formula", action="append")
+    p.add_argument("--compound", help="substring of compound_name")
+    p.add_argument("--method", help="substring of method")
+    p.add_argument("--correlation", help="substring of correlation_correction")
+    p.add_argument("--software", help="substring of software")
+    p.add_argument("--open-access", action="append",
+                   choices=sorted(config.OPEN_ACCESS_VALUES))
+    p.add_argument("--nel", type=int, action="append")
+    p.add_argument("--norb", type=int, action="append")
+    p.add_argument("--nel-range", type=_range, metavar="LO:HI")
+    p.add_argument("--norb-range", type=_range, metavar="LO:HI")
+    p.add_argument("--year-range", type=_range, metavar="LO:HI")
+    p.add_argument("--has-space", action="store_true",
+                   help="only rows carrying both nel and norb")
+    p.add_argument("--spaces", action="store_true",
+                   help="histogram the active spaces used instead of "
+                        "listing rows")
+    p.add_argument("--fields", help="comma-separated projection")
+    p.add_argument("--limit", type=int, default=None)
+    p.add_argument("--offset", type=int, default=0)
+    p.add_argument("--include-quest", action="store_true",
+                   help="include QUEST-sourced rows, which are withheld by "
+                        "default (CLAUDE.md export boundary)")
+    p.add_argument("--schema", action="store_true",
+                   help="print the schema contract and exit")
+    p.add_argument("--format", choices=("json", "tsv"), default="json")
+    p.set_defaults(func=cmd_query)
 
     args = parser.parse_args()
     args.func(args)

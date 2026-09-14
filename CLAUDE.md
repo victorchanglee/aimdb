@@ -41,6 +41,13 @@ claude-casscf/literature.csv from aimdb.csv must drop rows whose
 not after. This was learned the hard way: a 2026-08-03 wholesale refresh
 carried 14 QUEST rows into literature.csv and had to be reverted.
 
+The machine-readable copy of the list is `config.QUEST_DOIS`, and both
+`code/tools/tools_export.py` and `mining_agent.query` import it from there —
+`query.find()` withholds these rows unless a caller passes
+`include_quest=True`. **Extend both this list and `config.QUEST_DOIS`** when
+another QUEST paper is mined; the annotated version below is the one a reader
+checks.
+
 QUEST-sourced DOIs currently in `aimdb.csv` (extend this list when more are
 mined):
 

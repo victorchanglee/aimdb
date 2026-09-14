@@ -3,6 +3,7 @@
 All paths are derived from this file's location so the project can be
 moved or renamed without breaking anything.
 """
+import re
 from pathlib import Path
 
 CODE_DIR = Path(__file__).resolve().parent.parent
@@ -51,6 +52,14 @@ CURRENT_MINING_MODEL = "claude-opus-5"
 ENTRY_TYPES = ("llm_mining", "llm_reproduced", "human")
 DEFAULT_ENTRY_TYPE = "llm_mining"
 
+# Version of the aimdb.csv schema, for consumers reading through
+# mining_agent.query. BUMP THIS whenever LITERATURE_COLUMNS changes: the
+# moment anything outside this repo depends on the column set, that set is a
+# contract, and it has drifted once already (2026-07-28, see below).
+# query.schema() also publishes a fingerprint derived from the column names,
+# so a change that forgets this bump is still detectable downstream.
+SCHEMA_VERSION = "1.0"
+
 # aimdb.csv (formerly literature.csv) column order. Originally the first 30
 # columns were identical to claude-casscf/database/literature.csv so rows
 # could be merged directly; as of 2026-07-28 "ground_state_term" was merged into
@@ -72,6 +81,31 @@ LITERATURE_COLUMNS = [
     "reference_short", "reference_doi", "year", "notes",
     "correlation_correction", "entry_type", "mining_model", "open_access",
 ]
+
+# The QUEST export boundary (CLAUDE.md, "QUEST-sourced rows: keep here,
+# filter on export"). QUEST is held out as a benchmark in
+# claude-casscf/test/questdb/, so rows mined from a QUEST-series or
+# QUEST-adjacent paper must not reach a database the decision agent reads.
+# Enforced by tools/tools_export.py and by mining_agent.query, which both
+# import this list — it used to live in the tool alone, and a 2026-08-03 bulk
+# refresh that bypassed the tool carried 14 QUEST rows into literature.csv and
+# had to be reverted. Keep in sync with the annotated list in CLAUDE.md.
+QUEST_DOIS = {
+    "10.1021/acs.jctc.8b01205",   # Reference Energies for Double Excitations
+    "10.48550/arxiv.2409.00302",  # QUEST#4X
+    "10.1063/5.0095887",          # CASPT3 benchmark (QUEST-adjacent)
+    "10.1002/wcms.1517",          # QUESTDB, the database paper itself
+    "10.1021/acs.jctc.9b01216",   # QUEST#3, Mountaineering Strategy
+    "10.1021/acs.jctc.4c00410",   # Double Excitations: Improvement and Extension
+    "10.1021/acs.jctc.3c01080",   # Transition metal compounds (QUEST-TM)
+    "10.1021/acs.jctc.1c01197",   # CASPT2 vs NEVPT2 assessment (QUEST-adjacent)
+}
+
+# A row mentioning QUEST outside the known DOIs is reported, never dropped —
+# a paper mined without being added to the list above shows up this way.
+QUEST_TEXT = re.compile(r"\bquest\b", re.I)
+QUEST_SCAN_FIELDS = ("reference_short", "notes", "compound_name",
+                     "active_space_protocol")
 
 # system_class: what kind of system the row describes, so consumers can filter
 # (it sits next to compound_name, since it describes the compound itself)
