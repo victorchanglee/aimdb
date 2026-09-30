@@ -3653,10 +3653,10 @@ audited_on,entry_id,reference_doi,mining_model,documented_read_depth,source_stat
 2026-08-11,W2781836458-b,10.1021/acs.inorgchem.7b02561,gpt-5.6,not_documented,unavailable,,,source_unavailable,13,,,source_recovery_needed
 2026-08-11,W3032230109-a,10.1021/acs.jpcc.0c04052,gpt-5.6,not_documented,unavailable,,,source_unavailable,14,,,source_recovery_needed
 2026-08-11,W2581052400-a,10.1016/j.optmat.2017.01.033,claude-opus-5,not_documented,unavailable,,,source_unavailable,24,basis_set,noncanonical_soc_flag,schema_followup
-2026-08-11,W2756830942-a,10.1016/j.jallcom.2017.09.287,gpt-5.6,not_documented,unavailable,,,source_unavailable,13,,,source_recovery_needed
-2026-08-11,W2756830942-b,10.1016/j.jallcom.2017.09.287,gpt-5.6,not_documented,unavailable,,,source_unavailable,13,,,source_recovery_needed
-2026-08-11,W2953445811-a,10.1016/j.jlumin.2019.116577,gpt-5.6,not_documented,unavailable,,,source_unavailable,14,,,source_recovery_needed
-2026-08-11,W2953445811-b,10.1016/j.jlumin.2019.116577,gpt-5.6,not_documented,unavailable,,,source_unavailable,14,,,source_recovery_needed
+2026-08-11,W2756830942-a,10.1016/j.jallcom.2017.09.287,claude-opus-5,source_read_documented,unavailable,,,source_unavailable,25,,,source_recovery_needed
+2026-08-11,W2756830942-b,10.1016/j.jallcom.2017.09.287,claude-opus-5,source_read_documented,unavailable,,,source_unavailable,25,,,source_recovery_needed
+2026-08-11,W2953445811-a,10.1016/j.jlumin.2019.116577,claude-opus-5,source_read_documented,unavailable,,,symbolic_or_partial,24,,,source_recovery_needed
+2026-08-11,W2953445811-b,10.1016/j.jlumin.2019.116577,claude-opus-5,source_read_documented,unavailable,,,symbolic_or_partial,24,,,source_recovery_needed
 2026-08-11,W2203959691-a,10.1016/j.poly.2015.12.006,gpt-5.6,not_documented,unavailable,,,source_unavailable,15,,,source_recovery_needed
 2026-08-11,W2203959691-b,10.1016/j.poly.2015.12.006,gpt-5.6,not_documented,unavailable,,,source_unavailable,15,,,source_recovery_needed
 2026-08-11,W2765091639-a,10.1016/j.jpcs.2017.10.033,gpt-5.6,not_documented,unavailable,,,source_unavailable,22,,,source_recovery_needed
@@ -11968,9 +11968,6 @@ audited_on,entry_id,reference_doi,mining_model,documented_read_depth,source_stat
 2026-08-11,W64167051-e,10.1007/0-306-46950-2_13,claude-opus-5,not_documented,unavailable,,,source_unavailable,25,,,source_recovery_needed
 2026-08-11,W64167051-f,10.1007/0-306-46950-2_13,claude-opus-5,not_documented,unavailable,,,source_unavailable,25,,,source_recovery_needed
 2026-08-11,W64167051-g,10.1007/0-306-46950-2_13,claude-opus-5,not_documented,unavailable,,,source_unavailable,25,,,source_recovery_needed
-2026-08-11,W172083800-a,10.1007/978-3-642-78632-7_16,claude-opus-5,not_documented,unavailable,,,not_applicable,23,active_space_nel;active_space_norb,,source_recovery_needed
-2026-08-11,W172083800-b,10.1007/978-3-642-78632-7_16,claude-opus-5,not_documented,unavailable,,,not_applicable,23,active_space_nel;active_space_norb,,source_recovery_needed
-2026-08-11,W172083800-c,10.1007/978-3-642-78632-7_16,claude-opus-5,not_documented,unavailable,,,not_applicable,23,active_space_nel;active_space_norb,,source_recovery_needed
 2026-08-11,W2312004942-a,10.1007/978-94-009-0155-1_17,claude-opus-5,not_documented,unavailable,,,source_unavailable,25,,,source_recovery_needed
 2026-08-11,W2312004942-b,10.1007/978-94-009-0155-1_17,claude-opus-5,not_documented,unavailable,,,source_unavailable,25,,,source_recovery_needed
 2026-08-11,W2312004942-c,10.1007/978-94-009-0155-1_17,claude-opus-5,not_documented,unavailable,,,source_unavailable,25,,,source_recovery_needed
