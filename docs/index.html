@@ -523,28 +523,7 @@
     <div>Lr</div><div class="n">0</div>
   </div></div>
     </div>
-    <div class="filter-group" id="typeFilterGroup" hidden="">
-      <div class="ptable-head">
-        <span>Filter by entry source</span>
-        <span class="clear-els" id="clearTypes" hidden="">Clear ✕</span>
-      </div>
-      <div class="chips" id="typeChips"><span class="chip " data-type="llm_mining">LLM-mined<span class="n">667</span></span></div>
-    </div>
-    <div class="filter-group" id="accessFilterGroup" hidden="">
-      <div class="ptable-head">
-        <span>Filter by access</span>
-        <span class="clear-els" id="clearAccess" hidden="">Clear ✕</span>
-      </div>
-      <div class="chips" id="accessChips"></div>
-    </div>
-    <div class="filter-group" id="sysFilterGroup" hidden="">
-      <div class="ptable-head">
-        <span>Filter by system type</span>
-        <span class="clear-els" id="clearSys" hidden="">Clear ✕</span>
-      </div>
-      <div class="chips" id="sysChips"></div>
-    </div>
-    <div class="filter-group" id="yearFilterGroup" hidden="">
+    <div class="filter-group" id="yearFilterGroup">
       <div class="ptable-head">
         <span>Filter by year</span>
         <span class="clear-els" id="clearYears" hidden="">Clear ✕</span>
@@ -558,7 +537,28 @@
         <span class="hint" id="yearHint"></span>
       </div>
     </div>
-    <div class="filter-group" id="propsFilterGroup" hidden="">
+    <div class="filter-group" id="typeFilterGroup">
+      <div class="ptable-head">
+        <span>Filter by entry source</span>
+        <span class="clear-els" id="clearTypes" hidden="">Clear ✕</span>
+      </div>
+      <div class="chips" id="typeChips"><span class="chip " data-type="llm_mining">LLM-mined<span class="n">667</span></span></div>
+    </div>
+    <div class="filter-group" id="accessFilterGroup">
+      <div class="ptable-head">
+        <span>Filter by access</span>
+        <span class="clear-els" id="clearAccess" hidden="">Clear ✕</span>
+      </div>
+      <div class="chips" id="accessChips"></div>
+    </div>
+    <div class="filter-group" id="sysFilterGroup">
+      <div class="ptable-head">
+        <span>Filter by system type</span>
+        <span class="clear-els" id="clearSys" hidden="">Clear ✕</span>
+      </div>
+      <div class="chips" id="sysChips"></div>
+    </div>
+    <div class="filter-group" id="propsFilterGroup">
       <div class="ptable-head">
         <span>Filter by properties</span>
         <span class="clear-els" id="clearProps" hidden="">Clear ✕</span>
@@ -1117,17 +1117,16 @@ function accessTag(r){
 }
 
 function render(){
-  const active = !!(state.q || state.els.size || state.types.size || state.access.size || state.sys.size || state.yearMin!==null || state.yearMax!==null || state.showAll);
+  // state.props belongs here too: without it the ZFS chip sets a filter
+  // and the results stay hidden behind the empty state.
+  const active = !!(state.q || state.els.size || state.types.size || state.access.size || state.sys.size || state.yearMin!==null || state.yearMax!==null || state.props.size || state.showAll);
   $("#hero").classList.toggle("compact", active);
   $("#emptyState").hidden = active;
   $("#meta").hidden = !active;
   $("#table").hidden = !active;
   document.querySelectorAll("[data-pager]").forEach(p=>{ p.hidden = !active; });
-  $("#typeFilterGroup").hidden = !active;
-  $("#accessFilterGroup").hidden = !active;
-  $("#sysFilterGroup").hidden = !active;
-  $("#yearFilterGroup").hidden = !active;
-  $("#propsFilterGroup").hidden = !active;
+  // The filter groups stay visible whether or not anything is filtering, so
+  // what is filterable is discoverable before you filter.
   if(!active){
     // Nothing is filtering, so the table goes back to database-wide totals.
     $("#tbody").innerHTML = ""; lastFilterSig = null;

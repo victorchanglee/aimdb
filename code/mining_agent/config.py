@@ -100,6 +100,15 @@ LITERATURE_COLUMNS = [
 # id reused after a removal. Everything else is consistent.
 # add-row fills this automatically; see csvio.append_row.
 
+# "year" is not one quantity. For an llm_mining row it is the source paper's
+# publication year. For an llm_reproduced row it is the year the CALCULATION
+# was performed (2026-10-10 sweep -> 2026, set by
+# code/tools/tools_zfs_columns.py's sibling pass), because a result computed
+# this year should not sort or filter as decade-old literature just because
+# the compound was described then. The paper's own year stays available in
+# reference_short, which states it on every reproduced row, and in
+# papers_index.csv via reference_doi.
+
 # Zero-field splitting, added 2026-10-10 (SCHEMA_VERSION 1.1 -> 1.2) at the
 # user's request, so a consumer can filter on magnetic anisotropy instead of
 # reading it out of a sentence. All four are plain numbers:
