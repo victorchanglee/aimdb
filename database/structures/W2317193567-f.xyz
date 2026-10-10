@@ -1,0 +1,11 @@
+9
+W2317193567-f | llm_reproduced input geometry (charge -2, mult 4) | X-ray crystal structure of the same compound reported in a different paper, retrieved from the Crystallography Open Database (COD); heavy atoms as published, H positions relaxed with GFN2-xTB; not the source paper's … | same structure as AIMDB entry W2317193567-a
+Re    -0.00000000     0.00000000     0.00000000
+Cl     0.65902536     2.02079212    -1.00448360
+Cl    -0.65902536    -2.02079212     1.00448360
+Cl     1.04639401     0.65376787     1.98917917
+Cl    -1.04639401    -0.65376787    -1.98917917
+N      2.83625339    -1.27772158    -1.00865514
+N     -2.83625339     1.27772158     1.00865514
+C      1.84662013    -0.87113435    -0.66637556
+C     -1.84662013     0.87113435     0.66637556
