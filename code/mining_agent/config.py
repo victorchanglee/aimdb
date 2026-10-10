@@ -58,7 +58,7 @@ DEFAULT_ENTRY_TYPE = "llm_mining"
 # contract, and it has drifted once already (2026-07-28, see below).
 # query.schema() also publishes a fingerprint derived from the column names,
 # so a change that forgets this bump is still detectable downstream.
-SCHEMA_VERSION = "1.1"
+SCHEMA_VERSION = "1.2"
 
 # aimdb.csv (formerly literature.csv) column order. Originally the first 30
 # columns were identical to claude-casscf/database/literature.csv so rows
@@ -81,6 +81,7 @@ LITERATURE_COLUMNS = [
     "reference_short", "reference_doi", "year", "notes",
     "correlation_correction", "entry_type", "mining_model", "open_access",
     "date_added",
+    "zfs_D_calc", "zfs_ED_calc", "zfs_D_exp", "zfs_ED_exp",
 ]
 
 # "date_added" (added 2026-10-09, SCHEMA_VERSION 1.0 -> 1.1) is the UTC date
@@ -98,6 +99,31 @@ LITERATURE_COLUMNS = [
 # but its entry_id already appears in a commit of 2026-08-11, which suggests an
 # id reused after a removal. Everything else is consistent.
 # add-row fills this automatically; see csvio.append_row.
+
+# Zero-field splitting, added 2026-10-10 (SCHEMA_VERSION 1.1 -> 1.2) at the
+# user's request, so a consumer can filter on magnetic anisotropy instead of
+# reading it out of a sentence. All four are plain numbers:
+#   zfs_D_calc   axial ZFS parameter D from THIS row's calculation, cm-1
+#   zfs_ED_calc  its rhombicity E/D, dimensionless and <= 1/3 by definition
+#   zfs_D_exp    D the paper quotes from experiment, cm-1
+#   zfs_ED_exp   the experimental rhombicity
+# Computed and experimental are separate columns because a ZFS paper almost
+# always reports both, and a single column would let the database assert an ab
+# initio result for a measured number.
+#
+# Backfilled by code/tools/tools_zfs_columns.py from the prose already in each
+# row, so the values stay grounded in the source and benchmark/check_grounding.py
+# still covers them; the tool is re-runnable and documents the six classes of
+# false positive that four rounds of hand-scoring found (a "D" that was a Debye
+# unit, a pseudo-Jahn-Teller gap in eV, a ligand-field parameter of 2800 cm-1,
+# the D inside "E/D", a range written with an en-dash, and a value belonging to
+# another complex). Where a clause offers more than one candidate the cell is
+# left EMPTY rather than guessed, which is why only 229 of the 495 rows
+# mentioning ZFS carry a value.
+#
+# D is cm-1 throughout; GHz and K are converted on the way in. E itself is not
+# stored: E/D is the dimensionless measure consumers compare, and E is
+# recoverable as E/D * D.
 
 # The QUEST export boundary (CLAUDE.md, "QUEST-sourced rows: keep here,
 # filter on export"). QUEST is held out as a benchmark in

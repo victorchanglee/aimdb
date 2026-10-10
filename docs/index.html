@@ -554,6 +554,31 @@
         <span class="hint" id="yearHint"></span>
       </div>
     </div>
+    <div class="filter-group" id="zfsFilterGroup" hidden="">
+      <div class="ptable-head">
+        <span>Filter by zero-field splitting</span>
+        <span class="clear-els" id="clearZfs" hidden="">Clear ✕</span>
+      </div>
+      <div class="chips" id="zfsSrcChips"></div>
+      <div class="year-range">
+        <label for="zfsDMin" class="hint">D from</label>
+        <input type="number" id="zfsDMin" inputmode="decimal" step="any"
+               aria-label="Minimum axial ZFS parameter D in cm-1">
+        <span class="dash">–</span>
+        <input type="number" id="zfsDMax" inputmode="decimal" step="any"
+               aria-label="Maximum axial ZFS parameter D in cm-1">
+        <span class="hint">cm⁻¹</span>
+      </div>
+      <div class="year-range">
+        <label for="zfsEDMin" class="hint">E/D from</label>
+        <input type="number" id="zfsEDMin" inputmode="decimal" step="any"
+               min="0" max="0.3334" aria-label="Minimum rhombicity E/D">
+        <span class="dash">–</span>
+        <input type="number" id="zfsEDMax" inputmode="decimal" step="any"
+               min="0" max="0.3334" aria-label="Maximum rhombicity E/D">
+        <span class="hint" id="zfsHint"></span>
+      </div>
+    </div>
   </div>
   <div class="empty-state" id="emptyState">
     Search a compound, formula, or element — or click an element above — to browse the database.
@@ -829,7 +854,7 @@ const PTABLE_F = [
   ["Bk",2,11],["Cf",2,12],["Es",2,13],["Fm",2,14],["Md",2,15],["No",2,16],["Lr",2,17],
 ];
 
-const state = { q:"", scope:"all", sortField:"year", sortDir:"desc", els:new Set(), types:new Set(), access:new Set(), sys:new Set(), yearMin:null, yearMax:null, selected:new Set(), showAll:false, page:1 };
+const state = { q:"", scope:"all", sortField:"year", sortDir:"desc", els:new Set(), types:new Set(), access:new Set(), sys:new Set(), yearMin:null, yearMax:null, zfsSrc:new Set(), zfsDMin:null, zfsDMax:null, zfsEDMin:null, zfsEDMax:null, selected:new Set(), showAll:false, page:1 };
 const PAGE_SIZE = 100;
 let lastFilterSig = null;
 
@@ -923,6 +948,79 @@ function renderYearInputs(){
   $("#yearHint").textContent = YEAR_LO ? `database spans ${YEAR_LO}\u2013${YEAR_HI}` : "";
   $("#clearYears").hidden = state.yearMin===null && state.yearMax===null;
 }
+// ---- zero-field splitting: two ranges, over the computed and/or measured value ----
+// A ZFS paper usually reports both an ab initio and a measured D, which aimdb
+// keeps in separate columns; a range means a different thing for each, so the
+// source is part of the filter rather than something the user has to infer.
+const ZFS_SRC = [
+  {key:"calc", label:"Computed",     d:"zfs_D_calc", ed:"zfs_ED_calc"},
+  {key:"exp",  label:"Experimental", d:"zfs_D_exp",  ed:"zfs_ED_exp"},
+];
+const zfsCount = {};
+ZFS_SRC.forEach(s0 => {
+  zfsCount[s0.key] = DATA.filter(r => (r[s0.d]||"").trim() || (r[s0.ed]||"").trim()).length;
+});
+const ZFS_DS = DATA.map(r=>parseFloat(r.zfs_D_calc)).filter(v=>!isNaN(v));
+const ZFS_D_LO = ZFS_DS.length ? Math.min(...ZFS_DS) : 0;
+const ZFS_D_HI = ZFS_DS.length ? Math.max(...ZFS_DS) : 0;
+
+function zfsActive(){
+  return state.zfsSrc.size>0 || state.zfsDMin!==null || state.zfsDMax!==null
+      || state.zfsEDMin!==null || state.zfsEDMax!==null;
+}
+// Does one source (computed or experimental) satisfy both ranges?
+function zfsSourceMatches(r, s0){
+  const d = parseFloat(r[s0.d]), ed = parseFloat(r[s0.ed]);
+  if(state.zfsDMin!==null || state.zfsDMax!==null){
+    if(isNaN(d)) return false;              // no D here, cannot satisfy a range
+    if(state.zfsDMin!==null && d < state.zfsDMin) return false;
+    if(state.zfsDMax!==null && d > state.zfsDMax) return false;
+  }
+  if(state.zfsEDMin!==null || state.zfsEDMax!==null){
+    if(isNaN(ed)) return false;
+    if(state.zfsEDMin!==null && ed < state.zfsEDMin) return false;
+    if(state.zfsEDMax!==null && ed > state.zfsEDMax) return false;
+  }
+  // No range given: selecting the chip alone asks for rows that have the value.
+  if(state.zfsDMin===null && state.zfsDMax===null
+     && state.zfsEDMin===null && state.zfsEDMax===null){
+    return !isNaN(d) || !isNaN(ed);
+  }
+  return true;
+}
+function matchesZfs(r){
+  if(!zfsActive()) return true;
+  const srcs = state.zfsSrc.size ? ZFS_SRC.filter(s0=>state.zfsSrc.has(s0.key))
+                                 : ZFS_SRC;     // either source will do
+  return srcs.some(s0 => zfsSourceMatches(r, s0));
+}
+function readZfsInputs(){
+  const num = el => { const v = el.value.trim(); const f = parseFloat(v);
+                      return v!=="" && !isNaN(f) ? f : null; };
+  state.zfsDMin = num($("#zfsDMin"));   state.zfsDMax = num($("#zfsDMax"));
+  state.zfsEDMin = num($("#zfsEDMin")); state.zfsEDMax = num($("#zfsEDMax"));
+  // a reversed range would match nothing; swap instead, as the year filter does
+  if(state.zfsDMin!==null && state.zfsDMax!==null && state.zfsDMin > state.zfsDMax){
+    [state.zfsDMin, state.zfsDMax] = [state.zfsDMax, state.zfsDMin];
+  }
+  if(state.zfsEDMin!==null && state.zfsEDMax!==null && state.zfsEDMin > state.zfsEDMax){
+    [state.zfsEDMin, state.zfsEDMax] = [state.zfsEDMax, state.zfsEDMin];
+  }
+  $("#clearZfs").hidden = !zfsActive();
+}
+function renderZfsChips(){
+  $("#zfsSrcChips").innerHTML = ZFS_SRC.map(s0 =>
+    `<span class="chip ${state.zfsSrc.has(s0.key)?'on':''}" data-zfssrc="${esc(s0.key)}">${esc(s0.label)}<span class="n">${zfsCount[s0.key]}</span></span>`
+  ).join("");
+  $("#zfsDMin").placeholder = ZFS_DS.length ? Math.floor(ZFS_D_LO) : "";
+  $("#zfsDMax").placeholder = ZFS_DS.length ? Math.ceil(ZFS_D_HI) : "";
+  $("#zfsEDMin").placeholder = "0";
+  $("#zfsEDMax").placeholder = "0.333";
+  $("#zfsHint").textContent = ZFS_DS.length
+    ? `computed D spans ${ZFS_D_LO.toFixed(2)} to ${ZFS_D_HI.toFixed(2)} cm\u207b\u00b9`
+    : "";
+  $("#clearZfs").hidden = !zfsActive();
+}
 function matchesAccess(r){
   if(state.access.size===0) return true;
   return state.access.has(accessOf(r)); // OR semantics
@@ -966,6 +1064,8 @@ const FIELD_LABELS = {
   correlation_correction:"Correlation correction", entry_type:"Entry source",
   mining_model:"Mining model (LLM)", open_access:"Access (per OpenAlex)",
   system_class:"System type", date_added:"Date added",
+  zfs_D_calc:"ZFS D, computed (cm⁻¹)", zfs_ED_calc:"ZFS E/D, computed",
+  zfs_D_exp:"ZFS D, experimental (cm⁻¹)", zfs_ED_exp:"ZFS E/D, experimental",
 };
 const WIDE = new Set(["active_space_orbital_description","active_space_protocol",
   "electronic_structure_description","Other","notes","compound_name","ligand_set","geometry_source"]);
@@ -1064,9 +1164,10 @@ function render(){
   $("#accessFilterGroup").hidden = !active;
   $("#sysFilterGroup").hidden = !active;
   $("#yearFilterGroup").hidden = !active;
+  $("#zfsFilterGroup").hidden = !active;
   if(!active){ $("#tbody").innerHTML = ""; lastFilterSig = null; return; }
 
-  let rows = DATA.filter(r=>matchesText(r) && matchesEls(r) && matchesType(r) && matchesAccess(r) && matchesSys(r) && matchesYear(r));
+  let rows = DATA.filter(r=>matchesText(r) && matchesEls(r) && matchesType(r) && matchesAccess(r) && matchesSys(r) && matchesYear(r) && matchesZfs(r));
   rows.sort((a,b)=>{
     let cmp;
     if(state.sortField==="name") cmp = (a.compound_name||"").localeCompare(b.compound_name||"");
@@ -1076,7 +1177,9 @@ function render(){
   // Any change to the filters (not the page button) sends you back to page 1.
   const sig = JSON.stringify([state.q, state.scope, [...state.els], [...state.types],
     [...state.access], [...state.sys], state.yearMin, state.yearMax,
-    state.sortField, state.sortDir, state.showAll]);
+    state.sortField, state.sortDir, state.showAll,
+    [...state.zfsSrc].sort().join(","), state.zfsDMin, state.zfsDMax,
+    state.zfsEDMin, state.zfsEDMax]);
   if(sig !== lastFilterSig){ state.page = 1; lastFilterSig = sig; }
 
   const totalPages = Math.max(1, Math.ceil(rows.length / PAGE_SIZE));
@@ -1248,6 +1351,27 @@ $("#clearYears").addEventListener("click", ()=>{
   $("#yearMin").value = ""; $("#yearMax").value = "";
   applyYears();
 });
+let zfsTimer;
+function applyZfs(){ readZfsInputs(); state.page=1; render(); }
+["#zfsDMin","#zfsDMax","#zfsEDMin","#zfsEDMax"].forEach(sel=>{
+  $(sel).addEventListener("input", ()=>{
+    clearTimeout(zfsTimer);
+    zfsTimer = setTimeout(applyZfs, 180);
+  });
+  $(sel).addEventListener("change", applyZfs);
+  $(sel).addEventListener("keydown", e=>{ if(e.key === "Enter") applyZfs(); });
+});
+$("#zfsSrcChips").addEventListener("click", e=>{
+  const c = e.target.closest(".chip"); if(!c) return;
+  const k = c.dataset.zfssrc;
+  state.zfsSrc.has(k) ? state.zfsSrc.delete(k) : state.zfsSrc.add(k);
+  renderZfsChips(); state.page=1; render();
+});
+$("#clearZfs").addEventListener("click", ()=>{
+  state.zfsSrc.clear();
+  ["#zfsDMin","#zfsDMax","#zfsEDMin","#zfsEDMax"].forEach(sel=>{ $(sel).value=""; });
+  renderZfsChips(); applyZfs();
+});
 $("#typeChips").addEventListener("click", e=>{
   const c=e.target.closest(".chip"); if(!c) return;
   const t=c.dataset.type;
@@ -1311,9 +1435,9 @@ $("#selCount").addEventListener("click", ()=>{
 $("#downloadBtn").addEventListener("click", downloadCSV);
 $("#showAllBtn").addEventListener("click", ()=>{ state.showAll=true; render(); });
 $("#clear").addEventListener("click", ()=>{
-  state.q=""; state.els.clear(); state.types.clear(); state.access.clear(); state.sys.clear(); state.yearMin=null; state.yearMax=null; $("#yearMin").value=""; $("#yearMax").value=""; state.scope="all"; state.showAll=false;
+  state.q=""; state.els.clear(); state.types.clear(); state.access.clear(); state.sys.clear(); state.yearMin=null; state.yearMax=null; $("#yearMin").value=""; $("#yearMax").value=""; state.zfsSrc.clear(); state.zfsDMin=state.zfsDMax=state.zfsEDMin=state.zfsEDMax=null; ["#zfsDMin","#zfsDMax","#zfsEDMin","#zfsEDMax"].forEach(x=>{$(x).value="";}); state.scope="all"; state.showAll=false;
   $("#q").value=""; $("#scope").value="all";
-  renderChips(); renderTypeChips(); renderAccessChips(); renderSysChips(); renderYearInputs(); render();
+  renderChips(); renderTypeChips(); renderAccessChips(); renderSysChips(); renderYearInputs(); renderZfsChips(); render();
 });
 
 // ---- sidebar nav ----
@@ -1325,9 +1449,9 @@ function showView(name){
   if(window.innerWidth<=760) setSidebarHidden(true);
 }
 function goHome(){
-  state.q=""; state.els.clear(); state.types.clear(); state.access.clear(); state.sys.clear(); state.yearMin=null; state.yearMax=null; $("#yearMin").value=""; $("#yearMax").value=""; state.scope="all"; state.showAll=false;
+  state.q=""; state.els.clear(); state.types.clear(); state.access.clear(); state.sys.clear(); state.yearMin=null; state.yearMax=null; $("#yearMin").value=""; $("#yearMax").value=""; state.zfsSrc.clear(); state.zfsDMin=state.zfsDMax=state.zfsEDMin=state.zfsEDMax=null; ["#zfsDMin","#zfsDMax","#zfsEDMin","#zfsEDMax"].forEach(x=>{$(x).value="";}); state.scope="all"; state.showAll=false;
   $("#q").value=""; $("#scope").value="all";
-  renderChips(); renderTypeChips(); renderAccessChips(); renderSysChips(); renderYearInputs(); render();
+  renderChips(); renderTypeChips(); renderAccessChips(); renderSysChips(); renderYearInputs(); renderZfsChips(); render();
   showView("home");
 }
 document.querySelectorAll(".nav-item").forEach(b=>{
@@ -1429,7 +1553,7 @@ if(!window.LIT){
   renderTypeChips();
   renderAccessChips();
   renderSysChips();
-  renderYearInputs();
+  renderYearInputs(); renderZfsChips();
   render();
 
   // dataset view stats
