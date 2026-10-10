@@ -784,8 +784,15 @@ them. The full text is available as <code>LICENSE</code> in the repository root.
 </div><!-- /page -->
 
 <script src="data.js"></script>
+<script src="data_reproduced.js"></script>
 <script>
-const DATA = (window.LIT && window.LIT.rows) || [];
+// Two blobs, one dataset: database/aimdb_llm_reproduced.csv is published
+// separately so neither CSV nor its generated blob approaches GitHub's 100 MB
+// per-file limit. Reproduced rows carry entry_type `llm_reproduced`, so the
+// existing "Entry source" facet separates them with no extra filter.
+const DATA = []
+  .concat((window.LIT && window.LIT.rows) || [])
+  .concat((window.LIT_REPRODUCED && window.LIT_REPRODUCED.rows) || []);
 const $ = s => document.querySelector(s);
 const esc = s => (s||"").replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 

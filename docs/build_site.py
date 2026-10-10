@@ -1,11 +1,18 @@
 #!/usr/bin/env python3
-"""Build the static literature-browser site from database/aimdb.csv.
+"""Build the static literature-browser site from the database CSVs.
 
-Reads ../database/aimdb.csv and writes docs/data.js, an embedded
-`window.LIT = {...}` blob so index.html works when opened directly
-(file://) with no web server. Re-run this whenever the CSV changes:
+Reads ../database/aimdb.csv into docs/data.js as `window.LIT = {...}`, and
+../database/aimdb_llm_reproduced.csv into docs/data_reproduced.js as
+`window.LIT_REPRODUCED = {...}`, both embedded so index.html works when opened
+directly (file://) with no web server. Re-run this whenever either CSV changes:
 
     python3 docs/build_site.py
+
+Two blobs rather than one because the reproduced rows are kept in a separate
+CSV to stop aimdb.csv growing toward GitHub's 100 MB per-file limit, and
+data.js is already 51 MB -- merging them would spend that headroom on the one
+file the site cannot load without. The reproduced CSV is optional: if it is
+absent, only data.js is written.
 """
 import csv
 import json
@@ -16,6 +23,10 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 CSV = HERE.parent / "database" / "aimdb.csv"
 OUT = HERE / "data.js"
+# Reproduced calculations live in their own CSV and their own blob; see the
+# module docstring for why they are not folded into the ones above.
+REPRODUCED_CSV = HERE.parent / "database" / "aimdb_llm_reproduced.csv"
+REPRODUCED_OUT = HERE / "data_reproduced.js"
 
 # Periodic-table symbols, used to pull real elements out of free-text
 # metal_center / formula fields.
@@ -34,8 +45,9 @@ def elements_in(text):
     return {t for t in SYMBOL_RE.findall(text) if t in ELEMENTS}
 
 
-def main():
-    with open(CSV, newline="", encoding="utf-8") as fh:
+def build(csv_path, out_path, global_name):
+    """Write one CSV out as an embedded `window.<global_name>` blob."""
+    with open(csv_path, newline="", encoding="utf-8") as fh:
         reader = csv.DictReader(fh)
         fields = reader.fieldnames
         rows = list(reader)
@@ -66,9 +78,18 @@ def main():
         "fields": fields,
         "rows": out_rows,
     }
-    js = "window.LIT = " + json.dumps(payload, ensure_ascii=False) + ";\n"
-    OUT.write_text(js, encoding="utf-8")
-    print(f"Wrote {OUT} — {len(out_rows)} rows, {len(js)} bytes")
+    js = f"window.{global_name} = " + json.dumps(payload, ensure_ascii=False) + ";\n"
+    out_path.write_text(js, encoding="utf-8")
+    print(f"Wrote {out_path} — {len(out_rows)} rows, {len(js)} bytes")
+    return len(out_rows)
+
+
+def main():
+    build(CSV, OUT, "LIT")
+    if REPRODUCED_CSV.exists():
+        build(REPRODUCED_CSV, REPRODUCED_OUT, "LIT_REPRODUCED")
+    else:
+        print(f"{REPRODUCED_CSV.name} absent — skipping the reproduced blob")
 
 
 if __name__ == "__main__":
