@@ -15,6 +15,7 @@ file the site cannot load without. The reproduced CSV is optional: if it is
 absent, only data.js is written.
 """
 import csv
+import hashlib
 import json
 import re
 import datetime
@@ -27,6 +28,7 @@ OUT = HERE / "data.js"
 # module docstring for why they are not folded into the ones above.
 REPRODUCED_CSV = HERE.parent / "database" / "aimdb_llm_reproduced.csv"
 REPRODUCED_OUT = HERE / "data_reproduced.js"
+INDEX = HERE / "index.html"
 
 # Periodic-table symbols, used to pull real elements out of free-text
 # metal_center / formula fields.
@@ -84,12 +86,38 @@ def build(csv_path, out_path, global_name):
     return len(out_rows)
 
 
+def stamp_versions():
+    """Point index.html at each blob's current content hash.
+
+    GitHub Pages caches for ten minutes, so a bare `src="data.js"` keeps a
+    returning visitor on the previous blob and the page looks un-updated while
+    the server serves new data. A hash in the query string changes exactly when
+    the bytes change, so the browser cannot have the new URL cached, and an
+    unchanged blob keeps its URL and stays cached.
+    """
+    if not INDEX.exists():
+        return
+    html = INDEX.read_text(encoding="utf-8")
+    before = html
+    for out in (OUT, REPRODUCED_OUT):
+        if not out.exists():
+            continue
+        digest = hashlib.sha256(out.read_bytes()).hexdigest()[:8]
+        html = re.sub(r'(<script src="%s)(\?v=[0-9a-f]+)?(")' % re.escape(out.name),
+                      lambda m: "%s?v=%s%s" % (m.group(1), digest, m.group(3)),
+                      html)
+    if html != before:
+        INDEX.write_text(html, encoding="utf-8")
+        print(f"Stamped blob versions into {INDEX.name}")
+
+
 def main():
     build(CSV, OUT, "LIT")
     if REPRODUCED_CSV.exists():
         build(REPRODUCED_CSV, REPRODUCED_OUT, "LIT_REPRODUCED")
     else:
         print(f"{REPRODUCED_CSV.name} absent — skipping the reproduced blob")
+    stamp_versions()
 
 
 if __name__ == "__main__":
