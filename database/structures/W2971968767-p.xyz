@@ -1,5 +1,5 @@
 91
-W2971968767-p | llm_reproduced input geometry (charge 0, mult 4) | X-ray crystal structure of the same compound reported in a different paper, retrieved from the Crystallography Open Database (COD); heavy atoms as published, H positions relaxed with GFN2-xTB; not the source paper's … | same structure as AIMDB entry W2971968767-i
+W2971968767-p | llm_reproduced input geometry (charge 0, mult 4) | X-ray crystal structure of the same compound reported in a different paper, retrieved from the Crystallography Open Database (COD); heavy atoms as published, H positions relaxed with GFN2-xTB; not the source paper's computational model. | same structure as AIMDB entry W2971968767-i
 Co    -0.00000000     0.00000000     0.00000000
 P      1.29456679     0.72795026     3.22231015
 P     -0.72795026     1.29456679    -3.22231015

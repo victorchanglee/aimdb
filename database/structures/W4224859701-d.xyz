@@ -1,5 +1,5 @@
 71
-W4224859701-d | llm_reproduced input geometry (charge 0, mult 4) | X-ray crystal structure of the same compound reported in a different paper, retrieved from the Crystallography Open Database (COD); heavy atoms as published, H positions relaxed with GFN2-xTB; not the source paper's … | same structure as AIMDB entry W4224859701-b
+W4224859701-d | llm_reproduced input geometry (charge 0, mult 4) | X-ray crystal structure of the same compound reported in a different paper, retrieved from the Crystallography Open Database (COD); heavy atoms as published, H positions relaxed with GFN2-xTB; not the source paper's computational model. | same structure as AIMDB entry W4224859701-b
 I     -2.26684871    -3.07512417    -1.17412828
 I      1.84527832    -3.75761512    -0.54691772
 Co    -0.04491622    -2.03460183    -0.50413224

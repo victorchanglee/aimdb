@@ -1,5 +1,5 @@
 51
-W4385286083-o | llm_reproduced input geometry (charge 0, mult 3) | X-ray crystal structure of the same compound reported in a different paper, retrieved from the Crystallography Open Database (COD); heavy atoms as published, H positions relaxed with GFN2-xTB; not the source paper's … | same structure as AIMDB entry W4385286083-b
+W4385286083-o | llm_reproduced input geometry (charge 0, mult 3) | X-ray crystal structure of the same compound reported in a different paper, retrieved from the Crystallography Open Database (COD); heavy atoms as published, H positions relaxed with GFN2-xTB; not the source paper's computational model. | same structure as AIMDB entry W4385286083-b
 Ni     0.00000000    -0.00000000     0.00000000
 S      4.06885850    -2.43220409    -0.67663325
 S     -4.06885850     2.43220409     0.67663325

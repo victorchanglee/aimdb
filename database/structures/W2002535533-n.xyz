@@ -1,5 +1,5 @@
 32
-W2002535533-n | llm_reproduced input geometry (charge 0, mult 6) | X-ray crystal structure of the same compound reported in a different paper, retrieved from the Crystallography Open Database (COD); heavy atoms as published, H positions relaxed with GFN2-xTB; not the source paper's … | same structure as AIMDB entry W2002535533-b
+W2002535533-n | llm_reproduced input geometry (charge 0, mult 6) | X-ray crystal structure of the same compound reported in a different paper, retrieved from the Crystallography Open Database (COD); heavy atoms as published, H positions relaxed with GFN2-xTB; not the source paper's computational model. | same structure as AIMDB entry W2002535533-b
 Mn    -0.16747963     0.53185301     1.67752667
 Cl    -1.14502044    -0.08366413     3.72762082
 Cl     1.12358803     2.50893367     1.90366985
