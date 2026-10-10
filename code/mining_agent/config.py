@@ -58,7 +58,7 @@ DEFAULT_ENTRY_TYPE = "llm_mining"
 # contract, and it has drifted once already (2026-07-28, see below).
 # query.schema() also publishes a fingerprint derived from the column names,
 # so a change that forgets this bump is still detectable downstream.
-SCHEMA_VERSION = "1.0"
+SCHEMA_VERSION = "1.1"
 
 # aimdb.csv (formerly literature.csv) column order. Originally the first 30
 # columns were identical to claude-casscf/database/literature.csv so rows
@@ -80,7 +80,24 @@ LITERATURE_COLUMNS = [
     "electronic_structure_description", "Other",
     "reference_short", "reference_doi", "year", "notes",
     "correlation_correction", "entry_type", "mining_model", "open_access",
+    "date_added",
 ]
+
+# "date_added" (added 2026-10-09, SCHEMA_VERSION 1.0 -> 1.1) is the UTC date
+# the row entered the database, as dd/mm/yyyy (user-chosen format, 2026-10-09;
+# note it does not sort lexicographically). It was backfilled from two
+# sources and is NOT uniformly precise:
+#   * 10,127 rows from the add-row timestamp in logs/extractions.csv, which is
+#     exact to the second;
+#   * 2,422 older rows, predating that logging, from the committer date of the
+#     first commit whose database/aimdb.csv contained the entry_id. For those
+#     the true addition can be anywhere between the previous commit and that
+#     one, so treat the date as an upper bound.
+# Cross-checking the 10,123 rows carrying both sources, exactly one disagrees
+# once both are normalised to UTC: W4413906376-a logs an add-row on 2026-08-28
+# but its entry_id already appears in a commit of 2026-08-11, which suggests an
+# id reused after a removal. Everything else is consistent.
+# add-row fills this automatically; see csvio.append_row.
 
 # The QUEST export boundary (CLAUDE.md, "QUEST-sourced rows: keep here,
 # filter on export"). QUEST is held out as a benchmark in

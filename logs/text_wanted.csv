@@ -1,0 +1,609 @@
+rows_unlocked,key,doi,year,mining_model,title
+58,W7128057212,10.48550/arxiv.2602.04420,2026,gpt-5.6,UGA-SSMRPT2 -- A Multireference Perturbation Theory Predicting Accurate Electronic Excitation Energies in Diverse Molecular Systems
+35,W3034858611,10.1021/acs.jctc.0c00324,2020,gpt-5.6,Reduced Density Matrix-Driven Complete Active Apace Self-Consistent Field Corrected for Dynamic Correlation from the Adiabatic Connection
+35,W1998349652,10.1039/b402989p,2004,gpt-5.6,Are Hartree–Fock atoms too small or too large?
+32,W3093310658,10.1039/d0dt03129a,2020,gpt-5.6,An approach to estimate the barrier height for magnetisation reversal in {Dy <sub>2</sub> } SMMs using <i>ab initio</i> calculations
+27,W1968451148,10.1063/1.4793736,2013,gpt-5.6,A fully variational spin-orbit coupled complete active space self-consistent field approach: Application to electron paramagnetic resonance g-tensors
+27,W1892060918,10.1039/c5dt01589h,2015,gpt-5.6,Ligand field influence on the electronic and magnetic properties of quasi-linear two-coordinate iron( <scp>ii</scp> ) complexes
+26,W2968674054,10.1021/acs.jctc.9b00535,2019,gpt-5.6,Automatic Active Space Selection for Calculating Electronic Excitation Energies Based on High-Spin Unrestricted Hartree–Fock Orbitals
+26,W2094791114,10.1021/ct900612k,2010,gpt-5.6,Calibration of Cholesky Auxiliary Basis Sets for Multiconfigurational Perturbation Theory Calculations of Excitation Energies
+25,W7168188358,10.1021/acs.jctc.6c00400,2026,gpt-5.6,A PerturbativeSuper-CI Approach for Orbital Optimizationin Two-Component Relativistic CASSCF
+22,W2780883714,10.1063/1.5017942,2017,gpt-5.6,"A dynamic correlation dressed complete active space method: Theory, implementation, and preliminary applications"
+21,W2779552316,10.1039/c7cp06585j,2017,gpt-5.6,<i>Ab initio</i> calculations of heavy-actinide hexahalide compounds: do these heavy actinides behave like their isoelectronic lanthanide analogues?
+20,W4417274606,10.1021/acs.inorgchem.5c03903,2025,gpt-5.6,"Unravelling Magneto-Structural Correlations in Pseudo
+                    D
+
+                      5
+                      h
+                      /6
+                      h
+
+                    -Symmetric Dy(III) Single-Molecule Magnets"
+18,W2800319709,10.1039/c7cp08366a,2018,gpt-5.6,<i>Ab initio</i> calculation of energy levels of trivalent lanthanide ions
+18,W1488071516,10.1063/1.4922352,2015,gpt-5.6,Selection of active spaces for multiconfigurational wavefunctions
+17,W2020202890,10.1063/1.4905124,2015,gpt-5.6,Configuration interaction singles natural orbitals: An orbital basis for an efficient and size intensive multireference description of electronic excited states
+17,W1969906188,10.1063/1.1290008,2000,gpt-5.6,Density-functional study of intramolecular ferromagnetic interaction through <i>m</i>-phenylene coupling unit (II): Examination of functional dependence
+16,W2321993775,10.1021/ic500772f,2014,gpt-5.6,Magnetic Anisotropy and Mechanism of Magnetic Relaxation in Er(III) Single-Ion Magnets
+16,W1983445179,10.1063/1.456967,1989,gpt-5.6,Isoelectronic analogs of molecular nitrogen: Tightly bound multiply charged species
+16,W1982902905,10.1088/0031-8949/80/04/048112,2009,gpt-5.6,Reaction of sodium atoms with water clusters
+15,W2023011344,10.1021/ct100001b,2010,gpt-5.6,A Modified Resonance-Theoretic Framework for Structure−Property Relationships in a Halochromic Oxonol Dye
+14,W1967467904,10.1063/1.455060,1988,gpt-5.6,"Theoretical studies of the monoxides and monosulfides of Y, Zr, and Nb"
+14,W1594508361,10.1063/1.480652,2000,gpt-5.6,<i>Ab Initio</i> calculations of [CoY6−nXn]2+ complexes
+13,W7155563838,10.1039/d5qi01908g,2026,gpt-5.6,"Mixed-valence Ln <sub>2</sub> @C <sub>79</sub> N endohedral metallofullerenes: magnetic exchange, magnetic anisotropy, and electric-field control of SMM characteristics"
+13,W2955872388,10.1063/1.5100934,2019,gpt-5.6,Evaluation of full valence correlation energies and gradients
+13,W2557783378,10.1039/c6cp05677f,2016,gpt-5.6,"Dehydro-oxazole, thiazole and imidazole radicals: insights into the electronic structure, stability and reactivity aspects"
+13,W1974128370,10.1063/1.3270190,2009,gpt-5.6,A benchmark theoretical study of the electronic ground state and of the singlet-triplet split of benzene and linear acenes
+12,W4413994610,10.1021/acs.jpca.5c02571,2025,gpt-5.6,Theoretical Prediction of the Magnetic Blocking Temperature of Dysprosium-Based Metallofullerene Single-Molecule Magnets
+12,W4409205830,10.1021/acs.jpca.4c08364,2025,gpt-5.6,Energetic and Electronic Properties of UX+/0/– for X = Li and Be and Comparison of the Properties of the Uranium Atom Binding to 2nd Row Elements Li–F
+12,W2329654758,10.1021/jp509561v,2014,gpt-5.6,Electronic Absorption Spectra of H<sub>2</sub>C<sub>6</sub>O<sup>+</sup> Isomers: Produced by Ion–Molecule Reactions
+12,W2314483717,10.1021/ic3016047,2012,gpt-5.6,Zero-Field Splitting in a Series of Structurally Related Mononuclear Ni<sup>II</sup>–Bispidine Complexes
+12,W2061507270,10.1063/1.466476,1994,gpt-5.6,"Bond energies, ionization potentials, and the singlet–triplet energy separations of SnCl2, SnBr2, SnI2, PbCl2, PbBr2, PbI2, and their positive ions"
+11,W4417497340,10.1063/5.0300687,2025,gpt-5.6,"Fast methods for multisite charge transfer processes. I. Constrained, state averaged CASSCF(1,n) and CASSCF(2n − 1,n) simulations"
+11,W2594493897,10.1063/1.4976644,2017,gpt-5.6,Density matrix renormalization group (DMRG) method as a common tool for large active-space CASSCF/CASPT2 calculations
+11,W2099629334,10.1021/jp035501w,2003,gpt-5.6,"A Standard Set of Pericyclic Reactions of Hydrocarbons for the Benchmarking of Computational Methods:  The Performance of ab Initio, Density Functional, CASSCF, CASPT2, and CBS-QB3 Methods for the Prediction of Activation Barriers, Reaction Energetics, and Transition State Geometries"
+11,W1964989895,10.1039/a906007c,1999,gpt-5.6,Photoionization of NaO (X 2Π; A 2Σ+) and the absorption/emission spectra of the lowest cationic states
+10,W7167932438,10.1021/acs.jpca.6c02386,2026,gpt-5.6,"1-, 2-, and 3-Electron Pancake Bonds in Covalent Scaffolds: Redox Modulation of Through-Space Exchange in Blatter Diradicals"
+10,W4415705632,10.1021/acs.jctc.5c01321,2025,gpt-5.6,MC25: An Accurate Meta Pair-Density Functional for Multiconfiguration Pair-Density Functional Theory and Linearized Pair-Density Functional Theory
+10,W4412671427,10.1039/d5dt01279a,2025,gpt-5.6,Magnetic anisotropy of dysprosium encapsulated metallofullerene molecules: a theoretical study
+10,W2557536494,10.1021/acs.jpca.6b10687,2016,gpt-5.6,Structure and Electronic Transitions of C<sub>7</sub>H<sub>4</sub>O<sub>2</sub><sup>+</sup> and C<sub>7</sub>H<sub>5</sub>O<sub>2</sub><sup>+</sup> Ions: Neon Matrix and Theoretical Studies
+10,W2053940164,10.1039/b202453e,2002,gpt-5.6,CASPT2 calculation of the excited states of symmetric polyenyl cations
+10,W1987582703,10.1021/jo049542f,2004,gpt-5.6,Competing Pathways in the [2 + 2] Cycloadditions of Cyclopentyne and Benzyne. A DFT and ab Initio Study
+10,W1984240774,10.1021/ja983480r,1999,gpt-5.6,Ground- and Excited-State Reactions of Norbornene and Isomers: A CASSCF Study and Comparison with Femtosecond Experiments
+9,W3120474425,10.1039/d0cp05430e,2021,gpt-5.6,Spectroscopic properties of open shell diatomic molecules using Piris natural orbital functionals
+9,W2060180530,10.1039/c2cp43293e,2012,gpt-5.6,Restricted active space spin-flip (RAS-SF) with arbitrary number of spin-flips
+9,W2055842099,10.1021/jp061184s,2006,gpt-5.6,CASSCF/CAS-PT2 Study of Hole Transfer in Stacked DNA Nucleobases
+9,W1982527594,10.1021/jo026188h,2002,gpt-5.6,A CASPT2 and CASSCF Approach to the Cycloaddition of Ketene and Imine:  A New Mechanistic Scheme of the Staudinger Reaction
+9,W1968262900,10.1063/1.1394753,2001,gpt-5.6,Anharmonic vibrational frequencies of proton transfer coordinates in the clusters of aromatic molecules with water
+8,W4415982472,10.1021/acs.inorgchem.5c02893,2025,gpt-5.6,Electronic Structure and Hypercorrole Features of Deprotonated Free-Base and Reduced Copper Corroles
+8,W4415341061,10.1021/acs.inorgchem.5c03532,2025,gpt-5.6,"In Silico
+                    Investigation to Rationalize the Effect of Weak Donor versus Strong Donor Halides as Bridges in Dinuclear Dysprosium(III) Single-Molecule Magnets"
+8,W3013552960,10.1039/d0cp00221f,2020,gpt-5.6,Dissociative nature of C(sp <sup>2</sup> )–N(sp <sup>3</sup> ) bonds of carbazole based materials <i>via</i> conical intersection: simple method to predict the exciton stability of host materials for blue OLEDs: a computational study
+8,W2167115111,10.1039/a906930e,1999,gpt-5.6,On electronic structure and electronically excited states of sulfines (thione S-oxides)
+8,W2063521633,10.1063/1.459585,1990,gpt-5.6,Geometries and energies of GeH<i>n</i> and GeH+<i>n</i> (<i>n</i>=1–4)
+8,W2024935880,10.1063/1.480166,1999,gpt-5.6,Structure and vibrations of dihydroxybenzene cations and ionization potentials of dihydroxybenzenes studied by mass analyzed threshold ionization and infrared photoinduced Rydberg ionization spectroscopy as well as <i>ab initio</i> theory
+8,W1997492994,10.1063/1.4747341,2012,gpt-5.6,"Avoided crossings, conical intersections, and low-lying excited states with a single reference method: The restricted active space spin-flip configuration interaction approach"
+8,W1989551593,10.1063/1.3456001,2010,gpt-5.6,A tractable and accurate electronic structure method for static correlations: The perfect hextuples model
+8,W1982186413,10.1039/c4cp00822g,2014,gpt-5.6,An ab initio MO study of heavy atom effects on the zero-field splitting tensors of high-spin nitrenes: how the spin–orbit contributions are affected
+8,W1968978325,10.1063/1.469414,1995,gpt-5.6,<i>Ab initio</i> characterization of electronically excited states in highly unsaturated hydrocarbons
+7,W4415583672,10.1021/acs.jctc.5c01411,2025,gpt-5.6,A Benchmark Database for Spin-Flip Gap Calculations in Single- and Multireference Systems Using ΔDFT and Beyond
+7,W4393855361,10.1039/d4fd00054d,2024,gpt-5.6,Spinless formulation of linearized adiabatic connection approximation and its comparison with the second order N-electron valence state perturbation theory
+7,W2952287091,10.1021/ja00006a006,1991,gpt-5.6,Comparison of biradical formation between enediyne and enyne-allene. Ab initio CASSCF and MRSDCI study
+7,W2749278583,10.1039/c6dt03568j,2017,gpt-5.6,Key role of higher order symmetry and electrostatic ligand field design in the magnetic relaxation of low-coordinate Er( <scp>iii</scp> ) complexes
+7,W2432559528,10.1021/acs.jctc.5b00191,2015,gpt-5.6,Systematic Expansion of Active Spaces beyond the CASSCF Limit: A GASSCF/SplitGAS Benchmark Study
+7,W2054504985,10.1021/jp807172h,2008,gpt-5.6,Mechanism of Spectral Tuning Going from Retinal in Vacuo to Bovine Rhodopsin and its Mutants: Multireference ab Initio Quantum Mechanics/Molecular Mechanics Studies
+7,W2041802286,10.1021/jp306357d,2012,gpt-5-codex,A Theoretical Study on the Structural and Energy Spectral Properties of Ce<sup>3+</sup> Ions Doped in Various Fluoride Compounds
+7,W2020277473,10.1063/1.3436501,2010,gpt-5.6,<i>Ab initio</i> floating occupation molecular orbital-complete active space configuration interaction: An efficient approximation to CASSCF
+7,W1970989851,10.1063/1.454604,1988,gpt-5.6,Theoretical study of the first and second negative systems of N+2
+7,W1970463337,10.1063/1.1626542,2003,gpt-5.6,The Kramers’ restricted complete active space self-consistent-field method for two-component molecular spinors and relativistic effective core potentials including spin–orbit interactions
+6,W4417429222,10.1021/acs.jpca.5c06689,2025,gpt-5.6,"Role of Cd
+                    2+
+                    and Ag
+                    +
+                    as Codoping Species in the Mechanism of the Luminescence Activation/Deactivation of a Ln
+                    3+
+                    @UiO-66-(COOH)
+                    2
+                    Chemical Sensor: A Quantum Chemistry Approach"
+6,W4412860284,10.1039/d4dt03529a,2025,gpt-5.6,Varying anion coordination in new families of dinuclear Ni <sup>II</sup> Ln <sup>III</sup> complexes: zero-field slow relaxation of magnetization and theoretical validations
+6,W4411231499,10.1021/acs.inorgchem.5c01463,2025,gpt-5.6,Excited States and Luminescent Properties of Uranyl Carbonates and Their Hydrated Complexes in Aqueous Solution: A Theoretical Study
+6,W4385711546,10.1039/d3dt01155k,2023,gpt-5.6,Revisiting the electronic structure of N <sub>2</sub> -bound cAAC-borylene at the CASSCF level: a detailed bonding picture of borylene–N <sub>2</sub> interaction
+6,W3213866029,10.1039/d1fd00072a,2021,gpt-5.6,Can you break the oxo-wall? A multiconfigurational perspective
+6,W2976366398,10.1039/c9cp03645h,2019,gpt-5.6,How to understand very weak Cr–Cr double bonds and negative spin populations in trinuclear Cr complexes: theoretical insight
+6,W2940685677,10.1039/c9dt00915a,2019,gpt-5.6,Determination of ligand field splitting in lanthanide( <scp>iii</scp> ) monoporphyrinato complexes
+6,W2614585223,10.1021/acs.jpclett.7b00940,2017,gpt-5.6,"α-CASSCF: An Efficient, Empirical Correction for SA-CASSCF To Closely Approximate MS-CASPT2 Potential Energy Surfaces"
+6,W2321719287,10.1039/c6cp00046k,2016,gpt-5.6,"Dihydrogen bond interactions as a result of H <sub>2</sub> cleavage at Cu, Ag and Au centres"
+6,W2282184765,10.1021/jacs.5b12790,2016,gpt-5.6,"Rh<sub>2</sub>(II,III) Catalysts with Chelating Carboxylate and Carboxamidate Supports: Electronic Structure and Nitrene Transfer Reactivity"
+6,W2095814720,10.1039/c2dt30296a,2012,gpt-5.6,Inorganic photoisomerization: the case study of rhenium(i) complexes
+6,W2073306524,10.1039/b917679a,2009,gpt-5.6,Electron capture activation of the disulfide bond. The role of the asymmetry and electronegativity
+6,W2069024422,10.1039/fs9841900097,1984,gpt-5.6,Current status of the multiconfiguration–configuration interaction (MC–CI) method as applied to molecules containing transition-metal atoms
+6,W2023329300,10.1021/ja00069a055,1993,gpt-5.6,"Diels-Alder dimerization of 1,3-butadiene: an ab initio CASSCF study of the concerted and stepwise mechanisms and butadiene-ethylene revisited"
+6,W2020109263,10.1063/1.2800027,2007,gpt-5.6,Block correlated coupled cluster theory with a complete active-space self-consistent-field reference function: The formulation and test applications for single bond breaking
+6,W2013641724,10.1063/1.468309,1994,gpt-5.6,"A theoretical study of the chemical bonding in M(CO)<i>x</i> (M=Cr, Fe, and Ni)"
+6,W1996443763,10.1021/jp031214g,2004,gpt-5.6,"Theoretical Study of the Low Lying Electronic States of oxoX(salen) (X = Mn, Mn<sup>-</sup>, Fe, and Cr<sup>-</sup>) Complexes"
+6,W1972628859,10.1039/b211532h,2003,gpt-5.6,Electronic spectrum of the confined auride ion
+6,W1970954631,10.1063/1.459061,1990,gpt-5.6,"Geometries and energies of electronic states of AsH3, SbH3, and BiH3 and their positive ions"
+6,W1970116413,10.1039/c4ra16375c,2015,gpt-5.6,A comprehensive spectroscopic investigation of α-(2-naphthyl)-N-methylnitrone: a computational study on photochemical nitrone–oxaziridine conversion and thermal E–Z isomerization processes
+6,W1969316882,10.1039/a907834g,2000,gpt-5.6,"CASSCF study of energies and lifetimes of temporary negative ions of CH2Br2, CHClBr2 and CCl3Br"
+5,W7165173266,10.1021/acs.joc.6c01030,2026,gpt-5.6,Spiro-Induced Strain as a Design Principle for Long-Lived Singlet Diradicals with π-Single Bond Character
+5,W7128693076,10.1039/d5dt02843d,2026,gpt-5.6,Magneto-structural and theoretical insights into Ni <sub>2</sub> Dy <sub>2</sub> butterfly single-molecule magnets with diverse anionic co-ligands
+5,W4311692367,10.1063/5.0130636,2022,gpt-5.6,Algorithm for analytic nuclear energy gradients of state averaged DMRG-CASSCF theory with newly derived coupled-perturbed equations
+5,W2987230728,10.1039/c9cp04313f,2019,gpt-5.6,"CASPT2, CASSCF and non-adiabatic molecular dynamics (NAMD) studies on the low-lying electronic states of 1 <i>H</i> -1,2,3-triazole photolysis"
+5,W2982499397,10.1021/acs.jpcc.9b08245,2019,gpt-5-codex; gpt-5.6,Ab Initio Calculations of the Electronic Structure of Red-Emitting Mn<sup>4+</sup>-Doped Fluorides
+5,W2978683085,10.1088/1402-4896/ab2725,2019,gpt-5.6,"Theoretical electronic structure with rovibrational calculations of the alkali chloride molecules XCl (X = Li, Na, K, Rb, Cs)"
+5,W2620734020,10.1039/c7cp02957h,2017,gpt-5.6,Heavy ligand atom induced large magnetic anisotropy in Mn( <scp>ii</scp> ) complexes
+5,W2466175445,10.1080/00268976.2016.1201600,2016,gpt-5.6,On the performance of DFT/MRCI-R and MR-MP2 in spin–orbit coupling calculations on diatomics and polyatomic organic molecules
+5,W2158815562,10.1039/a902739d,1999,gpt-5.6,"Ab Initio calculations of the potential surfaces for rearrangement of methylenecyclopropane and 2,2-difluoromethylenecyclopropane. Why do the geminal fluorines have little effect on lowering the activation energy? †"
+5,W2153099772,10.1039/b008395j,2001,gpt-5.6,"Theoretical study of the electronic structure of XCCP molecules (X = H, F, Cl, Br, I): carbene vs. phosphinidene"
+5,W2148415391,10.1039/c2sc20399e,2012,gpt-5.6,Experimental and quantum chemical characterization of the water oxidation cycle catalysed by [RuII(damp)(bpy)(H2O)]2+
+5,W2133130321,10.1021/ct400856g,2013,gpt-5.6,"Calculation of Heats of Formation for Zn Complexes: Comparison of Density Functional Theory, Second Order Perturbation Theory, Coupled-Cluster and Complete Active Space Methods"
+5,W2131297437,10.1039/c0cp02809f,2011,gpt-5.6,Ab initio and DFT studies of the spin–orbit and spin–spin contributions to the zero-field splitting tensors of triplet nitrenes with aryl scaffolds
+5,W2128376239,10.1039/b005208f,2000,gpt-5.6,Triplet–singlet energy gaps in iodo-carbenes (I–C–X): Remarkable discrepancy between theory and experiment
+5,W2094075293,10.1039/b508708b,2005,gpt-5.6,Photoinduced intramolecular charge transfer to meta position of benzene ring in 6-aminophthalides
+5,W2078430908,10.1063/1.3127402,2009,gpt-5.6,Highly multireferenced arynes studied with large active spaces using two-electron reduced density matrices
+5,W2058093794,10.1021/ja028963g,2003,gpt-5.6,Altering the Allowed/Forbidden Gap in Cyclobutene Electrocyclic Reactions:  Experimental and Theoretical Evaluations of the Effect of Planarity Constraints
+5,W2048141235,10.1039/c4cp05127k,2014,gpt-5.6,Electronic structure aspects of the complete O <sub>2</sub> transfer reaction between Ni( <scp>ii</scp> ) and Mn( <scp>ii</scp> ) complexes with cyclam ligands
+5,W2042842505,10.1039/c1cp21696a,2011,gpt-5.6,Homolytic molecular dissociation in natural orbital functional theory
+5,W1997641598,10.1021/j100377a012,1990,gpt-5.6,Second-order perturbation theory with a CASSCF reference function
+5,W1995491188,10.1063/1.1287059,2000,gpt-5.6,The ONIOM (our own N-layered integrated molecular orbital + molecular mechanics) method for the first singlet excited (S1) state photoisomerization path of a retinal protonated Schiff base
+5,W1973803468,10.1063/1.479214,1999,gpt-5.6,Photodissociation dynamics of H2S on new coupled<i>ab initio</i>potential energy surfaces
+5,W1963879590,10.1063/1.1337053,2001,gpt-5.6,"The improved virtual orbital-complete active space configuration interaction method, a “packageable” efficient <i>ab initio</i> many-body method for describing electronically excited states"
+5,W1848104771,10.1039/c5cp01939g,2015,gpt-5.6,Impacts of retinal polyene (de)methylation on the photoisomerization mechanism and photon energy storage of rhodopsin
+4,W4416084540,10.1021/jacs.5c15650,2025,gpt-5.6,Super-reduction of Polyoxometalates: Unlocking the Oxidation State of Metalate Centers down to (III)
+4,W4413849878,10.1021/acs.inorgchem.5c02481,2025,gpt-5.6,Nanostructuring of Dysprosocenium Single-Ion Magnets through Encapsulation in MOFs: A Promising Approach to Achieve High Axiality and Ambient Stability with Long-Range Ordering
+4,W4410546651,10.1021/acs.jpclett.5c00829,2025,gpt-5.6,Density Matrix Embedding Pair-Density Functional Theory for Molecules
+4,W4410286619,10.1021/jacs.5c03770,2025,gpt-5.6,Photochemistry of Ni(II) Tolyl Chlorides Supported by Bidentate Ligand Frameworks
+4,W4409087462,10.1021/acs.jctc.5c00042,2025,gpt-5.6,Nuclear−Electronic Orbital Multireference Configuration Interaction for Ground and Excited Vibronic States and Fundamental Insights into Multicomponent Basis Sets
+4,W4402565144,10.1063/5.0223733,2024,gpt-5.6,Unveiling hidden dynamic correlations in CASSCF correlation energies by Hartree–Fock nodes
+4,W4367721402,10.1039/d3cp01243c,2023,gpt-5.6,The impact of spin-vibrational coupling on magnetic relaxation of a Co( <scp>ii</scp> ) single-molecule magnet
+4,W4225677252,10.1039/d2dt00660j,2022,gpt-5.6,Impact of counter anions on spin-state switching of manganese( <scp>iii</scp> ) complexes containing an azobenzene ligand
+4,W3185622859,10.1039/d1dt00510c,2021,gpt-5.6,"Synthesis, characterization, magnetism and theoretical analysis of hetero-metallic [Ni <sub>2</sub> Ln <sub>2</sub> ] partial di-cubane assemblies"
+4,W3088833731,10.1039/d0dt02868a,2020,gpt-5.6,Why lanthanide Er <sup>III</sup> SIMs cannot possess huge energy barriers: a theoretical investigation
+4,W3031428192,10.1039/d0dt01392g,2020,gpt-5.6,Late first-row transition metal complexes of a 17-membered piperazine-based macrocyclic ligand: structures and magnetism
+4,W2981867334,10.1039/c9dt02976a,2019,gpt-5.6,Influence of the pyrazine substituent on the structure and magnetic properties of dicyanamide-bridged cobalt( <scp>ii</scp> ) complexes
+4,W2788209667,10.1039/c8cp00602d,2018,gpt-5.6,Impacts of hydroxylation on the photophysics of chalcones: insights into the relation between the chemical composition and the electronic structure
+4,W2787061074,10.1039/c7cp07275a,2018,gpt-5.6,Excitation spectra of retinal by multiconfiguration pair-density functional theory
+4,W2340920464,10.1039/c6cp00327c,2016,gpt-5.6,Theoretical investigations of absorption and fluorescence spectra of protonated pyrene
+4,W2333955123,10.1021/jp109152p,2011,gpt-5.6,Nonadiabatic Decomposition of Gas-Phase RDX through Conical Intersections: An ONIOM-CASSCF Study
+4,W2326859893,10.1021/ct100647b,2011,gpt-5.6,Excited-State Tautomerization in the 7-Azaindole-(H<sub>2</sub>O)<sub><i>n</i></sub> (<i>n</i> = 1 and 2) Complexes in the Gas Phase and in Solution: A Theoretical Study
+4,W2317193567,10.1039/c5dt04928h,2016,gpt-5.6,"Theoretical insights into the origin of magnetic exchange and magnetic anisotropy in {Re <sup>IV</sup> –M <sup>II</sup> } (M = Mn, Fe, Co, Ni and Cu) single chain magnets"
+4,W2249895060,10.1088/2053-1591/2/8/086202,2015,gpt-5.6,Crystal field interactions between Ce<sup>3+</sup>ion and fluoride ligands: a theoretical investigation
+4,W2134556541,10.1103/physrevb.72.054109,2005,gpt-5-codex,"First-principles study of the optical transitions of<mml:math xmlns:mml=""http://www.w3.org/1998/Math/MathML"" display=""inline""><mml:mi>F</mml:mi></mml:math>centers in the bulk and on the (0001) surface of<mml:math xmlns:mml=""http://www.w3.org/1998/Math/MathML"" display=""inline""><mml:mrow><mml:mi>α</mml:mi><mml:mtext>−</mml:mtext><mml:msub><mml:mi mathvariant=""normal"">Al</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:msub><mml:mi mathvariant=""normal"">O</mml:mi><mml:mn>3</mml:mn></mml:msub></mml:mrow></mml:math>"
+4,W2105294403,10.1039/c4cp04573d,2015,gpt-5.6,Photodynamic behavior of electronic coupling in a N-methylformamide dimer
+4,W2091402983,10.1039/b315217k,2004,gpt-5.6,Structure of the intersection space associated with Z/E photoisomerization of retinal in rhodopsin proteins
+4,W2081632473,10.1039/fs9841900109,1984,gpt-5.6,"Structure, stability and energetics of the neutral and singly and doubly ionized first- and second-row hydrides"
+4,W2040646569,10.1021/ja982334i,1999,gpt-5.6,A CASSCF Study on Photodissociation of Acrolein in the Gas Phase
+4,W2032505106,10.1039/c001019g,2010,gpt-5.6,Quantum chemical investigation of the thermal rearrangement of cis- and trans-pinane
+4,W2013373371,10.1063/1.2008215,2005,gpt-5.6,Large systems at <i>ab initio</i> multireference level: A cheap treatment thanks to a division into fragments
+4,W1992941397,10.1039/a706409h,1998,gpt-5.6,"The effects of heteroatom substitution on the singlet–triplet energy differences in diradicals—ab initio calculations of ΔEST in meta-benzoquinomethane and in 1,3-naphthoquinomethane"
+4,W1989711645,10.1063/1.3499600,2010,gpt-5.6,Perturbative correction for the basis set incompleteness error of complete-active-space self-consistent field
+4,W1985497734,10.1063/1.452349,1987,gpt-5.6,Accurate <i>a</i> <i>b</i> <i>i</i> <i>n</i> <i>i</i> <i>t</i> <i>i</i> <i>o</i> calculations which demonstrate a 3Π<i>u</i> ground state for Al2
+4,W1983822130,10.1021/jp066090x,2006,gpt-5.6,"An Ab Initio Study of the Excited States, Isomerization Energy Profiles and Conical Intersections of a Chiral Cyclohexylidene Derivative"
+4,W1982189167,10.1021/jp036862e,2003,gpt-5.6,Can Diarylethene Photochromism Be Explained by a Reaction Path Alone? A CASSCF Study with Model MMVB Dynamics
+4,W1981089078,10.1063/1.458570,1990,gpt-5.6,Theoretical investigations of the structures and binding energies of Be<i>n</i> and Mg<i>n</i>(<i>n</i>=3–5) clusters
+4,W1980820125,10.1063/1.460357,1991,gpt-5.6,"Complete active space self-consistent field potential energy surfaces, dipole moment functions, and spectroscopic properties of O3, CF2, NO−2, and NF+2"
+4,W1974523819,10.1063/1.452829,1987,gpt-5.6,Theoretical determination of the radiative lifetime of the <i>A</i> 2Σ+ state of OH
+4,W1968802309,10.1039/c2cp22341d,2012,gpt-5.6,Bonding situation and N–O-bond strengths in amine-N-oxides—a combined experimental and theoretical study
+4,W1967650759,10.1063/1.458298,1990,gpt-5.6,"Electronic states and potential energy surfaces of H2Te, H2Po, and their positive ions"
+4,W1893350443,10.1039/b107700g,2001,gpt-5.6,A ZEKE photoelectron spectroscopy and ab initio study of the cis- and trans-isomers of formanilide: Characterizing the cationic amide bond ?
+4,W1658167544,10.1063/1.474082,1997,gpt-5.6,"Geometries and energy separations of electronic states of AsCl2, AsBr2, AsCl2+, and AsBr2+"
+4,W1630101489,10.1063/1.1476310,2002,gpt-5.6,A theoretical study of the azide (N3) doublet states. A new route to tetraazatetrahedrane (N4): N+N3→N4
+3,W4417297565,10.1021/acs.jpclett.5c03195,2025,gpt-5.6,Nonadiabatic Dynamics of the Molecular Tully Models with the Mixed-Reference Spin-Flip Time-Dependent Density Functional Theory
+3,W4414624827,10.1021/acs.jctc.5c01336,2025,gpt-5.6,Density Matrix Embedding Theory-Based Multiconfigurational Quantum Chemistry Approach to Lanthanide Single-Ion Magnets
+3,W4414536538,10.1021/acs.jpca.5c05513,2025,gpt-5.6,"The Electronic Structure of Boron, Aluminum, and Scandium Monoxides: BO, AlO, and ScO"
+3,W4412203161,10.1021/acs.inorgchem.5c01823,2025,gpt-5.6,Electronic Structure of Tetragonal Fe-Oxo Complexes Governs HAT vs PCET Mechanisms in C–H Oxidation
+3,W4411856596,10.1021/acs.jpca.4c08441,2025,gpt-5.6,Stable Terbium Oxides (TbO2 and TbO4) with an Oxidation State of +IV
+3,W4408567233,10.1039/d4dt03571b,2025,gpt-5.6,Heterometallic CuCd and Cu <sub>2</sub> Zn complexes with <i>o</i> -vanillin and its Schiff-base derivative: slow magnetic relaxation and catalytic activity associated with Cu( <scp>ii</scp> ) centres
+3,W4406175020,10.1039/d4nr03920c,2025,gpt-5.6,"Magnetism of transition-metal-doped tetrel nanoclusters: multi-reference character and spin–orbit effects in Sn <sub>12</sub> TM (TM = Cr, Mn, Fe)"
+3,W4398775768,10.1039/d4dt00927d,2024,gpt-5.6,Halide mediated modulation of magnetic interaction and anisotropy in dimeric Co( <scp>ii</scp> ) complexes
+3,W4307339704,10.1039/d2dt02874c,2022,gpt-5.6,Magnetically bistable cobalt-dioxolene complexes with a tetradentate N-donor base
+3,W3194882658,10.1039/d1dt01944a,2021,gpt-5.6,3d–4f magnetic exchange interactions and anisotropy in a series of heterobimetallic vanadium( <scp>iv</scp> )–lanthanide( <scp>iii</scp> ) Schiff base complexes
+3,W3152818929,10.1039/d1dt00212k,2021,gpt-5.6,Thermo- and photoinduced spin state switching in an iron( <scp>ii</scp> ) 2D coordination network associated with large light-induced thermal hysteresis and tuning of dimensionality <i>via</i> ligand modulation
+3,W3125465521,10.1039/d0dt03957h,2021,gpt-5.6,Ferro- <i>vs.</i> antiferromagnetic exchange between two Ni( <scp>ii</scp> ) ions in a series of Schiff base heterometallic complexes: what makes the difference?
+3,W3041915404,10.7503/cjcu20150966,2016,gpt-5.6,"CASSCF and MS-CASPT2 Studies on an Electron-tunable,1,2-Dicyanoethylene-based Optical Molecular Switch†"
+3,W2946183172,10.1039/c9dt00597h,2019,gpt-5.6,Switching on single-molecule magnet properties of homoleptic sandwich tris(pyrazolyl)borate dysprosium( <scp>iii</scp> ) cations <i>via</i> intermolecular dipolar coupling
+3,W2883168112,10.1039/c8dt02008f,2018,gpt-5.6,Experimental and theoretical exploration of magnetic exchange interactions and single-molecule magnetic behaviour of bis(η <sup>1</sup> :η <sup>2</sup> :μ <sub>2</sub> -carboxylate)GdIII2/DyIII2 systems
+3,W2800166850,10.1039/c8cp01718b,2018,gpt-5.6,Mechanistic insights into the photogeneration and quenching of guanine radical cation <i>via</i> one-electron oxidation of G-quadruplex DNA
+3,W2487248808,10.1080/00268976.2016.1213436,2016,gpt-5.6,"Theoretical insights into excited-state intramolecular proton transfer in 1,8-dihydroxydibenzo[<i>a,h</i>]phenazine"
+3,W2402274140,10.1021/jp303998h,2012,gpt-5.6,Spin-Coupled Theory for ‘<i>N</i> Electrons in <i>M</i> Orbitals’ Active Spaces
+3,W2373578994,10.1039/c6cp01350c,2016,gpt-5.6,How protonation and deprotonation of 9-methylguanine alter its singlet O <sub>2</sub> addition path: about the initial stage of guanine nucleoside oxidation
+3,W2255438600,10.1039/c5cp06833a,2016,gpt-5.6,"Internal conversion and intersystem crossing in α,β-enones: a combination of electronic structure calculations and dynamics simulations"
+3,W2228535045,10.1039/c5cp04693a,2016,gpt-5.6,Intramolecular charge transfer in aminobenzonitriles and tetrafluoro counterparts: fluorescence explained by competition between low lying excited states and radiationless deactivation. Part II: influence of substitution on luminescence patterns
+3,W2161308616,10.1063/1.1311292,2000,gpt-5.6,Excited states theory for optimized orbitals and valence optimized orbitals coupled-cluster doubles models
+3,W2142394338,10.1039/c3ra41316k,2013,gpt-5.6,Two-step radical reactions that switch low multiplicity channels leading to the carbene and carbyne species detected for Ru(5F) + CH4−nFn (n = 2–4) interactions under matrix isolation conditions
+3,W2133245472,10.1039/a802861c,1998,gpt-5.6,Electronic structure of the naphthalene radical cation and some simple alkylated derivatives
+3,W2099675565,10.1063/1.470926,1996,gpt-5.6,"Theoretical study of the excitation spectra of five-membered ring compounds: Cyclopentadiene, furan, and pyrrole"
+3,W2082973536,10.1063/1.476392,1998,gpt-5.6,<i>Ab initio</i> calculations on bromine oxide and dioxides and their corresponding anions
+3,W2082806933,10.1063/1.472754,1996,gpt-5.6,A complete active space valence bond (CASVB) method
+3,W2072827342,10.1021/jp050282v,2005,gpt-5.6,Ab Initio Quantum Chemical Investigation of Intramolecular Magnetic Interaction in Some Diradical Derivatives of Imino Nitroxide and Nitronyl Nitroxide
+3,W2072015791,10.1063/1.2883981,2008,gpt-5.6,The density matrix renormalization group self-consistent field method: Orbital optimization with the density matrix renormalization group method in the active space
+3,W2054261882,10.1039/b000904k,2000,gpt-5.6,"The thermolytic behaviour of hexa-1,5-diene-units incorporated in a stellane and twistbrendane skeleton. A quest for a stepwise Cope rearrangement"
+3,W2050907621,10.1063/1.471880,1996,gpt-5-codex,Excited-state absorption spectra of <i>V</i>2+-doped fluoroperovskites. An <i>ab initio</i> model potential embedded-cluster study
+3,W2048923807,10.1063/1.460137,1991,gpt-5.6,"A theoretical study of low-lying electronic states of aminonitrene, phosphinonitrene, and phosphinocarbene"
+3,W2044771629,10.1063/1.451044,1986,gpt-5.6,Theoretical dipole moments for the first-row transition metal hydrides
+3,W2043111268,10.1063/1.4811835,2013,gpt-5.6,The multi-configuration self-consistent field method within a polarizable embedded framework
+3,W2041299220,10.1002/(sici)1097-461x(2000)77:6<961::aid-qua4>3.0.co;2-a,2000,gpt-5-codex,"Structure and spectroscopy of Cr3+ defects in KMgF3, KZnF3, and CsCaF3 crystals. An ab initio model potential embedded cluster study"
+3,W2040980003,10.1039/c4cp04402a,2014,gpt-5.6,Spin-crossover in phenylazopyridine-functionalized Ni–porphyrin: trans–cis isomerization triggered by π–π interactions
+3,W2036148392,10.1016/j.ssi.2006.12.005,2007,gpt-5.6,Ab initio study of the optical transitions on low-coordinated sites of an intermediate F center: The Fs+(OH)− center on MgO(100) surface
+3,W2033666647,10.1021/ja963248q,1997,gpt-5.6,Transition Structures of the Ene Reactions of Cyclopropene
+3,W2032344860,10.1063/1.453080,1987,gpt-5.6,"<i>A</i> <i>b</i> <i>i</i> <i>n</i> <i>i</i> <i>t</i> <i>i</i> <i>o</i> calculations on C2, Si2, and SiC"
+3,W2029394420,10.1039/b517551h,2006,gpt-5.6,S3O2—an unusual structure with π*–π* interaction
+3,W2022146962,10.1039/ft9969204361,1996,gpt-5.6,Isomerism and spin–vibronic energy levels of silicon nitroxide
+3,W2020292674,10.1039/c1cp21534e,2011,gpt-5.6,"Electronic structure and lifetimes of GaX2+ (X = N, O, F) in the gas phase. Unraveling stability trends"
+3,W2018393245,10.1063/1.454466,1988,gpt-5.6,Theoretical characterization of the minimum energy path for the reaction H+O2→HO2*→HO+O
+3,W2017697349,10.1063/1.466127,1993,gpt-5.6,Stability ladder of various HC2N conformers and their excitation energies
+3,W2017365023,10.1039/b511229j,2005,gpt-5.6,Matrix isolation and computational study of the photochemistry of p-azidoaniline
+3,W2016744550,10.1063/1.479796,1999,gpt-5.6,"Theoretical characterization of the ground- and excited-state structures and properties of indole-(H2O)n (n=1,2) complexes"
+3,W2016465083,10.1021/jp8037335,2008,gpt-5.6,Ground- and Excited-State Aromaticity and Antiaromaticity in Benzene and Cyclobutadiene
+3,W2015129910,10.1063/1.3290203,2010,gpt-5.6,Molecular applications of analytical gradient approach for the improved virtual orbital-complete active space configuration interaction method
+3,W2015079459,10.1063/1.3611401,2011,gpt-5.6,The generalized active space concept in multiconfigurational self-consistent field methods
+3,W2014174850,10.1021/ja0712773,2007,gpt-5.6,Electron Localization in the Ground State of the Ruthenium Blue Dimer
+3,W2011538339,10.1039/a904536h,1999,gpt-5.6,[2+2+2]-Cycloreversion reactions: a theoretical elucidation of thermodynamic and through-bond coupling effects on activation energies †‡
+3,W2004857538,10.1063/1.4916111,2015,gpt-5.6,"Initial mechanisms for the decomposition of electronically excited energetic materials: 1,5′-BT, 5,5′-BT, and AzTT"
+3,W2004485575,10.1039/a900212j,1999,gpt-5.6,Multi-step photolysis of benzenetetracarboxylic dianhydrides in low-temperature argon matrices: exploration of reactive intermediates containing benzdiynes produced stepwise during photochemical reactions
+3,W2002439764,10.1039/c4cp01895h,2014,gpt-5.6,A model study on the photochemical isomerization of isothiazoles and thiazoles
+3,W2002197609,10.1063/1.3701567,2012,gpt-5.6,Core level (S 2p) excitation and fragmentation of the dimethyl sulfide and dimethyldisulfide molecules
+3,W1998558815,10.1063/1.466990,1994,gpt-5.6,The fraternal twins of quartet O+4
+3,W1996538573,10.1039/b925246k,2010,gpt-5.6,Photostability and solvation: photodynamics of microsolvated zwitterionic glycine
+3,W1995018852,10.1039/c3cp51150b,2013,gpt-5.6,"Ab initio and DFT analysis of the low-lying electronic states of metal dihalides: quantum chemical calculations on the neutral BrMCl (M = Cu, Ag, Au)"
+3,W1991356344,10.1039/c0cp02106g,2011,gpt-5.6,"Prediction of electronic structure of organic radicaloid anions using efficient, economical multireference gradient approach"
+3,W1990814642,10.1039/b314419d,2004,gpt-5.6,Ab initio studies on the photophysics of the guanine–cytosine base pair
+3,W1990237522,10.1039/a904105b,1999,gpt-5.6,"Ab initio study of the π*â†�n electronic transition in formic acid?(water) <sub>n</sub> (n = l, 2) hydrogen bonded complexes"
+3,W1988081858,10.1021/ja035087d,2003,gpt-5.6,Probing the Rhodopsin Cavity with Reduced Retinal Models at the CASPT2//CASSCF/AMBER Level of Theory
+3,W1987258691,10.1039/p29960002041,1996,gpt-5.6,"Theoretical study of the addition of alkyl and halogenoalkyl radicals to the ethylene double bond: a comparison between Hartree–Fock, perturbation theory and density functional theory"
+3,W1985353577,10.1039/c1ra00216c,2011,gpt-5.6,Jet-cooled laser-induced fluorescence spectroscopy of methylcyclohexoxy radicals
+3,W1983317579,10.1021/jp800217c,2008,gpt-5.6,Azo−Hydrazone Tautomerism in Protonated Aminoazobenzenes: Resonance Raman Spectroscopy and Quantum-Chemical Calculations
+3,W1975178040,10.1039/c0cp00772b,2010,gpt-5.6,Hydrogen bonding in electronically excited states: a comparison between formic acid dimer and its mono-substituted thioderivatives
+3,W1970234808,10.1039/b313831c,2004,gpt-5.6,Hydrogen atom dislocation in the excited state of anthranilic acid: probing the carbonyl stretch fundamental and the effects of water complexation
+3,W1964522116,10.1063/1.4752654,2012,gpt-5.6,Experimental and theoretical studies of the decomposition of new imidazole based energetic materials: Model systems
+3,W1892645456,10.1039/b310676d,2003,gpt-5.6,"Understanding the puzzling chemistry of bicyclo[2.1.0]pentaneElectronic supplementary information (ESI) available: geometries, harmonic vibration frequencies, energies, and natural orbital occupancies for all stationary points discussed in the paper. See http://www.rsc.org/suppdata/ob/b3/b310676d/"
+2,W7167803473,10.1021/acs.jpca.6c01240,2026,gpt-5.6,"Substituent Effects on Excited-State Relaxation of N , N ′-Bis(salicylidene)- p -phenylenediamine: A Comparative Study of BSP and S-BSP"
+2,W7163070452,10.1021/acs.inorgchem.6c01030,2026,gpt-5.6,"Implicating the Role of Enhanced Oxyl Attribute in Facilitating Exceptional C–H Activation by a [Co
+                    2
+                    III,IV
+                    (μ-O)
+                    2
+                    ] Diamond-Core Complex: A Theoretical Perspective"
+2,W4417497383,10.1063/5.0297328,2025,gpt-5.6,Key roles of conical intersections in the photolysis of phosphine and diphosphine
+2,W4416178400,10.1021/acs.inorgchem.5c03943,2025,gpt-5.6,"Peroxide Ligands Support Tetranuclear Lanthanide Ensembles: Synthesis, Structure, Magnetism, and Theoretical Studies"
+2,W4415606929,10.1021/acs.cgd.5c01058,2025,gpt-5.6,Regulation of Ligand Substitution in Mononuclear Dy/Gd Complexes: Slow Magnetic Relaxation and Magnetocaloric Effects
+2,W4415473661,10.1021/acs.jpclett.5c02294,2025,gpt-5.6,"Photodissociation Pathways of Methanol: Dissociation, Roaming, and Migration"
+2,W4414620532,10.1021/jacs.5c12079,2025,gpt-5.6,"Molecular Models of Layered Ternary Cu
+                    2
+                    MoS
+                    4
+                    Reveal Sulfur-Based H
+                    2
+                    Evolution Pathway"
+2,W4413309593,10.1021/acs.jpca.5c03028,2025,gpt-5.6,Nonunitary Variational Quantum Eigensolver with the Localized Active Space Method and Cost Mitigation
+2,W4413005179,10.1021/acs.inorgchem.5c03327,2025,gpt-5.6,Fe(II)-Porphyrin Catalysts Emulate Enzymatic Structural Features for C–H Amination Reactions
+2,W4412961281,10.1021/acs.cgd.5c00236,2025,gpt-5.6,Structural and Magnetic Studies of a Discrete Tetranuclear Complex Featuring an Oxalato-Bridged Ni3IICrIII Cluster
+2,W4411984214,10.1021/acs.jpclett.5c01270,2025,gpt-5.6,Hydrogen-Bonded Complexes of Methylnitrene
+2,W4410603616,10.1021/acs.cgd.5c00337,2025,gpt-5.6,"Tuning Self-Aggregation and Nuclearity in Multinuclear CoII Complexes: Synthesis, Structural Diversity, and Changes in Magnetic Anisotropy and Relaxation Behavior"
+2,W4410496829,10.1021/acs.jctc.5c00190,2025,gpt-5.6,Second-Order Complete Active Space Perturbation Theory (CASPT2) and <i>N</i>-Electron Valence State Perturbation Theory (NEVPT2) Based on Adaptive Sampling Configuration Interaction Self-Consistent Field (ASCI-SCF)
+2,W4409642959,10.1021/acs.jpca.4c08520,2025,gpt-5.6,Quantum Mechanics/Molecular Mechanics Studies on the Excited-State Relaxation Mechanisms of Cytidine Analogues: 2′-Deoxy-5-Methylcytidine and 2′-Deoxy-5-Hydroxymethylcytidine in Aqueous Solution
+2,W4386619945,10.1039/d3cp03628f,2023,gpt-5.6,Quantum mechanics/molecular mechanics studies on the excited-state decay mechanisms of cytidine aza-analogues: 5-azacytidine and 2′-deoxy-5-azacytidine in aqueous solution
+2,W4312912207,10.1039/d2nj03262g,2022,gpt-5.6,"Spectroscopic and theoretical insights into hydrogen bonding clusters, triplet species, and the relaxation mechanism of the light ( <sup>1</sup> ππ*) excited state of 4-methyl-1,2,4-triazole-3-thione"
+2,W4312094025,10.1039/d2cc05548a,2022,gpt-5.6,Redshifted and thermally bistable one-way quantitative hemithioindigo-derived photoswitches enabled by isomer-specific excited state intramolecular proton transfer
+2,W4285589773,10.1039/d2cp00465h,2022,gpt-5.6,Substitution enables significant new decay channels for a non-canonical amino acid
+2,W4220955591,10.1039/d1cp05286a,2022,gpt-5.6,Molecular properties and excited state van der Waals potentials in the NO A <sup>2</sup> Σ <sup>+</sup> + O <sub>2</sub> XΣ <sub>g</sub> <sup>−</sup> collision complex
+2,W4206636999,10.52714/dthu.21.8.2016.381,2016,gpt-5.6,Phân tích phổ quang electron của cluster MnS- bằng hóa học lượng tử tính toán
+2,W4205549733,10.1039/d1cp04335h,2021,gpt-5-codex,"Theoretical investigation of CH-bond activation by photocatalytic excited SO <sub>2</sub> and the effects of C-, N-, S-, and Se-doped TiO <sub>2</sub>"
+2,W4200014026,10.1016/j.jlumin.2021.118700,2021,gpt-5-codex,"First-principles study on luminescent properties of Bi3+-doped ALuGeO4 (A = Li, Na): Insights into effects of host cation on emission wavelength"
+2,W3211816253,10.1021/acs.jpca.1c09150,2021,gpt-5.6,Large Inverted Singlet–Triplet Energy Gaps Are Not Always Favorable for Triplet Harvesting: Vibronic Coupling Drives the (Reverse) Intersystem Crossing in Heptazine Derivatives
+2,W3209629065,10.1039/d1dt02498a,2021,gpt-5.6,"Rigid versions of PDTA <sup>4−</sup> incorporating a 1,3-diaminocyclobutyl spacer for Mn <sup>2+</sup> complexation: stability, water exchange dynamics and relaxivity"
+2,W3201027541,10.1039/d1cc05246b,2021,gpt-5.6,Orbital transitions: insight into energy transfer through an antenna for an organo-lanthanide complex
+2,W3110238853,10.1039/d0cp05539e,2020,gpt-5.6,Theoretical study on the photochemistry of furoylazides: Curtius rearrangement and subsequent reactions
+2,W3036502874,10.1039/d0cc03238g,2020,gpt-5.6,Geometrical control of the magnetic anisotropy in six coordinate cobalt complexes
+2,W3023397272,10.1039/d0dt01132k,2020,gpt-5.6,The role of the excited state dynamic of the antenna ligand in the lanthanide sensitization mechanism
+2,W3008091293,10.1039/c9cp06952f,2020,gpt-5.6,The valence and Rydberg states of dienes
+2,W2972015887,10.1039/c9dt02627d,2019,gpt-5.6,"The role of 3d–4f exchange interaction in SMM behaviour and magnetic refrigeration of carbonato bridged CuII2LnIII2 (Ln = Dy, Tb and Gd) complexes of an unsymmetrical N <sub>2</sub> O <sub>4</sub> donor ligand"
+2,W2955329763,10.1039/c8cp05953e,2019,gpt-5.6,Theoretical investigation of the isomerization pathways of diazenes: torsion <i>vs.</i> inversion
+2,W2947925048,10.1039/c9cp02431j,2019,gpt-5.6,Can reactions follow non-traditional second-order saddle pathways avoiding transition states?
+2,W2906841317,10.1039/c8cp06974c,2019,gpt-5.6,Conical intersections and intersystem crossings explain product formation in photochemical reactions of aryl azides
+2,W2901490435,10.1039/c8cp06314a,2018,gpt-5.6,Excited state C–N bond dissociation and cyclization of tri-aryl amine-based OLED materials: a theoretical investigation
+2,W2895659445,10.1039/c8dt03506g,2018,gpt-5.6,Enhanced energy barriers triggered by magnetic anisotropy modulation <i>via</i> tuning the functional groups on the bridging ligands in Dy <sub>2</sub> single-molecule magnets
+2,W2797957369,10.1039/c8dt01064a,2018,gpt-5.6,Three new types of transition metal carboranylamidinate complexes
+2,W2770995469,10.1071/ch17472,2017,gpt-5.6,Quantum-Chemical Ab Initio Calculations on Inda- and Thallabenzene (C5H5In and C5H5Tl) and their Structural Isomers ?5-C5H5In and ?5-C5H5Tl*
+2,W2664148539,10.1021/acs.jpclett.7b01158,2017,gpt-5-codex,Color Control of Pr<sup>3+</sup> Luminescence by Electron–Hole Recombination Energy Transfer in CaTiO<sub>3</sub> and CaZrO<sub>3</sub>
+2,W2581740502,10.1039/c6cp07563k,2017,gpt-5.6,Ligand non-innocence and strong correlation in manganese superoxide dismutase mimics
+2,W2321111670,10.1021/ct400707k,2013,gpt-5.6,Multireference Ab Initio Density Matrix Renormalization Group (DMRG)-CASSCF and DMRG-CASPT2 Study on the Photochromic Ring Opening of Spiropyran
+2,W2314445173,10.1021/jp205971b,2011,gpt-5.6,Computational Studies on Ethylene Addition to Nickel Bis(dithiolene)
+2,W2198441028,10.1039/c5cp06476g,2015,gpt-5.6,Electronic structure of the para-benzoquinone radical anion revisited
+2,W2157531036,10.1039/dc9919100047,1991,gpt-5.6,Ab initio molecular orbital and dynamics study of transition-state spectroscopy
+2,W2133268403,10.1039/c4dt00595c,2014,gpt-5.6,The important role of the Mo–Mo quintuple bond in catalytic synthesis of benzene from alkynes. A theoretical study
+2,W2127459009,10.1039/b705194h,2007,gpt-5.6,An examination of structural characteristics of phenylacetylene by vibronic and rovibronic simulations of ab initio data
+2,W2096019870,10.1039/b913131k,2009,gpt-5.6,Photophysics of xanthine: computational study of the radiationless decay mechanisms
+2,W2095311947,10.1039/b902263e,2009,gpt-5.6,A mystery solved? Photoelectron spectroscopic and quantum chemical studies of the ion states of CeCp3+
+2,W2095053601,10.1063/1.3666016,2011,gpt-5.6,The problem of hole localization in inner-shell states of N2 and CO2 revisited with complete active space self-consistent field approach
+2,W2094965563,10.1021/jp9614355,1996,gpt-5.6,Optical Spectra of Ni(CO)<sub>4</sub> and Cr(CO)<sub>6</sub> Revisited
+2,W2094392517,10.1063/1.3624894,2011,gpt-5.6,"Comparative density functional theory and post-Hartree-Fock (CCSD, CASSCF) studies on the electronic structure of halogen nitrites ClONO and BrONO using quantum chemical topology"
+2,W2090313647,10.1063/1.451997,1987,gpt-5.6,Electronic states of GaAs and GaAs+
+2,W2089385723,10.1063/1.480900,2000,gpt-5.6,Multiconfiguration linear response approach to the calculation of parity violating potentials in polyatomic molecules
+2,W2088313160,10.1021/jp502996t,2014,gpt-5-codex; gpt-5.6,Is Bi<sup>2+</sup> Responsible for the Red-Orange Emission of Bismuth-Doped SrB<sub>4</sub>O<sub>7</sub>?
+2,W2088048656,10.1039/b925166a,2010,gpt-5.6,Driving force of metallo (Mg–H and Mg–Cl)-ene reaction mechanisms
+2,W2085468040,10.1039/b711464h,2007,gpt-5.6,On the nature of the unusually long OO bond in HO3 and HO4 radicals
+2,W2084579158,10.1063/1.458639,1990,gpt-5.6,The potential energy and dipole moment surfaces of NF2 and O−3 by complete active space self-consistent field
+2,W2082559542,10.1063/1.452035,1987,gpt-5.6,Full CI benchmark calculations for several states of the same symmetry
+2,W2078010867,10.1246/bcsj.71.337,1998,claude-opus-5,"Ab Initio CASSCF Study on Doublet and Quartet States of 1,3,5-Tris(methylene)benzene and 1,3,5-Benzenetriamine Trication"
+2,W2077236953,10.1039/c4dt00471j,2014,gpt-5.6,Charge transfer processes: the role of optimized molecular orbitals
+2,W2075520099,10.1063/1.469639,1995,gpt-5.6,The ozonide anion: A theoretical study
+2,W2073402831,10.1063/1.452532,1987,gpt-5.6,CASSCF/CI calculations of low-lying states and potential energy surfaces of Au3
+2,W2071412436,10.1088/0953-4075/41/21/215102,2008,gpt-5.6,Spin–orbit coupling effects in the low-lying states of NH<sup>+</sup>and NH<sup>−</sup>
+2,W2062388563,10.1063/1.461372,1991,gpt-5.6,Interpretation of excited state Hartree–Fock analytic derivative anomalies for NO2 and HCO2 using the molecular orbital Hessian
+2,W2056390898,10.1039/b415098h,2005,gpt-5.6,Theoretical study of the photodetachment spectrum of the methylene amidogene anion (H <sub>2</sub> CN <sup>−</sup> )
+2,W2052065552,10.1063/1.455266,1988,gpt-5.6,Theoretical spectrum of AlN
+2,W2047582867,10.1088/0953-4075/41/20/205101,2008,gpt-5.6,Spectroscopy and metastability of BeO<sup>+</sup>
+2,W2047392320,10.1063/1.473816,1997,gpt-5.6,Model potentials for main group elements Li through Rn
+2,W2045238539,10.1021/jp803213j,2008,gpt-5.6,New Relativistic Atomic Natural Orbital Basis Sets for Lanthanide Atoms with Applications to the Ce Diatom and LuF<sub>3</sub>
+2,W2044197943,10.1039/c3cp54922d,2014,gpt-5.6,Spin density distribution after electron transfer from triethylamine to an [Ir(ppy)2(bpy)]+ photosensitizer during photocatalytic water reduction
+2,W2044016542,10.1039/c2ra21250a,2012,gpt-5.6,"Theoretical study of nitrogen-rich CN3− anion and related salts M+[CN3]− (M = Li, Na, K)"
+2,W2043070299,10.1039/c1dt10493d,2011,gpt-5.6,Ground and excited state properties of photoactive platinum(iv) diazido complexes: Theoretical considerations
+2,W2042099439,10.1063/1.451253,1986,gpt-5.6,The analytic configuration interaction gradient method: Application to the cyclic and open isomers of the S3 molecule
+2,W2040134322,10.1021/jp063003s,2006,gpt-5.6,Theoretical Studies on the Low-Lying Electronic States of the HSO Neutral Radical and Its Cation
+2,W2031066307,10.1039/c3cp44718a,2013,gpt-5.6,Ab initio insight into ultrafast nonadiabatic decay of hypoxanthine: keto-N7H and keto-N9H tautomers
+2,W2030099358,10.1063/1.453068,1987,gpt-5.6,CASSCF/CI calculations of electronic states and potential energy surfaces of PtH2
+2,W2029751902,10.1021/ic201686c,2011,gpt-5.6,Electronic Structure of Oxidized Complexes Derived from <i>cis</i>-[Ru<sup>II</sup>(bpy)<sub>2</sub>(H<sub>2</sub>O)<sub>2</sub>]<sup>2+</sup> and Its Photoisomerization Mechanism
+2,W2028861459,10.1039/b303239f,2003,gpt-5.6,"The electronic spectroscopy of transition metal di-hydrides H <sub>2</sub> M(CO) <sub>4</sub> (M = Fe,Os): a theoretical study based on CASSCF/MS-CASPT2 and TD-DFT"
+2,W2024917226,10.1039/b807636g,2008,gpt-5.6,"Structure, spectrum and decomposition of the doubly charged ion C2N2++"
+2,W2024061632,10.1063/1.475443,1998,gpt-5.6,Potential energy surfaces and branching ratio of the dissociative recombination reaction HCNH++e−: An<i>ab initio</i>molecular orbital study
+2,W2020476096,10.1246/bcsj.71.2051,1998,claude-opus-5,Theoretical Study of the Potential Energy Curves for the Ca–Ar and Sr–Ar Systems
+2,W2019458949,10.1021/jp013124m,2001,gpt-5.6,A Theoretical Insight into the Photophysics of Acridine
+2,W2019244224,10.1039/a903310f,1999,gpt-5.6,The UV absorption of ClO Part 2. Predissociation of the A2ΠΩstate studied by ab-initio and Fermi golden rule calculations
+2,W2013878428,10.1063/1.480673,2000,gpt-5.6,Theoretical characterization of the excited-state structures and properties of phenol and its one-water complex
+2,W2010476368,10.1021/jp973384x,1998,gpt-5.6,Triplet State <i>Z</i>/<i>E</i>-Photoisomerizations of Polyenes:  A Comparison of ab Initio and Density Functional Methods
+2,W2009765184,10.1039/b009918j,2001,gpt-5.6,Theoretical study of the ring opening of phosphirane and silirane: contrasting mechanisms of hydrogen migration †
+2,W2009334201,10.1063/1.470378,1995,gpt-5.6,Study of low-lying electronic states of ozone by multireference Mo/ller–Plesset perturbation method
+2,W2004996397,10.1021/ja992095e,2000,gpt-5.6,Shedding Light on Excited-State Structures by Theoretical Analysis of Femtosecond Transient Infrared Spectra:  Intramolecular Charge Transfer in 4-(Dimethylamino)benzonitrile
+2,W2002432668,10.1039/c2dt32316h,2012,gpt-5.6,Decisive interactions that determine ferro/antiferromagnetic coupling in {3d–4f} pairs: a case study on dinuclear {V(iv)–Gd(iii)} complexes
+2,W1999346364,10.1039/c1dt10724k,2011,gpt-5.6,How molecular oxygen binds to bis[trifluoroacetylacetonato(−1)]cobalt(ii) –ab initio and density functional theory studies
+2,W1996531758,10.1063/1.466704,1994,gpt-5.6,<i>Ab</i> <i>initio</i> study of the molecules BC and B2C
+2,W1995169538,10.1039/c4cp03001j,2014,gpt-5.6,New insights into the by-product fatigue mechanism of the photo-induced ring-opening in diarylethenes
+2,W1992070771,10.1039/b501029b,2005,gpt-5.6,"Ground state and electronic spectrum of Cu(ii) and Cu(iii) complexes of N,N′-1,2-phenylenebis-2-mercaptoacetamide"
+2,W1984724889,10.1039/ft9938900645,1993,gpt-5.6,Accurate adiabatic energy surfaces for the ground and first excited states of He + 2
+2,W1981480168,10.1063/1.471286,1996,gpt-5.6,Theoretical study of the valence π→π* excited states of polyacenes: Benzene and naphthalene
+2,W1981305818,10.1063/1.452394,1987,gpt-5.6,Calculated potential surfaces for the reactions: O+N2→NO+N and N+O2→NO+O
+2,W1981072293,10.1039/b612045h,2006,gpt-5.6,Ab initio study on the decomposition of first excited state HOOO radicals
+2,W1978064366,10.1016/s0379-6779(02)01088-3,2003,claude-opus-5,Ab initio study for the effect of hydrogen bonds in the intermolecular interaction between high-spin molecules
+2,W1977937874,10.1063/1.4863345,2014,gpt-5.6,<i>Ab initio</i> density matrix renormalization group study of magnetic coupling in dinuclear iron and chromium complexes
+2,W1976995556,10.1039/b902237f,2009,gpt-5.6,Ligands bonded to metal ion or through-metal interacting ligands? Analysis of unusual bonds formation in the (BDTA)2[Co(mnt)2] material
+2,W1976974676,10.1039/b505346c,2005,gpt-5-codex,Ab initio cluster calculations for the absorption energies of F and F+ centers in bulk ZnO
+2,W1971437397,10.1002/chem.200600228,2006,gpt-5.6,Formation of Phosphaethyne Dimers: A Mechanistic Study
+2,W1970332246,10.1039/c3ra47186a,2014,gpt-5.6,Spectroscopic features of the low-lying singlet states of some N-alkyl retinylnitrone model systems and their involvement in oxaziridine formation
+2,W1965708761,10.1039/c3cp55020f,2014,gpt-5.6,Slow deactivation channels in UV-photoexcited adenine DNA
+2,W1917990859,10.1063/1.4929724,2015,gpt-5.6,Novel methods for configuration interaction and orbital optimization for wave functions containing non-orthogonal orbitals with applications to the chromium dimer and trimer
+2,W1902935148,10.1039/c5cp03442f,2015,gpt-5.6,"Water-assisted self-photoredox of 2-(1-hydroxyethyl)-9,10-anthraquinone through a triplet excited state intra-molecular proton transfer pathway"
+1,W7163639019,10.1063/5.0324882,2026,claude-opus-5,Ionic modulation of the charge transfer transitions in host-guest complexes of carbon nanorings and fullerenes
+1,W7163570672,10.1021/acs.jpca.6c01999,2026,gpt-5.6,A Wave Function Theory and Density Functional Theory Investigation of Ground and Excited States of HfSi
+1,W7163391194,10.1021/acs.jpclett.6c00676,2026,gpt-5.6,Reaction Pathway Dynamics for Atmospheric Decomposition Reactions: Unimolecular Dissociation of H 2 COO
+1,W7154576984,10.1063/5.0317597,2026,claude-opus-5,"Introducing PAIMP, the polarizable ab initio model potential method for embedded clusters"
+1,W7134851058,10.48550/arxiv.2603.07089,2026,gpt-5.6,\textit{Ab Initio} Adiabatic Potential Energy Surfaces and Non-adiabatic Couplings for O$_3$: Construction of Four State Diabatic Hamiltonian
+1,W7132833229,10.1021/acs.jpca.5c08237,2026,gpt-5.6,Excited-State Relaxation Mechanism of 5-Hydroxyflavone: A CASPT2 Investigation in the Microsolvated Aqueous Surrounding
+1,W7131415970,10.1039/d5cp04622j,2026,gpt-5.6,Mechanistic investigations into the role of excited state aromaticity during a photochemical ring opening reaction
+1,W7131412896,10.1063/5.0313345,2026,claude-opus-5,Many roads to the seam: How conformational flexibility drives nonadiabatic relaxation in a prototypical thiocarbonyl
+1,W7128540746,10.48550/arxiv.2602.07746,2026,gpt-5.6,Charge Transfer with a Spin. I: A Generalized CASSCF Framework for Investigating Charge Transfer in the Presence of Spin-Orbit Coupling
+1,W7125943486,10.48550/arxiv.2601.19699,2026,gpt-5.6,Orthogonally Constrained CASSCF Framework: Newton-Raphson Orbital Optimization and Nuclear Gradients
+1,W7108208601,10.1063/5.0292616,2025,claude-opus-5,"Effect of polar and non-polar media on photoinduced ring-opening of 1,3-cyclohexadiene: A QM/MM-based surface hopping study"
+1,W7105923768,10.1063/5.0294497,2025,claude-opus-5,A novel probe of photochemical reaction mechanisms of sulfine from vertical and adiabatic excitations
+1,W4417439596,10.1021/acs.jpca.5c07496,2025,gpt-5.6,Theoretical Study on the Nitrile Substitution Effect in a Schiff Base Derivative: Suppression of Excited-State Intramolecular Proton Transfer and Dominance of Torsional Decay
+1,W4416332636,10.1021/acs.jpca.5c05370,2025,gpt-5.6,Two Competing Excited-State Intramolecular Proton Transfer Pathways in AHMD
+1,W4416015005,10.1021/acs.jpca.5c05393,2025,gpt-5.6,Ab Initio Study of Photodissociation and Isomerization Pathways on the Singlet and Triplet Manifolds of 1-Nitropropene
+1,W4415901453,10.1021/acs.jpca.5c04929,2025,gpt-5.6,Quantum Mechanics/Molecular Mechanics Study on the Excited-State Relaxation Pathways of 2′-Deoxy-5-Fluorocytidine in Aqueous Solution
+1,W4415146930,10.1021/acs.jpca.5c06003,2025,gpt-5.6,Ab Initio Study on the Electronic Structure and Spectroscopic Properties of Lanthanum Monohydride (LaH)
+1,W4414856951,10.1021/acscatal.5c05262,2025,gpt-5.6,Deciphering the Coordination Environment’s Impact on O–O Activation in Dicopper Enzymes: Computational Insights from AhyBURP Peptide Cyclase
+1,W4414848445,10.1080/00268976.2025.2563030,2025,gpt-5.6,Unveiling the mechanism of <i>o</i> -fluorophenol ultrafast photodecay using on-the-fly nonadiabatic dynamics
+1,W4414698092,10.1021/acs.inorgchem.5c03228,2025,gpt-5.6,Experimental and Theoretical Study of the Formation of Noble Gas Monoxide Cations in the Gas Phase
+1,W4414664781,10.1021/acs.jpcb.5c06035,2025,gpt-5.6,QM/MM Studies on Photoinduced Cycloaddition and (6–4) Reactions of the Thymidine:4-Selenothymidine Dimer in Aqueous Solution
+1,W4414641523,10.1021/acs.inorgchem.5c02754,2025,gpt-5.6,Realizing the Magnetostructural Correlation of a Highly Anisotropic Fe(III) Porphyrin Complex through Ab Initio Approaches
+1,W4414553927,10.1021/acs.inorgchem.5c03929,2025,gpt-5.6,Synthesis &amp; Magnetic Properties of an Antimony Chelate (‘XantSb2’) Supported Cobalt(II): Rare Example of a 5p|3d Paramagnetic Complex
+1,W4414383142,10.1021/acs.jpclett.5c02521,2025,gpt-5.6,Formation of Nitrile Imine in the Ground and Excited States from Photolysis of 2-N-Methylpyrrole-5-formylamino-tetrazole
+1,W4411259117,10.1021/acs.jpca.5c01356,2025,gpt-5.6,Infrared Spectra of UFn (n = 1–4) in Solid Ne and Ar Matrices: Symmetry-Breaking D2d Structure of UF4
+1,W4410444145,10.1063/5.0261967,2025,gpt-5.6,UV-photoelectron spectroscopy and MS-CASPT2/CASSCF study of the thermolysis of azidoethyl-methyl sulfide: Characterization and mechanism of the formation of <i>S-</i>methy<i>l-N-</i>sulfenylethanimine
+1,W4410244095,10.1021/acs.jpca.5c01912,2025,gpt-5.6,Mechanism of Chemiluminescence in the Air Afterglow Reaction
+1,W4392002588,10.1088/1402-4896/ad22ca,2024,gpt-5.6,Theoretical study of the Ca<sup>+</sup> − He ionic system with spin–orbit coupling
+1,W4387765071,10.1039/d3cp03418f,2023,gpt-5.6,How does multi-reference computation change the catalysis chemistry? DFT and CASPT2 studies of the Cu-catalysed coupling reactions between aryl iodides and β-diketones
+1,W4386271891,10.1039/d2cp05042k,2023,gpt-5.6,Two state reactivity (TSR) and hydrogen tunneling reaction kinetics measured in the Co <sup>+</sup> mediated decomposition of CH <sub>3</sub> CHO
+1,W4365802356,10.1039/d3cp00838j,2023,gpt-5.6,Synergetic argentophilic and through space electronic interactions in a single-crystal-to-single-crystal photocycloaddition reaction: a mechanistic study
+1,W4313467562,10.1039/d2nr04379c,2022,gpt-5.6,Tweezer-like magnetic tip control of the local spin state in the FeOEP/Pb(111) adsorption system: a preliminary exploration based on first-principles calculations
+1,W4285813431,10.1063/1674-0068/cjcp2109163,2022,gpt-5.6,"Excited-state double proton transfer of 1,8-dihydroxy-2-naphthaldehyde: A MS-CASPT2//CASSCF study"
+1,W4248888042,10.1006/jmsp.1995.1142,1995,claude-opus-5,Spectroscopic Properties and Potential Energy Curves of SnF+
+1,W4248099858,10.1039/c8cp02767f,2018,gpt-5.6,Probing the π → π* photoisomerization mechanism of <i>trans</i> -azobenzene by multi-state <i>ab initio</i> on-the-fly trajectory dynamics simulations
+1,W4212921029,10.1039/d1cp05331k,2022,gpt-5.6,Theoretical insights into photo-induced isomerization mechanisms of phenylsulfinyl radical PhSO˙
+1,W4205850618,10.52714/dthu.16.10.2015.273,2015,gpt-5.6,&lt;span&gt;Bản chất của li&amp;ecirc;n kết h&amp;oacute;a học trong ph&amp;acirc;n tử SO&lt;sub&gt;3&lt;/sub&gt; từ g&amp;oacute;c nh&amp;igrave;n của h&amp;oacute;a học lượng tử t&amp;iacute;nh to&amp;aacute;n&lt;/span&gt;
+1,W4200428427,10.1021/acs.jpca.1c09552,2021,gpt-5.6,Singlet O2 Reactions with Radical Cations of 8-Bromoguanine and 8-Bromoguanosine: Guided-Ion Beam Mass Spectrometric Measurements and Theoretical Treatments
+1,W4200368364,10.1039/d1dt02364k,2021,gpt-5.6,"A Nd6 molecular butterfly: a unique all-in-one material for SMM, MCE and maiden photosensitized opto-electronic device fabrication"
+1,W4200113171,10.1021/acs.jpca.1c07108,2021,gpt-5.6,Theoretical Studies on the Excited-State Decay Mechanism of Homomenthyl Salicylate in a Gas Phase and an Acetonitrile Solution
+1,W4200027804,10.1039/d1dt03176g,2021,gpt-5.6,"Synthesis, structural characterization, and magnetic property study of {Cr <sub>3</sub> Ln <sub>3</sub> }, Ln = Gd and Dy complexes"
+1,W3136706522,10.1063/1.455661,1988,gpt-5.6,Theoretical study of the NO γ system
+1,W3111159431,10.1039/d0cp05575a,2020,gpt-5.6,Theoretical study of laser cooling of the TlF <sup>+</sup> molecular ion
+1,W3049710318,10.1039/d0cp02809f,2020,gpt-5.6,"Photodesorption mechanism of water on WO <sub>3</sub> (001) – a combined embedded cluster, computational intelligence and wave packet approach"
+1,W3033579430,10.1039/d0tc01298j,2020,gpt-5.6,Multiconfigurational dynamics explain photochemical reactivity and torquoselectivity towards fluorinated polyacetylenes
+1,W3022355655,10.1039/c9dt04501e,2020,gpt-5.6,Spin-frustration with two quasi-degenerated spin states of a copper( <scp>ii</scp> ) heptanuclear complex obtained from an amino acid ligand
+1,W3018340002,10.1039/d0cp00811g,2020,gpt-5.6,"Quantum yields of singlet and triplet chemiexcitation of dimethyl 1,2-dioxetane: <i>ab initio</i> nonadiabatic molecular dynamic simulations"
+1,W2996266437,10.1039/c9cc08110k,2019,gpt-5.6,"Bis(2,1,3-benzotelluradiazolidyl)2,1,3-benzotelluradiazole: a pair of radical anions coupled by Te⋯N chalcogen bonding"
+1,W2990563942,10.1063/1.5130997,2019,gpt-5.6,Analytical gradients and derivative couplings for dynamically weighted complete active space self-consistent field
+1,W2989798414,10.1039/c9cp05693a,2019,gpt-5.6,An accurate potential energy surface and ring polymer molecular dynamics study of the Cl + CH <sub>4</sub> → HCl + CH <sub>3</sub> reaction
+1,W2977727687,10.1039/c9cp04888j,2019,gpt-5.6,"Matrix infrared spectroscopy of F <sub>2</sub> BMF and FBWF <sub>2</sub> (M = Cr, Mo and W) complexes and quantum chemistry calculations"
+1,W2972104288,10.1088/1674-1056/ab4043,2019,gpt-5.6,Theoretical investigation of the pressure broadening D<sub>1</sub> and D<sub>2</sub> lines of cesium atoms colliding with ground-state helium atoms
+1,W2964271171,10.1039/c9cc05065e,2019,gpt-5.6,Preparation and spectroscopic identification of methyl-Se-nitrososelenol
+1,W2958737176,10.1021/acs.joc.9b01197,2019,gpt-5.6,Detection and Identification of Reaction Intermediates in the Photorearrangement of Pyridazine <i>N</i>-Oxide: Discrepancies between Experiment and Theory
+1,W2950466173,10.1021/ja00040a071,1992,gpt-5.6,CASSCF calculations find that a D8h geometry is the transition state for double bond shifting in cyclooctatetraene
+1,W2946677259,10.1039/c9cp01267b,2019,gpt-5.6,Photophysical characterization of new and efficient synthetic sunscreens
+1,W2922826878,10.1039/c9cp00569b,2019,gpt-5.6,"Theoretical study on the regioselective photoisomerization of asymmetric N,C-chelate organoboron compounds"
+1,W2913462199,10.1039/c8dt04253e,2019,gpt-5.6,Structural and magnetic investigations of a binuclear coordination compound of dysprosium( <scp>iii</scp> ) dinitrobenzoate
+1,W2899747497,10.1039/c8cp05550e,2018,gpt-5.6,Excited interatomic potential energy surfaces of Rb + He that correlate with Rb terms 5 <sup>2</sup> S through 7 <sup>2</sup> S
+1,W2885658342,10.1039/c8cp04164d,2018,gpt-5.6,An excited-state Wolff rearrangement reaction of 5-diazo Meldrum's acid: an <i>ab initio</i> on-the-fly nonadiabatic dynamics simulation
+1,W2808403817,10.1039/c8cp02424c,2018,gpt-5.6,A computationally-derived model for the solvatochromism of <i>p</i> -phenolates with high predictive power
+1,W2789816319,10.1103/physrevb.67.115112,2003,gpt-5-codex,"<i>Ab initio</i>theoretical study of the structure and electronic spectra of<mml:math xmlns:mml=""http://www.w3.org/1998/Math/MathML"" display=""inline""><mml:mrow><mml:msup><mml:mrow><mml:mi mathvariant=""normal"">Co</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn><mml:mo>+</mml:mo></mml:mrow></mml:msup></mml:mrow></mml:math>in<mml:math xmlns:mml=""http://www.w3.org/1998/Math/MathML"" display=""inline""><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant=""normal"">KZnF</mml:mi></mml:mrow><mml:mrow><mml:mn>3</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:math>"
+1,W2778928720,10.1063/1.5010347,2017,gpt-5.6,An <i>ab initio</i> CASSCF study of zero field splitting fluctuations in the octet ground state of aqueous [Gd(<scp>iii</scp>)(HPDO3A)(H2O)]
+1,W2760370796,10.1039/c7cp05320g,2017,gpt-5.6,Quantum chemical investigation of the thermal denitrogenation of 1-pyrazoline
+1,W2739675675,10.1002/jcc.24897,2017,gpt-5.6,Theoretical studies of spin state‐specific [2 + 2] and [5 + 2] photocycloaddition reactions of <i>n</i>‐(1‐penten‐5‐yl)maleimide
+1,W2710385719,10.1039/c7cp01732d,2017,gpt-5.6,Nonadiabatic dynamics simulation of keto isocytosine: a comparison of dynamical performance of different electronic-structure methods
+1,W2702546904,10.1039/c7dt01724c,2017,gpt-5.6,Recognition of phosphopeptides by a dinuclear copper( <scp>ii</scp> ) macrocyclic complex in a water : methanol 50 : 50 v/v solution
+1,W2687405531,10.1088/1674-1056/26/7/073202,2017,gpt-5.6,Pressure-broadened atomic Li(2s-2p) line perturbed by ground neon atoms in the spectral wings and core
+1,W2588182281,10.1039/c7cp00478h,2017,gpt-5.6,"The excited-state decay mechanism of 2,4-dithiothymine in the gas phase, microsolvated surroundings, and aqueous solution"
+1,W2561424651,10.1063/1.4972825,2016,gpt-5.6,Different conical intersections control nonadiabatic photochemistry of fluorene light-driven molecular rotary motor: A CASSCF and spin-flip DFT study
+1,W2557630530,10.1021/acs.jpcc.6b10391,2016,gpt-5.6,Electronic Transition of Ferrocenium: Neon Matrix and CASPT2 Studies
+1,W2517965362,10.1063/1.4960955,2016,gpt-5.6,A mechanochemical study of the effects of compression on a Diels-Alder reaction
+1,W2511331977,10.1063/1.4961261,2016,gpt-5.6,Photodynamics of oxybenzone sunscreen: Nonadiabatic dynamics simulations
+1,W2478062977,10.1063/1.1319937,2000,gpt-5.6,Theoretical studies of intersystem crossing effects in the O+H2 reaction
+1,W2473880547,10.1039/c6ra07712a,2016,gpt-5.6,Phototransformation of tetrazoline oxime ethers – part 2: theoretical investigation
+1,W2471767396,10.1039/c6ra11416d,2016,gpt-5.6,Non-adiabatic dynamics simulation exploration of the wavelength-dependent photoinduced relaxation mechanism of trans-N-1-methyl-2-(tolylazo) imidazole in the gas phase
+1,W2395527512,10.1039/c6dt00702c,2016,gpt-5.6,Dynamic ruffling distortion of the heme substrate in non-canonical heme oxygenase enzymes
+1,W2342036910,10.1039/c6ra03788g,2016,gpt-5.6,Chiral conversion and periodical decay in bridged-azobenzene photoisomerization: an ab initio on-the-fly nonadiabatic dynamics simulation
+1,W2333237007,10.1021/acs.inorgchem.5b01673,2015,gpt-5.6,Magnetic Interactions in a Series of Homodinuclear Lanthanide Complexes
+1,W2328602329,10.1021/jp410740u,2013,gpt-5-codex,Ab initio Theoretical Study on the 4f<sup>2</sup> and 4f5d Electronic Manifolds of Cubic Defects in CaF<sub>2</sub>:Pr<sup>3+</sup>
+1,W2328353458,10.1021/jp205923m,2011,gpt-5.6,Theoretical Molecular Double-Core-Hole Spectroscopy of Nucleobases
+1,W2326680964,10.1021/jp206991v,2011,gpt-5-codex,Optical Excitations in Hematite (α-Fe<sub>2</sub>O<sub>3</sub>) via Embedded Cluster Models: A CASPT2 Study
+1,W2324347976,10.1080/00268976.2016.1164348,2016,gpt-5.6,<i>Ab initio</i>insights on photophysics of 9-methylhypoxanthine
+1,W2220226857,10.1088/1009-0630/16/2/04,2014,gpt-5.6,<i>Ab initio</i>Calculations of Electron-Impact Excitation Cross Sections for N<sub>2</sub>Molecule
+1,W2203300552,10.1088/1674-1056/22/9/093102,2013,gpt-5.6,Multireference configuration interaction study on spectroscopic properties of low-lying electronic states of As<sub>2</sub>molecule
+1,W2180113205,10.1039/c5cp04112k,2015,gpt-5.6,Ab initio electronic structure study of a model water splitting dimer complex
+1,W2168932768,10.1039/c5cp05312a,2015,gpt-5.6,Photophysics of Auramine-O: electronic structure calculations and nonadiabatic dynamics simulations
+1,W2159281040,10.1016/j.crci.2010.02.006,2010,gpt-5.6,All-electron CASPT2 study of Ce(η8–C8H6)2
+1,W2151173927,10.1039/ft9918700797,1991,gpt-5.6,Photodissociation of Ne+2
+1,W2148929260,10.1007/s11426-006-0289-5,2006,gpt-5.6,Potential energy surfaces for low-lying electronic states of SO2
+1,W2139464059,10.1039/c4dt02483d,2014,gpt-5.6,Geometric and electronic structure of a peroxomanganese( <scp>iii</scp> ) complex supported by a scorpionate ligand
+1,W2135938429,10.1039/a906648i,1999,gpt-5.6,Ab initio calculation of zero-field splitting and spin-orbit coupling in ground and excited triplets of m-xylylene
+1,W2135088298,10.1039/c0cp01148g,2010,gpt-5.6,"Superior Z → E and E → Z photoswitching dynamics of dihydrodibenzodiazocine, a bridged azobenzene, by S <sub>1</sub> (nπ*) excitation at λ = 387 and 490 nm"
+1,W2127420443,10.1039/a903560e,1999,gpt-5.6,Structural and electronic changes accompanying reduction of Cr(CO)4(bpy) to its radical anion: a quantum chemical interpretation of spectroelectrochemical experiments
+1,W2124908465,10.1088/0953-4075/47/18/185201,2014,gpt-5.6,Rubidium<i>D</i><sub>1</sub>and<i>D</i><sub>2</sub>atomic lines’ pressure broadened by ground-state helium atoms
+1,W2119079245,10.1039/a800187a,1998,gpt-5.6,Excited states of cyclic-conjugated anions: a theoretical study of the photodecarboxylation of cycloheptatriene and cyclopentadiene carboxylate anions
+1,W2115611983,10.1021/jp962091l,1997,gpt-5.6,"Theoretical Approaches to Direct Exchange Couplings between Divalent Chromium Ions in Naked Dimers, Tetramers, and Clusters"
+1,W2107052056,10.1039/b210837m,2003,gpt-5.6,"Vibrational and structural analysis of the radical cation of N,N,N′,N′-tetramethylbenzidine based on ab initio calculations and time-resolved resonance Raman spectroscopyElectronic supplementary information (ESI) available: Potential energy distributions (PED) expressed in terms of the local symmetry coordinates for each isotopomer (Table 1S and 3S); description of the symmetry coordinates (Table 2S) and related internal coordinates (Fig. 1S). See http://www.rsc.org/suppdata/cp/b2/b210837m/"
+1,W2095434197,10.1006/jmsp.1993.1301,1993,claude-opus-5,Spectroscopic Constants and Potential Energy Curves for GeBr
+1,W2095236146,10.1063/1.465792,1993,gpt-5.6,Pulsed laser evaporation of boron/carbon pellets: Infrared spectra and quantum chemical structures and frequencies for BC2
+1,W2094671463,10.1039/b704335j,2007,gpt-5.6,A Monte Carlo-quantum mechanics study of the lowest n–π* and π–π* states of uracil in water
+1,W2091795931,10.1039/c4cp01472c,2014,gpt-5.6,Hydrogen-bonding in the pyrimidine⋯NH <sub>3</sub> van der Waals complex: experiment and theory
+1,W2090134612,10.1088/0953-4075/42/18/185102,2009,gpt-5.6,The low-lying electronic states of BeP: a reliable and accurate quantum mechanical prediction
+1,W2089248175,10.1088/0953-4075/23/7/014,1990,gpt-5.6,"X-ray photoelectron, Auger electron and ion fragment spectra of O<sub>2</sub>and potential curves of O<sub>2</sub><sup>2+</sup>"
+1,W2088838311,10.1063/1.449929,1986,gpt-5.6,The potential energy surface for the F+H2 reaction as a function of bond angle in the saddle point vicinity
+1,W2088532386,10.1039/c3cp52636d,2013,gpt-5.6,Electronic excited states and electronic spectra of biphenyl: a study using many-body wavefunction methods and density functional theories
+1,W2088009741,10.1088/0953-8984/21/14/144209,2009,gpt-5.6,Quantum mechanical study of atomic hydrogen interaction with a fluorinated boron-substituted coronene radical
+1,W2086239168,10.1021/jp711949j,2008,gpt-5.6,Electronic States of <i>o</i>-Nitrobenzaldehyde: A Combined Experimental and Theoretical Study
+1,W2085313289,10.1039/b906404d,2009,gpt-5.6,"A theoretical study on the thermal ring opening rearrangement of 1H-bicyclo[3.1.0]hexa-3,5-dien-2-one: a case of two state reactivity"
+1,W2085030886,10.1063/1.456964,1989,gpt-5.6,Theoretical characterization of the lowest three potential surfaces of HNO. I. The potential for H atom addition to NO
+1,W2084911457,10.1021/jp807734x,2008,gpt-5.6,Not Innocent: Verdict from Ab Initio Multiconfigurational Second-Order Perturbation Theory on the Electronic Structure of Chloroiron Corrole
+1,W2083996840,10.1039/c2ra20997g,2012,gpt-5.6,Novel quadruple fluorescence of donor–acceptor benzoylthiourea derivatives
+1,W2083986062,10.1063/1.451431,1986,gpt-5.6,A full CI treatment of the 1<i>A</i>1–3<i>B</i>1 separation in methylene
+1,W2083906750,10.1246/bcsj.71.2097,1998,claude-opus-5,Ab Initio Size-Consistent Calculations of Effective Exchange Interactions in Mesoscopic Magnetic Clusters Composed of Triplet Methylenes and Quartet Nitrogen Atoms
+1,W2083288772,10.1039/b003288n,2000,gpt-5.6,Attempts to model neutral solitons in polyacetylene by ab initio and density functional methods. The nature of the spin distribution in polyenyl radicals
+1,W2083051804,10.1039/b205228h,2002,gpt-5.6,"Substitution effects of methyl: photodissociation of m-, o- and p-chlorotoluene at 266 nm"
+1,W2082582248,10.1021/jp993537b,2000,gpt-5.6,Pyrolysis of Furan:  Ab Initio Quantum Chemical and Kinetic Modeling Studies
+1,W2081310767,10.1063/1.446451,1984,gpt-5.6,On the electron affinity of Be2
+1,W2081035909,10.1039/a808035f,1999,gpt-5.6,A study of the lowest-lying triplet and singlet states of the cyclopentadienyl cation (c-C5H5+)
+1,W2080937875,10.1039/a904184b,1999,gpt-5.6,"On the structure of the monohydrated superoxide molecular anion, O2-·(H2O). An ab initio molecular orbital study"
+1,W2080674636,10.1063/1.466960,1994,gpt-5.6,Complete active space self-consistent field and density functional study of FNO
+1,W2080381324,10.1063/1.1459705,2002,gpt-5.6,<i>Ab initio</i> study of the isomerization of retinal chromophore and its derivatives
+1,W2080268300,10.1021/jp900822v,2009,gpt-5.6,Theoretical Description of the Structure and Magnetic Properties of Nitroxide−Cu(II)−Nitroxide Spin Triads by Means of Multiconfigurational Ab Initio Calculations
+1,W2079803774,10.1063/1.454392,1988,gpt-5.6,Electronic states and potential energy surfaces of PdH2: Comparison with PtH2
+1,W2079627737,10.1088/0031-8949/29/4/010,1984,gpt-5.6,A Theoretical Investigation of the Low Lying Electronic States of CO<sub>2</sub><sup>+</sup>in Both Linear and Bent Configurations
+1,W2078528794,10.1039/b207765e,2002,gpt-5.6,Ultrafast non-adiabatic laser-induced photodissociation dynamics of CpMn(CO) <sub>3</sub> . An ab initio quantum chemical and dynamical study
+1,W2077204035,10.1039/c003688a,2010,gpt-5.6,Franck–Condon simulation of the photoelectron spectrum of AsF2 and the photodetachment spectrum of AsF2− using ab initio calculations: Ionization energy and electron affinity of AsF2
+1,W2076631307,10.1016/j.crci.2004.10.037,2005,gpt-5.6,"Emission spectroscopy of metal-to-ligand-charge-transfer states of HRe(CO)3(H-dab), model system for α-diimine rhenium tricarbonyl complexes"
+1,W2074460884,10.1039/b900882a,2009,gpt-5.6,"Acceleration of the Z to E photoisomerization of penta-2,4-dieniminium by hydrogen out-of-plane motion: theoretical study on a model system of retinal protonated Schiff base"
+1,W2073379497,10.1039/c3cp43390k,2013,gpt-5.6,Mn@Si14+: a singlet fullerene-like endohedrally doped silicon cluster
+1,W2072774532,10.1039/b510601j,2005,gpt-5.6,"Multireference calculations of the fluorescence, phosphorescence and photodissociation of p-chlorotoluene"
+1,W2072759649,10.1063/1.2806988,2007,gpt-5.6,"Oscillator strengths of the Mulliken, Swan, Ballik-Ramsay, Phillips, and dΠg3←cΣu+3 systems of C2 calculated by MRCI methods utilizing a biorthogonal transformation of CASSCF orbitals"
+1,W2070816297,10.1039/c0cp00303d,2010,gpt-5.6,Exploring wavepacket dynamics behind strong-field momentum-dependent photodissociation in CH2BrI+
+1,W2069838547,10.1063/1.453442,1987,gpt-5.6,Electronic states of Pt2
+1,W2068661177,10.1039/c3tc30692e,2013,gpt-5.6,Phosphorescent mechanism for single-dopant white OLED of FPt: electronic structure and electron exchange-induced energy transfer
+1,W2068265033,10.1063/1.470626,1995,gpt-5.6,On the low-lying Rydberg states of azabenzenes
+1,W2067542702,10.1021/ja402868b,2013,gpt-5.6,Multiple Pathways for the Primary Step of the Spiropyran Photochromic Reaction: A CASPT2//CASSCF Study
+1,W2067198411,10.1039/b108028h,2002,gpt-5.6,Dispersed fluorescence spectra of p-chlorophenol
+1,W2067024543,10.1063/1.457472,1989,gpt-5.6,Theoretical characterization of selected regions of the ground state potential surface of N2H2
+1,W2066661804,10.1021/jp0362335,2004,gpt-5.6,CASPT2//CASSCF and TDDFT//CASSCF Mapping of the Excited State Isomerization Path of a Minimal Model of the Retinal Chromophore
+1,W2066611480,10.1039/b007311n,2000,gpt-5.6,"Theoretical study of the reaction of CH3C(X 2A″, ã4A2) with N2"
+1,W2066130248,10.1039/a905055h,1999,gpt-5.6,An ab initio study of the photochemistry of azobenzene
+1,W2066077035,10.1063/1.4904298,2015,gpt-5.6,Canonical-ensemble state-averaged complete active space self-consistent field (SA-CASSCF) strategy for problems with more diabatic than adiabatic states: Charge-bond resonance in monomethine cyanines
+1,W2063521698,10.1063/1.465972,1993,gpt-5.6,Theoretical characterization of the reaction NH2+NO→products
+1,W2063195452,10.1063/1.4865266,2014,gpt-5.6,"Initial decomposition mechanism for the energy release from electronically excited energetic materials: FOX-7 (1,1-diamino-2,2-dinitroethene, C2H4N4O4)"
+1,W2061390342,10.1063/1.460696,1991,gpt-5.6,Accurate multireference configuration interaction calculations of the potential energy function and the dissociation energy of N2
+1,W2060484031,10.1021/ja921663m,1996,gpt-5.6,The Dimerization of Cyclobutadiene. An ab Initio CASSCF Theoretical Study
+1,W2060216219,10.1063/1.452535,1987,gpt-5.6,Full CI benchmark calculations on CH3
+1,W2057457288,10.1039/c4cp00097h,2014,gpt-5.6,"Experimental and theoretical studies of H <sub>2</sub> O oxidation by neutral Ti <sub>2</sub> O <sub>4,5</sub> clusters under visible light irradiation"
+1,W2056038250,10.1063/1.464552,1993,gpt-5.6,Effective core potential-configuration interaction study of electronic structure and geometry of small neutral and cationic Ag<i>n</i> clusters: Predictions and interpretation of measured properties
+1,W2054254570,10.1063/1.1406975,2001,gpt-5.6,Theoretical study on the photoisomerization of azobenzene
+1,W2054048227,10.1039/c3cp52310a,2013,gpt-5.6,Tracking the stilbene photoisomerization in the S1 state using RASSCF
+1,W2053524500,10.1088/1674-1056/17/8/027,2008,gpt-5.6,"Investigation of analytical potential energy function, harmonic frequency and vibrational levels for the X <sup>2</sup> Σ <sup>+</sup> and <i>A</i> <sup>2</sup> states of CN radical"
+1,W2053243217,10.1039/c2dt30568b,2012,gpt-5.6,PP bond photophysics in an Ar–PP–Ar diphosphene
+1,W2052919807,10.1039/c2cp41994g,2012,gpt-5.6,Sampling excited state dynamics: influence of HOOP mode excitations in a retinal model
+1,W2052730670,10.1063/1.3629454,2011,gpt-5.6,Second-order perturbation theory with a density matrix renormalization group self-consistent field reference function: Theory and application to the study of chromium dimer
+1,W2051833291,10.1039/b511495k,2005,gpt-5.6,Optical resolution of oriented enantiomers via photodissociation: quantum model simulations for H2POSD
+1,W2049649752,10.1039/c1cp22646k,2011,gpt-5.6,H-abstraction is more efficient than cis–trans isomerization in (4-methylcyclohexylidene) fluoromethane. An ab initio molecular dynamics study
+1,W2049321413,10.1021/ja9542799,1996,gpt-5.6,Can Fulvene S<sub>1</sub> Decay Be Controlled? A CASSCF Study with MMVB Dynamics
+1,W2048731101,10.1039/b919912h,2010,gpt-5.6,Duschinsky mixing between four non-totally symmetric normal coordinates in the S1–S0 vibronic structure of (E)-phenylvinylacetylene: a quantitative analysis
+1,W2047669335,10.1063/1.468660,1995,gpt-5.6,Rate coefficients for the N+O2 reaction computed on an <i>ab</i> <i>initio</i> potential energy surface
+1,W2047602779,10.1063/1.3239470,2009,gpt-5.6,<i>Ab initio</i> study of the spectroscopy of AgBr: A CASSCF+Averaged Coupled Pair Functional approach to the lowest excited states including spin-orbit couplings
+1,W2046450112,10.1103/physrevb.67.035117,2003,gpt-5-codex,"Electronic structure<mml:math xmlns:mml=""http://www.w3.org/1998/Math/MathML"" display=""inline""><mml:mrow><mml:msup><mml:mrow><mml:mi>α</mml:mi></mml:mrow><mml:mrow><mml:mo>′</mml:mo></mml:mrow></mml:msup></mml:mrow><mml:mo>−</mml:mo><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant=""normal"">NaV</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant=""normal"">O</mml:mi></mml:mrow><mml:mrow><mml:mn>5</mml:mn></mml:mrow></mml:msub></mml:mrow><mml:mo>:</mml:mo></mml:math>Wave-function-based embedded-cluster calculations"
+1,W2046308910,10.1039/b926102h,2010,gpt-5.6,Ultrafast radiationless transition pathways through conical intersections in photo-excited 9H-adenine
+1,W2044760782,10.1063/1.1288370,2000,gpt-5.6,Reactivity and electronic states of O4 along minimum energy paths
+1,W2044508390,10.1006/jmsp.1993.1228,1993,claude-opus-5,The Dipole Moment Surface and the Vibrational Transition Moments of H2O
+1,W2043872204,10.1063/1.474612,1997,gpt-5.6,Toward resolution of the silicon dicarbide (SiC2) saga: <i>Ab initio</i> excursions in the web of polytopism
+1,W2043706142,10.1021/jp9524993,1996,gpt-5.6,<i>Ab Initio</i> Study of the Photochemical Dissociation of Methylamine
+1,W2042967237,10.1039/c3cp53100g,2013,gpt-5.6,The reaction of formaldehyde carbonyl oxide with the methyl peroxy radical and its relevance in the chemistry of the atmosphere
+1,W2042099299,10.1088/0953-4075/32/2/021,1999,gpt-5.6,Non-adiabatic wavepacket dynamics for charge-exchange processes in ion-atom collisions: application to
+1,W2041922229,10.1063/1.452229,1987,gpt-5.6,"A full CI treatment of the 1<i>A</i>1,1<i>B</i>1, and 3<i>B</i>1 states of SiH2"
+1,W2040468307,10.1021/jp809163g,2009,gpt-5.6,Computing a Three-Dimensional Electronic Energy Manifold for the LiH + H ⇌ Li + H<sub>2</sub> Chemical Reaction
+1,W2039048924,10.1063/1.474344,1997,gpt-5.6,On the photoisomerization of 5-hydroxytropolone: An <i>ab initio</i> and nuclear wave function study
+1,W2037230503,10.1039/c1ra00478f,2011,gpt-5.6,A theoretical search for stable bent and linear structures of low-lying electronic states of the titanium dioxide (TiO2) molecule
+1,W2035627235,10.1088/1674-1056/17/6/015,2008,gpt-5.6,Ground state for CH<sub>2</sub>and symmetry for methane decomposition
+1,W2035224123,10.1063/1.479687,1999,gpt-5.6,Theoretical study of the electronic ground state of iron(II) porphine. II
+1,W2034883355,10.1021/jp905303g,2009,gpt-5.6,"Photophysics of the π,π* and n,π* States of Thymine: MS-CASPT2 Minimum-Energy Paths and CASSCF on-the-Fly Dynamics"
+1,W2034053246,10.1039/b926825a,2010,gpt-5.6,A wavepacket study of the low-energy charge transfer process in the S3+ + H reaction using time-resolved electronic densities
+1,W2033907383,10.1063/1.452544,1987,gpt-5.6,Extended active space CASSCF/MRSD CI calculations of the barrier height for the reaction O+H2→OH+H
+1,W2032511693,10.1063/1.472376,1996,gpt-5-codex,"<i>Ab initio</i> model potential calculations on the electronic spectrum of Ni2+-doped MgO including correlation, spin–orbit and embedding effects"
+1,W2031241266,10.1063/1.1631914,2004,gpt-5.6,"CASSCF and CASPT2 studies on the structures, transition energies, and dipole moments of ground and excited states for azulene"
+1,W2030671472,10.1063/1.471164,1996,gpt-5.6,Molecular quadrupole moment functions of HF and N2. I. <i>Ab</i> <i>initio</i> linear-response coupled-cluster results
+1,W2029758353,10.1006/jmsp.1994.1012,1994,claude-opus-5,"Comparison of Calculated and Measured Intensities of the P2 (C1Σ+u, v′ = 11 → X1Σ+g, v″ = 3-32) Vibrational Sequence"
+1,W2029073692,10.1063/1.458802,1990,gpt-5.6,<i>A</i> <i>b</i>   <i>i</i> <i>n</i> <i>i</i> <i>t</i> <i>i</i> <i>o</i> study of transition state spectroscopy: ClHCl− photodetachment spectrum
+1,W2027531076,10.1063/1.1290606,2000,gpt-5.6,An <i>ab initio</i> direct-trajectory study of the photodissociation of ClOOCl
+1,W2026880186,10.1063/1.454655,1988,gpt-5.6,<i>A</i> <i>b</i> <i>i</i> <i>n</i> <i>i</i> <i>t</i> <i>i</i> <i>o</i> RHF and CASSCF studies on Fe–O bond in high-valent iron-oxo-porphyrins
+1,W2024194903,10.1039/c2cp40359e,2012,gpt-5.6,Irreversible phototautomerization of o-phthalaldehyde through electronic relocation
+1,W2023956519,10.1063/1.457047,1989,gpt-5.6,Theoretical characterization of the potential energy surface for H+O2→HO*2→HO+O. II. The potential for H atom exchange in HO2
+1,W2022769586,10.1021/ja9514555,1996,gpt-5.6,The Azulene S<sub>1</sub> State Decays via a Conical Intersection:  A CASSCF Study with MMVB Dynamics
+1,W2022750488,10.1039/ft9918701809,1991,gpt-5.6,Dissociation of NH <sub>3</sub> to NH + H <sub>2</sub>
+1,W2022748454,10.1063/1.456891,1989,gpt-5.6,Multireference and relativistic effects in NiH
+1,W2022553613,10.1021/jp049140b,2004,gpt-5.6,Probing the Photochemical Funnel of a Retinal Chromophore Model via Zero-Point Energy Sampling Semiclassical Dynamics
+1,W2021834031,10.1039/c3fd00006k,2013,gpt-5.6,A multi-sheeted three-dimensional potential-energy surface for the H-atom photodissociation of phenol
+1,W2020479438,10.1063/1.473323,1997,gpt-5.6,"The 3<i>A</i>2, 1<i>A</i>2, 3<i>B</i>2, and 1<i>B</i>2 electronic states of CH2: Small bond angle states"
+1,W2018887301,10.1039/b719080h,2008,gpt-5.6,"Performance of multi-configurational calculations for a 1,4-bis(phenylethynyl)benzene derivative conjugated molecule"
+1,W2016817482,10.1039/b517030c,2006,gpt-5.6,The electronic structure of nitrilimine: absence of the carbenic form
+1,W2015476020,10.1063/1.466618,1994,gpt-5.6,Characterization of the <i>S</i>1–<i>S</i>2 conical intersection in pyrazine using <i>ab</i> <i>initio</i> multiconfiguration self-consistent-field and multireference configuration-interaction methods
+1,W2013969898,10.1007/s11426-009-0138-4,2009,gpt-5.6,"Theoretical study of deactivation and isomerization pathways of 1,2-dithiete in excited electronic states"
+1,W2013765260,10.1063/1.455875,1989,gpt-5.6,Theoretical characterization of the minimum energy path for hydrogen atom addition to N2: Implications for the unimolecular lifetime of HN2
+1,W2013240384,10.1063/1.4883916,2014,gpt-5.6,<i>Ab initio</i> reaction pathways for photodissociation and isomerization of nitromethane on four singlet potential energy surfaces with three roaming paths
+1,W2012939291,10.1063/1.479335,1999,gpt-5.6,A multiconfigurational self-consistent field study of the thermal decomposition of methyl azide
+1,W2012602946,10.1063/1.458748,1990,gpt-5.6,The ligand field spectrum of the hexafluorochromate (III) anion: An <i>a</i> <i>b</i> <i>i</i> <i>n</i> <i>i</i> <i>t</i> <i>i</i> <i>o</i> study including correlation effects
+1,W2011818110,10.1039/c2cp40898h,2012,gpt-5.6,An interpretation of the absorption and emission spectra of the gold dimer using modern theoretical tools
+1,W2010858159,10.1021/jp027117p,2003,gpt-5.6,Nonadiabatic Dynamics:  A Comparison of Surface Hopping Direct Dynamics with Quantum Wavepacket Calculations
+1,W2010537882,10.1039/c4cp04130e,2014,gpt-5.6,Excited-state proton coupled electron transfer between photolyase and the damaged DNA through water wire: a photo-repair mechanism
+1,W2010324463,10.1063/1.4903241,2014,gpt-5.6,Non-adiabatic dynamics of isolated green fluorescent protein chromophore anion
+1,W2010030156,10.1063/1.458297,1990,gpt-5.6,Theoretical study of the radiative lifetime of the <i>A</i> 1∏<i>u</i> state of C2
+1,W2009699499,10.1039/c4cp03495c,2014,gpt-5.6,A comprehensive study of isomerization and protonation reactions in the photocycle of the photoactive yellow protein
+1,W2006157299,10.1063/1.453962,1988,gpt-5.6,Theoretical study of the <i>A</i>′ 5Σ+<i>g</i> and <i>C</i>″ 5Π<i>u</i> states of N2: Implications for the N2 afterglow
+1,W2005085751,10.1063/1.1806415,2004,gpt-5.6,A study of the correlation effects upon the modelization of the double exchange phenomenon
+1,W2004230934,10.1039/ft9959101063,1995,gpt-5.6,Ab initio calculation of the electrical properties of the X <sup>2</sup> Σ <sub>g</sub> <sup>+</sup> ground and A <sup>2</sup> Π <sub>u</sub> excited states of N <sub>2</sub> <sup>+</sup>
+1,W2003944992,10.1039/b800375k,2008,gpt-5.6,Theoretical studies on the photochemical reaction mechanisms of o-xylylene. Effects of phenyl group for electrocyclic reaction mechanism
+1,W2003198008,10.1039/c3cp53205d,2013,gpt-5.6,An efficient buffer-mediated control between free radical substitution and proton-coupled electron transfer: dehalogenation of iodoethane by the α-hydroxyethyl radical in aqueous solution
+1,W2000921672,10.1039/c1cp21430f,2011,gpt-5.6,Aromaticity in all-metal annular systems: the counter-ion effect
+1,W1997223725,10.1039/b806900j,2008,gpt-5.6,"[Cyanil]22− dimers possess long, two-electron ten-center (2e−/10c) multicenter bonding"
+1,W1997092040,10.1021/ja066430s,2007,gpt-5.6,Radiationless Decay of Red Fluorescent Protein Chromophore Models via Twisted Intramolecular Charge-Transfer States
+1,W1996905306,10.1063/1.455397,1988,gpt-5.6,Spectroscopic properties of 41 electronic states of Pd2
+1,W1994925141,10.1002/1097-461x(2000)80:4/5<623::aid-qua11>3.0.co;2-0,2000,gpt-5-codex,Ab initio model potential embedded cluster calculation of the absorption spectrum of Cs2GeF6:Mn4+. Large discrepancies between theory and experiment
+1,W1994275111,10.1039/b604759a,2006,gpt-5.6,Analysis of the magneto-structural correlations in the meso-tetraphenylporphyrinatomanganese( <scp>iii</scp> ) tetracyanoethenide family of molecule-based magnets
+1,W1990639884,10.1103/physrevb.82.184118,2010,gpt-5-codex,"Structural, electronic, and spectroscopic effects of Ga codoping on Ce-doped yttrium aluminum garnet: First-principles study"
+1,W1989987211,10.1063/1.452347,1987,gpt-5.6,Theoretical study of the dipole moment function of OH(<i>X</i> 2Π)
+1,W1988661975,10.1021/ja00082a032,1994,gpt-5.6,The Cope Rearrangement Revisited Again. Results of Ab Initio Calculations beyond the CASSCF Level
+1,W1988181636,10.1063/1.448628,1985,gpt-5.6,CASSCF-wave packet <i>a</i> <i>b</i> <i>i</i> <i>n</i> <i>i</i> <i>t</i> <i>i</i> <i>o</i> prediction of electronic and vibrational spectra: Application to the <i>A</i>(2Π) ← <i>X</i>(2Σ+) absorption of C2H at 3000 K
+1,W1986729722,10.1006/jmsp.1993.1257,1993,claude-opus-5,Spectroscopic Constants and Potential Energy Curves of PbI
+1,W1984335107,10.1006/jmsp.1993.1100,1993,claude-opus-5,Partition Function and Dissociation Energy for Sc2X5Σ−
+1,W1983494102,10.1063/1.461982,1992,gpt-5.6,"Theoretical studies of the structure and thermochemistry of FO2 radical: Comparison of Mo/ller–Plesset perturbation, complete-active-space self-consistent-field, and quadratic configuration interaction methods"
+1,W1983418336,10.1021/jp077528b,2007,gpt-5.6,"Hf<sub>3</sub> Cluster Is Triply (σ-, π-, and δ-) Aromatic in the Lowest <i>D</i><sub>3</sub><i><sub>h</sub></i>, <sup>1</sup>A<sub>1</sub>‘ State"
+1,W1982270885,10.1063/1.4873349,2014,gpt-5.6,Analytical gradients of complete active space self-consistent field energies using Cholesky decomposition: Geometry optimization and spin-state energetics of a ruthenium nitrosyl complex
+1,W1981485840,10.1039/a803923b,1998,gpt-5.6,Free radical mechanism of the Cl2 addition to acetylene
+1,W1981024547,10.1039/a801838c,1998,gpt-5.6,"Topological study, using a coupled ELF and catastrophe theory technique, of electron transfer in the Li+Cl2 system"
+1,W1980734759,10.1021/ja809624w,2009,gpt-5.6,Decamethylytterbocene Complexes of Bipyridines and Diazabutadienes: Multiconfigurational Ground States and Open-Shell Singlet Formation
+1,W1980586217,10.1063/1.472431,1996,gpt-5.6,Geometries and energy separations of 28 electronic states of Ge5
+1,W1980387211,10.1063/1.454677,1988,gpt-5.6,Spectroscopic properties and potential energy surfaces of In2
+1,W1980091548,10.1039/c0cp01827a,2011,gpt-5.6,Mechanism of the photochemical process of singlet oxygen production by phenalenone
+1,W1977214540,10.1063/1.2829437,2008,gpt-5.6,Computational investigation of the Jahn-Teller effect in the ground and excited electronic states of the tropyl radical. Part I. Theoretical calculation of spectroscopically observable parameters
+1,W1976880774,10.1021/jp107899g,2010,gpt-5.6,Molecular Driving Forces for Z/E Isomerization Mediated by Heteroatoms: The Example Hemithioindigo
+1,W1976723007,10.1039/b804699a,2008,gpt-5.6,"NC–(CF2)4–CNSSN˙ containing 1,2,3,5-dithiadiazolyl radical dimer exhibiting triplet excited states at low temperature and thermal hysteresis on melting–solidification: structural, spectroscopic, and magnetic characterization"
+1,W1975937059,10.1016/s0301-0104(02)00966-7,2003,gpt-5.6,Thiazyl chloride: an experimental and theoretical study of the valence shell HeI photoelectron spectrum
+1,W1975015741,10.1063/1.470689,1995,gpt-5.6,Resonance Raman spectroscopy of the <i>S</i>1 and <i>S</i>2 states of pyrazine: Experiment and first principles calculation of spectra
+1,W1969917445,10.1063/1.464134,1993,gpt-5.6,Computed barrier heights for H+CH2O↔CH3O↔CH2OH
+1,W1969775463,10.1071/ch09563,2010,gpt-5.6,Computational Photobiology and Beyond
+1,W1967961812,10.1039/b205813h,2002,gpt-5.6,"4,4-p-Biphenyl bis-phosphinidene: generation of a bis-W(CO)5 complex and ab initio calculation of its electronic structure"
+1,W1967725011,10.1063/1.1290607,2000,gpt-5.6,A detailed study on the symmetry breaking and its effect on the potential surface of NO3
+1,W1966073973,10.1063/1.4723808,2012,gpt-5.6,Electronic excitation spectrum of the photosensitizer [Ir(ppy)2(bpy)]+
+1,W1965125867,10.1039/c4cp00662c,2014,gpt-5-codex,Switching magnetic interactions in the NiFe Prussian Blue Analogue: an ab initio inspection
+1,W1964612599,10.1021/ja037278m,2004,gpt-5.6,"Origin, Nature, and Fate of the Fluorescent State of the Green Fluorescent Protein Chromophore at the CASPT2//CASSCF Resolution"
+1,W1945781653,10.1039/c5cc03518j,2015,gpt-5.6,Bond-shift isomers: the co-existence of allenic and propargylic phenylnitrile imines
+1,W1928755646,10.1039/c5cp02446c,2015,gpt-5.6,Probing the π → π* photoisomerization mechanism of cis-azobenzene by multi-state ab initio on-the-fly trajectory dynamics simulation
+1,W1786449976,10.1039/b111198c,2002,gpt-5.6,Predissociation dynamics in the A 3Π state of PH: An experimental and ab initio investigationElectronic supplementary information (ESI) available: 6 tables of supporting material. See http://www.rsc.org/suppdata/cp/b1/b111198c/
+1,W1748197155,10.1039/f29878301643,1987,gpt-5.6,"An MCSCF study of the X 2 B 2, 2 A 2 and 2 2 B 2 states of benzyl"
+1,W1680057046,10.1063/1.1311291,2000,gpt-5.6,Theoretical study of the N(2D)+O2(X 3Σg−)→O+NO reaction
+1,W1619807404,10.1063/1.459333,1990,gpt-5.6,Theoretical characterization of the 5Π and 3Π potential energy surfaces for NH+O→N+OH
+1,W1618601477,10.1063/1.452835,1987,gpt-5.6,Theoretical study of the N+2 Meinel system
+1,W1556613987,10.1016/j.jlumin.2013.08.066,2013,gpt-5-codex,"Ab initio theoretical study of the <mml:math xmlns:mml=""http://www.w3.org/1998/Math/MathML"" altimg=""si0291.gif"" overflow=""scroll""><mml:mn>4</mml:mn><mml:msup><mml:mrow><mml:mi mathvariant=""normal"">f</mml:mi></mml:mrow><mml:mrow><mml:mn>8</mml:mn></mml:mrow></mml:msup></mml:math> and 4f75d manifolds of Tb3+-doped BaF2 cubic sites"
+1,W1449480534,10.7503/cjcu20150226,2015,gpt-5.6,γ-巴豆酰内酯激发态动力学的共振拉曼光谱和完全活性空间自洽场(CASSCF)计算研究

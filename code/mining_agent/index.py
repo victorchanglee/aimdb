@@ -5,6 +5,7 @@ seen is here with its lifecycle status, so searches never re-surface work
 that was already judged.
 """
 import csv
+import os
 from datetime import datetime, timezone
 
 from . import config
@@ -22,11 +23,23 @@ def load():
 
 
 def save(rows):
+    """Rewrite the index atomically.
+
+    Via a temporary file and os.replace rather than open(..., "w"): the latter
+    truncates before writing, so an exception part-way through leaves a partial
+    index. That destroyed 417 of 7,416 records on 2026-10-09 and had to be
+    rebuilt from git plus logs/extractions.csv. os.replace is atomic on POSIX,
+    so a reader sees either the old index or the new one, and a crash leaves
+    the original intact.
+    """
     config.ensure_layout()
-    with open(config.PAPERS_INDEX_CSV, "w", newline="", encoding="utf-8") as f:
+    target = config.PAPERS_INDEX_CSV
+    tmp = target.with_suffix(target.suffix + ".tmp")
+    with open(tmp, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=config.INDEX_COLUMNS)
         writer.writeheader()
         writer.writerows(rows)
+    os.replace(tmp, target)
 
 
 def get(rows, key):

@@ -39,7 +39,10 @@ QUARANTINE = ROOT / "logs" / "removed_rows.csv"
 LOG = ROOT / "logs" / "extractions.csv"
 
 # DOI prefixes that identify a preprint server rather than a journal.
-PREPRINT = re.compile(r"^10\.(26434|48550|21203|1101|20944|31219|33774)/", re.I)
+# SSRN (10.2139) was added 2026-10-09: Elsevier routes "First Look"
+# preprints through it, and three pairs here are an SSRN posting beside the
+# journal article (Chem. Phys. Lett., Spectrochim. Acta, J. Mol. Struct.).
+PREPRINT = re.compile(r"^10\.(26434|48550|21203|1101|20944|31219|33774|2139)/", re.I)
 
 
 def _title(s):
@@ -99,7 +102,16 @@ def main(argv=None):
     mode = ap.add_mutually_exclusive_group(required=True)
     mode.add_argument("--dry-run", action="store_true")
     mode.add_argument("--apply", action="store_true")
+    ap.add_argument("--only", default="",
+                    help="comma-separated loser keys to act on, ignoring the "
+                         "rest. A pair can be mechanically resolvable and "
+                         "still be the wrong one to resolve: on 2026-10-09 two "
+                         "of five had a preprint copy 3-6x richer in prose than "
+                         "the journal survivor that covered its spaces, so "
+                         "dropping it would have kept a stub. Use this to apply "
+                         "only what a human has read.")
     args = ap.parse_args(argv)
+    only = {k.strip() for k in args.only.split(",") if k.strip()}
 
     csv.field_size_limit(10 ** 9)
     with DB.open(newline="", encoding="utf-8") as fh:
@@ -112,6 +124,16 @@ def main(argv=None):
         index_rows = list(reader)
 
     resolved, skipped = build_plan(index_rows, db_rows)
+    if only:
+        held = [e for e in resolved
+                if not {m["key"] for m in e["loser"]} & only]
+        resolved = [e for e in resolved
+                    if {m["key"] for m in e["loser"]} & only]
+        unknown = only - {m["key"] for e in resolved for m in e["loser"]}
+        if unknown:
+            ap.error("--only names no resolvable pair: %s" % sorted(unknown))
+        print("--only: acting on %d pair(s), holding back %d resolvable\n"
+              % (len(resolved), len(held)))
     drop = {r["entry_id"] for e in resolved for r in e["loser_rows"]}
 
     print(f"{len(resolved) + len(skipped)} preprint/journal pairs")

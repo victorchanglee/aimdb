@@ -52,10 +52,17 @@ def fetch_one(row, session=None):
     return True, str(dest)
 
 
-def _try_url(session, url, dest):
-    """Download one URL to dest; returns (ok, detail)."""
+def _try_url(session, url, dest, timeout=120):
+    """Download one URL to dest; returns (ok, detail).
+
+    `timeout` is per-request seconds. The 120 s default suits fetching one
+    paper interactively; a bulk sweep over thousands of possibly-dead links
+    should pass something far shorter, since every dead publisher URL is paid
+    for in full (see tools/tools_restore_text.py).
+    """
     try:
-        resp = session.get(url, timeout=120, stream=True, allow_redirects=True)
+        resp = session.get(url, timeout=timeout, stream=True,
+                           allow_redirects=True)
         resp.raise_for_status()
         size = 0
         chunks = []

@@ -20,3 +20,5 @@ database/aimdb_no_quest.csv
 # Community submissions were merged into aimdb.csv on 2026-08-14; the raw
 # queue file carried contributor emails and is no longer tracked.
 database/contribution.csv
+benchmark/__pycache__/
+logs/.restore_text.lock

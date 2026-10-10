@@ -8,6 +8,7 @@ see CLAUDE.md). Appending goes through here so a malformed dict can never
 silently shift columns.
 """
 import csv
+import datetime
 import re
 
 from . import config
@@ -150,6 +151,12 @@ def append_row(fields):
             "or both be empty")
     if not fields.get("mining_model"):
         fields["mining_model"] = config.CURRENT_MINING_MODEL
+    # date_added: the UTC day the row entered the database. Stamped here so it
+    # is exact for every new row; the backfilled older rows are only as precise
+    # as their source (see the note by LITERATURE_COLUMNS).
+    if not fields.get("date_added"):
+        fields["date_added"] = datetime.datetime.now(
+            datetime.timezone.utc).strftime("%d/%m/%Y")
     # Derive the correlation correction from `method` unless the caller set it.
     if not fields.get("correlation_correction"):
         fields["correlation_correction"] = classify_correction(

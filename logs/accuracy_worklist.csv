@@ -1,0 +1,146 @@
+entry_id,check,detail,text_available,compound_name
+W4387440665-a,parity,nel=9 with ground_state_mult=3,no,bridged dysprosocenium analogues (complexes 1-7): Dy(III) do
+W2064948033-a,parity,nel=9 with ground_state_mult=1,no,"1,3,5-Triazine (compound 1, the unsubstituted parent)"
+W2064948033-b,parity,nel=9 with ground_state_mult=1,no,"Atrazine (compound 2), 6-chloro-N2-ethyl-N4-isopropyl-1,3,5-"
+W2064948033-c,parity,nel=9 with ground_state_mult=1,no,"Ametryn (compound 3), 6-methylthio-N2-ethyl-N4-isopropyl-1,3"
+W3211972474-a,parity,nel=9 with ground_state_mult=1,no,"AlCH2, ground-state dipole moment"
+W2058034569-a,parity,nel=15 with ground_state_mult=1,no,8-(pyrimidine-2-yl)quinolin-ol (PQol) - excited-state intram
+W2058034569-b,parity,nel=13 with ground_state_mult=1,no,2-(4-nitropyrimidine-2-yl)ethenol (NPE) - excited-state intr
+W3199686332-a,parity,nel=9 with ground_state_mult=1,no,"thione-S-methylide, the metastable isomer on the [C2SH4] pot"
+W2006537377-a,parity,nel=12 with ground_state_mult=2,no,U6OH radical adduct - hydroxyl radical addition to uracil at
+W2782108131-e,parity,nel=3 with ground_state_mult=3,no,Pr(III) site of the pentanuclear {MnIVMnIII2PrIII2} complex 
+W4377292921-a,parity,nel=12 with ground_state_mult=2,no,"methylcob(II)alamin cofactor, first model of the methylcobal"
+W1995927525-a,parity,nel=8 with ground_state_mult=2,no,"NO2, nitrogen dioxide - bent and cyclic forms"
+W4200552429-b,parity,nel=9 with ground_state_mult=11,no,"[Fe2RuCl4(mu3-O)(mu-OMe)(mu-pz)2(NO)(Hpz)2] (complex 6), a m"
+W3087331279-b,parity,nel=13 with ground_state_mult=3,no,methylthio cation CH3S+
+W2326680964-d,parity,nel=12 with ground_state_mult=6,no,hematite (alpha-Fe2O3)
+W2047392320-b,parity,nel=10 with ground_state_mult=2,no,"As2+ cation, X 2Pi-u state"
+W1945781653-a,parity,nel=14 with ground_state_mult=2,no,phenylnitrile imine
+W1964989895-i,parity,nel=4 with ground_state_mult=2,no,"NaO photoionization, NaO+(X 3Σ−) ← NaO(X 2Π)"
+W1964989895-j,parity,nel=4 with ground_state_mult=2,no,"NaO photoionization, NaO+(A 3Π) ← NaO(A 2Σ+)"
+W1964989895-k,parity,nel=4 with ground_state_mult=2,no,"NaO photoionization, NaO+(A 3Π) ← NaO(X 2Π)"
+W1964989895-l,parity,nel=4 with ground_state_mult=2,no,"NaO photoionization, NaO+(a 1Δ) ← NaO(X 2Π)"
+W1964989895-m,parity,nel=4 with ground_state_mult=2,no,"NaO photoionization, NaO+(b 1Π) ← NaO(A 2Σ+)"
+W1964989895-n,parity,nel=4 with ground_state_mult=2,no,"NaO photoionization, NaO+(b 1Π) ← NaO(X 2Π)"
+W1964989895-o,parity,nel=4 with ground_state_mult=2,no,"NaO photoionization, NaO+(c 1Σ+) ← NaO(A 2Σ+)"
+W1964989895-p,parity,nel=4 with ground_state_mult=2,no,"NaO photoionization, NaO+(d 1Σ+) ← NaO(X 2Π)"
+W1972372733-i,parity,nel=6 with ground_state_mult=6,no,"oxidized iron(III)-semiquinonate small model, catecholate ve"
+W1972372733-j,parity,nel=8 with ground_state_mult=6,no,"iron(III)-semiquinonate + neutral O2 small model, O2 vertica"
+W2022737734-b,parity,nel=10 with ground_state_mult=2,yes,"cis-1,3-Buta-1,4-dione model, deprotonated reduced form (QH-"
+W2022737734-c,parity,nel=11 with ground_state_mult=3,yes,"cis-1,3-Buta-1,4-dione model, semiquinone radical (QH.) + tr"
+W2022737734-e,parity,nel=10 with ground_state_mult=2,yes,"p-Benzoquinone model, deprotonated reduced form (QH-) + trip"
+W2022737734-f,parity,nel=11 with ground_state_mult=3,yes,"p-Benzoquinone model, semiquinone radical (QH.) + triplet O2"
+W2022954616-i,parity,nel=10 with ground_state_mult=2,yes,RhB(OH)2+
+W2038934525-a,parity,nel=3 with ground_state_mult=1,yes,Positronium hydride (PsH) — mixed positronic-electronic wave
+W2086674944-b,parity,nel=11 with ground_state_mult=1,yes,"Dimethylamine radical (DMA), dissociation fragment of NDMA p"
+W2086674944-c,parity,nel=11 with ground_state_mult=1,yes,"Nitric oxide (NO), dissociation fragment of NDMA photodecomp"
+W2087728979-a,parity,nel=8 with ground_state_mult=2,yes,"Phenylmethylene (phenylcarbene), matrix-isolated"
+W2094447129-a,parity,nel=11 with ground_state_mult=1,yes,"Uracil anion, N1-H and N3-H bond dissociation by low-energy "
+W2321680866-g,parity,nel=9 with ground_state_mult=1,yes,"(eta5-Cp)(eta3-Cp)V(bpy), complex 5"
+W2331886866-c,parity,nel=7 with ground_state_mult=3,yes,"NLi diatomic, ground and first excited states"
+W2331886866-d,parity,nel=7 with ground_state_mult=3,yes,"PLi diatomic, ground and first excited states"
+W2334195260-a,parity,nel=7 with ground_state_mult=1,yes,"Dichlorine monoxide cation in its C state, the fourth photoe"
+W2334846856-b,parity,nel=8 with ground_state_mult=2,yes,tert-Butylnitrene radical cation
+W2334846856-d,parity,nel=8 with ground_state_mult=2,yes,Isopropylnitrene radical cation
+W2334904542-a,parity,nel=9 with ground_state_mult=1,yes,"CH3CO-Gly-NH2 peptide analogue, C7 folded conformer, neutral"
+W2334904542-b,parity,nel=9 with ground_state_mult=1,yes,"CH3CO-Gly-NH2 peptide analogue, C5 extended conformer, neutr"
+W2583515733-c,parity,nel=19 with ground_state_mult=1,yes,Transition states and molecular complexes on the HOIO plus h
+W2588831820-b,parity,nel=3 with ground_state_mult=1,yes,Potassium cryptand salt of the uranium tris(aryloxide)triaza
+W2623870228-a,parity,nel=8 with ground_state_mult=2,yes,Cyclopentadienyl radical
+W2623870228-c,parity,nel=8 with ground_state_mult=2,yes,C10H9 radical products
+W2995756523-a,parity,nel=8 with ground_state_mult=2,yes,"H2S+ cation, linear and bent geometries of the low-lying dou"
+W3162343036-a,parity,nel=9 with ground_state_mult=3,yes,"I-Vrd-NN, iodo-substituted oxoverdazyl coupled to a nitronyl"
+W4403613348-b,parity,nel=9 with ground_state_mult=5,yes,"FeH+, the iron monohydride cation, quintet delta ground stat"
+W2055924736-f,parity,nel=6 with ground_state_mult=6,yes,"manganese atom and its cations, low-lying multiplet spectra "
+W2779552316-u,parity,nel=13 with ground_state_mult=7,no,octahedral [TbCl6]2- (terbium(IV) hexachloride comparator)
+W2076263093-b,parity,nel=10 with ground_state_mult=4,yes,CrF6(3-) in the K2NaCrF6 lattice
+W2166475853-a,parity,nel=9 with ground_state_mult=1,yes,adenine (9H-adenine)
+W2166475853-b,parity,nel=9 with ground_state_mult=1,yes,2-aminopurine
+W1486281155-a,parity,nel=6 with ground_state_mult=4,yes,Fe(Heme b)(NH3)
+W1486281155-b,parity,nel=6 with ground_state_mult=4,yes,Fe(MePorphyrin)(NH3)
+W1486281155-c,parity,nel=6 with ground_state_mult=4,yes,Fe(porphyrin)(NH3)
+W1486281155-d,parity,nel=6 with ground_state_mult=4,yes,Fe(C3N2H5)2 (bis-imidazole iron model)
+W2072568784-a,parity,nel=2 with ground_state_mult=2,yes,NO3 (nitrate radical)
+W2052121130-a,parity,nel=9 with ground_state_mult=1,yes,norbornadiene and related single-bonded hydrocarbon spacer c
+W2064645867-a,parity,nel=8 with ground_state_mult=2,yes,pyrrolyl radical
+W2050167866-d,parity,nel=9 with ground_state_mult=3,yes,the transition state for OH + C2H6 -> H2O + C2H5
+W2094194249-a,parity,nel=10 with ground_state_mult=6,yes,"Mn2+ substituting for Zn in ZnO, as a single centre and as a"
+W2094194249-b,parity,nel=14 with ground_state_mult=4,yes,"Co2+ substituting for Zn in ZnO, as a single centre and as a"
+W2045618201-a,parity,nel=14 with ground_state_mult=2,yes,"the methyl fluoride cation CH3F+, in the E and A1 electronic"
+W4407818321-b,parity,nel=10 with ground_state_mult=6,yes,"[(15-TMC)Fe(O)(CH3CN)]2+, the iron-oxo intermediate int3a-Fe"
+W1892795130-b,parity,nel=14 with ground_state_mult=2,yes,"Al2O2-, the aluminium dioxide dimer anion"
+W2004486075-b,parity,nel=8 with ground_state_mult=2,yes,"HfS+, the hafnium monosulfide cation, X 2Sigma+ and the low-"
+W2332051747-a,parity,nel=10 with ground_state_mult=2,yes,"ScO, scandium monoxide, in thirteen low-lying doublet and qu"
+W2015700117-d,parity,nel=11 with ground_state_mult=3,yes,"molecular oxygen O2 and the superoxide anion O2-, calibratio"
+W2015700117-e,parity,nel=10 with ground_state_mult=2,yes,"nitric oxide NO and the NO- anion, calibration calculations "
+W3155533462-e,parity,nel=13 with ground_state_mult=1,yes,doubly reduced cobalamin cofactor Cbl(2-) with protonated 5-
+W2008549668-a,parity,nel=5 with ground_state_mult=1,yes,"oxetene (2H-oxete), on its electrocyclic ring-opening to pro"
+W2008549668-b,parity,nel=5 with ground_state_mult=1,yes,"cyclobutene, the parent hydrocarbon, on its electrocyclic ri"
+W2605497050-a,parity,nel=10 with ground_state_mult=4,yes,"vanadium reacting with acetonitrile, V + CH3CN, followed to "
+W2605497050-b,parity,nel=10 with ground_state_mult=6,yes,"niobium reacting with acetonitrile, Nb + CH3CN, on both the "
+W2605497050-c,parity,nel=10 with ground_state_mult=4,yes,"tantalum reacting with acetonitrile, Ta + CH3CN, through to "
+W2620856474-a,parity,nel=16 with ground_state_mult=2,yes,"the silane cation SiH4+, followed along its two barrierless "
+W4312194220-b,parity,nel=9 with ground_state_mult=1,yes,"[Re2(mu-dppm)(S2CNEt2)4]+, the one-electron oxidised species"
+W3199686332-a,capacity,9e/4o,no,"thione-S-methylide, the metastable isomer on the [C2SH4] pot"
+W2982499397-b,capacity,45e/21o,no,Mn4+-doped K2SiF6
+W2312004942-e,capacity,16e/5o,yes,"a linear oxo-bridged dinickel(II) complex, Ni-O-Ni, with mod"
+W2000906830-a,grounding,0 of 8 decimal values located in source,yes,"TpCo(NO) (and Tp*Co(NO), 1), cobalt mononitrosyl"
+W2043582613-b,grounding,8 of 22 decimal values located in source,yes,Diazomethane (acyclic CH2N2) — photochemical carbene formati
+W2056343640-a,grounding,2 of 21 decimal values located in source,yes,Carbon atom (3P ground state) — spin density at the nucleus 
+W2314213498-a,grounding,3 of 8 decimal values located in source,yes,cyclopentadienyl radical Jahn-Teller components
+W4233140906-a,grounding,2 of 6 decimal values located in source,yes,"formaldiminoxy radical, CH2NO (isomer I1)"
+W2037678506-a,grounding,5 of 14 decimal values located in source,yes,"pentacarbonylhydridorhenium, HRe(CO)5"
+W2032558824-a,grounding,0 of 4 decimal values located in source,yes,"[18]annulene, S0/S1 conical intersection"
+W3081793460-a,grounding,0 of 8 decimal values located in source,yes,cytosine (Cyt)
+W3081793460-b,grounding,0 of 6 decimal values located in source,yes,5-methylcytosine (5m-Cyt)
+W1987438158-e,grounding,4 of 11 decimal values located in source,yes,phenyl radical
+W2068474360-a,grounding,3 of 55 decimal values located in source,yes,C2 diatomic
+W2068474360-b,grounding,1 of 52 decimal values located in source,yes,N2 diatomic
+W2068474360-c,grounding,1 of 50 decimal values located in source,yes,CO diatomic
+W2068474360-d,grounding,1 of 51 decimal values located in source,yes,F2 diatomic
+W2068474360-e,grounding,3 of 50 decimal values located in source,yes,CN diatomic
+W2068474360-f,grounding,2 of 53 decimal values located in source,yes,NO diatomic
+W2068474360-g,grounding,1 of 54 decimal values located in source,yes,CF diatomic
+W2068474360-h,grounding,1 of 49 decimal values located in source,yes,O2 diatomic
+W2068474360-i,grounding,1 of 44 decimal values located in source,yes,methylene CH2
+W2068474360-j,grounding,1 of 15 decimal values located in source,yes,FH2 along the collinear F + H2 reaction path
+W1976935265-a,grounding,4 of 16 decimal values located in source,yes,Cr2 (chromium dimer)
+W1976935265-b,grounding,4 of 13 decimal values located in source,yes,[Cu2O2]2+ (bis(mu-oxo) and mu-eta2:eta2 peroxo dicopper isom
+W2127347278-a,grounding,1 of 11 decimal values located in source,yes,NiH (nickel monohydride)
+W2990462835-i,grounding,1 of 9 decimal values located in source,yes,"benzene, as monomer and as a pair of monomers 100 A apart, u"
+W2397900523-a,grounding,3 of 8 decimal values located in source,yes,ethene
+W2397900523-b,grounding,1 of 9 decimal values located in source,yes,E-butadiene
+W2397900523-c,grounding,0 of 9 decimal values located in source,yes,all-trans-E-hexatriene
+W2397900523-d,grounding,0 of 9 decimal values located in source,yes,all-trans-E-octatetraene
+W2397900523-e,grounding,0 of 11 decimal values located in source,yes,cyclopropene
+W2397900523-f,grounding,0 of 18 decimal values located in source,yes,cyclopentadiene
+W2397900523-g,grounding,2 of 19 decimal values located in source,yes,norbornadiene
+W2397900523-h,grounding,1 of 16 decimal values located in source,yes,benzene
+W2397900523-i,grounding,1 of 46 decimal values located in source,yes,naphthalene
+W2397900523-j,grounding,0 of 18 decimal values located in source,yes,furan
+W2397900523-k,grounding,0 of 17 decimal values located in source,yes,pyrrole
+W2397900523-l,grounding,1 of 30 decimal values located in source,yes,imidazole
+W2397900523-m,grounding,2 of 42 decimal values located in source,yes,pyridine
+W2397900523-n,grounding,1 of 43 decimal values located in source,yes,pyrazine
+W2397900523-o,grounding,1 of 34 decimal values located in source,yes,pyrimidine
+W2397900523-p,grounding,1 of 40 decimal values located in source,yes,pyridazine
+W2397900523-q,grounding,0 of 30 decimal values located in source,yes,s-triazine
+W2397900523-r,grounding,1 of 55 decimal values located in source,yes,s-tetrazine
+W2397900523-s,grounding,1 of 15 decimal values located in source,yes,formaldehyde
+W2397900523-t,grounding,0 of 14 decimal values located in source,yes,acetone
+W2397900523-u,grounding,1 of 28 decimal values located in source,yes,p-benzoquinone
+W2397900523-v,grounding,0 of 16 decimal values located in source,yes,formamide
+W2397900523-w,grounding,0 of 16 decimal values located in source,yes,acetamide
+W2397900523-x,grounding,1 of 17 decimal values located in source,yes,propanamide
+W2397900523-y,grounding,1 of 39 decimal values located in source,yes,cytosine
+W2397900523-z,grounding,1 of 35 decimal values located in source,yes,thymine
+W2397900523-A,grounding,2 of 37 decimal values located in source,yes,uracil
+W2397900523-B,grounding,2 of 42 decimal values located in source,yes,adenine
+W2067415535-a,grounding,2 of 7 decimal values located in source,yes,"m-bromotoluene, in its S0 ground state and the S1 and T1 exc"
+W2086789875-a,grounding,0 of 6 decimal values located in source,yes,"HPC, the linear phosphorus-protonated isomer of methylidyne "
+W2065370810-a,grounding,7 of 19 decimal values located in source,yes,"diazomethane, CH2N2, its ground state and the chemical bondi"
+W1988540369-a,grounding,0 of 12 decimal values located in source,yes,"9,10-anthraquinone"
+W1969224713-b,grounding,0 of 4 decimal values located in source,yes,"the para-stacked benzyl radical dimer, a model for intermole"
+W931703638-a,grounding,0 of 11 decimal values located in source,yes,"4-nitroimidazole (4NI), A-band excited-state structural dyna"
+W4242463470-a,grounding,1 of 7 decimal values located in source,yes,"BBr+, the boron monobromide cation, low-lying states correla"
+W4413739559-a,grounding,13 of 34 decimal values located in source,yes,"methyl radical CH3, seven-state C-H dissociation to CH2 + H"
