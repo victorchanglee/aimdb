@@ -55,6 +55,9 @@
   .ptable-head{display:flex;align-items:center;justify-content:space-between;gap:12px;
     margin-top:14px;color:var(--muted);font-size:12px}
   .ptable-head .head-actions{display:flex;align-items:center;gap:14px}
+  /* .hint was styled only inside .year-range; the periodic-table scope
+     note needs the same muted treatment. */
+  .ptable-head .hint{color:var(--muted);font-size:12.5px}
   .ptable-head .clear-els{color:var(--accent);cursor:pointer;user-select:none}
   .ptable-head .pt-toggle{color:var(--accent);cursor:pointer;user-select:none}
   .ptable-wrap{margin-top:6px}
@@ -275,6 +278,7 @@
     <div class="ptable-head">
       <span>Filter by element (click any number to select multiple)</span>
       <div class="head-actions">
+        <span class="hint" id="ptScope" hidden="">counts follow the active filters</span>
         <span class="clear-els" id="clearEls" hidden="">Clear elements ✕</span>
         <span class="pt-toggle" id="ptToggle">Show periodic table ▼</span>
       </div>
@@ -797,9 +801,25 @@ const $ = s => document.querySelector(s);
 const esc = s => (s||"").replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 
 // ---- element facet counts ----
-const elCount = {};
-DATA.forEach(r => (r._elements||[]).forEach(e => elCount[e] = (elCount[e]||0)+1));
-const elOrder = Object.keys(elCount).sort((a,b)=>elCount[b]-elCount[a] || a.localeCompare(b));
+// EL_TOTAL is the whole database and never changes: it backs the "N elements"
+// dataset statistic and is what the table shows with no filter active.
+// elCount is the live view, recomputed per render from the rows that currently
+// pass every filter, so the periodic table reads as a facet rather than a
+// legend.
+const EL_TOTAL = {};
+DATA.forEach(r => (r._elements||[]).forEach(e => EL_TOTAL[e] = (EL_TOTAL[e]||0)+1));
+const elOrder = Object.keys(EL_TOTAL).sort((a,b)=>EL_TOTAL[b]-EL_TOTAL[a] || a.localeCompare(b));
+let elCount = Object.assign({}, EL_TOTAL);
+let elCountScoped = false;      // true when the numbers reflect a filter
+function recountEls(rows){
+  elCount = {};
+  rows.forEach(r => (r._elements||[]).forEach(e => elCount[e] = (elCount[e]||0)+1));
+  elCountScoped = true;
+}
+function resetElCount(){
+  elCount = Object.assign({}, EL_TOTAL);
+  elCountScoped = false;
+}
 
 // ---- entry-source facet counts ----
 const TYPE_CANON = ["llm_mining", "llm_reproduced", "human"];
@@ -849,8 +869,12 @@ let lastFilterSig = null;
 
 function pelCell([sym,row,col]){
   const n = elCount[sym]||0;
-  const cls = ["pel", n===0?"zero":"", state.els.has(sym)?"on":""].filter(Boolean).join(" ");
-  return `<div class="${cls}" data-el="${sym}" style="grid-row:${row};grid-column:${col}" title="${sym} — ${n} compound${n===1?"":"s"}">
+  const on = state.els.has(sym);
+  // A selected cell is never dimmed: toggleEl() skips `zero` cells, so dimming
+  // a selection that a filter had emptied would leave it stuck on.
+  const cls = ["pel", (n===0 && !on)?"zero":"", on?"on":""].filter(Boolean).join(" ");
+  const scope = elCountScoped ? " matching the current filters" : " in the database";
+  return `<div class="${cls}" data-el="${sym}" style="grid-row:${row};grid-column:${col}" title="${sym} — ${n} row${n===1?"":"s"}${scope}">
     <div>${sym}</div><div class="n">${n}</div>
   </div>`;
 }
@@ -858,6 +882,7 @@ function renderChips(){
   $("#ptable").innerHTML = PTABLE_MAIN.map(pelCell).join("");
   $("#ptableF").innerHTML = PTABLE_F.map(pelCell).join("");
   $("#clearEls").hidden = state.els.size===0;
+  $("#ptScope").hidden = !elCountScoped;
 }
 
 function matchesText(r){
@@ -1103,9 +1128,16 @@ function render(){
   $("#sysFilterGroup").hidden = !active;
   $("#yearFilterGroup").hidden = !active;
   $("#propsFilterGroup").hidden = !active;
-  if(!active){ $("#tbody").innerHTML = ""; lastFilterSig = null; return; }
+  if(!active){
+    // Nothing is filtering, so the table goes back to database-wide totals.
+    $("#tbody").innerHTML = ""; lastFilterSig = null;
+    resetElCount(); renderChips();
+    return;
+  }
 
   let rows = DATA.filter(r=>matchesText(r) && matchesEls(r) && matchesType(r) && matchesAccess(r) && matchesSys(r) && matchesYear(r) && matchesProps(r));
+  // Recount before drawing, so selecting any chip is reflected in the table.
+  recountEls(rows); renderChips();
   rows.sort((a,b)=>{
     let cmp;
     if(state.sortField==="name") cmp = (a.compound_name||"").localeCompare(b.compound_name||"");
@@ -1254,11 +1286,11 @@ function toggleEl(e){
   const c=e.target.closest(".pel"); if(!c || c.classList.contains("zero")) return;
   const el=c.dataset.el;
   state.els.has(el) ? state.els.delete(el) : state.els.add(el);
-  renderChips(); render();
+  render();                      // render() recounts and redraws the table
 }
 $("#ptable").addEventListener("click", toggleEl);
 $("#ptableF").addEventListener("click", toggleEl);
-$("#clearEls").addEventListener("click", ()=>{ state.els.clear(); renderChips(); render(); });
+$("#clearEls").addEventListener("click", ()=>{ state.els.clear(); render(); });
 $("#accessChips").addEventListener("click", e=>{
   const c=e.target.closest(".chip"); if(!c) return;
   const a=c.dataset.access;
