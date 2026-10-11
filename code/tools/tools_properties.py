@@ -11,7 +11,10 @@ quotes). Keys and their canonical units:
 
     D      axial zero-field-splitting parameter, cm-1
     E/D    rhombicity, dimensionless, <= 1/3 by definition
-    gz     axial g of the ground doublet (g_zz, g_par, g_eff), dimensionless
+    gx gy gz   g-tensor components, dimensionless. gz absorbs g_par and (in
+               a doublet context) g_eff, both of which name the axial value
+    gperp      the in-plane component where a paper reports only g_perp
+    giso       isotropic or average g
     Ueff   magnetisation-reversal barrier, cm-1
 
 These are not new readings of the papers: they lift values the row's own prose
@@ -28,6 +31,18 @@ ever carried a ZFS value. A second quartet of columns for the crystal-field
 quantities would have been followed by a third for hyperfine and a fourth for
 exchange coupling, each one empty on the great majority of rows. One field that
 names its own contents does not grow.
+
+
+The g keys hold two conventions and the field does not distinguish them. gz is
+the z principal component of the Zeeman g tensor either way, but for a 3d
+complex it multiplies the real spin and lands near 2.0023, while for a Kramers
+doublet it multiplies a fictitious S = 1/2 and absorbs the orbital moment,
+with a ceiling of 2*g_J*|m_J| = 20.00 for Dy(III) and Ho(III). A gz of 19.86
+is not a tenfold larger response than a gz of 2.0. Of the 99 gz values
+extracted, the 69 above 4 are 99% f-block and 70% of the rest are d-block --
+two populations, not a spread. The convention is not a separate key because
+the sentence a value comes from rarely states it, and reading it off the
+magnitude would be a guess.
 
 **Computed and experimental are tagged, never merged**, because a paper
 reporting a property almost always reports both and conflating them would make
@@ -49,10 +64,10 @@ turn every reaction barrier in the corpus into a magnetic one.
 Guards, because a bad value is worse than an empty one:
   * E/D is rhombic by definition and cannot exceed 1/3. Anything above 0.3334
     is reported, never stored.
-  * gz cannot exceed 20.5: 2*J*g_J is 20 for Dy(III) and Ho(III), the largest
-    of any trivalent lanthanide, so a larger number is not a doublet g.
-    A gz whose nearest qualifier is "excited" is skipped -- the key means the
-    GROUND doublet.
+  * no g component may exceed 20.5: 2*J*g_J is 20 for Dy(III) and Ho(III),
+    the largest of any trivalent lanthanide. A component whose nearest
+    qualifier is "excited" is skipped, and so is an exchange-coupled one --
+    these keys mean the single-ion GROUND doublet.
   * `barrier` alone is not enough for Ueff. Reaction barriers are everywhere in
     this corpus, so the bare word needs magnetic context in the same clause
     (magnetisation reversal, Orbach, SMM, blocking, effective barrier);
@@ -107,10 +122,11 @@ LEGACY_COLUMNS = ("zfs_D_calc", "zfs_ED_calc", "zfs_D_exp", "zfs_ED_exp")
 LEGACY_KEYS = {"zfs_D_calc": ("D", "calc"), "zfs_ED_calc": ("E/D", "calc"),
                "zfs_D_exp": ("D", "exp"), "zfs_ED_exp": ("E/D", "exp")}
 # Canonical unit per key; "" means dimensionless.
-KEYS = {"D": "cm-1", "E/D": "", "gz": "", "Ueff": "cm-1"}
+KEYS = {"D": "cm-1", "E/D": "", "gx": "", "gy": "", "gz": "",
+        "giso": "", "gperp": "", "Ueff": "cm-1"}
 # Entry order within the field, so the same row always serialises identically
 # and a diff shows real changes only.
-KEY_ORDER = ("D", "E/D", "gz", "Ueff")
+KEY_ORDER = ("D", "E/D", "gx", "gy", "gz", "gperp", "giso", "Ueff")
 SOURCE_ORDER = ("calc", "exp")
 
 # Clause boundaries. Semicolons and pipes are the row-prose separators used
@@ -200,6 +216,15 @@ CONTINUATION = re.compile(
 # do with magnetism; it is written exactly like the ZFS parameter.
 BOND_DIM = re.compile(r"bond[- ]dimension\s*(?:of|=|:)?\s*$|"
                       r"bond[- ]dimension[^.;|]{0,12}$", re.I)
+# A structure the paper invents to make a point is not the compound this row
+# is about. "The hypothetical T-shaped model 1b, computed at CAS(3,12),
+# inverts the picture entirely: negligible transverse anisotropy (gx 0.011,
+# gy 0.013, gz 6.138)" describes a geometry that does not exist, and those
+# numbers were being stored as the real complex's g tensor.
+HYPOTHETICAL = re.compile(
+    r"\bhypothetical|\bidealis\w+|\bidealiz\w+|\bfictitious|"
+    r"\bimaginary\b|\bartificial(?:ly)? (?:constructed|imposed)|"
+    r"\bdoes not exist|\bnot a real\b", re.I)
 THIRD_PARTY = re.compile(
     r"literature value|reported (?:in|by) ref|for context|related (?:complex|"
     r"compound|system)|other (?:complex|compound)|previous(?:ly)? (?:report|"
@@ -210,23 +235,35 @@ THIRD_PARTY = re.compile(
 MAX_D = 1000.0
 
 # ---------------------------------------------------------------- gz, Ueff
-# The axial g of a doublet, written g_z, g_zz, g_par, g_|| or g_eff. The
-# anchor is case-sensitive on the subscript so that gx, gy, gxx, gyy, gavg,
-# giso and gperp cannot match: those are the other tensor components, and
-# storing one of them under `gz` would be a wrong number, not a missing one.
-GZ_PAT = re.compile(
-    r"\bg\s*[_ -]?\s*(?:zz|z|par|\|\|)\b\s*(?:=|of|is|:|~|value\s*(?:of)?)?"
-    r"\s*([-+]?\d+(?:\.\d+)?)(?![A-Za-z0-9])")
-# g_eff separately: it is the axial g for an Ising doublet, which is the sense
-# meant here, but it is also used for an isotropic effective g, so it is only
-# read when the clause is about a doublet.
-GEFF_PAT = re.compile(
-    r"\bg\s*[_ -]?\s*eff\b\s*(?:=|of|is|:|~)?\s*"
-    r"([-+]?\d+(?:\.\d+)?)(?![A-Za-z0-9])", re.I)
+# Any component of the g tensor. The label is captured so it can be
+# normalised; longer alternatives come first so that `gzz` is not read as
+# `gz` with a stray z, and `(?![A-Za-z])` stops `gx` matching inside a word.
+# `||` is matched without a trailing \b, which would fail between a pipe and
+# a space and is why the old axial-only pattern never actually caught "g||".
+G_PAT = re.compile(
+    r"\bg\s*[_ -]?\s*(zz|xx|yy|par|perp|iso|avg|av|eff|z|x|y|\|\|)"
+    r"(?![A-Za-z])\s*(?:=|of|is|:|~|value\s*(?:of)?)?"
+    # Chained equality: "gxx = gyy = 0.01" assigns one number to both
+    # components, and is how EPR prose states an axial tensor. Without this
+    # the first label in the chain finds "= g..." where it wants a number.
+    r"((?:\s*[=:]\s*g\s*[_ -]?\s*(?:zz|xx|yy|z|x|y)(?![A-Za-z]))*)"
+    r"\s*(?:=|:)?\s*([-+]?\d+(?:\.\d+)?)(?![A-Za-z0-9])")
+# The labels inside a captured chain, so the value can be given to each of
+# them. finditer does not overlap, so a chain consumed by one match is the
+# only chance those labels get.
+G_CHAIN = re.compile(r"g\s*[_ -]?\s*(zz|xx|yy|z|x|y)(?![A-Za-z])")
+# Label -> key. g_parallel is the axial component by definition, so it shares
+# gz rather than getting a key that would mean the same thing.
+G_KEY = {"zz": "gz", "z": "gz", "par": "gz", "||": "gz",
+         "xx": "gx", "x": "gx",
+         "yy": "gy", "y": "gy",
+         "iso": "giso", "avg": "giso", "av": "giso",
+         "perp": "gperp"}
 DOUBLET = re.compile(r"doublet|\bKD\d|Ising|\bm_?J\b|Kramers", re.I)
 # 2*J*g_J is 20.00 for Dy(III) and Ho(III), the largest of any trivalent
-# lanthanide, so nothing above this is a doublet g.
-MAX_GZ = 20.5
+# lanthanide, so nothing above this is a g at all -- and no ordinary
+# transition-metal component comes near it either.
+MAX_G = 20.5
 # An exchange-coupled g is a property of the coupled dimer, not of the ion,
 # and a 3d-4f paper reports both. They differ by a factor of two or more, so
 # putting either under `gz` when the other is also present would make the key
@@ -299,9 +336,18 @@ THZ_TO_CM = 33.3564095
 # "D = x, against experimental y": a contrast word between the value and a
 # later experimental marker puts the value on the computed side of the
 # contrast. Without this the value is dropped as unassignable.
+# A comparison word between a value and a later experimental marker puts the
+# value on the COMPUTED side of the comparison. Agreement counts as much as
+# contrast: "gx 3.625, gy 3.198, gz 0.723, in good agreement with experiment"
+# states three computed numbers just as plainly as "against experiment" would,
+# and without the agreement idioms here all three were dropped as
+# unassignable.
 CONTRAST = re.compile(
     r"\b(?:against|versus|vs\.?|compared (?:with|to)|whereas|while|"
-    r"in contrast (?:to|with)|relative to|cf\.)\b", re.I)
+    r"in contrast (?:to|with)|relative to|cf\.|"
+    r"in (?:good |excellent |reasonable |close |fair )?agreement with|"
+    r"agrees? (?:well )?with|consistent with|matching|reproduc\w+ the)\b",
+    re.I)
 K_TO_CM = 0.6950348
 ED_MAX = 0.3334
 
@@ -399,36 +445,49 @@ def extract_magnetic(row):
             if CONFLICT.search(clause):
                 skipped.append("clause records a conflict in the source")
                 continue
+            if HYPOTHETICAL.search(clause):
+                skipped.append("clause describes a hypothetical structure")
+                continue
 
-            # --- gz -------------------------------------------------------
-            cands = list(GZ_PAT.finditer(clause))
-            if DOUBLET.search(clause):
-                cands += list(GEFF_PAT.finditer(clause))
-            vals = []
+            # --- g tensor -------------------------------------------
+            cands = list(G_PAT.finditer(clause))
             if EXCHANGE.search(clause):
                 if cands:
-                    skipped.append("gz is an exchange-coupled value, not a "
+                    skipped.append("g is an exchange-coupled value, not a "
                                    "single-ion ground doublet")
                 cands = []
             for m in cands:
+                labels = [m.group(1).lower()] + [
+                    g.lower() for g in G_CHAIN.findall(m.group(2) or "")]
+                label = labels[0]
+                if label == "eff":
+                    # g_eff is the axial g for an Ising doublet and an
+                    # isotropic effective g otherwise; only the first sense
+                    # is identifiable from the clause.
+                    if not DOUBLET.search(clause):
+                        skipped.append("g_eff outside a doublet context is "
+                                       "ambiguous between axial and isotropic")
+                        continue
+                    keys = ["gz"]
+                else:
+                    keys = [G_KEY[l] for l in labels]
                 if not gz_is_ground(clause, m.start()):
-                    skipped.append("gz belongs to an excited doublet")
+                    skipped.append("%s belongs to an excited doublet"
+                                   % "/".join(keys))
                     continue
                 if MULTI_TAIL.match(clause[m.end():]):
-                    skipped.append("gz is a range or a list")
+                    skipped.append("%s is a range or a list" % "/".join(keys))
                     continue
-                v = float(m.group(1))
-                if not 0.0 <= v <= MAX_GZ:
-                    skipped.append("gz = %g outside 0..%g" % (v, MAX_GZ))
+                v = float(m.group(3))
+                if not 0.0 <= v <= MAX_G:
+                    skipped.append("%s = %g outside 0..%g"
+                                   % ("/".join(keys), v, MAX_G))
                     continue
                 kind = classify_at(clause, m.start())
                 if kind:
-                    vals.append((kind, round(v, 4)))
-            # Several g values in one clause are the x/y/z components of one
-            # tensor or several complexes; the pattern only matches axial
-            # labels, so two distinct ones mean two systems, not two axes.
-            for kind, v in vals:
-                found.setdefault(("gz", kind), []).append((v, "stated"))
+                    for key in dict.fromkeys(keys):
+                        found.setdefault((key, kind), []).append(
+                            (round(v, 4), "stated"))
 
             # --- Ueff -----------------------------------------------------
             named = list(UEFF_NAMED.finditer(clause))

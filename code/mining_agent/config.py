@@ -142,7 +142,11 @@ LITERATURE_COLUMNS = [
 #
 #     D      axial zero-field-splitting parameter, cm-1
 #     E/D    rhombicity, dimensionless, <= 1/3 by definition
-#     gz     axial g of the ground doublet (g_zz, g_par, g_eff), dimensionless
+#     gx gy gz   principal components of the Zeeman g tensor, dimensionless.
+#                gz also absorbs g_par and, in a doublet context, g_eff --
+#                both name the axial component. See the warning below.
+#     gperp      the in-plane component, where a paper reports only g_perp
+#     giso       isotropic or average g
 #     Ueff   magnetisation-reversal barrier, cm-1
 #
 # The key list is open: a new quantity is a new key, not a new column. Keep it
@@ -165,6 +169,29 @@ LITERATURE_COLUMNS = [
 # offers more than one candidate the entry is OMITTED rather than guessed,
 # which is why far fewer rows carry a value than mention the quantity.
 #
+#
+# A WARNING about the g keys. gz is the z principal component of the Zeeman g
+# tensor -- the same quantity as the familiar g factor, which is just its
+# isotropic case -- but the SPIN it multiplies differs between rows, and the
+# two senses are not comparable:
+#
+#   * true spin. g multiplies the real electron spin S in
+#     H = mu_B B.g.S + D[Sz^2 - S(S+1)/3] + ..., and the values sit near the
+#     free-electron 2.0023. This is what a 3d complex reports.
+#   * effective, pseudospin-1/2. For a Kramers doublet the two states are
+#     mapped onto a fictitious S = 1/2, and g then absorbs the orbital
+#     moment: the ceiling is 2*g_J*|m_J|, which is 20.00 for Dy(III)
+#     (g_J = 4/3, m_J = 15/2) and for Ho(III). A gz of 19.86 is NOT a tenfold
+#     larger magnetic response than a gz of 2.0; it is the same physics
+#     written in a different spin basis.
+#
+# So gz = 19.9 and gz = 2.0 must not be averaged, ranked or plotted on one
+# axis without saying which convention each row uses. The split is visible in
+# the data and tracks the block: of the 99 gz values extracted, the 69 above 4
+# are 99% f-block, and 70% of the 30 at or below 4 are d-block. The convention
+# is not stored as a separate key because the paper rarely states it in the
+# sentence the value comes from, and inferring it from the magnitude would be
+# exactly the kind of guess this database does not make.
 # D is cm-1 throughout; GHz, MHz, kHz, THz and K are converted on the way in.
 # Magnetic field units (gauss, mT, T) are refused rather than converted, since
 # D in gauss becomes cm-1 only through g*mu_B for that species. E itself is not

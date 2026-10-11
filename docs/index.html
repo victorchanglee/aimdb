@@ -794,7 +794,7 @@ them. The full text is available as <code>LICENSE</code> in the repository root.
 </div>
 </div><!-- /page -->
 
-<script src="data.js?v=179244c5"></script>
+<script src="data.js?v=dcf7dd9d"></script>
 <script src="data_reproduced.js?v=4c92a6a6"></script>
 <script>
 // Two blobs, one dataset: database/aimdb_llm_reproduced.csv is published
@@ -830,8 +830,9 @@ function resetElCount(){
 
 // ---- entry-source facet counts ----
 const TYPE_CANON = ["llm_mining", "llm_reproduced", "human"];
-const typeCount = {};
+let typeCount = {};
 DATA.forEach(r => { const t=r.entry_type||""; if(t) typeCount[t]=(typeCount[t]||0)+1; });
+const TYPE_TOTAL = Object.assign({}, typeCount);
 // canonical types first (fixed order), then any unexpected values.
 const typeOrder = TYPE_CANON.filter(t=>typeCount[t])
   .concat(Object.keys(typeCount).filter(t=>!TYPE_CANON.includes(t)).sort());
@@ -845,8 +846,9 @@ function accessOf(r){
   const v = (r.open_access||"").trim().toLowerCase();
   return ACCESS_CANON.includes(v) ? v : "unknown";
 }
-const accessCount = {};
+let accessCount = {};
 DATA.forEach(r => { const a=accessOf(r); accessCount[a]=(accessCount[a]||0)+1; });
+const ACCESS_TOTAL = Object.assign({}, accessCount);
 const accessOrder = ACCESS_CANON.filter(a=>accessCount[a]);
 
 // ---- periodic table layout: [symbol, row, col] ----
@@ -885,6 +887,41 @@ function pelCell([sym,row,col]){
     <div>${sym}</div><div class="n">${n}</div>
   </div>`;
 }
+// ---- live facet counts ----
+// Every chip number is recounted per render against the CURRENTLY VISIBLE
+// rows, so selecting any one chip moves all the others -- the same way the
+// periodic table already rescopes. A chip's number is therefore "how many of
+// the rows I am looking at have this", which is what makes it informative
+// while narrowing down.
+//
+// Note this is not textbook faceted search, which would count each group
+// over the rows matching every OTHER filter but not its own. That convention
+// keeps a group's numbers fixed while you work inside it, which is precisely
+// the behaviour we did not want here. The cost is that chips inside one group
+// are OR-ed, so a chip reading 0 is still clickable and will WIDEN the view
+// rather than empty it.
+function recountFacets(rows){
+  typeCount = {};
+  rows.forEach(r => { const t=r.entry_type||""; if(t) typeCount[t]=(typeCount[t]||0)+1; });
+  accessCount = {};
+  rows.forEach(r => { const a=accessOf(r); accessCount[a]=(accessCount[a]||0)+1; });
+  sysCount = {};
+  rows.forEach(r => { const c=sysOf(r); if(c) sysCount[c]=(sysCount[c]||0)+1; });
+  propCount = {};
+  PROPS.forEach(p => { propCount[p.key] = rows.filter(r => hasProp(r, p)).length; });
+}
+
+function resetFacetCounts(){
+  typeCount = Object.assign({}, TYPE_TOTAL);
+  accessCount = Object.assign({}, ACCESS_TOTAL);
+  sysCount = Object.assign({}, SYS_TOTAL);
+  propCount = Object.assign({}, PROP_TOTAL);
+}
+
+// A chip whose value no longer matches anything is shown at zero rather than
+// hidden, so the filter row does not reflow as you click through it.
+const chipN = n => `<span class="n">${n||0}</span>`;
+
 function renderChips(){
   $("#ptable").innerHTML = PTABLE_MAIN.map(pelCell).join("");
   $("#ptableF").innerHTML = PTABLE_F.map(pelCell).join("");
@@ -928,8 +965,9 @@ const SYS_LEGACY = {diatomic:"molecule"};
 function sysOf(r){ let v=(r.system_class||"").trim().toLowerCase();
   v = SYS_LEGACY[v] || v;
   return SYS_CANON.includes(v) ? v : ""; }
-const sysCount = {};
+let sysCount = {};
 DATA.forEach(r => { const c=sysOf(r); if(c) sysCount[c]=(sysCount[c]||0)+1; });
+const SYS_TOTAL = Object.assign({}, sysCount);
 const sysOrder = SYS_CANON.filter(c=>sysCount[c]);
 function matchesSys(r){
   if(state.sys.size===0) return true;
@@ -937,7 +975,7 @@ function matchesSys(r){
 }
 function renderSysChips(){
   $("#sysChips").innerHTML = sysOrder.map(c =>
-    `<span class="chip ${state.sys.has(c)?'on':''}" data-sys="${esc(c)}">${esc(SYS_LABELS[c])}<span class="n">${sysCount[c]}</span></span>`
+    `<span class="chip ${state.sys.has(c)?'on':''}" data-sys="${esc(c)}">${esc(SYS_LABELS[c])}${chipN(sysCount[c])}</span>`
   ).join("");
   $("#clearSys").hidden = state.sys.size===0;
 }
@@ -991,23 +1029,36 @@ function parseProps(r){
   }
   return out;
 }
+// A chip may cover several keys. The g tensor has five of them (gx, gy, gz,
+// gperp, giso) and five more chips would be a wall rather than a filter, so
+// they share one. The detail view still lists each component on its own line.
 const PROPS = [
-  {key:"D",    label:"ZFS D"},
-  {key:"E/D",  label:"ZFS E/D"},
-  {key:"gz",   label:"g_z (doublet)"},
-  {key:"Ueff", label:"U_eff barrier"},
+  {key:"D",     label:"ZFS D",        keys:["D"]},
+  {key:"ED",    label:"ZFS E/D",      keys:["E/D"]},
+  {key:"g",     label:"g tensor",     keys:["gx","gy","gz","gperp","giso"]},
+  {key:"Ueff",  label:"U_eff barrier",keys:["Ueff"]},
 ];
-const hasProp = (r, p) => parseProps(r).some(e => e.key === p.key);
-const propCount = {};
+// Each row's key set, computed once. hasProp runs for every chip on every
+// render, and re-parsing the field each time would be four parses per row.
+DATA.forEach(r => { r._propKeys = new Set(parseProps(r).map(e => e.key)); });
+const hasProp = (r, p) => p.keys.some(k => r._propKeys.has(k));
+let propCount = {};
 PROPS.forEach(p => { propCount[p.key] = DATA.filter(r => hasProp(r, p)).length; });
+const PROP_TOTAL = Object.assign({}, propCount);
 
 function matchesProps(r){
   if(state.props.size===0) return true;
   return PROPS.some(p => state.props.has(p.key) && hasProp(r, p));
 }
+// Redraw all four chip groups. Called after recountFacets() so the numbers
+// on screen always match the counts just computed.
+function renderAllChips(){
+  renderTypeChips(); renderAccessChips(); renderSysChips(); renderPropChips();
+}
+
 function renderPropChips(){
   $("#propChips").innerHTML = PROPS.map(p =>
-    `<span class="chip ${state.props.has(p.key)?'on':''}" data-prop="${esc(p.key)}">${esc(p.label)}<span class="n">${propCount[p.key]}</span></span>`
+    `<span class="chip ${state.props.has(p.key)?'on':''}" data-prop="${esc(p.key)}">${esc(p.label)}${chipN(propCount[p.key])}</span>`
   ).join("");
   $("#clearProps").hidden = state.props.size===0;
 }
@@ -1017,13 +1068,13 @@ function matchesAccess(r){
 }
 function renderAccessChips(){
   $("#accessChips").innerHTML = accessOrder.map(a =>
-    `<span class="chip ${state.access.has(a)?'on':''}" data-access="${esc(a)}">${esc(ACCESS_LABELS[a]||a)}<span class="n">${accessCount[a]}</span></span>`
+    `<span class="chip ${state.access.has(a)?'on':''}" data-access="${esc(a)}">${esc(ACCESS_LABELS[a]||a)}${chipN(accessCount[a])}</span>`
   ).join("");
   $("#clearAccess").hidden = state.access.size===0;
 }
 function renderTypeChips(){
   $("#typeChips").innerHTML = typeOrder.map(t =>
-    `<span class="chip ${state.types.has(t)?'on':''}" data-type="${esc(t)}">${esc(ENTRY_TYPE_LABELS[t]||t)}<span class="n">${typeCount[t]}</span></span>`
+    `<span class="chip ${state.types.has(t)?'on':''}" data-type="${esc(t)}">${esc(ENTRY_TYPE_LABELS[t]||t)}${chipN(typeCount[t])}</span>`
   ).join("");
   $("#clearTypes").hidden = state.types.size===0;
 }
@@ -1093,7 +1144,9 @@ function reportEntry(r){
 }
 // The packed field is compact on disk but should not be read raw. Render one
 // line per entry, naming the quantity and whether it was computed or measured.
-const PROP_NAMES = {"D":"ZFS D", "E/D":"ZFS E/D", "gz":"g_z (ground doublet)",
+const PROP_NAMES = {"D":"ZFS D", "E/D":"ZFS E/D",
+                    "gx":"g_x", "gy":"g_y", "gz":"g_z",
+                    "gperp":"g_perp", "giso":"g_iso",
                     "Ueff":"U_eff (barrier)"};
 function propsHtml(r){
   const es = parseProps(r);
@@ -1172,13 +1225,14 @@ function render(){
   if(!active){
     // Nothing is filtering, so the table goes back to database-wide totals.
     $("#tbody").innerHTML = ""; lastFilterSig = null;
-    resetElCount(); renderChips();
+    resetElCount(); resetFacetCounts(); renderChips(); renderAllChips();
     return;
   }
 
   let rows = DATA.filter(r=>matchesText(r) && matchesEls(r) && matchesType(r) && matchesAccess(r) && matchesSys(r) && matchesYear(r) && matchesProps(r));
-  // Recount before drawing, so selecting any chip is reflected in the table.
-  recountEls(rows); renderChips();
+  // Recount before drawing, so selecting any chip is reflected both in the
+  // table and in every other chip's number.
+  recountEls(rows); recountFacets(rows); renderChips(); renderAllChips();
   rows.sort((a,b)=>{
     let cmp;
     if(state.sortField==="name") cmp = (a.compound_name||"").localeCompare(b.compound_name||"");
