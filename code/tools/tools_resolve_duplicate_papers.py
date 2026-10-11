@@ -29,6 +29,7 @@ import argparse
 import csv
 import datetime as _dt
 import re
+import unicodedata
 from collections import Counter, defaultdict
 from pathlib import Path
 
@@ -56,7 +57,17 @@ def _title(s):
     exactly how W3213161432 and W4254674698, the same paper by the same
     authors, both kept three rows for the same three compounds.
     """
-    s = re.sub(r"<[^>]{1,40}>", "", s or "")
+    # NFKC FOLDS THE TYPESETTING VARIANTS. A preprint and its journal version
+    # routinely differ only in how an oxidation state or a symmetry label is
+    # encoded, and the characters that differ strip to NOTHING while their
+    # ASCII twins survive, so the two titles never match:
+    #   "[Co(III)(TAML)]" as Unicode modifier letters -> "cotaml"
+    #   the same thing in plain ASCII                 -> "coiiitaml"
+    # NFKC maps the modifier letters and the sub/superscript digits onto
+    # ordinary characters first. This is what made W2995293418 and
+    # W3214322595 -- the same paper -- invisible to each other.
+    s = unicodedata.normalize("NFKC", s or "")
+    s = re.sub(r"<[^>]{1,40}>", "", s)
     return re.sub(r"[^a-z0-9]", "", s.lower())
 
 
