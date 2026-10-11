@@ -199,6 +199,15 @@
   .stat-card .lbl{font-size:11px;color:var(--muted);margin-top:3px}
   /* ---- dataset field-coverage table ---- */
   .view-panel h3.ds-h3{font-size:15px;margin:26px 0 6px}
+  /* Changelog: one block per release. `.cl-entry` is the unit to copy when
+     adding a version -- newest first, and nothing else needs touching. */
+  .cl-entry{border-left:2px solid var(--border);padding:0 0 2px 16px;margin:0 0 26px}
+  .cl-entry:first-of-type{border-left-color:var(--chip-on)}
+  .cl-ver{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin:0 0 6px}
+  .cl-ver strong{font-size:15px}
+  .cl-date{color:var(--muted);font-size:12.5px;font-variant-numeric:tabular-nums}
+  .cl-entry p{margin:0 0 8px}
+  .cl-entry ul{margin:0}
   table.coverage{width:100%;border-collapse:collapse;margin:6px 0 18px;font-size:13px}
   table.coverage td{padding:7px 8px;border-bottom:1px solid var(--border);vertical-align:middle}
   table.coverage td.col{width:44%;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px}
@@ -254,6 +263,7 @@
   <button class="nav-item" type="button" data-view="cite">How to cite</button>
   <button class="nav-item" type="button" data-view="acknowledgments">Acknowledgments</button>
   <button class="nav-item" type="button" data-view="license">License</button>
+  <button class="nav-item" type="button" data-view="changelog">Changelog</button>
   <hr class="sidebar-sep">
   <a class="nav-link" href="https://github.com/victorchanglee/aimdb" target="_blank" rel="noopener"
      title="AIMdb source and database on GitHub">
@@ -707,6 +717,20 @@ mined source PDFs themselves — only the structured data extracted from
 them. The full text is available as <code>LICENSE</code> in the repository root.</p>
 </div>
 
+<div class="view-panel" id="view-changelog" hidden="">
+  <h2>Changelog</h2>
+  <p class="view-sub">Notable changes to the database and the site, newest first.</p>
+
+  <!-- To add a release, copy one .cl-entry block and put it directly below
+       this comment so the newest stays on top. The first entry is highlighted
+       automatically (.cl-entry:first-of-type), so nothing else needs editing. -->
+
+  <div class="cl-entry">
+    <div class="cl-ver"><strong>Version 1.0</strong><span class="cl-date">11 October 2026</span></div>
+    <p>Initial release of the database.</p>
+  </div>
+</div>
+
 <div class="view-panel" id="view-contribute" hidden>
   <h2>How to contribute</h2>
   <p>AIMdb is a free, open source academic project. Any help or contribution is welcome. There are two ways to contribute: the form below, or a pull request on GitHub.</p>
@@ -1033,8 +1057,15 @@ function parseProps(r){
 // gperp, giso) and five more chips would be a wall rather than a filter, so
 // they share one. The detail view still lists each component on its own line.
 const PROPS = [
-  {key:"D",     label:"ZFS D",        keys:["D"]},
-  {key:"ED",    label:"ZFS E/D",      keys:["E/D"]},
+  // D and E/D share a chip because they are the same measurement: a row that
+  // reports a zero-field splitting almost always reports both, and splitting
+  // them bought a distinction the data does not have. Measured 2026-10-11:
+  // 328 rows carry D, 242 carry E/D, 233 carry BOTH -- so only 9 rows have an
+  // E/D without a D, and the two chips were 97% the same set of rows while
+  // costing a reader two decisions. PROP_NAMES below still labels them
+  // separately, because the detail view shows each value on its own line and
+  // there D and E/D are different numbers.
+  {key:"D",     label:"ZFS (D, E/D)", keys:["D","E/D"]},
   {key:"g",     label:"g tensor",
    // g1/g2/g3 are principal values in the paper's own order, which this
    // corpus prints both ascending and descending, so they are not mapped
@@ -1508,7 +1539,7 @@ $("#clear").addEventListener("click", ()=>{
 });
 
 // ---- sidebar nav ----
-const VIEWS = ["home","dataset","contribute","cite","acknowledgments","license"];
+const VIEWS = ["home","dataset","contribute","cite","acknowledgments","license","changelog"];
 function showView(name){
   VIEWS.forEach(v => { $(`#view-${v}`).hidden = v!==name; });
   document.querySelectorAll(".nav-item").forEach(b=>b.classList.toggle("active", b.dataset.view===name));
