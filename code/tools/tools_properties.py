@@ -122,11 +122,39 @@ LEGACY_COLUMNS = ("zfs_D_calc", "zfs_ED_calc", "zfs_D_exp", "zfs_ED_exp")
 LEGACY_KEYS = {"zfs_D_calc": ("D", "calc"), "zfs_ED_calc": ("E/D", "calc"),
                "zfs_D_exp": ("D", "exp"), "zfs_ED_exp": ("E/D", "exp")}
 # Canonical unit per key; "" means dimensionless.
+# Canonical unit per key; "" means dimensionless. VARIES means the entry
+# carries whatever unit the paper used, because no conversion is available --
+# see the module docstring on A.
+VARIES = None
 KEYS = {"D": "cm-1", "E/D": "", "gx": "", "gy": "", "gz": "",
-        "giso": "", "gperp": "", "Ueff": "cm-1"}
+        "giso": "", "gperp": "", "Ueff": "cm-1", "A": VARIES}
+# Crystal-field parameters are keyed B(k,q) and generated from the data, so
+# they are matched by prefix rather than listed. All are cm-1.
+B_PREFIX = "B("
+
+
+def key_unit(key):
+    """Canonical unit for a key, or VARIES when the entry carries its own."""
+    if key.startswith(B_PREFIX):
+        return "cm-1"
+    return KEYS[key]
 # Entry order within the field, so the same row always serialises identically
 # and a diff shows real changes only.
-KEY_ORDER = ("D", "E/D", "gx", "gy", "gz", "gperp", "giso", "Ueff")
+KEY_ORDER = ("D", "E/D", "gx", "gy", "gz", "gperp", "giso", "A", "Ueff")
+
+
+def key_rank(key):
+    """Sort position for a key, so a row always serialises identically.
+
+    B(k,q) keys are generated, so they sort after the fixed ones by (k, q)
+    rather than appearing in KEY_ORDER.
+    """
+    if key in KEY_ORDER:
+        return (0, KEY_ORDER.index(key), 0)
+    if key.startswith(B_PREFIX):
+        k, q = key[len(B_PREFIX):-1].split(",")
+        return (1, int(k), int(q))
+    return (2, 0, 0)
 SOURCE_ORDER = ("calc", "exp")
 
 # Clause boundaries. Semicolons and pipes are the row-prose separators used
@@ -221,10 +249,13 @@ BOND_DIM = re.compile(r"bond[- ]dimension\s*(?:of|=|:)?\s*$|"
 # inverts the picture entirely: negligible transverse anisotropy (gx 0.011,
 # gy 0.013, gz 6.138)" describes a geometry that does not exist, and those
 # numbers were being stored as the real complex's g tensor.
+# Only words that actually mean "this structure is invented". A first version
+# also matched `imaginary`, `idealised/idealized` and `artificially`, and fired
+# on 1,673 clauses -- 1,380 of them on "imaginary frequency", a routine
+# vibrational-analysis term, and 58 more on "idealized geometry", which is a
+# symmetry-constrained model of the real compound rather than a different one.
 HYPOTHETICAL = re.compile(
-    r"\bhypothetical|\bidealis\w+|\bidealiz\w+|\bfictitious|"
-    r"\bimaginary\b|\bartificial(?:ly)? (?:constructed|imposed)|"
-    r"\bdoes not exist|\bnot a real\b", re.I)
+    r"\bhypothetical|\bfictitious|\bdoes not exist|\bnot a real\b", re.I)
 THIRD_PARTY = re.compile(
     r"literature value|reported (?:in|by) ref|for context|related (?:complex|"
     r"compound|system)|other (?:complex|compound)|previous(?:ly)? (?:report|"
@@ -299,6 +330,46 @@ UEFF_OBSERVED = re.compile(
     r"out[- ]of[- ]phase|hysteresis|blocking)"
     r"|field[- ]induced|under (?:an? )?(?:applied|dc|DC) field"
     r"|\bAC susceptibilit|Arrhenius|out[- ]of[- ]phase", re.I)
+
+# ------------------------------------------------- crystal field, hyperfine
+# A crystal-field parameter with both indices and an explicit value. The two
+# index orders in use -- B20 (k first) and B02 (q first) -- are told apart by
+# the physics rather than by the paper's wording: see kq_of.
+B_PAT = re.compile(
+    r"\bB\s*[_^]?\s*\{?\s*(-?\d)\s*\}?\s*[_^(\[]?\s*\{?\s*(-?\d)"
+    r"\s*\}?\s*[)\]}]?\s*(?:=|is|of|:)\s*([-+]?\d+(?:\.\d+)?)")
+# A crystal-field parameter of a few thousand cm-1 is already extreme; beyond
+# that the number is not a B(k,q).
+MAX_B = 20000.0
+
+# Hyperfine. The clause must SAY hyperfine, because the symbol A is unusable
+# as an anchor on its own: across 111 clauses matching "A = <number>" with no
+# mention of hyperfine, A was the Angstrom, the Arrhenius pre-exponential, a
+# species label, an ABC2 parameter, and the ROTATIONAL CONSTANT A -- which one
+# paper reports in MHz, the very unit hyperfine uses.
+HYPERFINE = re.compile(r"hyperfine|\bHFI\b|\bHFC\b", re.I)
+# `hfc` is not always hyperfine: in W4221104479 it is the ligand
+# hexafluoroacetylacetonate, as in Ni(hfc)2(pic)2.
+HFC_LIGAND = re.compile(r"\(hfc\)|hexafluoroacet|\bhfac\b", re.I)
+# The rotational constant A, which collides in both symbol and unit.
+ROT_CONST = re.compile(
+    r"rotational constant|constants? A\b|\bA,\s*B,?\s*(?:and\s*)?C\b", re.I)
+# Value and unit. "G" is matched last and deliberately word-bounded: it also
+# ends a basis-set name, and "CAS(7,8)/6-31G*" otherwise reads as -31 G.
+A_VAL = re.compile(r"([-+]?\d+(?:\.\d+)?)\s*(MHz|GHz|kHz|cm-1|mT|gauss|G)\b",
+                   re.I)
+BASIS_NEAR = re.compile(r"\d-\d+\+?G|cc-pV|def2|aug-cc|STO-3G|TZVP|QZVP", re.I)
+# mu_B/h in MHz per gauss: A[MHz] = 1.399624 * g * A[G].
+MHZ_PER_GAUSS = 1.399624
+# A g stated in the same clause, for that conversion. Only giso/gz/gavg are
+# used: the conversion needs the g that the quoted A belongs to, and a
+# transverse component is not it.
+G_FOR_A = re.compile(
+    r"\bg\s*[_ -]?\s*(iso|avg|zz|z)\b\s*(?:=|of|is|:)?\s*"
+    r"([-+]?\d+(?:\.\d+)?)", re.I)
+# Which A label this is, so the right g is paired with it.
+A_LABEL = re.compile(r"\bA\s*[_ -]?\s*(iso|avg|zz|z)\b", re.I)
+MAX_A_MHZ = 20000.0
 
 # The tallest barriers reported for any single-molecule magnet are around
 # 2200 cm-1; 3000 leaves headroom without admitting an electronic excitation.
@@ -397,6 +468,24 @@ def unit_of(clause, pos):
     return ""
 
 
+def kq_of(a, b):
+    """Resolve the two indices of a B parameter to (k, q), or None.
+
+    Papers write both orders -- B20 for k=2,q=0 and B02 for the same thing --
+    and B44 is identical either way while B46 is not. The physics settles it
+    without reference to the paper's wording: k is 2, 4 or 6 and |q| <= k, so
+    of the two possible readings exactly one is admissible. Where both are,
+    the digits are equal and the readings agree.
+    """
+    ok = [(k, q) for k, q in ((a, b), (b, a))
+          if k in (2, 4, 6) and abs(q) <= k]
+    if not ok:
+        return None
+    if len(ok) == 2 and ok[0] != ok[1]:
+        return None            # genuinely ambiguous; never reached in practice
+    return ok[0]
+
+
 def ueff_unit(clause, pos):
     """Unit for a barrier at `pos`: "cm-1", "K", or "" when none is stated.
 
@@ -489,6 +578,92 @@ def extract_magnetic(row):
                         found.setdefault((key, kind), []).append(
                             (round(v, 4), "stated"))
 
+            # --- crystal field B(k,q) -------------------------------
+            for m in B_PAT.finditer(clause):
+                res = kq_of(int(m.group(1)), int(m.group(2)))
+                if res is None:
+                    continue
+                if MULTI_TAIL.match(clause[m.end():]):
+                    skipped.append("B(%d,%d) is a range or a list" % res)
+                    continue
+                v = float(m.group(3))
+                if abs(v) > MAX_B:
+                    skipped.append("B(%d,%d) = %g exceeds %g cm-1"
+                                   % (res + (v, MAX_B)))
+                    continue
+                kind = classify_at(clause, m.start())
+                if kind:
+                    found.setdefault(("B(%d,%d)" % res, kind), []).append(
+                        (round(v, 6), "cm-1"))
+
+            # --- hyperfine A ----------------------------------------------
+            if HYPERFINE.search(clause) and not HFC_LIGAND.search(clause) \
+                    and not ROT_CONST.search(clause):
+                # Pair the g with the A: an isotropic A takes giso/gavg, an
+                # axial one takes gz/gzz. Taking simply the first g in the
+                # clause picked gz for an A_iso.
+                gs = {m.group(1).lower(): float(m.group(2))
+                      for m in G_FOR_A.finditer(clause)}
+                al = A_LABEL.search(clause)
+                axial = bool(al) and al.group(1).lower() in ("z", "zz")
+                order = (("zz", "z", "iso", "avg") if axial
+                         else ("iso", "avg", "zz", "z"))
+                g_here = next((gs[k] for k in order if k in gs), None)
+                vals = list(A_VAL.finditer(clause))
+                if len(vals) > 1:
+                    # Several numbers in one hyperfine clause: a before/after
+                    # pair ("cuts the HFC parameter from about 42 GHz to about
+                    # 7 GHz"), or one per nucleus. Which is this row's A
+                    # cannot be decided from the clause.
+                    skipped.append("%d hyperfine values in one clause"
+                                   % len(vals))
+                    vals = []
+                for m in vals:
+                    unit = m.group(2)
+                    u = unit.lower()
+                    if u in ("g", "gauss", "mt") and BASIS_NEAR.search(clause):
+                        # "CAS(7,8)/6-31G*" reads as -31 G.
+                        skipped.append("A in gauss adjacent to a basis-set "
+                                       "name; refused as a misread")
+                        continue
+                    v = float(m.group(1))
+                    if u == "ghz":
+                        v, unit = v * 1000.0, "MHz"
+                    elif u == "khz":
+                        v, unit = v / 1000.0, "MHz"
+                    elif u == "cm-1":
+                        v, unit = v / MHZ_TO_CM, "MHz"
+                    elif u == "mhz":
+                        unit = "MHz"
+                    elif g_here is not None:
+                        # Field units become a frequency only through
+                        # g*mu_B, and only the paper's own g will do.
+                        gauss = v * (10.0 if u == "mt" else 1.0)
+                        v = gauss * g_here * MHZ_PER_GAUSS
+                        unit = "MHz"
+                        skipped.append("A converted from %s using the g of "
+                                       "%g stated in the same clause" % (u, g_here))
+                    else:
+                        # No g anywhere, so no conversion is possible. Keep
+                        # the paper's own unit rather than drop the value.
+                        unit = "mT" if u == "mt" else "G"
+                    if unit == "MHz" and abs(v) > MAX_A_MHZ:
+                        skipped.append("A = %g MHz exceeds %g" % (v, MAX_A_MHZ))
+                        continue
+                    kind = classify_at(clause, m.start())
+                    # A requires an explicit computational marker to count as
+                    # computed. Unlike D, a hyperfine coupling in this corpus
+                    # is an EPR observable far more often than a calculated
+                    # one, and the "measured" that says so is routinely left
+                    # behind in a neighbouring clause by the split.
+                    if kind == "calc" and not CALC.search(clause[:m.start()]):
+                        kind = "exp"
+                        skipped.append("A taken as experimental: no "
+                                       "computational marker precedes it")
+                    if kind:
+                        found.setdefault(("A", kind), []).append(
+                            (round(v, 4), unit))
+
             # --- Ueff -----------------------------------------------------
             named = list(UEFF_NAMED.finditer(clause))
             bare = ([] if named or not MAG_CONTEXT.search(clause)
@@ -522,20 +697,17 @@ def extract_magnetic(row):
 
 
 def fmt(entries):
-    """Serialise {(key, source): value} to the packed field."""
+    """Serialise {(key, source): (value, unit)} to the packed field."""
     out = []
-    for key in KEY_ORDER:
-        for src in SOURCE_ORDER:
-            if (key, src) not in entries:
-                continue
-            unit = KEYS[key]
-            out.append("%s=%g%s %s" % (key, entries[(key, src)],
-                                       " " + unit if unit else "", src))
+    for key, src in sorted(entries, key=lambda ks: (key_rank(ks[0]),
+                                                    SOURCE_ORDER.index(ks[1]))):
+        value, unit = entries[(key, src)]
+        out.append("%s=%g%s %s" % (key, value, " " + unit if unit else "", src))
     return "; ".join(out)
 
 
 def parse(field):
-    """Inverse of fmt(): the packed field back to {(key, source): value}.
+    """Inverse of fmt(): the packed field back to {(key, source): (value, unit)}.
 
     Used by --migrate to verify the fold was lossless, and available to any
     consumer that would rather not write this twice.
@@ -549,7 +721,7 @@ def parse(field):
                      part)
         if not m:
             raise ValueError("unparseable properties entry: %r" % part)
-        entries[(m.group(1), m.group(4))] = float(m.group(2))
+        entries[(m.group(1), m.group(4))] = (float(m.group(2)), m.group(3))
     return entries
 
 
@@ -721,18 +893,25 @@ def extract(row):
             name = {"D": "D", "ED": "E/D"}[name]
             key = (name, src)
         name, src = key
-        distinct = {v for v, _ in vals}
+        canonical = key_unit(name)
+        # A key whose unit VARIES must compare value AND unit: 35.8 G and
+        # 35.8 MHz are not the same number stated twice.
+        distinct = ({(v, u) for v, u in vals} if canonical is VARIES
+                    else {v for v, _ in vals})
         if len(distinct) > 1:
             skipped.append("%s (%s) disagrees across clauses: %s"
-                           % (name, src, sorted(distinct)))
+                           % (name, src, sorted(distinct, key=repr)))
             continue
         value, how = vals[0]
         if name == "E/D" and value > ED_MAX:
             skipped.append("E/D (%s) = %s exceeds the rhombic limit 1/3"
                            % (src, value))
             continue
-        entries[(name, src)] = value
-        if how in ("GHz", "MHz", "kHz", "THz", "K"):
+        # For a fixed-unit key the extractor has already converted, so the
+        # stored unit is the canonical one and `how` records where it came
+        # from. For a VARIES key `how` IS the unit.
+        entries[(name, src)] = (value, how if canonical is VARIES else canonical)
+        if canonical is not VARIES and how in ("GHz", "MHz", "kHz", "THz", "K"):
             units.append("%s (%s) converted from %s" % (name, src, how))
         if how == "derived":
             units.append("E/D (%s) derived as |E/D|" % src)
@@ -762,7 +941,8 @@ def migrate():
             for col in LEGACY_COLUMNS:
                 raw = (r.get(col) or "").strip()
                 if raw:
-                    entries[LEGACY_KEYS[col]] = float(raw)
+                    key = LEGACY_KEYS[col]
+                    entries[key] = (float(raw), key_unit(key[0]))
                     moved += 1
             existing = (r.get(COLUMN) or "").strip()
             if existing:
@@ -778,7 +958,7 @@ def migrate():
                 raw = (r.get(col) or "").strip()
                 if raw:
                     key = LEGACY_KEYS[col]
-                    assert key in back and abs(back[key] - float(raw)) < 1e-9, (
+                    assert key in back and abs(back[key][0] - float(raw)) < 1e-9, (
                         "%s: %s lost %s=%s" % (path.name, r["entry_id"], col, raw))
             for col in LEGACY_COLUMNS:
                 r.pop(col, None)
@@ -842,11 +1022,14 @@ def main(argv=None):
                     for n in ns)
 
     print("%d rows; %d gained at least one property" % (len(rows), len(filled)))
-    for key in KEY_ORDER:
+    # Every key actually present, not just the fixed list: B(k,q) keys are
+    # generated from the data and would otherwise never be reported.
+    present = sorted({k.rsplit(" ", 1)[0] for k in counts}, key=key_rank)
+    for key in present:
         for src in SOURCE_ORDER:
             n = counts.get("%s %s" % (key, src), 0)
             if n:
-                print("   %-6s %-5s %5d rows" % (key, src, n))
+                print("   %-8s %-5s %5d rows" % (key, src, n))
     print("\nskipped / annotated:")
     for reason, n in notes.most_common(12):
         print("   %5d  %s" % (n, reason))

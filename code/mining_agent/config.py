@@ -147,6 +147,8 @@ LITERATURE_COLUMNS = [
 #                both name the axial component. See the warning below.
 #     gperp      the in-plane component, where a paper reports only g_perp
 #     giso       isotropic or average g
+#     A          hyperfine coupling. The unit VARIES per entry -- see below
+#     B(k,q)     crystal-field parameters, cm-1, keys generated from the data
 #     Ueff   magnetisation-reversal barrier, cm-1
 #
 # The key list is open: a new quantity is a new key, not a new column. Keep it
@@ -170,35 +172,68 @@ LITERATURE_COLUMNS = [
 # which is why far fewer rows carry a value than mention the quantity.
 #
 #
-# CONSIDERED AND REJECTED: a hyperfine key (A). Keys are free in this field, so
-# the only question is whether the data is there, and measured on 2026-10-10 it
-# is not. 73 rows mention hyperfine across 110 clauses, but only about ten of
-# those clauses carry a number, and after guards exactly ONE yields a clean
-# convertible value ("113 MHz hyperfine to 103Rh along g3", W7147367180-b).
-# Three obstacles, each independently fatal:
+# CRYSTAL-FIELD PARAMETERS are keyed B(k,q) -- B(2,0), B(2,2), B(4,0), B(4,4),
+# B(6,0), B(6,4) so far -- in cm-1. The keys are GENERATED from the data, not
+# enumerated: k runs over 2, 4, 6 and q over -k..k, so 27 are possible and six
+# occur. Anything reading this field should match the "B(" prefix rather than a
+# list, which is what docs/index.html does.
 #
-#   * the symbol A is hopelessly overloaded here. Across 111 clauses matching
+# Two index conventions are in use and they are resolved by physics, never by
+# the paper's wording. W1892060918 writes B20, B40, B44, B22 with k first;
+# W2249895060 writes B02, B04, B44, B06, B46 with q first. B44 is the same
+# either way, but B46 is B(6,4) in one convention and the impossible B(4,6) in
+# the other. Since k must be 2, 4 or 6 and |q| <= k, exactly one reading of any
+# two-digit form is admissible, and where both are the digits are equal and the
+# readings agree. Over the whole database this resolves 102 matches with zero
+# ambiguities and no false positives: B3LYP fails on k=3, and two indices are
+# required, so a bare rotational constant B cannot match.
+#
+# A HAZARD like the g conventions: Stevens and Wybourne normalisations differ
+# by large numerical factors for the same physical field. W1892060918 reports
+# B(2,0) around -366 cm-1 while W2523683558 reports -5.47 cm-1 for the same
+# parameter of a comparable complex. Both are correct in their own convention
+# and they are NOT comparable. Only one row in the corpus names its convention
+# ("the Bbar6/Bbar4 ratios in Wybourne normalization", W2249895060-b), so the
+# convention is not stored: inferring it from the magnitude would be a guess.
+#
+# HYPERFINE is keyed A, and it is the one key whose UNIT VARIES BETWEEN
+# ENTRIES. Every other key converts to a single canonical unit on the way in,
+# because a filter needs comparable numbers. A cannot: of the values in this
+# corpus two are quoted in MHz-convertible units and the rest in gauss or
+# millitesla, and a field value becomes a frequency only through g*mu_B for
+# that species. Exactly one of the gauss rows states a g at all
+# (W4321605737-b: giso = 1.938, so Aiso = 138.3 G is 375.1 MHz, converted and
+# noted in the row). Refusing the rest would discard most of the data;
+# converting them with an assumed g would fabricate it, which is the same
+# thing this schema already refuses for D in gauss. So an A entry carries the
+# unit the paper used and the reader sees it -- "A=375.1 MHz exp" beside
+# "A=7.5 mT exp". A values are therefore not comparable across rows without
+# reading the unit, which is a property of the sources rather than of the
+# schema.
+#
+# A is also the only key whose unmarked values default to EXPERIMENTAL. For D
+# the `calc` default is right, since every row here is a calculation and its
+# bare numbers are its own. Hyperfine is overwhelmingly an EPR observable, and
+# the "measured" that says so is routinely stranded in a neighbouring clause
+# by the prose splitter: W7147367180-b's "...species measured at 115 K
+# (g1 = 2.441, ...; 113 MHz hyperfine to 103Rh along g3)" splits at the
+# semicolon and leaves the value unmarked. Under the calc default two of the
+# four values in the database came out wrong; requiring an explicit
+# computational marker gets all four right.
+#
+# THREE TRAPS for whoever extends this, all of which produced a wrong answer
+# first:
+#   * the symbol A alone is unusable as an anchor. Across 111 clauses matching
 #     "A = <number>" with no mention of hyperfine, A was the Angstrom
 #     ("Mn-H=1.576,2.00,2.50,3.00,50.0 A: 0.61911" is a bond-length list then
 #     energies), the Arrhenius pre-exponential ("A=6.60e14 s^-1"), a species
-#     label ("A=-8.6 kcal/mol"), an ABC2 parameter, and -- worst -- the
-#     ROTATIONAL CONSTANT A, which W2078144221-a reports in MHz, the very unit
-#     hyperfine uses. No unit check can separate those two.
-#   * the dominant unit is gauss or millitesla (9 of the ~10 numeric values),
-#     and A in field units becomes a frequency only through g*mu_B for that
-#     species -- the same reason D in gauss is refused rather than converted.
-#   * "G" collides with basis-set names. "CAS(7,8)/6-31G*" parses as -31 G,
-#     and did, on two rows of W2078010867.
-#
-# One more trap, for whoever tries again: `hfc` is NOT always hyperfine. In
-# W4221104479 it is the ligand hexafluoroacetylacetonate, as in Ni(hfc)2(pic)2,
-# and a /\bHFC\b/ pattern picks it up. And W4321605737 states
-# "Aiso(93Nb) = 148.6 G" for a compound its own prose calls "another group's
-# compound quoted for comparison" -- a value THIRD_PARTY must exclude.
-#
-# Where the data actually lives is SI tables, exactly as for the crystal-field
-# B(k,q) parameters (10 rows in prose). Both need supplementary-information
-# reads, not a better regex over what is already here.
+#     label ("A=-8.6 kcal/mol"), an ABC2 parameter, and the ROTATIONAL
+#     CONSTANT A, which W2078144221-a reports in MHz -- the very unit
+#     hyperfine uses. The clause must say "hyperfine".
+#   * `hfc` is not always hyperfine. In W4221104479 it is the ligand
+#     hexafluoroacetylacetonate, as in Ni(hfc)2(pic)2.
+#   * "G" ends a basis-set name. "CAS(7,8)/6-31G*" parses as -31 G, and did,
+#     on two rows of W2078010867.
 #
 # A WARNING about the g keys. gz is the z principal component of the Zeeman g
 # tensor -- the same quantity as the familiar g factor, which is just its

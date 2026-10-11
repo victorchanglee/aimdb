@@ -794,7 +794,7 @@ them. The full text is available as <code>LICENSE</code> in the repository root.
 </div>
 </div><!-- /page -->
 
-<script src="data.js?v=dcf7dd9d"></script>
+<script src="data.js?v=38a0cfbc"></script>
 <script src="data_reproduced.js?v=4c92a6a6"></script>
 <script>
 // Two blobs, one dataset: database/aimdb_llm_reproduced.csv is published
@@ -1037,11 +1037,18 @@ const PROPS = [
   {key:"ED",    label:"ZFS E/D",      keys:["E/D"]},
   {key:"g",     label:"g tensor",     keys:["gx","gy","gz","gperp","giso"]},
   {key:"Ueff",  label:"U_eff barrier",keys:["Ueff"]},
+  // Crystal-field parameters are keyed B(k,q) and generated from the data --
+  // six distinct (k,q) appear so far -- so this chip matches by prefix
+  // rather than by a list that would need editing whenever a paper reports
+  // a term nobody has reported yet.
+  {key:"B",     label:"Crystal field B(k,q)", keys:[], prefix:"B("},
+  {key:"A",     label:"Hyperfine A",  keys:["A"]},
 ];
 // Each row's key set, computed once. hasProp runs for every chip on every
 // render, and re-parsing the field each time would be four parses per row.
 DATA.forEach(r => { r._propKeys = new Set(parseProps(r).map(e => e.key)); });
-const hasProp = (r, p) => p.keys.some(k => r._propKeys.has(k));
+const hasProp = (r, p) => p.keys.some(k => r._propKeys.has(k)) ||
+  (!!p.prefix && [...r._propKeys].some(k => k.startsWith(p.prefix)));
 let propCount = {};
 PROPS.forEach(p => { propCount[p.key] = DATA.filter(r => hasProp(r, p)).length; });
 const PROP_TOTAL = Object.assign({}, propCount);
@@ -1144,10 +1151,12 @@ function reportEntry(r){
 }
 // The packed field is compact on disk but should not be read raw. Render one
 // line per entry, naming the quantity and whether it was computed or measured.
+// Display names. A B(k,q) key already reads correctly as itself, so it has
+// no entry here and falls through to the raw key.
 const PROP_NAMES = {"D":"ZFS D", "E/D":"ZFS E/D",
                     "gx":"g_x", "gy":"g_y", "gz":"g_z",
                     "gperp":"g_perp", "giso":"g_iso",
-                    "Ueff":"U_eff (barrier)"};
+                    "A":"Hyperfine A", "Ueff":"U_eff (barrier)"};
 function propsHtml(r){
   const es = parseProps(r);
   if(!es.length) return '<span class="empty">—</span>';
