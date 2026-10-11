@@ -192,3 +192,62 @@ era and in which papers they were given.
   some of them existed. The retired `no` marker is **not** such a case, though:
   293 of those rows were added in September and 145 in October 2026, after the
   rule changed, so they are live violations rather than legacy.
+
+## find_missed_zfs.py — papers whose text states a ZFS the rows don't
+
+```
+code/.venv/bin/python benchmark/find_missed_zfs.py
+code/.venv/bin/python benchmark/find_missed_zfs.py --calibrate
+code/.venv/bin/python benchmark/find_missed_zfs.py --tier D-value --show 40
+code/.venv/bin/python benchmark/find_missed_zfs.py --evidence W3177508800
+```
+
+Searches every paper that has rows and local text for evidence of a
+zero-field splitting its rows fail to record, and separates two states that
+need different work:
+
+| state | meaning |
+| --- | --- |
+| `unparsed` | the row's prose discusses ZFS but never states D, so `tools_zfs_columns.py` had nothing to lift. The number may be a few lines away in a text already on disk. |
+| `unmined` | the prose doesn't mention ZFS at all, yet the paper computes it. Missed at first reading; needs a genuine second read. |
+
+**Read `--calibrate` before the results.** The tier that sounds strongest — a
+parseable `D = x cm⁻¹` near a computational marker — fires on only **6%** of
+the papers that demonstrably carry a ZFS value. D lives in tables, and tables
+are what a PDF text layer loses, so an absence there means almost nothing. The
+weaker `ZFS-phrase` tier reaches **88%** and is the screen to use. Taking the
+`D-value` count as the answer would understate the gap by more than tenfold.
+
+As of 2026-10-10: **169 candidate papers / 478 rows** — 74 `unparsed` and 91
+`unmined` at `ZFS-phrase`, 4 at `D-value`. Hand-scoring ten gave roughly six
+probable true positives, two clear false positives and two borderline, so this
+is a worklist and never a count.
+
+### Exclusions, each from a false positive it produced first
+
+- **A singlet ground state has no ZFS**, however much its paper discusses
+  magnetic anisotropy. 15 papers dropped on this.
+- **A match in the reference list is not a result** — the bibliography is cut
+  before searching.
+- Lowercase `d` is a shell label and `De` is a dissociation energy; an `re.I`
+  pattern over `[DE]\s*=\s*\d+` once inflated a ZFS count from 210 to 252.
+- `D` is also the DMRG bond dimension, the Debye, and a pseudo-Jahn–Teller gap
+  in eV. All three have appeared as spurious ZFS values.
+- An uncertainty can hide the unit: `D = -178(1) MHz` read as unitless, and the
+  cm⁻¹ default made one stored value wrong by a factor of 30,000.
+- Gauss cannot be converted without *g*, so a field-unit value is not evidence
+  of a ZFS in cm⁻¹.
+
+### The judgment it deliberately leaves to you
+
+**86 of the 169 are flagged `kramers`** — Dy(III) and other Kramers
+lanthanides, where the splitting is reported as crystal-field Kramers-doublet
+gaps rather than a spin-Hamiltonian D and E. They are flagged rather than
+dropped because whether those belong in the D/E columns is a chemist's call,
+and that single decision is the largest factor in how big the real gap is.
+
+### Limit
+
+**1,108 papers with rows have no local text at all** and cannot be checked by
+this or any other script here. That is the ceiling on the audit, not a
+property of the data.
