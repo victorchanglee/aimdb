@@ -794,8 +794,8 @@ them. The full text is available as <code>LICENSE</code> in the repository root.
 </div>
 </div><!-- /page -->
 
-<script src="data.js?v=f44edeae"></script>
-<script src="data_reproduced.js?v=4c92a6a6"></script>
+<script src="data.js?v=73e61cff"></script>
+<script src="data_reproduced.js?v=8c33aedf"></script>
 <script>
 // Two blobs, one dataset: database/aimdb_llm_reproduced.csv is published
 // separately so neither CSV nor its generated blob approaches GitHub's 100 MB
@@ -1035,7 +1035,11 @@ function parseProps(r){
 const PROPS = [
   {key:"D",     label:"ZFS D",        keys:["D"]},
   {key:"ED",    label:"ZFS E/D",      keys:["E/D"]},
-  {key:"g",     label:"g tensor",     keys:["gx","gy","gz","gperp","giso"]},
+  {key:"g",     label:"g tensor",
+   // g1/g2/g3 are principal values in the paper's own order, which this
+   // corpus prints both ascending and descending, so they are not mapped
+   // onto axes. They belong to this chip all the same.
+   keys:["gx","gy","gz","gperp","giso","g1","g2","g3"]},
   {key:"Ueff",  label:"U_eff barrier",keys:["Ueff"]},
   // Crystal-field parameters are keyed B(k,q) and generated from the data --
   // six distinct (k,q) appear so far -- so this chip matches by prefix
@@ -1156,6 +1160,8 @@ function reportEntry(r){
 const PROP_NAMES = {"D":"ZFS D", "E/D":"ZFS E/D",
                     "gx":"g_x", "gy":"g_y", "gz":"g_z",
                     "gperp":"g_perp", "giso":"g_iso",
+                    "g1":"g\u2081 (principal)", "g2":"g\u2082 (principal)",
+                    "g3":"g\u2083 (principal)",
                     "A":"Hyperfine A", "Ueff":"U_eff (barrier)"};
 function propsHtml(r){
   const es = parseProps(r);

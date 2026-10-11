@@ -13,6 +13,10 @@ quotes). Keys and their canonical units:
     E/D    rhombicity, dimensionless, <= 1/3 by definition
     gx gy gz   g-tensor components, dimensionless. gz absorbs g_par and (in
                a doublet context) g_eff, both of which name the axial value
+    g1 g2 g3   principal g values in the paper's own order, which is NOT a
+               known mapping onto x/y/z -- the corpus uses both ascending
+               and descending, so g1 is the axial component in some papers
+               and a transverse one in others
     gperp      the in-plane component where a paper reports only g_perp
     giso       isotropic or average g
     Ueff   magnetisation-reversal barrier, cm-1
@@ -127,7 +131,8 @@ LEGACY_KEYS = {"zfs_D_calc": ("D", "calc"), "zfs_ED_calc": ("E/D", "calc"),
 # see the module docstring on A.
 VARIES = None
 KEYS = {"D": "cm-1", "E/D": "", "gx": "", "gy": "", "gz": "",
-        "giso": "", "gperp": "", "Ueff": "cm-1", "A": VARIES}
+        "giso": "", "gperp": "", "g1": "", "g2": "", "g3": "",
+        "Ueff": "cm-1", "A": VARIES}
 # Crystal-field parameters are keyed B(k,q) and generated from the data, so
 # they are matched by prefix rather than listed. All are cm-1.
 B_PREFIX = "B("
@@ -140,7 +145,8 @@ def key_unit(key):
     return KEYS[key]
 # Entry order within the field, so the same row always serialises identically
 # and a diff shows real changes only.
-KEY_ORDER = ("D", "E/D", "gx", "gy", "gz", "gperp", "giso", "A", "Ueff")
+KEY_ORDER = ("D", "E/D", "gx", "gy", "gz", "gperp", "giso",
+             "g1", "g2", "g3", "A", "Ueff")
 
 
 def key_rank(key):
@@ -272,8 +278,10 @@ MAX_D = 1000.0
 # `||` is matched without a trailing \b, which would fail between a pipe and
 # a space and is why the old axial-only pattern never actually caught "g||".
 G_PAT = re.compile(
-    r"\bg\s*[_ -]?\s*(zz|xx|yy|par|perp|iso|avg|av|eff|z|x|y|\|\|)"
-    r"(?![A-Za-z])\s*(?:=|of|is|:|~|value\s*(?:of)?)?"
+    r"\bg\s*[_ -]?\s*(zz|xx|yy|par|perp|iso|avg|av|eff|z|x|y|1|2|3|\|\|)"
+    # Digits must be excluded as well as letters: with a letter-only guard
+    # "g35 = 0.5479162", the nuclear g of 35Cl, reads as g3 = 5.
+    r"(?![A-Za-z0-9])\s*(?:=|of|is|:|~|value\s*(?:of)?)?"
     # Chained equality: "gxx = gyy = 0.01" assigns one number to both
     # components, and is how EPR prose states an axial tensor. Without this
     # the first label in the chain finds "= g..." where it wants a number.
@@ -285,11 +293,18 @@ G_PAT = re.compile(
 G_CHAIN = re.compile(r"g\s*[_ -]?\s*(zz|xx|yy|z|x|y)(?![A-Za-z])")
 # Label -> key. g_parallel is the axial component by definition, so it shares
 # gz rather than getting a key that would mean the same thing.
+# g1/g2/g3 keep their own keys. They are principal values in whatever order
+# the paper chose, and this corpus uses both: W7147367180 prints
+# g1 = 4.547 > g2 = 1.361 > g3 = 1.167 (descending, g1 axial) while
+# W2082257602 prints g1 1.14, g2 1.14, g3 3.50 (ascending, g3 axial). Mapping
+# g1 to gx would file an axial value under a transverse axis half the time,
+# and the axis assignment is precisely what these labels withhold.
 G_KEY = {"zz": "gz", "z": "gz", "par": "gz", "||": "gz",
          "xx": "gx", "x": "gx",
          "yy": "gy", "y": "gy",
          "iso": "giso", "avg": "giso", "av": "giso",
-         "perp": "gperp"}
+         "perp": "gperp",
+         "1": "g1", "2": "g2", "3": "g3"}
 DOUBLET = re.compile(r"doublet|\bKD\d|Ising|\bm_?J\b|Kramers", re.I)
 # 2*J*g_J is 20.00 for Dy(III) and Ho(III), the largest of any trivalent
 # lanthanide, so nothing above this is a g at all -- and no ordinary
