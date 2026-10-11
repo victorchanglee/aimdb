@@ -58,7 +58,7 @@ DEFAULT_ENTRY_TYPE = "llm_mining"
 # contract, and it has drifted once already (2026-07-28, see below).
 # query.schema() also publishes a fingerprint derived from the column names,
 # so a change that forgets this bump is still detectable downstream.
-SCHEMA_VERSION = "1.2"
+SCHEMA_VERSION = "2.0"
 
 # aimdb.csv (formerly literature.csv) column order. Originally the first 30
 # columns were identical to claude-casscf/database/literature.csv so rows
@@ -81,7 +81,7 @@ LITERATURE_COLUMNS = [
     "reference_short", "reference_doi", "year", "notes",
     "correlation_correction", "entry_type", "mining_model", "open_access",
     "date_added",
-    "zfs_D_calc", "zfs_ED_calc", "zfs_D_exp", "zfs_ED_exp",
+    "properties",
 ]
 
 # "date_added" (added 2026-10-09, SCHEMA_VERSION 1.0 -> 1.1) is the UTC date
@@ -103,34 +103,71 @@ LITERATURE_COLUMNS = [
 # "year" is not one quantity. For an llm_mining row it is the source paper's
 # publication year. For an llm_reproduced row it is the year the CALCULATION
 # was performed (2026-10-10 sweep -> 2026, set by
-# code/tools/tools_zfs_columns.py's sibling pass), because a result computed
+# code/tools/tools_properties.py's sibling pass), because a result computed
 # this year should not sort or filter as decade-old literature just because
 # the compound was described then. The paper's own year stays available in
 # reference_short, which states it on every reproduced row, and in
 # papers_index.csv via reference_doi.
 
-# Zero-field splitting, added 2026-10-10 (SCHEMA_VERSION 1.1 -> 1.2) at the
-# user's request, so a consumer can filter on magnetic anisotropy instead of
-# reading it out of a sentence. All four are plain numbers:
-#   zfs_D_calc   axial ZFS parameter D from THIS row's calculation, cm-1
-#   zfs_ED_calc  its rhombicity E/D, dimensionless and <= 1/3 by definition
-#   zfs_D_exp    D the paper quotes from experiment, cm-1
-#   zfs_ED_exp   the experimental rhombicity
-# Computed and experimental are separate columns because a ZFS paper almost
-# always reports both, and a single column would let the database assert an ab
-# initio result for a measured number.
+# "properties" (SCHEMA_VERSION 1.2 -> 2.0, 2026-10-10) holds the measurable
+# physical quantities a row reports, as one packed field. It REPLACED four
+# dedicated columns -- zfs_D_calc, zfs_ED_calc, zfs_D_exp, zfs_ED_exp -- which
+# is why this is a major version bump rather than a minor one: a consumer
+# reading those names will not find them. The migration was lossless and is
+# reversible from tools/tools_properties.py --migrate.
 #
-# Backfilled by code/tools/tools_zfs_columns.py from the prose already in each
-# row, so the values stay grounded in the source and benchmark/check_grounding.py
-# still covers them; the tool is re-runnable and documents the six classes of
-# false positive that four rounds of hand-scoring found (a "D" that was a Debye
-# unit, a pseudo-Jahn-Teller gap in eV, a ligand-field parameter of 2800 cm-1,
-# the D inside "E/D", a range written with an en-dash, and a value belonging to
-# another complex). Where a clause offers more than one candidate the cell is
-# left EMPTY rather than guessed, which is why only 229 of the 495 rows
-# mentioning ZFS carry a value.
+# The four columns were added on 2026-10-10 and replaced the same day, for a
+# reason worth recording. Lanthanides do not report a spin-Hamiltonian D at
+# all: for a 4f ion spin-orbit coupling dominates the ligand field, so papers
+# give crystal-field parameters, doublet g-tensors and a relaxation barrier
+# instead. Of 1,028 lanthanide rows exactly 14 carried any ZFS value, so the
+# dedicated columns simply did not reach that chemistry. Adding a second set
+# for the crystal-field quantities would have worked once and then again for
+# hyperfine, exchange coupling, quadrupole moments; every new observable a
+# paper happens to report would be another schema bump and another always-empty
+# column on the 95% of rows that do not report it. One field that names its own
+# contents does not grow.
 #
-# D is cm-1 throughout; GHz and K are converted on the way in. E itself is not
+# FORMAT. Entries separated by "; ", each one
+#
+#     KEY=VALUE[ UNIT] SOURCE
+#
+# with SOURCE either "calc" (this row's own calculation) or "exp" (a measured
+# value the paper quotes). UNIT is omitted when the quantity is dimensionless.
+# Values are plain numbers, already converted to the canonical unit below.
+#
+#     D=-31.5 cm-1 calc; E/D=0.152 calc; D=-28.9 cm-1 exp; gz=19.86 calc
+#
+# Keys in use, with their canonical units:
+#
+#     D      axial zero-field-splitting parameter, cm-1
+#     E/D    rhombicity, dimensionless, <= 1/3 by definition
+#     gz     axial g of the ground doublet (g_zz, g_par, g_eff), dimensionless
+#     Ueff   magnetisation-reversal barrier, cm-1
+#
+# The key list is open: a new quantity is a new key, not a new column. Keep it
+# in step with KEYS in tools/tools_properties.py, which is the only writer, and
+# with PROPS in docs/index.html, which is the only reader that filters on it.
+#
+# Why SOURCE is part of every entry rather than part of the key: a paper
+# reporting a property almost always reports both a computed and a measured
+# value, and a field that did not distinguish them would let the database
+# assert an ab initio result for a number somebody measured.
+#
+# Populated by tools/tools_properties.py from the prose already in each row, so
+# the values stay grounded in the source and benchmark/check_grounding.py still
+# covers them. The tool is re-runnable and documents the false-positive classes
+# that repeated hand-scoring found: a "D" that was a Debye unit or a DMRG bond
+# dimension, a pseudo-Jahn-Teller gap in eV, a ligand-field parameter of
+# 2800 cm-1, the D inside "E/D", a range written with an en-dash, a value
+# belonging to another complex, a reaction barrier in kcal/mol read as a
+# magnetic one, and a g_z belonging to an excited doublet. Where a clause
+# offers more than one candidate the entry is OMITTED rather than guessed,
+# which is why far fewer rows carry a value than mention the quantity.
+#
+# D is cm-1 throughout; GHz, MHz, kHz, THz and K are converted on the way in.
+# Magnetic field units (gauss, mT, T) are refused rather than converted, since
+# D in gauss becomes cm-1 only through g*mu_B for that species. E itself is not
 # stored: E/D is the dimensionless measure consumers compare, and E is
 # recoverable as E/D * D.
 

@@ -4,7 +4,7 @@
 Two gaps, scored separately because they need different work:
 
   **unparsed** -- the row's prose already discusses ZFS but never states D, so
-    `tools_zfs_columns.py` had nothing to lift into the columns. The number may
+    `tools_properties.py` had nothing to lift into the field. The number may
     well be in the paper. Fixing one means re-reading a few lines of a text
     that is already on disk.
   **unmined** -- the row's prose does not mention ZFS at all, yet the paper
@@ -69,7 +69,13 @@ DB = ROOT / "database" / "aimdb.csv"
 TEXT_DIR = ROOT / "text"
 DEFAULT_REPORT = ROOT / "logs" / "missed_zfs.csv"
 
-ZFS_COLUMNS = ("zfs_D_calc", "zfs_ED_calc", "zfs_D_exp", "zfs_ED_exp")
+# ZFS now lives in the packed `properties` field rather than four columns of
+# its own (config.SCHEMA_VERSION 2.0): "D=-31.5 cm-1 calc; E/D=0.152 calc".
+# A row "has a ZFS" when that field carries a D or an E/D entry under either
+# source -- the other keys in the field (gz, Ueff) are crystal-field
+# quantities and must not count, or every lanthanide row with a barrier would
+# look as though its ZFS had been extracted.
+HAS_ZFS = re.compile(r"(?:^|;)\s*(?:D|E/D)=")
 PROSE = ("electronic_structure_description", "Other", "notes",
          "active_space_protocol")
 
@@ -170,7 +176,7 @@ def load():
 
 def classify(rs):
     """How the rows of one paper already treat ZFS."""
-    if any(r[c].strip() for r in rs for c in ZFS_COLUMNS):
+    if any(HAS_ZFS.search(r["properties"] or "") for r in rs):
         return "has-columns"
     if any(ZFS_PHRASE.search(r[c]) for r in rs for c in PROSE):
         return "unparsed"        # prose discusses it, no number reached a column
@@ -199,7 +205,7 @@ def main():
     if args.calibrate:
         from collections import Counter
         pos = [k for k, rs in by_key.items()
-               if any(r[c].strip() for r in rs for c in ZFS_COLUMNS)
+               if any(HAS_ZFS.search(r["properties"] or "") for r in rs)
                and (TEXT_DIR / ("%s.txt" % k)).is_file()]
         c = Counter()
         for k in pos:

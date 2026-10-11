@@ -208,7 +208,7 @@ need different work:
 
 | state | meaning |
 | --- | --- |
-| `unparsed` | the row's prose discusses ZFS but never states D, so `tools_zfs_columns.py` had nothing to lift. The number may be a few lines away in a text already on disk. |
+| `unparsed` | the row's prose discusses ZFS but never states D, so `tools_properties.py` had nothing to lift. The number may be a few lines away in a text already on disk. |
 | `unmined` | the prose doesn't mention ZFS at all, yet the paper computes it. Missed at first reading; needs a genuine second read. |
 
 **Read `--calibrate` before the results.** The tier that sounds strongest — a

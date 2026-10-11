@@ -234,6 +234,13 @@
   .form-success h3{margin:0 0 6px;font-size:15px}
   .mailto-btn{display:inline-block;margin-top:8px;padding:8px 14px;border-radius:7px;border:1px solid var(--accent);
     background:var(--accent);color:#fff;font-size:13px;font-weight:600;text-decoration:none}
+.proplist{display:flex;flex-direction:column;gap:3px}
+.propline{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.propkey{min-width:10.5em;color:var(--muted)}
+.propval{font-variant-numeric:tabular-nums;font-weight:600}
+.propsrc{font-size:11px;padding:1px 6px;border-radius:9px;border:1px solid var(--border);background:var(--chip)}
+.propsrc.calc{color:var(--accent)}
+.propsrc.exp{color:var(--warn)}
 </style>
 </head>
 <body>
@@ -787,8 +794,8 @@ them. The full text is available as <code>LICENSE</code> in the repository root.
 </div>
 </div><!-- /page -->
 
-<script src="data.js?v=4c741c4e"></script>
-<script src="data_reproduced.js?v=2f125b42"></script>
+<script src="data.js?v=179244c5"></script>
+<script src="data_reproduced.js?v=4c92a6a6"></script>
 <script>
 // Two blobs, one dataset: database/aimdb_llm_reproduced.csv is published
 // separately so neither CSV nor its generated blob approaches GitHub's 100 MB
@@ -963,14 +970,34 @@ function renderYearInputs(){
   $("#clearYears").hidden = state.yearMin===null && state.yearMax===null;
 }
 // ---- property filter: does the row carry a given measured property at all ----
-// One entry per property, each naming the columns that count as having it, so
-// adding the next one needs no new markup. Chips are OR-ed, like the element
-// and access facets.
+// `properties` is ONE packed field, not a column per quantity:
+//
+//     D=-31.5 cm-1 calc; E/D=0.152 calc; D=-28.9 cm-1 exp; gz=19.86 calc
+//
+// Each entry is KEY=VALUE[ UNIT] SOURCE with SOURCE either calc or exp. The
+// four dedicated zfs_* columns this replaced did not reach lanthanide
+// chemistry -- a 4f ion reports crystal-field parameters and a relaxation
+// barrier, not a spin-Hamiltonian D, so only 14 of 1,028 lanthanide rows ever
+// carried a value. Parsing a self-describing field means the next observable
+// is a new key and a new chip here, with no schema change. Chips are OR-ed,
+// like the element and access facets.
+const PROP_RE = /^(.+?)=([-+]?\d+(?:\.\d+)?)\s*(.*?)\s*(calc|exp)$/;
+function parseProps(r){
+  const out = [];
+  for(const part of (r.properties||"").split(";")){
+    const t = part.trim(); if(!t) continue;
+    const m = PROP_RE.exec(t); if(!m) continue;
+    out.push({key:m[1], value:parseFloat(m[2]), unit:m[3], source:m[4]});
+  }
+  return out;
+}
 const PROPS = [
-  {key:"zfs", label:"ZFS",
-   cols:["zfs_D_calc","zfs_ED_calc","zfs_D_exp","zfs_ED_exp"]},
+  {key:"D",    label:"ZFS D"},
+  {key:"E/D",  label:"ZFS E/D"},
+  {key:"gz",   label:"g_z (doublet)"},
+  {key:"Ueff", label:"U_eff barrier"},
 ];
-const hasProp = (r, p) => p.cols.some(c => (r[c]||"").trim() !== "");
+const hasProp = (r, p) => parseProps(r).some(e => e.key === p.key);
 const propCount = {};
 PROPS.forEach(p => { propCount[p.key] = DATA.filter(r => hasProp(r, p)).length; });
 
@@ -1027,8 +1054,7 @@ const FIELD_LABELS = {
   correlation_correction:"Correlation correction", entry_type:"Entry source",
   mining_model:"Mining model (LLM)", open_access:"Access (per OpenAlex)",
   system_class:"System type", date_added:"Date added",
-  zfs_D_calc:"ZFS D, computed (cm\u207b\u00b9)", zfs_ED_calc:"ZFS E/D, computed",
-  zfs_D_exp:"ZFS D, experimental (cm\u207b\u00b9)", zfs_ED_exp:"ZFS E/D, experimental",
+  properties:"Properties",
 };
 const WIDE = new Set(["active_space_orbital_description","active_space_protocol",
   "electronic_structure_description","Other","notes","compound_name","ligand_set","geometry_source"]);
@@ -1065,6 +1091,21 @@ function reportEntry(r){
   ].join("\n");
   window.location.href = `mailto:${REPORT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 }
+// The packed field is compact on disk but should not be read raw. Render one
+// line per entry, naming the quantity and whether it was computed or measured.
+const PROP_NAMES = {"D":"ZFS D", "E/D":"ZFS E/D", "gz":"g_z (ground doublet)",
+                    "Ueff":"U_eff (barrier)"};
+function propsHtml(r){
+  const es = parseProps(r);
+  if(!es.length) return '<span class="empty">—</span>';
+  const unit = u => u === "cm-1" ? " cm\u207b\u00b9" : (u ? " " + esc(u) : "");
+  return `<div class="proplist">` + es.map(e =>
+    `<div class="propline"><span class="propkey">${esc(PROP_NAMES[e.key]||e.key)}</span>` +
+    `<span class="propval">${esc(String(e.value))}${unit(e.unit)}</span>` +
+    `<span class="propsrc ${e.source}">${e.source === "calc" ? "computational" : "experimental"}</span></div>`
+  ).join("") + `</div>`;
+}
+
 function detail(r, i){
   const fields = (window.LIT.fields||[]).filter(f=>!HIDE.has(f));
   const cells = fields.map(f=>{
@@ -1076,6 +1117,7 @@ function detail(r, i){
     else if(f==="structure_file") v = v
       ? `<a class="structure-dl" href="${structureUrl(v)}" target="_blank" rel="noopener" download>⬇ ${esc(v)}</a>${structureTag(r)}`
       : '<span class="empty">—</span>';
+    else if(f==="properties") v = v ? propsHtml(r) : '<span class="empty">—</span>';
     else v = v ? highlight(v) : '<span class="empty">—</span>';
     const cls = WIDE.has(f) ? "field wide" : "field";
     return `<div class="${cls}"><div class="k">${esc(FIELD_LABELS[f]||f)}</div><div class="v">${v}</div></div>`;
