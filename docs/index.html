@@ -5,11 +5,63 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>AIMdb: Artificial Intelligence database</title>
 <style>
+  /* Light is the base palette and every colour in the sheet is a token, so
+     dark mode is the same stylesheet with the tokens swapped. The six tag
+     colours below used to be hard-coded hexes; they are tokens now because a
+     dark green on a dark panel is unreadable and had to be able to lighten. */
   :root{
+    color-scheme:light;
     --bg:#ffffff; --panel:#ffffff; --panel2:#f3f4f7; --border:#e2e5eb;
     --text:#1a1d24; --muted:#5b6472; --accent:#2f6fed; --accent2:#0d9488;
     --chip:#eef0f4; --chip-on:#2f6fed; --warn:#b45309; --shadow:0 1px 3px rgba(20,30,60,.08);
+    --on-accent:#ffffff;
+    --ok:#15803d; --ok-bg:rgba(21,128,61,.09);
+    --bad:#b91c1c; --bad-bg:rgba(185,28,28,.08);
+    --violet:#7c3aed; --violet-bg:rgba(124,58,237,.08);
+    --slate:#475569; --slate-bd:#94a3b8; --slate-bg:rgba(71,85,105,.08);
+    --accent-bg:rgba(47,111,237,.08); --accent2-bg:rgba(13,148,136,.10);
+    --warn-bg:rgba(180,83,9,.08);
+    --mark:rgba(110,168,254,.35);
+    --scrim:rgba(0,0,0,.3); --sidebar-shadow:rgba(0,0,0,.2);
   }
+  /* The dark values are defined once, in a custom property block that both
+     selectors below pull in, so the two can never drift apart. */
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme="light"]){
+      color-scheme:dark;
+      --bg:#0f1115; --panel:#161920; --panel2:#1d2129; --border:#2a2f3a;
+      --text:#e6e9ef; --muted:#9aa4b4; --accent:#6ea8fe; --accent2:#2dd4bf;
+      --chip:#1d2129; --chip-on:#2f6fed; --warn:#fbbf24;
+      --shadow:0 1px 3px rgba(0,0,0,.5);
+      --on-accent:#ffffff;
+      --ok:#4ade80; --ok-bg:rgba(74,222,128,.12);
+      --bad:#f87171; --bad-bg:rgba(248,113,113,.12);
+      --violet:#a78bfa; --violet-bg:rgba(167,139,250,.12);
+      --slate:#cbd5e1; --slate-bd:#64748b; --slate-bg:rgba(203,213,225,.10);
+      --accent-bg:rgba(110,168,254,.14); --accent2-bg:rgba(45,212,191,.13);
+      --warn-bg:rgba(251,191,36,.13);
+      --mark:rgba(110,168,254,.32);
+      --scrim:rgba(0,0,0,.6); --sidebar-shadow:rgba(0,0,0,.55);
+    }
+  }
+  :root[data-theme="dark"]{
+    color-scheme:dark;
+    --bg:#0f1115; --panel:#161920; --panel2:#1d2129; --border:#2a2f3a;
+    --text:#e6e9ef; --muted:#9aa4b4; --accent:#6ea8fe; --accent2:#2dd4bf;
+    --chip:#1d2129; --chip-on:#2f6fed; --warn:#fbbf24;
+    --shadow:0 1px 3px rgba(0,0,0,.5);
+    --on-accent:#ffffff;
+    --ok:#4ade80; --ok-bg:rgba(74,222,128,.12);
+    --bad:#f87171; --bad-bg:rgba(248,113,113,.12);
+    --violet:#a78bfa; --violet-bg:rgba(167,139,250,.12);
+    --slate:#cbd5e1; --slate-bd:#64748b; --slate-bg:rgba(203,213,225,.10);
+    --accent-bg:rgba(110,168,254,.14); --accent2-bg:rgba(45,212,191,.13);
+    --warn-bg:rgba(251,191,36,.13);
+    --mark:rgba(110,168,254,.32);
+    --scrim:rgba(0,0,0,.6); --sidebar-shadow:rgba(0,0,0,.55);
+  }
+  /* The theme button is the only thing that should not animate on load. */
+  body{transition:background-color .18s ease,color .18s ease}
   *{box-sizing:border-box}
   body{margin:0;background:var(--bg);color:var(--text);
     font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
@@ -43,7 +95,7 @@
   .chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
   .chip{padding:4px 10px;border-radius:999px;border:1px solid var(--border);
     background:var(--chip);color:var(--text);cursor:pointer;font-size:12.5px;user-select:none}
-  .chip.on{background:var(--chip-on);border-color:var(--chip-on);color:#fff}
+  .chip.on{background:var(--chip-on);border-color:var(--chip-on);color:var(--on-accent)}
   .chip .n{opacity:.6;margin-left:5px;font-variant-numeric:tabular-nums}
   .year-range{display:flex;align-items:center;gap:8px;margin-top:10px;flex-wrap:wrap}
   .year-range input{width:84px;padding:5px 8px;border-radius:7px;border:1px solid var(--border);
@@ -74,7 +126,7 @@
     .ptable,.ptable-f{gap:1.5px}
   }
   .pel.zero{opacity:.3;cursor:default}
-  .pel.on{background:var(--chip-on);border-color:var(--chip-on);color:#fff}
+  .pel.on{background:var(--chip-on);border-color:var(--chip-on);color:var(--on-accent)}
   .pel:hover:not(.zero){border-color:var(--accent)}
   .meta{color:var(--muted);font-size:12.5px;margin:10px 0 4px;display:flex;
     justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
@@ -95,24 +147,24 @@
     font-size:11.5px;margin:1px 2px 1px 0;font-weight:600}
   .tag{display:inline-block;padding:1px 8px;border-radius:999px;font-size:10.5px;font-weight:700;
     border:1px solid;letter-spacing:.2px;white-space:nowrap;vertical-align:middle;text-transform:uppercase}
-  .tag-llm_mining{color:var(--accent);border-color:var(--accent);background:rgba(47,111,237,.08)}
-  .tag-llm_reproduced{color:var(--accent2);border-color:var(--accent2);background:rgba(13,148,136,.10)}
-  .tag-human{color:var(--warn);border-color:var(--warn);background:rgba(180,83,9,.08)}
-  .tag-computational{color:var(--accent);border-color:var(--accent);background:rgba(47,111,237,.08)}
-  .tag-experimental{color:var(--accent2);border-color:var(--accent2);background:rgba(13,148,136,.10)}
-  .tag-ai_generated{color:var(--warn);border-color:var(--warn);background:rgba(180,83,9,.08)}
-  .tag-oa{color:#15803d;border-color:#15803d;background:rgba(21,128,61,.09)}
-  .tag-closed{color:#b91c1c;border-color:#b91c1c;background:rgba(185,28,28,.08)}
+  .tag-llm_mining{color:var(--accent);border-color:var(--accent);background:var(--accent-bg)}
+  .tag-llm_reproduced{color:var(--accent2);border-color:var(--accent2);background:var(--accent2-bg)}
+  .tag-human{color:var(--warn);border-color:var(--warn);background:var(--warn-bg)}
+  .tag-computational{color:var(--accent);border-color:var(--accent);background:var(--accent-bg)}
+  .tag-experimental{color:var(--accent2);border-color:var(--accent2);background:var(--accent2-bg)}
+  .tag-ai_generated{color:var(--warn);border-color:var(--warn);background:var(--warn-bg)}
+  .tag-oa{color:var(--ok);border-color:var(--ok);background:var(--ok-bg)}
+  .tag-closed{color:var(--bad);border-color:var(--bad);background:var(--bad-bg)}
   .doi .tag{margin-left:6px}
-  .tag-atom{color:#b45309;border-color:#b45309;background:rgba(180,83,9,.08)}
-  .tag-cluster-model{color:#7c3aed;border-color:#7c3aed;background:rgba(124,58,237,.08)}
-  .tag-molecule{color:#0d9488;border-color:#0d9488;background:rgba(13,148,136,.10)}
-  .tag-solid-state{color:#475569;border-color:#94a3b8;background:rgba(71,85,105,.08)}
+  .tag-atom{color:var(--warn);border-color:var(--warn);background:var(--warn-bg)}
+  .tag-cluster-model{color:var(--violet);border-color:var(--violet);background:var(--violet-bg)}
+  .tag-molecule{color:var(--accent2);border-color:var(--accent2);background:var(--accent2-bg)}
+  .tag-solid-state{color:var(--slate);border-color:var(--slate-bd);background:var(--slate-bg)}
   .structure-dl{color:var(--accent);text-decoration:none;font-size:13px;margin-right:8px}
   .structure-dl:hover{text-decoration:underline}
   .meta-actions{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
   .dl-btn{padding:5px 12px;border-radius:7px;border:1px solid var(--accent);background:var(--accent);
-    color:#fff;font-size:12.5px;font-weight:600;cursor:pointer}
+    color:var(--on-accent);font-size:12.5px;font-weight:600;cursor:pointer}
   .dl-btn:hover{filter:brightness(1.06)}
   #selCount{color:var(--accent);font-size:12.5px;cursor:pointer;user-select:none}
   .selcell{width:32px;text-align:center;padding-right:2px}
@@ -130,11 +182,29 @@
     padding-top:12px;margin-top:4px;border-top:1px solid var(--border)}
   .report-btn{padding:6px 12px;border-radius:6px;border:1px solid var(--warn);background:transparent;
     color:var(--warn);font-size:12.5px;font-weight:600;cursor:pointer}
-  .report-btn:hover{background:var(--warn);color:#fff}
+  .report-btn:hover{background:var(--warn);color:var(--on-accent)}
   .report-hint{color:var(--muted);font-size:11.5px}
-  mark{background:rgba(110,168,254,.35);color:inherit;border-radius:2px;padding:0 1px}
+  mark{background:var(--mark);color:inherit;border-radius:2px;padding:0 1px}
   .empty{color:var(--muted);font-style:italic}
   .none{opacity:.5}
+
+  /* ---- theme switch (top right, mirroring the menu button top left) ---- */
+  .theme-toggle{position:fixed;top:14px;right:14px;z-index:30;height:34px;padding:0 11px;
+    border-radius:8px;border:1px solid var(--border);background:var(--panel);color:var(--text);
+    cursor:pointer;font-size:13px;display:flex;align-items:center;gap:7px;
+    box-shadow:var(--shadow)}
+  .theme-toggle:hover{border-color:var(--accent);color:var(--accent)}
+  .theme-toggle .ti{font-size:14px;line-height:1}
+  /* Only one of the two labels is ever shown, so the button never reflows. */
+  :root[data-theme="dark"] .theme-toggle .t-dark,
+  .theme-toggle .t-light{display:inline}
+  :root[data-theme="dark"] .theme-toggle .t-light,
+  .theme-toggle .t-dark{display:none}
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme="light"]) .theme-toggle .t-light{display:none}
+    :root:not([data-theme="light"]) .theme-toggle .t-dark{display:inline}
+  }
+  @media (max-width:760px){ .theme-toggle .tl{display:none} }
 
   /* ---- sidebar ---- */
   .sidebar-toggle{position:fixed;top:14px;left:14px;z-index:30;width:34px;height:34px;
@@ -150,7 +220,7 @@
   .nav-item{display:block;width:100%;text-align:left;padding:9px 12px;border-radius:7px;border:none;
     background:transparent;color:var(--text);font-size:13.5px;cursor:pointer;margin-bottom:2px;font:inherit}
   .nav-item:hover{background:var(--panel2)}
-  .nav-item.active{background:var(--chip-on);color:#fff;font-weight:600}
+  .nav-item.active{background:var(--chip-on);color:var(--on-accent);font-weight:600}
   /* external link, kept apart from the view-switching buttons above it */
   .sidebar-sep{border:0;border-top:1px solid var(--border);margin:12px 4px}
   .nav-link{display:flex;align-items:center;gap:8px;padding:9px 12px;border-radius:7px;
@@ -163,9 +233,9 @@
   @media(max-width:760px){
     .page{margin-left:0}
     .sidebar{transform:translateX(-100%)}
-    body:not(.sidebar-hidden) .sidebar{transform:translateX(0);box-shadow:2px 0 16px rgba(0,0,0,.2)}
+    body:not(.sidebar-hidden) .sidebar{transform:translateX(0);box-shadow:2px 0 16px var(--sidebar-shadow)}
     body:not(.sidebar-hidden) .sidebar-backdrop{display:block;position:fixed;inset:0;
-      background:rgba(0,0,0,.3);z-index:20}
+      background:var(--scrim);z-index:20}
   }
 
   /* ---- info views (dataset / cite / license) ---- */
@@ -185,8 +255,11 @@
      .meta needs its own [hidden] rule above. */
   .pager[hidden]{display:none}
   table + .pager{margin:12px 0 0}   /* the copy below the table needs its gap above */
+  /* --fg has never existed in this sheet; the declaration was therefore
+     invalid and the colour merely inherited from body, which looked right by
+     accident. Named properly so it survives a theme swap on purpose. */
   .pg-btn{padding:4px 10px;border-radius:6px;border:1px solid var(--border);background:transparent;
-          color:var(--fg);cursor:pointer;font-size:13px}
+          color:var(--text);cursor:pointer;font-size:13px}
   .pg-btn:hover:not(:disabled){border-color:var(--accent);color:var(--accent)}
   .pg-btn:disabled{opacity:.4;cursor:default}
   .pg-num{padding:4px 9px;border-radius:6px;border:1px solid transparent;cursor:pointer;font-size:13px;color:var(--muted)}
@@ -235,14 +308,14 @@
   .form-section-title{font-size:11.5px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;
     color:var(--muted);margin:20px 0 0;grid-column:1/-1;border-top:1px solid var(--border);padding-top:14px}
   .submit-btn{padding:9px 16px;border-radius:8px;border:1px solid var(--accent);background:var(--accent);
-    color:#fff;font-size:14px;font-weight:600;cursor:pointer;margin-top:16px}
+    color:var(--on-accent);font-size:14px;font-weight:600;cursor:pointer;margin-top:16px}
   .submit-btn:hover{filter:brightness(1.06)}
   .form-error{color:var(--warn);font-size:13px;margin:10px 0 0;font-weight:600}
-  .form-success{border:1px solid var(--accent2);background:rgba(13,148,136,.08);border-radius:10px;
+  .form-success{border:1px solid var(--accent2);background:var(--accent2-bg);border-radius:10px;
     padding:16px 18px;margin-top:18px}
   .form-success h3{margin:0 0 6px;font-size:15px}
   .mailto-btn{display:inline-block;margin-top:8px;padding:8px 14px;border-radius:7px;border:1px solid var(--accent);
-    background:var(--accent);color:#fff;font-size:13px;font-weight:600;text-decoration:none}
+    background:var(--accent);color:var(--on-accent);font-size:13px;font-weight:600;text-decoration:none}
 .proplist{display:flex;flex-direction:column;gap:3px}
 .propline{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
 .propkey{min-width:10.5em;color:var(--muted)}
@@ -254,6 +327,11 @@
 </head>
 <body>
 <button class="sidebar-toggle" id="sidebarToggle" aria-label="Toggle menu" title="Toggle menu">☰</button>
+<button class="theme-toggle" id="themeToggle" type="button" aria-pressed="false"
+        title="Switch between light and dark">
+  <span class="ti t-light" aria-hidden="true">&#9790;</span><span class="ti t-dark" aria-hidden="true">&#9728;</span>
+  <span class="tl"><span class="t-light">Dark</span><span class="t-dark">Light</span></span>
+</button>
 <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
 <nav class="sidebar" id="sidebar">
   <a class="sidebar-logo" href="#" id="homeLink">AIMdb</a>
@@ -1560,6 +1638,43 @@ document.querySelectorAll(".nav-item").forEach(b=>{
 });
 $("#homeLink").addEventListener("click", e=>{ e.preventDefault(); goHome(); });
 $("#heroLogoLink").addEventListener("click", e=>{ e.preventDefault(); goHome(); });
+
+// ---- theme (persisted; follows the OS until the reader chooses) ----
+// Nothing is written to data-theme until a choice is made, so the CSS media
+// query stays in charge for a first-time visitor. Once chosen, the attribute
+// wins over the query in both directions -- which is why the dark values are
+// declared twice in the sheet.
+const TH_KEY = "aimdb_theme";
+const prefersDark = () => window.matchMedia &&
+  window.matchMedia("(prefers-color-scheme: dark)").matches;
+function isDark(){
+  const set = document.documentElement.getAttribute("data-theme");
+  return set ? set === "dark" : prefersDark();
+}
+function applyTheme(mode){           // "dark" | "light" | null (follow the OS)
+  if(mode) document.documentElement.setAttribute("data-theme", mode);
+  else document.documentElement.removeAttribute("data-theme");
+  const btn = $("#themeToggle");
+  if(btn){
+    const dark = isDark();
+    btn.setAttribute("aria-pressed", dark ? "true" : "false");
+    btn.setAttribute("aria-label", dark ? "Switch to light mode" : "Switch to dark mode");
+  }
+}
+try{ applyTheme(localStorage.getItem(TH_KEY)); }catch(e){ applyTheme(null); }
+$("#themeToggle").addEventListener("click", ()=>{
+  const next = isDark() ? "light" : "dark";
+  applyTheme(next);
+  try{ localStorage.setItem(TH_KEY, next); }catch(e){}
+});
+// A reader who never chose keeps following the OS if it changes mid-session.
+if(window.matchMedia){
+  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", ()=>{
+    let chosen = null;
+    try{ chosen = localStorage.getItem(TH_KEY); }catch(e){}
+    if(!chosen) applyTheme(null);
+  });
+}
 
 // ---- sidebar show/hide (persisted) ----
 const SB_KEY = "aimdb_sidebar_hidden";
