@@ -109,6 +109,48 @@ Naming *several* compounds is fine: "test set: acrolein, benzene, benzyne,
 PSB3" names four, and is an over-merged row rather than a nameless one. Split
 it if you have the per-compound data; do not strip it.
 
+**A class-named row is usually a SPLIT, not a removal.** Nine were resolved on
+2026-10-11 without losing anything: eight became per-compound rows (8 rows
+became 23) and one was simply narrowed. Splitting is worth the trouble because
+it corrects fields, not just adds them — a merged row carries one active space
+and the paper rarely uses one. W2606848775 recorded (5,9)/15 states for seven
+U(V) complexes when the paper uses (1,7)/7 states for two of them;
+W4200089368 recorded CAS(1,7) and 4f1 for an isostructural Ce/Bk pair when the
+paper states "CAS(1,7) and CAS(8,7) for Ce1 and Bk1"; W2175930880 recorded the
+Dy (9,7) space for its Ni(II) centres, which the paper computes at (8,5). The
+space follows the shell and the compound, so one row cannot hold it for several.
+
+Splitting also *checks* the row, which removal does not. W7155069273 was named
+"dinuclear rare-earth (Eu/Dy) ... complexes" and carried europium in `element`;
+the paper studies no europium at all, and every "Eu" in its text is the
+corresponding author's first name, a cited complex from earlier work, or a
+reference title. That had been making the site's periodic-table filter return
+the paper for europium.
+
+**Two kinds of row look class-named and should be left alone.** Both were
+examined on 2026-10-11 and deliberately not split:
+
+- `W2172599360` — "pseudotetrahedral cobalt(II) complexes with halide
+  ligands". Its tables are crystallographic, and its subject is **two
+  polymorphs (3A, 3B) of one complex**, with the other three halides as
+  literature context. Four compound rows would misrepresent what was computed.
+- `W7150817998` — "idealised YbF_x / ErF_x model series". A **geometry scan**,
+  not a set of compounds: there is nothing to name per row, and the 8.0 and
+  18.0 its text quotes are the 2*g_J*m_J ceilings rather than results.
+
+A row describing a polymorph pair or a geometry scan names what was actually
+computed, which is the test. What fails the test is a row standing for N
+distinct compounds.
+
+**Not every split is a split, either.** Check which compounds the paper
+actually treats before creating rows. `W2467810201` named "the cobalt(II) and
+copper(II) complexes" but its CAS(7,5) is a d7 space used on the cobalt alone,
+so the copper compound earns no row and the fix was a narrowing.
+`W2769765377` named six complexes but the paper structurally characterises
+five; `W4403467707` named a family of five but its table covers three, two of
+its four columns being a truncated model and the full molecule of the same
+compound.
+
 39 rows failing the test were removed on 2026-08-19 with
 `code/tools/tools_strip_rows.py`, which quarantines every removed row to
 `logs/removed_rows.csv` first. Decide this by reading, never by pattern:
