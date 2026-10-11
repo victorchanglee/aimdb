@@ -43,6 +43,51 @@ Other exclusions, each of which is a real collision in this corpus:
   * a g in the reference list is not a result.
   * a g quoted for a different compound, or from someone else's work.
 
+STATE AS OF 2026-10-11: the g-values tier has been read out. All 81 papers in
+it were adjudicated by hand over 2026-10-10/11, yielding 120-odd rows across
+some 40 papers; the other 40 failed attribution for reasons recorded in the
+backfill scripts (a tensor belonging to a different compound in the same
+paper, several method columns with no way to pick one, values quoted from
+another group's work, flattened tables).
+
+ELEVEN PAPERS REMAIN AND CANNOT BE UNBLOCKED BY READING, because the obstacle
+is in the database rather than the source: one row stands for several
+compounds, so a per-compound tensor has nowhere to go. CLAUDE.md already
+forbids a row whose compound_name names no single species, so each of these is
+also a standing violation of it. Splitting them is a re-mining job -- read the
+paper, enumerate the compounds, write a row per compound -- and it would
+unblock the g values as a side effect rather than as its purpose.
+
+    W2172599360  several halide complexes in one row; the fit is labelled for
+                 complex 3A alone
+    W7161785735  "complexes (1 and 2)" in one row, with a separate tensor for
+                 each in the text
+    W2175930880  one row for the Dy(III) AND Ni(II) centres; the tensor is the
+                 Dy Kramers doublet's
+    W2467810201  one row for the cobalt AND copper complexes, and the authors
+                 caveat the values themselves
+    W2606848775  one row listing seven U(V) complexes, 1 through 7 -- and this
+                 is a paper whose whole subject is the electronic g-tensor
+    W2769765377  one row against a five-column table, several columns holding
+                 two values each
+    W3083587694  one row for the Er AND Yb complexes; the fit is the isolated
+                 Er site's
+    W4200089368  one row for the Ce AND Bk complexes; the 5f8 tensor is
+                 berkelium's
+    W4403467707  one row for complexes 1-5; the four table columns agree to
+                 five decimals but are still four distinct columns
+    W7155069273  one row for two complexes, gz given separately for 2 and 3a
+    W7150817998  idealised model series, and its quoted 8.0 and 18.0 are the
+                 2*g_J*m_J ceilings rather than computed values
+
+A WARNING ABOUT SCREENING ON compound_name. Papers were triaged for a while by
+matching that column against words like "complexes", "series" and "models",
+and the proxy over-fires badly: a row named "[Co(L1)2(NCS)2(MeOH)2], the
+mononuclear thiocyanate complex, one of four" names a specific species and is
+perfectly usable. That proxy inflated the blocked count from 11 to 19 and left
+eight readable papers sitting unread. Decide this by reading the name, not by
+matching it.
+
 Usage, from the repository root:
     code/.venv/bin/python benchmark/find_missed_g.py
     code/.venv/bin/python benchmark/find_missed_g.py --tier g-values --show 40
