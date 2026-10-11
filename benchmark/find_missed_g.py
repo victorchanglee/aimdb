@@ -80,17 +80,39 @@ NUM = r"[-+]?\d+(?:\.\d+)?"
 # value, because a flattened table header followed by a row index reads as a
 # value otherwise: "KD 1 2 | E gx gy gz | 1 0 0.71 0.73 8.93" yields "gz 1".
 # Every real g in this corpus is written with a decimal.
+# Two label classes, because they carry different risk.
+#
+# An AXIS label (z, xx, perp, ...) is unambiguous, so a bare juxtaposition is
+# allowed -- "gx 0.011, gy 0.013, gz 6.138" is how plenty of papers write it --
+# subject only to the decimal requirement, which keeps a flattened table
+# header plus row index ("E gx gy gz | 1 0 0.71 ...") from reading as a value.
+#
+# A NUMERIC label needs an explicit = or :, because without one it collides
+# with the GERADE SUBSCRIPT of a symmetry or orbital label followed by a state
+# index. Four classes of that turned up the moment the scan was widened to the
+# whole text, all of them real:
+#     "A g 1 5.96 48100 208"   the A_g state, index 1, at 5.96 eV
+#     "B g 1 2.22 17966 557"   likewise
+#     "t g1 0.029"             the t_1g orbital of C60, energy in hartree
+#     "3<Delta>g 1 2.76 3.28"  a term symbol with Omega = 1, then a bond length
+# A negative lookbehind on the preceding letter cannot separate these, since
+# "e" is both the e_g label and the last letter of "the". Requiring the
+# separator does, and costs little: every g1/g2/g3 value in the database has
+# one in its source clause bar a single paper.
 G_VALUE = re.compile(
-    r"\bg\s*[_ -]?\s*(zz|xx|yy|iso|avg|par|perp|eff|z|x|y|1|2|3|\|\|)"
-    r"(?![A-Za-z0-9])\s*(?:"
-    r"[=:]\s*(%s)"                      # labelled with = or :, integer allowed
-    r"|\s*([-+]?\d+\.\d+)"             # bare juxtaposition needs a decimal
-    r")(?![A-Za-z0-9])" % NUM)
+    r"\bg\s*[_ -]?\s*(?:"
+    r"(zz|xx|yy|iso|avg|par|perp|eff|z|x|y|\|\|)(?![A-Za-z0-9])"
+    r"\s*(?:[=:]\s*(%s)|\s*([-+]?\d+\.\d+))"
+    r"|([123])(?![A-Za-z0-9])\s*[=:]\s*(%s)"
+    r")(?![A-Za-z0-9])" % (NUM, NUM))
 
 
 def _g_value(m):
     """The numeric group of a G_VALUE match, whichever alternative fired."""
-    return m.group(2) if m.group(2) is not None else m.group(3)
+    for i in (2, 3, 5):
+        if m.group(i) is not None:
+            return m.group(i)
+    return None
 # The paper is talking about a g tensor at all.
 G_PHRASE = re.compile(
     r"\bg[-\s]?tensors?\b|\bg[-\s]?factors?\b|\bg[-\s]?values?\b|"
