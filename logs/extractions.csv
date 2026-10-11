@@ -71657,3 +71657,4 @@ timestamp,key,doi,action,result,reasoning
 2026-10-11T11:30:25Z,W2606848775-g,10.1002/chem.201701058,add-row,appended,"split from W2606848775-a, which named all seven of the paper's U(V) complexes in one compound_name; active space and state count taken per complex from Table 3"
 2026-10-11T11:33:06Z,W4200089368-b,10.1038/s41467-021-27576-y,add-row,appended,"split from the paper's single row, which named two compounds at once; the active space and spin-Hamiltonian parameters are taken per compound"
 2026-10-11T11:33:06Z,W7161785735-b,10.1002/advs.75759,add-row,appended,"split from the paper's single row, which named two compounds at once; the active space and spin-Hamiltonian parameters are taken per compound"
+2026-10-11T11:37:56Z,W3083587694-b,10.1039/d0qi00854k,add-row,appended,"split from W3083587694-a, which named the Er and Yb complexes in one compound_name; Yb(III) is 4f13 so the active space differs from the Er row's"
