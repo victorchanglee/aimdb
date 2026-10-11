@@ -61,6 +61,33 @@ paper may state several spaces and none of them is the row's — `W2022699704`
 gives (8,8), (12,12) and (10,10) by dimer class for one row covering all of
 them. In that last case the empty cell is not the defect; the row is.
 
+**THE READABLE QUEUE IS DRAINED (2026-10-11).** Every one of the **77 gap rows
+whose paper states at least one active space** has been read and carries a
+recorded verdict in `notes` — a filled value with its evidence, or the reason it
+cannot be filled. Do not re-read them; `tools_find_active_spaces.py` will still
+list them, because annotating a row does not fill its cell, so check `notes` for
+a dated verdict before spending time on a paper. What remains is the 650 gap
+rows in the 436 papers that print no active space at all, which need
+supplementary information rather than re-reading.
+
+How the 77 came out, and what each outcome means for a future pass:
+
+| | rows | what to do next |
+| --- | --- | --- |
+| filled from stated evidence or a checkable rule | 88* | nothing |
+| not stated, or genuinely ambiguous | 37 | fetch the SI, or leave |
+| class-named row | 20 | **split the row**, then the spaces follow |
+| reduced to a single binary | 17 | decide one structural fact per complex |
+| the empty cell was correct | 3 | nothing |
+
+\* 88 counts every active-space fill or correction this session, including rows
+outside the 77 (the packed-convention and no-digit buckets).
+
+**The 17 reduced to a binary are the best remaining value.** All are
+`W3189614860`, whose rule is five 3d + five 3d′ + one σ (planar quadrilateral)
+or two σ (nonplanar). Each row already carries both candidates and its
+`d_electron_count`; one planarity decision per complex closes all seventeen.
+
 **Prefer a derivation the paper lets you check.** The safe fills all had an
 independent test: a stated rule plus the row's own identity (`CAS(N,N)` with N
 the multimer size; the lanthanide f-shell recipe where the electron count *is*
