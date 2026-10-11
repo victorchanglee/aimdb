@@ -170,6 +170,36 @@ LITERATURE_COLUMNS = [
 # which is why far fewer rows carry a value than mention the quantity.
 #
 #
+# CONSIDERED AND REJECTED: a hyperfine key (A). Keys are free in this field, so
+# the only question is whether the data is there, and measured on 2026-10-10 it
+# is not. 73 rows mention hyperfine across 110 clauses, but only about ten of
+# those clauses carry a number, and after guards exactly ONE yields a clean
+# convertible value ("113 MHz hyperfine to 103Rh along g3", W7147367180-b).
+# Three obstacles, each independently fatal:
+#
+#   * the symbol A is hopelessly overloaded here. Across 111 clauses matching
+#     "A = <number>" with no mention of hyperfine, A was the Angstrom
+#     ("Mn-H=1.576,2.00,2.50,3.00,50.0 A: 0.61911" is a bond-length list then
+#     energies), the Arrhenius pre-exponential ("A=6.60e14 s^-1"), a species
+#     label ("A=-8.6 kcal/mol"), an ABC2 parameter, and -- worst -- the
+#     ROTATIONAL CONSTANT A, which W2078144221-a reports in MHz, the very unit
+#     hyperfine uses. No unit check can separate those two.
+#   * the dominant unit is gauss or millitesla (9 of the ~10 numeric values),
+#     and A in field units becomes a frequency only through g*mu_B for that
+#     species -- the same reason D in gauss is refused rather than converted.
+#   * "G" collides with basis-set names. "CAS(7,8)/6-31G*" parses as -31 G,
+#     and did, on two rows of W2078010867.
+#
+# One more trap, for whoever tries again: `hfc` is NOT always hyperfine. In
+# W4221104479 it is the ligand hexafluoroacetylacetonate, as in Ni(hfc)2(pic)2,
+# and a /\bHFC\b/ pattern picks it up. And W4321605737 states
+# "Aiso(93Nb) = 148.6 G" for a compound its own prose calls "another group's
+# compound quoted for comparison" -- a value THIRD_PARTY must exclude.
+#
+# Where the data actually lives is SI tables, exactly as for the crystal-field
+# B(k,q) parameters (10 rows in prose). Both need supplementary-information
+# reads, not a better regex over what is already here.
+#
 # A WARNING about the g keys. gz is the z principal component of the Zeeman g
 # tensor -- the same quantity as the familiar g factor, which is just its
 # isotropic case -- but the SPIN it multiplies differs between rows, and the
