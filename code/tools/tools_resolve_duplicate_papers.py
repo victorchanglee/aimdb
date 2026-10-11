@@ -94,10 +94,24 @@ def build_plan(index_rows, db_rows):
         journal = [m for m in live if not PREPRINT.match(m["doi"])]
         if not (pre and journal):
             continue
-        n_pre = sum(len(by_key[m["key"]]) for m in pre)
-        n_journal = sum(len(by_key[m["key"]]) for m in journal)
-        winner, loser = ((pre, journal) if n_pre > n_journal
-                         else (journal, pre))  # tie: the journal version wins
+        # THE PEER-REVIEWED VERSION ALWAYS SURVIVES (user ruling 2026-10-11:
+        # "the peer review article should be the authors results"). This
+        # replaces the earlier rule, which kept whichever key carried more
+        # rows and gave the journal only the tie -- that let a preprint stand
+        # as the citation of record whenever it happened to have been mined
+        # more thoroughly, which is the wrong provenance for a published
+        # result even when it is the fuller reading.
+        #
+        # The coverage guard below is what keeps the ruling from destroying
+        # data: a pair is still only resolved when the survivor already holds
+        # every (nel,norb) the loser does. Measured over the whole index on
+        # 2026-10-11, removing every duplicate preprint unconditionally would
+        # delete 247 rows of which only 35 are genuinely redundant -- 92 sit
+        # against a journal copy that is indexed but was never mined, 51
+        # against a journal copy missing a space the preprint holds, and 69
+        # have no journal copy in the index at all. Those are re-attribution
+        # work, not deletions.
+        winner, loser = journal, pre
 
         won = Counter(_space(r) for m in winner for r in by_key[m["key"]])
         lost = Counter(_space(r) for m in loser for r in by_key[m["key"]])

@@ -488,14 +488,44 @@ source and no reason to look under the twin. Run
 text across and banners it, since a preprint and a published article are not
 the same document.
 
-The survivor is whichever key carries more rows — the preprint was often mined
-more thoroughly than the published version — and the journal DOI wins a tie.
+**The peer-reviewed version always survives** (user ruling 2026-10-11: "the
+peer review article should be the authors results"). This replaces the earlier
+rule, which kept whichever key carried more rows and gave the journal only the
+tie — that let a preprint stand as the citation of record whenever it happened
+to have been mined more thoroughly, which is the wrong provenance for a
+published result even when it is the fuller reading.
+
 **Only resolve a pair when the survivor already covers every `(nel,norb)` the
-loser holds.** Where it does not, the second copy is not a duplicate but a
-different reading of the same paper, and deleting it loses data: of the 29
-pairs, 7 were held back, one because the published version reported six
-molecules (AlCH2, CPP, CCO, CNN, both cyanomethanimine isomers) that the
-preprint pass never extracted. Those need merging by hand, not deletion.
+loser holds.** This guard is what keeps the ruling from destroying data, and it
+is doing real work: measured over the whole index on 2026-10-11, removing every
+duplicate preprint unconditionally would delete **247 rows of which only 35 are
+genuinely redundant**. The other 212 break down as
+
+| | groups | preprint rows | journal rows |
+| --- | --- | --- | --- |
+| journal copy indexed but never mined | 20 | 92 | 0 |
+| journal copy misses a space the preprint holds | 11 | 51 | 40 |
+| no journal copy in the index at all | 49 | 69 | 0 |
+
+and all of those are **re-attribution work, not deletions** — the fix is to
+point the rows' `reference_doi` at the published article where one exists (and
+to search for one where it does not), not to drop the only reading the database
+has. 35 rows across 9 pairs were removed on 2026-10-11 under the new rule; the
+rest are still outstanding.
+
+Two blind spots in the title matching were fixed the same day, both found by
+noticing identical values under two keys rather than by the tool:
+
+- **HTML markup.** OpenAlex returns publisher titles with tags intact, so one
+  paper arrived as `... Air-Stable <i>D</i> <sub>5h</sub> SIMs**` and its
+  preprint as `... air-stable D5h SIMs`; stripping only non-alphanumerics left
+  `idisub5hsubsims` against `d5hsims`.
+- **Unicode typesetting.** A preprint writing an oxidation state in modifier
+  letters normalised to `cotaml` while the journal's plain `III` gave
+  `coiiitaml`. `_title()` now applies NFKC before stripping.
+
+Between them these took detection from 11 pairs to 20 among rows-on-both-sides
+cases, and the full index holds **205** preprint/journal groups.
 
 A second mechanism produces the same damage invisibly: a paper that already has
 rows being **re-mined from a hand-supplied PDF**. It writes under the same key
