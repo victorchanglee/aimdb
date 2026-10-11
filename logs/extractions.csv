@@ -71518,3 +71518,84 @@ timestamp,key,doi,action,result,reasoning
 2026-10-09T12:58:31Z,W2497812304,10.1063/1.1531659,restore-text,download_failed,no OA location served a PDF
 2026-10-09T12:58:33Z,W2029730115,10.1016/j.cplett.2009.10.042,restore-text,download_failed,no OA location served a PDF
 2026-10-09T12:58:38Z,W4386954953,10.1016/j.jlumin.2023.120207,restore-text,text_restored,"re-extracted text for a paper already marked extracted, unlocking 1 row(s) for audit; status left unchanged"
+2026-10-11T00:25:19Z,W2414031818,10.1021/jacs.5b06716,import,candidate,user DOI list: /tmp/claude-1000/-media-victor-disk1-claude/0018003f-f003-4922-8e6e-d07aa0541582/scratchpad/zfs_import.csv
+2026-10-11T00:25:19Z,W4405441527,10.1021/jacs.4c14795,import,candidate,user DOI list: /tmp/claude-1000/-media-victor-disk1-claude/0018003f-f003-4922-8e6e-d07aa0541582/scratchpad/zfs_import.csv
+2026-10-11T00:25:19Z,W4412727544,10.1021/acs.inorgchem.5c02691,import,candidate,user DOI list: /tmp/claude-1000/-media-victor-disk1-claude/0018003f-f003-4922-8e6e-d07aa0541582/scratchpad/zfs_import.csv
+2026-10-11T00:25:19Z,W2006758255,10.1016/s0301-0104(02)00451-2,import,candidate,user DOI list: /tmp/claude-1000/-media-victor-disk1-claude/0018003f-f003-4922-8e6e-d07aa0541582/scratchpad/zfs_import.csv
+2026-10-11T00:25:19Z,W2332682112,10.1021/om300892y,import,candidate,user DOI list: /tmp/claude-1000/-media-victor-disk1-claude/0018003f-f003-4922-8e6e-d07aa0541582/scratchpad/zfs_import.csv
+2026-10-11T00:25:19Z,W2929427712,10.1016/j.ica.2019.04.005,import,candidate,user DOI list: /tmp/claude-1000/-media-victor-disk1-claude/0018003f-f003-4922-8e6e-d07aa0541582/scratchpad/zfs_import.csv
+2026-10-11T00:25:19Z,W2016131295,10.1007/s00214-003-0532-5,import,candidate,user DOI list: /tmp/claude-1000/-media-victor-disk1-claude/0018003f-f003-4922-8e6e-d07aa0541582/scratchpad/zfs_import.csv
+2026-10-11T00:25:19Z,W4311065136,10.1021/acs.cgd.2c00728,import,candidate,user DOI list: /tmp/claude-1000/-media-victor-disk1-claude/0018003f-f003-4922-8e6e-d07aa0541582/scratchpad/zfs_import.csv
+2026-10-11T00:25:19Z,W2790890369,10.1016/j.chemphys.2018.02.002,import,candidate,user DOI list: /tmp/claude-1000/-media-victor-disk1-claude/0018003f-f003-4922-8e6e-d07aa0541582/scratchpad/zfs_import.csv
+2026-10-11T00:25:19Z,W3033376308,10.1016/j.poly.2020.114630,import,candidate,user DOI list: /tmp/claude-1000/-media-victor-disk1-claude/0018003f-f003-4922-8e6e-d07aa0541582/scratchpad/zfs_import.csv
+2026-10-11T00:25:19Z,W3097608567,10.1016/j.poly.2020.114887,import,candidate,user DOI list: /tmp/claude-1000/-media-victor-disk1-claude/0018003f-f003-4922-8e6e-d07aa0541582/scratchpad/zfs_import.csv
+2026-10-11T00:25:34Z,W2414031818,10.1021/jacs.5b06716,mark,fetched,PDF supplied from the ZFS project at /media/victor/disk1/claude/zfs/pdfs; identified as a multireference-ZFS paper absent from aimdb
+2026-10-11T00:25:34Z,W4412727544,10.1021/acs.inorgchem.5c02691,mark,fetched,PDF supplied from the ZFS project at /media/victor/disk1/claude/zfs/pdfs; identified as a multireference-ZFS paper absent from aimdb
+2026-10-11T00:25:34Z,W2006758255,10.1016/s0301-0104(02)00451-2,mark,fetched,PDF supplied from the ZFS project at /media/victor/disk1/claude/zfs/pdfs; identified as a multireference-ZFS paper absent from aimdb
+2026-10-11T00:25:34Z,W2332682112,10.1021/om300892y,mark,fetched,PDF supplied from the ZFS project at /media/victor/disk1/claude/zfs/pdfs; identified as a multireference-ZFS paper absent from aimdb
+2026-10-11T00:25:34Z,W2929427712,10.1016/j.ica.2019.04.005,mark,fetched,PDF supplied from the ZFS project at /media/victor/disk1/claude/zfs/pdfs; identified as a multireference-ZFS paper absent from aimdb
+2026-10-11T00:25:35Z,W2016131295,10.1007/s00214-003-0532-5,mark,fetched,PDF supplied from the ZFS project at /media/victor/disk1/claude/zfs/pdfs; identified as a multireference-ZFS paper absent from aimdb
+2026-10-11T00:25:35Z,W4311065136,10.1021/acs.cgd.2c00728,mark,fetched,PDF supplied from the ZFS project at /media/victor/disk1/claude/zfs/pdfs; identified as a multireference-ZFS paper absent from aimdb
+2026-10-11T00:25:35Z,W2790890369,10.1016/j.chemphys.2018.02.002,mark,fetched,PDF supplied from the ZFS project at /media/victor/disk1/claude/zfs/pdfs; identified as a multireference-ZFS paper absent from aimdb
+2026-10-11T00:25:35Z,W3033376308,10.1016/j.poly.2020.114630,mark,fetched,PDF supplied from the ZFS project at /media/victor/disk1/claude/zfs/pdfs; identified as a multireference-ZFS paper absent from aimdb
+2026-10-11T00:25:35Z,W3097608567,10.1016/j.poly.2020.114887,mark,fetched,PDF supplied from the ZFS project at /media/victor/disk1/claude/zfs/pdfs; identified as a multireference-ZFS paper absent from aimdb
+2026-10-11T00:25:40Z,W2414031818,10.1021/jacs.5b06716,text,text_ready,6 pages -> W2414031818.txt
+2026-10-11T00:25:41Z,W4412727544,10.1021/acs.inorgchem.5c02691,text,text_ready,17 pages -> W4412727544.txt
+2026-10-11T00:25:41Z,W2006758255,10.1016/s0301-0104(02)00451-2,text,text_ready,10 pages -> W2006758255.txt
+2026-10-11T00:25:41Z,W2332682112,10.1021/om300892y,text,text_ready,10 pages -> W2332682112.txt
+2026-10-11T00:25:42Z,W2929427712,10.1016/j.ica.2019.04.005,text,text_ready,9 pages -> W2929427712.txt
+2026-10-11T00:25:42Z,W2016131295,10.1007/s00214-003-0532-5,text,text_ready,8 pages -> W2016131295.txt
+2026-10-11T00:25:42Z,W4311065136,10.1021/acs.cgd.2c00728,text,text_ready,10 pages -> W4311065136.txt
+2026-10-11T00:25:43Z,W2790890369,10.1016/j.chemphys.2018.02.002,text,text_ready,9 pages -> W2790890369.txt
+2026-10-11T00:25:43Z,W3033376308,10.1016/j.poly.2020.114630,text,text_ready,7 pages -> W3033376308.txt
+2026-10-11T00:25:44Z,W3097608567,10.1016/j.poly.2020.114887,text,text_ready,8 pages -> W3097608567.txt
+2026-10-11T00:28:38Z,W2929427712-a,10.1016/j.ica.2019.04.005,add-row,appended,row added via add-row
+2026-10-11T00:28:38Z,W2929427712-b,10.1016/j.ica.2019.04.005,add-row,appended,row added via add-row
+2026-10-11T00:28:38Z,W2929427712-c,10.1016/j.ica.2019.04.005,add-row,appended,row added via add-row
+2026-10-11T00:28:39Z,W2929427712-d,10.1016/j.ica.2019.04.005,add-row,appended,row added via add-row
+2026-10-11T00:28:39Z,W2929427712-e,10.1016/j.ica.2019.04.005,add-row,appended,row added via add-row
+2026-10-11T00:28:39Z,W2929427712-f,10.1016/j.ica.2019.04.005,add-row,appended,row added via add-row
+2026-10-11T00:28:46Z,W2929427712,10.1016/j.ica.2019.04.005,mark,extracted,"Read in full. SA-CASSCF(8,5)/NEVPT2 with QDPT/SOMF in ORCA 4.0.0 on experimental X-ray geometries; six rows, one per crystallographically independent Ni(II) site across the four complexes (1, the 2O/2T pair, 3, the 4O/4T pair). Computed D and E/D from Table 12 and the magnetic-fit D from Table 11 recorded in the new ZFS columns. Finding: the d-only (8,5) space reproduces the octahedral sites to ~1 cm-1 but overshoots the tetrahedral [NiCl4]2- units 2.6-4x, tracking the orbitally degenerate 3T1 ground term."
+2026-10-11T00:30:39Z,W3033376308-a,10.1016/j.poly.2020.114630,add-row,appended,row added via add-row
+2026-10-11T00:30:39Z,W3033376308-b,10.1016/j.poly.2020.114630,add-row,appended,row added via add-row
+2026-10-11T00:30:39Z,W3033376308,10.1016/j.poly.2020.114630,mark,extracted,"Read in full. CASSCF(7,5)/NEVPT2 in ORCA 4.0.1.2, def2-TZVPP, on the crystallographic geometries of the two independent molecules of [Co(dbz)Cl2]; one row each. Table 5 gives D with E/D in parentheses for two spin-orbit protocols; the effective-Hamiltonian values go in zfs_D_calc and the MCD-spectrum values from the same protocol in zfs_D_exp, with the second-order-PT, MCD-saturation and magnetometry numbers recorded in notes. Finding: the choice of ZFS extraction protocol moves D by ~2 cm-1, more than the spread between experimental techniques."
+2026-10-11T00:35:02Z,W2414031818-a,10.1021/jacs.5b06716,add-row,appended,row added via add-row
+2026-10-11T00:35:02Z,W2414031818,10.1021/jacs.5b06716,mark,extracted_partial,"Read in full. SA-CASSCF(12,7)/NEVPT2 Master-matrix treatment of SOC and SSC on [Ni{iPr2P(Se)NP(Se)iPr2}2]; computed D 47.9 cm-1, E/D 0.05 against FIRMS 45.40(2) and E/D 0.04. One row. extracted_partial because the main text names neither the software nor the basis set, deferring both to the SI, which was not available; guessing ORCA from the authorship would be inference."
+2026-10-11T00:36:27Z,W3097608567-a,10.1016/j.poly.2020.114887,add-row,appended,row added via add-row
+2026-10-11T00:36:27Z,W3097608567,10.1016/j.poly.2020.114887,mark,extracted,"Read in full. SA-CASSCF(6,6)/NEVPT2 with QDPT in ORCA 4.0 on a Ga(III)2-substituted model of [Mn3O(mhaep)3(MeOH)3](ClO4), to isolate the single-ion anisotropy of one Mn(III). One row, naming the model rather than the trimer. zfs_D_calc is the single-ion d = -1.96 cm-1; the molecular D of -0.083 cm-1 is an irreducible-tensor projection of it, not a CASSCF output, so it is recorded in prose. No experimental D: reduced magnetisation only shows D is too small to distinguish."
+2026-10-11T00:37:54Z,W4311065136-a,10.1021/acs.cgd.2c00728,add-row,appended,row added via add-row
+2026-10-11T00:37:54Z,W4311065136-b,10.1021/acs.cgd.2c00728,add-row,appended,row added via add-row
+2026-10-11T00:37:54Z,W4311065136,10.1021/acs.cgd.2c00728,mark,extracted,"Read in full. SA-CASSCF(n,5)/NEVPT2 with DKH + QDPT in ORCA 4.2.1 on mononuclear models cut from two isostructural 1D helical coordination polymers, n = 7 (Co) and 8 (Ni). Two rows, both system_class=cluster-model since the model stands in for a chain. Table 3 separates D(soc) and D(ssc) so ss_included=yes. Finding: NEVPT2 lowers D by 16% (Co) and 25% (Ni) versus CASSCF and moves the Co rhombicity to E/D 0.326, near the rhombic limit; SSC is negligible in both."
+2026-10-11T00:39:08Z,W2332682112-a,10.1021/om300892y,add-row,appended,row added via add-row
+2026-10-11T00:39:08Z,W2332682112,10.1021/om300892y,mark,extracted,"Read in full. SORCI with a CAS(3,5) quasi-restricted V 3d space in ORCA 2.8/2.9, TZVP, 10 quartet + 15 doublet roots, both DSOC and DSSC computed. One row: the four SORCI results are four geometries of vanadocene, not four compounds. Finding: DFT and SORCI both reproduce the HFEPR D of 2.836 cm-1, but their DSOC/DSSC decomposition disagrees by nearly 2x in opposite directions, so the DFT value is right only by cancellation of errors; the authors verified that enlarging the active space or adding roots did not change the D tensor."
+2026-10-11T00:40:26Z,W2790890369-a,10.1016/j.chemphys.2018.02.002,add-row,appended,row added via add-row
+2026-10-11T00:40:26Z,W2790890369-b,10.1016/j.chemphys.2018.02.002,add-row,appended,row added via add-row
+2026-10-11T00:40:26Z,W2790890369-c,10.1016/j.chemphys.2018.02.002,add-row,appended,row added via add-row
+2026-10-11T00:40:27Z,W2790890369-d,10.1016/j.chemphys.2018.02.002,add-row,appended,row added via add-row
+2026-10-11T00:40:27Z,W2790890369-e,10.1016/j.chemphys.2018.02.002,add-row,appended,row added via add-row
+2026-10-11T00:40:27Z,W2790890369-f,10.1016/j.chemphys.2018.02.002,add-row,appended,row added via add-row
+2026-10-11T00:40:27Z,W2790890369,10.1016/j.chemphys.2018.02.002,mark,extracted,"Read in full. CASSCF(7,7) over the 4f7 shell with QDPT spin-orbit in ORCA 3.0.3, SARC-DKH TZ on the metals, 1 octet + 48 sextets state-averaged; geometries from PBE0 and AIMD in CP2K 5.0. Six rows for M(H2O)n, M = Gd(III)/Eu(II), n = 7,8,9 at their own optimised geometries; the Gd@Eu and Eu@Gd geometry swaps are the same species and are recorded in prose. Finding: an MRCI step on the same orbitals changes D by nothing, since no excitations enter or leave a 4f7 space, but cutting the sextet roots from 48 to 3 raises D sevenfold - the root count, not the space size, governs D here."
+2026-10-11T00:42:31Z,W4412727544-a,10.1021/acs.inorgchem.5c02691,add-row,appended,row added via add-row
+2026-10-11T00:42:31Z,W4412727544-b,10.1021/acs.inorgchem.5c02691,add-row,appended,row added via add-row
+2026-10-11T00:42:31Z,W4412727544-c,10.1021/acs.inorgchem.5c02691,add-row,appended,row added via add-row
+2026-10-11T00:42:32Z,W4412727544-d,10.1021/acs.inorgchem.5c02691,add-row,appended,row added via add-row
+2026-10-11T00:42:32Z,W4412727544,10.1021/acs.inorgchem.5c02691,mark,extracted_partial,"Read in full. SA-CASSCF(6,5)/SC-NEVPT2 with the effective-Hamiltonian approach on four [Fe(X)(Tp-tBu,Me)] halides; four rows. extracted_partial because the main text names neither software nor basis set, deferring both to the SI. Finding: on a fixed (6,5) space the computed D is governed by the geometry, and for 1-Cl and 1-I the SIGN flips between geometries - so zfs_D_calc is left empty for those two and filled only for 1-F and 1-Br where all geometries agree in sign. Experimental HFEPR/FIRMS values recorded for all four."
+2026-10-11T00:44:16Z,W2006758255-a,10.1016/s0301-0104(02)00451-2,add-row,appended,row added via add-row
+2026-10-11T00:44:16Z,W2006758255-b,10.1016/s0301-0104(02)00451-2,add-row,appended,row added via add-row
+2026-10-11T00:44:17Z,W2006758255-c,10.1016/s0301-0104(02)00451-2,add-row,appended,row added via add-row
+2026-10-11T00:44:17Z,W2006758255-d,10.1016/s0301-0104(02)00451-2,add-row,appended,row added via add-row
+2026-10-11T00:44:17Z,W2006758255,10.1016/s0301-0104(02)00451-2,mark,extracted,"Read in full. MCSCF with complete active spaces in a modified DALTON: CAS(6,6) pi space for triplet benzene (DZP) and CAS(10,12) for O2 (aug-cc-pCVTZ, 35440 CSFs). Four rows: benzene plus the X3Sigma_g-, A3Sigma_u+ and B3Sigma_u- states of O2, which carry different D and a different SS/SO balance each. Findings: benzene's D is entirely spin-spin and converges from 0.1402 at (4,4) to 0.1583 at (6,6) against a measured 0.159; for O2 the ground state is 1.455 SS + 2.315 SO, the A state is 90% spin-orbit and the B state mainly spin-spin, so one mechanism alone cannot describe all three states."
+2026-10-11T00:45:39Z,W2016131295-a,10.1007/s00214-003-0532-5,add-row,appended,row added via add-row
+2026-10-11T00:45:39Z,W2016131295-b,10.1007/s00214-003-0532-5,add-row,appended,row added via add-row
+2026-10-11T00:45:40Z,W2016131295-c,10.1007/s00214-003-0532-5,add-row,appended,row added via add-row
+2026-10-11T00:45:40Z,W2016131295-d,10.1007/s00214-003-0532-5,add-row,appended,row added via add-row
+2026-10-11T00:45:40Z,W2016131295,10.1007/s00214-003-0532-5,mark,extracted,"Read in full. MCSCF with complete active spaces plus PCM in a local DALTON (SSC) and MOLCAS with AMFI (SOC), Dunning TZ. Four rows, one per molecule, each with its own mixed sigma/pi space: pyridine (8,7), pyrazine (10,8), pyrimidine (10,10), quinoline (12,12). Gas-phase D and E from Table 1 go in the ZFS columns; the PCM solvent series is described in prose. Finding: for a 3(pi,pi*) triplet the second-order spin-orbit term is negligible so D is entirely spin-spin, the exceptions being pyrazine and pyrimidine whose lowest triplet is not 3(pi,pi*)."
+2026-10-11T00:49:22Z,W4411060346,10.1021/jacs.5c04004,import,candidate,user DOI list: /tmp/claude-1000/-media-victor-disk1-claude/0018003f-f003-4922-8e6e-d07aa0541582/scratchpad/cr4.csv
+2026-10-11T00:49:31Z,W4411060346,10.1021/jacs.5c04004,mark,fetched,PDF and SI supplied by hand into papers/pending (publisher filenames ja5c04004.pdf and ja5c04004_si_001.pdf); renamed to the index key and the SI filed under papers/si/
+2026-10-11T00:49:31Z,W4411060346,10.1021/jacs.5c04004,text,text_ready,10 pages -> W4411060346.txt
+2026-10-11T00:55:49Z,W4411060346-a,10.1021/jacs.5c04004,add-row,appended,row added via add-row
+2026-10-11T00:55:49Z,W4411060346-b,10.1021/jacs.5c04004,add-row,appended,row added via add-row
+2026-10-11T00:55:49Z,W4411060346-c,10.1021/jacs.5c04004,add-row,appended,row added via add-row
+2026-10-11T00:55:50Z,W4411060346-d,10.1021/jacs.5c04004,add-row,appended,row added via add-row
+2026-10-11T00:55:50Z,W4411060346-e,10.1021/jacs.5c04004,add-row,appended,row added via add-row
+2026-10-11T00:56:02Z,W4411060346,10.1021/jacs.5c04004,mark,extracted,"Read in full with its SI. SA-CASSCF(8,13)/NEVPT2 in ORCA 5.0.3, DKH2 with cc-pVTZ-DK, 7 triplets + 9 singlets, on Cr(IV) qubits embedded in a model electrostatic matrix representing the tin host; system_class=cluster-model. Five rows: the four benchmark qubits in their isostructural hosts (SI Table S2, converged 100 Ry) plus Cr(o-tolyl)4 in the non-isostructural fluorinated host, which is the paper's design result. D and E converted from GHz at 0.0333564095 cm-1/GHz. Per-compound experimental values are only plotted in Figure 2 so zfs_D_exp is empty; the stated MADs are 0.35 and 0.09 GHz. Findings: AVAS independently confirms (8,13) is optimal, and the accuracy is limited by geometry not active space - a 60 Ry cutoff changes |D| by up to 3.6x."

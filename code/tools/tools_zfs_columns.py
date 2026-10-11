@@ -60,6 +60,23 @@ NEW_COLUMNS = ("zfs_D_calc", "zfs_ED_calc", "zfs_D_exp", "zfs_ED_exp")
 # here is what keeps a computed value from inheriting an experimental context.
 CLAUSE = re.compile(r"\s*[;|]\s*|(?<=[a-z0-9\)])\.\s+(?=[A-Z])")
 
+# "|D|" means the magnitude of D and is very common, but the pipe is also
+# aimdb's prose separator, so CLAUSE would split "|D|: 2.72 GHz" into pieces
+# holding either the D or the number but never both -- losing the value with
+# no skip reason recorded. Normalise the bars to a word form before splitting.
+ABSBARS = (
+    (re.compile(r"\|\s*E\s*/\s*D\s*\|"), "E/D"),
+    (re.compile(r"\|\s*D\s*\|"), "absD"),
+    (re.compile(r"\|\s*E\s*\|"), "absE"),
+)
+
+
+def unbar(text):
+    """Rewrite |D|, |E| and |E/D| so the clause splitter leaves them alone."""
+    for pat, repl in ABSBARS:
+        text = pat.sub(repl, text)
+    return text
+
 CALC = re.compile(
     r"calculat|comput|\bCASSCF\b|\bNEVPT|\bCASPT|\bRASSCF\b|ab initio|"
     r"predict|theoretic|RASSI|SINGLE_ANISO|\bDFT\b|\bMRCI\b|\bDMRG\b|"
@@ -84,9 +101,10 @@ NUM = r"[-+]?\d+(?:\.\d+)?"
 # not a parameter. "(?![A-Za-z])" stops a term symbol being read as a value --
 # the 1 of "1A1" is not a number in this sense.
 D_PAT = re.compile(
-    r"(?<!in )(?:\|\s*D\s*\||\bD\b)\s*(?:value|parameter)?s?\s*"
+    r"(?<!in )\b(?:absD|D)\b\s*(?:value|parameter)?s?\s*"
     r"(?:=|of|is|:)\s*(%s)(?![A-Za-z])" % NUM)
-E_PAT = re.compile(r"\bE\b\s*(?:=|of|is|:)\s*(%s)(?![A-Za-z])" % NUM)
+E_PAT = re.compile(
+    r"\b(?:absE|E)\b\s*(?:=|of|is|:)\s*(%s)(?![A-Za-z])" % NUM)
 ED_PAT = re.compile(
     r"\bE\s*/\s*D\b\s*(?:=|of|is|:)\s*(%s)(?![A-Za-z])" % NUM)
 # A second number right after the first means a range or a list.
@@ -98,7 +116,7 @@ UNC = r"(?:\s*\([^)]{0,24}\))?"
 # En- and em-dashes are used for ranges as often as the ASCII hyphen here.
 SEP = r"(?:,|/|-|–|—|to|and|then|against|versus|vs\.?)"
 MULTI_D = re.compile(
-    r"\bD\b[^.;|]{0,12}(?:=|is|of)\s*%s%s\s*%s\s*%s"
+    r"\b(?:absD|D)\b[^.;|]{0,12}(?:=|is|of|:)\s*%s%s\s*%s\s*%s"
     % (NUM, UNC, SEP, NUM))
 # "NEVPT2 improves it to -44.78" carries the value forward to another level of
 # theory, so the clause states two computed D values and only the first is in
@@ -214,8 +232,13 @@ def extract(row):
         text = row[col]
         if not text:
             continue
+        text = unbar(text)
         for clause in CLAUSE.split(text):
-            if not clause or not re.search(r"\bD\b|\bE\s*/\s*D\b", clause):
+            # absD/absE are what unbar() leaves behind; "\bD\b" does not
+            # match the D inside absD, and this guard silently dropped
+            # every |D| clause until it did.
+            if not clause or not re.search(
+                    r"\b(?:absD|D)\b|\b(?:absE|E)\s*/\s*D\b", clause):
                 continue
             if THIRD_PARTY.search(clause):
                 if D_PAT.search(clause):
@@ -309,7 +332,15 @@ def main(argv=None):
         formatter_class=argparse.RawDescriptionHelpFormatter)
     mode = ap.add_mutually_exclusive_group(required=True)
     mode.add_argument("--dry-run", action="store_true")
-    mode.add_argument("--apply", action="store_true")
+    mode.add_argument("--apply", action="store_true",
+                      help="reset all four columns and rewrite them from "
+                           "prose. DISCARDS hand-curated values, including "
+                           "the deliberate blanks on rows whose computed D "
+                           "changes sign between geometries -- see "
+                           "--fill-only")
+    mode.add_argument("--fill-only", action="store_true",
+                      help="write a column only where it is currently empty; "
+                           "never overwrite. The safe mode after hand-mining")
     mode.add_argument("--sample", type=int, metavar="N",
                       help="print N extractions with their source clause, "
                            "for hand checking before --apply")
@@ -353,19 +384,35 @@ def main(argv=None):
 
     if "zfs_D_calc" not in fields:
         fields = list(fields) + list(NEW_COLUMNS)
+    written = kept = 0
     for r, vals, _ in results:
-        # Reset before writing, never merge: a value this run no longer
-        # extracts must disappear, or the file stops reflecting the rules.
-        for col in NEW_COLUMNS:
-            r[col] = ""
-        r.update(vals)
+        if args.fill_only:
+            # Only fill blanks. Anything already present was either written by
+            # an earlier run or curated by hand, and the tool cannot tell
+            # which, so it must not touch it.
+            for col in NEW_COLUMNS:
+                r.setdefault(col, "")
+                if r[col].strip():
+                    kept += 1
+                elif col in vals:
+                    r[col] = vals[col]
+                    written += 1
+        else:
+            # Reset before writing, never merge: a value this run no longer
+            # extracts must disappear, or the file stops reflecting the rules.
+            for col in NEW_COLUMNS:
+                r[col] = ""
+            r.update(vals)
+            written += len(vals)
     tmp = DB.with_suffix(".csv.tmp")
     with tmp.open("w", newline="", encoding="utf-8") as fh:
         w = csv.DictWriter(fh, fieldnames=fields)
         w.writeheader()
         w.writerows(rows)
     os.replace(tmp, DB)
-    print("\nwrote %d rows with %d columns" % (len(rows), len(fields)))
+    print("\nwrote %d rows with %d columns (%d cell(s) filled%s)"
+          % (len(rows), len(fields), written,
+             ", %d existing left untouched" % kept if args.fill_only else ""))
     return 0
 
 

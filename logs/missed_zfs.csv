@@ -1,0 +1,965 @@
+key,state,tier,rows,kramers,doi,compound,evidence
+W4251025491,unmined,D-value,3,,10.26434/chemrxiv.14254289.v1,"cobalt(III) tetraphenylporphyrin carbene radical, [Co(TPP)(.CHCO2Et)]","broad range of spectral features was well repro-
+duced by the DFT calculated zero-field splitting parameters (D 
+= 0.33 cm-1, D/E = 0.28) and g values (2.005, 2.006, 2.0125) for"
+W3177508800,unmined,D-value,2,yes,10.1016/j.ica.2021.120524,Ni(II) sites of the heptanuclear Ni4Dy3 coordination aggregate,"showed also in Fig. 6 confirming 
+well separated ground state S = 1 with the zero-field splitting parameters: D = -13.9 cm-1 and 
+E/D = 0.265 for Ni1 and D = -12.9 cm-1 and E/D ="
+W7160562793,unmined,D-value,1,,10.1038/s41535-026-00888-2,positively charged chlorine-vacancy center in 4H-SiC (kk configuration,"and 1.02 GHz at CASSCF-NEVPT2
+and RO-DFT level, respectively. Similarly, the supercell
+model of Ref. 21 gives D = 1.15 GHz, taking into ac-
+count spin de-contamination, details o"
+W4414641523,unparsed,D-value,1,yes,10.1021/acs.inorgchem.5c02754,Fe(III) porphyrin thiocyanate complex,"tic data. High energy 
+separation of the excited states also caused a small value of the axial ZFS parameter, D = 2.1 cm-1. 
+ 
+Figure 9. Results of the CASSCF, CASSCF/NEVPT2, an"
+W3189614860,unmined,ZFS-phrase,25,yes,10.1021/acs.jctc.1c00208,[Cu(NH3)4]2+,"in −orbit coupling is included by
+constructing and diagonalizing a spin −orbit-inclusive Hamil-
+tonian in a basis of these spin −orbit-free states. 20,21
+Experimentally observed EPR results can be interpreted in
+terms of"
+W4379599864,unmined,ZFS-phrase,25,yes,10.1021/acs.inorgchem.3c00956,"Model complex 4H-Dy, a lanthanoarene sandwich [(CnRn)2Ln] with a 4-mem","l field
+parameters, which is also reflected in the estimated U
+cal
+values.
+The analysis of the CF parameters from the above calculations
+gives an intriguing insight into the geometric distortions
+observed. Here, the axia"
+W2313236080,unmined,ZFS-phrase,20,yes,10.1021/ic402367c,"tris(acetylacetonato)-(pyrazino[2,3-f][1,10]phenanthroline)-dysprosium","ons. Theoretical results were compared
+with their experimental slow relaxation data, and general conclusions about
+the calculated key parameters related with SMM behavior are presented. The
+eﬀect of the coordination geom"
+W4414966666,unmined,ZFS-phrase,16,,10.26434/chemrxiv-2025-h913v,"[Dy(DiMeQ)2Cl3(H2O)], a pseudo-Dnh Dy(III) single-ion magnet (complex ","ld (CF) operator and the Stevens operator, 
+respectively. In this context, when the value of k is 2, 𝐵𝑘
+𝑞 represents the tensor quantity (higher 
+order indices like 4, 6 etc., are also possible). When k = 2, q = 0 ( 𝐵2
+0"
+W4386305654,unmined,ZFS-phrase,12,,10.1021/acs.inorgchem.3c01632,"[Mn(II)(H3buea)(OH)], the Mn(II) hydroxo member of the series, studied","their spin−orbit coupling is also
+expected to increase (see Table S1b) for computed spectral
+Inorganic Chemistry pubs.acs.org/IC Article
+https://doi.org/10.1021/acs.inorgchem.3c01632
+Inorg. Chem. 2023, 62, 14931−14941
+1"
+W2531098318,unmined,ZFS-phrase,8,yes,10.1021/acs.inorgchem.6b01831,Copper(II)-dysprosium(III) heterometallic complex,"ion in complexes 1 and 2 possesses oblate electron
+density12 where weak equatorial ligation and strong axial
+ligation enhance the barrier height. Both in complexes 1 and 2,
+the bridging μ-phenoxo oxygen atoms and a nitr"
+W4221087017,unmined,ZFS-phrase,7,yes,10.1021/acs.inorgchem.2c00065,"Cu(II) site of [Cu2La(HL)4(NO3)](NO3)2 (complex 1-La), the diamagnetic","onar, S.; Clearfield, A.; Helliwell, M.; McInnes, E.
+J. L.; Tolis, E.; Tuna, F.; Winpenny, R. E. P. Synthesis, Structural and
+Magnetochemical Studies of Iron Phosphonate Cages Based on
+{Fe
+3O}7+ Core. Inorg. Chem. 2009,"
+W1985607006,unmined,ZFS-phrase,7,yes,10.1021/ic990280n,"free Co2+ ion, 3d7 fine-structure benchmark","gral J, but much larger
+than the Zeeman splitting, even in strong laboratory fields of
+about 10 T. It is therefore compulsory to account for spin -
+orbit coupling (SOC) effects both in the analysis of experimental
+data a"
+W2945154241,unmined,ZFS-phrase,6,,10.1039/c9dt01069f,"Tb(III) triazacyclononane complexes, nine-coordinate, across the tris-","mistry 20 xx 
+Please do not adjust margins 
+Please do not adjust margins 
+where CJ is Bleaney’s constant, defined for each lanthanide (Tb 
+-157.5, Dy -181, Ho -71.2, Er +58.8, Tm +95.3, and Yb +39.2), µB 
+is Bohr’s magne"
+W2768547812,unmined,ZFS-phrase,6,yes,10.1021/jacs.7b11535,[Gd(Cpttt)2]+ heavy lanthanide metallocenium cation (1-Gd) and its equ,"y as predicted by simple electrostatic arguments ( Figure
+4).
+The preceding discussion is not appropriate for Gd III, which
+diﬀers from the other Ln III ions in that is has an exactly half-
+ﬁlled 4f shell with no orbital"
+W3039742006,unmined,ZFS-phrase,5,,10.1021/acs.inorgchem.0c00365,"Compound 1, a quasi-linear Co silylamide alkyne complex","ed orbital bonding analysis to calculate oxidation states, with
+application to a model water oxidation catalyst.Phys. Chem. Chem. Phys.
+2009, 11, 11297−11304.
+(88) Knizia, G. Intrinsic Atomic Orbitals: An Unbiased Bridge"
+W4388977430,unmined,ZFS-phrase,4,,10.1021/jacs.3c07978,"[Dy(Piso)2] (3-Dy), a thermally stable four-coordinate dysprosium(II) ","r of
+states are indeed near-degenerate for these non-Kramers
+systems given that the microwave energy in the X-band EPR
+experiment is ca. 0.3 cm
+−1
+; this is consistent with the magnetic
+data. The observation that the low"
+W2991811976,unmined,ZFS-phrase,4,yes,10.1016/j.poly.2019.114257,closo-carborane-based Co(II) single-ion complex with O bridging atoms,"c relaxation, which can be attributed to the per-
+sistence of a net magnetic moment below a blocking temperature
+[4]. The magnetic properties of these complexes are intimately
+related to the electronic structure of the m"
+W3129789227,unmined,ZFS-phrase,4,yes,10.1039/d1dt00260k,"[DyLCl2(DMF)2]·DMF·CH3OH (complex 1), a mononuclear Dy(III) complex of","4 
+were obtained through ab initio calculations, the principal axes 
+of the ground doublets in 2 and 4 are all oriented towards two 
+phenol O (O1, O2) atoms of the two deprotonated ligands ( Fig. 
+S12). Through further"
+W3011049025,unmined,ZFS-phrase,3,,10.1039/d0dt00315h,[Co(L)Cl2] - pentacoordinate cobalt(II) dichloride complex (compound 1,"tic data using the computed SH parameters obtained from 
+CASSCF/NEVPT2 calculation. 
+ 
+ 
+In order to extract the spin Hamiltonian (SH) parameters of all the three complexes, we fitted 
+both the χ
+MT(T) and the M (H) data"
+W3138622994,unmined,ZFS-phrase,3,yes,10.1002/anie.202103596,"[Co(1)](ClO4)2 - rotaxane cobalt(II) complex, field-induced single-ion","n Slageren,
+Rachel Crespo-Otero,* Stephen M. Goldup,* and Maxie M. Roessler*
+Abstract: Mechanically chelating ligands have untapped
+potential for the engineering of metal ion properties.H ere we
+demonstrate this principl"
+W2097764239,unmined,ZFS-phrase,3,,10.1002/jcc.24221,water dimer - photodissociation along the intramolecular O-H coordinat,"= 15/2 in the ground state, which is usually split
+32
+
+--- page 34 ---
+Single_Aniso
+Parameters of effective
+Hamiltonians
+g/c97/c98
+D/c97/c98
+Bn
+m
+Magnetic properties
+- susceptibility tensor
+- powder susceptibility
+- magn"
+W2331807639,unmined,ZFS-phrase,3,,10.1021/acs.jctc.5b00193,high-spin Co(II) pyrazolylborate complex system 1,"stablished recently. We
+applied the N-electron valence-state perturbation theory (NEVPT2) on three Co(II) systems, where the active space of the
+underlying complete active space self-consistent ﬁeld (CASSCF) wave functio"
+W2082257602,unmined,ZFS-phrase,3,yes,10.1021/ja1004619,"[HIPTN3N]MoL with L = N2, the Jahn-Teller-active dinitrogen complex","caused by hyperﬁne couplings to the 95,97Mo (total
+abundance, 23%) and corresponds to A| ≈ 46 G (at g ) 3.03)
+) 196 MHz. The effects of variations in temperature and solvent
+on these spectra are discussed below.
+Simulati"
+W7202080625,unmined,ZFS-phrase,3,yes,10.1021/acs.cgd.6c00562,"complex 1, [Dy(THF)5Cl2][DyCl2(THF)2], the homometallic salt of the D5","-symmetric[Dy(THF)
+5
+Cl
+2
+]
++
+possesses similar energy values, pure m
+J
+= ± 15/2 (100%)
+ground state, and yields a reasonable ground-to-first excited
+state KD energy gap of ∼91 cm
+−1
+compared to the cationic
+Dy1 center i"
+W4414451040,unmined,ZFS-phrase,3,yes,10.26434/chemrxiv-2025-7r39c,"[C5H5DyC5H5]+ (complex 3), the dysprosocenium prototype used to establ","of Dy complexes based on spatial-electronic 
+cooperation. The shuttle effect of Ueff barriers was revealed and the new theoretical 
+dataset was designed . A total of 132 CASSCF data allowed us to unveil the electron 
+rel"
+W7161123006,unmined,ZFS-phrase,3,,10.1002/qua.70204,"complex 1, the manganese bis(dioxolene) complex assigned Mn(IV)-Cat2 f","Creative Commons License
+
+
+--- page 3 ---
+data.
+ Wavefunctions
+ and
+ energies
+ of
+ the
+ spin-multiplets
+ obtained
+ by
+ the
+ SA-
+ CASSCF
+ calculations
+ were
+ mixed
+ via
+ spin-
+ orbit
+ cou-
+ pling
+ using
+ the
+ mean-field"
+W2534966425,unmined,ZFS-phrase,2,yes,10.1039/c6dt03752f,2-Co: cobalt(II) thiocyanate / ethylisonicotinate coordination compoun,"cient to generate an accurate understanding of magnetic
+properties and, hence, RASSI-SO/SINGLE_ANISO calculations
+on basis of the CASPT2 wave functions have been performed.
+As a result, the
+3A2g ground state splits into"
+W4412726638,unmined,ZFS-phrase,2,,10.1021/acs.jpca.5c03946,"Vanadyl tetraphenylporphyrin (VOTPP), a VO2+ molecular qubit","on
+(MCSCF) quantum chemical methods a routine choice for
+describing excited states and correlated wave functions of
+open-shell systems.
+26,27
+These methods, combined with
+second-order perturbative corrections (PT2) or ot"
+W7150817998,unmined,ZFS-phrase,2,yes,10.26434/chemrxiv.15001672/v1,idealised YbF_x model series (Yb(III) fluoride coordination geometries,"ly absent under
+zero-ﬁeld conditions, appearing only with applied dc ﬁelds or under diamagnetic dilution.
+Utilising both CASSCF and CASPT2 methodologies, we systematically investigate the crystal
+ﬁeld splitting of Yb(III"
+W4224305469,unmined,ZFS-phrase,2,,10.26434/chemrxiv-2022-2sqgf,"[Mn(III)H3buea(O)]2- terminal manganese(III)-oxo, C-H activation of 9,","he DFT -optimized 
+ground state geometries of the Mn+=O(OH) (M = Mn/Fe) complexes. 
+The Time-dependent (TD) DFT method has been used to obtain the 
+electronic transitions associated with the free catalysts using B3LYP 
+h"
+W2547503467,unmined,ZFS-phrase,2,,10.1021/jacs.6b08661,[MnIV(O)(N4py)]2+ mononuclear manganese(IV)-oxo complex,"transfer reactivity of Mn IV-oxo complexes have been subjected
+to detailed computational studies 39,51 and kinetic inter-
+rogation,40−42,53 thorough spectroscopic studies of the relevant
+electronic states are less commo"
+W4297361076,unmined,ZFS-phrase,2,,10.1016/j.omx.2022.100188,"Cr(III) doped into normal spinel (Mg,Zn)Al2O4 - d-d transitions and li","ational methods 
+of investigation of AI embedded cluster model, the multi-reference 
+methods for calculations the energy levels, the d-d transition between 
+them and wave functions will be presented. Section 3 describes"
+W7167974851,unmined,ZFS-phrase,2,yes,10.48550/arxiv.2607.08178,Dy(III) single-molecule magnet with TB = 80 K - state-averaged DMET fo,"when conducting
+SOSCF iterations.
+2.4 Computation details
+In this work we consider three types of single-center strongly correlated systems to demon-
+strate the performances of SA-DMET based multi-reference quantum chemi"
+W2621279231,unmined,ZFS-phrase,2,,10.1021/acs.inorgchem.7b00364,Nitridomolybdenum(V) anion of the triamidoamine system,"reference calculations provide the required ﬂexibility and
+accuracy to reliably predict the electronic structure of such
+complicated cases. Another consequence of the strong JT
+coupling is the distortion-induced mixing o"
+W4292640857,unmined,ZFS-phrase,2,yes,10.1021/acs.cgd.2c00754,"(NH4)4[H6(V(IV)O2)(V(V)2O5)2{O3P-C(O)(CH2-2-C5NH4)-PO3}2].9H2O, comple","e
+molecule shows fast relaxation of magnetization at zero field,
+which is made possible with the help of direct and quantum
+tunnelling relaxation effects. This can be effectively proven
+with the computationally obtained"
+W4386499165,unmined,ZFS-phrase,2,,10.1021/acs.inorgchem.3c02569,"[Co(OH2)6]2+, the hexaaqua cobalt(II) cation, sampled over 1100 geomet","out for its rich
+coordination chemistry
+12,13
+and varied magnetic anisotropy
+range.
+14
+Studying the magnetic anisotropy merges experimental and
+computational methods. Computationally, despite advance-
+ments, the determin"
+W2107151994,unmined,ZFS-phrase,2,,10.1007/s00214-014-1532-3,3-thienyldiazomethane (3-TD),"mine whether the triplet 3-thienylcar -
+bene is formed initially, a spectroscopic study has been per-
+formed on photochemistry of furyl- and thienyldiazometh-
+anes by IR, uV/vis, and ePR spectroscopy [16]. The 
+conformat"
+W2560912584,unmined,ZFS-phrase,2,yes,10.1002/chem.201605102,"Tb-trensal complex, [Tb(trensal)]","ions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- page 3 ---
+ficientso ft his decomposition, when divided by the corre-
+sponding Stevens parameters"
+W2045282460,unmined,ZFS-phrase,2,,10.1063/1.4906344,[Re2Cl8]2- (octachloridodirhenate(III)),"effects (CASSI-SO); the small
+difference should be ascribed to the di fferences in the active
+spaces, basis sets, relativity treatments, and dynamical corre-
+lation models.
+The lowest triplet states (3A2u and 3Eu) lie m"
+W7202183344,unmined,ZFS-phrase,2,yes,10.1021/acs.inorgchem.6c01997,the central octahedral Co(II) site (Co2) of the linear trinuclear [(S-,"ry, while each terminal Co(II) is
+distorted tetrahedral, coordinated by two μ
+2
+-chlorides, one
+terminal iodide, and one sulfur donor from S-MIC. The χT value
+of 10.3 cm
+3
+K mol
+−1
+at 300 K indicates significant orbital"
+W2910527051,unmined,ZFS-phrase,1,,10.1021/acs.jctc.8b00969,tris-mu-hydroxo Cr(III) dimer [(NH3)3Cr(OH)3Cr(NH3)3]3+ (archetypal fa,"han, G. K.-L. Orbital
+Optimization in the Density Matrix Renormalization Group, with
+Applications to Polyenes and β-Carotene. J. Chem. Phys. 2008, 128,
+144117.
+(75) Sharma, S.; Chan, G. K.-L. Spin-adapted Density Matrix"
+W2593530371,unmined,ZFS-phrase,1,,10.1021/acs.inorgchem.6b02291,macrocyclic Yb(III) complex (PARASHIFT NMR probe; Yb and Y analogues),"otably, the cyclen protons of the axial positions ('c1ax', 'c3ax', 
+'c5ax' and 'c7ax') form a well separated group in the case of [Yb.L 1], but they are 
+more separated in the case of [Yb.L2]; a similar effect is observe"
+W4400678804,unmined,ZFS-phrase,1,yes,10.1039/d4dt01588f,lanthanide (Dy/Er) 8-hydroxyquinolinate trimer (spin-canted asymmetric,"at first
+order, mixed strongly by transverse fields, prompting large
+tunnelling splitting, not representative of the system, hence,
+a fictitious S = 3/2 system with an arbitrarily large zero field
+splitting (D) paramete"
+W2477486362,unmined,ZFS-phrase,1,yes,10.1002/chem.201601971,Tb(III)-Cu(II) heterodinuclear complex (enhanced SMM behavior),"in challenges
+in molecular magnetism.[1–3] The great interesti nS MMs is due
+to their potential use in technological applications, such as
+data storage media, quantum computing (Qubits), ands pin-
+tronic devices.[4–6] Ea"
+W4387440665,unmined,ZFS-phrase,1,yes,10.1021/acs.inorgchem.3c02916,bridged dysprosocenium analogues (complexes 1-7): Dy(III) double-decke,"/​article-pdf/​62/​42/​17499/​2790697/​ic3c02916.​pdf by NORTHWESTERN UNIV user on 09 October 2026
+
+
+--- page 7 ---
+condition of thermal equilibrium. Recently, the need to include
+the effects of phonons to compute magnet"
+W4387718996,unmined,ZFS-phrase,1,,10.1039/d3cp01426f,tetracoordinate Co(II) complexes with semi-coordination (single-ion ma,"ical images were acquired on a
+confocal Raman microscope WIT ec Alpha300 R+ (WITec, Ulm,
+Germany). All topography images and profiles were obtained with
+the scanning probe microscope Dimension Icon (Bruker, Billerica,
+US"
+W4408115116,unmined,ZFS-phrase,1,,10.1063/5.0246270,"Norbornadiene (NBD), photoexcited non-radiative decay of the valence s","ptimized geometries for various electronic structure methods represented
+in the (rcc, rrh)-plane [defined in Eqs. (5)–(7)]. All methods agree on the location of
+the NBD ground state. The QC ground state cannot be calcula"
+W2439570865,unmined,ZFS-phrase,1,yes,10.1039/c6sc02035f,"[Co(II)(Tpm)2][BPh4]2.2MeCN (2), a trigonal-antiprismatic (trigonally ","n Orbach process is not required to provide
+a good ﬁt to the data. More interestingly, a detailed study of the dependence of the relaxation time with
+ﬁeld shows that for these Kramers' ions, tunneling is the predominant"
+W2419640309,unmined,ZFS-phrase,1,,10.1038/srep10761,Tetracoordinate Co(II) single-ion magnet (pseudotetrahedral Co(II) com,"n a tetracoordinate mononuclear 
+heteroleptic Co(II) complex involving two heterocyclic benzimidazole (bzi) and two thiocyanido 
+ligands, [Co(bzi)2(NSC)2], (CoL4), was prepared and thoroughly characterized. The analysis"
+W2604587228,unmined,ZFS-phrase,1,,10.1021/acs.inorgchem.7b00512,"Iron(IV) nitrido and imido complexes, incl. [(TIMEN^Ar)FeN]+ (TIMEN = ","Mössbauer spectroscopy, including applied7field measurements. The 
+paramagnetic imido complexes 3 and 4 were also studied by magnetic susceptibility 
+measurements (for 3) and paramagnetic resonance spectroscopy: high7fre"
+W2278356249,unmined,ZFS-phrase,1,yes,10.1038/ncomms10467,Four-coordinate Co(II) single-ion magnet with magnetic coercivity and ,",
+(qE/qQ)0 ¼ 2.43 cm/C0 1, g ¼ 1.24. The g value is clearly much lower
+than obtained from both the experiments as well as from the
+CASSCF/NEVPT2 calculations, which indicates the limitations of
+the very basic model that"
+W2588800132,unmined,ZFS-phrase,1,yes,10.1039/c6sc05188j,[Co(II)(dmbpy)2(H2O)](ClO4)2 (2) and its anhydrous form (1): reversibl,"ling (SOC). In ideal or quasi-ideal T-
+4 geometries, a second-order SOC contribution is responsible
+for a more moderate but non-negligible zfs (typically on the
+order of 10 cm
+/C0 1). In both cases, the quartet ( S ¼ 3/2"
+W4226087386,unmined,ZFS-phrase,1,yes,10.1039/d2qi00275b,Series of trigonal-prismatic mononuclear cobalt(II) complexes [Co(L)]X,"This is because this
+kind of complexes have diminished transverse anisotropy and,
+as a result, the QTM relaxation pathway is more e ﬃciently sup-
+pressed, which is mandatory to observe MSMM behaviour at
+zero dc field. 6"
+W2900315202,unmined,ZFS-phrase,1,,10.1039/c8sc04384a,[Fe7(N3)12]2+ 'Janus'-faced single-molecule magnet (heptanuclear azido,"ulated
+using the broken symmetry (BS) approach developed by Noo-
+dleman.
+34 This method has been employed extensively to
+compute good numerical estimates of exchange interactions in
+numerous polynuclear complexes.
+35 DFT"
+W3133990202,unmined,ZFS-phrase,1,yes,10.1039/d0dt04168h,Octanuclear {Ni6Ln2}-type hydroxido-bridged 3d-4f clusters (e.g. {Ni6D,"þ ˆS4ˆS6Þ/C0 J3ðˆS3ˆS4Þ
+þ gNiμBB
+* X6
+i¼1
+bSi þ gGdμBB
+* X8
+j¼7
+bSj
+ð3Þ
+Note that the large magnetic anisotropy of Dy III precludes a
+similar fit of the data for 2. In light of the di ﬀerent bridging
+angles between the N"
+W2963067806,unmined,ZFS-phrase,1,yes,10.1021/acs.jpca.9b03708,Terbium(III)-based single-molecule magnets (mononuclear Tb SMMs),". This ligand spin interacts
+with the Tb magnetic moment by exchange coupling ( Jex) and doubles the number of low-
+energy levels. In addition, this extra electron makes neutral TbPc 2 a Kramers system, and
+irrespective"
+W4382198385,unmined,ZFS-phrase,1,yes,10.1021/acs.inorgchem.3c00536,"Actinyl cations (AnO2^n+, e.g. uranyl UO2^2+ / neptunyl) as NMR struct","ty is modeled with the energetically well isolated ground NKD and the excited state
+contributions are very small. For a NKD, the two states are not necessarily degenerate, one
+only considers the Van Vleck contribution in"
+W3033513062,unmined,ZFS-phrase,1,yes,10.1063/5.0004835,[U(NH2)6]- — hexakisamidouranium(V) model complex (model for the pseud,"is the hyper-
+fine interaction, where ˜I is the spin of the nucleus and A is the
+parameter describing the interaction between the nuclear spin and
+the ground electronic spin. It is common to extract parameters for
+Eq. (5"
+W4324311281,unmined,ZFS-phrase,1,,10.1002/chem.202203449,"molecular Mn18-ring complex [Mn3O(OAc)7(HOAc)]6 . x AcOH (x = 6-9), mo","ange interactions between paramagnetic
+ions in oligo-nuclear spin-centers of importance in life sciences.
+Experimental Section
+Synthesis of the starting material “manganese(III) acetate dihy-
+drate” [Mn(OH)(OAc)
+2
+] · HO"
+W7154588629,unmined,ZFS-phrase,1,yes,10.26434/chemrxiv.15002064/v1,(L)RuV=O and (L)RuV=N catalytic intermediates,"1340. 
+120. Sun, Q., et al., The Python Simulations of Chemistry Framework: 10 years of an 
+open-source quantum chemistry project. arXiv preprint arXiv:2603.14155, 2026. 
+121. Stoychev, G.L., A.A. Auer, and F. Neese, Aut"
+W4417211069,unmined,ZFS-phrase,1,yes,10.1016/j.ica.2025.123037,"heterometallic {Cr6}Ce ring - Ce(III) centre in a chromium-chain ring,","SA) in which 
+we simulate of the total spin states of the molecule separately, followed 
+by their addition ( Fig. 6 ). Given that the only paramagnetic unit present 
+is a {Cr
+6
+} chain, and from our fit of the magnetic d"
+W7161785735,unmined,ZFS-phrase,1,,10.1002/advs.75759,ferroelectric Fe(II) square-pyramidal complexes (1 and 2) - magnetic a,"al 
+implementation. In this context, we report a family of five-coordinate, square-pyramidal Fe(II) complexes, [Fe(L)(X)2 ] ⋅CHCl3 
+(L = tridentate Schiff-base ligand; X = Cl ( 1 ), Br ( 2 )), crystallizing in the polar,"
+W2772758820,unmined,ZFS-phrase,1,,10.1021/acs.jctc.7b01035,"mixed-valence bis(mu-oxo)/mu-acetato Mn(III,IV) dimer - biomimetic mod","e-zeta basis sets for H
+to Ar and QZVPP basis sets for Li to Kr. Phys. Chem. Chem. Phys.
+2005, 7,5 9 −66.
+(119) Pipek, J.; Mezey, P. G. A fast intrinsic localization procedure
+applicable for ab initio and semiempirical l"
+W2029385951,unmined,ZFS-phrase,1,yes,10.1021/jp103098r,trinuclear copper cluster of the multicopper oxidases - g-tensor and e,"at only multireference methods, such as CASSCF/CASPT2 or MRCI can yield qualitatively correct results (compared to the experimental values) and consider the accuracy of the calculated EPR g tensors as the current benchma"
+W4388974706,unmined,ZFS-phrase,1,yes,10.1021/jacs.3c08117,six-coordinate cobalt(III)-imidyl complex with an unusual S = 3/2 grou,"ns into the Co(3dz2)/N(2pσ) antibonding 
+orbital significantly contribute to the ground state of 1 and eliminate multiple bonding 
+character to the Co-NTs bond.
+A Löwdin population analysis of the CASSCF results yield a"
+W4206142808,unmined,ZFS-phrase,1,yes,10.1021/acs.inorgchem.1c02413,linear two-coordinate Ni(I) bis(N-heterocyclic carbene) complexes - ex,"laxation, and thei r electronic structure and
+magnetic anisotropy have been studied thoroughly. 16−19 It
+was shown by ab initio analysis that changes in the ligand
+environment have little e ﬀect on the 5Δ ground state as"
+W2991329123,unmined,ZFS-phrase,1,yes,10.1021/acs.inorgchem.9b02432,"thiolate-ligated ferric nonheme cyanide adducts (1ox-CN, 2ox-CN) - syn","causes the FeIII complexes to adopt a low-spin 
+configuration. The EPR spectrum of 1ox-CN in frozen CH2Cl2 exhibits a nearly axial S = 
+1/2 signal (Figure 3a; inset) that was simulated with g values of 2.204, 2.161, and"
+W3005788843,unmined,ZFS-phrase,1,,10.1002/zaac.201900288,triangular trinuclear nickel(II) complex with a triaminoguanidine liga,"icant
+influence on the fit of the χ
+MT data. Moreover, the diamagnetic
+ground state of complex 1 (S = 0) is not affected by single-
+ion magnetic anisotropy. As a matter of fact, for this class of
+antiferromagnetically ex"
+W4388413748,unmined,ZFS-phrase,1,,10.1002/chem.202303300,non-heme high-valent Fe(IV)=O species and its Fe(III)-hydroxido reboun,"al experimental parameters. Unfortunately, so far there is no
+experimental evidence for confirming the computed triplet-
+quintet gaps, which for 5 is predicted to be smaller than for 4,
+and for 2 is computed to be very s"
+W3194321579,unmined,ZFS-phrase,1,yes,10.1021/acs.inorgchem.1c01860,(MesPDP-Ph)Fe(CPh)2 - square-planar iron bis(carbene) complex with hig,"d Mössbauer spectroscopic studies revealed an orbitally near-
+degenerate S = 1 ground state with large unquenched orbital angular momentum resulting in high 
+magnetic anisotropy. Spin-Hamiltonian analysis indicated that"
+W4319946487,unmined,ZFS-phrase,1,,10.1002/ejic.202200774,cobalt(II) complex with an N2O2 donor set - static and dynamic magneti,"ar Arumugam,
+[a]
+Björn Schwarz,*
+[b]
+Helmut Ehrenberg,
+[b]
+and
+Kartik Chandra Mondal*
+[a]
+A representative Co(II) based single ion magnet (SIM) with N
+2
+O
+2
+donor set and distorted pseudo-tetrahedral geometry has been
+sy"
+W4388722992,unmined,ZFS-phrase,1,yes,10.3390/magnetochemistry9110229,cobalt(II) complex with trans-cinnamic acid - single-ion magnet,"d. The compound 1·1/2Me2CO
+was characterized via single-crystal X-ray analysis, FT-IR spectroscopy, and magnetic measurements.
+The coordination polyhedron of the complex cation adopts a deformed octahedron shape, and cin"
+W4391138715,unmined,ZFS-phrase,1,,10.1021/acs.inorgchem.3c03236,[Fe(pinF)2]2- - high-spin square-planar and trigonal iron(II) complexe,"scopic behavior of three high-spin FeII complexes supported 
+by fluorinated O-donor ligands have been studied in detail. These are the four-coordinate square-
+planar {K(DME)2}2[Fe(pinF)2] (S) and quasi square-planar {K(C"
+W4385611144,unmined,ZFS-phrase,1,,10.3390/cryst13081217,Mn(III)-salen complexes with metallophilic interactions,"xhibit weak mag-
+netic-exchange interactions. Such exchanges may become signi ﬁc a n t i n t h e c a s e o f t h e 
+complexes with hydrogen-bonded supramolecular dimeric unit topology in which the an-
+tiferromagnetic exc"
+W4413480778,unmined,ZFS-phrase,1,yes,10.3390/magnetochemistry11090073,dinuclear dysprosium(III) single-molecule magnet of benzo[h]quinolin-1,"for improving the axial anisotropy of Dy(III) ion. This
+also gave us some hints in the performance improvement of this kind of SMMs. We can
+remove the protons on the axial ligands to increase axial negative charges and r"
+W4410510559,unmined,ZFS-phrase,1,yes,10.1021/acs.cgd.5c00037,siloxane-bridged linear trinuclear Co(II)3 single-molecule magnet - en,"l coordination geometries. The Co
+II
+ions
+are bridged by two siloxane dianions in a η
+2
+:η
+2
+:μ
+3
+fashion leading to a butterfly-like molecular structure, which has been studied by
+magnetic susceptibility measurements. C"
+W4411624867,unmined,ZFS-phrase,1,,10.3390/inorganics13070214,trinuclear triangular Ni(II) complex of two tri-anionic bis-oxamates w,"related meta-phenylene-bis(oxamic acid). The
+main evidence of such a deprotonation of the ligand is the neutrality of the cluster, since
+there are no anions or cations compensating for its charge in the crystals of the"
+W3172993499,unmined,ZFS-phrase,1,yes,10.1002/ejic.202100465,tetrahedral cobalt(II) single-molecule magnets with colossal anisotrop,"orbital splitting (Section S5). In
+fact, the complexes presented herein are the only ones with
+such small N   Co   N bite angles that have been successfully
+synthetized, isolated as stable compounds and whose magnetic
+pr"
+W2321893305,unmined,ZFS-phrase,1,yes,10.1021/ja308146e,trigonal bipyramidal nickel(II) complexes with giant Ising-type magnet,"complexes. In order to analyze the competition between the
+antagonist e ﬀects of the spin −orbit coupling and the Jahn −
+Teller distortion 25−28 in these two complexes, we also perform
+a theoretical study. Since the ﬁrst"
+W4293105066,unmined,ZFS-phrase,1,yes,10.1002/chem.202201883,[Zn-U-Zn] monomer model of the Mn(II)-U(V)-Mn(II) single-molecule magn,"], TPA = tris(2-pyridylmethyl) amine, Mesal-
+dien = N,N-(2-aminomethyl)diethylenebis(salicylidene imine)),
+studied by Mazzanti and coworkers (see Figure 1).
+[26]
+The Mn(II)
+centers with a high-spin 3d
+5
+configuration hav"
+W2040593414,unmined,ZFS-phrase,1,yes,10.1021/ja8029416,mixed-valence Co(II)3Co(III)4 heptanuclear wheel - ligand-field states,"on the metal and nearest-neighbor atoms. This would improve
+the calculated TIP contributions of the individual fragments as well.
+However, the corresponding calculations were too costly to be justiﬁed
+for the present pr"
+W7161699461,unmined,ZFS-phrase,1,,10.1021/acs.cgd.6c00297,Ni(II) sites of ferromagnetic Ni(II)-M(IV)-Ni(II) trimers built from f,"ERN UNIV user on 30 July 2026
+
+
+--- page 5 ---
+field (AILFT) d-orbital energies, as shown in Figure 3 for 1
+and 2. The actual AILFT d-orbitals are plotted in Figures S2
+and S3. For Ni
+II
+ions, the d-orbitals split into t"
+W2040414349,unmined,ZFS-phrase,1,yes,10.1021/jp051858j,"[Mo(CN)7]4- heptacyanomolybdate(III) anion, and fragments of cyano-bri","1S in Supporting Information) to
+ligand field expressions yields the following ligand field and
+Racah parameters: e
+ó ) 25 850 cm-1,e ð ) 9100 cm-1, B )
+290 cm-1, and C ) 1150 cm-1. These values agree very well
+with the"
+W4416413010,unmined,ZFS-phrase,1,,10.1038/s41524-025-01813-0,negatively charged nitrogen-vacancy center in diamond (MODEL-4 cluster,")a n dt h e
+two lowest excited states ð1Þ3 /C22A2; mS ±1
+/C0/C1
+.A ss h o w ni nt h eu p p e rr o wo f
+Table3, our theoretical prediction ofD = 2.86 GHz perfectly reproduces the
+experimental data of 2.88 GHz66. Thus, the"
+W4417492957,unmined,ZFS-phrase,1,yes,10.1021/acs.inorgchem.5c05241,[Er(PPTMP)2(H2O)](OTf)3,", thus, does not contribute to the relaxation dynam-
+ics at low temperatures. In particular, our detailed spec-
+troscopic investigations allow for a direct experimental
+determination of the effective g-tensors and zero-f"
+W4403430126,unmined,ZFS-phrase,1,,10.1039/d4cp02619e,O2 molecular oxygen - atmospheric and infrared bands,"he b 1 Σ+g – X 3 Σ−g magnetic dipole
+transitions Eq. (22). Tinkham and Strandberg 84 estimated the
+magnitude of the separation as 1.17 cm−1. The spin splitting of the
+X3 Σ−g electronic state can be accounted for by inclu"
+W2382580658,unmined,ZFS-phrase,1,,10.1021/ja062399i,[FeIII(bpca)(mu-bpca)DyIII(NO3)4] (1),"mputed SO matches well with the free ion spectrum,
+and the LF and LF + SO effects are also in accordance with the
+known experimental ranges.
+9 The CASSCF + SO calculation for
+aC o IIIDyIII complex (Figure 5a,b) gave eigh"
+W1998345428,unmined,ZFS-phrase,1,,10.1021/ja030628k,binuclear [CuII(L)-GdIII] prototype with semicoordinated nitrate,"etermine the ferromagnetism of metallic gado-
+linium.
+34 Gadolinium, either as an atom or ion, is a key element
+in several problems related to ferromagnetic coupling.
+Therefore, we focused on the description of electroni"
+W1996112584,unmined,ZFS-phrase,1,,10.1021/jo902570d,"pyridylnitrene / carbene-nitrene rearrangement system (species 19, ope","3 ---
+1602 J. Org. Chem. Vol. 75 , No. 5, 2010
+JOCArticle Kvaskoff et al.
+(12E) were detectable (Figure S3, SI). After 60 s at 308 nm all
+three species were obtained (Figure 3). Only one conformer
+of 10 was detected at"
+W4313592987,unmined,ZFS-phrase,1,yes,10.1021/acs.cgd.2c00888,"[Cr(III)2Dy(III)3(PhCO2)7(OH)6(iPrO)(NO3)(H2O)3] (complex 1), pentanuc","s:
+(Dy1; g
+x
+= 0.0728, g
+y
+= 0.1509, and g
+z
+= 19.5221); (Dy2; g
+x
+=
+0.4592, g
+y
+= 0.9379, g
+z
+= 18.6176); (Dy3; g
+x
+= 0.0036, g
+y
+=
+0.0052, and g
+z
+= 19.6985); and (Cr1; g
+x
+= g
+y
+= g
+z
+= 1.96 and
+Cr2; g
+x
+= g
+y
+= g
+z
+="
+W2112782660,unmined,ZFS-phrase,1,yes,10.1002/chem.201402392,two C3-symmetric Dy3(III) complexes with triple di-mu-methoxo bridges,"t Ln III ions are connected by
+one m2-phenoxo and two m3-methoxo bridges, thus leading
+to a hexagonal bipyramidal Ln 3O5 bridging core in which
+LnIII ions exhibit a biaugmented trigonal-prismatic geometry.
+Magnetic susce"
+W2175930880,unmined,ZFS-phrase,1,yes,10.1002/chem.201503102,{3d-4f} single-molecule magnets - Dy(III) and Ni(II) centres in exchan,"2, Supporting Informa-
+tion).[36] We have computed the anisotropyo ft he individual
+NiII ions using {NiZn2Lu} modelc omplexes. The CASSCF com-
+puted spin-free energies, spin-orbit energies, and associated g-
+tensors and"
+W2616557405,unmined,ZFS-phrase,1,yes,10.1002/chem.201606031,"pseudotetrahedral cobalt(II) complexes with halide ligands, including ","to the rhombic limit (j E/D j & 0.3);t herefore,
+the sign of D in complex 2 cannot be predicted unambiguous-
+ly by calculation. Althoughs ingle-crystal X-ray diffraction stud-
+ies reveal that all three complexes have dis"
+W2976584306,unmined,ZFS-phrase,1,yes,10.1002/asia.201900828,organometallic lanthanide single-molecule magnets,"il in this scenario. A
+multi-configuration based technique such as CASSCF (com-
+plete active space self-consistent field) or RASSCF (restricted
+active space self-consistent field) type calculations found to be
+more super"
+W2563571205,unmined,ZFS-phrase,1,,10.1002/ejic.201601329,"[Fe(H2O)2(ida)(NO)], the high-spin iminodiacetate nitrosyl-iron(II) co","Magnetometry
+The magnetic properties of 2a and 2e were determined by
+SQUID magnetometry. Using Equation (1), the magnetic mo-
+ment μ
+eff was calculated from /khiMT. The values obtained were
+compared with the spin-only v"
+W7133209380,unparsed,ZFS-phrase,16,yes,10.48550/arxiv.2602.24236,dioxygen,"velopment of a novel exact two-component
+(X2C) scheme with the inclusion of the picture-change correction
+for the fluctuation potential, the “X2Ccorr” scheme, is reported,
+hereby establishing a hierarchy of X2C schemes w"
+W3131246583,unparsed,ZFS-phrase,15,,10.1021/acs.jpca.1c00022,"1HS-PF, trigonal-bipyramidal Fe(III): two trimethylphosphine axial, fl","etization and, hence, can
+behave as single-molecule magnets (SMMs), we have modeled 14 Fe(III)
+complexes based on an experimentally synthesized (PMe
+3)2FeCl3 complex [ J.
+Am. Chem. Soc. 2017, 139 (46), 16474−16477], by v"
+W4361254469,unparsed,ZFS-phrase,12,yes,10.1021/acs.jpca.3c00599,"Complex 1a, [Co(PPh3)2Cl2], a flattened tetrahedron following the symm","matrix is
+constructed from projected relativistic states and relativistic
+energies. The obtained complex-Hermitian matrix has
+dimensions of 3 × 3, 4 × 4, 5 × 5, or 6 × 6 for S = 1
+through 5/2. These matrices can be recon"
+W2324426245,unparsed,ZFS-phrase,10,,10.1021/jp107823s,"[Mn(terpy)Cl3], complex 1","¨r Bioanorganische Chemie, Stiftstrasse
+34-36, D-45470 Mu¨lheim an der Ruhr, Germany
+ReceiVed: August 18, 2010
+This paper presents a detailed evaluation of the performance of density functional theory (DFT) as well as
+c"
+W2276086441,unparsed,ZFS-phrase,9,,10.1021/jp021537x,"Ti2F6, the hexafluoro dititanium(III) dimer","ds. Natural orbital occupation numbers
+suggest that the singlet states are essentially diradical in character. Dynamic electron correlation is required
+for calculating quantitatively accurate energy gaps between the sing"
+W4221104479,unparsed,ZFS-phrase,8,,10.1021/acs.jctc.1c01115,"V(acac)3, tris(acetylacetonato)vanadium(III)","--- page 1 ---
+ 
+Zero-field Splitting Calculations by Multiconfiguration Pair-Density Functional Theory Dihua Wu,a Chen Zhou,a Jie J. Bao,a Laura Gagliardi,*,b and Donald G. Truhlar*,a ABSTRACT. Zero-field splitting (ZFS"
+W2782108131,unparsed,ZFS-phrase,7,yes,10.1021/acs.inorgchem.7b02608,"Dy(III) site of the pentanuclear {MnIVMnIII2DyIII2} complex 1-Dy, [MnI","erformed using MOLCAS 8.0.37 The active space for CASSCF calculations 
+comprises five d-based orbitals with three electrons for MnIV ion in CAS(3,5) set up and four 
+electrons for MnIII ions in CAS(4,5) setup . We then c"
+W2311215902,unparsed,ZFS-phrase,7,,10.1021/acs.inorgchem.5b02309,"[MnIV(OH)2(Me2EBC)]2+, a manganese(IV) bis-hydroxo complex","ugh the complexes have similar 55Mn values ( a = 7.7
+and 7.5 mT, respectively). The ZFS parameters for [Mn IV(OH)2(Me2EBC)]2+ were compared with values obtained previously
+through variable-temperature, variable- ﬁeld mag"
+W1972992523,unparsed,ZFS-phrase,6,yes,10.1021/ic062345+,"isolated [Co(NC)4(H2O)2]2- fragment, four conformers","of states
+corresponding to (M
+J, which gives the six Kramers doublets
+in Figure 6a. The ground state corresponds almost completely
+to the multiplet with J )
+1/2 (the admixture coefficient is
+0.99), which means that the c"
+W2323371282,unparsed,ZFS-phrase,6,yes,10.1021/ic401677j,"[Fe{N(SiMe3)2}3]- (complex 1), modelled as [Fe(NH2)3]-","d[ F e { N -
+(SiMe3)2}2(THF)] do not show slow relaxation of the magnetization under similar conditions, whereas the phosphine complex
+[Fe{N(SiMe3)2}2(PCy3)] does, as recently reported by Lin et al. (Lin, P.-H.; Smythe,"
+W2914218508,unparsed,ZFS-phrase,6,yes,10.1021/acs.jpcc.8b09645,"Lithium manganese phosphate, LiMnPO4","been
+initiated only relatively recently. These additional contribu-
+tions to isotropic pNMR shifts include on one hand the so-
+called “dipolar” or “pseudo-contact” shifts, which derive from
+an interaction between the hyp"
+W4386768729,unparsed,ZFS-phrase,6,yes,10.1016/j.molstruc.2023.136667,a tetracoordinate cobalt(II) complex with two 2-amino-1-methylbenzimid,"ynthesized and studied in 
+detail. Compounds were characterized by spectroscopic methods along with their molecule structure determined 
+by the single-crystal X-ray diffraction. All complexes have been investigated in th"
+W2921528828,unparsed,ZFS-phrase,5,,10.1021/acs.inorgchem.8b03432,Fe1 site of the tetranuclear grid [Fe4(L1)4](CF3SO3)8,"e tetranuclear grid 1, where 50% of ferrous atoms exhibit thermal as well as photoinduced spin state switching and the
+remaining half of iron(II) centers are permanently blocked in their high-spin state. On the contrary,"
+W4293574532,unparsed,ZFS-phrase,5,,10.1021/acs.jpca.2c04730,"(C6F5)3trenV-CNtBu (compound 1), tert-butyl isocyanide adduct of a tri","s. Chem. A 2022, 126, 6329−6335
+ Read Online
+ACCESS
+Metrics & More
+ Article Recommendations *
+sı Supporting Information
+ABSTRACT: Molecular electron spin qubits with optical manipulation
+schemes are some of the most prom"
+W4323315980,unparsed,ZFS-phrase,4,yes,10.26434/chemrxiv-2022-c6tz8-v2,"Co single-molecule magnet, complex 1 (d7 configuration)","s (SMMs) based on transition metals have appeared as en-
+ticing targets exploiting the magnetic anisotropy in 3 d elements. Among transition
+metals, Co based SMMs are very prominent as they often exhibit a high spin-reve"
+W4402253705,unparsed,ZFS-phrase,4,yes,10.1021/acs.cgd.4c00752,"[CuGd(L)(NO3)3(H2O)] (1), heterobimetallic copper-gadolinium complex","nd C are the eigenvectors
+resulting from the diagonalization of the complete spin
+Hamiltonian matrix. The incorporation of the zj parameter
+implies that an iterative procedure must be applied. Ultimately,
+the integral av"
+W2052442945,unparsed,ZFS-phrase,4,,10.1002/qua.21042,Co2+ (free cobalt(II) ion),"However, both
+calculations do not include dynamical electron cor-
+relation effects; hence the relative energies of the
+spin free states are not directly comparable to ex-
+perimental data [11].
+At this point a slightly m"
+W2024361713,unparsed,ZFS-phrase,4,,10.1007/s00214-015-1619-5,"3-methyldiphenylmethyl-diyl, the unsubstituted model diradical (compou","esent work is to explore the effect of the confor -
+mational richness displayed by the proposed models on 
+the electronic structure properties related to the open-shell 
+character rather than providing an exhaustive disc"
+W2560769476,unparsed,ZFS-phrase,3,yes,10.1021/acs.inorgchem.6b01544,"(Ph4P)2[Co(NO3)4] (complex 1), mononuclear eight-coordinate cobalt(II)","-EPR) spectroscopy, and theoretical calculations. 
+The X-ray diffraction studies reveal that the structure of tetranitrate cobalt anion varies with 
+the counter-cation. 1 and 2 exhibit highly irregular seven-coordinate g"
+W2044181591,unparsed,ZFS-phrase,3,,10.1021/ic9017745,"Model 4' — five-coordinate V(III) tristhiolato complex, simplified mod","each N of the bidentate ligand ), and 3 (from L = 1-Me-Im, N 2H4). The complexes have also been
+investigated by direct current(DC) magnetic susceptibility and high-frequencyand -field electron paramagnetic resonance
+(HF"
+W2080222234,unparsed,ZFS-phrase,3,,10.1021/ic501385r,"Cr(OH)6(3-) model 1, with linear Cr-O-H bonds and the CrO6 core geomet","characterized in the
+solid state by single-crystal XRD, IR spectroscopy, thermogravimetric
+and elemental analyses, magnetic susceptibility, and EPR measure-
+ments. Magnetic studies on 1 and 2 demonstrated that both
+compo"
+W2607249591,unparsed,ZFS-phrase,3,yes,10.1021/acs.inorgchem.7b00235,Dichlorido cobalt(II) pyridine-macrocycle complex,"that have appeared in
+the center of scienti ﬁc attention during the last three decades
+due to their promising application potential in ultradense
+information storage, quantum computing, and spintronics.
+4
+The characteris"
+W7136475230,unparsed,ZFS-phrase,3,,10.1021/acs.inorgchem.6c01031,"{CoX3} three-coordinate Co(II) complexes (X = C, N, O or S)","l theoretical
+treatments of Guihe ́ry and coworkers, who formalized the
+spin−orbit coupling mechanism within the effective Hamil-
+tonian framework, providing a clear conceptual picture of zero-
+field splitting in transit"
+W2901872305,unparsed,ZFS-phrase,2,yes,10.1039/c8dt04041a,Mononuclear Co(II) triethanolamine/pivalate complex (complex 1),"l correlation between the Co –O–Co angles
+and the isotropic J exchange coupling constant. 11 Here again,
+for complex 2, with Co –O–Co angles of 116 ( J12) and 130 ( J13)
+degrees, the correlation correctly predicts the an"
+W4389392841,unparsed,ZFS-phrase,2,,10.26434/chemrxiv-2023-rs2xc-v2,pentacene triplet excited state - zero-field splitting tensor across a,"of aromatic molecules
+were examined with full-π active space; such calculations were challenging because the size of active
+space grows exponentially with the number of π electrons. In the method, the exponential growth"
+W4396948987,unparsed,ZFS-phrase,2,yes,10.1021/jacs.4c01930,"[ThCptt3], tris(1,3-di-tert-butylcyclopentadienyl)thorium(III)","ribution) which accounts
+for the interaction between the electronic orbital angular
+momentum and the nuclear spin. For systems where S is not a
+good quantum number, we use the pseudospin
+( ) para-
+metrization, where the"
+W2953445811,unparsed,ZFS-phrase,2,,10.1016/j.jlumin.2019.116577,Ni2+:CaF2 trigonal D3d center,"pic
+properties of the Ni
+2+ ions in similar isostructural crystals with the D 3d
+site symmetry we applied the rigorous ab initio quantum chemical
+methods to CaF 2:Ni2+ and CdF 2:Ni2+ systems. We calculated all 25
+nonrela"
+W2532977300,unparsed,ZFS-phrase,2,,10.1021/jacs.6b05746,"Vinylnitrene 2, the intermediate from photolysis of vinyl azide 1","vinylnitrene
+32 (Scheme 6). Vinyl azide 1
+was dissolved in 2-methyltetrahydrofuran (MTHF), and the
+resulting solution was saturated with nitrogen and cooled to 80
+K. The resulting matrix was irradiated for 120 s through"
+W2591086733,unparsed,ZFS-phrase,2,yes,10.1021/acs.inorgchem.7b00097,Bis(tetraphenylphosphonium) tetrakis(benzenethiolato)cobaltate(II),"sful strategy in this
+respect.
+22−25 Recently, we employed multireference ab initio
+methods to explore how the anisotropy in π interactions of
+thiolate modulates the magnetism of such pseudotetrahedral
+Co(II) complexes b"
+W2909932395,unparsed,ZFS-phrase,2,yes,10.1021/acs.inorgchem.8b02929,"Bis(nitronylnitroxide)(hexafluoroacetylacetonato)cobalt(II) cation, [C","29.​pdf by NORTHWESTERN UNIV user on 17 August 2026
+
+
+--- page 9 ---
+the DyIII ions with the depopulation of the MJ sublevels of the
+6H15/2 state, the orbital contribution of the magnetic moment
+of the Co II ion, and the"
+W2972102433,unparsed,ZFS-phrase,2,yes,10.1021/acs.inorgchem.9b01517,"[Ni4Dy2(L)2(mu-Cl)2(mu3-OH)4(H2O)6]Cl4 (complex 1), chloride-bridged h","ll multiplets for
+a given electron con ﬁguration were equally weighted. The active space
+for the Dy III ion calculation was based on seven f-orbitals, and nine
+electrons in these orbitals resulted in 21 sextets, 224 quar"
+W2990968670,unparsed,ZFS-phrase,2,,10.1021/acs.jpcc.9b10156,"Co(tpy-SH)2, neutral reference molecule for the Au-Co(tpy-S)2-Au break","containing TM atoms, a
+general hypothesis is that the SOC makes the predominant
+contribution.51 Consequently, the MAE is sensitively a ﬀected
+by the local crystal ﬁeld at the TM atoms. The computation of
+molecular MAEs"
+W3000730169,unparsed,ZFS-phrase,2,,10.1021/acs.cgd.9b01564,"Dinuclear cationic unit 1A of the mixed-valence cocrystal, [Mn(II)Mn(I","Mn III was determined
+by substituting the Mn II center by diamagnetic Zn II in complex
+1. It reveals a D value of −3.94 cm−1 with a small E/D of 0.03
+for complex 1. For complex 2, D and E/D values are −3.96
+cm−1 and 0.06"
+W7162331051,unparsed,ZFS-phrase,2,,10.1021/acs.inorgchem.6c00128,"the enantiopure pair S-Co-F and R-Co-F, (S/R-F2BINOL)2Co[TMG-H+]2","−F, which exhibits a distorted
+tetrahedral coordination geometry, the bulkier naphthyl substituents in
+S/R−Co−N give rise to a distorted seesaw geometry accompanied by
+smaller dihedral (δ) and bite angles (θ). Such struc"
+W2922072701,unparsed,ZFS-phrase,2,,10.1002/asia.201900280,"[Co(xantpo)(NCS)2], complex 1 - a tetrahedral Co(II) complex of the bi","rdinated with two oxygen and two nitrogen
+atoms. Magnetic property measurements show their simi-
+lar static magnetic behaviours but very different dynamic
+magnetic behaviours. Both complexes show field-induced
+slow magne"
+W4389522834,unparsed,ZFS-phrase,2,,10.1016/j.inoche.2023.111872,the nickel(II) node of the three-dimensional framework built from 3-am,". GaussView 6 [57] software was employed for spin- 
+density surfaces plots. Alternatively, the standard broken symmetry 
+(BS) DFT procedure using the FlipSpin feature of ORCA 5.0.4 [58,59] 
+was followed to estimate the c"
+W4396616253,unparsed,ZFS-phrase,2,,10.1002/asia.202400095,"(AcO)MnTPP, (5,10,15,20-tetraphenylporphinato)manganese(III) acetate","tional theory
+(DFT), time-dependent DFT methods were used to elucidate the
+dyad electronic structures and to establish the differences in
+their frontier molecular orbitals. The analysis of the lambda
+parameter and the di"
+W2961630281,unparsed,ZFS-phrase,2,,10.1002/qua.26018,"[ReO(Diox)2PPh3]- (complex 2), Diox = dioxolene (catecholate / semiqui","ty Libraries, Wiley Online Library on [01/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable"
+W4402172345,unparsed,ZFS-phrase,1,,10.1039/d4ra02387k,[Co(L)X]+ pentacoordinate Co(II) complexes with a pyridine-based macro,"dependence of cMT and (b) ﬁeld
+dependence of magnetization at 2, 3 and 5 K under magnetic ﬁelds up
+to 5 T. The lines materialize the calculated behaviors (see text).
+28144 | RSC Adv.,2 0 2 4 ,14,2 8 1 3 8–28147 © 2024 Th"
+W2908011140,unparsed,ZFS-phrase,1,yes,10.1039/c8dt03965h,pseudo-octahedral cobalt(II) complex (field-induced slow magnetic rela,"displacement caused their magnetic
+anisotropy. Q-band EPR spectra on powdered samples of 1 and
+2 were recorded in the temperature range 4.0 –50 K with a
+Bruker ER 200 spectrometer equipped with a helium cryostat.
+The EP"
+W2991612980,unparsed,ZFS-phrase,1,yes,10.1021/acs.inorgchem.9b02195,high-spin six-coordinate cobalt(II) complexes with large ZFS,"o(hfac)
+2(bpy)] ( I). Along with the conventional X-band EPR spectroscopy, we
+also use such advanced techniques as multi-high-frequency EPR spectroscopy (MHF-EPR) and frequency-domain Fourier-
+transform THz-EPR (FD-FT TH"
+W4413757703,unparsed,ZFS-phrase,1,yes,10.1039/d5dt01381j,manganese(II) macrocyclic complexes (MRI contrast agents),"and classi ﬁed into ﬁve families based on the structural motif of the parent macrocycle. DFT
+methods were applied together with two implicit solvation models, the conductor-like polarizable conti-
+nuum model (CPCM) and"
+W4322492721,unparsed,ZFS-phrase,1,yes,10.1021/acs.cgd.2c01388,"[Co(L)Br2], a mononuclear square-pyramidal Co(II) field-induced single","100 K and then the presence of ZFS causes a gradual decrease down to 4.4 μB at 2 K. 
+Molar magnetization Mmol at 7 T a nd 2 K acquires lower values (2.63 μB) than expected for a Curie 
+paramagnet with S = 3/2 (3 μB), whi"
+W2221453705,unparsed,ZFS-phrase,1,,10.1002/ejic.201501250,"Low-spin (S=1) Mn(III) bis(scorpionate) complexes (1, 2, 3); tris(pyra","n: http://chem.ku.edu/people/faculty/tjackson
+Homepage: Roosevelt University: http://www.roosevelt.edu/
+Joshua Telser: http://blogs.roosevelt.edu/jtelser/
+Supporting Information
+Cartesian coordinates for all structures u"
+W3171941253,unparsed,ZFS-phrase,1,,10.1002/chem.202101755,Co(II) complex 5a of a Janus pyrrolopyrrole aza-dipyrrin (PPAD) ligand,"page 8 ---
+FULL PAPER 
+6 
+orbitals were included. The NEVPT2 calculations for the resultant wave functions were conducted to recover possible dynamic correlations. By including 10 quartets arising from the 4F and 4P term"
+W4416326662,unparsed,ZFS-phrase,1,yes,10.1021/acs.inorgchem.5c03729,High-spin half-sandwich Fe(I) amide complexes: 1D polymers {[Cp'Fe(N(S,"those
+systems.
+16
+Remarkably, only [Cp’Fe{N(
+t
+Bu)(SiMe
+3
+)}] exhibits
+slow paramagnetic relaxation in its AC magnetic susceptibility
+even in the absence of an applied static magnetic field, so far an
+unprecedented behav"
+W2780841626,unparsed,ZFS-phrase,1,yes,10.1039/c7dt04256f,"[Co(abpt)2X2] mononuclear Co(II) complexes (abpt = 4-amino-3,5-bis(pyr","ular level.
+2,3 Thus, these molecular nanomagnets are
+fascinating molecular materials due to their auspicious appli-
+cation potential in, for example, information storage, quantum
+computing, and spintronics. 4
+The magnet"
+W2891343486,unparsed,ZFS-phrase,1,,10.1039/c8sc02820f,(Me4N)[Ni(MST)] and related Ni(II) complexes with unusually large zero,"tio CASSCF and NEVPT2 calculations
+(see computational details in the ESI †).
+The computed D, E and g
+iso values using CASSCF and
+NEVPT2 methods are listed in Table 2. The CASSCF calculations
+follow the experimentally obs"
+W2194352041,unparsed,ZFS-phrase,1,,10.1039/c5sc04461h,Cobalt(II) metal-organic framework showing guest-dependent single-ion-,"1 < TOL@1 (Table 1). This is illustrated in
+Fig. S9 † which shows an almost perfect linear correlation
+between both experimental and theoretical D values.
+The four complexes were also investigated by HFEPR. Given
+the lar"
+W3110659107,unparsed,ZFS-phrase,1,,10.3390/cryst10121130,cobalt(II) benzylmalonate complex - field-induced single-ion magnet,"e
+bags and covered with mineral oil in order to prevent the ﬁeld-induced orientation of crystallites.
+The paramagnetic components of the magnetic susceptibility χ were determined taking into account
+both the diamagnetic"
+W3157582910,unparsed,ZFS-phrase,1,yes,10.1039/d1dt01007g,tetrairon(II) extended metal atom chain (EMAC) single-molecule magnets,") coupling constant was fixed at ζ3d = 350 cm−1, while 
+the orbital reduction factor (k) was taken as isotropic and unitary.66 Further details can be 
+found in Supplementary Note 4.
+Ab-initio Calculations.
+All calculatio"
+W3094408344,unparsed,ZFS-phrase,1,,10.1039/d0dt02747b,"cobalt(II) complex with a 1,1'-diacetylferrocene-derived ligand (compo","y M. Aldoshin b
+Herein, we report the synthesis and magnetic properties of the Co(II)
+coordination compound with the 1,1 ’-bis(1-((pyrid-2-ylmethylene)
+hydrazono)ethyl)ferrocene (L) ligand, having the general formula
+[Co"
+W3001267591,unparsed,ZFS-phrase,1,,10.1021/acs.cgd.9b01150,Mn(III) site of a series of one-dimensional Mn(III) chain coordination,"parameter ranges from –3.197 to –3.44 cm –1 (Table 4), which is just a 7% change. The E 
+parameter shows a larger relative variation, from –0.525 in 3 to –0.77 cm–1 in 8. The E parameter 
+tends to be larger in the H 2L"
+W2793033962,unparsed,ZFS-phrase,1,,10.1002/chem.201705316,"[Cp'FeI2]- anion (present in complexes 2 and 4), Cp' = 1,2,4-tri(tert-","calculations.T he cMT product (cMT & meff
+2/8) for 4 at 300 K
+was found to be 3.4 cm3 mol@1 K, which is slightly highert han
+the value expected for a S = 2s tate (high-spind 6)w ith, g & 2,
+of 3.0c m3 mol@1 K, suggesting"
+W4386927615,unparsed,ZFS-phrase,1,yes,10.1002/hlca.202300130,"[Dy(OSiF3)3(O(SiF3)2)n] model complexes (n = 0-3, coordination numbers","nge of 73 and 198 ppm
+(see Table S2) which is in line for the experimentally
+measured signal for dispersed Y(III) ion on silica
+through the SOMC + TMP approach
+[44]
+verifying the
+importance of the model structures and th"
+W4401626049,unparsed,ZFS-phrase,1,,10.1038/s41524-024-01361-z,neutral VB2 defect center in monolayer hBN,"mplex. In perpendicular
+direction, we use 30 Å supercell size. Furthermore, in single-layer calcula-
+tions, we use DFT-D3 correction method of Grimme et al.72.W eu s eaZ F S
+tensor calculation routine in the PAW formalis"
+W4403467707,unparsed,ZFS-phrase,1,,10.1021/acs.inorgchem.4c02826,family of quasi-isotropic Mn(II) and Mn2(II) Schiff-base complexes 1-5,")
+2
+(1), [Mn{NiL1}
+2
+](ClO
+4
+)
+2
+(2), [Mn{NiL2}
+2
+]-
+(ClO
+4
+)
+2
+(RR−L2
+2−
+, 3RR, SS−L2
+2−
+, 3SS), [Mn{NiL3}
+2
+](ClO
+4
+)
+2
+(RR−L3
+2−
+, 4RR,
+SS−L3
+2−
+, 4SS) and (μ
+1,1
+-N
+3
+)
+2
+[Ni
+2
+Mn
+2
+(L1)
+2
+(N
+3
+)
+2
+] (5) are derived"
+W4322758260,unparsed,ZFS-phrase,1,yes,10.1021/acs.inorgchem.2c04393,"Fe(III)-Tiron complexes [Fe(Tiron)3]9-, [Fe(Tiron)2(H2O)2]5- and [Fe(T","the uTPSSh/Def2-
+TZVPP level.
+20,21
+These calculations incorporated the resolution of
+identity and chain of spheres approximation (RIJCOSX)
+27,28
+with the
+aid of the Def2/J
+29
+auxiliary basis set. Spin−orbit coupling eff"
+W2006860564,unparsed,ZFS-phrase,1,,10.1021/ct300615w,Kremer's tris-hydroxo bridged chromium(III) dimer,"id Collison, and Joseph J. W. McDouall
+School of Chemistry, The University of Manchester, Oxford Road, Manchester, M13 9PL, United Kingdom
+ABSTRACT: We present computations of the zero ﬁeld splitting constants in a tris-"
+W2333785497,unparsed,ZFS-phrase,1,,10.1021/jp508470m,"Septet 1-bromo-3,5-dichloro-2,4,6-trinitrenobenzene","anisotropy of septet
+trinitrenes is reported. Septet 1-bromo-3,5-dichloro-2,4,6-trinitrenoben-
+zene (S-1) was generated in a solid argon matrix by ultraviolet irradiation
+of 1,3,5-triazido-2-bromo-4,6-dichlorobenzene. T"
+W2416405516,unparsed,ZFS-phrase,1,yes,10.1021/acs.inorgchem.5b00407,"Trichloro(3,5-di-tert-butyldioxolene)(triphenylphosphine oxide)rhenium","F/NEVPT2) revealed a mixed valence nature of the triplet
+ground state of complex 1 corresponding to a superposition of the Re
+IV−SQ
+and ReV−cat forms. In agreement with the high-level ab initio and DFT
+calculations, the"
+W2418173092,unparsed,ZFS-phrase,1,,10.1021/acs.inorgchem.6b00148,"Iron(II) active site of the H200C variant of homoprotocatechuate 2,3-d","o assess the electronic structures of the active site in these states. The analysis
+reveals a high-spin Fe II center in a low symmetry environment that is re ﬂected in the values of the zero- ﬁeld splitting (ZFS) ( D ≈
+−"
+W4304807919,unparsed,ZFS-phrase,1,yes,10.1021/acs.cgd.2c00950,"[Co(II)Co(III)2L2(py)4].2H2O (complex 1), trinuclear Co(III)-Co(II)-Co","valence complex [Co
+II
+Co
+III
+2
+L
+2
+(py)
+4
+]·
+2H
+2
+O (1) bearing a magnetic core [Co
+II
+N
+4
+] has been synthesized using 1,3-bis(5-
+methylpyrazole-3-formylamine) propane (H
+4
+L) as a ligand, which was investigated
+by sin"
+W4395036612,unparsed,ZFS-phrase,1,yes,10.1021/acs.cgd.4c00198,"complex 1, [Co(II)2Co(III)2Gd2(L)2(mu3-OMe)2(Me3CCOO)8].H2O, candy-sha","and frequency-dependent ac susceptibility led
+us to the conclusion that compound 1 cannot be classified as a
+single-molecule magnet.
+Moreover, the static magnetic data were quantitatively
+analyzed with the following spi"
+W4400576889,unparsed,ZFS-phrase,1,,10.1021/acs.inorgchem.4c00134,"complex 2, Eu(pdtc)3(phen), heteroligand europium(III) complex","cation of this formalism could be
+found in refs 87−89. The SOC and the intersystem crossing
+rates of the transitions S
+1
+→ T
+1
+, T
+1
+→ S
+1
+, and T
+1
+→ S
+0
+for the
+Eu(pdtc)
+3
+(phen) complex were assessed on the basis of S"
+W2145956699,unparsed,ZFS-phrase,1,yes,10.1002/chem.201403670,"Zn-Dy-Zn trinuclear complex 1, [ZnCl(L)]2Dy with a DyO8 square-antipri","region, the
+a values extracted from the Cole–Cole plot (Figure S5 in the
+Supporting Information) are in the 0.12–0.44 range, which
+points to the existence of a distribution of the relaxation
+times. The t
+o value is still"
+W2172599360,unparsed,ZFS-phrase,1,,10.1016/j.poly.2015.09.044,pseudotetrahedral cobalt(II) complexes with halide ligands,"believed that more
+distorted complexes possess higher magnetic anisotropy.
+In the present study, we have analyzed both the heavy atom
+effect and magnetostructural correlations in the complexes [Co
+(qu)2X2] (qu = quinoli"
+W2117165830,unparsed,ZFS-phrase,1,yes,10.1002/chem.201303489,"trinuclear MnIII2-MIII complexes with substituted Salen ligands, M = O","d the origin of this en-
+hancement in the exchange interaction has been probed by
+using molecular orbital analysis. The electronic origin of dif-
+ferent types of exchange observed in this series is found to
+be related to"
+W2467810201,unparsed,ZFS-phrase,1,,10.1016/j.ica.2016.06.030,cobalt(II) and copper(II) covalently and non-covalently dichlorido-bri,"/J or
+def2-SVP/J Coulomb ﬁtting basis set and the chain-of-spheres
+(RIJCOSX) approximation to exact exchange [17]. Increased inte-
+gration grids (Grid5 and GridX5in ORCA convention) and tight
+SCF convergence criteria wer"
+W2769765377,unparsed,ZFS-phrase,1,yes,10.1016/j.ica.2017.11.036,pentacoordinate cobalt(II) complexes with neutral tripodal N-donor lig,"lyl)methyl)]amine) was prepared and thoroughly characterized. Single-crystal X-ray analyses of com-
+plexes 1–5 revealed that they possess very close molecular structures with a distorted trigonal
+bipyramidal geometry. Th"
+W2346725998,unparsed,ZFS-phrase,1,yes,10.1016/j.synthmet.2016.02.014,"pentacoordinate 2,6-bis(arylazanylidene-1-chloromethyl)pyridine cobalt","ed the uniaxial type of magnetic anisotropy and also slow
+relaxation of magnetization, hence belong to the class of ﬁeld-induced single-ion magnets. The values of
+the D parameter range from large and positive in 1 and 2"
+W3021780094,unparsed,ZFS-phrase,1,yes,10.1002/ejic.202000199,"[ReCl6]2-, the hexachlororhenate(IV) anion, as the triethylbenzylammon","nces, University
+of Padova,
+via F. Marzolo 5, 35131 Padova, Italy
+E-mail: address: alessandro.dolmella@unipd.it
+https://www.dsfarm.unipd.it/drug-design-and-synthesis
+Supporting information and ORCID(s) from the author(s)"
+W3081584993,unparsed,ZFS-phrase,1,,10.1016/j.inoche.2020.108201,"the cobalt(II) node of the coordination polymer [Co(L)2(4,4'-bipyridin","ar formula 1
+∞[M(L)2(4,4′-bipy)(H2O)2], where M stands for CoII (1) or 
+CuII, (2), and L = 5-amino-1-phenyl-1H-pyrazole-4-carboxylate ligand were obtained by slow solvent diffusion 
+and characterized by spectroscopic tec"
+W2790286068,unparsed,ZFS-phrase,1,,10.1016/j.ica.2018.03.025,"the triple-decker cerium(III) cyclooctatetraenide complex Ce2(COT)3, a","including two electrons in four orbitals CAS(2,4) two
+4f z3 and two 5 dz2 was employed. The magnetic coupling J is evalu-
+ated as the singlet-triplet gap DEST . In the last part the precision in
+calculated magnetic coupl"
