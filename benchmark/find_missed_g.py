@@ -76,9 +76,21 @@ NUM = r"[-+]?\d+(?:\.\d+)?"
 # The numeric labels g1/g2/g3 need (?![A-Za-z0-9]) after them, not just
 # (?![A-Za-z]): with a letter-only guard, "g35 = 0.5479162" -- the NUCLEAR g
 # of 35Cl in W7160562793 -- reads as g3 = 5, a g value out of thin air.
+# A DECIMAL POINT IS REQUIRED when no "=" or ":" separates the label from the
+# value, because a flattened table header followed by a row index reads as a
+# value otherwise: "KD 1 2 | E gx gy gz | 1 0 0.71 0.73 8.93" yields "gz 1".
+# Every real g in this corpus is written with a decimal.
 G_VALUE = re.compile(
     r"\bg\s*[_ -]?\s*(zz|xx|yy|iso|avg|par|perp|eff|z|x|y|1|2|3|\|\|)"
-    r"(?![A-Za-z0-9])\s*[=:]?\s*(%s)(?![A-Za-z0-9])" % NUM)
+    r"(?![A-Za-z0-9])\s*(?:"
+    r"[=:]\s*(%s)"                      # labelled with = or :, integer allowed
+    r"|\s*([-+]?\d+\.\d+)"             # bare juxtaposition needs a decimal
+    r")(?![A-Za-z0-9])" % NUM)
+
+
+def _g_value(m):
+    """The numeric group of a G_VALUE match, whichever alternative fired."""
+    return m.group(2) if m.group(2) is not None else m.group(3)
 # The paper is talking about a g tensor at all.
 G_PHRASE = re.compile(
     r"\bg[-\s]?tensors?\b|\bg[-\s]?factors?\b|\bg[-\s]?values?\b|"
@@ -89,6 +101,10 @@ G_PHRASE = re.compile(
 MARKER = re.compile(
     r"calculat|comput|\bCASSCF\b|\bNEVPT|\bCASPT|\bRASSCF\b|ab initio|"
     r"\bSORCI\b|\bMRCI\b|\bQDPT\b|\bMCSCF\b|RASSI|SINGLE_?ANISO|\bDFT\b|"
+    # The technique itself is a measurement. Without these, "EPR (solid 2 K):
+    # g1 = 7.136, g2 = 1.829, g3 = 1.214" had no marker in range and could not
+    # reach the g-values tier.
+    r"\bEPR\b|\bESR\b|HFEPR|HF-ESR|magnetometr|susceptibilit|"
     r"predict|measured|experiment|fitted|simulat|our (?:value|result)", re.I)
 
 # 2*J*g_J is 20.00 for Dy(III) and Ho(III); nothing above that is a g.
@@ -146,6 +162,25 @@ def evidence(text):
         text = text[:cut.start()]
     text = re.sub(r"[ \t]+", " ", text)
 
+    # A labelled component with a plausible value is the strongest evidence
+    # available and needs no phrase to vouch for it, so it is sought across
+    # the WHOLE text rather than only inside windows around a "g-tensor"
+    # phrase. The phrase logic below is the fallback.
+    for v in G_VALUE.finditer(text):
+        if GRAM.search(text[max(0, v.start() - 20):v.end() + 12]):
+            continue
+        raw = _g_value(v)
+        try:
+            val = float(raw)
+        except (TypeError, ValueError):
+            continue
+        if not 0.0 <= abs(val) <= MAX_G:
+            continue
+        near = text[max(0, v.start() - WINDOW):v.end() + WINDOW]
+        if not MARKER.search(near):
+            continue
+        return "g-values", text[max(0, v.start() - 120):v.end() + 70].strip()
+
     phrases = list(G_PHRASE.finditer(text))
     if not phrases:
         return "", ""
@@ -162,8 +197,8 @@ def evidence(text):
             if GRAM.search(near[max(0, v.start() - 20):v.end() + 12]):
                 continue
             try:
-                val = float(v.group(2))
-            except ValueError:
+                val = float(_g_value(v))
+            except (TypeError, ValueError):
                 continue
             if not 0.0 <= abs(val) <= MAX_G:
                 continue
