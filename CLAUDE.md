@@ -374,9 +374,30 @@ PDFs that were added by hand and aren't in the index).
      symbols the site's periodic-table filter matches on, space separated
      and alphabetical — `C Mg Ni O`. **Derived, not read from the paper**:
      it is the union of the symbols in `metal_center` (unless that is
-     `none`) and those in `formula`, so it is only as good as those two and
-     is regenerated whenever either changes. Empty is correct and common
-     (1522 rows) when neither a metal centre nor a formula is stated.
+     `none`) and those in `formula`, so it is only as good as those two.
+     Empty is correct and common (1557 rows on 2026-10-11, across 627
+     papers) when neither a metal centre nor a formula is stated.
+
+     **`--regenerate` is not safe to run blind, and never was.** Measured on
+     2026-10-11: it would have changed 246 rows and SHRUNK 387 others,
+     dropping hydrogen from 303 rows, carbon from 293 and nitrogen from 238.
+     The cause is that most real coordination-chemistry formulae are
+     abbreviated — `Co(PPh3)2I`, `Dy(acac)3(H2O)2`, `[Fe(TPP)Cl]` — and a
+     symbol scan cannot see the carbon and hydrogen inside `PPh3`, `acac` or
+     `TPP`. 295 of the 387 have no `formula` at all, so the derivation
+     returns the metal alone. `tools_fill_element.py` now KEEPS any value the
+     derivation would shrink and reports it; `--allow-shrink` overrides, and
+     is right only when the existing value is actually wrong.
+
+     **So a metal-only `element` is usually faithful to the rule and wrong
+     about the molecule**, and the gap is upstream in `formula`. 945 rows
+     carry a single metal symbol while naming organic ligands. Fixing one
+     means writing the `formula`, not editing `element` — a hand-written
+     `element` with nothing behind it is unbacked, and `--regenerate` is
+     exactly the command that discards it. When no honest formula can be
+     written, because the paper names a compound without ever printing its
+     atom counts, a hand-identified `element` is the right answer and the
+     shrink guard is what protects it.
      `docs/build_site.py` reads this column directly; it falls back to
      deriving the set itself only if the column is absent. The derivation
      masks ligand abbreviations that a bare `[A-Z][a-z]?` scan misreads as

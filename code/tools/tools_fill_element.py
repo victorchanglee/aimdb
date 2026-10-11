@@ -11,6 +11,20 @@ overwritten. `--regenerate` recomputes every row from its current
 `metal_center` and `formula`, which is the right thing to do only after those
 two columns have actually changed.
 
+`--regenerate` WILL NOT SILENTLY DROP ELEMENTS. If the derivation yields a
+strict SUBSET of what a row already carries, the existing value is kept and
+reported instead. That case means the row was identified by hand from something
+the two source columns do not capture -- a compound whose composition is in its
+name or in a figure caption but whose atom counts are nowhere stated, so no
+honest `formula` can be written. W7168274527's fourteen NHC-stabilized boron
+diradicals are the example that prompted this: their bridges are named per row
+and Figure 1's caption gives the series' alphabet, but the paper never prints a
+formula, so `element` there is hand-identified and correct while `derive()`
+returns nothing at all. Regenerating would have made fourteen boron rows
+unreachable by a search for boron, which is the precise harm the column exists
+to prevent. Pass `--allow-shrink` to override, which is right only when the
+hand value is actually wrong.
+
 A bare `[A-Z][a-z]?` scan misreads several common ligand abbreviations as
 symbols, so those are masked out before the scan: OAc/SAc/HOAc would give
 actinium, Por polonium, Nor nobelium, BArF argon, CmH2m curium, and the word
@@ -22,6 +36,7 @@ Usage, from code/:
   .venv/bin/python tools/tools_fill_element.py            # dry run
   .venv/bin/python tools/tools_fill_element.py --apply
   .venv/bin/python tools/tools_fill_element.py --regenerate --apply
+  .venv/bin/python tools/tools_fill_element.py --regenerate --allow-shrink --apply
 """
 import argparse
 import csv
@@ -62,20 +77,36 @@ def main():
     ap.add_argument("--regenerate", action="store_true",
                     help="recompute every row, not only the ones with an "
                          "empty element cell")
+    ap.add_argument("--allow-shrink", action="store_true",
+                    help="with --regenerate, let the derivation replace a "
+                         "value even when it DROPS elements. Off by default: "
+                         "a shrink means the row was identified by hand from "
+                         "something metal_center and formula do not capture, "
+                         "and losing elements can only make the periodic-table "
+                         "filter worse.")
     args = ap.parse_args()
 
     with open(config.LITERATURE_CSV, newline="", encoding="utf-8") as f:
         rows = list(csv.DictReader(f))
 
     changed = []
+    kept = []
     for row in rows:
         current = (row.get("element") or "").strip()
         if current and not args.regenerate:
             continue
         new = derive(row)
-        if new != current:
-            changed.append((row["entry_id"], current, new))
-            row["element"] = new
+        if new == current:
+            continue
+        # A derivation that drops elements is a loss, not an update: the row
+        # knows something metal_center and formula do not say.
+        if current and not args.allow_shrink:
+            have, want = set(current.split()), set(new.split())
+            if want < have:
+                kept.append((row["entry_id"], current, new))
+                continue
+        changed.append((row["entry_id"], current, new))
+        row["element"] = new
 
     for entry_id, old, new in changed[:20]:
         print(f"  {entry_id}: {old!r} -> {new!r}")
@@ -83,6 +114,15 @@ def main():
         print(f"  ... and {len(changed) - 20} more")
     print(f"{len(changed)} row(s) would change" if not args.apply
           else f"{len(changed)} row(s) changed")
+    if kept:
+        print(f"\n{len(kept)} row(s) KEPT: the derivation would have dropped "
+              f"elements the row already carries, which means the value was "
+              f"identified by hand from something `metal_center` and `formula` "
+              f"do not capture. Pass --allow-shrink only if it is wrong.")
+        for entry_id, old, new in kept[:20]:
+            print(f"  {entry_id}: kept {old!r}, derivation gave {new!r}")
+        if len(kept) > 20:
+            print(f"  ... and {len(kept) - 20} more")
 
     if args.apply and changed:
         with open(config.LITERATURE_CSV, "w", newline="",
