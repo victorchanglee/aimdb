@@ -549,11 +549,67 @@ genuinely redundant**. The other 212 break down as
 | journal copy misses a space the preprint holds | 11 | 51 | 40 |
 | no journal copy in the index at all | 49 | 69 | 0 |
 
+**That last line undercounts by a factor of three, and the reason is worth
+knowing.** It was measured over the index's 205 preprint/journal *title
+groups*, so it saw only preprints that have a same-title sibling indexed —
+typically a v1 and a v2 of the same chemRxiv deposit. A preprint sitting alone
+in the index never joins a title group and so was never counted. Counting the
+rows instead of the groups, on 2026-10-11 after the resolutions below: **163
+preprint index records carry 487 rows**, of which 134 have since been
+re-attributed, leaving **353 rows in 136 groups still citing a preprint with no
+journal version anywhere in the index** — 57 of those groups have an indexed
+sibling, 106 are alone. Measure this from `aimdb.csv`'s `reference_doi`, which
+is what a consumer actually reads, not from the shape of the index.
+
 and all of those are **re-attribution work, not deletions** — the fix is to
 point the rows' `reference_doi` at the published article where one exists (and
 to search for one where it does not), not to drop the only reading the database
-has. 35 rows across 9 pairs were removed on 2026-10-11 under the new rule; the
-rest are still outstanding.
+has. 35 rows across 9 pairs were removed on 2026-10-11 under the new rule.
+
+**When the two copies disagree on `(nel,norb)`, suspect the row before the
+paper.** The guard above treats a conflicting space as a reason not to resolve,
+which is right as a reflex and wrong as a conclusion: read the source and the
+conflict usually dissolves. Of the 11 pairs where both keys carried rows, **six
+were one paper reporting several active spaces and the preprint row recording
+the wrong one** — the geometry-optimisation space rather than the production
+space (cyclobutanone, (8,8) against (6,6), where the paper says it "settles on"
+the smaller for "all subsequent electronic structure calculations"); a rung on
+a convergence ladder (pentacene, (16,16) against the full-π (22,22)); a
+representative accuracy demonstration (salicylaldimine, (8,8) against the
+(2,2) every dynamics figure uses). A paper with a methods section that tests
+active spaces will state three or four of them, and only one is the answer to
+"what did this calculation use". Two more pairs merely disagreed because the
+preprint row was class-named, and one agreed on the numbers while the journal
+row stated them in prose.
+
+**The conflict can also be the survivor's fault.** Resolving these found
+`W4385800761-a` (ferrioxalate) holding `nel=9 norb=13` with a protocol reading
+"minimal (7,6); expanded production (9,13)". The paper says the reverse — it
+opens "we start with a (7e,6o) active space", computes every optimisation and
+both energy tables there, and introduces the larger space with "to check
+whether our conclusions are biased by a too-small active space". Production and
+check were transposed, and the *preprint* row carried the correct (7,6). So the
+guard's premise — that the survivor is the better record — is not free either;
+when the loser holds a space the survivor lacks, one of the two is wrong and
+which one is an empirical question.
+
+**Three of the 11 were real merges**, where the journal row lumped into a class
+what the preprint had as compounds, so deleting the preprint would have
+destroyed the better record. The tell is in the survivor's own fields: the
+`[Co(III)(TAML)]⁻ redox series` row itemised **two different active spaces in
+one `active_space_orbital_description`**, (14,13) for the anion and (13,12) for
+the neutral, and the XS-CASSCF benchmark-set row listed eleven per-molecule
+spaces in its `active_space_protocol`. A row carrying more than one
+`(nel,norb)` in its prose is standing for more than one compound. One merge was
+different again: the dipole-moment paper's two readings **did not overlap at
+all** — 22 diatomics under the preprint key, 6 polyatomics under the journal's,
+both molecule sets present in both texts — so the union is the record and
+nothing was deleted.
+
+After that pass, 14 more rows were quarantined and 35 re-attributed, leaving
+one pair unresolved and raised with the user: the An(III) soft-donor study,
+where the journal rows are themselves class-named *and* carry spaces the
+preprint's natural-orbital analysis shows to be wrong.
 
 Two blind spots in the title matching were fixed the same day, both found by
 noticing identical values under two keys rather than by the tool:
