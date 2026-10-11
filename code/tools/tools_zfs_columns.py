@@ -20,8 +20,13 @@ clause, never by a character window, since a 160-character window around a D
 value routinely spans both a computed and a measured statement and 250 of 665
 occurrences came out ambiguous that way.
 
-D is reported in cm-1 almost universally here; GHz and K are converted and the
-conversion is recorded. E/D is taken as stated when the paper gives it, and
+D is reported in cm-1 for the great majority of rows, but not all: GHz, MHz,
+kHz, THz and K are converted to cm-1 on the way in and the conversion is
+recorded in the row's notes. Magnetic field units (gauss, mT, T) are REFUSED
+rather than converted, since D in gauss becomes cm-1 only through g*mu_B for
+that species and a guessed g would be a fabricated number. Energy units (eV,
+kcal, hartree) disqualify the value: a "D" carrying one is a different
+quantity, such as a pseudo-Jahn-Teller gap. E/D is taken as stated when the paper gives it, and
 otherwise computed as |E/D| from a stated E and D -- arithmetic on two values
 the row already holds, which CLAUDE.md permits.
 
@@ -141,7 +146,14 @@ MAX_D = 1000.0
 
 GHZ_TO_CM = 0.0333564095
 MHZ_TO_CM = 3.33564095e-5
+KHZ_TO_CM = 3.33564095e-8
 THZ_TO_CM = 33.3564095
+# "D = x, against experimental y": a contrast word between the value and a
+# later experimental marker puts the value on the computed side of the
+# contrast. Without this the value is dropped as unassignable.
+CONTRAST = re.compile(
+    r"\b(?:against|versus|vs\.?|compared (?:with|to)|whereas|while|"
+    r"in contrast (?:to|with)|relative to|cf\.)\b", re.I)
 K_TO_CM = 0.6950348
 ED_MAX = 0.3334
 
@@ -160,11 +172,19 @@ BAD_UNIT = re.compile(
 def unit_of(clause, pos):
     """Unit for a value at `pos`, read from the text just after it.
 
-    Returns "cm-1"/"GHz"/"K" for a usable unit, "" when none is stated (cm-1
-    is then assumed, as it is the convention throughout this corpus), or
-    "bad" when the stated unit rules the value out as a ZFS parameter.
+    Returns "cm-1"/"GHz"/"MHz"/"kHz"/"THz"/"K" for a usable unit, "" when none
+    is stated (cm-1 is then assumed, as it is the convention throughout this
+    corpus), or "bad" when the stated unit rules the value out as a ZFS
+    parameter.
+
+    An uncertainty in parentheses is stepped over first: "D = -178(1) MHz"
+    otherwise reads as having no unit, and the cm-1 default then makes the
+    value wrong by a factor of 30,000.
     """
     tail = clause[pos:pos + 40]
+    skip = re.match(r"\s*\(\d+\)", tail)
+    if skip:
+        tail = tail[skip.end():]
     if re.match(r"\s*(?:cm\s*\^?-?1|cm-1|reciprocal centimet|per centimetre)",
                 tail, re.I):
         return "cm-1"
@@ -172,6 +192,8 @@ def unit_of(clause, pos):
         return "GHz"
     if re.match(r"\s*MHz", tail, re.I):
         return "MHz"
+    if re.match(r"\s*kHz", tail, re.I):
+        return "kHz"
     if re.match(r"\s*THz", tail, re.I):
         return "THz"
     if re.match(r"\s*K\b", tail):
@@ -189,6 +211,8 @@ def to_cm(value, unit):
         return value * GHZ_TO_CM
     if unit == "MHz":
         return value * MHZ_TO_CM
+    if unit == "kHz":
+        return value * KHZ_TO_CM
     if unit == "THz":
         return value * THZ_TO_CM
     if unit == "K":
@@ -220,7 +244,15 @@ def classify_at(clause, pos):
     last_calc = max((m.end() for m in CALC.finditer(head)), default=-1)
     last_exp = max((m.end() for m in EXP.finditer(head)), default=-1)
     if last_calc < 0 and last_exp < 0:
-        return "" if EXP.search(clause) else "calc"
+        nxt = EXP.search(clause, pos)
+        if nxt is None:
+            return "calc"
+        # The only marker follows the value. If a contrast word separates
+        # them -- "D = 0.0821 ... against experimental 0.1229" -- the value
+        # sits on the computed side of the contrast.
+        if CONTRAST.search(clause, pos, nxt.start()):
+            return "calc"
+        return ""
     return "calc" if last_calc > last_exp else "exp"
 
 

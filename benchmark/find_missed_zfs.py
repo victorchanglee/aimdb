@@ -144,6 +144,11 @@ def evidence(text):
             best = ("ZFS-phrase", near[:220].strip())
         for d in D_VALUE.finditer(near):
             tail = near[d.end():d.end() + 30]
+            # "D = -178(1) MHz": step over an uncertainty, or the unit is
+            # missed and the value looks unitless.
+            unc = re.match(r"\s*\(\d+\)", tail)
+            if unc:
+                tail = tail[unc.end():]
             if BAD_UNIT.match(tail) or not ZFS_UNIT.match(tail):
                 continue
             if BOND_DIM.search(near[max(0, d.start() - 48):d.start()]):
