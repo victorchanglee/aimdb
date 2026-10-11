@@ -55,6 +55,14 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "code"))
 from mining_agent import config  # noqa: E402
 
+# aimdb.csv ONLY, deliberately. database/aimdb_llm_reproduced.csv also has the
+# four ZFS columns, but those hold values a reproducing agent COMPUTED and
+# wrote directly -- they were never extracted from prose, and this tool lifts
+# values out of prose. Pointing it at that file would find nothing to lift and
+# --apply would blank all 97. That asymmetry is why the reproduced rows show a
+# D on 100% of rows while the mined rows show one on 1.6%: a computed value is
+# structured from birth, whereas a mined one survives only if the paper stated
+# it in a sentence the text layer kept.
 DB = ROOT / "database" / "aimdb.csv"
 PROSE = ("electronic_structure_description", "Other", "notes",
          "active_space_protocol")
