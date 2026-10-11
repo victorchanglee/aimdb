@@ -73,9 +73,12 @@ NUM = r"[-+]?\d+(?:\.\d+)?"
 # sigma_g and pi_g out: in every one of those the g is preceded by a word
 # character, so \bg cannot match. The component label is required -- a bare
 # "g = 2.0" is too easily a gram, a gerade label or a fit parameter.
+# The numeric labels g1/g2/g3 need (?![A-Za-z0-9]) after them, not just
+# (?![A-Za-z]): with a letter-only guard, "g35 = 0.5479162" -- the NUCLEAR g
+# of 35Cl in W7160562793 -- reads as g3 = 5, a g value out of thin air.
 G_VALUE = re.compile(
     r"\bg\s*[_ -]?\s*(zz|xx|yy|iso|avg|par|perp|eff|z|x|y|1|2|3|\|\|)"
-    r"(?![A-Za-z])\s*[=:]?\s*(%s)(?![A-Za-z0-9])" % NUM)
+    r"(?![A-Za-z0-9])\s*[=:]?\s*(%s)(?![A-Za-z0-9])" % NUM)
 # The paper is talking about a g tensor at all.
 G_PHRASE = re.compile(
     r"\bg[-\s]?tensors?\b|\bg[-\s]?factors?\b|\bg[-\s]?values?\b|"
