@@ -90,6 +90,60 @@ because the contamination risk returns the moment anyone re-mines them:
   but geometries and reference values taken wholesale from QUEST (was
   `W4223990773-a`).
 
+## The active space must be an integer
+
+`active_space_nel` and `active_space_norb` are the two fields the database
+exists to answer on, and a consumer filters and sorts on them. **511 cells
+across 308 rows hold something that is not an integer** (measured 2026-10-11),
+so no filter sees those rows at all. Run
+`code/tools/tools_classify_active_spaces.py` for the current breakdown.
+
+**Half of it is one convention, not 300 mistakes.** 256 cells in 143 rows pack
+two or three whole spaces into one cell, positionally paired across the two
+fields: nel `14; 8` beside norb `10; 7` means CAS(14,10) and CAS(8,7). One such
+row says so outright — "both active-space variants are consolidated". The
+schema has one slot per row and the paper ran two calculations, so packing was
+the only way to keep both. Fixing it means either reading the paper for the
+production space or giving each calculation level its own row; it is not a
+formatting cleanup.
+
+**Do not sweep by taking the leading number.** It is the obvious fix and it
+would reintroduce the error this project keeps finding — recording a space the
+paper reports but does not compute with. Counter-examples sit in the first
+thirty samples: `8 in the minimal space, 12 in the extended one` (which is
+production?), `12 for geometry optimization; 8 for Hessian` (two different
+jobs), `10, 12, 14, and 18` (a convergence series, so the leading value is the
+smallest). One is not a formatting problem at all: `9 for F2+, 7 for O2+, 4 for
+Be2 and 14 for NiC` is a single row standing for four molecules, which is the
+class-named-row defect wearing a formatting problem's clothes.
+
+**The test of whether the leading number is right also failed, instructively.**
+Looking for an `(n,m)` in the prose fields next to a production marker and
+comparing it with the leading pair returned 10 disagreements against 6
+agreements, which read as a refutation. Every disagreement was the regex: the
+prose says "used for the variational calculations **and** (6,7) for [something
+else]", and a window after the marker word reaches past the space the marker
+describes to the next one. So the hypothesis is **untested, not refuted** — and
+unsettleable this way regardless, because 118 of the 143 packed rows carry no
+production marker in their prose at all.
+
+**Only one bucket is safe to convert mechanically**: a cell whose own wording
+marks the leading number as the one used and the rest as a test, check,
+validation, probe or variant — `8; 13 in vertical-excitation test`, `11, with a
+15-electron variant for the configuration-interaction check`. Convert only when
+**both** fields of the row qualify, because a row with a structured `nel` and a
+prose `norb` is more misleading than one where both are prose: it looks
+answerable and is not. That was 23 cells in 14 rows, which is the size of the
+mechanical corner.
+
+**A cell that merely asserts absence is empty, not prose.** Nine cells across
+seven rows held sentences like "NEVER STATED" or "not stated for the
+isolated-species calculation" inside the integer field. An empty cell says the
+same and stays sortable; the sentence belongs in `notes`. Eight further cells
+assert an absence *and* carry real numbers — "2 for diradical diagnostic; 12 in
+initial spectral screening; final occupation-selected spectral electron count
+not reported" — and emptying those would discard stated values.
+
 ## A row must name a compound
 
 `compound_name` is what makes a row answerable — a consumer asks *what active
