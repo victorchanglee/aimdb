@@ -27,7 +27,49 @@ Tiers, in the order they appear in the file:
 
 A gap is only worth filling if the paper states the value. Many are genuinely
 absent from the source — that is a finding, not a defect, and the row should
-say so in `notes` rather than be filled by inference.
+say so in `notes` rather than be filled by inference. Measured on 2026-10-11
+with `code/tools/tools_find_active_spaces.py`: of the 491 papers with an
+active-space gap and local text, **436 print no active space anywhere**, so
+650 of the ~835 gap rows cannot be closed by reading what is on disk.
+
+**Some empty cells are the paper's own answer, and should say so.** Three were
+found in one pass, and in every case a *sibling row carrying a number* is what
+made the blank look like an oversight:
+
+- `W4415130779-a` — a nuclear-electronic study where the proton carries the
+  active space: "No electronic active space was used for HeHHe+". Three
+  sibling rows carry (2e,2o).
+- `W2317548820-b` — the table settles it by what it omits, its rows reading
+  `3CH3N3 CASSCF` and `3DMAZ B1K`. CASSCF was run on the smaller analogue to
+  validate the DFT model used on the title compound.
+- `W4367834028-a` — "CASSCF ... was used to perform magnetic analyses **on
+  5**", complex 5 being the dysprosium analogue; this row's yttrium is
+  diamagnetic, so there was no magnetic analysis to perform.
+
+Annotating these is worth as much as filling one: it stops the row being
+re-examined every time the queue is regenerated.
+
+**A bare `(n,m)` in a text is weak evidence.** Two thirds of the papers whose
+text states exactly one space still could not be filled from it. The recurring
+false positives: a **literature-comparison table** of other groups' methods,
+each with its own reference marker (`W2318674172`); an explicit citation
+(`W2162377719`, "Johnson and Irikura [8] studied ... using the CASSCF (3,8)");
+a general remark rather than a calculation (`W3088435364`, on where "the
+classical quantum chemical limit" lies); a **range** with per-member values in
+supplementary material (`W4324049352`); and a **class-named row**, where the
+paper may state several spaces and none of them is the row's — `W2022699704`
+gives (8,8), (12,12) and (10,10) by dimer class for one row covering all of
+them. In that last case the empty cell is not the defect; the row is.
+
+**Prefer a derivation the paper lets you check.** The safe fills all had an
+independent test: a stated rule plus the row's own identity (`CAS(N,N)` with N
+the multimer size; the lanthanide f-shell recipe where the electron count *is*
+the 4f count); an orbital composition that sums to the `norb` already stored
+(`W2463145035`'s "3s, 4s, and 3d orbitals and t2g 4d orbitals" = 1+1+5+3);
+a spin label that pins the d count (quartet, quartet, sextet for 3d³, 3d³,
+3d⁵); or best of all, **the paper's own CSF count** — `W2098766693` states "the
+linear combinations of 50 and 175 configurations", and the Weyl–Paldus singlet
+dimension of CAS(6,5) is exactly 50 and of CAS(6,6) exactly 175.
 
 ## QUEST-sourced rows: keep here, filter on export
 
