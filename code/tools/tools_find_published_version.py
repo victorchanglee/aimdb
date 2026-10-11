@@ -41,7 +41,6 @@ import csv
 import json
 import sys
 import time
-import unicodedata
 from collections import defaultdict
 
 import requests
@@ -52,6 +51,10 @@ from mining_agent import config
 from tools.tools_resolve_duplicate_papers import _title, PREPRINT
 
 API = "https://api.openalex.org/works"
+# Answers are cached per preprint key so a killed or rate-limited run resumes
+# instead of re-asking 136 groups. "failed" is never cached: it is the absence
+# of an answer, and caching it would freeze a transient 429 into a finding.
+CACHE = config.LOGS_DIR / "published_version_cache.json"
 # Repository sources that are not a published version even when OpenAlex calls
 # the location primary.
 REPO = ("chemrxiv", "arxiv", "research square", "biorxiv", "ssrn", "preprints",
@@ -98,19 +101,34 @@ def is_journal(loc):
 
 
 def ask(session, params):
-    """One OpenAlex query, or None. Never raises: a survey of 136 groups must
-    not be lost to one 503, which is what happened on the first run."""
-    for attempt in range(5):
+    """One OpenAlex query, or None, or "failed". Never raises.
+
+    Pacing matters more here than in `tools_oa.py`, which asks the cheap `doi:`
+    filter 50 DOIs at a time. `title.search` is a full-text query and OpenAlex
+    rate-limits it far harder: the first run of this tool paced at 0.12 s
+    between groups and spent twenty-five minutes collecting 429s, because a
+    2/4/6/8/10-second retry ladder just re-hits the limit five times and gives
+    up. So the backoff starts at 5 s and doubles, `Retry-After` is honoured
+    when the server sends it, and callers wait a whole second between groups.
+    """
+    delay = 5.0
+    for _ in range(6):
         try:
             resp = session.get(API, params=dict(params, mailto=config.MAILTO),
                                timeout=60)
         except requests.RequestException:
-            time.sleep(2 * (attempt + 1))
+            time.sleep(delay)
+            delay *= 2
             continue
         if resp.status_code == 404:
             return None
         if resp.status_code == 429 or resp.status_code >= 500:
-            time.sleep(2 * (attempt + 1))
+            try:
+                wait = max(float(resp.headers.get("Retry-After")), delay)
+            except (TypeError, ValueError):
+                wait = delay
+            time.sleep(min(wait, 120.0))
+            delay *= 2
             continue
         if not resp.ok:
             return None
@@ -125,10 +143,18 @@ SELECT = "id,doi,title,display_name,type,publication_year,locations," \
          "primary_location,best_oa_location"
 
 
-def published_for(session, doi, title):
+def published_for(session, doi, title, title_search=True):
     """(doi, year, title, how) for the published version, None if OpenAlex has
     none, or "failed" if it never answered — a distinction that matters,
-    because "no published version" is a finding and a dropped request is not."""
+    because "no published version" is a finding and a dropped request is not.
+
+    The two routes fail independently. On 2026-10-11 the `doi:` filter answered
+    normally while `title.search` returned 503 for every query, search being a
+    separate backend; a tool that treats one dead route as a dead tool reports
+    136 failures and learns nothing. So route 1 is always tried, and when route
+    2 is unavailable the result is "partial" — route 1 found nothing AND the
+    confirming search could not run, which is weaker than a real negative.
+    """
     rec = ask(session, {"filter": "doi:" + doi, "select": SELECT,
                         "per-page": 1})
     if rec == "failed":
@@ -143,12 +169,14 @@ def published_for(session, doi, title):
                 return (ldoi, w.get("publication_year"),
                         w.get("display_name") or "", "linked-location")
 
+    if not title_search:
+        return "partial"
     want = _title(title)
     hits = ask(session, {
         "filter": "title.search:%s,type:article" % title[:180],
         "select": SELECT, "per-page": 25})
     if hits == "failed":
-        return "failed"
+        return "partial"
     for w in (hits or {}).get("results") or []:
         wdoi = norm_doi(w.get("doi"))
         if not wdoi or PREPRINT.match(wdoi) or wdoi == doi:
@@ -168,6 +196,8 @@ def main(argv=None):
                     help="ask OpenAlex; without it, only survey what is local")
     ap.add_argument("--csv", help="write the findings to this path")
     ap.add_argument("--limit", type=int, help="stop after N groups")
+    ap.add_argument("--no-cache", action="store_true",
+                    help="ignore logs/published_version_cache.json and re-ask")
     args = ap.parse_args(argv)
 
     groups = preprint_groups()
@@ -198,15 +228,41 @@ def main(argv=None):
 
     session = requests.Session()
     session.headers["User-Agent"] = config.USER_AGENT
-    found, missing, failed = [], [], []
+    cache = {}
+    if CACHE.exists() and not args.no_cache:
+        cache = json.loads(CACHE.read_text())
+        print("resuming: %d key(s) already answered" % len(cache),
+              file=sys.stderr)
+    # One probe decides whether route 2 is worth attempting at all. Without
+    # it, a dead search backend costs the full backoff ladder 136 times over.
+    probe = ask(session, {"filter": "title.search:ethylene,type:article",
+                          "select": "id", "per-page": 1})
+    title_search = probe != "failed"
+    if not title_search:
+        print("title.search is not answering; running the linked-location "
+              "route only. Groups it cannot settle are reported PARTIAL, not "
+              "negative — re-run when search is back.", file=sys.stderr)
+
+    found, missing, failed, partial = [], [], [], []
     for i, (key, doi, title, n) in enumerate(todo, 1):
         if args.limit and i > args.limit:
             break
-        hit = published_for(session, doi, title) if title else None
+        if key in cache:
+            hit = tuple(cache[key]) if cache[key] else None
+        else:
+            hit = (published_for(session, doi, title, title_search)
+                   if title else None)
+            if hit not in ("failed", "partial"):
+                cache[key] = list(hit) if hit else None
+                CACHE.write_text(json.dumps(cache, indent=0))
         if hit == "failed":
             failed.append((key, doi, n, title))
             print("  ERROR   %-14s %2d row(s)  %s  (OpenAlex did not answer)"
                   % (key, n, doi))
+        elif hit == "partial":
+            partial.append((key, doi, n, title))
+            print("  partial %-14s %2d row(s)  %s  (no linked journal "
+                  "location; title search unavailable)" % (key, n, doi))
         elif hit:
             found.append((key, doi, n, hit))
             print("  FOUND   %-14s %2d row(s)  %s  <- %s (%s, %s)"
@@ -214,15 +270,21 @@ def main(argv=None):
         else:
             missing.append((key, doi, n, title))
             print("  none    %-14s %2d row(s)  %s" % (key, n, doi))
-        time.sleep(0.12)
+        sys.stdout.flush()
+        time.sleep(1.0)
 
     print("\n%d group(s) have a published version in OpenAlex (%d rows); "
           "%d do not (%d rows)"
           % (len(found), sum(f[2] for f in found),
              len(missing), sum(m[2] for m in missing)), file=sys.stderr)
+    if partial:
+        print("%d group(s) (%d rows) have no journal location linked from the "
+              "preprint record, which is suggestive and not conclusive: the "
+              "confirming title search could not run. Re-run when it can."
+              % (len(partial), sum(f[2] for f in partial)), file=sys.stderr)
     if failed:
-        print("%d group(s) (%d rows) got no answer and are UNDECIDED, not "
-              "negative: re-run to settle them."
+        print("%d group(s) (%d rows) got no answer at all and are UNDECIDED, "
+              "not negative: re-run to settle them."
               % (len(failed), sum(f[2] for f in failed)), file=sys.stderr)
     print("Nothing was written. These are candidates for re-attribution, not "
           "decisions: confirm each before pointing rows at it.", file=sys.stderr)
