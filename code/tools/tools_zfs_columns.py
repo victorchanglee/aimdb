@@ -128,6 +128,15 @@ ED_PAT = re.compile(
 UNC = r"(?:\s*\([^)]{0,24}\))?"
 # En- and em-dashes are used for ranges as often as the ASCII hyphen here.
 SEP = r"(?:,|/|-|–|—|to|and|then|against|versus|vs\.?)"
+# "Zero-field splitting D (cm-1), <label> <value>, ..., experiment <value>":
+# a column heading followed by a labelled list, which is how a
+# method-comparison paper reports D. The heading carries the unit, so the
+# values that follow have none of their own.
+D_LIST_HEAD = re.compile(
+    r"\bD\s*[\(\[]\s*(cm[^)\]]*|GHz|MHz|K)\s*[)\]]\s*[,:]", re.I)
+D_LIST_EXPT = re.compile(
+    r"\bexperiment(?:al)?\s*[,:]?\s*([-+]?\d+(?:\.\d+)?)(?![A-Za-z])", re.I)
+
 MULTI_D = re.compile(
     r"\b(?:absD|D)\b[^.;|]{0,12}(?:=|is|of|:)\s*%s%s\s*%s\s*%s"
     % (NUM, UNC, SEP, NUM))
@@ -291,6 +300,24 @@ def extract(row):
                 skipped.append("clause carries D forward to another level of "
                                "theory")
                 continue
+            # A unit-headed labelled list: take the one value labelled
+            # `experiment`, and leave the method-labelled ones alone -- the
+            # row's `method` field spans all of them, so none is "the"
+            # computed value for this row.
+            head = D_LIST_HEAD.search(clause)
+            if head:
+                me = D_LIST_EXPT.search(clause, head.end())
+                if me:
+                    unit = {"ghz": "GHz", "mhz": "MHz", "k": "K"}.get(
+                        head.group(1).strip().lower(), "cm-1")
+                    val = to_cm(float(me.group(1)), unit)
+                    if val is not None:
+                        found["D_exp"].append((round(val, 6), unit))
+                        skipped.append("D read from a unit-headed labelled "
+                                       "list; the method-labelled values were "
+                                       "left for the row's method field")
+                continue
+
             # Several techniques in one clause means several experimental
             # values; none of them is the paper's experimental D for this row.
             n_tech = sum(1 for t in TECHNIQUES if re.search(t, clause, re.I))
