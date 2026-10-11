@@ -58,27 +58,21 @@ also a standing violation of it. Splitting them is a re-mining job -- read the
 paper, enumerate the compounds, write a row per compound -- and it would
 unblock the g values as a side effect rather than as its purpose.
 
-    W2172599360  several halide complexes in one row; the fit is labelled for
-                 complex 3A alone
-    W7161785735  "complexes (1 and 2)" in one row, with a separate tensor for
-                 each in the text
-    W2175930880  one row for the Dy(III) AND Ni(II) centres; the tensor is the
-                 Dy Kramers doublet's
-    W2467810201  one row for the cobalt AND copper complexes, and the authors
-                 caveat the values themselves
-    W2606848775  one row listing seven U(V) complexes, 1 through 7 -- and this
-                 is a paper whose whole subject is the electronic g-tensor
-    W2769765377  one row against a five-column table, several columns holding
-                 two values each
-    W3083587694  one row for the Er AND Yb complexes; the fit is the isolated
-                 Er site's
-    W4200089368  one row for the Ce AND Bk complexes; the 5f8 tensor is
-                 berkelium's
-    W4403467707  one row for complexes 1-5; the four table columns agree to
-                 five decimals but are still four distinct columns
-    W7155069273  one row for two complexes, gz given separately for 2 and 3a
+    W2172599360  two polymorphs of one complex, 3A and 3B, with the other
+                 three halides as literature context; the fit is labelled for
+                 3A alone
     W7150817998  idealised model series, and its quoted 8.0 and 18.0 are the
                  2*g_J*m_J ceilings rather than computed values
+
+NINE OF THE ORIGINAL ELEVEN WERE UNBLOCKED BY SPLITTING THEM, which is the
+useful lesson: a blocked paper is usually a row problem, not a text problem.
+W7161785735, W2175930880, W2467810201, W2606848775, W2769765377, W3083587694,
+W4200089368, W4403467707 and W7155069273 all held one row against a table of
+several compounds, so there was nothing to attribute a tensor TO. Once each was
+split into per-compound rows, every one of them left this report: as of
+2026-10-11 the nine carry 27 rows between them, 24 of which hold a g. The two
+above remain because neither should be split -- one is a polymorph pair of a
+single complex and the other a geometry scan with no compounds to name.
 
 A WARNING ABOUT SCREENING ON compound_name. Papers were triaged for a while by
 matching that column against words like "complexes", "series" and "models",
