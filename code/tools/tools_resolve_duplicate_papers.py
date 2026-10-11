@@ -46,7 +46,18 @@ PREPRINT = re.compile(r"^10\.(26434|48550|21203|1101|20944|31219|33774|2139)/", 
 
 
 def _title(s):
-    return re.sub(r"[^a-z0-9]", "", (s or "").lower())
+    """Normalised title for matching.
+
+    HTML MARKUP MUST GO FIRST. OpenAlex returns publisher titles with tags
+    intact, so the Chem. Eur. J. version of one paper arrives as
+    "... Air-Stable <i>D</i> <sub>5h</sub> SIMs**" while its chemRxiv preprint
+    says "... air-stable D5h SIMs". Stripping only non-alphanumerics leaves
+    "idisub5hsubsims" against "d5hsims" and the pair never matches -- which is
+    exactly how W3213161432 and W4254674698, the same paper by the same
+    authors, both kept three rows for the same three compounds.
+    """
+    s = re.sub(r"<[^>]{1,40}>", "", s or "")
+    return re.sub(r"[^a-z0-9]", "", s.lower())
 
 
 def _space(r):
