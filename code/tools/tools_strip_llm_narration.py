@@ -101,6 +101,18 @@ RULES = [
         rf"{MODEL} full PR over-splitting correction \([^)]*\):[^.|]*"
         rf"(?:\.|(?=\s*\|)|$)\s*", re.I)),
     ("manually-mined", re.compile(rf"Manually mined by {MODEL} from{BODY}", re.I)),
+    # "Mined by GPT-5.6." closes 931 rows and only repeats `mining_model`.
+    ("mined-by-model", re.compile(rf"Mined by {MODEL}\.(?=\s|$)\s*", re.I)),
+    # Sentences that only report how much of the paper was read. Each must open
+    # the sentence and be about reading/inspecting pages, so a sentence that
+    # goes on to say something about the chemistry is left alone by the
+    # terminator, which stops at the first sentence end.
+    ("comprehensive-read-of", re.compile(
+        rf"(?:(?<=^)|(?<=\.\s))Comprehensive (?:read|reading)(?: and visual inspection)? of "
+        rf"(?:all|every|the)\b{BODY}", re.I)),
+    ("pages-visually-inspected", re.compile(
+        rf"(?:(?<=^)|(?<=\.\s))(?:Every|All) (?:article )?pages?\b[^.;|]*?visually inspected"
+        rf"{SENT_END}\s*")),
 ]
 
 

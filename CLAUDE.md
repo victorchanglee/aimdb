@@ -773,9 +773,12 @@ A second mechanism produces the same damage invisibly: a paper that already has
 rows being **re-mined from a hand-supplied PDF**. It writes under the same key
 and DOI, so no title or DOI check can see it — look for `read-supplied-file`
 after an `add-row` for the same key in `logs/extractions.csv`. Ten papers were
-mined twice this way on 2026-08-06/07, and the second pass read a *different
-document*: `W4253843485`'s rows claim (64,64) and (60,60), `W4205703165-d`
-claims (54,36), and none of those appear in the stored `text/<key>.txt`.
+mined twice this way on 2026-08-06/07. The examples once given here as proof
+that the second pass read a *different document* were wrong (checked
+2026-10-12): `W4253843485`'s (64,64) and (60,60) are on line 381 of its stored
+text, and `W4205703165`'s (54,36) appears three times in its own. Plain `grep`
+reports nothing on some of these files because it treats them as binary; use
+`grep -a` before concluding a value is absent from a text.
 
 ## Structure files and molecule identifiers
 

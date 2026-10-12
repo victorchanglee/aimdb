@@ -1,1 +1,3376 @@
-[]
+[
+ {
+  "entry_id": "W2987230728-d",
+  "file": "W2987230728-d.xyz",
+  "cid": "67516",
+  "query": "1H-1,2,3-triazole",
+  "formula": "C2H3N3"
+ },
+ {
+  "entry_id": "W2117343091-b",
+  "file": "W2117343091-b.xyz",
+  "cid": "597",
+  "query": "cytosine",
+  "formula": "C4H5N3O"
+ },
+ {
+  "entry_id": "W2117343091-c",
+  "file": "W2117343091-c.xyz",
+  "cid": "597",
+  "query": "cytosine",
+  "formula": "C4H5N3O"
+ },
+ {
+  "entry_id": "W2965070608-a",
+  "file": "W2965070608-a.xyz",
+  "cid": "977",
+  "query": "O2",
+  "formula": "O2"
+ },
+ {
+  "entry_id": "W2969509515-a",
+  "file": "W2969509515-a.xyz",
+  "cid": "15817734",
+  "query": "oxaziridine",
+  "formula": "CH3NO"
+ },
+ {
+  "entry_id": "W2902420468-a",
+  "file": "W2902420468-a.xyz",
+  "cid": "6348",
+  "query": "CS2",
+  "formula": "CS2"
+ },
+ {
+  "entry_id": "W2020659146-a",
+  "file": "W2020659146-a.xyz",
+  "cid": "7964",
+  "query": "chlorobenzene",
+  "formula": "C6H5Cl"
+ },
+ {
+  "entry_id": "W7125610045-a",
+  "file": "W7125610045-a.xyz",
+  "cid": "7439",
+  "query": "carvone",
+  "formula": "C10H14O"
+ },
+ {
+  "entry_id": "W2036873101-d",
+  "file": "W2036873101-d.xyz",
+  "cid": "241",
+  "query": "Benzene",
+  "formula": "C6H6"
+ },
+ {
+  "entry_id": "W2746979517-b",
+  "file": "W2746979517-b.xyz",
+  "cid": "8671",
+  "query": "Pentacene",
+  "formula": "C22H14"
+ },
+ {
+  "entry_id": "W2746979517-c",
+  "file": "W2746979517-c.xyz",
+  "cid": "7845",
+  "query": "1,3-Butadiene",
+  "formula": "C4H6"
+ },
+ {
+  "entry_id": "W4401353082-a",
+  "file": "W4401353082-a.xyz",
+  "cid": "6140",
+  "query": "Phenylalanine",
+  "formula": "C9H11NO2"
+ },
+ {
+  "entry_id": "W4401353082-b",
+  "file": "W4401353082-b.xyz",
+  "cid": "6057",
+  "query": "Tyrosine",
+  "formula": "C9H11NO3"
+ },
+ {
+  "entry_id": "W4401353082-c",
+  "file": "W4401353082-c.xyz",
+  "cid": "6305",
+  "query": "Tryptophan",
+  "formula": "C11H12N2O2"
+ },
+ {
+  "entry_id": "W2947767018-a",
+  "file": "W2947767018-a.xyz",
+  "cid": "9263",
+  "query": "s-Tetrazine",
+  "formula": "C2H2N4"
+ },
+ {
+  "entry_id": "W4399433893-a",
+  "file": "W4399433893-a.xyz",
+  "cid": "6325",
+  "query": "Ethylene",
+  "formula": "C2H4"
+ },
+ {
+  "entry_id": "W2074138336-a",
+  "file": "W2074138336-a.xyz",
+  "cid": "6115",
+  "query": "Aniline",
+  "formula": "C6H7N"
+ },
+ {
+  "entry_id": "W2560348368-a",
+  "file": "W2560348368-a.xyz",
+  "cid": "1135",
+  "query": "Thymine",
+  "formula": "C5H6N2O2"
+ },
+ {
+  "entry_id": "W4308434679-a",
+  "file": "W4308434679-a.xyz",
+  "cid": "7416",
+  "query": "Nitrobenzene",
+  "formula": "C6H5NO2"
+ },
+ {
+  "entry_id": "W4308434679-b",
+  "file": "W4308434679-b.xyz",
+  "cid": "6672",
+  "query": "1,3-Dimethyl-2-nitrobenzene",
+  "formula": "C8H9NO2"
+ },
+ {
+  "entry_id": "W4308434679-c",
+  "file": "W4308434679-c.xyz",
+  "cid": "639659",
+  "query": "1-Nitro-4-[(1E)-2-phenylethenyl]benzene",
+  "formula": "C14H11NO2"
+ },
+ {
+  "entry_id": "W4392863947-a",
+  "file": "W4392863947-a.xyz",
+  "cid": "14496",
+  "query": "Cyclobutanone",
+  "formula": "C4H6O"
+ },
+ {
+  "entry_id": "W4400248302-a",
+  "file": "W4400248302-a.xyz",
+  "cid": "11392",
+  "query": "2-Nitronaphthalene",
+  "formula": "C10H7NO2"
+ },
+ {
+  "entry_id": "W4400248302-b",
+  "file": "W4400248302-b.xyz",
+  "cid": "6849",
+  "query": "1-Nitronaphthalene",
+  "formula": "C10H7NO2"
+ },
+ {
+  "entry_id": "W4400248302-c",
+  "file": "W4400248302-c.xyz",
+  "cid": "13432",
+  "query": "2-Methyl-1-nitronaphthalene",
+  "formula": "C11H9NO2"
+ },
+ {
+  "entry_id": "W3205842283-a",
+  "file": "W3205842283-a.xyz",
+  "cid": "7416",
+  "query": "Nitrobenzene",
+  "formula": "C6H5NO2"
+ },
+ {
+  "entry_id": "W2068668400-a",
+  "file": "W2068668400-a.xyz",
+  "cid": "79056",
+  "query": "Methyl hypochlorite",
+  "formula": "CH3ClO"
+ },
+ {
+  "entry_id": "W2913667368-a",
+  "file": "W2913667368-a.xyz",
+  "cid": "2723790",
+  "query": "Thiourea",
+  "formula": "CH4N2S"
+ },
+ {
+  "entry_id": "W4405736166-b",
+  "file": "W4405736166-b.xyz",
+  "cid": "5281227",
+  "query": "Canthaxanthin",
+  "formula": "C40H52O2"
+ },
+ {
+  "entry_id": "W2030289480-a",
+  "file": "W2030289480-a.xyz",
+  "cid": "195955",
+  "query": "Gadusol",
+  "formula": "C8H12O6"
+ },
+ {
+  "entry_id": "W2527705372-a",
+  "file": "W2527705372-a.xyz",
+  "cid": "1135",
+  "query": "Thymine",
+  "formula": "C5H6N2O2"
+ },
+ {
+  "entry_id": "W4210641446-a",
+  "file": "W4210641446-a.xyz",
+  "cid": "12405073",
+  "query": "Isopropyl azide",
+  "formula": "C3H7N3"
+ },
+ {
+  "entry_id": "W2544990059-a",
+  "file": "W2544990059-a.xyz",
+  "cid": "241",
+  "query": "Benzene",
+  "formula": "C6H6"
+ },
+ {
+  "entry_id": "W2064948033-a",
+  "file": "W2064948033-a.xyz",
+  "cid": "9262",
+  "query": "1,3,5-Triazine",
+  "formula": "C3H3N3"
+ },
+ {
+  "entry_id": "W2064948033-b",
+  "file": "W2064948033-b.xyz",
+  "cid": "2256",
+  "query": "Atrazine",
+  "formula": "C8H14ClN5"
+ },
+ {
+  "entry_id": "W2064948033-c",
+  "file": "W2064948033-c.xyz",
+  "cid": "13263",
+  "query": "Ametryn",
+  "formula": "C9H17N5S"
+ },
+ {
+  "entry_id": "W4393248043-b",
+  "file": "W4393248043-b.xyz",
+  "cid": "931",
+  "query": "Naphthalene",
+  "formula": "C10H8"
+ },
+ {
+  "entry_id": "W4393248043-c",
+  "file": "W4393248043-c.xyz",
+  "cid": "8418",
+  "query": "Anthracene",
+  "formula": "C14H10"
+ },
+ {
+  "entry_id": "W4393248043-d",
+  "file": "W4393248043-d.xyz",
+  "cid": "7080",
+  "query": "Tetracene",
+  "formula": "C18H12"
+ },
+ {
+  "entry_id": "W3120060997-b",
+  "file": "W3120060997-b.xyz",
+  "cid": "136879",
+  "query": "Cyclobutadiene",
+  "formula": "C4H4"
+ },
+ {
+  "entry_id": "W4411874770-a",
+  "file": "W4411874770-a.xyz",
+  "cid": "6325",
+  "query": "Ethylene",
+  "formula": "C2H4"
+ },
+ {
+  "entry_id": "W4413381662-a",
+  "file": "W4413381662-a.xyz",
+  "cid": "713",
+  "query": "Formamide",
+  "formula": "CH3NO"
+ },
+ {
+  "entry_id": "W4413381662-b",
+  "file": "W4413381662-b.xyz",
+  "cid": "24823",
+  "query": "Ozone",
+  "formula": "O3"
+ },
+ {
+  "entry_id": "W2989131566-a",
+  "file": "W2989131566-a.xyz",
+  "cid": "136879",
+  "query": "Cyclobutadiene",
+  "formula": "C4H4"
+ },
+ {
+  "entry_id": "W2903558328-d",
+  "file": "W2903558328-d.xyz",
+  "cid": "945",
+  "query": "Nitroxyl",
+  "formula": "HNO"
+ },
+ {
+  "entry_id": "W2903558328-e",
+  "file": "W2903558328-e.xyz",
+  "cid": "70075",
+  "query": "Nitrosomethane",
+  "formula": "CH3NO"
+ },
+ {
+  "entry_id": "W2903558328-f",
+  "file": "W2903558328-f.xyz",
+  "cid": "6325",
+  "query": "Ethylene",
+  "formula": "C2H4"
+ },
+ {
+  "entry_id": "W2903558328-g",
+  "file": "W2903558328-g.xyz",
+  "cid": "712",
+  "query": "Formaldehyde",
+  "formula": "CH2O"
+ },
+ {
+  "entry_id": "W2903558328-i",
+  "file": "W2903558328-i.xyz",
+  "cid": "7860",
+  "query": "Glyoxal",
+  "formula": "C2H2O2"
+ },
+ {
+  "entry_id": "W2903558328-j",
+  "file": "W2903558328-j.xyz",
+  "cid": "7847",
+  "query": "Acrolein",
+  "formula": "C3H4O"
+ },
+ {
+  "entry_id": "W2903558328-k",
+  "file": "W2903558328-k.xyz",
+  "cid": "241",
+  "query": "Benzene",
+  "formula": "C6H6"
+ },
+ {
+  "entry_id": "W2903558328-l",
+  "file": "W2903558328-l.xyz",
+  "cid": "16695",
+  "query": "Hexatriene",
+  "formula": "C6H8"
+ },
+ {
+  "entry_id": "W2903558328-m",
+  "file": "W2903558328-m.xyz",
+  "cid": "9261",
+  "query": "Pyrazine",
+  "formula": "C4H4N2"
+ },
+ {
+  "entry_id": "W2903558328-n",
+  "file": "W2903558328-n.xyz",
+  "cid": "9263",
+  "query": "s-Tetrazine",
+  "formula": "C2H2N4"
+ },
+ {
+  "entry_id": "W4362457883-a",
+  "file": "W4362457883-a.xyz",
+  "cid": "10421",
+  "query": "Azomethane",
+  "formula": "C2H6N2"
+ },
+ {
+  "entry_id": "W3045841699-a",
+  "file": "W3045841699-a.xyz",
+  "cid": "947",
+  "query": "Dinitrogen",
+  "formula": "N2"
+ },
+ {
+  "entry_id": "W3045841699-c",
+  "file": "W3045841699-c.xyz",
+  "cid": "962",
+  "query": "Water",
+  "formula": "H2O"
+ },
+ {
+  "entry_id": "W3045841699-e",
+  "file": "W3045841699-e.xyz",
+  "cid": "6325",
+  "query": "Ethylene",
+  "formula": "C2H4"
+ },
+ {
+  "entry_id": "W3045841699-f",
+  "file": "W3045841699-f.xyz",
+  "cid": "136879",
+  "query": "Cyclobutadiene",
+  "formula": "C4H4"
+ },
+ {
+  "entry_id": "W3045841699-g",
+  "file": "W3045841699-g.xyz",
+  "cid": "24823",
+  "query": "Ozone",
+  "formula": "O3"
+ },
+ {
+  "entry_id": "W4367174413-a",
+  "file": "W4367174413-a.xyz",
+  "cid": "962",
+  "query": "Water",
+  "formula": "H2O"
+ },
+ {
+  "entry_id": "W4367174413-b",
+  "file": "W4367174413-b.xyz",
+  "cid": "136879",
+  "query": "Cyclobutadiene",
+  "formula": "C4H4"
+ },
+ {
+  "entry_id": "W4367174413-c",
+  "file": "W4367174413-c.xyz",
+  "cid": "281",
+  "query": "Carbon monoxide",
+  "formula": "CO"
+ },
+ {
+  "entry_id": "W2894695367-a",
+  "file": "W2894695367-a.xyz",
+  "cid": "141213",
+  "query": "Disulfur dinitride",
+  "formula": "N2S2"
+ },
+ {
+  "entry_id": "W3016981447-a",
+  "file": "W3016981447-a.xyz",
+  "cid": "136323",
+  "query": "Fulvene",
+  "formula": "C6H6"
+ },
+ {
+  "entry_id": "W3016981447-e",
+  "file": "W3016981447-e.xyz",
+  "cid": "5368766",
+  "query": "2,4,6-Octatriene",
+  "formula": "C8H12"
+ },
+ {
+  "entry_id": "W3016981447-f",
+  "file": "W3016981447-f.xyz",
+  "cid": "10421",
+  "query": "Azomethane",
+  "formula": "C2H6N2"
+ },
+ {
+  "entry_id": "W3016981447-h",
+  "file": "W3016981447-h.xyz",
+  "cid": "996",
+  "query": "Phenol",
+  "formula": "C6H6O"
+ },
+ {
+  "entry_id": "W4388485122-a",
+  "file": "W4388485122-a.xyz",
+  "cid": "138404",
+  "query": "Cyclopropanone",
+  "formula": "C3H4O"
+ },
+ {
+  "entry_id": "W4390743735-a",
+  "file": "W4390743735-a.xyz",
+  "cid": "10421",
+  "query": "Azomethane",
+  "formula": "C2H6N2"
+ },
+ {
+  "entry_id": "W2051485675-b",
+  "file": "W2051485675-b.xyz",
+  "cid": "1174",
+  "query": "Uracil",
+  "formula": "C4H4N2O2"
+ },
+ {
+  "entry_id": "W2056528709-a",
+  "file": "W2056528709-a.xyz",
+  "cid": "6324",
+  "query": "Ethane",
+  "formula": "C2H6"
+ },
+ {
+  "entry_id": "W2056528709-b",
+  "file": "W2056528709-b.xyz",
+  "cid": "9321",
+  "query": "Hydrazine",
+  "formula": "H4N2"
+ },
+ {
+  "entry_id": "W2559947911-a",
+  "file": "W2559947911-a.xyz",
+  "cid": "67191",
+  "query": "PTCDA",
+  "formula": "C24H8O6"
+ },
+ {
+  "entry_id": "W4280645434-a",
+  "file": "W4280645434-a.xyz",
+  "cid": "241",
+  "query": "Benzene",
+  "formula": "C6H6"
+ },
+ {
+  "entry_id": "W4280645434-b",
+  "file": "W4280645434-b.xyz",
+  "cid": "1049",
+  "query": "Pyridine",
+  "formula": "C5H5N"
+ },
+ {
+  "entry_id": "W4280645434-c",
+  "file": "W4280645434-c.xyz",
+  "cid": "6582",
+  "query": "N-methylacetamide",
+  "formula": "C3H7NO"
+ },
+ {
+  "entry_id": "W4317660909-a",
+  "file": "W4317660909-a.xyz",
+  "cid": "6325",
+  "query": "Ethylene",
+  "formula": "C2H4"
+ },
+ {
+  "entry_id": "W4289465398-b",
+  "file": "W4289465398-b.xyz",
+  "cid": "947",
+  "query": "Dinitrogen",
+  "formula": "N2"
+ },
+ {
+  "entry_id": "W4289465398-c",
+  "file": "W4289465398-c.xyz",
+  "cid": "962",
+  "query": "Water",
+  "formula": "H2O"
+ },
+ {
+  "entry_id": "W4289465398-d",
+  "file": "W4289465398-d.xyz",
+  "cid": "5975",
+  "query": "Cyanide anion",
+  "formula": "CN-"
+ },
+ {
+  "entry_id": "W4391945661-a",
+  "file": "W4391945661-a.xyz",
+  "cid": "7416",
+  "query": "Nitrobenzene",
+  "formula": "C6H5NO2"
+ },
+ {
+  "entry_id": "W3105279903-b",
+  "file": "W3105279903-b.xyz",
+  "cid": "768",
+  "query": "HCN",
+  "formula": "CHN"
+ },
+ {
+  "entry_id": "W3096086284-a",
+  "file": "W3096086284-a.xyz",
+  "cid": "1174",
+  "query": "Uracil",
+  "formula": "C4H4N2O2"
+ },
+ {
+  "entry_id": "W2094368805-a",
+  "file": "W2094368805-a.xyz",
+  "cid": "9142",
+  "query": "Perylene",
+  "formula": "C20H12"
+ },
+ {
+  "entry_id": "W2094368805-b",
+  "file": "W2094368805-b.xyz",
+  "cid": "123026",
+  "query": "Terrylene",
+  "formula": "C30H16"
+ },
+ {
+  "entry_id": "W2094368805-c",
+  "file": "W2094368805-c.xyz",
+  "cid": "135996",
+  "query": "Quaterrylene",
+  "formula": "C40H20"
+ },
+ {
+  "entry_id": "W4416881924-a",
+  "file": "W4416881924-a.xyz",
+  "cid": "16695",
+  "query": "Hexatriene",
+  "formula": "C6H8"
+ },
+ {
+  "entry_id": "W4416881924-b",
+  "file": "W4416881924-b.xyz",
+  "cid": "136327",
+  "query": "para-Quinodimethane",
+  "formula": "C8H8"
+ },
+ {
+  "entry_id": "W2583236413-b",
+  "file": "W2583236413-b.xyz",
+  "cid": "69972",
+  "query": "Cyclobutene",
+  "formula": "C4H6"
+ },
+ {
+  "entry_id": "W4408115116-a",
+  "file": "W4408115116-a.xyz",
+  "cid": "8473",
+  "query": "Norbornadiene",
+  "formula": "C7H8"
+ },
+ {
+  "entry_id": "W1637036156-a",
+  "file": "W1637036156-a.xyz",
+  "cid": "948",
+  "query": "NNO",
+  "formula": "N2O"
+ },
+ {
+  "entry_id": "W4362506709-a",
+  "file": "W4362506709-a.xyz",
+  "cid": "931",
+  "query": "Naphthalene",
+  "formula": "C10H8"
+ },
+ {
+  "entry_id": "W4362506709-b",
+  "file": "W4362506709-b.xyz",
+  "cid": "8418",
+  "query": "Anthracene",
+  "formula": "C14H10"
+ },
+ {
+  "entry_id": "W4391901280-a",
+  "file": "W4391901280-a.xyz",
+  "cid": "14496",
+  "query": "Cyclobutanone",
+  "formula": "C4H6O"
+ },
+ {
+  "entry_id": "W4395463914-a",
+  "file": "W4395463914-a.xyz",
+  "cid": "14496",
+  "query": "Cyclobutanone",
+  "formula": "C4H6O"
+ },
+ {
+  "entry_id": "W1628972969-a",
+  "file": "W1628972969-a.xyz",
+  "cid": "6392",
+  "query": "CF3Cl",
+  "formula": "CClF3"
+ },
+ {
+  "entry_id": "W2222860091-a",
+  "file": "W2222860091-a.xyz",
+  "cid": "72913",
+  "query": "Aminobenzonitrile",
+  "formula": "C7H6N2"
+ },
+ {
+  "entry_id": "W4404327395-a",
+  "file": "W4404327395-a.xyz",
+  "cid": "712",
+  "query": "Formaldehyde",
+  "formula": "CH2O"
+ },
+ {
+  "entry_id": "W4404327395-b",
+  "file": "W4404327395-b.xyz",
+  "cid": "7475",
+  "query": "para-Nitroaniline",
+  "formula": "C6H6N2O2"
+ },
+ {
+  "entry_id": "W2809841053-a",
+  "file": "W2809841053-a.xyz",
+  "cid": "996",
+  "query": "Phenol",
+  "formula": "C6H6O"
+ },
+ {
+  "entry_id": "W4280497489-a",
+  "file": "W4280497489-a.xyz",
+  "cid": "947",
+  "query": "N2",
+  "formula": "N2"
+ },
+ {
+  "entry_id": "W4387949145-a",
+  "file": "W4387949145-a.xyz",
+  "cid": "1174",
+  "query": "Uracil",
+  "formula": "C4H4N2O2"
+ },
+ {
+  "entry_id": "W4387949145-b",
+  "file": "W4387949145-b.xyz",
+  "cid": "1135",
+  "query": "Thymine",
+  "formula": "C5H6N2O2"
+ },
+ {
+  "entry_id": "W4387949145-c",
+  "file": "W4387949145-c.xyz",
+  "cid": "597",
+  "query": "Cytosine",
+  "formula": "C4H5N3O"
+ },
+ {
+  "entry_id": "W4387949145-d",
+  "file": "W4387949145-d.xyz",
+  "cid": "190",
+  "query": "Adenine",
+  "formula": "C5H5N5"
+ },
+ {
+  "entry_id": "W4387949145-e",
+  "file": "W4387949145-e.xyz",
+  "cid": "135398634",
+  "query": "Guanine",
+  "formula": "C5H5N5O"
+ },
+ {
+  "entry_id": "W4392596617-a",
+  "file": "W4392596617-a.xyz",
+  "cid": "8027",
+  "query": "Pyrrole",
+  "formula": "C4H5N"
+ },
+ {
+  "entry_id": "W4393008544-a",
+  "file": "W4393008544-a.xyz",
+  "cid": "2734394",
+  "query": "4-Thiouracil",
+  "formula": "C4H4N2OS"
+ },
+ {
+  "entry_id": "W4205270606-a",
+  "file": "W4205270606-a.xyz",
+  "cid": "66950",
+  "query": "Isocytosine",
+  "formula": "C4H5N3O"
+ },
+ {
+  "entry_id": "W2787723571-a",
+  "file": "W2787723571-a.xyz",
+  "cid": "7855",
+  "query": "Acrylonitrile",
+  "formula": "C3H3N"
+ },
+ {
+  "entry_id": "W2057303726-a",
+  "file": "W2057303726-a.xyz",
+  "cid": "69667",
+  "query": "Benzocyclobutane",
+  "formula": "C8H8"
+ },
+ {
+  "entry_id": "W4391940707-a",
+  "file": "W4391940707-a.xyz",
+  "cid": "14496",
+  "query": "Cyclobutanone",
+  "formula": "C4H6O"
+ },
+ {
+  "entry_id": "W4394973821-a",
+  "file": "W4394973821-a.xyz",
+  "cid": "190",
+  "query": "Adenine",
+  "formula": "C5H5N5"
+ },
+ {
+  "entry_id": "W7128476320-a",
+  "file": "W7128476320-a.xyz",
+  "cid": "137823",
+  "query": "Bicyclo[2.2.0]hex-2-ene",
+  "formula": "C6H8"
+ },
+ {
+  "entry_id": "W4223510623-a",
+  "file": "W4223510623-a.xyz",
+  "cid": "136879",
+  "query": "Cyclobutadiene",
+  "formula": "C4H4"
+ },
+ {
+  "entry_id": "W7159797647-a",
+  "file": "W7159797647-a.xyz",
+  "cid": "33643",
+  "query": "1-iodopropane",
+  "formula": "C3H7I"
+ },
+ {
+  "entry_id": "W2937798275-a",
+  "file": "W2937798275-a.xyz",
+  "cid": "11605",
+  "query": "1,3-Cyclohexadiene",
+  "formula": "C6H8"
+ },
+ {
+  "entry_id": "W1554453990-a",
+  "file": "W1554453990-a.xyz",
+  "cid": "241",
+  "query": "benzene",
+  "formula": "C6H6"
+ },
+ {
+  "entry_id": "W2089533823-a",
+  "file": "W2089533823-a.xyz",
+  "cid": "977",
+  "query": "O2",
+  "formula": "O2"
+ },
+ {
+  "entry_id": "W3195289124-a",
+  "file": "W3195289124-a.xyz",
+  "cid": "24408",
+  "query": "Br2",
+  "formula": "Br2"
+ },
+ {
+  "entry_id": "W2035901698-a",
+  "file": "W2035901698-a.xyz",
+  "cid": "948",
+  "query": "N2O",
+  "formula": "N2O"
+ },
+ {
+  "entry_id": "W2287666696-a",
+  "file": "W2287666696-a.xyz",
+  "cid": "8029",
+  "query": "furan",
+  "formula": "C4H4O"
+ },
+ {
+  "entry_id": "W4408388082-a",
+  "file": "W4408388082-a.xyz",
+  "cid": "13602",
+  "query": "2-picoline N-oxide",
+  "formula": "C6H7NO"
+ },
+ {
+  "entry_id": "W4408388082-c",
+  "file": "W4408388082-c.xyz",
+  "cid": "12677505",
+  "query": "2-methoxypyrimidine N-oxide",
+  "formula": "C5H6N2O2"
+ },
+ {
+  "entry_id": "W2085321209-a",
+  "file": "W2085321209-a.xyz",
+  "cid": "597",
+  "query": "cytosine",
+  "formula": "C4H5N3O"
+ },
+ {
+  "entry_id": "W1970840181-b",
+  "file": "W1970840181-b.xyz",
+  "cid": "597",
+  "query": "cytosine",
+  "formula": "C4H5N3O"
+ },
+ {
+  "entry_id": "W2070467709-a",
+  "file": "W2070467709-a.xyz",
+  "cid": "1140",
+  "query": "toluene",
+  "formula": "C7H8"
+ },
+ {
+  "entry_id": "W2070467709-b",
+  "file": "W2070467709-b.xyz",
+  "cid": "2879",
+  "query": "p-cresol",
+  "formula": "C7H8O"
+ },
+ {
+  "entry_id": "W7126159567-a",
+  "file": "W7126159567-a.xyz",
+  "cid": "5281243",
+  "query": "lutein",
+  "formula": "C40H56O2"
+ },
+ {
+  "entry_id": "W4241668775-a",
+  "file": "W4241668775-a.xyz",
+  "cid": "6325",
+  "query": "ethylene",
+  "formula": "C2H4"
+ },
+ {
+  "entry_id": "W4309834098-a",
+  "file": "W4309834098-a.xyz",
+  "cid": "8473",
+  "query": "norbornadiene",
+  "formula": "C7H8"
+ },
+ {
+  "entry_id": "W2058034569-a",
+  "file": "W2058034569-a.xyz",
+  "cid": "129738003",
+  "query": "8-(pyrimidine-2-yl)quinolin-ol",
+  "formula": "C13H9N3O"
+ },
+ {
+  "entry_id": "W2058034569-b",
+  "file": "W2058034569-b.xyz",
+  "cid": "137234301",
+  "query": "2-(4-nitropyrimidine-2-yl)ethenol",
+  "formula": "C6H5N3O3"
+ },
+ {
+  "entry_id": "W7165544852-a",
+  "file": "W7165544852-a.xyz",
+  "cid": "996",
+  "query": "phenol",
+  "formula": "C6H6O"
+ },
+ {
+  "entry_id": "W4394338976-a",
+  "file": "W4394338976-a.xyz",
+  "cid": "2272",
+  "query": "azobenzene",
+  "formula": "C12H10N2"
+ },
+ {
+  "entry_id": "W4394338976-b",
+  "file": "W4394338976-b.xyz",
+  "cid": "10964",
+  "query": "malonaldehyde",
+  "formula": "C3H4O2"
+ },
+ {
+  "entry_id": "W4394338976-c",
+  "file": "W4394338976-c.xyz",
+  "cid": "638088",
+  "query": "trans-stilbene",
+  "formula": "C14H12"
+ },
+ {
+  "entry_id": "W7108208601-a",
+  "file": "W7108208601-a.xyz",
+  "cid": "11605",
+  "query": "1,3-cyclohexadiene",
+  "formula": "C6H8"
+ },
+ {
+  "entry_id": "W2150840493-a",
+  "file": "W2150840493-a.xyz",
+  "cid": "10215",
+  "query": "indigo",
+  "formula": "C16H10N2O2"
+ },
+ {
+  "entry_id": "W2943191843-a",
+  "file": "W2943191843-a.xyz",
+  "cid": "79115",
+  "query": "thioformaldehyde",
+  "formula": "CH2S"
+ },
+ {
+  "entry_id": "W2009631876-b",
+  "file": "W2009631876-b.xyz",
+  "cid": "11159354",
+  "query": "JP-10",
+  "formula": "C10H16"
+ },
+ {
+  "entry_id": "W3041093158-a",
+  "file": "W3041093158-a.xyz",
+  "cid": "712",
+  "query": "formaldehyde",
+  "formula": "CH2O"
+ },
+ {
+  "entry_id": "W3041093158-c",
+  "file": "W3041093158-c.xyz",
+  "cid": "597",
+  "query": "cytosine",
+  "formula": "C4H5N3O"
+ },
+ {
+  "entry_id": "W2414483381-a",
+  "file": "W2414483381-a.xyz",
+  "cid": "222",
+  "query": "ammonia",
+  "formula": "H3N"
+ },
+ {
+  "entry_id": "W2408827486-a",
+  "file": "W2408827486-a.xyz",
+  "cid": "12208",
+  "query": "1,4-diiodobenzene",
+  "formula": "C6H4I2"
+ },
+ {
+  "entry_id": "W2001333208-a",
+  "file": "W2001333208-a.xyz",
+  "cid": "73934",
+  "query": "2,6-difluoropyridine",
+  "formula": "C5H3F2N"
+ },
+ {
+  "entry_id": "W4379796885-a",
+  "file": "W4379796885-a.xyz",
+  "cid": "31423",
+  "query": "pyrene",
+  "formula": "C16H10"
+ },
+ {
+  "entry_id": "W4379796885-b",
+  "file": "W4379796885-b.xyz",
+  "cid": "9136",
+  "query": "benzo[c]phenanthrene",
+  "formula": "C18H12"
+ },
+ {
+  "entry_id": "W1854933703-b",
+  "file": "W1854933703-b.xyz",
+  "cid": "7612",
+  "query": "cyclopentadiene",
+  "formula": "C5H6"
+ },
+ {
+  "entry_id": "W2113939091-a",
+  "file": "W2113939091-a.xyz",
+  "cid": "638088",
+  "query": "trans-stilbene",
+  "formula": "C14H12"
+ },
+ {
+  "entry_id": "W2153913404-a",
+  "file": "W2153913404-a.xyz",
+  "cid": "962",
+  "query": "water",
+  "formula": "H2O"
+ },
+ {
+  "entry_id": "W2153913404-b",
+  "file": "W2153913404-b.xyz",
+  "cid": "222",
+  "query": "ammonia",
+  "formula": "H3N"
+ },
+ {
+  "entry_id": "W2153913404-c",
+  "file": "W2153913404-c.xyz",
+  "cid": "297",
+  "query": "methane",
+  "formula": "CH4"
+ },
+ {
+  "entry_id": "W2153913404-d",
+  "file": "W2153913404-d.xyz",
+  "cid": "6326",
+  "query": "acetylene",
+  "formula": "C2H2"
+ },
+ {
+  "entry_id": "W3157421356-a",
+  "file": "W3157421356-a.xyz",
+  "cid": "6391",
+  "query": "dichlorodifluoromethane",
+  "formula": "CCl2F2"
+ },
+ {
+  "entry_id": "W3157421356-b",
+  "file": "W3157421356-b.xyz",
+  "cid": "6344",
+  "query": "dichloromethane",
+  "formula": "CH2Cl2"
+ },
+ {
+  "entry_id": "W4280629462-a",
+  "file": "W4280629462-a.xyz",
+  "cid": "7938",
+  "query": "2,6-dimethylpyrazine",
+  "formula": "C6H8N2"
+ },
+ {
+  "entry_id": "W4408343890-a",
+  "file": "W4408343890-a.xyz",
+  "cid": "6375",
+  "query": "nitromethane",
+  "formula": "CH3NO2"
+ },
+ {
+  "entry_id": "W3121447074-a",
+  "file": "W3121447074-a.xyz",
+  "cid": "1135",
+  "query": "thymine",
+  "formula": "C5H6N2O2"
+ },
+ {
+  "entry_id": "W4386690317-a",
+  "file": "W4386690317-a.xyz",
+  "cid": "7812",
+  "query": "para-chloroaniline",
+  "formula": "C6H6ClN"
+ },
+ {
+  "entry_id": "W4386690317-b",
+  "file": "W4386690317-b.xyz",
+  "cid": "7932",
+  "query": "meta-chloroaniline",
+  "formula": "C6H6ClN"
+ },
+ {
+  "entry_id": "W2166303160-a",
+  "file": "W2166303160-a.xyz",
+  "cid": "8301",
+  "query": "tetrafluoroethylene",
+  "formula": "C2F4"
+ },
+ {
+  "entry_id": "W4212850856-a",
+  "file": "W4212850856-a.xyz",
+  "cid": "241",
+  "query": "benzene",
+  "formula": "C6H6"
+ },
+ {
+  "entry_id": "W1983762859-a",
+  "file": "W1983762859-a.xyz",
+  "cid": "25352",
+  "query": "dinitrogen tetroxide",
+  "formula": "N2O4"
+ },
+ {
+  "entry_id": "W4382060087-a",
+  "file": "W4382060087-a.xyz",
+  "cid": "5323604",
+  "query": "2-butenedial",
+  "formula": "C4H4O2"
+ },
+ {
+  "entry_id": "W4394624704-a",
+  "file": "W4394624704-a.xyz",
+  "cid": "9321",
+  "query": "hydrazine",
+  "formula": "H4N2"
+ },
+ {
+  "entry_id": "W1984166883-a",
+  "file": "W1984166883-a.xyz",
+  "cid": "73697",
+  "query": "tetracyanoquinodimethane",
+  "formula": "C12H4N4"
+ },
+ {
+  "entry_id": "W2150875231-a",
+  "file": "W2150875231-a.xyz",
+  "cid": "6325",
+  "query": "ethene",
+  "formula": "C2H4"
+ },
+ {
+  "entry_id": "W2142276416-a",
+  "file": "W2142276416-a.xyz",
+  "cid": "9955",
+  "query": "2-aminopurine",
+  "formula": "C5H5N5"
+ },
+ {
+  "entry_id": "W2069819498-a",
+  "file": "W2069819498-a.xyz",
+  "cid": "137779",
+  "query": "cyclopropenone",
+  "formula": "C3H2O"
+ },
+ {
+  "entry_id": "W2069819498-c",
+  "file": "W2069819498-c.xyz",
+  "cid": "139405",
+  "query": "cyclopentadienone",
+  "formula": "C5H4O"
+ },
+ {
+  "entry_id": "W2069819498-d",
+  "file": "W2069819498-d.xyz",
+  "cid": "144834",
+  "query": "cyclopentadienethione",
+  "formula": "C5H4S"
+ },
+ {
+  "entry_id": "W2069819498-e",
+  "file": "W2069819498-e.xyz",
+  "cid": "10881",
+  "query": "tropone",
+  "formula": "C7H6O"
+ },
+ {
+  "entry_id": "W1983718324-a",
+  "file": "W1983718324-a.xyz",
+  "cid": "24823",
+  "query": "ozone",
+  "formula": "O3"
+ },
+ {
+  "entry_id": "W1998887703-a",
+  "file": "W1998887703-a.xyz",
+  "cid": "8027",
+  "query": "pyrrole",
+  "formula": "C4H5N"
+ },
+ {
+  "entry_id": "W2073689158-a",
+  "file": "W2073689158-a.xyz",
+  "cid": "6326",
+  "query": "acetylene",
+  "formula": "C2H2"
+ },
+ {
+  "entry_id": "W3198558532-a",
+  "file": "W3198558532-a.xyz",
+  "cid": "61170",
+  "query": "diiodoacetylene",
+  "formula": "C2I2"
+ },
+ {
+  "entry_id": "W2619410558-a",
+  "file": "W2619410558-a.xyz",
+  "cid": "24823",
+  "query": "ozone",
+  "formula": "O3"
+ },
+ {
+  "entry_id": "W2006018602-a",
+  "file": "W2006018602-a.xyz",
+  "cid": "190",
+  "query": "adenine",
+  "formula": "C5H5N5"
+ },
+ {
+  "entry_id": "W3034433424-a",
+  "file": "W3034433424-a.xyz",
+  "cid": "7416",
+  "query": "nitrobenzene",
+  "formula": "C6H5NO2"
+ },
+ {
+  "entry_id": "W2792338474-a",
+  "file": "W2792338474-a.xyz",
+  "cid": "8301",
+  "query": "C2F4",
+  "formula": "C2F4"
+ },
+ {
+  "entry_id": "W2080032603-a",
+  "file": "W2080032603-a.xyz",
+  "cid": "5460726",
+  "query": "pentalene",
+  "formula": "C8H6"
+ },
+ {
+  "entry_id": "W2007234316-a",
+  "file": "W2007234316-a.xyz",
+  "cid": "14055",
+  "query": "cyanoacetylene",
+  "formula": "C3HN"
+ },
+ {
+  "entry_id": "W2981075862-a",
+  "file": "W2981075862-a.xyz",
+  "cid": "14940714",
+  "query": "cyclo[18]carbon",
+  "formula": "C18"
+ },
+ {
+  "entry_id": "W2069788998-a",
+  "file": "W2069788998-a.xyz",
+  "cid": "70967",
+  "query": "4-(dimethylamino)benzonitrile",
+  "formula": "C9H10N2"
+ },
+ {
+  "entry_id": "W4388624885-a",
+  "file": "W4388624885-a.xyz",
+  "cid": "5367417",
+  "query": "trans-1,3,5-hexatriene",
+  "formula": "C6H8"
+ },
+ {
+  "entry_id": "W4388624885-b",
+  "file": "W4388624885-b.xyz",
+  "cid": "5367415",
+  "query": "cis-1,3,5-hexatriene",
+  "formula": "C6H8"
+ },
+ {
+  "entry_id": "W4386700056-a",
+  "file": "W4386700056-a.xyz",
+  "cid": "9231",
+  "query": "azulene",
+  "formula": "C10H8"
+ },
+ {
+  "entry_id": "W4226357349-a",
+  "file": "W4226357349-a.xyz",
+  "cid": "79115",
+  "query": "thioformaldehyde",
+  "formula": "CH2S"
+ },
+ {
+  "entry_id": "W4413257160-b",
+  "file": "W4413257160-b.xyz",
+  "cid": "3102",
+  "query": "benzophenone",
+  "formula": "C13H10O"
+ },
+ {
+  "entry_id": "W2547842445-a",
+  "file": "W2547842445-a.xyz",
+  "cid": "5802",
+  "query": "5-bromouracil",
+  "formula": "C4H3BrN2O2"
+ },
+ {
+  "entry_id": "W4406472336-a",
+  "file": "W4406472336-a.xyz",
+  "cid": "162624628",
+  "query": "hydroperoxymethyl thioformate",
+  "formula": "C2H4O3S"
+ },
+ {
+  "entry_id": "W2765822382-c",
+  "file": "W2765822382-c.xyz",
+  "cid": "55289916",
+  "query": "aminocyclobutadiene",
+  "formula": "C4H5N"
+ },
+ {
+  "entry_id": "W2765822382-d",
+  "file": "W2765822382-d.xyz",
+  "cid": "12927834",
+  "query": "formylcyclobutadiene",
+  "formula": "C5H4O"
+ },
+ {
+  "entry_id": "W2765822382-e",
+  "file": "W2765822382-e.xyz",
+  "cid": "101439660",
+  "query": "1-amino-2-formyl-cyclobutadiene",
+  "formula": "C5H5NO"
+ },
+ {
+  "entry_id": "W3196581525-a",
+  "file": "W3196581525-a.xyz",
+  "cid": "96505",
+  "query": "1-cyclohexyluracil",
+  "formula": "C10H14N2O2"
+ },
+ {
+  "entry_id": "W2093601950-a",
+  "file": "W2093601950-a.xyz",
+  "cid": "6571",
+  "query": "chloroacetone",
+  "formula": "C3H5ClO"
+ },
+ {
+  "entry_id": "W4288441817-a",
+  "file": "W4288441817-a.xyz",
+  "cid": "123298771",
+  "query": "2-hydroperoxypropanal",
+  "formula": "C3H6O3"
+ },
+ {
+  "entry_id": "W2799775759-a",
+  "file": "W2799775759-a.xyz",
+  "cid": "10390",
+  "query": "diphenylacetylene",
+  "formula": "C14H10"
+ },
+ {
+  "entry_id": "W7125797799-a",
+  "file": "W7125797799-a.xyz",
+  "cid": "10964",
+  "query": "malonaldehyde",
+  "formula": "C3H4O2"
+ },
+ {
+  "entry_id": "W7125797799-b",
+  "file": "W7125797799-b.xyz",
+  "cid": "31261",
+  "query": "acetylacetone",
+  "formula": "C5H8O2"
+ },
+ {
+  "entry_id": "W2773945081-a",
+  "file": "W2773945081-a.xyz",
+  "cid": "8027",
+  "query": "pyrrole",
+  "formula": "C4H5N"
+ },
+ {
+  "entry_id": "W4394608676-a",
+  "file": "W4394608676-a.xyz",
+  "cid": "14496",
+  "query": "cyclobutanone",
+  "formula": "C4H6O"
+ },
+ {
+  "entry_id": "W4392011822-a",
+  "file": "W4392011822-a.xyz",
+  "cid": "14496",
+  "query": "cyclobutanone",
+  "formula": "C4H6O"
+ },
+ {
+  "entry_id": "W4415130779-d",
+  "file": "W4415130779-d.xyz",
+  "cid": "10964",
+  "query": "malonaldehyde",
+  "formula": "C3H4O2"
+ },
+ {
+  "entry_id": "W1975937059-a",
+  "file": "W1975937059-a.xyz",
+  "cid": "140196",
+  "query": "thiazyl chloride",
+  "formula": "ClNS"
+ },
+ {
+  "entry_id": "W4410496829-a",
+  "file": "W4410496829-a.xyz",
+  "cid": "8418",
+  "query": "anthracene",
+  "formula": "C14H10"
+ },
+ {
+  "entry_id": "W4415583672-g",
+  "file": "W4415583672-g.xyz",
+  "cid": "9863",
+  "query": "silicon carbide",
+  "formula": "CSi"
+ },
+ {
+  "entry_id": "W7128057212-a",
+  "file": "W7128057212-a.xyz",
+  "cid": "6325",
+  "query": "ethene",
+  "formula": "C2H4"
+ },
+ {
+  "entry_id": "W7128057212-e",
+  "file": "W7128057212-e.xyz",
+  "cid": "123173",
+  "query": "cyclopropene",
+  "formula": "C3H4"
+ },
+ {
+  "entry_id": "W7128057212-f",
+  "file": "W7128057212-f.xyz",
+  "cid": "7612",
+  "query": "cyclopentadiene",
+  "formula": "C5H6"
+ },
+ {
+  "entry_id": "W7128057212-g",
+  "file": "W7128057212-g.xyz",
+  "cid": "8473",
+  "query": "norbornadiene",
+  "formula": "C7H8"
+ },
+ {
+  "entry_id": "W7128057212-h",
+  "file": "W7128057212-h.xyz",
+  "cid": "6326",
+  "query": "acetylene",
+  "formula": "C2H2"
+ },
+ {
+  "entry_id": "W7128057212-i",
+  "file": "W7128057212-i.xyz",
+  "cid": "9997",
+  "query": "diacetylene",
+  "formula": "C4H2"
+ },
+ {
+  "entry_id": "W7128057212-j",
+  "file": "W7128057212-j.xyz",
+  "cid": "138112",
+  "query": "methylenecyclopropene",
+  "formula": "C4H4"
+ },
+ {
+  "entry_id": "W7128057212-k",
+  "file": "W7128057212-k.xyz",
+  "cid": "712",
+  "query": "formaldehyde",
+  "formula": "CH2O"
+ },
+ {
+  "entry_id": "W7128057212-l",
+  "file": "W7128057212-l.xyz",
+  "cid": "177",
+  "query": "acetaldehyde",
+  "formula": "C2H4O"
+ },
+ {
+  "entry_id": "W7128057212-m",
+  "file": "W7128057212-m.xyz",
+  "cid": "180",
+  "query": "acetone",
+  "formula": "C3H6O"
+ },
+ {
+  "entry_id": "W7128057212-n",
+  "file": "W7128057212-n.xyz",
+  "cid": "137779",
+  "query": "cyclopropenone",
+  "formula": "C3H2O"
+ },
+ {
+  "entry_id": "W7128057212-o",
+  "file": "W7128057212-o.xyz",
+  "cid": "10038",
+  "query": "ketene",
+  "formula": "C2H2O"
+ },
+ {
+  "entry_id": "W7128057212-p",
+  "file": "W7128057212-p.xyz",
+  "cid": "7847",
+  "query": "acrolein",
+  "formula": "C3H4O"
+ },
+ {
+  "entry_id": "W7128057212-q",
+  "file": "W7128057212-q.xyz",
+  "cid": "7860",
+  "query": "glyoxal",
+  "formula": "C2H2O2"
+ },
+ {
+  "entry_id": "W7128057212-r",
+  "file": "W7128057212-r.xyz",
+  "cid": "12222",
+  "query": "propynal",
+  "formula": "C3H2O"
+ },
+ {
+  "entry_id": "W7128057212-s",
+  "file": "W7128057212-s.xyz",
+  "cid": "4650",
+  "query": "p-benzoquinone",
+  "formula": "C6H4O2"
+ },
+ {
+  "entry_id": "W7128057212-t",
+  "file": "W7128057212-t.xyz",
+  "cid": "79115",
+  "query": "thioformaldehyde",
+  "formula": "CH2S"
+ },
+ {
+  "entry_id": "W7128057212-u",
+  "file": "W7128057212-u.xyz",
+  "cid": "641811",
+  "query": "thioacetone",
+  "formula": "C3H6S"
+ },
+ {
+  "entry_id": "W7128057212-x",
+  "file": "W7128057212-x.xyz",
+  "cid": "241",
+  "query": "benzene",
+  "formula": "C6H6"
+ },
+ {
+  "entry_id": "W7128057212-y",
+  "file": "W7128057212-y.xyz",
+  "cid": "8029",
+  "query": "furan",
+  "formula": "C4H4O"
+ },
+ {
+  "entry_id": "W7128057212-z",
+  "file": "W7128057212-z.xyz",
+  "cid": "8027",
+  "query": "pyrrole",
+  "formula": "C4H5N"
+ },
+ {
+  "entry_id": "W7128057212-aa",
+  "file": "W7128057212-aa.xyz",
+  "cid": "1049",
+  "query": "pyridine",
+  "formula": "C5H5N"
+ },
+ {
+  "entry_id": "W7128057212-ab",
+  "file": "W7128057212-ab.xyz",
+  "cid": "9261",
+  "query": "pyrazine",
+  "formula": "C4H4N2"
+ },
+ {
+  "entry_id": "W7128057212-ac",
+  "file": "W7128057212-ac.xyz",
+  "cid": "9260",
+  "query": "pyrimidine",
+  "formula": "C4H4N2"
+ },
+ {
+  "entry_id": "W7128057212-ad",
+  "file": "W7128057212-ad.xyz",
+  "cid": "9259",
+  "query": "pyridazine",
+  "formula": "C4H4N2"
+ },
+ {
+  "entry_id": "W7128057212-ae",
+  "file": "W7128057212-ae.xyz",
+  "cid": "9262",
+  "query": "s-triazine",
+  "formula": "C3H3N3"
+ },
+ {
+  "entry_id": "W7128057212-af",
+  "file": "W7128057212-af.xyz",
+  "cid": "9263",
+  "query": "s-tetrazine",
+  "formula": "C2H2N4"
+ },
+ {
+  "entry_id": "W7128057212-ag",
+  "file": "W7128057212-ag.xyz",
+  "cid": "795",
+  "query": "imidazole",
+  "formula": "C3H4N2"
+ },
+ {
+  "entry_id": "W7128057212-ah",
+  "file": "W7128057212-ah.xyz",
+  "cid": "8030",
+  "query": "thiophene",
+  "formula": "C4H4S"
+ },
+ {
+  "entry_id": "W7128057212-ai",
+  "file": "W7128057212-ai.xyz",
+  "cid": "931",
+  "query": "naphthalene",
+  "formula": "C10H8"
+ },
+ {
+  "entry_id": "W7128057212-aj",
+  "file": "W7128057212-aj.xyz",
+  "cid": "713",
+  "query": "formamide",
+  "formula": "CH3NO"
+ },
+ {
+  "entry_id": "W7128057212-ak",
+  "file": "W7128057212-ak.xyz",
+  "cid": "178",
+  "query": "acetamide",
+  "formula": "C2H5NO"
+ },
+ {
+  "entry_id": "W7128057212-al",
+  "file": "W7128057212-al.xyz",
+  "cid": "6578",
+  "query": "propanamide",
+  "formula": "C3H7NO"
+ },
+ {
+  "entry_id": "W7128057212-am",
+  "file": "W7128057212-am.xyz",
+  "cid": "70075",
+  "query": "nitrosomethane",
+  "formula": "CH3NO"
+ },
+ {
+  "entry_id": "W7128057212-an",
+  "file": "W7128057212-an.xyz",
+  "cid": "9550",
+  "query": "diazomethane",
+  "formula": "CH2N2"
+ },
+ {
+  "entry_id": "W7128057212-ao",
+  "file": "W7128057212-ao.xyz",
+  "cid": "9999",
+  "query": "cyanogen",
+  "formula": "C2N2"
+ },
+ {
+  "entry_id": "W7128057212-aq",
+  "file": "W7128057212-aq.xyz",
+  "cid": "14055",
+  "query": "cyanoacetylene",
+  "formula": "C3HN"
+ },
+ {
+  "entry_id": "W7128057212-ar",
+  "file": "W7128057212-ar.xyz",
+  "cid": "3843063",
+  "query": "cyanoformaldehyde",
+  "formula": "C2HNO"
+ },
+ {
+  "entry_id": "W7128057212-as",
+  "file": "W7128057212-as.xyz",
+  "cid": "190",
+  "query": "adenine",
+  "formula": "C5H5N5"
+ },
+ {
+  "entry_id": "W7128057212-at",
+  "file": "W7128057212-at.xyz",
+  "cid": "597",
+  "query": "cytosine",
+  "formula": "C4H5N3O"
+ },
+ {
+  "entry_id": "W7128057212-au",
+  "file": "W7128057212-au.xyz",
+  "cid": "1135",
+  "query": "thymine",
+  "formula": "C5H6N2O2"
+ },
+ {
+  "entry_id": "W7128057212-av",
+  "file": "W7128057212-av.xyz",
+  "cid": "1174",
+  "query": "uracil",
+  "formula": "C4H4N2O2"
+ },
+ {
+  "entry_id": "W7128057212-ay",
+  "file": "W7128057212-ay.xyz",
+  "cid": "70967",
+  "query": "4-(dimethylamino)benzonitrile",
+  "formula": "C9H10N2"
+ },
+ {
+  "entry_id": "W7128057212-az",
+  "file": "W7128057212-az.xyz",
+  "cid": "7475",
+  "query": "p-nitroaniline",
+  "formula": "C6H6N2O2"
+ },
+ {
+  "entry_id": "W7128057212-ba",
+  "file": "W7128057212-ba.xyz",
+  "cid": "313",
+  "query": "hydrogen chloride",
+  "formula": "ClH"
+ },
+ {
+  "entry_id": "W7128057212-bb",
+  "file": "W7128057212-bb.xyz",
+  "cid": "962",
+  "query": "water",
+  "formula": "H2O"
+ },
+ {
+  "entry_id": "W7128057212-bc",
+  "file": "W7128057212-bc.xyz",
+  "cid": "402",
+  "query": "hydrogen sulfide",
+  "formula": "H2S"
+ },
+ {
+  "entry_id": "W7128057212-bd",
+  "file": "W7128057212-bd.xyz",
+  "cid": "222",
+  "query": "ammonia",
+  "formula": "H3N"
+ },
+ {
+  "entry_id": "W7128057212-bf",
+  "file": "W7128057212-bf.xyz",
+  "cid": "8255",
+  "query": "isobutene",
+  "formula": "C4H8"
+ },
+ {
+  "entry_id": "W7128057212-bh",
+  "file": "W7128057212-bh.xyz",
+  "cid": "281",
+  "query": "carbon monoxide",
+  "formula": "CO"
+ },
+ {
+  "entry_id": "W7133209380-a",
+  "file": "W7133209380-a.xyz",
+  "cid": "977",
+  "query": "dioxygen",
+  "formula": "O2"
+ },
+ {
+  "entry_id": "W7133209380-b",
+  "file": "W7133209380-b.xyz",
+  "cid": "114845",
+  "query": "sulfur monoxide",
+  "formula": "OS"
+ },
+ {
+  "entry_id": "W7133209380-c",
+  "file": "W7133209380-c.xyz",
+  "cid": "5460602",
+  "query": "disulfur",
+  "formula": "S2"
+ },
+ {
+  "entry_id": "W7134851058-a",
+  "file": "W7134851058-a.xyz",
+  "cid": "24823",
+  "query": "ozone",
+  "formula": "O3"
+ },
+ {
+  "entry_id": "W2324347976-b",
+  "file": "W2324347976-b.xyz",
+  "cid": "135408747",
+  "query": "9-methylhypoxanthine",
+  "formula": "C6H6N4O"
+ },
+ {
+  "entry_id": "W2466175445-b",
+  "file": "W2466175445-b.xyz",
+  "cid": "712",
+  "query": "formaldehyde",
+  "formula": "CH2O"
+ },
+ {
+  "entry_id": "W2466175445-c",
+  "file": "W2466175445-c.xyz",
+  "cid": "8029",
+  "query": "furan",
+  "formula": "C4H4O"
+ },
+ {
+  "entry_id": "W2466175445-d",
+  "file": "W2466175445-d.xyz",
+  "cid": "8030",
+  "query": "thiophene",
+  "formula": "C4H4S"
+ },
+ {
+  "entry_id": "W2466175445-e",
+  "file": "W2466175445-e.xyz",
+  "cid": "6375",
+  "query": "nitromethane",
+  "formula": "CH3NO2"
+ },
+ {
+  "entry_id": "W4414848445-a",
+  "file": "W4414848445-a.xyz",
+  "cid": "9707",
+  "query": "o-fluorophenol",
+  "formula": "C6H5FO"
+ },
+ {
+  "entry_id": "W2016465083-a",
+  "file": "W2016465083-a.xyz",
+  "cid": "241",
+  "query": "benzene",
+  "formula": "C6H6"
+ },
+ {
+  "entry_id": "W2466175445-f",
+  "file": "W2466175445-f.xyz",
+  "cid": "79115",
+  "query": "thioformaldehyde",
+  "formula": "CH2S"
+ },
+ {
+  "entry_id": "W2618097110-a",
+  "file": "W2618097110-a.xyz",
+  "cid": "6228",
+  "query": "N,N-dimethylformamide",
+  "formula": "C3H7NO"
+ },
+ {
+  "entry_id": "W3119100192-a",
+  "file": "W3119100192-a.xyz",
+  "cid": "1049",
+  "query": "pyridine",
+  "formula": "C5H5N"
+ },
+ {
+  "entry_id": "W3119100192-b",
+  "file": "W3119100192-b.xyz",
+  "cid": "6325",
+  "query": "ethene",
+  "formula": "C2H4"
+ },
+ {
+  "entry_id": "W3119100192-c",
+  "file": "W3119100192-c.xyz",
+  "cid": "1135",
+  "query": "thymine",
+  "formula": "C5H6N2O2"
+ },
+ {
+  "entry_id": "W2973348934-a",
+  "file": "W2973348934-a.xyz",
+  "cid": "24823",
+  "query": "ozone",
+  "formula": "O3"
+ },
+ {
+  "entry_id": "W1983551502-a",
+  "file": "W1983551502-a.xyz",
+  "cid": "8027",
+  "query": "pyrrole",
+  "formula": "C4H5N"
+ },
+ {
+  "entry_id": "W3169885071-b",
+  "file": "W3169885071-b.xyz",
+  "cid": "190",
+  "query": "adenine",
+  "formula": "C5H5N5"
+ },
+ {
+  "entry_id": "W3169885071-c",
+  "file": "W3169885071-c.xyz",
+  "cid": "931",
+  "query": "naphthalene",
+  "formula": "C10H8"
+ },
+ {
+  "entry_id": "W3169885071-f",
+  "file": "W3169885071-f.xyz",
+  "cid": "947",
+  "query": "nitrogen molecule",
+  "formula": "N2"
+ },
+ {
+  "entry_id": "W1992559052-a",
+  "file": "W1992559052-a.xyz",
+  "cid": "1135",
+  "query": "thymine",
+  "formula": "C5H6N2O2"
+ },
+ {
+  "entry_id": "W2059855561-b",
+  "file": "W2059855561-b.xyz",
+  "cid": "68120",
+  "query": "2,2'-bithiophene",
+  "formula": "C8H6S2"
+ },
+ {
+  "entry_id": "W2178144556-a",
+  "file": "W2178144556-a.xyz",
+  "cid": "15442",
+  "query": "HCFC-132b",
+  "formula": "C2H2Cl2F2"
+ },
+ {
+  "entry_id": "W2562164133-a",
+  "file": "W2562164133-a.xyz",
+  "cid": "1135",
+  "query": "thymine",
+  "formula": "C5H6N2O2"
+ },
+ {
+  "entry_id": "W2562164133-b",
+  "file": "W2562164133-b.xyz",
+  "cid": "720471",
+  "query": "2-thiothymine",
+  "formula": "C5H6N2OS"
+ },
+ {
+  "entry_id": "W2562164133-c",
+  "file": "W2562164133-c.xyz",
+  "cid": "5324560",
+  "query": "4-thiothymine",
+  "formula": "C5H6N2OS"
+ },
+ {
+  "entry_id": "W1976482384-a",
+  "file": "W1976482384-a.xyz",
+  "cid": "12302244",
+  "query": "calicene",
+  "formula": "C8H6"
+ },
+ {
+  "entry_id": "W2483570261-a",
+  "file": "W2483570261-a.xyz",
+  "cid": "1135",
+  "query": "thymine",
+  "formula": "C5H6N2O2"
+ },
+ {
+  "entry_id": "W2483570261-b",
+  "file": "W2483570261-b.xyz",
+  "cid": "720471",
+  "query": "2-thiothymine",
+  "formula": "C5H6N2OS"
+ },
+ {
+  "entry_id": "W2483570261-c",
+  "file": "W2483570261-c.xyz",
+  "cid": "5324560",
+  "query": "4-thiothymine",
+  "formula": "C5H6N2OS"
+ },
+ {
+  "entry_id": "W1499443070-a",
+  "file": "W1499443070-a.xyz",
+  "cid": "57469154",
+  "query": "octaazacubane",
+  "formula": "N8"
+ },
+ {
+  "entry_id": "W3126055729-f",
+  "file": "W3126055729-f.xyz",
+  "cid": "222",
+  "query": "ammonia",
+  "formula": "H3N"
+ },
+ {
+  "entry_id": "W3126055729-g",
+  "file": "W3126055729-g.xyz",
+  "cid": "962",
+  "query": "water",
+  "formula": "H2O"
+ },
+ {
+  "entry_id": "W3126055729-h",
+  "file": "W3126055729-h.xyz",
+  "cid": "14917",
+  "query": "hydrogen fluoride",
+  "formula": "FH"
+ },
+ {
+  "entry_id": "W3169228067-a",
+  "file": "W3169228067-a.xyz",
+  "cid": "190",
+  "query": "adenine",
+  "formula": "C5H5N5"
+ },
+ {
+  "entry_id": "W3212105578-a",
+  "file": "W3212105578-a.xyz",
+  "cid": "638088",
+  "query": "trans-stilbene",
+  "formula": "C14H12"
+ },
+ {
+  "entry_id": "W4362661538-a",
+  "file": "W4362661538-a.xyz",
+  "cid": "6369",
+  "query": "1,1-difluoroethylene",
+  "formula": "C2H2F2"
+ },
+ {
+  "entry_id": "W4283697889-a",
+  "file": "W4283697889-a.xyz",
+  "cid": "24823",
+  "query": "O3",
+  "formula": "O3"
+ },
+ {
+  "entry_id": "W4281568148-a",
+  "file": "W4281568148-a.xyz",
+  "cid": "6325",
+  "query": "ethylene",
+  "formula": "C2H4"
+ },
+ {
+  "entry_id": "W4281568148-e",
+  "file": "W4281568148-e.xyz",
+  "cid": "241",
+  "query": "benzene",
+  "formula": "C6H6"
+ },
+ {
+  "entry_id": "W4406526110-b",
+  "file": "W4406526110-b.xyz",
+  "cid": "8418",
+  "query": "anthracene",
+  "formula": "C14H10"
+ },
+ {
+  "entry_id": "W4413289814-g",
+  "file": "W4413289814-g.xyz",
+  "cid": "24823",
+  "query": "O3",
+  "formula": "O3"
+ },
+ {
+  "entry_id": "W3199790810-a",
+  "file": "W3199790810-a.xyz",
+  "cid": "6325",
+  "query": "ethylene",
+  "formula": "C2H4"
+ },
+ {
+  "entry_id": "W3199790810-b",
+  "file": "W3199790810-b.xyz",
+  "cid": "7845",
+  "query": "butadiene",
+  "formula": "C4H6"
+ },
+ {
+  "entry_id": "W3199790810-e",
+  "file": "W3199790810-e.xyz",
+  "cid": "7844",
+  "query": "butene",
+  "formula": "C4H8"
+ },
+ {
+  "entry_id": "W7133956661-a",
+  "file": "W7133956661-a.xyz",
+  "cid": "947",
+  "query": "N2",
+  "formula": "N2"
+ },
+ {
+  "entry_id": "W7133956661-b",
+  "file": "W7133956661-b.xyz",
+  "cid": "8418",
+  "query": "anthracene",
+  "formula": "C14H10"
+ },
+ {
+  "entry_id": "W7133956661-c",
+  "file": "W7133956661-c.xyz",
+  "cid": "7080",
+  "query": "tetracene",
+  "formula": "C18H12"
+ },
+ {
+  "entry_id": "W7133956661-d",
+  "file": "W7133956661-d.xyz",
+  "cid": "8671",
+  "query": "pentacene",
+  "formula": "C22H14"
+ },
+ {
+  "entry_id": "W7133956661-e",
+  "file": "W7133956661-e.xyz",
+  "cid": "123044",
+  "query": "hexacene",
+  "formula": "C26H16"
+ },
+ {
+  "entry_id": "W7133956661-f",
+  "file": "W7133956661-f.xyz",
+  "cid": "5460712",
+  "query": "heptacene",
+  "formula": "C30H18"
+ },
+ {
+  "entry_id": "W7133956661-g",
+  "file": "W7133956661-g.xyz",
+  "cid": "5460708",
+  "query": "octacene",
+  "formula": "C34H20"
+ },
+ {
+  "entry_id": "W4415812818-a",
+  "file": "W4415812818-a.xyz",
+  "cid": "136323",
+  "query": "fulvene",
+  "formula": "C6H6"
+ },
+ {
+  "entry_id": "W7125122752-a",
+  "file": "W7125122752-a.xyz",
+  "cid": "10630437",
+  "query": "formaldehyde oxide",
+  "formula": "CH2O2"
+ },
+ {
+  "entry_id": "W7135079366-a",
+  "file": "W7135079366-a.xyz",
+  "cid": "24823",
+  "query": "ozone",
+  "formula": "O3"
+ },
+ {
+  "entry_id": "W4372295564-f",
+  "file": "W4372295564-f.xyz",
+  "cid": "14917",
+  "query": "hydrogen fluoride",
+  "formula": "FH"
+ },
+ {
+  "entry_id": "W1997812807-a",
+  "file": "W1997812807-a.xyz",
+  "cid": "241",
+  "query": "benzene",
+  "formula": "C6H6"
+ },
+ {
+  "entry_id": "W1997812807-b",
+  "file": "W1997812807-b.xyz",
+  "cid": "136879",
+  "query": "cyclobutadiene",
+  "formula": "C4H4"
+ },
+ {
+  "entry_id": "W2148929260-a",
+  "file": "W2148929260-a.xyz",
+  "cid": "1119",
+  "query": "sulfur dioxide (SO2)",
+  "formula": "O2S"
+ },
+ {
+  "entry_id": "W2321243581-a",
+  "file": "W2321243581-a.xyz",
+  "cid": "6346",
+  "query": "diiodomethane",
+  "formula": "CH2I2"
+ },
+ {
+  "entry_id": "W4402234729-a",
+  "file": "W4402234729-a.xyz",
+  "cid": "136323",
+  "query": "fulvene",
+  "formula": "C6H6"
+ },
+ {
+  "entry_id": "W4309511557-a",
+  "file": "W4309511557-a.xyz",
+  "cid": "7475",
+  "query": "4-nitroaniline",
+  "formula": "C6H6N2O2"
+ },
+ {
+  "entry_id": "W2460739546-a",
+  "file": "W2460739546-a.xyz",
+  "cid": "439423",
+  "query": "provitamin D3",
+  "formula": "C27H44O"
+ },
+ {
+  "entry_id": "W3118218009-a",
+  "file": "W3118218009-a.xyz",
+  "cid": "281",
+  "query": "carbon monoxide",
+  "formula": "CO"
+ },
+ {
+  "entry_id": "W4417497383-a",
+  "file": "W4417497383-a.xyz",
+  "cid": "24404",
+  "query": "phosphine (PH3)",
+  "formula": "H3P"
+ },
+ {
+  "entry_id": "W4417497383-b",
+  "file": "W4417497383-b.xyz",
+  "cid": "139283",
+  "query": "diphosphine",
+  "formula": "H4P2"
+ },
+ {
+  "entry_id": "W4392536553-a",
+  "file": "W4392536553-a.xyz",
+  "cid": "784",
+  "query": "H2O2",
+  "formula": "H2O2"
+ },
+ {
+  "entry_id": "W7162076998-a",
+  "file": "W7162076998-a.xyz",
+  "cid": "17879841",
+  "query": "2,5-dichlorofuran",
+  "formula": "C4H2Cl2O"
+ },
+ {
+  "entry_id": "W2208958082-a",
+  "file": "W2208958082-a.xyz",
+  "cid": "962",
+  "query": "water",
+  "formula": "H2O"
+ },
+ {
+  "entry_id": "W2952743493-c",
+  "file": "W2952743493-c.xyz",
+  "cid": "8671",
+  "query": "pentacene",
+  "formula": "C22H14"
+ },
+ {
+  "entry_id": "W3133047069-a",
+  "file": "W3133047069-a.xyz",
+  "cid": "13594",
+  "query": "2-cyclohexenone",
+  "formula": "C6H8O"
+ },
+ {
+  "entry_id": "W4410721489-a",
+  "file": "W4410721489-a.xyz",
+  "cid": "10743",
+  "query": "sinapic acid",
+  "formula": "C11H12O5"
+ },
+ {
+  "entry_id": "W4410721489-b",
+  "file": "W4410721489-b.xyz",
+  "cid": "5321318",
+  "query": "methyl sinapate",
+  "formula": "C12H14O5"
+ },
+ {
+  "entry_id": "W2600581944-a",
+  "file": "W2600581944-a.xyz",
+  "cid": "6325",
+  "query": "ethylene",
+  "formula": "C2H4"
+ },
+ {
+  "entry_id": "W4393160674-a",
+  "file": "W4393160674-a.xyz",
+  "cid": "241",
+  "query": "benzene",
+  "formula": "C6H6"
+ },
+ {
+  "entry_id": "W2153353639-a",
+  "file": "W2153353639-a.xyz",
+  "cid": "798",
+  "query": "indole",
+  "formula": "C8H7N"
+ },
+ {
+  "entry_id": "W3160818551-a",
+  "file": "W3160818551-a.xyz",
+  "cid": "7847",
+  "query": "acrolein",
+  "formula": "C3H4O"
+ },
+ {
+  "entry_id": "W4211008483-a",
+  "file": "W4211008483-a.xyz",
+  "cid": "2723601",
+  "query": "6-thioguanine",
+  "formula": "C5H5N5S"
+ },
+ {
+  "entry_id": "W4413110754-a",
+  "file": "W4413110754-a.xyz",
+  "cid": "31261",
+  "query": "acetylacetone",
+  "formula": "C5H8O2"
+ },
+ {
+  "entry_id": "W4391899951-a",
+  "file": "W4391899951-a.xyz",
+  "cid": "14496",
+  "query": "cyclobutanone",
+  "formula": "C4H6O"
+ },
+ {
+  "entry_id": "W2415707633-a",
+  "file": "W2415707633-a.xyz",
+  "cid": "11605",
+  "query": "1,3-cyclohexadiene",
+  "formula": "C6H8"
+ },
+ {
+  "entry_id": "W2804996254-a",
+  "file": "W2804996254-a.xyz",
+  "cid": "12232",
+  "query": "dimethyl disulfide",
+  "formula": "C2H6S2"
+ },
+ {
+  "entry_id": "W4401954843-a",
+  "file": "W4401954843-a.xyz",
+  "cid": "887",
+  "query": "methanol",
+  "formula": "CH4O"
+ },
+ {
+  "entry_id": "W4238171836-a",
+  "file": "W4238171836-a.xyz",
+  "cid": "6325",
+  "query": "ethene",
+  "formula": "C2H4"
+ },
+ {
+  "entry_id": "W2040770475-b",
+  "file": "W2040770475-b.xyz",
+  "cid": "8027",
+  "query": "pyrrole",
+  "formula": "C4H5N"
+ },
+ {
+  "entry_id": "W2003921091-a",
+  "file": "W2003921091-a.xyz",
+  "cid": "68120",
+  "query": "bithiophene",
+  "formula": "C8H6S2"
+ },
+ {
+  "entry_id": "W2735018448-a",
+  "file": "W2735018448-a.xyz",
+  "cid": "241",
+  "query": "benzene",
+  "formula": "C6H6"
+ },
+ {
+  "entry_id": "W2363632432-a",
+  "file": "W2363632432-a.xyz",
+  "cid": "1269845",
+  "query": "2-thiouracil",
+  "formula": "C4H4N2OS"
+ },
+ {
+  "entry_id": "W2052295668-a",
+  "file": "W2052295668-a.xyz",
+  "cid": "784",
+  "query": "hydrogen peroxide",
+  "formula": "H2O2"
+ },
+ {
+  "entry_id": "W2061791226-a",
+  "file": "W2061791226-a.xyz",
+  "cid": "241",
+  "query": "benzene",
+  "formula": "C6H6"
+ },
+ {
+  "entry_id": "W2990510204-a",
+  "file": "W2990510204-a.xyz",
+  "cid": "1269845",
+  "query": "2-thiouracil",
+  "formula": "C4H4N2OS"
+ },
+ {
+  "entry_id": "W2990510204-b",
+  "file": "W2990510204-b.xyz",
+  "cid": "1712448",
+  "query": "2,4-dithiouracil",
+  "formula": "C4H4N2S2"
+ },
+ {
+  "entry_id": "W4284704346-a",
+  "file": "W4284704346-a.xyz",
+  "cid": "6305",
+  "query": "tryptophan",
+  "formula": "C11H12N2O2"
+ },
+ {
+  "entry_id": "W4399062333-c",
+  "file": "W4399062333-c.xyz",
+  "cid": "7845",
+  "query": "butadiene",
+  "formula": "C4H6"
+ },
+ {
+  "entry_id": "W4399062333-d",
+  "file": "W4399062333-d.xyz",
+  "cid": "16695",
+  "query": "hexatriene",
+  "formula": "C6H8"
+ },
+ {
+  "entry_id": "W1766476340-a",
+  "file": "W1766476340-a.xyz",
+  "cid": "6325",
+  "query": "ethylene",
+  "formula": "C2H4"
+ },
+ {
+  "entry_id": "W1766476340-c",
+  "file": "W1766476340-c.xyz",
+  "cid": "7845",
+  "query": "1,3-butadiene",
+  "formula": "C4H6"
+ },
+ {
+  "entry_id": "W1766476340-e",
+  "file": "W1766476340-e.xyz",
+  "cid": "638088",
+  "query": "trans-stilbene",
+  "formula": "C14H12"
+ },
+ {
+  "entry_id": "W1766476340-g",
+  "file": "W1766476340-g.xyz",
+  "cid": "7847",
+  "query": "acrolein",
+  "formula": "C3H4O"
+ },
+ {
+  "entry_id": "W1766476340-h",
+  "file": "W1766476340-h.xyz",
+  "cid": "4133",
+  "query": "methyl salicylate",
+  "formula": "C8H8O3"
+ },
+ {
+  "entry_id": "W2085884874-a",
+  "file": "W2085884874-a.xyz",
+  "cid": "241",
+  "query": "benzene",
+  "formula": "C6H6"
+ },
+ {
+  "entry_id": "W4205407787-a",
+  "file": "W4205407787-a.xyz",
+  "cid": "640299",
+  "query": "1,4-distyrylbenzene",
+  "formula": "C22H18"
+ },
+ {
+  "entry_id": "W3121514598-a",
+  "file": "W3121514598-a.xyz",
+  "cid": "11473",
+  "query": "nitrosobenzene",
+  "formula": "C6H5NO"
+ },
+ {
+  "entry_id": "W2001566953-b",
+  "file": "W2001566953-b.xyz",
+  "cid": "712",
+  "query": "formaldehyde",
+  "formula": "CH2O"
+ },
+ {
+  "entry_id": "W2074293030-a",
+  "file": "W2074293030-a.xyz",
+  "cid": "638015",
+  "query": "all-trans retinal",
+  "formula": "C20H28O"
+ },
+ {
+  "entry_id": "W3010737543-a",
+  "file": "W3010737543-a.xyz",
+  "cid": "947",
+  "query": "N2",
+  "formula": "N2"
+ },
+ {
+  "entry_id": "W3010737543-c",
+  "file": "W3010737543-c.xyz",
+  "cid": "7845",
+  "query": "1,3-butadiene",
+  "formula": "C4H6"
+ },
+ {
+  "entry_id": "W3010737543-d",
+  "file": "W3010737543-d.xyz",
+  "cid": "16695",
+  "query": "1,3,5-hexatriene",
+  "formula": "C6H8"
+ },
+ {
+  "entry_id": "W3010737543-e",
+  "file": "W3010737543-e.xyz",
+  "cid": "5463164",
+  "query": "1,3,5,7-octatetraene",
+  "formula": "C8H10"
+ },
+ {
+  "entry_id": "W2756271345-a",
+  "file": "W2756271345-a.xyz",
+  "cid": "1049",
+  "query": "pyridine",
+  "formula": "C5H5N"
+ },
+ {
+  "entry_id": "W2132300871-a",
+  "file": "W2132300871-a.xyz",
+  "cid": "9261",
+  "query": "pyrazine",
+  "formula": "C4H4N2"
+ },
+ {
+  "entry_id": "W1909109107-a",
+  "file": "W1909109107-a.xyz",
+  "cid": "8027",
+  "query": "pyrrole",
+  "formula": "C4H5N"
+ },
+ {
+  "entry_id": "W2144187997-a",
+  "file": "W2144187997-a.xyz",
+  "cid": "12616565",
+  "query": "methyl hypobromite",
+  "formula": "CH3BrO"
+ },
+ {
+  "entry_id": "W2788617302-a",
+  "file": "W2788617302-a.xyz",
+  "cid": "75004",
+  "query": "4-methoxyphenyl azide",
+  "formula": "C7H7N3O"
+ },
+ {
+  "entry_id": "W2788617302-c",
+  "file": "W2788617302-c.xyz",
+  "cid": "10388",
+  "query": "4,4'-dimethoxyazobenzene",
+  "formula": "C14H14N2O2"
+ },
+ {
+  "entry_id": "W2806498859-c",
+  "file": "W2806498859-c.xyz",
+  "cid": "977",
+  "query": "dioxygen",
+  "formula": "O2"
+ },
+ {
+  "entry_id": "W2895613076-a",
+  "file": "W2895613076-a.xyz",
+  "cid": "304590",
+  "query": "5-formyluracil",
+  "formula": "C5H4N2O3"
+ },
+ {
+  "entry_id": "W2941316478-a",
+  "file": "W2941316478-a.xyz",
+  "cid": "11392",
+  "query": "2-nitronaphthalene",
+  "formula": "C10H7NO2"
+ },
+ {
+  "entry_id": "W2941316478-b",
+  "file": "W2941316478-b.xyz",
+  "cid": "6849",
+  "query": "1-nitronaphthalene",
+  "formula": "C10H7NO2"
+ },
+ {
+  "entry_id": "W2941316478-c",
+  "file": "W2941316478-c.xyz",
+  "cid": "13432",
+  "query": "2-methyl-1-nitronaphthalene",
+  "formula": "C11H9NO2"
+ },
+ {
+  "entry_id": "W2941316478-d",
+  "file": "W2941316478-d.xyz",
+  "cid": "7416",
+  "query": "nitrobenzene",
+  "formula": "C6H5NO2"
+ },
+ {
+  "entry_id": "W4417345821-b",
+  "file": "W4417345821-b.xyz",
+  "cid": "11605",
+  "query": "1,3-cyclohexadiene",
+  "formula": "C6H8"
+ },
+ {
+  "entry_id": "W4417345821-c",
+  "file": "W4417345821-c.xyz",
+  "cid": "2272",
+  "query": "trans-azobenzene",
+  "formula": "C12H10N2"
+ },
+ {
+  "entry_id": "W7134133864-a",
+  "file": "W7134133864-a.xyz",
+  "cid": "6766",
+  "query": "ortho-terphenyl",
+  "formula": "C18H14"
+ },
+ {
+  "entry_id": "W2316471243-a",
+  "file": "W2316471243-a.xyz",
+  "cid": "6849",
+  "query": "1-nitronaphthalene",
+  "formula": "C10H7NO2"
+ },
+ {
+  "entry_id": "W4409087462-c",
+  "file": "W4409087462-c.xyz",
+  "cid": "768",
+  "query": "HCN",
+  "formula": "CHN"
+ },
+ {
+  "entry_id": "W4409087462-d",
+  "file": "W4409087462-d.xyz",
+  "cid": "6432654",
+  "query": "HNC",
+  "formula": "CHN"
+ },
+ {
+  "entry_id": "W2017290590-a",
+  "file": "W2017290590-a.xyz",
+  "cid": "18752",
+  "query": "asulam",
+  "formula": "C8H10N2O4S"
+ },
+ {
+  "entry_id": "W2530710134-a",
+  "file": "W2530710134-a.xyz",
+  "cid": "5460602",
+  "query": "disulfur",
+  "formula": "S2"
+ },
+ {
+  "entry_id": "W2069289428-a",
+  "file": "W2069289428-a.xyz",
+  "cid": "6199",
+  "query": "psoralen",
+  "formula": "C11H6O3"
+ },
+ {
+  "entry_id": "W1993475047-a",
+  "file": "W1993475047-a.xyz",
+  "cid": "15619273",
+  "query": "thieno[3,4-b]pyrazine",
+  "formula": "C6H4N2S"
+ },
+ {
+  "entry_id": "W2043552340-a",
+  "file": "W2043552340-a.xyz",
+  "cid": "4650",
+  "query": "p-benzoquinone",
+  "formula": "C6H4O2"
+ },
+ {
+  "entry_id": "W2171856544-a",
+  "file": "W2171856544-a.xyz",
+  "cid": "9261",
+  "query": "pyrazine",
+  "formula": "C4H4N2"
+ },
+ {
+  "entry_id": "W2751016850-a",
+  "file": "W2751016850-a.xyz",
+  "cid": "24823",
+  "query": "ozone",
+  "formula": "O3"
+ },
+ {
+  "entry_id": "W2011386028-a",
+  "file": "W2011386028-a.xyz",
+  "cid": "313",
+  "query": "HCl",
+  "formula": "ClH"
+ },
+ {
+  "entry_id": "W2011386028-c",
+  "file": "W2011386028-c.xyz",
+  "cid": "260",
+  "query": "HBr",
+  "formula": "BrH"
+ },
+ {
+  "entry_id": "W2011386028-e",
+  "file": "W2011386028-e.xyz",
+  "cid": "24526",
+  "query": "Cl2",
+  "formula": "Cl2"
+ },
+ {
+  "entry_id": "W2011386028-g",
+  "file": "W2011386028-g.xyz",
+  "cid": "24408",
+  "query": "Br2",
+  "formula": "Br2"
+ },
+ {
+  "entry_id": "W4408586526-a",
+  "file": "W4408586526-a.xyz",
+  "cid": "297",
+  "query": "CH4",
+  "formula": "CH4"
+ },
+ {
+  "entry_id": "W4408586526-h",
+  "file": "W4408586526-h.xyz",
+  "cid": "962",
+  "query": "H2O",
+  "formula": "H2O"
+ },
+ {
+  "entry_id": "W2518781058-a",
+  "file": "W2518781058-a.xyz",
+  "cid": "8418",
+  "query": "anthracene",
+  "formula": "C14H10"
+ },
+ {
+  "entry_id": "W2518781058-b",
+  "file": "W2518781058-b.xyz",
+  "cid": "7080",
+  "query": "tetracene",
+  "formula": "C18H12"
+ },
+ {
+  "entry_id": "W2518781058-c",
+  "file": "W2518781058-c.xyz",
+  "cid": "8671",
+  "query": "pentacene",
+  "formula": "C22H14"
+ },
+ {
+  "entry_id": "W2518781058-d",
+  "file": "W2518781058-d.xyz",
+  "cid": "123044",
+  "query": "hexacene",
+  "formula": "C26H16"
+ },
+ {
+  "entry_id": "W7129015637-a",
+  "file": "W7129015637-a.xyz",
+  "cid": "79115",
+  "query": "thioformaldehyde",
+  "formula": "CH2S"
+ },
+ {
+  "entry_id": "W4318071372-a",
+  "file": "W4318071372-a.xyz",
+  "cid": "114845",
+  "query": "sulfur monoxide",
+  "formula": "OS"
+ },
+ {
+  "entry_id": "W2563398939-a",
+  "file": "W2563398939-a.xyz",
+  "cid": "947",
+  "query": "N2",
+  "formula": "N2"
+ },
+ {
+  "entry_id": "W2563398939-d",
+  "file": "W2563398939-d.xyz",
+  "cid": "931",
+  "query": "naphthalene",
+  "formula": "C10H8"
+ },
+ {
+  "entry_id": "W2563398939-f",
+  "file": "W2563398939-f.xyz",
+  "cid": "16695",
+  "query": "hexatriene",
+  "formula": "C6H8"
+ },
+ {
+  "entry_id": "W2563398939-g",
+  "file": "W2563398939-g.xyz",
+  "cid": "5463164",
+  "query": "octatetraene",
+  "formula": "C8H10"
+ },
+ {
+  "entry_id": "W2327345860-c",
+  "file": "W2327345860-c.xyz",
+  "cid": "8452",
+  "query": "cyclopentanone",
+  "formula": "C5H8O"
+ },
+ {
+  "entry_id": "W2062609450-a",
+  "file": "W2062609450-a.xyz",
+  "cid": "9938",
+  "query": "1,2-dihydronaphthalene",
+  "formula": "C10H10"
+ },
+ {
+  "entry_id": "W2083180170-a",
+  "file": "W2083180170-a.xyz",
+  "cid": "241",
+  "query": "benzene",
+  "formula": "C6H6"
+ },
+ {
+  "entry_id": "W2083180170-b",
+  "file": "W2083180170-b.xyz",
+  "cid": "9261",
+  "query": "pyrazine",
+  "formula": "C4H4N2"
+ },
+ {
+  "entry_id": "W2019458949-a",
+  "file": "W2019458949-a.xyz",
+  "cid": "9215",
+  "query": "acridine",
+  "formula": "C13H9N"
+ },
+ {
+  "entry_id": "W2964214115-n",
+  "file": "W2964214115-n.xyz",
+  "cid": "977",
+  "query": "O2",
+  "formula": "O2"
+ },
+ {
+  "entry_id": "W2964214115-q",
+  "file": "W2964214115-q.xyz",
+  "cid": "947",
+  "query": "N2",
+  "formula": "N2"
+ },
+ {
+  "entry_id": "W2964214115-r",
+  "file": "W2964214115-r.xyz",
+  "cid": "297",
+  "query": "CH4",
+  "formula": "CH4"
+ },
+ {
+  "entry_id": "W2077983264-a",
+  "file": "W2077983264-a.xyz",
+  "cid": "637866",
+  "query": "cycloocta-1,3,5,7-tetraene",
+  "formula": "C8H8"
+ },
+ {
+  "entry_id": "W2077983264-b",
+  "file": "W2077983264-b.xyz",
+  "cid": "138860",
+  "query": "semibullvalene",
+  "formula": "C8H8"
+ },
+ {
+  "entry_id": "W2077983264-c",
+  "file": "W2077983264-c.xyz",
+  "cid": "71401595",
+  "query": "bicyclo[4.2.0]octa-2,4,7-triene",
+  "formula": "C8H8"
+ },
+ {
+  "entry_id": "W1997641598-b",
+  "file": "W1997641598-b.xyz",
+  "cid": "962",
+  "query": "water",
+  "formula": "H2O"
+ },
+ {
+  "entry_id": "W2035780524-a",
+  "file": "W2035780524-a.xyz",
+  "cid": "945",
+  "query": "nitroxyl",
+  "formula": "HNO"
+ },
+ {
+  "entry_id": "W2034883355-a",
+  "file": "W2034883355-a.xyz",
+  "cid": "1135",
+  "query": "thymine",
+  "formula": "C5H6N2O2"
+ },
+ {
+  "entry_id": "W2022769586-a",
+  "file": "W2022769586-a.xyz",
+  "cid": "9231",
+  "query": "azulene",
+  "formula": "C10H8"
+ },
+ {
+  "entry_id": "W2067208581-a",
+  "file": "W2067208581-a.xyz",
+  "cid": "123349",
+  "query": "peroxynitrous acid",
+  "formula": "HNO3"
+ },
+ {
+  "entry_id": "W2005635746-a",
+  "file": "W2005635746-a.xyz",
+  "cid": "57370203",
+  "query": "silacyclopropane",
+  "formula": "C2H6Si"
+ },
+ {
+  "entry_id": "W2005635746-g",
+  "file": "W2005635746-g.xyz",
+  "cid": "6325",
+  "query": "ethylene",
+  "formula": "C2H4"
+ },
+ {
+  "entry_id": "W2034617522-a",
+  "file": "W2034617522-a.xyz",
+  "cid": "10286",
+  "query": "chromone",
+  "formula": "C9H6O2"
+ },
+ {
+  "entry_id": "W2004136906-b",
+  "file": "W2004136906-b.xyz",
+  "cid": "123139",
+  "query": "methyleneimine",
+  "formula": "CH3N"
+ },
+ {
+  "entry_id": "W2067320894-e",
+  "file": "W2067320894-e.xyz",
+  "cid": "4684",
+  "query": "p-chlorophenol",
+  "formula": "C6H5ClO"
+ },
+ {
+  "entry_id": "W2067320894-f",
+  "file": "W2067320894-f.xyz",
+  "cid": "996",
+  "query": "phenol",
+  "formula": "C6H6O"
+ },
+ {
+  "entry_id": "W2058174854-a",
+  "file": "W2058174854-a.xyz",
+  "cid": "6582",
+  "query": "N-methyl acetamide",
+  "formula": "C3H7NO"
+ },
+ {
+  "entry_id": "W1965565723-a",
+  "file": "W1965565723-a.xyz",
+  "cid": "14917",
+  "query": "hydrogen fluoride",
+  "formula": "FH"
+ },
+ {
+  "entry_id": "W1965565723-c",
+  "file": "W1965565723-c.xyz",
+  "cid": "313",
+  "query": "hydrogen chloride",
+  "formula": "ClH"
+ },
+ {
+  "entry_id": "W1658082569-ah",
+  "file": "W1658082569-ah.xyz",
+  "cid": "6354",
+  "query": "ethylene oxide",
+  "formula": "C2H4O"
+ },
+ {
+  "entry_id": "W1964314536-q",
+  "file": "W1964314536-q.xyz",
+  "cid": "299882",
+  "query": "cyclooctadiene",
+  "formula": "C8H12"
+ },
+ {
+  "entry_id": "W1964314536-u",
+  "file": "W1964314536-u.xyz",
+  "cid": "144817",
+  "query": "1,3-divinylcyclobutane",
+  "formula": "C8H12"
+ },
+ {
+  "entry_id": "W1964522116-i",
+  "file": "W1964522116-i.xyz",
+  "cid": "10701",
+  "query": "2-nitroimidazole",
+  "formula": "C3H3N3O2"
+ },
+ {
+  "entry_id": "W1964522116-s",
+  "file": "W1964522116-s.xyz",
+  "cid": "18208",
+  "query": "4-nitroimidazole",
+  "formula": "C3H3N3O2"
+ },
+ {
+  "entry_id": "W1964522116-ad",
+  "file": "W1964522116-ad.xyz",
+  "cid": "18210",
+  "query": "1-methyl-5-nitroimidazole",
+  "formula": "C4H5N3O2"
+ },
+ {
+  "entry_id": "W1966329677-a",
+  "file": "W1966329677-a.xyz",
+  "cid": "6335",
+  "query": "propyne",
+  "formula": "C3H4"
+ },
+ {
+  "entry_id": "W1967862734-ab",
+  "file": "W1967862734-ab.xyz",
+  "cid": "92249",
+  "query": "coumarin 120",
+  "formula": "C10H9NO2"
+ },
+ {
+  "entry_id": "W1967862734-au",
+  "file": "W1967862734-au.xyz",
+  "cid": "100641",
+  "query": "coumarin 151",
+  "formula": "C10H6F3NO2"
+ },
+ {
+  "entry_id": "W1968944876-c",
+  "file": "W1968944876-c.xyz",
+  "cid": "996",
+  "query": "phenol",
+  "formula": "C6H6O"
+ },
+ {
+  "entry_id": "W1970116413-ah",
+  "file": "W1970116413-ah.xyz",
+  "cid": "26919718",
+  "query": "alpha-(2-naphthyl)-N-methylnitrone",
+  "formula": "C12H11NO"
+ },
+ {
+  "entry_id": "W1972287745-a",
+  "file": "W1972287745-a.xyz",
+  "cid": "241",
+  "query": "benzene",
+  "formula": "C6H6"
+ },
+ {
+  "entry_id": "W1972287745-b",
+  "file": "W1972287745-b.xyz",
+  "cid": "241",
+  "query": "benzene",
+  "formula": "C6H6"
+ },
+ {
+  "entry_id": "W1974128370-a",
+  "file": "W1974128370-a.xyz",
+  "cid": "241",
+  "query": "benzene",
+  "formula": "C6H6"
+ },
+ {
+  "entry_id": "W1974128370-b",
+  "file": "W1974128370-b.xyz",
+  "cid": "931",
+  "query": "naphthalene",
+  "formula": "C10H8"
+ },
+ {
+  "entry_id": "W1974128370-c",
+  "file": "W1974128370-c.xyz",
+  "cid": "8418",
+  "query": "anthracene",
+  "formula": "C14H10"
+ },
+ {
+  "entry_id": "W1974128370-d",
+  "file": "W1974128370-d.xyz",
+  "cid": "7080",
+  "query": "naphthacene",
+  "formula": "C18H12"
+ },
+ {
+  "entry_id": "W1974128370-e",
+  "file": "W1974128370-e.xyz",
+  "cid": "8671",
+  "query": "pentacene",
+  "formula": "C22H14"
+ },
+ {
+  "entry_id": "W1974128370-f",
+  "file": "W1974128370-f.xyz",
+  "cid": "123044",
+  "query": "hexacene",
+  "formula": "C26H16"
+ },
+ {
+  "entry_id": "W1974128370-g",
+  "file": "W1974128370-g.xyz",
+  "cid": "5460712",
+  "query": "heptacene",
+  "formula": "C30H18"
+ },
+ {
+  "entry_id": "W1974768697-a",
+  "file": "W1974768697-a.xyz",
+  "cid": "15625",
+  "query": "2,3,7,8-tetrachlorodibenzo-p-dioxin",
+  "formula": "C12H4Cl4O2"
+ },
+ {
+  "entry_id": "W1974768697-b",
+  "file": "W1974768697-b.xyz",
+  "cid": "38526",
+  "query": "1,4,6,9-tetrachlorodibenzo-p-dioxin",
+  "formula": "C12H4Cl4O2"
+ },
+ {
+  "entry_id": "W1974768697-c",
+  "file": "W1974768697-c.xyz",
+  "cid": "18636",
+  "query": "octachlorodibenzo-p-dioxin",
+  "formula": "C12Cl8O2"
+ },
+ {
+  "entry_id": "W1976200622-a",
+  "file": "W1976200622-a.xyz",
+  "cid": "637866",
+  "query": "[8]annulene",
+  "formula": "C8H8"
+ },
+ {
+  "entry_id": "W1976200622-b",
+  "file": "W1976200622-b.xyz",
+  "cid": "15398566",
+  "query": "[10]annulene",
+  "formula": "C10H10"
+ },
+ {
+  "entry_id": "W1977335808-b",
+  "file": "W1977335808-b.xyz",
+  "cid": "14917",
+  "query": "hydrogen fluoride",
+  "formula": "FH"
+ },
+ {
+  "entry_id": "W1977335808-c",
+  "file": "W1977335808-c.xyz",
+  "cid": "313",
+  "query": "hydrogen chloride",
+  "formula": "ClH"
+ },
+ {
+  "entry_id": "W1977335808-g",
+  "file": "W1977335808-g.xyz",
+  "cid": "24526",
+  "query": "dichlorine",
+  "formula": "Cl2"
+ },
+ {
+  "entry_id": "W1977740527-a",
+  "file": "W1977740527-a.xyz",
+  "cid": "977",
+  "query": "dioxygen",
+  "formula": "O2"
+ },
+ {
+  "entry_id": "W1977740527-e",
+  "file": "W1977740527-e.xyz",
+  "cid": "241",
+  "query": "benzene",
+  "formula": "C6H6"
+ },
+ {
+  "entry_id": "W1977740527-f",
+  "file": "W1977740527-f.xyz",
+  "cid": "931",
+  "query": "naphthalene",
+  "formula": "C10H8"
+ },
+ {
+  "entry_id": "W1977740527-g",
+  "file": "W1977740527-g.xyz",
+  "cid": "8418",
+  "query": "anthracene",
+  "formula": "C14H10"
+ },
+ {
+  "entry_id": "W1977740527-h",
+  "file": "W1977740527-h.xyz",
+  "cid": "7080",
+  "query": "tetracene",
+  "formula": "C18H12"
+ },
+ {
+  "entry_id": "W1977740527-l",
+  "file": "W1977740527-l.xyz",
+  "cid": "712",
+  "query": "formaldehyde",
+  "formula": "CH2O"
+ },
+ {
+  "entry_id": "W1978038220-a",
+  "file": "W1978038220-a.xyz",
+  "cid": "108054",
+  "query": "carbon monosulfide",
+  "formula": "CS"
+ },
+ {
+  "entry_id": "W1980820125-a",
+  "file": "W1980820125-a.xyz",
+  "cid": "24823",
+  "query": "ozone",
+  "formula": "O3"
+ },
+ {
+  "entry_id": "W1980820125-c",
+  "file": "W1980820125-c.xyz",
+  "cid": "946",
+  "query": "nitrite anion",
+  "formula": "NO2-"
+ },
+ {
+  "entry_id": "W1981480168-a",
+  "file": "W1981480168-a.xyz",
+  "cid": "931",
+  "query": "naphthalene",
+  "formula": "C10H8"
+ },
+ {
+  "entry_id": "W1981480168-b",
+  "file": "W1981480168-b.xyz",
+  "cid": "241",
+  "query": "benzene",
+  "formula": "C6H6"
+ },
+ {
+  "entry_id": "W1983445179-a",
+  "file": "W1983445179-a.xyz",
+  "cid": "947",
+  "query": "molecular nitrogen",
+  "formula": "N2"
+ },
+ {
+  "entry_id": "W1983445179-b",
+  "file": "W1983445179-b.xyz",
+  "cid": "281",
+  "query": "carbon monoxide",
+  "formula": "CO"
+ },
+ {
+  "entry_id": "W1983922732-a",
+  "file": "W1983922732-a.xyz",
+  "cid": "79125",
+  "query": "3-(dimethylamino)-2-propenal",
+  "formula": "C5H9NO"
+ },
+ {
+  "entry_id": "W1984003660-a",
+  "file": "W1984003660-a.xyz",
+  "cid": "13396",
+  "query": "4-aminobenzonitrile",
+  "formula": "C7H6N2"
+ },
+ {
+  "entry_id": "W1984003660-b",
+  "file": "W1984003660-b.xyz",
+  "cid": "70967",
+  "query": "4-(dimethylamino)benzonitrile",
+  "formula": "C9H10N2"
+ },
+ {
+  "entry_id": "W1984003660-c",
+  "file": "W1984003660-c.xyz",
+  "cid": "21907639",
+  "query": "5-cyanoindoline",
+  "formula": "C9H8N2"
+ },
+ {
+  "entry_id": "W1984003660-d",
+  "file": "W1984003660-d.xyz",
+  "cid": "14665413",
+  "query": "6-cyano-1,2,3,4-tetrahydroquinoline",
+  "formula": "C10H10N2"
+ },
+ {
+  "entry_id": "W1984003660-f",
+  "file": "W1984003660-f.xyz",
+  "cid": "71374973",
+  "query": "1-tert-butyl-6-cyano-1,2,3,4-tetrahydroquinoline",
+  "formula": "C14H18N2"
+ }
+]
