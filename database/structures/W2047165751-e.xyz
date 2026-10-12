@@ -1,0 +1,12 @@
+10
+Dicyanocyclobutadiene isomer 3c | VERBATIM coordinates from W2047165751_si_jp101963p_si_001.txt line 1637 (SI 'Computational results for 1,4-dicyano-cyclobutadiene 3c', block '1,4-Dicyanocyclobuta-1,3-diene (3c)', CCSD/cc-pVDZ singlet (E = -338.2425), the structure the CAS(8,8) single points used (Table 4 footnote b). No separate CCSD 33c triplet block is printed (Table 3 lists 33b/33c as one structure). 10 atoms, C6H2N2; distances checked: no sign loss) | angstrom as printed | NOT a generated structure
+C           0.000000         0.780973         1.700099
+H           0.000000         1.552781         2.470954
+C           0.000000        -0.780973         1.700099
+H           0.000000        -1.552781         2.470954
+C           0.000000         0.792326         0.343297
+C           0.000000        -0.792326         0.343297
+C           0.000000         1.795251        -0.674604
+C           0.000000        -1.795251        -0.674604
+N           0.000000         2.602123        -1.526244
+N           0.000000        -2.602123        -1.526244

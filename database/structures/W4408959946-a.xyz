@@ -1,0 +1,16 @@
+14
+four-membered heterocyclic peroxide (1,2-dioxetane-type), nonadiabatic dissociat | VERBATIM coordinates from W4408959946_si_jz5c00625_si_001.txt line 45 (SI: 'The TSO-O in the S0 state optimized by SA-CASSCF/6-31G' for trans-3,4-dimethyl-1,2-dioxetane (TDD), CAS(12e,10o); main text: all trajectories start from 'the same initial coordinates of the TSO-O structure', propagated with SA-CASSCF/6-31G. 14 atoms C4H8O2. SI also prints TSC-C (T1, S1) and MS-CASPT2/ANO-RCC-VDZP versions) | angstrom as printed | NOT a generated structure
+O        -1.31261675       0.67512797      -0.52303875
+O         1.04443270       0.90981818       0.13476240
+C        -0.81852255      -0.54219490       0.17467070
+C         0.66374236      -0.51211749      -0.12009682
+C        -1.61496311      -1.69577383      -0.39841033
+C         1.52926770      -1.36745536       0.78922085
+H         0.84658644      -0.72185559      -1.16343211
+H        -1.37899783      -2.61228615       0.12708375
+H        -0.97768895      -0.47971953       1.25063309
+H        -1.40128921      -1.82554415      -1.45100993
+H        -2.67614099      -1.51146957      -0.28620784
+H         1.27937666      -2.41550061       0.67416479
+H         2.57600796      -1.24541943       0.54327493
+H         1.38926458      -1.09156855       1.82672728

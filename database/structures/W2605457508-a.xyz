@@ -1,0 +1,12 @@
+10
+2-Pyridyl radical | VERBATIM coordinates from W2605457508_si_jp7b01501_si_001.txt line 554 (SI Appendix S1 'Cartesian coordinates of the optimized structures at different levels of theory', entry '2-Pyridyl radical (1a)' / '(U)B3LYP/cc-pVTZ'; the SI's CASSCF results (Figures S1, S2) are labelled CASSCF/cc-pVTZ//(U)B3LYP/cc-pVTZ, so this is the geometry the reported CASSCF orbital analysis used; the separate CASSCF/cc-pVTZ optimization the main text mentions is not printed) | angstrom as printed | NOT a generated structure
+C        -1.19791800       0.60815800       0.00000000
+C         0.00000000       1.30262200       0.00000000
+C         1.19833200       0.58653500       0.00000000
+C         1.16899900      -0.80306400       0.00000000
+C        -0.09891400      -1.36847500       0.00000000
+N        -1.21210100      -0.73804800       0.00000000
+H         2.14608200       1.11061200       0.00000000
+H        -2.15440500       1.11490000       0.00000000
+H        -0.00047600       2.38359600       0.00000000
+H         2.07051800      -1.39742800       0.00000000

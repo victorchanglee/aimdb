@@ -1,0 +1,19 @@
+17
+cyclohexanone | VERBATIM coordinates from W2327345860_si_jp5b00302_si_001.txt line 276 (SI Part II 'Cartesian Coordinates of All Optimized Structures (XYZ format and Angstrom)', Cyclohexanone 'S0-MIN': S0 minimum optimized by state-specific CASSCF(10,8)/6-31G* (main text Methods and Figure 1); the S1-MIN, S1-TS, S1S0-MIN, T1-MIN and T1-TS blocks that follow are not included) | angstrom as printed | NOT a generated structure
+C       -0.996962000     -1.230192000      0.368698000
+C        0.355693000     -1.238478000     -0.349529000
+C        1.171739000     -0.000434000      0.000350000
+C        0.355991000      1.236504000      0.354342000
+C       -0.994966000      1.232165000     -0.367362000
+C       -1.849693000      0.000220000     -0.003561000
+H       -1.541403000     -2.142400000      0.148977000
+H        0.941488000     -2.115695000     -0.101734000
+H        0.206681000      1.242894000      1.433118000
+H       -1.539292000      2.143688000     -0.144611000
+H       -2.496637000     -0.239697000     -0.841826000
+H       -2.505738000      0.238787000      0.827968000
+H       -0.817015000     -1.238709000      1.440820000
+H        0.209137000     -1.249782000     -1.428672000
+H       -0.812025000      1.245924000     -1.438902000
+H        0.942835000      2.114458000      0.111789000
+O        2.395145000      0.000228000     -0.003069000

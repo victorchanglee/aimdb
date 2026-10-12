@@ -1,0 +1,18 @@
+16
+8H-2,6-diamino-8-azapurine (8AZADAP), a fluorescent modified adenine nucleobase | VERBATIM coordinates from W4411268858.txt line 3857 (8AZADAP SI Table S7: ground state (GS) at MS(4)-CASPT2(10,9)/cc-pVDZ in the gas phase; the water (ASEC-FEG, PCM) and excited-state structures follow in Tables S8-S18) | angstrom as printed | NOT a generated structure
+N          -1.560405         0.823563         0.064090
+C          -1.691732        -0.539883         0.036489
+N          -0.740865        -1.510941         0.016640
+C           0.482725        -0.944247         0.006643
+C           0.793407         0.426273         0.016467
+C          -0.314277         1.326441         0.048765
+N           2.160783         0.603412         0.010999
+N           2.715901        -0.576437        -0.003627
+N           1.715707        -1.521681        -0.007524
+N          -0.141367         2.666426         0.045865
+N          -2.986616        -0.977038        -0.010664
+H          -3.695968        -0.306770         0.259213
+H          -3.137529        -1.952676         0.216292
+H           1.959506        -2.507267        -0.022060
+H           0.790079         3.047326         0.150874
+H          -0.952858         3.258538         0.170267

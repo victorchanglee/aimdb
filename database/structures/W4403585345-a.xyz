@@ -1,0 +1,4 @@
+2
+LiCl, gas-phase complex of a chlorine with a cluster of 1 lithium atom | VERBATIM coordinates from W4403585345_si_jp4c04843_si_001.txt line 852 (SI p. S-12/S-13, block 'LiCl': lithium cluster optimized at HF/cc-pVDZ with the chlorine placed on the line through the cluster centre and the outermost lithium at the separation that gives the minimum energy of the cCASSCF(2,2) scan (Li-Cl 4 bohr); SI states 'the following geometries are in units of Bohr', converted to angstrom) | converted from bohr to angstrom with 1 bohr = 0.529177210903 | NOT a generated structure
+Li      0.00000000     0.00000000     0.00000000
+Cl      0.00000000     0.00000000     2.11670884

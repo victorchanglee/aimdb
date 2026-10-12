@@ -1,0 +1,21 @@
+19
+[Fe(H2O)6]2+ hexaaqua iron(II) | VERBATIM coordinates from W4393928422_si_ct4c00092_si_001.txt line 870 (SI section 7 'Sample Input file for CCSD(T#)-F12a Calculations', Molpro input for the quintet state of [Fe(H2O)6]2+, geometry block titled 'geometry from Wibraham et al. 2017' (= ref 24 of the main text, the geometry source the main table cites for this complex). Level of that optimisation is as in ref 24 and not restated here.) | angstrom as printed | NOT a generated structure
+Fe          0.000000         0.000000         0.000000
+O           2.032306        -0.000000        -0.000000
+O           0.000000         0.000000         2.005017
+O           0.000000         2.033621         0.000000
+O          -2.032306         0.000000        -0.000000
+O           0.000000         0.000000        -2.005017
+O          -0.000000        -2.033621         0.000000
+H           2.619309         0.772765         0.000000
+H           2.619309        -0.772765        -0.000000
+H          -0.781928         0.000000         2.577493
+H           0.781928        -0.000000         2.577493
+H          -0.769817         2.622599         0.000000
+H           0.769817         2.622599         0.000000
+H          -2.619309         0.772765        -0.000000
+H          -2.619309        -0.772765         0.000000
+H          -0.781928         0.000000        -2.577493
+H           0.781928         0.000000        -2.577493
+H          -0.769817        -2.622599        -0.000000
+H           0.769817        -2.622599         0.000000

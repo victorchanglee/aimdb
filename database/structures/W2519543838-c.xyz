@@ -1,0 +1,18 @@
+16
+[NiFe] hydrogenase model | VERBATIM coordinates from W2519543838_si_ct6b00714_si_001.txt line 363 (SI Table S14 'Structure of [NiFe] singlet': the vacuum-optimized Cs singlet (1A', square-planar Ni) structure of the [(SH)2Ni(SH)2Fe(CO)(CN)2]2- hydrogenase model on which the CAS(20,21) calculations of this row were run; the triplet (3A'', CAS(22,22)) structure is Table S15 at SI line 384.) | angstrom as printed | NOT a generated structure
+Ni        0.00000000       1.54056551       0.03183031
+S        -1.52720904       3.01011671      -0.63017631
+S         1.52720904       3.01011671      -0.63017631
+S         1.44298795       0.08199607       0.84797267
+S        -1.44298795       0.08199607       0.84797267
+Fe        0.00000000      -1.33450141      -0.18441717
+C         1.37197161      -2.01566924      -1.29432067
+C        -1.37197161      -2.01566924      -1.29432067
+N         2.25575655      -2.41656086      -1.95108292
+N        -2.25575655      -2.41656086      -1.95108292
+C         0.00000000      -2.71578994       0.77684404
+O         0.00000000      -3.66744155       1.45367937
+H        -2.68882687       2.37511900      -0.32466517
+H         2.68882687       2.37511900      -0.32466517
+H        -2.50467296       0.08638050      -0.00754388
+H         2.50467296       0.08638050      -0.00754388

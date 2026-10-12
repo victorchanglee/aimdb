@@ -1,0 +1,21 @@
+19
+4-acetamidophenylnitrene | VERBATIM coordinates from W2011601505_si_jp201821d_si_001.txt line 524 (SI 'CASSCF Analysis' / '4-acetamidophenyl azide (CASSCF(14,12)/6-31G(d) optimized)' / 'Open-shell Singlet': the CASSCF-optimised open-shell singlet nitrene (19 atoms, C8H8N2O, i.e. the nitrene, not the azide the heading names). Note the SI heading prints CASSCF(14,12) while the main text reports the production level as CASSCF(12,11)/6-31G*; the reduced-space (8,7)/(6,5)/(4,3) geometries are under 'Other CASSCF Analysis'. The CASSCF(12,11) triplet is printed at line 545 (spans a page break).) | angstrom as printed | NOT a generated structure
+C         1.80779900      -1.24493000       0.00015800
+C         2.77030900      -0.13327300      -0.00010400
+C         2.20911000       1.22640400      -0.00026100
+C         0.85977900       1.41198400      -0.00014400
+C        -0.05566000       0.31100900       0.00012400
+C         0.45879900      -1.02036900       0.00027100
+H         2.19629700      -2.24515900       0.00026800
+H         2.88738400       2.05788900      -0.00047500
+H         0.46736900       2.41491400      -0.00026900
+H        -0.22052000      -1.84524100       0.00045300
+C        -2.51186000      -0.20773900       0.00020100
+O        -2.43891600      -1.40942300      -0.00011500
+C        -3.83777300       0.52303700       0.00027300
+H        -3.93154700       1.15374000       0.87870600
+H        -3.93218600       1.15252900      -0.87896400
+H        -4.63566700      -0.20457500       0.00104200
+N        -1.41799800       0.62622200       0.00031300
+H        -1.62255800       1.59958400       0.00045200
+N         4.03052700      -0.33148600      -0.00018600

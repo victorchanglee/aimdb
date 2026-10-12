@@ -1,0 +1,16 @@
+14
+6-aza-2-thiothymine - population of triplet excited states | VERBATIM coordinates from W2314655278_si_jp403508v_si_001.txt line 19 (SI 'Ground State' block (Cartesian coordinates of the optimized minima and surface crossings for 6-aza-2-thiothymine): ground-state minimum optimized at CASSCF(16,11)/ANO-L-VDZP, C1 symmetry, MOLCAS 7.6; the CASPT2 energies are single points on it (CASPT2//CASSCF). The S1, T1, planar S1 minima and the (3CS)STC, (3n3)CI crossings follow in the same SI) | angstrom as printed | NOT a generated structure
+C        -0.37591387       0.68668405      -0.10574043
+C         0.88870259      -1.77960547      -0.38520435
+C         0.13817542       0.00020793       1.10134739
+N        -0.24719637       0.15908344      -1.27487720
+N         0.36374629      -1.02897754      -1.38874226
+N         0.74415626      -1.20881510       0.85325276
+O         0.04027935       0.45109392       2.20915652
+S         1.62282544      -3.22743058      -0.63487894
+C        -1.05460380       2.01460240       0.04487537
+H         0.43421677      -1.38267906      -2.32027729
+H         1.11215839      -1.71697745       1.63498508
+H        -1.36731616       2.37281843      -0.93154073
+H        -1.92202360       1.92420308       0.69736524
+H        -0.37720873       2.73579194       0.50027984

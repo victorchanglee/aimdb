@@ -1,0 +1,18 @@
+16
+ethylene + 2(5H)-furanone 1,4-biradical 1BIRe(beta) | VERBATIM coordinates from W1971217362_si_jo100341a_si_001.txt lines 2917-2939 (SI p. S45, 'CASSCF Optimized geometries', block '1BIR e (beta-beta, gauche-out)': the CASSCF(6,6)/6-31++G(d,p) singlet 1,4-biradical minimum (Gaussian standard orientation)) | angstrom as printed | NOT a generated structure
+C           1.499231        -0.439789        -0.020652
+C           0.228404        -0.800338         0.599188
+C          -0.685579         0.367963         0.557027
+C           0.301386         1.495533         0.183742
+O           1.463248         0.868953        -0.337760
+C          -1.862830         0.222514        -0.522240
+C          -2.890703        -0.792155        -0.166976
+O           2.443834        -1.136324        -0.252128
+H          -0.012817        -1.805198         0.877936
+H          -1.155181         0.564039         1.514425
+H           0.587690         2.076993         1.052148
+H          -0.081410         2.163823        -0.574757
+H          -1.409809        -0.002279        -1.482943
+H          -2.324764         1.202493        -0.600466
+H          -2.734790        -1.832553        -0.386478
+H          -3.665016        -0.550712         0.538703

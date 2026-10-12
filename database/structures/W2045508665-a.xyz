@@ -1,0 +1,17 @@
+15
+Thymine — conical intersections and radiationless decay of the lowest excited si | VERBATIM coordinates from W2045508665_si_jp0633897_si_001.txt line 16 (SI 'Cartesian coordinates of the local minimum (LM), conical intersection (CI) structures': 'LM[S0] (MP2/cc-pVDZ)', the thymine ground-state equilibrium geometry (main text 3.1) at which the CASSCF/CASPT2 and CC2 vertical excitation energies were computed; the LM[1pipi*], LM[1npi*] (CASSCF and CC2) and CI1-CI3 blocks are the excited-state points) | angstrom as printed | NOT a generated structure
+C          -0.634947         0.403133         0.000000
+C          -0.635865        -1.067148         0.000000
+N           0.647476        -1.643748         0.000000
+C           1.885408        -1.010350         0.000000
+N           1.769859         0.375921         0.000000
+C           0.564359         1.050851         0.000000
+O          -1.642084        -1.767575         0.000000
+O           2.956069        -1.595758         0.000000
+C          -1.963687         1.100636         0.000000
+H           0.681371        -2.662675         0.000000
+H           2.650121         0.880624         0.000000
+H           0.637579         2.142540         0.000000
+H          -2.552561         0.808911        -0.885004
+H          -2.552561         0.808911         0.885004
+H          -1.837474         2.194606         0.000000

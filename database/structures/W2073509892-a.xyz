@@ -1,0 +1,12 @@
+10
+3-Oxabutane-1,4-diyl triplet diradical (Paterno-Buchi diradical), .CH2CH2OCH2. | VERBATIM coordinates from W2073509892_si_ja016092p_si_001.txt line 325 (SI p. 3 'MP2/6-311+G* anti-geometry (CS symmetry) for scanning SOC:': the MP2/6-311+G(d) Cs anti triplet diradical geometry (Figure 1 of the paper) from which the rigid torsional scans of SOC and CASSCF(6,6)-MP2 energies were run; the SI's beta=0-180 series is the relaxed MP2 scan) | angstrom as printed | NOT a generated structure
+C           0.000000         0.000000         0.000000
+C           0.000000         0.000000         1.488065
+O           1.371933         0.000000         1.948424
+C           1.485279         0.000000         3.309208
+H           0.000000        -0.928902        -0.553095
+H           0.000000         0.928902        -0.553095
+H          -0.504396        -0.889445         1.883952
+H          -0.504396         0.889445         1.883952
+H           1.528220        -0.952051         3.824741
+H           1.528220         0.952051         3.824741

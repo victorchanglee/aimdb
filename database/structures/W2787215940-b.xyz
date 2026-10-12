@@ -1,0 +1,27 @@
+25
+VNCB:h-BN one-ring model, CASPT2 (8,8) | VERBATIM coordinates from W2787215940_si_ct7b01072_si_001.txt line 106 (SI 'Optimized Atomic Coordinates': 'The reference geometry [(1)3B1 2-D structure cut down with optimized H atoms added]' - the one-ring VNCB:h-BN model (25 atoms) used for the single-reference-geometry CASSCF/CASPT2/MRCI calculations; the periodic (1)3B1 layer was cut out and the terminating H atoms optimized (B3LYP/6-31G* opt=modredundant input line follows the block). The state-specific DFT re-optimizations ((1)1A1, (1)1A2, ...) that follow are not the reference geometry.) | angstrom as printed | NOT a generated structure
+B           0.000000         1.236677         2.892926
+B           0.000000         2.425032         0.678504
+N           0.000000         0.000000         3.616227
+N           0.000000         1.198383         1.446544
+N           0.000000         2.327881        -0.764552
+C           0.000000         0.000000         0.784660
+B           0.000000        -1.236677         2.892926
+B           0.000000         1.030829        -1.512420
+N           0.000000        -1.198383         1.446544
+N           0.000000         1.213957        -2.949232
+B           0.000000        -1.030829        -1.512420
+B           0.000000        -2.425032         0.678504
+B           0.000000         0.000000        -3.707505
+N           0.000000        -2.327881        -0.764552
+N           0.000000        -1.213957        -2.949232
+H           0.000000         2.278590         3.478607
+H           0.000000         3.474394         1.245653
+H           0.000000        -2.278590         3.478607
+H           0.000000        -3.474394         1.245653
+H           0.000000         3.175590        -1.317829
+H           0.000000         2.110318        -3.431787
+H           0.000000        -3.175590        -1.317829
+H           0.000000        -2.110318        -3.431787
+H           0.000000         0.000000        -4.908746
+H           0.000000         0.000000         4.626703

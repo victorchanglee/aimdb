@@ -1,0 +1,12 @@
+10
+Trimethylenemethane (TMM) — singlet-triplet gaps | VERBATIM coordinates from W2032918704_si_jp807183m_si_001.txt line 208 (SI FIG S5 'Geometries of TMM (taken from J.Chem.Phys., 117, 4694 at SF-DFT/6-31G*)', block '3A2'' - the triplet ground state only; the 1B1 and 1A1 singlet blocks of the same figure are unusable in the local text (digit runs split by spaces)) | angstrom as printed | NOT a generated structure
+C         0.00000000      -1.40210000      -0.00000000
+C        -0.00000000      -0.00000000       0.00000000
+H        -0.92033299      -1.95859567       0.00000000
+H         0.92033299      -1.95859567      -0.00000000
+C         1.21425422       0.70105000      -0.00000000
+C        -1.21425422       0.70105000      -0.00000000
+H         1.23602711       1.77632959      -0.00000000
+H         2.15636010       0.18226608       0.00000000
+H        -1.23602711       1.77632959       0.00000000
+H        -2.15636010       0.18226608      -0.00000000

@@ -1,0 +1,20 @@
+8
+triafulvene (compound 1) | VERBATIM coordinates from W2036110407_si_ja045729c_si_001.txt line 56 (1, Triafulvene, S0 ((U)OLYP/TZ2P)) | angstrom as printed | NOT a generated structure
+C            0.00000          0.66211         -1.02172
+C            0.00000          0.00000          0.26265
+C            0.00000          0.00000          1.59601
+C            0.00000         -0.66211         -1.02172
+H            0.00000          0.93052          2.15354
+H            0.00000         -0.93052          2.15354
+H            0.00000          1.57710         -1.59924
+H            0.00000         -1.57710         -1.59924
+8
+triafulvene (compound 1) | VERBATIM coordinates from W2036110407_si_ja045729c_si_001.txt line 67 (1, Triafulvene, T1 ((U)OLYP/TZ2P)) | angstrom as printed | NOT a generated structure
+C            0.00000          0.74654         -0.99826
+C            0.00000          0.00000          0.18981
+C            0.00000          0.00000          1.57064
+C            0.00000         -0.74654         -0.99826
+H           -0.18128          0.91567          2.12626
+H            0.18128         -0.91567          2.12626
+H            0.65873          1.50229         -1.41805
+H           -0.65873         -1.50229         -1.41805

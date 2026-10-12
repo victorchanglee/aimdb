@@ -1,0 +1,8 @@
+6
+Li5Cl, gas-phase complex of a chlorine with a cluster of 5 lithium atoms | VERBATIM coordinates from W4403585345_si_jp4c04843_si_001.txt line 860 (SI p. S-12/S-13, block 'Li5Cl': lithium cluster optimized at HF/cc-pVDZ starting from the published structure, chlorine placed on the line through the cluster centre and the outermost lithium at the separation that gives the minimum energy of the cCASSCF(2,2) scan (nearest Li-Cl 4 bohr); SI states 'the following geometries are in units of Bohr', converted to angstrom) | converted from bohr to angstrom with 1 bohr = 0.529177210903 | NOT a generated structure
+Li     -2.25534972     0.00000000     0.00000000
+Li      0.01943017     1.61193503     0.00000000
+Li      0.01943017    -1.61193503     0.00000000
+Li     -0.71275531     0.00000000    -2.64820565
+Li     -0.71275531     0.00000000     2.64820565
+Cl     -0.71275531     0.00000000     4.76491449

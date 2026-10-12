@@ -1,0 +1,26 @@
+24
+BODIPY/aza-BODIPY benchmark compound 6 | VERBATIM coordinates from W2421993078_si_ct500775r_si_001.txt line 677 (SI Table S4 'Gas phase ground state PBE0/cc-pVTZ determined xyz coordinates', block labelled '6 (Cs)'; main text: 'PBE0 geometries for the GS are used for the rest of the computations' (CASSCF/CASPT2 vertical excitations). Composition C10H8BF2N3, 24 atoms; difluoro-boron-triaza-anthracene. Tables S5/S6 hold CAM-B3LYP S0/S1 structures, not used.) | angstrom as printed | NOT a generated structure
+F         2.23779392      -0.83794110       0.00000000
+C         0.26388796      -0.22420597       3.61850600
+C         0.95426196      -0.18221602       2.44592100
+N         0.34056197      -0.03709698       1.25018500
+C        -1.01676002       0.05841211       1.15676400
+C        -1.76177902       0.03633916       2.36219500
+C        -1.13611503      -0.10267188       3.56516900
+B         1.25626298       0.13104297       0.00000000
+N         0.34056197      -0.03709698      -1.25018500
+C        -1.01676002       0.05841211      -1.15676400
+N        -1.66710402       0.14903015       0.00000000
+C         0.95426196      -0.18221602      -2.44592100
+C         0.26388796      -0.22420597      -3.61850600
+C        -1.13611503      -0.10267188      -3.56516900
+C        -1.76177902       0.03633916      -2.36219500
+F         1.81092206       1.39373093       0.00000000
+H         0.79099595      -0.34152301       4.55411200
+H         2.03214296      -0.26118608       2.39868400
+H        -2.83519702       0.12216022       2.27163900
+H        -1.71786603      -0.12398385       4.47907800
+H         2.03214296      -0.26118608      -2.39868400
+H         0.79099595      -0.34152301      -4.55411200
+H        -1.71786603      -0.12398385      -4.47907800
+H        -2.83519702       0.12216022      -2.27163900

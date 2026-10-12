@@ -1,0 +1,13 @@
+11
+6-azauracil - relaxation mechanisms | VERBATIM coordinates from W2319127394_si_jp200297z_si_001.txt line 59 (SI Table SI1 'Ground State Optimized Structure': 6-azauracil ground-state minimum optimized at CASSCF(16/11)/ANO-L double-zeta plus polarization (C,N,O[3s2p1d]/H[2s1p]), MOLCAS-7.2; CASPT2(16/11) single points on it. The S1/T1 minima, CIs and STCs follow in the same table (the MEP points were run at CASSCF(10/8))) | angstrom as printed | NOT a generated structure
+C          -5.177890        -0.106410         1.068060
+C          -3.758320        -2.473200         0.820420
+C          -4.444710        -0.607650         2.245870
+N          -5.182760        -0.720420        -0.062050
+N          -4.494980        -1.862100        -0.170670
+N          -3.771380        -1.788190         2.021480
+O          -4.433700        -0.041200         3.303320
+O          -3.168020        -3.494580         0.653720
+H          -5.733010         0.813710         1.157480
+H          -4.526080        -2.308120        -1.064490
+H          -3.247540        -2.192830         2.774960

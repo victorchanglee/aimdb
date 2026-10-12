@@ -1,0 +1,10 @@
+8
+Cyclobutadiene (C4H4), square D4h automerization transition state | VERBATIM coordinates from W4367174413_si_ct3c00123_si_001.txt line 37 (SI section S1 'Molecular geometries', block 'Cyclobutadiene transition state:' - the open-shell D4h automerization transition state the main text uses ('geometry in Supporting Information'). No optimization level is stated) | angstrom as printed | NOT a generated structure
+C            -0.7236          -0.7236           0.0000
+C             0.7236          -0.7236           0.0000
+C            -0.7236           0.7236           0.0000
+C             0.7236           0.7236           0.0000
+H            -1.4858          -1.4858           0.0000
+H             1.4858          -1.4858           0.0000
+H            -1.4858           1.4858           0.0000
+H             1.4858           1.4858           0.0000

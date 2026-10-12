@@ -1,0 +1,18 @@
+16
+[1]-...[1]- radical anion pair — [1,2,5]thiadiazolo[3,4-c][1,2,5]thiadiazolidyl  | VERBATIM coordinates from W2041176028_si_ic101064c_si_002.txt line 1205 (SI section 2C 'pairs: CASSCF(10,10)/6-31+G(d), geometry from XRD-data', label 'C1. Pair 1 of radical anions 1': the shortest-S...S (3.52 A) radical-anion pair from the X-ray structure of salt 3, the pair that dominates the exchange (CASSCF J = -15.3 cm-1). 16 atoms, C4N8S4 = two C2N4S2 anions. Pairs 2-5 (SI C2-C5) are separate X-ray pairs not included here.) | angstrom as printed | NOT a generated structure
+S           0.003400         1.520100        -0.889900
+S           0.281200         5.654900        -2.714000
+N          -1.153900         2.710600        -0.975600
+N           1.284100         2.249600        -1.645800
+N          -1.006000         4.932400        -1.952200
+N           1.431500         4.464400        -2.626100
+C          -0.548500         3.721900        -1.603600
+C           0.829000         3.460800        -1.987600
+S          -0.003400        -1.520100         0.889900
+S          -0.281200        -5.654900         2.714000
+N           1.153900        -2.710600         0.975600
+N          -1.284100        -2.249600         1.645800
+N           1.006000        -4.932400         1.952200
+N          -1.431500        -4.464400         2.626100
+C           0.548500        -3.721900         1.603600
+C          -0.829000        -3.460800         1.987600

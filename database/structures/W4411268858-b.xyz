@@ -1,0 +1,19 @@
+17
+7H-2,6-diaminopurine (7H-26DAP), tautomer of the fluorescent modified adenine | VERBATIM coordinates from W4411268858.txt line 2708 (SI Table S13: 7HDAP ground state (GS) optimized at MS(3)-CASPT2(10,9)/cc-pVDZ; Tables S14-S23 hold the excited-state structures) | angstrom as printed | NOT a generated structure
+N           1.492909        -0.948100         0.106756
+C           0.355150        -1.706712         0.080087
+N          -0.933290        -1.305686        -0.010980
+C          -1.055499         0.039028        -0.008306
+C           0.040799         0.928264         0.074197
+C           1.343035         0.385286         0.089359
+N          -0.506714         2.205769         0.020658
+C          -1.874215         2.011435        -0.039785
+N          -2.253418         0.745976        -0.083129
+N           2.485424         1.165181         0.154921
+N           0.563772        -3.067228         0.193634
+H           1.482137        -3.366641        -0.119137
+H          -0.209733        -3.619157        -0.166094
+H          -2.555370         2.863456        -0.057035
+H          -0.049920         3.080417         0.251118
+H           2.441561         2.017607        -0.398725
+H           3.317336         0.616764        -0.057854

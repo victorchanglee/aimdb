@@ -1,0 +1,7 @@
+5
+Square-planar tetrachlorocuprate(II), D4h | VERBATIM coordinates from W2885983020_si_ct8b00513_si_001.txt line 1122 (SI Table S8 'DFT optimized coordinates of all complexes', block 'D4h-[CuCl4]2-' (5 atoms, CuCl4); main text: BP86 optimizations in ORCA 4.0, geometries provided in the ESI) | angstrom as printed | NOT a generated structure
+Cu       0.000000000      0.000000000      0.000000000
+Cl       2.311187145      0.000193962      0.000000000
+Cl       0.000000000      2.311051324      0.000000000
+Cl      -0.000300148     -2.311017743     -0.000002063
+Cl      -2.311184508     -0.000191324     -0.000001445

@@ -1,0 +1,12 @@
+10
+methyl methanesulfenate (compound 3) | VERBATIM coordinates from W1997582321_si_jp026888q_si_001.txt lines 179-191 (SI Table S2 'Cartesian Coordinates' block for compound 3 (methyl methanesulfenate): the MP2/6-311+G(3df,2p) optimized minimum used for the CASSCF[14,10] calculations (GAMESS-style listing with a nuclear-charge column)) | angstrom as printed | NOT a generated structure
+S        .5671301033     -.6004920632      .1540416665
+C       1.5007069079      .9094895368     -.0660051609
+H       1.0642131881     1.7437417814      .4791148873
+H       1.5935953414     1.1503699126    -1.1224539090
+H       2.4914213482      .7068522804      .3436696794
+O       -.8640733024     -.1817816744     -.5723797906
+C      -1.7845106031      .4683786525      .3074770329
+H      -2.6689563752      .6789535612     -.2885874452
+H      -1.3704960439     1.4032785778      .6876944574
+H      -2.0428285897     -.1807061986     1.1437237134

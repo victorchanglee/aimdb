@@ -1,0 +1,20 @@
+18
+Naphthalene | VERBATIM coordinates from W2738114448_si_ct7b00302_si_001.txt line 32 (SI Table SI1 'Atom coordinates (A) of the optimized structure (DFT/B3LYP/6-31G** level) of the studied polyacenes', block 'Naphtalene'; the CASSCF/CASPT2 calculations are single points at these DFT geometries) | angstrom as printed | NOT a generated structure
+C            2.43309          0.70835          0.00000
+C            2.43309         -0.70835          0.00000
+C            1.24465         -1.40244          0.00000
+C            0.00000         -0.71670          0.00000
+C            0.00000          0.71670          0.00000
+C            1.24465          1.40244          0.00000
+H            1.24202         -2.48942          0.00000
+H            3.37725         -1.24504          0.00000
+H            1.24202          2.48942          0.00000
+H            3.37725          1.24504          0.00000
+C           -1.24465         -1.40244          0.00000
+C           -1.24465          1.40244          0.00000
+C           -2.43309          0.70835          0.00000
+C           -2.43309         -0.70835          0.00000
+H           -3.37725          1.24504          0.00000
+H           -3.37725         -1.24504          0.00000
+H           -1.24202          2.48942          0.00000
+H           -1.24202         -2.48942          0.00000

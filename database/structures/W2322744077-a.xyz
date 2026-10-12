@@ -1,0 +1,16 @@
+14
+Transition state for cis-to-trans isomerization of 1-ethynyl-2-methylcyclopropan | VERBATIM coordinates from W2322744077_si_jp3000575_si_001.txt line 411 (SI Table S21: '1/1-tr at (6e,6o)CASSCF/6-311G(d,p) level' - the CASSCF-optimized cis-to-trans transition state whose energies are in Table S3; Table S20 holds the B3LYP/6-311G(d,p) version of the same TS.) | angstrom as printed | NOT a generated structure
+C           2.756419         0.522278        -0.804475
+H           2.417892         0.858490        -1.785929
+H           3.356848         1.318844        -0.376915
+H           3.404565        -0.336400        -0.965437
+C           1.604188         0.172605         0.088405
+H           1.098362         0.971065         0.601710
+C           0.865093        -1.122411        -0.119384
+H           0.923615        -1.398905        -1.174609
+H           1.376355        -1.922161         0.415290
+C          -0.585356        -1.132805         0.282894
+C          -1.458250        -0.061773         0.036655
+C          -2.216356         0.868225        -0.165478
+H          -2.876738         1.669823        -0.344264
+H          -1.006583        -2.036515         0.681893

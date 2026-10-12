@@ -1,0 +1,12 @@
+10
+3-Pyridyl radical | VERBATIM coordinates from W2605457508_si_jp7b01501_si_001.txt line 578 (SI Appendix S1, entry printed as '3-Pyridyl radical (2b)' / '(U)B3LYP/cc-pVTZ' (the '(2b)' is the SI's mislabel; composition C5H4N is the pyridyl radical 1b, the pyridinyl 2b block is C5H5N at line 690); the SI's CASSCF results (Figures S1, S2) are labelled CASSCF/cc-pVTZ//(U)B3LYP/cc-pVTZ, so this is the geometry the reported CASSCF orbital analysis used) | angstrom as printed | NOT a generated structure
+C         0.00000000       1.27824300       0.00000000
+C         1.20851100       0.58907700       0.00000000
+C         1.17161600      -0.80671300       0.00000000
+C        -0.07489500      -1.37342900       0.00000000
+C        -1.24477900      -0.65350900       0.00000000
+N        -1.19407500       0.68816500       0.00000000
+H         2.08044100      -1.39475000       0.00000000
+H        -0.00832100       2.36230200       0.00000000
+H         2.14913500       1.12444000       0.00000000
+H        -2.22544400      -1.11116100       0.00000000

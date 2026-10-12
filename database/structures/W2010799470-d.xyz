@@ -1,0 +1,13 @@
+11
+2-dehydrophenylnitrene (5) | VERBATIM coordinates from W2010799470_si_ja029296u_si_001.txt line 549 (SI section '3 2-Dehydrophenylnitrene (5)', '3.1 4A'' State', '(9,9)-CASSCF', COORDINATES OF SYMMETRY UNIQUE ATOMS (ANGS) (Cs, all 11 atoms unique): the quartet ground-state minimum optimized at (9,9)-CASSCF/cc-pVTZ. The 2A' minimum (3.3) is at SI line 708; the 2A'' block (3.2) is truncated in the text extraction.) | angstrom as printed | NOT a generated structure
+C       0.0040471904     1.0995434936     0.0000000000
+C      -1.2143897051     0.3864239415     0.0000000000
+C      -1.3126783137    -0.9872296769     0.0000000000
+C      -0.1283685401    -1.7256588747     0.0000000000
+C       1.1188529725    -1.0654834140     0.0000000000
+C       1.2001441952     0.3078137225     0.0000000000
+N       0.0482318198     2.4197038208     0.0000000000
+H       2.1481107610     0.8090794852     0.0000000000
+H      -2.2686917443    -1.4726120895     0.0000000000
+H       2.0201131404    -1.6473687896     0.0000000000
+H      -0.1638717762    -2.7974836187     0.0000000000

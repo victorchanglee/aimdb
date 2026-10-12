@@ -1,0 +1,16 @@
+14
+Allopurinol keto-N9H tautomer, excited-state decay in gas phase and aqueous solu | VERBATIM coordinates from W2313371037_si_jp5020115_si_001.txt line 187 (SI Table S4: Cartesian Coordinates (A) of the CASSCF(10,8) Optimized Ground-state Geometry of Keto-N9H (CASSCF(10e,8o)/6-31G(d), no symmetry restriction); Tables S2/S3 hold the B3LYP and MP2 ground states (the MP2 one is the geometry of the CASPT2(14,11) vertical excitations), S5 the MR-CIS(10,8) ground state, S6 the QM/MM solvated structure, S7-S14 the S1/S0 conical intersections) | angstrom as printed | NOT a generated structure
+C          -0.862335        -0.461471        -0.000000
+C          -0.000643         0.614866        -0.000000
+C           1.425892         0.379901        -0.000000
+C           0.737916        -1.983177         0.000000
+C          -0.851804         1.751234         0.000000
+N           1.684193        -0.990951         0.000000
+N          -0.530863        -1.792670        -0.000000
+N          -2.104595         0.038622         0.000000
+N          -2.112211         1.380735         0.000000
+O           2.316314         1.177956        -0.000000
+H           2.649143        -1.243062         0.000000
+H           1.122429        -2.985040         0.000000
+H          -2.961853        -0.463941         0.000000
+H          -0.587777         2.787112         0.000000

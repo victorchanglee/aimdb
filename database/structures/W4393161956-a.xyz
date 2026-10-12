@@ -1,0 +1,13 @@
+11
+cyclobutanone, 3s Rydberg state photochemistry | VERBATIM coordinates from W4393161956.txt line 1083 (SI section S2 'Key geometries', block CB: the ground-state cyclobutanone structure (the paper optimizes S0 at single-state CASSCF(8,8)/MRCIS(6,6)); the MECI-01a/b/c and MECI-12a/b crossing geometries follow in the same section) | angstrom as printed | NOT a generated structure
+C          -0.008788         0.071664         0.004068
+C           0.001577        -0.038233         1.532826
+C           1.554408         0.035720         1.475830
+C           1.512236         0.247860        -0.064695
+H          -0.481880         0.809035         2.019753
+H          -0.428931        -0.959870         1.923060
+H           1.992352         0.857874         2.037198
+H           2.043939        -0.889375         1.773070
+H           1.806735         1.242460        -0.400455
+H           2.026613        -0.494832        -0.673676
+O          -0.894687         0.015831        -0.843661

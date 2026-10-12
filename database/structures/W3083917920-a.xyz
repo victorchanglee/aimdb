@@ -1,0 +1,7 @@
+5
+The fluoroborylene niobium difluoride molecule FBNbF2, matrix-isolated in solid  | VERBATIM coordinates from W3083917920_si_jp0c05132_si_001.txt line 365 (SI p. S9 'The optimized Cartesian coordinates of the F2BNbF, FBNbF2 and BNbF3', block 'FBNbF2'. The level is not stated beside the block; the paper's optimizations are B3LYP/6-311++g(3df,3pd)/SDD (primary), B3LYP/Def2-TZVPP and BPW91 (main-text Figure 4), and the CASSCF(5e,7o) is a single-point bonding probe whose geometry the paper does not restate.) | angstrom as printed | NOT a generated structure
+F         3.00495400      -0.00001700       0.09833400
+B         1.73261300      -0.00001300      -0.01570700
+F        -1.08655800       1.75845900       0.22785000
+F        -1.08660700      -1.75843700       0.22785200
+Nb       -0.39388200       0.00000100      -0.11970200

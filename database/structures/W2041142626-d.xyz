@@ -1,0 +1,23 @@
+21
+dibenzothiophene, valence and Rydberg electronic transitions | VERBATIM coordinates from W2041142626_si_jp201618a_si_001.txt line 492 (SI Table S7 'Equilibrium geometries (in bohrs) of fluorene and its heteroanalogs', block 'DIBENZOTHIOPHENE - CASSCF(14,13)/cc-pVDZ'; C2v-constrained CASSCF(14,13)/cc-pVDZ ground-state optimization; printed in bohr, converted to angstrom) | converted from bohr to angstrom with 1 bohr = 0.529177210903 | NOT a generated structure
+S       0.00000000     0.00000000     1.96807778
+C       0.00000000     3.49819739    -0.13335213
+C       0.00000000    -3.49819739    -0.13335213
+C       0.00000000     2.98708841    -1.44315357
+C       0.00000000    -2.98708841    -1.44315357
+C       0.00000000     1.61364547    -1.66623034
+C       0.00000000    -1.61364547    -1.66623034
+C       0.00000000     0.73124300    -0.57203686
+C       0.00000000    -0.73124300    -0.57203686
+C       0.00000000     1.25768172     0.72952212
+C       0.00000000    -1.25768172     0.72952212
+C       0.00000000     2.63858129     0.96216747
+C       0.00000000    -2.63858129     0.96216747
+H       0.00000000     4.56799262     0.02634720
+H       0.00000000    -4.56799262     0.02634720
+H       0.00000000     3.66783626    -2.28355842
+H       0.00000000    -3.66783626    -2.28355842
+H       0.00000000     1.23008619    -2.67720488
+H       0.00000000    -1.23008619    -2.67720488
+H       0.00000000     3.02881879     1.97036118
+H       0.00000000    -3.02881879     1.97036118

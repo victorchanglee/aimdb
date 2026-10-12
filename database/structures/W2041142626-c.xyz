@@ -1,0 +1,23 @@
+21
+dibenzofuran, valence and Rydberg electronic transitions | VERBATIM coordinates from W2041142626_si_jp201618a_si_001.txt line 469 (SI Table S7 'Equilibrium geometries (in bohrs) of fluorene and its heteroanalogs', block 'DIBENZOFURAN - CASSCF(14,13)/cc-pVDZ'; C2v-constrained CASSCF(14,13)/cc-pVDZ ground-state optimization; printed in bohr, converted to angstrom) | converted from bohr to angstrom with 1 bohr = 0.529177210903 | NOT a generated structure
+O       0.00000000     0.00000000     1.62917841
+C       0.00000000     3.39812628     0.26248513
+C       0.00000000    -3.39812628     0.26248513
+C       0.00000000     3.06240144    -1.10385678
+C       0.00000000    -3.06240144    -1.10385678
+C       0.00000000     1.72947601    -1.51512961
+C       0.00000000    -1.72947601    -1.51512961
+C       0.00000000     0.72924377    -0.53430441
+C       0.00000000    -0.72924377    -0.53430441
+C       0.00000000     1.08942771     0.81729515
+C       0.00000000    -1.08942771     0.81729515
+C       0.00000000     2.41101498     1.25037537
+C       0.00000000    -2.41101498     1.25037537
+H       0.00000000     4.43976769     0.55374373
+H       0.00000000    -4.43976769     0.55374373
+H       0.00000000     3.85133587    -1.84364864
+H       0.00000000    -3.85133587    -1.84364864
+H       0.00000000     1.47791257    -2.56679999
+H       0.00000000    -1.47791257    -2.56679999
+H       0.00000000     2.65355224     2.30288767
+H       0.00000000    -2.65355224     2.30288767

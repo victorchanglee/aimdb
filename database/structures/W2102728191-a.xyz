@@ -1,0 +1,26 @@
+11
+Bicyclo[2.1.0]pentene, ring-walk rearrangement | VERBATIM coordinates from W2102728191_si_ja017083j_si_001.txt line 14 (ring-walk TS with inversion, CASSCF(4,4)/6-31G(d)) | angstrom as printed | NOT a generated structure
+C          -0.389261        -1.345156         0.000000
+C          -0.389261        -0.384775         1.018088
+C          -0.389261        -0.384775        -1.018088
+C          -0.249970         0.743720         0.000000
+C           1.150035         1.204807         0.000000
+H          -0.356209        -2.418895         0.000000
+H          -0.205154        -0.416233         2.074363
+H          -0.205154        -0.416233        -2.074363
+H           1.932018         0.470297         0.000000
+H          -0.987552         1.535343         0.000000
+H           1.428362         2.242784         0.000000
+11
+Bicyclo[2.1.0]pentene, ring-walk rearrangement | VERBATIM coordinates from W2102728191_si_ja017083j_si_001.txt line 33 (ring-walk TS with retention, CASSCF(4,4)/6-31G(d)) | angstrom as printed | NOT a generated structure
+C          -0.267295        -1.466177         0.000000
+C          -0.246352        -0.509583         1.018056
+C          -0.246352        -0.509583        -1.018056
+C          -0.246352         0.637986         0.000000
+C           0.930867         1.565587         0.000000
+H          -0.293243        -2.539996         0.000000
+H          -0.251797        -0.539937         2.089424
+H          -0.251797        -0.539937        -2.089424
+H          -1.180258         1.201485         0.000000
+H           1.215001         2.054505         0.915054
+H           1.215001         2.054505        -0.915054

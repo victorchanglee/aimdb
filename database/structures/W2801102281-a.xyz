@@ -1,0 +1,19 @@
+17
+o-Nitrotoluene | VERBATIM coordinates from W2801102281_si_jp8b03439_si_001.txt line 193 (SI 'Cartesian Coordinates for optimized stationary points and minimum energy crossing points (MECPs)': 'S0-oNT obtained at MP2/cc-pVDZ' - the ground-state o-nitrotoluene minimum (vertical excitations computed here). The S1/S2/S3/S4/T1/T2 minima and the MECPs at CASSCF/6-31G(d,p) that follow are not included.) | angstrom as printed | NOT a generated structure
+C          -0.087284        -1.011000         0.486424
+C          -0.083281        -0.983919         1.897457
+C           0.035438         0.209972         2.625990
+C           0.137565         1.435361         1.947725
+C           0.115138         1.453833         0.546734
+C           0.017100         0.242411        -0.152543
+N           0.022643         0.338435        -1.625414
+O           0.548936        -0.585345        -2.253824
+C          -0.207357        -2.331429        -0.239053
+O          -0.486086         1.344125        -2.126730
+H          -0.178238        -1.934731         2.433746
+H           0.042230         0.181608         3.720334
+H           0.226908         2.373904         2.503416
+H           0.170240         2.387679        -0.017493
+H          -0.924397        -2.278934        -1.072506
+H           0.759651        -2.633522        -0.670004
+H          -0.542585        -3.108509         0.465912

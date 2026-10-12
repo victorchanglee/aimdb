@@ -1,0 +1,20 @@
+18
+Azulene, minimum energy conical intersection optimization | VERBATIM coordinates from W2151190534_si_ct301059t_si_001.txt lines 81-98 (SI 'Active Spaces, initial coordinates and MECI', section '- Azulene (10,10)', header 'Initial point MECI': the second 18-atom set (lines 81-98) is the CASSCF(10,10)/6-31G** S1/S0 MECI; the first set (lines 63-80) is the initial point. 18 atoms C10H8 = azulene) | angstrom as printed | NOT a generated structure
+C           0.407150         0.026300         2.018614
+C           0.705422        -0.001108        -3.057696
+C           0.202832        -1.104306         1.219916
+C           0.202108         1.147995         1.207553
+C          -0.118119        -0.656036        -0.170489
+C          -0.118804         0.684375        -0.177802
+C          -0.329281        -1.511684        -1.346908
+C          -0.330849         1.527001        -1.363442
+C           0.246283        -1.259047        -2.568502
+C           0.244973         1.261675        -2.582213
+H           0.678547         0.032024         3.052811
+H           1.183063        -0.006087        -4.012972
+H           0.289526        -2.133839         1.541632
+H           0.288113         2.181034         1.517991
+H          -0.705025        -2.499351        -1.193777
+H          -0.707467         2.515938        -1.221028
+H           0.281720        -2.078655        -3.263744
+H           0.279809         2.073770        -3.286249

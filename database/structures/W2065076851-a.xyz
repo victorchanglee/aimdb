@@ -1,0 +1,10 @@
+8
+acrolein in solvent | VERBATIM coordinates from W2065076851_si_ct500723s_si_001.txt line 260 (SI Table S6: 'XYZ coordinates of the optimized VMC/PCM geometry of the n→π* (1 1A'') state of s-trans acrolein optimized in the planar Cs conformation', CAS(6,5)-Jastrow expansion, cc-pVTZ' basis; 8 atoms C3H4O = acrolein. Excited-state geometry is the output of the row's CAS(6,5) VMC/PCM optimization (Table S7 holds the pi-pi* state at CAS(4,4))) | angstrom as printed | NOT a generated structure
+C           -1.97670          0.62291          0.00000
+C           -1.06303          1.66731          0.00000
+C            0.29566          1.47389          0.00000
+O            1.20366          2.44969          0.00000
+H           -3.02909          0.82301          0.00000
+H           -1.64690         -0.40092          0.00000
+H           -1.42413          2.68255          0.00000
+H            0.75034          0.49109          0.00000

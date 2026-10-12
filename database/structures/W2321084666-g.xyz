@@ -1,0 +1,9 @@
+7
+Dy(III) hexachloride site in the elpasolite Cs2NaDyCl6 | VERBATIM coordinates from W2321084666_si_ic6b00244_si_001.txt line 1045 (SI p. S-24 'Sample ORCA input file', the '* xyz -3 6' block of the DyCl6(3-) CASSCF(9,7)/NEVPT2 input: Dy at the origin with six Cl at 2.724 A, matching the BP86/Def2-TZVP DyIIICl6Na6 optimum of main-text Table 3 (Dy-Cl 2.72 A). Only the seven quantum atoms are copied; the six Na of the fragment at +/-5.3715 A are written as capped ECPs ('Na>' lines, SD(10,SDF)) plus an Evjen point-charge file in the input and are not part of this XYZ.) | angstrom as printed | NOT a generated structure
+Dy               0.0              0.0              0.0
+Cl               0.0              0.0           -2.724
+Cl               0.0              0.0            2.724
+Cl               0.0           -2.724              0.0
+Cl               0.0            2.724              0.0
+Cl            -2.724              0.0              0.0
+Cl             2.724              0.0              0.0

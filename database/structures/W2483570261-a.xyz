@@ -1,0 +1,17 @@
+15
+thymine | VERBATIM coordinates from W2483570261_si_jp6b05110_si_001.txt lines 55-69 (SI section S1 Table S1 'Thymine', first of four sequential structures (columns 'S0 S1 (water) T1 (water) S1 (gas phase)'): S0 minimum, 'optimized with B97XD/6-311++g(2d,p)' (as extracted; ωB97XD presumably); SI S3 reports MS-CASPT2 vertical excitations from this 'Opt S0' geometry; 15 atoms C5H6N2O2) | angstrom as printed | NOT a generated structure
+C          -2.945762        -0.694981        -0.666907
+C          -1.006839         0.796881        -0.273583
+C          -1.931606         1.901466        -0.063854
+C          -3.246071         1.644717        -0.165521
+H          -3.997808         2.410187        -0.024612
+O          -3.382946        -1.801219        -0.925694
+O           0.209225         0.881014        -0.214687
+C          -1.375741         3.253704         0.251758
+H          -0.799358         3.230433         1.179386
+H          -0.702865         3.591848        -0.539153
+H          -2.176368         3.985393         0.361231
+N          -1.601706        -0.426945        -0.559990
+H          -0.980810        -1.209955        -0.712264
+N          -3.739344         0.398552        -0.454102
+H          -4.733787         0.249670        -0.520912

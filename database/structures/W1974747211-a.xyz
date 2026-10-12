@@ -1,0 +1,15 @@
+13
+phenol, probed by two-dimensional coherent optical spectroscopy | VERBATIM coordinates from W1974747211_si_ja0774414_si_002.txt line 7 (SI section '1. Coordinate of the optimized phenol molecule': the phenol geometry 'optimized at the B3LYP/6-311++G** level' (Gaussian 03) on which the SA-CASSCF(8,7) and MS-CASPT2 2DCS calculations were run.) | angstrom as printed | NOT a generated structure
+C           0.000000         0.000000         0.938289
+C           0.000000        -1.204130         0.231697
+C           0.000000        -1.187750        -1.162054
+C           0.000000         0.020714        -1.855346
+C           0.000000         1.218342        -1.138927
+C           0.000000         1.215477         0.252424
+O           0.000000         0.050990         2.307462
+H           0.000000        -0.842564         2.666130
+H           0.000000        -2.148742         0.768185
+H           0.000000        -2.126881        -1.704104
+H           0.000000         0.029949        -2.938644
+H           0.000000         2.165653        -1.666741
+H           0.000000         2.138747         0.818978

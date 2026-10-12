@@ -1,0 +1,25 @@
+23
+o-Acetylphenylacetic acid (APAA) — photoinduced decarboxylation | VERBATIM coordinates from W2046251810_si_jo902593s_si_001.txt line 1564 (SI Section 2 'Cartesian coordinates for the five lowest excited states and biradical structures and energies at the CAS(10,9)/6-31G* level', label '1. S0 - CAS(10,9)/6-31G*': ground-state minimum of APAA optimized at CAS(10,9)/6-31G* (E(CAS) = -609.2264169475 a.u.). 23 atoms C10H10O3 = o-acetylphenylacetic acid, 94 electrons, closed-shell singlet) | angstrom as printed | NOT a generated structure
+C           0.023690        -0.624104        -0.466569
+C          -0.194391        -2.005707        -0.437755
+C          -1.424285        -2.557227        -0.089119
+C          -2.479884        -1.712729         0.239340
+C          -2.280669        -0.335616         0.225506
+C          -1.041465         0.238522        -0.114328
+H           0.618433        -2.660632        -0.697870
+H          -1.552517        -3.624367        -0.079659
+H          -3.440997        -2.113739         0.505863
+H          -3.104566         0.296804         0.489783
+C          -0.904405         1.727824        -0.051429
+O           0.146827         2.280290        -0.274870
+C          -2.110349         2.589256         0.282749
+H          -2.920245         2.443602        -0.425024
+H          -2.494733         2.375674         1.274504
+H          -1.793651         3.621135         0.246069
+C           1.403013        -0.162006        -0.887798
+H           1.818261        -0.854348        -1.614025
+H           1.392132         0.805026        -1.360581
+C           2.381692        -0.075912         0.257843
+O           2.163799        -0.325808         1.397217
+O           3.580082         0.319400        -0.168930
+H           4.159795         0.367283         0.584791

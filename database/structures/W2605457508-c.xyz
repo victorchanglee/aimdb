@@ -1,0 +1,12 @@
+10
+4-Pyridyl radical | VERBATIM coordinates from W2605457508_si_jp7b01501_si_001.txt line 606 (SI Appendix S1, entry '4-Pyridyl radical (1c)' / '(U)B3LYP/cc-pVTZ'; the SI's CASSCF results (Figures S1, S2) are labelled CASSCF/cc-pVTZ//(U)B3LYP/cc-pVTZ, so this is the geometry the reported CASSCF orbital analysis used) | angstrom as printed | NOT a generated structure
+C         0.00000000       1.14106200       0.65663800
+C         0.00000000       1.20782400      -0.74336900
+C         0.00000000       0.00000000      -1.38484800
+C         0.00000000      -1.20782400      -0.74336900
+C         0.00000000      -1.14106200       0.65663800
+N         0.00000000       0.00000000       1.33979200
+H         0.00000000       2.05696600       1.23836900
+H         0.00000000       2.16171800      -1.25271000
+H         0.00000000      -2.05696600       1.23836900
+H         0.00000000      -2.16171800      -1.25271000

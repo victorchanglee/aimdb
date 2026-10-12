@@ -1,0 +1,15 @@
+13
+Cr(CO)6 | VERBATIM coordinates from W2519543838_si_ct6b00714_si_001.txt line 297 (SI Table S9 'Experimental structure of Cr(CO)6' (Cr-C 1.914, C-O 1.140 A, Oh); main text: 'For Cr(CO)6, the calculations were performed using the experimental octahedral structure'.) | angstrom as printed | NOT a generated structure
+Cr         0.0000000        0.0000000        0.0000000
+C          0.0000000        1.9140000        0.0000000
+O          0.0000000        3.0540000        0.0000000
+C          0.0000000        0.0000000        1.9140000
+O          0.0000000        0.0000000        3.0540000
+C          1.9140000        0.0000000        0.0000000
+O          3.0540000        0.0000000        0.0000000
+C          0.0000000       -1.9140000        0.0000000
+O          0.0000000       -3.0540000        0.0000000
+C          0.0000000        0.0000000       -1.9140000
+O          0.0000000        0.0000000       -3.0540000
+C         -1.9140000        0.0000000        0.0000000
+O         -3.0540000        0.0000000        0.0000000

@@ -1,0 +1,12 @@
+4
+methyl radical product benchmark for trans-azomethane deazetization | VERBATIM coordinates from W1982051564_si_ja038198l_si_001.txt line 3993 (methyl radical, B3LYP/6-311G(d,p) optimized (planar); geometry of CASPT2(1,1)/6-31G(d)//B3LYP/6-311G(d,p)) | angstrom as printed | NOT a generated structure
+C           0.000000         0.000000         0.000004
+H           0.000000         1.080488        -0.000008
+H          -0.935730        -0.540244        -0.000008
+H           0.935730        -0.540244        -0.000008
+4
+methyl radical product benchmark for trans-azomethane deazetization | VERBATIM coordinates from W1982051564_si_ja038198l_si_001.txt line 4018 (methyl radical, ROHF/6-31G(d) optimized; geometry of CASPT2(1,1)/6-31G(d)//ROHF/6-31G(d)) | angstrom as printed | NOT a generated structure
+C           0.000000         0.000000         0.000000
+H           0.000000         0.000000        -1.071125
+H           0.000000         0.927622         0.535562
+H           0.000000        -0.927622         0.535562

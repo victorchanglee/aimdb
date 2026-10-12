@@ -1,0 +1,25 @@
+23
+fluorene, valence and Rydberg electronic transitions | VERBATIM coordinates from W2041142626_si_jp201618a_si_001.txt line 418 (SI Table S7 'Equilibrium geometries (in bohrs) of fluorene and its heteroanalogs', block 'FLUORENE - CASSCF(12,12)/cc-pVDZ'; C2v-constrained CASSCF(12,12)/cc-pVDZ ground-state optimization confirmed as a minimum by harmonic frequencies (main text, Computational Methods); printed in bohr, converted to angstrom) | converted from bohr to angstrom with 1 bohr = 0.529177210903 | NOT a generated structure
+C       0.00000000     0.00000000     1.87215171
+C       0.00000000     3.46400566     0.15876481
+C       0.00000000    -3.46400566     0.15876481
+C       0.00000000     3.02157647    -1.16985418
+C       0.00000000    -3.02157647    -1.16985418
+C       0.00000000     1.65412488    -1.46563619
+C       0.00000000    -1.65412488    -1.46563619
+C       0.00000000     0.73764763    -0.41141147
+C       0.00000000    -0.73764763    -0.41141147
+C       0.00000000     1.18123890     0.92300095
+C       0.00000000    -1.18123890     0.92300095
+C       0.00000000     2.54355853     1.21489245
+C       0.00000000    -2.54355853     1.21489245
+H       0.87999154     0.00000000     2.51938360
+H      -0.87999154     0.00000000     2.51938360
+H       0.00000000     4.52511392     0.37025048
+H       0.00000000    -4.52511392     0.37025048
+H       0.00000000     3.74462569    -1.97478034
+H       0.00000000    -3.74462569    -1.97478034
+H       0.00000000     1.32059930    -2.49476363
+H       0.00000000    -1.32059930    -2.49476363
+H       0.00000000     2.89158833     2.23999867
+H       0.00000000    -2.89158833     2.23999867

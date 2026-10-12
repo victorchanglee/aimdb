@@ -1,0 +1,13 @@
+11
+4-dehydrophenylnitrene (3) | VERBATIM coordinates from W2010799470_si_ja029296u_si_001.txt line 28 (SI section '1 4-Dehydrophenylnitrene (3)', '1.1 4A2 State', '(9,9)-CASSCF', COORDINATES OF ALL ATOMS (ANGS): the quartet ground-state minimum optimized at (9,9)-CASSCF/cc-pVTZ. Doublet minima (1.2-1.5) follow in the SI; the 2B2, 2A1 and 2B1 blocks are truncated in the text extraction.) | angstrom as printed | NOT a generated structure
+C      -0.0000000000     0.0000000000     1.7861662512
+N      -0.0000000000     0.0000000000    -2.2844443589
+C      -0.0000000000    -1.2319604655     1.1363708134
+C      -0.0000000000     1.2319604655     1.1363708134
+C      -0.0000000000    -1.2362102695    -0.2432042828
+C      -0.0000000000     1.2362102695    -0.2432042828
+C       0.0000000000     0.0000000000    -0.9643074285
+H      -0.0000000000    -2.1548272864    -0.7962832210
+H      -0.0000000000     2.1548272864    -0.7962832210
+H      -0.0000000000    -2.1494792499     1.6909726640
+H      -0.0000000000     2.1494792499     1.6909726640

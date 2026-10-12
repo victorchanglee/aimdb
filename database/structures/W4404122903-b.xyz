@@ -1,0 +1,12 @@
+10
+pyrimidine | VERBATIM coordinates from W4404122903_si_ct4c01028_si_001.txt line 52 (SI Table S2 'Optimized structure of pyrimidine in A'; main text: geometries optimized with B3LYP/6-31G(d) in zero magnetic field (Gaussian 16), the structure the X2C-CASSCF MCD calculation used) | angstrom as printed | NOT a generated structure
+C           0.000000         1.184414         0.622402
+N           0.000000         1.199121        -0.716477
+C           0.000000         0.000000        -1.309248
+N           0.000000        -1.199121        -0.716477
+C           0.000000        -1.184414         0.622402
+C           0.000000         0.000000         1.356411
+H           0.000000         0.000000        -2.397697
+H           0.000000        -2.154441         1.117450
+H           0.000000         0.000000         2.441666
+H           0.000000         2.154441         1.117450

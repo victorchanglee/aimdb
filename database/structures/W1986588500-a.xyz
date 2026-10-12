@@ -1,0 +1,24 @@
+22
+all-trans-nona-2,4,6,8-tetraeniminium cation (model 2, PSBT) | VERBATIM coordinates from W1986588500_si_ja017502c_si_001.txt lines 5-27 (SI p.1, 'all-trans-nona-2,4,6,8-tetraeniminium cation model 2', block 'FC': the Franck-Condon (S0 ground-state) minimum, CASSCF(10,10)/6-31G* fully unconstrained optimization; the SP, TS, TM and CI blocks that follow are the S1/S0 reaction-path stationary points) | angstrom as printed | NOT a generated structure
+C          -2.771268        -6.483518        -6.187853
+C          -2.434409        -5.264926        -6.650144
+H          -3.238565        -7.213079        -6.821899
+H          -2.586463        -6.774248        -5.168688
+H          -2.635564        -5.010877        -7.677315
+C          -1.799427        -4.243444        -5.828530
+C          -1.450486        -3.013804        -6.280027
+H          -1.602459        -4.499684        -4.799856
+H          -1.642398        -2.747522        -7.305993
+C          -0.821141        -2.019459        -5.440779
+C          -0.455151        -0.779940        -5.864401
+H          -0.636227        -2.292885        -4.414370
+H          -0.630122        -0.485843        -6.884988
+C           0.167224         0.170948        -4.988498
+C           0.554992         1.424812        -5.359189
+C           1.163660         2.291372        -4.413022
+N           1.559710         3.494716        -4.677814
+H           1.984754         4.073575        -3.980437
+H           1.457180         3.895896        -5.590839
+H           1.319940         1.957303        -3.403048
+H           0.334074        -0.139357        -3.969584
+H           0.408631         1.778110        -6.364913

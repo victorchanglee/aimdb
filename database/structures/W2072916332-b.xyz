@@ -1,0 +1,26 @@
+24
+Z-Azobenzene — photoisomerization from the n-pi* and pi-pi* singlets | VERBATIM coordinates from W2072916332_si_ja710275e_si_001.txt line 41 (SI 'Cartesian coordinates of all the structures discussed in the text. (data in A)', block 'Z-Min S0' (subscript split off by extraction; block spans the page-1/page-2 break, 24 atoms): the Z-azobenzene ground-state minimum from the CASSCF(14,12)/6-31G* optimisation on which the CASPT2 single points are run.) | angstrom as printed | NOT a generated structure
+N           0.503160         0.363890        -1.954969
+C           1.160320         0.784710        -0.751040
+C           1.336030         2.156609        -0.569630
+C           2.036229         2.623989         0.520120
+C           2.608199         1.732379         1.425309
+C           2.468099         0.363200         1.224810
+C           1.740789        -0.117470         0.135200
+H           0.918950         2.837209        -1.289740
+H           2.152289         3.683349         0.662890
+H           3.163929         2.100939         2.268229
+H           2.918419        -0.331860         1.910049
+H           1.633629        -1.174410        -0.020750
+N          -0.503160        -0.363890        -1.954969
+C          -1.160320        -0.784710        -0.751040
+C          -1.336030        -2.156609        -0.569630
+C          -2.036229        -2.623989         0.520120
+C          -2.608199        -1.732379         1.425309
+C          -2.468099        -0.363200         1.224810
+C          -1.740789         0.117470         0.135200
+H          -0.918950        -2.837209        -1.289740
+H          -2.152289        -3.683349         0.662890
+H          -3.163929        -2.100939         2.268229
+H          -2.918419         0.331860         1.910049
+H          -1.633629         1.174410        -0.020750

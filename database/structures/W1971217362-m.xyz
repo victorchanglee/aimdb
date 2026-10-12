@@ -1,0 +1,12 @@
+10
+2(5H)-furanone triplet-state landscape | VERBATIM coordinates from W1971217362_si_jo100341a_si_001.txt lines 2782-2799 (SI p. S43, 'CASSCF Optimized geometries', block '2(5H)furanone (T1)': the CASSCF(6,5)/6-31++G(d,p) twisted triplet minimum (Gaussian standard orientation); the T1/S0 intersection follows) | angstrom as printed | NOT a generated structure
+O           0.010076        -1.052896        -0.112079
+C           0.838366         0.011707        -0.022543
+C           0.022366         1.225684         0.100719
+C          -1.394276         0.798806        -0.112788
+C          -1.340244        -0.683152         0.175828
+O           2.028219        -0.094745        -0.035127
+H          -1.903309         1.126750        -1.006052
+H           0.374250         2.119441         0.572886
+H          -1.546172        -0.909474         1.217037
+H          -1.988404        -1.273858        -0.453516

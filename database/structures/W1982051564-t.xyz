@@ -1,0 +1,4 @@
+2
+dinitrogen active-space benchmark used in azoalkane thermochemistry | VERBATIM coordinates from W1982051564_si_ja038198l_si_001.txt line 4908 (SI p. 94, section 'dinitrogen molecule', block headed 'CASSCF(2,2)/6-31G*' (E= -108.9746958715): the CASSCF(2,2)/6-31G(d) optimized N2 (N at z = +/-0.544357 A, as the row's geometry_source quotes). The CASSCF(4,4) and (8,6) N2 blocks follow on p. 95.) | angstrom as printed | NOT a generated structure
+N           0.000000         0.000000         0.544357
+N           0.000000         0.000000        -0.544357

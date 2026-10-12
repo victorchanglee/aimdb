@@ -1,0 +1,13 @@
+11
+[Co{N(SiMe3)2}2(PCy3)] (complex 6), modelled as [Co(NH2)2(PH3)] | VERBATIM coordinates from W2323371282_si_ic401677j_si_002.txt line 1103 (SI Table S17 c) '[Co(NH2)2(PH3)]', model used in the CASSCF/SOCI calculations, heavy atoms from the X-ray structure of 6, only hydrogen positions optimized (B3LYP/def2-TZVPP, S = 3/2). Block is CoH7N2P (2 NH2 + PH3 = 7 H); the row's formula CoH8N2P miscounts by one hydrogen, hence the formula-check override.) | angstrom as printed | NOT a generated structure
+Co          0.000000         0.000000         0.000000
+P           2.518364         0.000000         0.000000
+N          -0.873952         1.713248         0.000000
+N          -0.890123        -1.710962         0.000000
+H          -1.407351         2.039119        -0.809967
+H          -1.323895         2.102037         0.832378
+H          -1.446351        -2.022036        -0.800114
+H          -1.322766        -2.104842         0.839180
+H           3.237498        -0.864976         0.877131
+H           3.240613         1.194181         0.293140
+H           3.221078        -0.342886        -1.192997

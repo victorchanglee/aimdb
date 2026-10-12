@@ -1,0 +1,21 @@
+19
+The 9-methylguanine radical cation, 9MG(+.), used as the model nucleobase cation | VERBATIM coordinates from W3128263304_si_jp1c00095_si_001.txt line 518 (SI p. S7 'Cartesian coordinates for the structures in Table 1 and Figure 2, optimized at wB97XD/6-31+G(d,p)', block labelled '9MG+' (19 atoms, C6H7N5O, radical cation, odd electron count consistent with doublet); main text Table 1 footnote: CASSCF(9,7)/CASPT2(9,7) on the wB97XD geometries) | angstrom as printed | NOT a generated structure
+N           1.951120        -0.354583        -0.005039
+C           2.319075         0.954050        -0.004604
+H           3.359068         1.254439        -0.006930
+N           1.291152         1.814596        -0.002631
+C           0.216436         1.034973        -0.000529
+C          -1.205059         1.373616         0.001955
+O          -1.725525         2.455144         0.004320
+N          -1.999348         0.182762         0.001632
+H          -2.998658         0.360698         0.003190
+C          -1.529628        -1.090373        -0.000748
+N          -2.379559        -2.107286        -0.002613
+H          -3.382588        -1.994399        -0.003318
+H          -1.998201        -3.043651        -0.004190
+N          -0.209714        -1.400163        -0.001254
+C           0.580653        -0.354432        -0.001405
+C           2.813072        -1.534838         0.008346
+H           2.706734        -2.055163         0.960914
+H           2.530148        -2.196867        -0.810227
+H           3.844839        -1.211460        -0.122750

@@ -1,0 +1,16 @@
+14
+Hexatriene | VERBATIM coordinates from W2903558328_si_ct8b01205_si_001.txt lines 134-150 (SI section I 'GEOMETRIES', 'I. Hexatriene': the one geometry optimized at CCSD(T)/aug-cc-pVTZ rather than CC3, printed in bohr and converted to angstrom; the block is split by the page 3/4 break and was collected as a range.) | converted from bohr to angstrom with 1 bohr = 0.529177210903 | NOT a generated structure
+C      -0.00013102     0.67299795     0.00000000
+C       0.00013102    -0.67299795     0.00000000
+C       1.20171991     1.48056888     0.00000000
+C      -1.20171991    -1.48056888     0.00000000
+C       1.20171991     2.82123882     0.00000000
+C      -1.20171991    -2.82123882     0.00000000
+H      -0.94923993     1.20006289     0.00000000
+H       0.94923993    -1.20006289     0.00000000
+H       2.14573686     0.94836991     0.00000000
+H      -2.14573686    -0.94836991     0.00000000
+H       0.27404299     3.37840273     0.00000000
+H      -0.27404299    -3.37840273     0.00000000
+H       2.12256086     3.38508074     0.00000000
+H      -2.12256086    -3.38508074     0.00000000

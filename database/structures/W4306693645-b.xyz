@@ -1,0 +1,10 @@
+8
+boryl nitrene 3, the smaller model compound (the paper's own label; no systemati | VERBATIM coordinates from W4306693645_si_jp2c05491_si_001.txt line 54 (SI 'Cartesian Coordinates ... of all the optimized critical points at CASSCF/cc-pVTZ', 'Boryl nitrene 3 X~3A2 minimum E = -305.95198': state-specific CASSCF/cc-pVTZ triplet ground-state minimum; the same SI holds the a~1A1, b~1A2, A~3B2, c~1A1 minima and CI/MECP points of compound 3. 8 atoms C2H2BNO2 = 1,3,2-dioxaborole C2H2O2B + N, even electron count consistent with triplet.) | angstrom as printed | NOT a generated structure
+C     0.085830000000   0.698984000000  -1.213982000000
+C     0.101125000000  -0.634413000000  -1.184892000000
+O     0.266098000000   1.182257000000   0.050730000000
+O     0.291853000000  -1.057817000000   0.099581000000
+B     0.390198000000   0.080170000000   0.839485000000
+N     0.606041000000   0.114909000000   2.322749000000
+H    -0.036388000000   1.391566000000  -2.013612000000
+H    -0.004886000000  -1.363808000000  -1.953502000000

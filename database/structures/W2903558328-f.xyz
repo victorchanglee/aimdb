@@ -1,0 +1,8 @@
+6
+Ethylene | VERBATIM coordinates from W2903558328_si_ct8b01205_si_001.txt line 115 (SI section I 'GEOMETRIES', 'F. Ethylene': CC3(full)/aug-cc-pVTZ optimized geometry, printed in bohr and converted to angstrom.) | converted from bohr to angstrom with 1 bohr = 0.529177210903 | NOT a generated structure
+C       0.00000000     0.66690396     0.00000000
+C       0.00000000    -0.66690396     0.00000000
+H       0.00000000     1.22952196     0.92229064
+H       0.00000000    -1.22952196     0.92229064
+H       0.00000000     1.22952196    -0.92229064
+H       0.00000000    -1.22952196    -0.92229064

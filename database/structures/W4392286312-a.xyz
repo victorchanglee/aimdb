@@ -1,0 +1,14 @@
+12
+dimethyltetroxide (MeO4Me) and the MeO2 + MeO2 -> MeO4Me -> MeO + MeO + O2 react | VERBATIM coordinates from W4392286312_si_jp3c08043_si_001.txt line 1351 (SI section S10 'CASPT2 geometries', S10.6 'CAS(22e,14o)/cc-pVTZ', label 'MeO4Me' (0 1): dimethyltetroxide minimum optimized at CASPT2(22e,14o)/cc-pVTZ, the level the paper uses for its basis-set/method single points; CASSCF geometries (S9) and the other reaction-system species are printed separately) | angstrom as printed | NOT a generated structure
+H    -0.001731000000   3.143844000000  -0.860970000000
+C    -0.060875000000   2.425764000000  -0.047333000000
+H     0.406705000000   2.834310000000   0.846616000000
+H    -1.102124000000   2.176033000000   0.143638000000
+O     0.653642000000   1.292157000000  -0.520422000000
+O     0.635624000000   0.314872000000   0.545497000000
+O    -0.634885000000  -0.314601000000   0.545483000000
+O    -0.653012000000  -1.291744000000  -0.520586000000
+C     0.060703000000  -2.425822000000  -0.047392000000
+H     0.000953000000  -3.144058000000  -0.860812000000
+H    -0.407150000000  -2.833900000000   0.846616000000
+H     1.102149000000  -2.176852000000   0.143447000000

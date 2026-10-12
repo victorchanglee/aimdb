@@ -1,0 +1,18 @@
+16
+1,5-hexadiene, boat Cope transition state | VERBATIM coordinates from W2018083601_si_jp0259014_si_001.txt line 199 (SI 'Cartesian coordinates [a.u] ... at MR-AQCC level', 'b) Boat form', block headed 'Ref. space: CAS(6,6) Basis: 6-31G*   E=-233.737004': the boat Cope transition structure fully optimised at MR-AQCC with the CAS(6,6) reference; the only CAS(6,6)-reference boat geometry printed (the other boat blocks use the CAS(4,4) reference). Printed in bohr; convert to angstrom.) | converted from bohr to angstrom with 1 bohr = 0.529177210903 | NOT a generated structure
+C       0.00000000     1.42497580    -0.41977247
+C       0.00000000    -1.42497580    -0.41977247
+C       1.22126004    -1.09526559     0.18008112
+C      -1.22126004    -1.09526559     0.18008112
+C       1.22126004     1.09526559     0.18008112
+C      -1.22126004     1.09526559     0.18008112
+H      -2.15158427    -1.32348914    -0.33674562
+H       2.15158427    -1.32348914    -0.33674562
+H      -2.15158427     1.32348914    -0.33674562
+H       2.15158427     1.32348914    -0.33674562
+H      -1.28894445    -1.12204725     1.26614908
+H       1.28894445    -1.12204725     1.26614908
+H      -1.28894445     1.12204725     1.26614908
+H       1.28894445     1.12204725     1.26614908
+H       0.00000000     1.59036749    -1.49929715
+H       0.00000000    -1.59036749    -1.49929715

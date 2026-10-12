@@ -1,0 +1,48 @@
+14
+PSB3, the minimal model of the retinal protonated Schiff base chromophore | VERBATIM coordinates from W2329860888_si_ct6b00108_si_001.txt line 785 (CASSCF/ANO-L-VTZP ground-state geometry, E = -248.36604736 Eh) | angstrom as printed | NOT a generated structure
+C          -2.735841        -0.830747         0.868393
+C          -1.447835        -0.471580         0.992851
+C          -0.618255        -0.221874        -0.172272
+C           0.684749         0.151644        -0.213617
+C           1.479654         0.361246         0.955416
+N           2.715362         0.715780         0.910361
+H           1.161179         0.299173        -1.164027
+H          -1.101503        -0.350373        -1.122051
+H           1.066668         0.226542         1.935502
+H          -1.030602        -0.367345         1.975824
+H           3.246814         0.854278         1.743384
+H           3.186499         0.864664         0.041881
+H          -3.346616        -1.012592         1.729754
+H          -3.198880        -0.947829        -0.092651
+14
+PSB3, the minimal model of the retinal protonated Schiff base chromophore | VERBATIM coordinates from W2329860888_si_ct6b00108_si_001.txt line 849 (CASPT2/ANO-L-VTZP (S-IPEA, frozen core) ground-state geometry, E = -249.26830768 Eh) | angstrom as printed | NOT a generated structure
+C          -0.007012         0.001580         0.022164
+C           0.004742        -0.000276         1.373101
+C           1.254470        -0.001815         2.077417
+C           1.458627        -0.004152         3.434325
+C           0.392016        -0.006378         4.351350
+N           0.557392        -0.009076         5.645838
+H           2.469771        -0.005139         3.818923
+H           2.141704        -0.001464         1.454326
+H          -0.635032        -0.005892         4.011838
+H          -0.934177        -0.000696         1.908496
+H          -0.231362        -0.011086         6.275722
+H           1.480824        -0.009327         6.057712
+H          -0.932530         0.002634        -0.533117
+H           0.914373         0.001943        -0.543703
+14
+PSB3, the minimal model of the retinal protonated Schiff base chromophore | VERBATIM coordinates from W2329860888_si_ct6b00108_si_001.txt line 932 (CASPT3/ANO-L-VTZP (no frozen core, no IPEA) ground-state geometry, E = -249.32042755 Eh) | angstrom as printed | NOT a generated structure
+C          -2.391941        -1.556678        -0.004623
+C          -1.154188        -1.021002        -0.002318
+C          -0.984845         0.410598        -0.001167
+C           0.182357         1.123566         0.001050
+C           1.449975         0.497423         0.002643
+N           2.574073         1.155044         0.004627
+H           0.147022         2.203712         0.001553
+H          -1.901734         0.987029        -0.002279
+H           1.538794        -0.579675         0.002296
+H          -0.293817        -1.674221        -0.001442
+H           3.460345         0.677057         0.005738
+H           2.592969         2.163640         0.005112
+H          -2.541096        -2.625212        -0.005421
+H          -3.272525        -0.929772        -0.005772

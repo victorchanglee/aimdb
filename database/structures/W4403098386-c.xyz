@@ -1,0 +1,12 @@
+10
+cyclo[10]carbon, the C10 ring, with n = 5 - odd n, so not dual antiaromatic | VERBATIM coordinates from W4403098386_si_jp4c01540_si_001.txt line 368 (SI Section 4 'Geometric Structures', 'Cyclo[10]carbon': minimum optimized at omegaB97-XD/def2-TZVP (Gaussian16), the structure the DMRG-SCF calculations used.) | angstrom as printed | NOT a generated structure
+C        -0.16663535      -1.91655191       0.00003585
+C        -1.42454433      -1.64050750      -0.00001987
+C         2.11688116       0.48990454      -0.00003128
+C        -1.87436543      -0.43379459       0.00001010
+C         1.26139495       1.45258910       0.00002646
+C         0.18819030       2.16449106      -0.00001455
+C         1.12003827      -1.86171535      -0.00003482
+C         1.77136891      -0.75073560       0.00003070
+C        -0.99178595       1.64845709       0.00001156
+C        -2.00054254       0.84786315      -0.00001413

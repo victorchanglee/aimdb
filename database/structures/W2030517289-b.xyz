@@ -1,0 +1,17 @@
+15
+Cyclohexenone (2-cyclohexen-1-one) | VERBATIM coordinates from W2030517289_si_jo015865p_si_001.txt lines 84-98 (SI 'Cyclohexenone', block 'A: S0 planar minimum' (E= -306.78161 a.u.); main text: all critical points optimized at CASSCF/6-31G* and confirmed as minima by analytical frequencies. Blocks B, C, G, I are the triplet minima and crossings) | angstrom as printed | NOT a generated structure
+C          -1.133552          .015296          .013468
+O          -2.337006         -.008494         -.113145
+C           -.380701         1.291176         -.045879
+C            .961472         1.329492          .024837
+C           1.816778          .090503          .135897
+C           1.068896        -1.156330         -.343264
+C           -.326235        -1.239991          .280764
+H           -.968554         2.186966         -.136762
+H           1.464985         2.281276          .013230
+H           2.727610          .224252         -.440031
+H           2.129781         -.035500         1.171572
+H            .974705        -1.119446        -1.425707
+H           1.637725        -2.049728         -.107219
+H           -.883622        -2.092846         -.087297
+H           -.239350        -1.352946         1.360543

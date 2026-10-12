@@ -1,0 +1,18 @@
+16
+6-selenoguanine (6SeGua), photophysics of the selenium-substituted guanine nucle | VERBATIM coordinates from W2948218330_si_ao9b01276_si_001.txt line 77 (SI 'Cartesian Coordinates', label 'S0-MIN': 6-selenoguanine ground-state minimum optimized at MS-CASPT2; S1/S2/T1/T2 minima, crossings and LIIC points follow) | angstrom as printed | NOT a generated structure
+C         0.44060186      -0.84507053       0.00941773
+C         1.77902712      -0.40144277      -0.00578424
+C         1.27371405       1.75753545      -0.01700194
+C        -0.59900283       0.13376642      -0.00064814
+C         1.63827505      -2.60492038       0.01238129
+H         1.98364711      -3.63919152       0.01811614
+N        -0.06300046       1.42833558      -0.02316954
+H        -0.75515764       2.17530907      -0.10462044
+N         2.25530236       0.87718838      -0.00416404
+N         1.56077340       3.11273974      -0.10231715
+H         0.97137032       3.69831195       0.48774337
+H         2.54823975       3.27414051       0.08961270
+N         2.53214811      -1.55082542      -0.00274545
+H         3.54558410      -1.59832262      -0.01506383
+N         0.37115754      -2.22960760       0.02031779
+Se       -2.40439983      -0.10656631      -0.00261418

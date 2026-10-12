@@ -1,0 +1,12 @@
+10
+[Co{N(SiMe3)2}3]- (complex 2), modelled as [Co(NH2)3]- | VERBATIM coordinates from W2323371282_si_ic401677j_si_002.txt line 1073 (SI Table S17 a) '[Co(NH2)3]-', model used in the CASSCF/SOCI calculations, heavy atoms from the X-ray structure of 2, only hydrogen positions optimized (B3LYP/def2-TZVPP, S = 3/2).) | angstrom as printed | NOT a generated structure
+Co          0.000000         0.000000         0.000000
+N           1.968598         0.000000         0.000000
+N          -0.976258         1.716752         0.000000
+N          -1.010168        -1.695733         0.000000
+H          -0.432412         2.478517        -0.426918
+H          -1.883605         1.733579        -0.482777
+H           2.396873        -0.441481        -0.827829
+H           2.433432        -0.460109         0.795808
+H          -0.781499        -2.285981        -0.815006
+H          -2.030917        -1.574127        -0.056218

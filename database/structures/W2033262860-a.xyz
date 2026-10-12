@@ -1,0 +1,17 @@
+15
+9H-Adenine — radiationless decay of the lowest 1npi* and 1pipi* excited singlet  | VERBATIM coordinates from W2033262860_si_ja044321c_si_001.txt line 17 (SI 'Cartesian coordinates of the local minimum (LM), saddle point (SP) and conical intersection (CI) structures': 'LM(S0)', the 9H-adenine ground-state minimum optimized at MP2/6-31G(d,p) (main text 3.1), the geometry at which the CASSCF/CASPT2 vertical excitation energies were computed; LM(1Lb), LM(1npi*), the CIs and SP1/SP2 are the CASSCF excited-state points) | angstrom as printed | NOT a generated structure
+N           2.074532         0.582386         0.007677
+C           0.710769         0.775820         0.011939
+C           0.178665        -0.518146         0.011352
+N           1.165569        -1.483971        -0.003968
+C           2.284579        -0.773407        -0.004134
+C          -1.226887        -0.607183        -0.006430
+N          -1.949126         0.522794        -0.014116
+C          -1.290739         1.704189        -0.003167
+N           0.028358         1.932070         0.011052
+N          -1.873028        -1.806409         0.049017
+H          -1.923758         2.583437        -0.008801
+H           3.278917        -1.190504        -0.011929
+H           2.772805         1.309078         0.010170
+H          -1.342549        -2.620886        -0.213732
+H          -2.847660        -1.790448        -0.203955

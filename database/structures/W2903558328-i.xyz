@@ -1,0 +1,8 @@
+6
+Glyoxal | VERBATIM coordinates from W2903558328_si_ct8b01205_si_001.txt line 127 (SI section I 'GEOMETRIES', 'H. Glyoxal': CC3(full)/aug-cc-pVTZ optimized geometry, printed in bohr and converted to angstrom.) | converted from bohr to angstrom with 1 bohr = 0.529177210903 | NOT a generated structure
+C       0.64221096     0.40132913     0.00000000
+C      -0.64221096    -0.40132913     0.00000000
+O       1.72290261    -0.13998423     0.00000000
+O      -1.72290261     0.13998423     0.00000000
+H       0.50872597     1.49166188     0.00000000
+H      -0.50872597    -1.49166188     0.00000000

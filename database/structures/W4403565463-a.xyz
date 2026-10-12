@@ -1,0 +1,20 @@
+18
+ONP-1W, o-nitrophenol microsolvated by one water molecule | VERBATIM coordinates from W4403565463_si_jp4c04890_si_001.txt lines 129-146 (SI section 8 'Cartesian Coordinates of All SA8-CASSCF Optimized Structures for ONP', ONP-1W, 'S0' (ground-state minimum at SA8-CASSCF(16,12), the geometry the MS-CASPT2 energies use; main-text Fig. 1); 18 atoms C6H7NO4 = o-nitrophenol C6H5NO3 + H2O; B3LYP-D3 and MS-CASPT2 ground-state minima are only shown as figures) | angstrom as printed | NOT a generated structure
+C        0.426532272     -2.011632127     -0.367055205
+C       -0.654221007     -1.158328654     -0.179189593
+C        1.721737236     -1.519672692     -0.453631725
+C       -0.403601281      0.216274514     -0.078472266
+C        1.968341390     -0.145862031     -0.352648026
+C        0.902312277      0.721467302     -0.164822933
+H        2.539800473     -2.210031568     -0.601102751
+H        2.973829166      0.241006100     -0.420347519
+H        1.058586828      1.783418819     -0.083848918
+H        0.224798157     -3.067993373     -0.446370334
+O       -1.863757736     -1.727664577     -0.106177949
+H       -2.538520912     -1.066363416     -0.001749031
+N       -1.476992499      1.180770457      0.118808421
+O       -1.211764178      2.333023066      0.220013665
+O       -2.652941882      0.749543504      0.173868890
+O       -2.021183554     -4.771744001     -0.479691635
+H       -2.151816335     -3.839043869     -0.387015448
+H       -2.314777918     -5.162991534      0.331434866

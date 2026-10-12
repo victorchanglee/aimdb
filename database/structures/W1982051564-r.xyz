@@ -1,0 +1,17 @@
+15
+2,3-diazabicyclo[2.2.1]hept-2-ene (DBH 9) | VERBATIM coordinates from W1982051564_si_ja038198l_si_001.txt lines 4079-4096 (SI p. 80-81, section 'Reactant: DBH', block headed 'CASSCF(4,4)/6-31G*' (E= -302.8769602364): the CASSCF(4,4)/6-31G(d) optimized and frequency-characterized DBH reactant, split by the page 80/81 break. The RB3LYP/6-31G(d) reactant block precedes it (line 4047) and the CASSCF(10,8)/6-31G* block follows (line ~4107).) | angstrom as printed | NOT a generated structure
+C            .201295          .261140         1.092573
+C            .201295        -1.250036          .777202
+H           2.099353          .418746          .000000
+C            .201295        -1.250036         -.777202
+H           1.087656        -1.724352         1.182676
+H           -.664216        -1.744227         1.199759
+H           -.664216        -1.744227        -1.199759
+C            .201295          .261140        -1.092573
+H           1.087656        -1.724352        -1.182676
+N          -1.160098          .742649         -.608484
+H            .365857          .540138        -2.121256
+H           1.145203         1.914587          .000000
+N          -1.160098          .742649          .608484
+C           1.097857          .832203          .000000
+H            .365857          .540138         2.121256

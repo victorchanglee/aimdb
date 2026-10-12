@@ -1,0 +1,23 @@
+21
+d5SICS unnatural nucleobase chromophore, isolated | VERBATIM coordinates from W2766436633_si_jp7b09046_si_001.txt line 129 (SI section 4 'Cartesian Coordinates of All Optimized CASSCF Structures', 'd5SICS in vacuo', S0 block: CASSCF-optimized ground-state minimum of the isolated chromophore (sugar replaced by H); 21 atoms C10H9NS. S1/S2/T1/T2 minima and the in-DNA QM/MM structures are separate blocks) | angstrom as printed | NOT a generated structure
+C         1.86667675      -1.45310947       0.00003698
+C         0.48429806      -1.45942064       0.00003575
+C        -0.24261354      -0.24555315       0.00001350
+C         0.48216678       0.96400823      -0.00001034
+C         1.88673851       0.93472428      -0.00001551
+C         2.59255990      -0.23742486       0.00000539
+H         2.39885129      -2.38798116       0.00006172
+H        -0.05081791      -2.38739585       0.00005309
+C        -1.71164548      -0.23987145       0.00002352
+C        -0.24282676       2.22572129      -0.00001253
+H         2.41369397       1.87350871      -0.00003645
+C        -1.56751890       2.19754163       0.00003836
+H         0.28818574       3.15779974      -0.00002235
+H        -2.17527370       3.08182662       0.00006259
+H        -3.26237946       1.04604862       0.00007140
+S        -2.68326279      -1.57008131       0.00002667
+N        -2.26753765       1.01564713       0.00008163
+C         4.10104073      -0.26324539      -0.00000800
+H         4.48122868      -0.78192859       0.87508999
+H         4.48120840      -0.78201853      -0.87506124
+H         4.51376153       0.73846553      -0.00006417

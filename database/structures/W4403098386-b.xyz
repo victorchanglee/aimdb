@@ -1,0 +1,10 @@
+8
+cyclo[8]carbon, the C8 ring, with n = 4 - even n, so DUAL ANTIAROMATIC | VERBATIM coordinates from W4403098386_si_jp4c01540_si_001.txt line 359 (SI Section 4 'Geometric Structures', 'Cyclo[8]carbon': minimum optimized at omegaB97-XD/def2-TZVP (Gaussian16), the structure the DMRG-SCF calculations used.) | angstrom as printed | NOT a generated structure
+C         0.57099151       1.38133224       0.00032680
+C         1.66624739       0.78100087      -0.00036317
+C        -1.66611710      -0.78097233      -0.00056152
+C         1.38163599      -0.57101338      -0.00007112
+C        -0.57101943      -1.38139693       0.00064494
+C         0.78093172      -1.66598806      -0.00004234
+C        -0.78100226       1.66604012       0.00012377
+C        -1.38166782       0.57099746      -0.00005735

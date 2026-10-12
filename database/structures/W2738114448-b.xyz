@@ -1,0 +1,26 @@
+24
+Anthracene | VERBATIM coordinates from W2738114448_si_ct7b00302_si_001.txt line 53 (SI Table SI1 'Atom coordinates (A) of the optimized structure (DFT/B3LYP/6-31G** level) of the studied polyacenes', block 'Antracene'; the CASSCF/CASPT2 calculations are single points at these DFT geometries) | angstrom as printed | NOT a generated structure
+C            2.47909          1.40694          0.00000
+C            1.22358          0.72246          0.00000
+C            0.00000          1.40365          0.00000
+C           -1.22358          0.72246          0.00000
+C           -2.47909          1.40694          0.00000
+C           -3.65987          0.71301          0.00000
+C           -3.65987         -0.71301          0.00000
+C           -2.47909         -1.40694          0.00000
+C           -1.22358         -0.72246          0.00000
+C            0.00000         -1.40365          0.00000
+C            1.22358         -0.72246          0.00000
+C            2.47909         -1.40694          0.00000
+C            3.65987         -0.71301          0.00000
+C            3.65987          0.71301          0.00000
+H            2.47674          2.49379          0.00000
+H            0.00000          2.49133          0.00000
+H           -2.47674          2.49379          0.00000
+H           -4.60591          1.24626          0.00000
+H           -4.60591         -1.24626          0.00000
+H           -2.47674         -2.49379          0.00000
+H            0.00000         -2.49133          0.00000
+H            2.47674         -2.49379          0.00000
+H            4.60591         -1.24626          0.00000
+H            4.60591          1.24626          0.00000

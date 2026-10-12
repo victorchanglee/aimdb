@@ -1,0 +1,17 @@
+15
+Adenine, excited-state potential energy surface and deactivation paths | VERBATIM coordinates from W2146234190_si_ja054998f_si_001.txt line 250 (SI p. S8 'Cartesian Coordinates of Structures' — 'FC geometry': the ground-state minimum of adenine optimized at the CASSCF/6-31G* level without state averaging (Gaussian standard-orientation listing); the other blocks are the 1Lb and n,pi* minima, conical intersections and transition structures) | angstrom as printed | NOT a generated structure
+N          -1.928403         0.528683         0.004837
+C          -1.275004         1.700062         0.005065
+N           0.030754         1.905035         0.000347
+C           0.715498         0.763366        -0.003309
+C           0.173644        -0.510876        -0.006882
+C          -1.228864        -0.595810        -0.006834
+N           1.169824        -1.469494         0.000028
+C           2.269684        -0.782165         0.004339
+N           2.067833         0.574113         0.001707
+N          -1.886045        -1.786994        -0.061012
+H          -1.896363         2.575592         0.012517
+H           3.254464        -1.200887         0.009975
+H           2.762260         1.285294         0.002905
+H          -2.848761        -1.766649         0.191278
+H          -1.379076        -2.600203         0.207693

@@ -1,0 +1,13 @@
+11
+Methyl vinyl ketone (but-3-en-2-one) | VERBATIM coordinates from W2030517289_si_jo015865p_si_001.txt lines 286-296 (SI 'Methyl vinyl ketone', block 'A: S0 planar minimum' (E= -229.86612 a.u.); main text: all critical points optimized at CASSCF/6-31G* and confirmed as minima by analytical frequencies. Blocks B, G, I are the triplet minimum and crossings) | angstrom as printed | NOT a generated structure
+C           -.476512        -1.900558          .000007
+C           -.883558         -.621896          .000014
+H          -1.186234        -2.707278         -.000028
+C            .009828          .568062          .000018
+H            .561747        -2.178109          .000024
+H          -1.932277         -.381768         -.000004
+O           -.483361         1.674347         -.000025
+C           1.511909          .385946          .000005
+H           1.835529         -.166288          .876444
+H           1.835487         -.166269         -.876459
+H           1.983121         1.358998          .000004

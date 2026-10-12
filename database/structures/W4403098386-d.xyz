@@ -1,0 +1,14 @@
+12
+cyclo[12]carbon, the C12 ring, with n = 6 - even n, so DUAL ANTIAROMATIC | VERBATIM coordinates from W4403098386_si_jp4c01540_si_001.txt line 379 (SI Section 4 'Geometric Structures', 'Cyclo[12]carbon': bond-length-alternating minimum optimized at omegaB97-XD/def2-TZVP (Gaussian16), the structure the DMRG-SCF calculations used. The 'Cyclo[12]carbon Average' (average-bonding, D12h-like) structure at SI line 392 was used only for the Table S4 natural-orbital energies and is not copied.) | angstrom as printed | NOT a generated structure
+C         0.00000000       2.57574200       0.00000000
+C        -1.23508900       2.01297500       0.00000000
+C         2.36083200       0.06313100       0.00000000
+C        -2.23065800       1.28787100       0.00000000
+C         2.23065800      -1.28787100       0.00000000
+C         1.23508900      -2.01297500       0.00000000
+C         1.12574300       2.07610600       0.00000000
+C         2.23065800       1.28787100       0.00000000
+C         0.00000000      -2.57574200       0.00000000
+C        -2.36083200      -0.06313100       0.00000000
+C        -1.12574300      -2.07610600       0.00000000
+C        -2.23065800      -1.28787100       0.00000000

@@ -1,0 +1,14 @@
+12
+5-azacytosine - relaxation mechanisms | VERBATIM coordinates from W2315121928_si_ct5003175_si_001.txt line 255 (SI Table S7 '1(gs)min': ground-state minimum of 5-azacytosine optimized at CASSCF(14,10)/ANO-L double-zeta plus polarization (C,N,O[3s2p1d]/H[2s1p]), C1 symmetry, MOLCAS 7.6; CASPT2 single points on it. The excited-state minima, CIs and STC follow in the same table) | angstrom as printed | NOT a generated structure
+C            0.94561          0.86463          0.00278
+C           -0.23722         -1.10636         -0.00449
+C           -1.45555          0.78453          0.00674
+N           -0.30711          1.49632          0.00014
+N            0.90249         -0.52065          0.00733
+N           -0.30548         -2.47179         -0.07025
+N           -1.49262         -0.49413          0.00436
+O            1.95072          1.50748          0.00413
+H           -2.37749          1.35132          0.01726
+H           -0.32211          2.49637         -0.00338
+H           -1.15145         -2.87428          0.28209
+H            0.53847         -2.95098          0.17657

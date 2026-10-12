@@ -1,0 +1,22 @@
+9
+Primary fluorozonide (POZF, 3-fluoro-1,2,3-trioxolane) | VERBATIM coordinates from W2022776036_si_jp044706h_si_001.txt line 35 (syn-POZF (O envelope), CASSCF(10,9)/cc-pVTZ) | converted from bohr to angstrom with 1 bohr = 0.529177210903 | NOT a generated structure
+O      -0.19386289     1.34542004    -0.29807273
+O      -1.36191145     0.73678121     0.31854884
+O       0.88163140     0.65077087     0.41824496
+C      -1.02980322    -0.66097339     0.21696532
+C       0.48995345    -0.69574934     0.31491076
+H      -1.34733525    -1.06346028    -0.73285245
+H      -1.52499482    -1.15651157     1.03612802
+H       0.89462639    -1.19892523     1.17701762
+F       1.01346598    -1.26259687    -0.78383935
+9
+Primary fluorozonide (POZF, 3-fluoro-1,2,3-trioxolane) | VERBATIM coordinates from W2022776036_si_jp044706h_si_001.txt line 54 (anti-POZF (H2C-O half-chair), CASSCF(10,9)/cc-pVTZ) | converted from bohr to angstrom with 1 bohr = 0.529177210903 | NOT a generated structure
+O       0.32778952     1.43319392    -0.38248681
+O       1.33275179     0.49321554     0.07463559
+O      -0.95942050     0.68812161    -0.23914466
+C       0.85718586    -0.71464928    -0.53655624
+C      -0.60614494    -0.67941478    -0.19091879
+H       1.37188533    -1.53825017    -0.07123610
+H       1.02059184    -0.69015455    -1.60433833
+H      -1.25878800    -1.21946899    -0.85753122
+F      -0.80898474    -1.13775723     1.05439286

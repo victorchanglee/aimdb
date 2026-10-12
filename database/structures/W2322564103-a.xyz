@@ -1,0 +1,17 @@
+15
+Toluene radical cation, near the conical intersection of its two lowest states | VERBATIM coordinates from W2322564103_si_jp509774t_si_001.txt line 80 (SI Table 1: Equilibrium geometry of neutral toluene optimized using B3LYP method and 6-31G* basis set. This is the Franck-Condon geometry at which the cation is created by vertical ionization: the unsampled SA-CASSCF(5,6)/6-31G* Ehrenfest trajectory starts here with no kinetic energy and the 500-point Wigner ensemble is sampled about it. No cation minimum is printed) | angstrom as printed | NOT a generated structure
+C           0.002127         2.421311         0.000000
+C          -0.015316         0.909745         0.000000
+C          -0.011512         0.190149         1.202364
+C           0.002496        -1.205278         1.205404
+C           0.010245        -1.909121         0.000000
+C           0.002496        -1.205278        -1.205404
+C          -0.011512         0.190149        -1.202364
+H          -0.496673         2.828664         0.886031
+H           1.030233         2.808011         0.000000
+H          -0.496673         2.828664        -0.886031
+H          -0.021463         0.730335         2.146842
+H           0.021463        -1.742650         2.150435
+H           0.017865        -2.995865         0.000000
+H           0.002879        -1.742650        -2.150435
+H          -0.021463         0.730335        -2.146842

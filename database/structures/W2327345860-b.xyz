@@ -1,0 +1,13 @@
+11
+cyclobutanone | VERBATIM coordinates from W2327345860_si_jp5b00302_si_001.txt line 90 (SI Part II 'Cartesian Coordinates of All Optimized Structures (XYZ format and Angstrom)', Cyclobutanone 'S0-MIN': S0 minimum optimized by state-specific CASSCF(10,8)/6-31G* (main text Methods and Figure 1); the S1-MIN, S1-TS, S1S0-MIN, T1-MIN and T1-TS blocks that follow are not included) | angstrom as printed | NOT a generated structure
+C       -0.386039000     -1.106471000      0.014584000
+C       -1.474928000     -0.000014000     -0.022627000
+C       -0.386048000      1.106479000      0.014636000
+C        0.674397000     -0.000003000      0.005016000
+O        1.884614000      0.000001000     -0.013753000
+H       -0.345955000      1.766011000     -0.845188000
+H       -0.368321000      1.711827000      0.914604000
+H       -2.069077000      0.000025000     -0.927316000
+H       -2.143623000     -0.000053000      0.828146000
+H       -0.346072000     -1.766522000     -0.844828000
+H       -0.368164000     -1.711241000      0.914961000

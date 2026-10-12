@@ -1,0 +1,14 @@
+12
+7-Azabicyclo[4.1.0]hepta-2,4,6-triene (2a) — bicyclic azirine intermediate | VERBATIM coordinates from W2035185191_si_ja9635241_si_001.txt lines 79-90 (SI p. 3: 'Cartesian coordinates for 7-azabicyclo[4.1.0]hepta-2,4,6-triene (2a)', 'CASSCF(8,8)/6-31G* optimized geometry') | angstrom as printed | NOT a generated structure
+N            .000000          .000000          .000000
+C            .000000          .000000         1.259441
+C            .909416          .000000         2.400190
+C           1.252075         1.263244         2.749841
+C           -.885800         1.057390          .854202
+C           -.301816         2.382391         1.148145
+C            .717654         2.444731         2.044632
+H           1.276446         -.884855         2.881719
+H           1.947843         1.431919         3.552202
+H          -1.947583          .924283          .768144
+H           -.713082         3.282202          .725520
+H           1.144140         3.397824         2.302088

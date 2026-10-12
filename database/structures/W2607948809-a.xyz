@@ -1,0 +1,16 @@
+14
+nitrobenzene - photophysics and photochemistry of the simplest nitroaromatic | VERBATIM coordinates from W2607948809_si_ct6b01149_si_001.txt line 397 (SI Table S7 'Cartesian coordinates x, y, z (in A) of the optimized structures for the nitrobenzene molecule', block '1(gs)min': the ground-state minimum optimized at CASPT2(14,11)/ANO-L (numerical gradients, C1), the Franck-Condon structure at which all vertical excitation energies in main-text Table 1 are reported ('All the reported values are referred to the ground state optimized geometry, 1(gs)min'). The other Table S7 blocks (excited-state minima, CIs, STCs, 1(gs)min-n, NO/ep photoproducts) are path points and are not included.) | angstrom as printed | NOT a generated structure
+H          -0.000114        -2.144559         0.136502
+C          -0.000044        -1.222231        -0.427207
+C           0.000061        -1.212234        -1.823582
+C          -0.000068         0.000001        -2.521007
+C           0.000009         1.212231        -1.823581
+C           0.000075         1.222227        -0.427203
+C          -0.000027        -0.000013         0.240480
+H           0.000273        -2.151333        -2.364174
+H          -0.000248         0.000004        -3.605122
+H           0.000024         2.151334        -2.364167
+H           0.000165         2.144543         0.136519
+N          -0.000038         0.000051         1.716734
+O          -0.000099         1.096211         2.287887
+O           0.000031        -1.096231         2.287920

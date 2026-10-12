@@ -1,0 +1,20 @@
+18
+2,3-Diazabicyclo[2.2.2]oct-2-ene (DBO), photolysis and denitrogenation mechanism | VERBATIM coordinates from W2083371726_si_ja050002p_si_001.txt line 104 (SI p. 4 'Cartesian coordinates of all species in Figure 2.' — 'M1-S0': the ground-state minimum of DBO, CASSCF/6-31G* optimized (Figure 2 = CASSCF-optimized minima, TSs and crossing points); the other 15 blocks are excited-state minima, TSs, ISC/IC points and the denitrogenation products) | angstrom as printed | NOT a generated structure
+C         0.00000000       0.00000000       0.00000000
+C         2.50522853       0.00000000       0.00000000
+C         0.47958594       1.45361336       0.00000000
+H         0.08103487       1.96595623      -0.86973109
+H         0.09166925       1.96432959       0.87411550
+C         2.02565534       1.45361398       0.00022037
+H         2.42447269       1.96623850      -0.86921920
+H         2.41330374       1.96403870       0.87462724
+H         3.57619446      -0.07123260       0.12478401
+H        -1.07096550      -0.07120907       0.12479827
+C         2.02564449      -0.73931878      -1.25155891
+H         2.42420160      -0.25107568      -2.13504069
+H         2.41355715      -1.75168757      -1.24668966
+C         0.47957409      -0.73950452      -1.25145085
+H         0.08075979      -0.25163661      -2.13502193
+H         0.09192265      -1.75197253      -1.24620248
+N         0.62136233      -0.69162278       1.21184493
+N         1.88386457      -0.69165417       1.21182646

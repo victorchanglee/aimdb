@@ -777,6 +777,105 @@ mined twice this way on 2026-08-06/07, and the second pass read a *different
 document*: `W4253843485`'s rows claim (64,64) and (60,60), `W4205703165-d`
 claims (54,36), and none of those appear in the stored `text/<key>.txt`.
 
+## Structure files and molecule identifiers
+
+A row's `structure_file` is what lets a consumer rerun the calculation. Three
+sources exist, and `structure_provenance` says which one a file came from:
+
+- **the paper's own coordinates** (`computational` or `experimental`), copied
+  verbatim from a coordinate table in the article or its SI. This is the only
+  kind that is the geometry the row's calculation used.
+- **a PubChem conformer** (`ai_generated`): the compound's generic 3D
+  structure, never the paper's geometry. Its file says `GENERATED` on the
+  comment line and the row's `notes` say so too.
+
+**The pipeline, in order** (all re-runnable, from `code/`):
+
+1. `tools/tools_batch_si.py` fetches SI for every paper with a structureless
+   row, over the two sanctioned routes only (figshare component DOIs for ACS,
+   PMC OA packages), and text-extracts the PDFs to `text/<key>_si_*.txt`.
+2. `tools/tools_find_coordinate_blocks.py` finds every coordinate block in
+   the local text and writes `logs/coordinate_blocks.csv`: file, line, atom
+   count, composition, the nearest species label, and which rows share the
+   composition. **It is a worklist, not a decision.** An SI prints every
+   stationary point, every conformer and every DFT comparison geometry; which
+   block is the row's is read from the label and the methods section.
+3. `tools/tools_save_coordinate_block.py` copies the chosen block verbatim,
+   checks its composition against the row's `formula`, sets
+   `structure_file`/`structure_provenance`, appends a note naming file and
+   lines, and logs. `--range A B` joins a block that page breaks split;
+   `--batch` applies a reviewed JSON list of decisions.
+4. `tools/tools_pubchem_identifiers.py` resolves `compound_name` in PubChem
+   for every molecule row and writes `database/identifiers.csv` (CID,
+   InChIKey, InChI, SMILES, PubChem formula, `status`). `--apply` stamps the
+   queued conformers onto rows that still have no structure, and only where
+   `status=match`, i.e. PubChem's composition equals the row's `formula`.
+
+**Line numbers are `grep -n` numbering.** 231 text files contain form feeds
+or Unicode line separators that Python's `splitlines()` also breaks on, so a
+line number from `splitlines()` can be off by dozens from what `sed -n`
+shows. Both tools split on `\n` only; a note that says "lines 947-998" can be
+checked with `sed -n '947,998p'`.
+
+**What the composition check catches, and what it cannot.** When the row's
+`formula` is plain (`C5H6N6`), the saver refuses a block of any other
+composition, and that caught a transposed page range on the first pass. When
+the formula is abbreviated or empty (`Mn(acac)3`, `[CuO2]+ with the
+histidine-brace ligand set`), nothing is checked: count the atoms against the
+compound yourself before saving. Three acac rows were first saved with
+30 of 43 atoms because the range stopped at a page footer, and the counts
+were what showed it.
+
+**A PubChem hit is only as good as its formula check.** A name like
+`1H-1,2,3-benzotriazole parent molecule` resolves correctly once the trailing
+words are dropped, but a fragment cut from a prose name (`1H-1` from
+`1H-1,2,3-benzotriazole`) resolves to an unrelated compound. So a fragment
+counts only when the row has a formula to check it against, and a row with
+no formula records a whole-name hit as `no_formula`, flagged unverified, with
+no conformer. `identifiers.csv` is a sidecar keyed by `entry_id` rather than
+new columns, so the schema and `claude-casscf` are untouched until the
+columns are deliberately merged.
+
+**PubChem blocks a client for many minutes at rates its documentation
+allows.** Five requests per second is the stated limit, but a failed name
+lookup costs the server seconds, and the 300 s-per-minute server-time cap
+produced HTTP 429 for every request after a burst at four to eight requests
+per second. The tool now runs one request per second, treats a 429 as a
+five-minute cooldown, and records a lookup that got no answer as `deferred`
+rather than `unresolved`, so a rerun asks again instead of believing the
+throttle.
+
+**Outcome of the first full pass (2026-10-11/12).** `structure_file` went
+from 908 to 1,914 rows: 666 verbatim geometries read out of 413 papers'
+coordinate blocks, plus 340 formula-checked PubChem conformers. About two
+thirds of the rows in those papers were deliberately skipped, and the
+reasons recur, so read for them first:
+
+- **the row names no single structure**: a reaction path, a scan, a whole
+  network, or a class ("complexes 1-5"). One file per species, never one
+  file holding several molecules, and constitutional isomers count as
+  different molecules.
+- **the calculation ran on a geometry that is not printed**: a truncated
+  model (tBu to Me or H, Ln to Y), an X-ray structure cited but not
+  reproduced, or a CASSCF re-optimisation where the SI prints only DFT.
+  A printed geometry of a *different* model is not the row's.
+- **extraction damage**: digit runs split by a space, minus signs lost or
+  turned into letters, two structures printed side by side, a block one
+  atom short. The saver refuses the first three; the last is caught only by
+  counting atoms against the compound, or by an odd electron count where
+  the spin state needs an even one.
+
+The parser handles Gaussian's `center / atomic-number / type` columns,
+GAMESS's nuclear-charge column, atomic numbers in place of symbols, Unicode
+hyphens as minus signs, and (in `--range`) a species label printed on the
+first coordinate line. It does not handle element symbols in capitals
+(`FE`, `CR`, `MG`), so such blocks still need skipping.
+
+**Reading blocks turns up row errors.** Composition is the strongest check
+the row's own fields ever get. This pass corrected 21 formulas or names and
+the active space of 9 rows this way, each with the quote in `notes`, and left a further
+list unfixed because it needs the paper read, not just a block counted.
+
 ## Things to never do
 
 - Never fabricate or infer a value the paper doesn't state — empty cell wins.

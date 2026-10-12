@@ -1,0 +1,18 @@
+16
+indole (the indole chromophore, tryptophan model) | VERBATIM coordinates from W2024774535_si_ct200646r_si_001.txt line 316 (SI Table S2 ('Cartesian coordinates ... of the optimized structures for the indole molecule'): '1(gs) min CASPT2//CASSCF(10,9)/ANO-L C,N [4s,3p,1d]/H[2s1p]', the unconstrained ground-state minimum (Et = -362.844589 au); the (1La/1Lb)CI, 1(La)min, 1(Lb)min, (1Lb//gs)CI, 3(La)min and 3(Lb)min structures follow in the same table) | angstrom as printed | NOT a generated structure
+C           -1.81108         -0.94590          0.66315
+C           -2.53058          0.12965          0.23331
+C           -0.38451          0.76293          0.15226
+C           -0.42278         -0.56088          0.61958
+C            0.81757          1.46030         -0.01535
+C            1.99126          0.79583          0.29837
+C            1.97422         -0.53449          0.76939
+C            0.78083         -1.21593          0.93195
+N           -1.67676          1.16391         -0.07640
+H           -1.95453          2.05282         -0.41132
+H            0.83309          2.47325         -0.37395
+H            2.93245          1.30064          0.18125
+H            2.90373         -1.01987          1.00312
+H            0.77508         -2.22905          1.29027
+H           -2.21292         -1.88821          0.97049
+H           -3.58752          0.24446          0.12152

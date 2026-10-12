@@ -1,0 +1,16 @@
+6
+[PoCl5]- | VERBATIM coordinates from W2944551700_si_ic9b00668_si_001.txt line 49 (gas-phase geometrical structure (SI section SII.a)) | angstrom as printed | NOT a generated structure
+Cl          0.000000         2.583288         0.000000
+Cl          0.000000         0.000000         2.614203
+Cl          2.237193        -1.291644         0.000000
+Cl          0.000000         0.000000        -2.614203
+Cl         -2.237193        -1.291644         0.000000
+Po          0.000000         0.000000         0.000000
+6
+[PoCl5]- | VERBATIM coordinates from W2944551700_si_ic9b00668_si_001.txt line 98 (condensed-phase geometrical structure (SI section SII.b)) | angstrom as printed | NOT a generated structure
+Cl             0.000            2.610            0.348
+Cl             0.000            0.000           -2.286
+Cl            -2.610            0.000            0.348
+Cl            -0.000           -2.610            0.348
+Cl             2.610           -0.000            0.348
+Po             0.000            0.000            0.181

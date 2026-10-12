@@ -1,0 +1,15 @@
+13
+5-fluorocytosine (5FC) - singlet excited-state dynamics | VERBATIM coordinates from W1970840181_si_jp045614v_si_001.txt line 89 (SI '5-Fluorocytosine Cartesian Coordinates. Ground-state minimum.' (CASSCF/6-31G* optimized; Gaussian standard orientation); the (SS*)Min, (S2/S1)X, (S1/S0)X, (nNS*)TS, (nNS*)CI and (FC)TS structures follow) | angstrom as printed | NOT a generated structure
+N           0.152017         2.357655        -0.084019
+C          -0.009281         1.007164        -0.024011
+H          -0.661784         2.897176         0.112067
+C           1.186960         0.185143        -0.025589
+N          -0.213751        -1.666363        -0.020530
+C          -1.362329        -0.887365        -0.009328
+C           1.056157        -1.145701        -0.019314
+F           2.375823         0.788680        -0.009552
+N          -1.188408         0.492891        -0.008647
+O          -2.443665        -1.407281         0.002657
+H           1.884271        -1.824841        -0.014718
+H           1.017671         2.742099         0.218382
+H          -0.355341        -2.651325        -0.017399

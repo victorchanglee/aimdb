@@ -1,0 +1,16 @@
+14
+phenyldioxoarsino nitrene (2), the singlet arsinonitrene from o-benzoquinone ars | VERBATIM coordinates from W7134971856_si_ja5c20377_si_001.txt line 392 (SI 'Coordinates and energies', block labelled '(o-phenyldioxyl)arseno nitrile (12)' (singlet 2; extraction prefixed a stray '5-'), B3LYP/Def2-TZVP optimized; 14 atoms C6H4AsNO2 = phenyldioxoarsino nitrene (C6H4O2 + As + N), 96 electrons, closed-shell singlet consistent. The triplet 2 block is labelled '(32)' and '3-AsN' is the AsN-o-quinone complex 3, not used) | angstrom as printed | NOT a generated structure
+C         0.00000000       0.69675100      -0.84004700
+C         0.00000000      -0.69675100      -0.84004700
+C         0.00000000      -1.41201800      -2.02327200
+C         0.00000000      -0.69595200      -3.21850700
+C         0.00000000       0.69595200      -3.21850700
+C         0.00000000       1.41201800      -2.02327200
+H         0.00000000      -2.49302500      -2.00500600
+H         0.00000000      -1.23416000      -4.15697700
+H         0.00000000       1.23416000      -4.15697700
+H         0.00000000       2.49302500      -2.00500600
+O         0.00000000       1.27936500       0.40548100
+O         0.00000000      -1.27936500       0.40548100
+As        0.00000000       0.00000000       1.68606100
+N         0.00000000       0.00000000       3.31116500

@@ -1,0 +1,7 @@
+5
+BrHgNO2 | VERBATIM coordinates from W7125682627_si_jp5c05208_si_001.txt line 245 (SI Table S16 'bond length and angles of the IHgNO2 and BrHgNO2 conformations of the XHgNO2 -> XHgONO-syn reaction ... Geometries are optimized at the CCSD(T) TZ level' (first block, X = Br): the linear Br-Hg-NO2 minimum (Hg-N 2.111 A). Transition states and the XHgONO isomers are in Tables S18-S26.) | angstrom as printed | NOT a generated structure
+Br         -0.000001        -0.000000        -2.183130
+Hg          0.000001         0.000000         0.202861
+N           0.000002         0.000000         2.283113
+O          -0.000001         1.088352         2.845316
+O          -0.000001        -1.088352         2.845316

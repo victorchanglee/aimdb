@@ -1,0 +1,12 @@
+4
+thioformaldehyde (H2CS) | VERBATIM coordinates from W4226357349_si_ct1c01048_si_001.txt line 41 (S0 minimum optimized at SA-CASSCF(12,10)) | angstrom as printed | NOT a generated structure
+S        -0.00001935      -0.00000000       0.61994676
+C         0.00007317       0.00000000      -1.02391928
+H        -0.00002691       0.94165948      -1.61681374
+H        -0.00002691      -0.94165948      -1.61681373
+4
+thioformaldehyde (H2CS) | VERBATIM coordinates from W4226357349_si_ct1c01048_si_001.txt line 46 (S0 minimum optimized at MC-PDFT(12,10)) | angstrom as printed | NOT a generated structure
+S         0.00000001       0.00000000       0.60475156
+C        -0.00000003      -0.00000000      -1.02387855
+H         0.00000001       0.93951028      -1.60923651
+H         0.00000001      -0.93951028      -1.60923651

@@ -1,0 +1,14 @@
+12
+Septet 1-bromo-3,5-dichloro-2,4,6-trinitrenobenzene | VERBATIM coordinates from W2333785497_si_jp508470m_si_001.txt line 21 (SI section 1 'Cartesian coordinates of the optimized geometry of trinitrene S-1': Method UB3LYP/TZVP, Charge 0, Multiplicity 7, Total energy -3886.859109 a.u. (ORCA 3.0.1); the only geometry in the paper, on which the SA-CASSCF(12,12)/CASCI D-tensor calculation was run. Element column printed as atomic numbers (6, 7, 17, 35)) | angstrom as printed | NOT a generated structure
+C       -1.228882876      0.000000000      1.282814983
+C        0.000000000      0.000000000      2.022234475
+N        0.000000000      0.000000000      3.339465732
+C       -1.253050423      0.000000000     -0.151212516
+N       -2.395664087      0.000000000     -0.805838653
+C        1.253050423      0.000000000     -0.151212516
+N        2.395664087      0.000000000     -0.805838653
+C        1.228882876      0.000000000      1.282814983
+C        0.000000000      0.000000000     -0.847079691
+Cl       2.726222120      0.000000000      2.144934237
+Cl      -2.726222120      0.000000000      2.144934237
+Br       0.000000000      0.000000000     -2.730246674

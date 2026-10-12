@@ -1,0 +1,44 @@
+9
+Ozonolysis of chloroethene: transition states TSCl and the primary chloroozonide | VERBATIM coordinates from W2079948504_si_jp025562e_si_002.txt line 144 (syn-TSCl, CASSCF(10,9)/cc-pVTZ optimized) | converted from bohr to angstrom with 1 bohr = 0.529177210903 | NOT a generated structure
+O       1.38502251    -0.83439035    -0.42660519
+O       1.93333755     0.37563218    -0.43885156
+O       0.86214391    -1.03578793     0.77086392
+C       0.28684205     1.49014674     0.08961333
+C      -0.53749646     0.54202183     0.66933669
+H       0.09229321     1.83888865    -0.90235932
+H      -0.67802303     0.46431913     1.72367433
+H       0.87144282     2.11576995     0.73138850
+Cl     -1.83440063    -0.14110983    -0.26192597
+9
+Ozonolysis of chloroethene: transition states TSCl and the primary chloroozonide | VERBATIM coordinates from W2079948504_si_jp025562e_si_002.txt line 157 (anti-TSCl, CASSCF(10,9)/cc-pVTZ optimized) | converted from bohr to angstrom with 1 bohr = 0.529177210903 | NOT a generated structure
+O       1.91994934    -0.47511857     0.17070096
+O       1.74025811     0.52683571    -0.68613266
+O       0.82161395    -1.20661799     0.19204533
+C       0.18148407     1.43593138     0.24397015
+C      -0.56347300     0.35799824     0.68599671
+H      -0.11310542     1.96589508    -0.63704338
+H       0.79168743     1.95899647     0.95159155
+H      -0.57800028     0.04771747     1.70667519
+Cl     -1.92181996    -0.20184578    -0.22946440
+9
+Ozonolysis of chloroethene: transition states TSCl and the primary chloroozonide | VERBATIM coordinates from W2079948504_si_jp025562e_si_002.txt line 170 (syn-POZCl primary chloroozonide, CASSCF(10,9)/cc-pVTZ optimized) | converted from bohr to angstrom with 1 bohr = 0.529177210903 | NOT a generated structure
+O      -0.48475251     1.61322575     0.15357446
+O      -1.34450459     0.90933987     1.08947161
+O       0.78886640     0.93273105     0.39522939
+C      -1.06432898    -0.45369977     0.72580714
+C       0.42397494    -0.43565872     0.37869954
+H      -1.66419211    -0.74953309    -0.11856462
+H      -1.28474401    -1.05859867     1.59063211
+H       1.05895857    -0.92891058     1.08992912
+Cl      0.75009534    -1.19639049    -1.20221838
+9
+Ozonolysis of chloroethene: transition states TSCl and the primary chloroozonide | VERBATIM coordinates from W2079948504_si_jp025562e_si_002.txt line 183 (anti-POZCl primary chloroozonide, CASSCF(10,9)/cc-pVTZ optimized) | converted from bohr to angstrom with 1 bohr = 0.529177210903 | NOT a generated structure
+O       0.69200753     1.65065045    -0.55120488
+O       1.54189579     0.68767839     0.11542252
+O      -0.63973560     0.98330030    -0.57427648
+C       1.14853755    -0.50678791    -0.57024349
+C      -0.35972207    -0.41347673    -0.54567050
+H       1.53852132    -1.34426017    -0.01972280
+H       1.51928911    -0.49083347    -1.58575952
+H      -0.84991213    -0.88501725    -1.37741721
+Cl     -1.06350456    -1.12513249     0.93091451

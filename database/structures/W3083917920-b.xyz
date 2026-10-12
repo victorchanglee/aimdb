@@ -1,0 +1,7 @@
+5
+The fluoroborylene tantalum difluoride molecule FBTaF2, matrix-isolated in solid | VERBATIM coordinates from W3083917920_si_jp0c05132_si_001.txt line 387 (SI p. S10 'The optimized Cartesian coordinates of the F2BTaF, FBTaF2 and BTaF3', block 'FBTaF2'. The level is not stated beside the block; the paper's optimizations are B3LYP/6-311++g(3df,3pd)/SDD (primary), B3LYP/Def2-TZVPP and BPW91 (main-text Figure 4), and the CASSCF(5e,7o) is a single-point bonding probe whose geometry the paper does not restate.) | angstrom as printed | NOT a generated structure
+F        -3.13844500      -0.00006100      -0.04384500
+B        -1.85478600      -0.00005000      -0.00166000
+Ta        0.26271200       0.00000100       0.03014800
+F         1.01908900      -1.75690900      -0.09988300
+F         1.01890300       1.75698900      -0.09988000

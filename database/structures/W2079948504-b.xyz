@@ -1,0 +1,22 @@
+9
+Ozonolysis of ethene: transition state and the primary ozonide POZ (1,2,3-trioxo | VERBATIM coordinates from W2079948504_si_jp025562e_si_002.txt line 49 (TS for O3 + C2H4 addition, CASSCF(10,9)/cc-pVTZ optimized) | converted from bohr to angstrom with 1 bohr = 0.529177210903 | NOT a generated structure
+O      -1.18822995     0.00038699    -0.13441475
+O      -0.50317956     1.07599142    -0.49253146
+O      -0.50437684    -1.07637137    -0.49122430
+C       1.23356786     0.69233036     0.62645087
+C       1.23384285    -0.69234118     0.62636270
+H       0.89214810     1.23470947     1.48468448
+H       1.84226405    -1.23162619    -0.07039541
+H       1.84227708     1.23199869    -0.06974811
+H       0.89298751    -1.23506490     1.48459520
+9
+Ozonolysis of ethene: transition state and the primary ozonide POZ (1,2,3-trioxo | VERBATIM coordinates from W2079948504_si_jp025562e_si_002.txt line 62 (POZ primary ozonide (1,2,3-trioxolane), CASSCF(10,9)/cc-pVTZ optimized) | converted from bohr to angstrom with 1 bohr = 0.529177210903 | NOT a generated structure
+O       0.04009681     1.01905053    -0.53705665
+O      -1.09825616     0.46708353     0.18420267
+O       1.14590591     0.35473414     0.13871186
+C      -0.80993333    -0.94739526     0.13818405
+C       0.71629784    -1.02383402     0.10733541
+H      -1.25600164    -1.38406884    -0.74334442
+H      -1.24743191    -1.37018466     1.02868235
+H       1.14499877    -1.48960174     0.98047589
+H       1.08073521    -1.50096160    -0.79058212

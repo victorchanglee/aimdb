@@ -1,0 +1,14 @@
+12
+5-Bromouracil, benign decay versus photolysis on the excited state surface | VERBATIM coordinates from W2098255597_si_jp811330v_si_001.txt line 439 (SI p. SI8 'Cartesian coordinates of relevant structures' — 'FC Structure': the ground-state Franck-Condon structure of 5-bromouracil from which the CASSCF(12,10)/6-311G* minimum energy paths start (critical points optimized at the CASSCF level, 6-311G* throughout); the remaining blocks are the CAS(8,7) conical intersection and the seam scans along C5-Br and C6-Br) | angstrom as printed | NOT a generated structure
+C           0.000000         0.000000         0.000000
+N           0.000000         0.000000         1.393026
+N           1.280253         0.000000        -0.530377
+C           2.520387         0.000000         0.139797
+C           2.367687         0.000000         1.601476
+C           1.140042         0.000000         2.158851
+O          -1.012793         0.000000        -0.659778
+O           3.558429         0.000000        -0.477993
+H           1.331866         0.000000        -1.540858
+H           0.988397         0.000000         3.230359
+H          -0.911372         0.000000         1.824706
+Br          3.934298         0.000000         2.662710

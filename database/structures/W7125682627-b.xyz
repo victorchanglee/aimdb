@@ -1,0 +1,5 @@
+3
+HgI2 | VERBATIM coordinates from W7125682627_si_jp5c05208_si_001.txt line 38 (SI section 1.2 'XHgX', Table S2 (HgI2 block): CCSD(T)/ma-def2-TZVP(ECP) optimized minimum, Hg-I 2.578891 A; the sample ORCA CASSCF scan input and first scan frame in SI section 3.0.1 (lines 828-895) use exactly this geometry. The CASSCF/CASPT2 work is the I-Hg dissociation scan of Table S34.) | angstrom as printed | NOT a generated structure
+Hg          0.000000         0.000000         0.000000
+I           0.000000         0.000000        -2.578891
+I           0.000000         0.000000         2.578891

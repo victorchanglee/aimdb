@@ -1,0 +1,22 @@
+20
+BODIPY/aza-BODIPY benchmark compound 2 | VERBATIM coordinates from W2421993078_si_ct500775r_si_001.txt line 569 (SI Table S4 'Gas phase ground state PBE0/cc-pVTZ determined xyz coordinates', block labelled '2 (C2v)'; main text: 'PBE0 geometries for the GS are used for the rest of the computations' (CASSCF/CASPT2 vertical excitations). Composition C8H6BF2N3, 20 atoms; aza-BODIPY. Tables S5/S6 hold CAM-B3LYP S0/S1 structures, not used.) | angstrom as printed | NOT a generated structure
+C         0.00000000       3.31306400       0.55165902
+C         0.00000000       2.51562600      -0.61285498
+N         0.00000000       1.22712700      -0.29787898
+C         0.00000000       1.13442200       1.08806802
+C         0.00000000       2.44931400       1.62027402
+C         0.00000000      -1.13442200       1.08806802
+N         0.00000000      -1.22712700      -0.29787898
+C         0.00000000      -2.51562600      -0.61285498
+C         0.00000000      -3.31306400       0.55165902
+C         0.00000000      -2.44931400       1.62027402
+H         0.00000000       4.39055900       0.57118202
+H         0.00000000       2.83104000      -1.64586598
+H         0.00000000       2.67864700       2.67365902
+H         0.00000000      -2.83104000      -1.64586598
+H         0.00000000      -4.39055900       0.57118202
+H         0.00000000      -2.67864700       2.67365902
+B         0.00000000       0.00000000      -1.26873698
+F        -1.13724800       0.00000000      -2.03995598
+F         1.13724800       0.00000000      -2.03995598
+N         0.00000000       0.00000000       1.75278502

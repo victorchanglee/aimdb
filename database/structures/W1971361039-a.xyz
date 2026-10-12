@@ -1,0 +1,13 @@
+11
+bicyclo[2.1.0]pent-2-ene | VERBATIM coordinates from W1971361039_si_jp036792b_si_001.txt line 256 (SI block 'bcp, CAS44/6-31G(d) Optimized Structure' (Gaussian standard orientation); the CAS88, B3LYP and BPW91 structures of the same molecule are printed alongside) | angstrom as printed | NOT a generated structure
+C          -1.273615         0.506216         0.000000
+C          -0.358984        -0.407615         0.770934
+C          -0.358984        -0.407615        -0.770934
+C           1.064307         0.109193         0.674102
+C           1.064307         0.109193        -0.674102
+H          -1.095033         1.568897         0.000000
+H          -2.318253         0.234247         0.000000
+H          -0.722728        -1.179809         1.423027
+H          -0.722728        -1.179809        -1.423027
+H           1.720678         0.530321         1.413098
+H           1.720678         0.530321        -1.413098

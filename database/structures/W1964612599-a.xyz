@@ -1,0 +1,23 @@
+21
+anionic GFP fluorophore 2,3-demethyl model 3 | VERBATIM coordinates from W1964612599_si_ja037278m_si_001.txt line 9 (SI block 'FC geometry': the CASSCF-optimized ground-state (Franck-Condon) structure of GFP fluorophore model 3 (Gaussian standard orientation); the FS, TI1, TI2, CI and FS->TI2 TS geometries follow in the same SI) | angstrom as printed | NOT a generated structure
+C          -0.014650        -0.001209         0.031775
+C           0.002027         0.000096         1.393331
+C           1.247831         0.001284         2.161440
+C           2.460343         0.000452         1.357559
+C           2.411884        -0.000789         0.005814
+C           1.198188        -0.001577        -0.744418
+H          -0.952852        -0.001937        -0.490097
+H          -0.914535         0.000468         1.959220
+O           1.259043         0.003061         3.391930
+H           3.400168         0.001045         1.883165
+H           3.340721        -0.001314        -0.545168
+C           1.263769        -0.001598        -2.147565
+C           0.616299         0.000335        -4.558592
+C          -1.597987         0.000018        -4.153399
+H          -2.646082         0.000357        -4.381109
+C           0.301798        -0.001571        -3.136268
+H           2.262578        -0.001486        -2.556424
+O           1.667072         0.001469        -5.168609
+N          -1.099040        -0.001812        -2.973606
+N          -0.640114         0.001593        -5.154465
+H          -0.791424         0.003115        -6.134628

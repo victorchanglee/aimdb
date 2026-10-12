@@ -1,0 +1,5 @@
+3
+O3 (ozone) | VERBATIM coordinates from W2008614988_si_jp066211t_si_001.txt line 236 (SI Table S7, section CASSCF/6-311+G(2df,2p), entry 'O3 (12,9)': ozone optimized at CASSCF(12,9)/6-311+G(2df,2p) (label split across two lines in the text as 'O' / '3 (12,9)')) | angstrom as printed | NOT a generated structure
+O           0.000000         0.000000         0.445688
+O           0.000000         1.090723        -0.222844
+O           0.000000        -1.090723        -0.222844

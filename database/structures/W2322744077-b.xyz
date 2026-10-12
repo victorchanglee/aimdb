@@ -1,0 +1,16 @@
+14
+Transition state connecting the triene conformers 10b and 10c | VERBATIM coordinates from W2322744077_si_jp3000575_si_001.txt line 675 (SI Table S36: '10b/10c at (6e,6o)CASSCF/6-311G(d,p) level' - the CASSCF-optimized transition state between triene conformers 10b and 10c (energies in Table S3); Table S35 holds the B3LYP/6-311G(d,p) version.) | angstrom as printed | NOT a generated structure
+C          -2.734817         0.441352         0.011464
+C          -1.495312        -0.032185        -0.399565
+C          -0.503388        -0.496350         0.459478
+C           0.806744        -1.014559         0.000094
+C           1.956630        -0.241084        -0.150878
+C           2.055063         1.126313         0.072361
+H          -3.002814         0.472241         1.052700
+H          -3.460585         0.789699        -0.699065
+H          -0.699860        -0.499215         1.520825
+H           0.880051        -2.071716        -0.196989
+H          -1.283270        -0.038476        -1.457171
+H           2.847411        -0.756947        -0.471905
+H           2.987936         1.639138        -0.069626
+H           1.209678         1.709103         0.387576

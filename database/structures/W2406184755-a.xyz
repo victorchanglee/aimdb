@@ -1,0 +1,16 @@
+6
+Methylenecerium difluoride, CH2CeF2 | VERBATIM coordinates from W2406184755_si_jp6b03770_si_001.txt line 160 (SI Table S11: HF/RS2C (singlet) optimized geometry of CH2CeF2, VTZ basis - the structure the CASSCF(2,8)/CASSCF(2,2)/RS2C energies of main-text Tables 1-2 were computed on ('Optimized HF/RS2C structures were used')) | angstrom as printed | NOT a generated structure
+Ce      0.5552539005     0.9700581373     0.5641559758
+C       0.3044013973     0.4718099884     2.5175414565
+H      -0.3769349050     0.1763777034     3.3106758127
+H       1.3737547369     0.3540044328     2.7693210615
+F      -1.1349484932     0.5844094402    -0.5555918865
+F       2.4668033636     0.4121402980     0.0120275800
+6
+Methylenecerium difluoride, CH2CeF2 | VERBATIM coordinates from W2406184755_si_jp6b03770_si_001.txt line 212 (SI Table S15: CASSCF(2,2) (singlet) optimized geometry of CH2CeF2, VTZ basis) | angstrom as printed | NOT a generated structure
+Ce      0.6064230043     0.7114089202     0.3169819353
+C       0.4432840538     0.3768828750     2.7795930859
+H      -0.4710981562     0.2987339142     3.3630876842
+H       1.2736090150     0.2702640104     3.4737834769
+F      -1.2062032742     0.6862321779    -0.7779048388
+F       2.5423153574     0.6252781023    -0.5374113435

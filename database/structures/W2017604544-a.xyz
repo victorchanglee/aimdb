@@ -1,0 +1,16 @@
+14
+PSB3 minimal model (A), penta-2,4-dieniminium cation | VERBATIM coordinates from W2017604544_si_ct900692y_si_001.txt line 319 (SI Table 3: 'DFT/B3LYP ground-state coordinates (A) of the PSB3(0) model (A) optimized in Cs symmetry'; main text: the vertical excitation energies use 'the ground-state DFT/B3LYP geometries optimized with the cc-pVDZ basis'. Tables 4-6 hold the CASSCF(6,6), CASPT2(6,6) and MP2 ground-state geometries and Tables 8-12 the excited-state ones) | angstrom as printed | NOT a generated structure
+N           2.784449         1.279493         0.000000
+C           1.472064         1.224451         0.000000
+C           0.732807         0.023127         0.000000
+C          -0.645887        -0.026363         0.000000
+C          -1.582911         1.060776         0.000000
+C          -2.914940         0.825041         0.000000
+H           1.286967        -0.918872         0.000000
+H          -1.088337        -1.028178         0.000000
+H           0.965568         2.193042         0.000000
+H          -1.225111         2.093478         0.000000
+H          -3.315381        -0.192738         0.000000
+H          -3.636585         1.644221         0.000000
+H           3.355101         0.435254         0.000000
+H           3.277372         2.168853         0.000000

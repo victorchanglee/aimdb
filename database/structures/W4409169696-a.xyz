@@ -1,0 +1,24 @@
+22
+decapentane (linear polyene) - active-space scaling benchmark for approximate fo | VERBATIM coordinates from W4409169696_si_ct4c01735_si_001.txt line 1084 (SI Listing S4 'Calculation of decapentane molecule with CAS(10,10) active space for a single iteration of MRCEPA(0)': the ORCA input '* xyz 0 1' geometry (22 atoms C10H12, decapentaene); how this geometry was obtained is not stated in the paper) | angstrom as printed | NOT a generated structure
+C             -8.991           -0.867           -0.125
+C             -7.878           -0.152            0.082
+H             -9.362           -1.562            0.617
+H             -9.560           -0.776           -1.041
+C             -7.074           -0.223            1.276
+H             -7.539            0.534           -0.687
+C             -5.951            0.499            1.477
+H             -7.405           -0.907            2.053
+C             -5.145            0.432            2.660
+H             -5.624            1.181            0.697
+C             -4.020            1.156            2.858
+H             -5.471           -0.249            3.441
+C             -3.215            1.090            4.041
+H             -3.694            1.838            2.077
+C             -2.092            1.813            4.242
+H             -3.542            0.407            4.821
+C             -1.288            1.742            5.436
+H             -1.761            2.497            3.465
+C             -0.175            2.456            5.644
+H             -1.627            1.054            6.206
+H              0.195            3.152            4.901
+H              0.393            2.366            6.560

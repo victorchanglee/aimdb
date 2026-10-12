@@ -1,0 +1,23 @@
+21
+2-(Thiazolo[5,4-d]thiazol-2-yl)phenol | VERBATIM coordinates from W2788710974_si_jp7b09593_si_001.txt line 531 (SI Table S1, block 'ptztz (CI)': the S1/S0 conical intersection optimized at CASSCF(6,6)/cc-pVDZ (SI: 'The xyz coordinate of the guessed CI structure has been presented based on the CASSCF optimized geometries'); a crossing point, not a minimum. The other Table S1 blocks are MP2/cc-pVDZ minima. 21 atoms, C10H6N2OS2 = 2-(thiazolo[5,4-d]thiazol-2-yl)phenol) | angstrom as printed | NOT a generated structure
+C           -0.57006         -0.91774         -2.34479
+C            0.37044          0.03223         -1.80445
+C            0.18815          0.04831         -0.36425
+N            0.78088         -0.68815          0.55879
+H            1.46024         -1.37062          0.29237
+O           -1.27270         -1.64053         -1.58641
+H           -1.26720         -1.63582         -4.27059
+C           -0.61729         -0.92409         -3.79384
+C            0.11179         -0.03979         -4.52010
+H            0.03945         -0.06828         -5.59474
+H            1.51172          1.62410         -4.54955
+C            0.96164          0.94014         -3.93082
+C            1.05934          0.98471         -2.57267
+H            1.68419          1.71925         -2.09141
+S           -0.59079          1.40572          0.37945
+C            0.37190         -0.41556          1.85200
+C           -0.40914          0.67618          1.93984
+N           -0.76751          1.08412          3.19117
+S            0.73725         -0.99331          3.43533
+H           -0.58443          0.27197          5.08657
+C           -0.41665          0.19297          4.03054

@@ -1,0 +1,7 @@
+5
+CH4 - methane - the largest of the hydrides tested, and the second confirmation  | VERBATIM coordinates from W7138943561_si_ct5c01951_si_001.txt line 26 (SI section A 'Coordinates of optimized structures', A.4 'Methane'; MP2/6-31G optimization in Gaussian 16 per the row's geometry_source) | angstrom as printed | NOT a generated structure
+C           0.000000         0.000000         0.000000
+H           0.632771         0.632771         0.632771
+H          -0.632771        -0.632771         0.632771
+H          -0.632771         0.632771        -0.632771
+H           0.632771        -0.632771        -0.632771

@@ -1,0 +1,44 @@
+9
+Ozonolysis of fluoroethene: transition states TSF and the primary fluoroozonide  | VERBATIM coordinates from W2079948504_si_jp025562e_si_002.txt line 75 (syn-TSF, CASSCF(10,9)/cc-pVTZ optimized) | converted from bohr to angstrom with 1 bohr = 0.529177210903 | NOT a generated structure
+O      -1.34354978     0.13853470    -0.41207273
+O      -0.90006769     1.38123083    -0.41428732
+O      -0.47948349    -0.61470612    -1.08519776
+C       1.04255786     0.95165501     0.44121356
+C       1.09691537    -0.40236388     0.19881390
+H       0.75242932     1.31005302     1.40641069
+H       1.53827736     1.61970938    -0.22925706
+H       1.74329167    -0.85978081    -0.51808807
+F       0.72724610    -1.21873511     1.17013241
+9
+Ozonolysis of fluoroethene: transition states TSF and the primary fluoroozonide  | VERBATIM coordinates from W2079948504_si_jp025562e_si_002.txt line 88 (anti-TSF, CASSCF(10,9)/cc-pVTZ optimized) | converted from bohr to angstrom with 1 bohr = 0.529177210903 | NOT a generated structure
+O       1.55309157    -0.34149068     0.25933012
+O       1.39275637     0.67995619    -0.56348693
+O       0.52254411    -1.16357325     0.11744863
+C      -0.46998645     1.33811174     0.23470582
+C      -1.04671054     0.11581627     0.49414544
+H      -0.71756888     1.86138388    -0.66479393
+H      -0.02914439     1.88720596     1.03924847
+H      -1.19310787    -0.27804690     1.47666592
+F      -1.85917003    -0.40778760    -0.40137275
+9
+Ozonolysis of fluoroethene: transition states TSF and the primary fluoroozonide  | VERBATIM coordinates from W2079948504_si_jp025562e_si_002.txt line 103 (syn-POZF primary fluoroozonide, CASSCF(10,9)/cc-pVTZ optimized) | converted from bohr to angstrom with 1 bohr = 0.529177210903 | NOT a generated structure
+O      -0.19386289     1.34542004    -0.29807273
+O      -1.36191145     0.73678121     0.31854884
+O       0.88163140     0.65077087     0.41824496
+C      -1.02980322    -0.66097339     0.21696532
+C       0.48995345    -0.69574934     0.31491076
+H      -1.34733525    -1.06346028    -0.73285245
+H      -1.52499482    -1.15651157     1.03612802
+H       0.89462639    -1.19892523     1.17701762
+F       1.01346598    -1.26259687    -0.78383935
+9
+Ozonolysis of fluoroethene: transition states TSF and the primary fluoroozonide  | VERBATIM coordinates from W2079948504_si_jp025562e_si_002.txt line 116 (anti-POZF primary fluoroozonide, CASSCF(10,9)/cc-pVTZ optimized) | converted from bohr to angstrom with 1 bohr = 0.529177210903 | NOT a generated structure
+O       0.32778952     1.43319392    -0.38248681
+O       1.33275179     0.49321554     0.07463559
+O      -0.95942050     0.68812161    -0.23914466
+C       0.85718586    -0.71464928    -0.53655624
+C      -0.60614494    -0.67941478    -0.19091879
+H       1.37188533    -1.53825017    -0.07123610
+H       1.02059184    -0.69015455    -1.60433833
+H      -1.25878800    -1.21946899    -0.85753122
+F      -0.80898474    -1.13775723     1.05439286

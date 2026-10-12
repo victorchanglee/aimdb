@@ -1,0 +1,14 @@
+12
+Cyclopentenone (2-cyclopenten-1-one) | VERBATIM coordinates from W2030517289_si_jo015865p_si_001.txt line 7 (SI 'Cyclopentenone', block 'A: S0 planar minimum' (E= -267.74181 a.u.); main text: all critical points optimized at CASSCF/6-31G* and confirmed as minima by analytical frequencies. Blocks B, C, G, I are the triplet minima and crossings) | angstrom as printed | NOT a generated structure
+O           -.113004          .346038         -.335631
+C           -.161356          .559812          .848639
+C            .987301          .815586         1.749699
+C            .553053         1.011109         3.003467
+C           -.952686          .914876         3.129013
+C          -1.431364          .613578         1.693856
+H          -1.955760         -.331989         1.617755
+H           2.003489          .832927         1.405786
+H          -1.233464          .132780         3.827519
+H           1.182279         1.216131         3.850163
+H          -2.092118         1.379241         1.303949
+H          -1.368744         1.840636         3.514097

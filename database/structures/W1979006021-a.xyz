@@ -1,0 +1,18 @@
+16
+9H-guanine (9H,1H-2-amino-6-oxopurine) | VERBATIM coordinates from W1979006021_si_ja0744450_si_002.txt line 154 (SI Table S1 'Cartesian coordinates (A) of the CASSCF optimized structures obtained in the paper. 6-31G(d,p) basis set', block '9H-guanine (gs) min : -539.519315 au': ground-state minimum at CASSCF(14,12)/6-31G(d,p) on which the CASPT2//CASSCF energies are computed; the excited-state minima, TS and CIs follow) | angstrom as printed | NOT a generated structure
+C          -2.249501        -0.784664        -0.094871
+C          -0.045112        -0.683692         0.028750
+C           0.034127         0.683348         0.015119
+C          -1.189236         1.451290        -0.078768
+C           2.029485        -0.006620         0.131209
+O          -1.350561         2.640282        -0.127447
+N          -2.295962         0.583407        -0.127188
+N          -1.164417        -1.469435        -0.007377
+N           1.346052         1.094878         0.078927
+N           1.236650        -1.125486         0.105290
+N          -3.471138        -1.416375        -0.206585
+H          -3.170856         1.029541        -0.294397
+H          -4.211325        -1.013697         0.325984
+H          -3.395804        -2.400279        -0.069407
+H           1.528232        -2.074062         0.132866
+H           3.096025        -0.072016         0.187895

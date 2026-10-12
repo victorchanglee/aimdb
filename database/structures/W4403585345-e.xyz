@@ -1,0 +1,12 @@
+10
+Li9Cl, gas-phase complex of a chlorine with a cluster of 9 lithium atoms | VERBATIM coordinates from W4403585345_si_jp4c04843_si_001.txt line 879 (SI p. S-12/S-14, block 'Li9Cl': lithium cluster optimized at HF/cc-pVDZ starting from the published structure, chlorine placed on the line through the cluster centre and the outermost lithium at the separation that gives the minimum energy of the cCASSCF(2,2) scan (nearest Li-Cl 4 bohr); SI states 'the following geometries are in units of Bohr', converted to angstrom) | converted from bohr to angstrom with 1 bohr = 0.529177210903 | NOT a generated structure
+Li     -1.47492887    -0.00000000    -2.34629452
+Li     -0.00000000     0.00000000     0.00000000
+Li      1.47492887    -1.65908075    -1.65908076
+Li      1.47492887    -1.65908075     1.65908076
+Li      1.47492887     1.65908075    -1.65908076
+Li      1.47492887     1.65908075     1.65908076
+Li     -1.47492887     2.34629449    -0.00000000
+Li     -1.47492887    -2.34629449     0.00000000
+Li     -1.47492887     0.00000000     2.34629452
+Cl     -2.60144413     0.00000000    -4.13833796

@@ -1,0 +1,27 @@
+25
+PSB5(1) model (D), C10H12NH2+ | VERBATIM coordinates from W2017604544_si_ct900692y_si_001.txt line 943 (SI Table 31: 'DFT/B3LYP ground-state coordinates (A) of the PSB5(1) model (D) optimized in Cs symmetry'; main text: the vertical excitation energies use 'the ground-state DFT/B3LYP geometries optimized with the cc-pVDZ basis'. Table 39 is the same model optimized in C1 symmetry; Tables 32-34 hold CASSCF(10,10)/MP2/CASPT2(10,10) ground-state and Tables 35-38 excited-state structures) | angstrom as printed | NOT a generated structure
+H           0.946958        -1.240126         0.887292
+H           0.946958        -1.240126        -0.887292
+H          -5.220377        -3.628700         0.000000
+H          -2.098590         1.450144         0.000000
+H          -0.984920        -1.450768         0.000000
+H          -0.006924         2.387827         0.000000
+H          -3.783775        -0.162176         0.000000
+H          -2.805385        -3.131719         0.000000
+H           2.203323         2.621213         0.000000
+H          -5.611027        -1.804001         0.000000
+H           3.973806         0.058745         0.000000
+H           5.718847         1.580627         0.000000
+H           4.653921         2.944154         0.000000
+H           2.477141        -1.139608         0.000000
+N           4.769710         1.933820         0.000000
+C           3.720539         1.119754         0.000000
+C           2.391496         1.542746         0.000000
+C           1.276201         0.686688         0.000000
+C          -0.013942         1.294239         0.000000
+C          -1.278044         0.722613         0.000000
+C          -1.706710        -0.636374         0.000000
+C          -3.038946        -0.967186         0.000000
+C          -3.537623        -2.317997         0.000000
+C          -4.859419        -2.597926         0.000000
+C           1.434146        -0.807616         0.000000

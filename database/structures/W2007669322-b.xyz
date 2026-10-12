@@ -1,0 +1,4 @@
+2
+FeO+ (iron oxide cation) | VERBATIM coordinates from W2007669322_si_ct500522d_si_001.txt lines 1147-1149 (SI Table S13 'Optimized Cartesian coordinates (A) of all stationary points', section 'A. B3LYP/TZVPP geometries', block '6FeO+' (sextet ground state, Fe-O 1.633 A): the paper computes its single-point CASSCF/CASPT2 energies at the optimized B3LYP/TZVPP geometries (the 4FeO+ quartet, BP86/BHLYP/TPSS and CASSCF/TZVPP geometries are also printed)) | angstrom as printed | NOT a generated structure
+Fe      0.0000000000     0.0000000000     0.0000000000
+O       0.0000000000     0.0000000000     1.6332936501

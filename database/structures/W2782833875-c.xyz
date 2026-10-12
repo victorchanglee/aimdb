@@ -1,0 +1,17 @@
+15
+1,3-Di(methyl)imidazol-2-ylidene, a persistent N-heterocyclic carbene | VERBATIM coordinates from W2782833875_si_ct7b01144_si_001.txt line 434 (SI TABLE XIII 'Geometry of NHC-Me carbene (in A) and host atoms': the fixed geometry on which the vertical singlet-triplet CASSCF/embedded icMRCCSD calculations were run. Neither main text nor SI states how this geometry was obtained.) | angstrom as printed | NOT a generated structure
+C        0.675774730      0.000000000     -1.210051939
+C       -0.675774730      0.000000000     -1.210051939
+N        1.060791104      0.000000000      0.122531725
+N       -1.060791104      0.000000000      0.122531725
+C        0.000000000      0.000000000      0.979450620
+C       -2.439779512      0.000000000      0.573362331
+C        2.439779512      0.000000000      0.573362331
+H       -1.375421557      0.000000000     -2.027325065
+H        1.375421557      0.000000000     -2.027325065
+H       -2.966286279     -0.884008660      0.208526626
+H        2.966286279     -0.884008660      0.208526626
+H       -2.966286279      0.884008660      0.208526626
+H        2.966286279      0.884008660      0.208526626
+H       -2.434928275      0.000000000      1.658809487
+H        2.434928275      0.000000000      1.658809487

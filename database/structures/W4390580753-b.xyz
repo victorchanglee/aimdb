@@ -1,0 +1,10 @@
+8
+cyclopropanone | VERBATIM coordinates from W4390580753_si_ct3c01008_si_001.txt line 598 (SI section S5 'Cyclopropanone SA-CASSCF(8,7)', S5.2 'Coordinates of the optimised MECI structure', Table S7 'Cyclopropanone asymmetrical MECI coordinates [A]': the S0-S1 asymmetrical minimum-energy conical intersection optimised at SA-CASSCF(8,7), the structure the (8,7) seam analysis is carried out at; no ground-state minimum is printed.) | angstrom as printed | NOT a generated structure
+C      -0.8340130958    -1.3368426334    -0.0137594790
+C       0.5943371242    -0.9066235834     0.0561765610
+H      -1.3855426158    -1.1561763634    -0.9137961790
+H      -1.3756257158    -1.4851141134     0.8979695910
+H       1.1659498342    -1.0438184634    -0.8507823590
+H       1.1368920642    -1.2946916434     0.9025500810
+C       0.2254462942     0.5357318066     0.2473623310
+O       0.0395561042     1.5957114566    -0.2198007490

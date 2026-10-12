@@ -1,0 +1,17 @@
+15
+4-thiothymine | VERBATIM coordinates from W2483570261_si_jp6b05110_si_001.txt lines 185-199 (SI Table S3 '4tThy', first of four sequential structures (S0, S1 water, T1 water, S1 gas): S0 minimum optimized with B97XD (as printed)/6-311++g(2d,p), the 'Opt S0' geometry of the MS-CASPT2 vertical excitations; 15 atoms C5H6N2OS) | angstrom as printed | NOT a generated structure
+C          -3.221247        -0.479439         0.397321
+C          -1.073380         0.682283         0.050111
+C          -1.790402         1.901766        -0.209565
+C          -3.140215         1.856553        -0.150509
+H          -3.752045         2.729745        -0.333679
+C          -1.065961         3.170711        -0.533049
+H          -0.386627         3.448892         0.275140
+H          -0.464721         3.056136        -1.437325
+H          -1.775177         3.983945        -0.687925
+N          -3.830194         0.718764         0.140470
+H          -4.838448         0.728793         0.173463
+N          -1.846007        -0.413492         0.333642
+H          -1.365007        -1.283411         0.520008
+S           0.588128         0.528671         0.030053
+O          -3.820621        -1.503284         0.655834

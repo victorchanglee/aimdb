@@ -1,0 +1,10 @@
+8
+oxyallyl (OXA), from the reaction of O- with acetone - lowest singlet 1A1 state | VERBATIM coordinates from W2113553389_si_jp111311k_si_001.txt line 474 (SI 'Oxyallyl Diradical 1A1 (4/4)CASSCF/cc-pVTZ C2v Geometry': the 1A1 OXA equilibrium geometry, the level the paper states for the (4/4)CASPT2/aug-cc-pVTZ//(4/4)CASSCF/cc-pVTZ energies; the SI also prints a (4/4)CASSCF/aug-cc-pVTZ re-optimization, the 3B2 and 1B2 states, cyclopropanone, the ring-closure TS and the 2A2 radical anion) | angstrom as printed | NOT a generated structure
+C           0.000000         0.000000         0.144722
+C           0.000000         1.223571        -0.655522
+C           0.000000        -1.223571        -0.655522
+H           0.000000         1.186576        -1.724920
+H           0.000000        -1.186576        -1.724920
+H           0.000000         2.174860        -0.162772
+H           0.000000        -2.174860        -0.162772
+O           0.000000         0.000000         1.350914

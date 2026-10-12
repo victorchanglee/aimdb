@@ -1,0 +1,13 @@
+11
+tricyclo[2.1.0.0(2,5)]pentane | VERBATIM coordinates from W1971361039_si_jp036792b_si_001.txt line 353 (SI block 'tcp, CAS88/6-31G(d) Optimized Structure' (Gaussian standard orientation); CAS44 (C2 and Cs), B3LYP and BPW91 structures are printed alongside) | angstrom as printed | NOT a generated structure
+C           0.000004        -0.000013         1.283728
+C           0.985023        -0.000003         0.115193
+C          -0.985057        -0.000002         0.115197
+H           0.000000         0.891905         1.903582
+H          -0.000001        -0.891866         1.903581
+C           0.000005        -0.716997        -0.838973
+C           0.000005         0.716969        -0.838929
+H           2.058434        -0.000006         0.070561
+H          -2.058416        -0.000007         0.070565
+H           0.000001         1.510180        -1.554871
+H           0.000001        -1.510161        -1.554883

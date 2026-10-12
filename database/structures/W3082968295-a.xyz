@@ -1,0 +1,18 @@
+16
+Tricyclo[4,2,0,0(2,5)]octa-3,7-diene, the paper's compound 1, a candidate cubane | VERBATIM coordinates from W3082968295_si_jp0c05280_si_001.txt line 224 (SI 'Coordinates of optimized geometries', block '1, 1-FC (optimized at SA(5)-CASSCF/ANO-S-VDZP level of theory)': the S0 minimum of compound 1 optimized at SA(5)-CASSCF(8,7)/ANO-S-VDZP (main text: '1-S1-FC shares the same geometry and active space of 1-S0 optimized at the SA(5)-CASSCF(8,7)/ANO-S-VDZP level'), on which the CASPT2(8,7) and XMS-CASPT2(8,7) vertical energies of Table 1 were computed. The 1-S1-n interpolation points, the two MECPs, 2 (PBE0) and 3 are not included.) | angstrom as printed | NOT a generated structure
+C        -2.92245598       7.86851135      -0.07511202
+C        -1.59470423       8.40335792       0.57150560
+C        -3.74499676       8.36531939       1.20291002
+C        -0.87410032       7.50216030       1.54945350
+C        -2.41723970       8.90016143       1.84952628
+C        -1.56188470       7.91759122       2.61812365
+H        -2.42451706       9.94495037       2.14969726
+H        -3.14506533       8.23791951      -1.07297096
+H        -1.01730835       9.09501020      -0.03674651
+H        -4.55226657       9.08785354       1.11346931
+H        -0.12436005       6.73318782       1.41373558
+H        -1.56630399       7.60419261       3.65427531
+C        -3.39356593       6.48728050       0.32247269
+H        -3.17819494       5.50306480      -0.07348597
+C        -4.08135447       6.90270629       1.39114736
+H        -4.62014609       6.37402722       2.16706649

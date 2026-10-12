@@ -1,0 +1,14 @@
+12
+benzene | VERBATIM coordinates from W4390580753_si_ct3c01008_si_001.txt line 737 (SI section S6 'Benzene SA-CASSCF(6,6)', S6.2 'Coordinates of the optimised MECI structure', Table S9 'Benzene MECI coordinates [A]': the minimum-energy conical intersection optimised at SA-CASSCF(6,6), the structure the (6,6) seam analysis uses. Table S11 (line 925) is the TDDFT CI of benzene and is not this row's.) | angstrom as printed | NOT a generated structure
+C        -0.52582464       0.87745184      -0.25432425
+C         0.87784350       0.82110120       0.09165650
+C         1.54037646       2.00764117       0.31322109
+C         0.72561915       3.02853721      -0.31751012
+C        -0.56736543       3.23371664       0.30697955
+C        -1.27023792       2.07058001       0.08541530
+H        -1.04084989      -0.00946504      -0.56039168
+H         1.37639033      -0.12877557       0.15907937
+H         2.54546835       2.12934551       0.65819835
+H         0.97179790       3.44676202      -1.28432998
+H        -0.95999075       4.16845909       0.64776802
+H        -2.34266210       2.03451424       0.14832684

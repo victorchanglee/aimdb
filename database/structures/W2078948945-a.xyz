@@ -1,0 +1,22 @@
+20
+1,2-Bis(3-thienyl)ethene (mod-DAE), model diarylethene for the photochromic cycl | VERBATIM coordinates from W2078948945_si_ja711173z_si_001.txt lines 978-998 (SI p. S19 'mod-DAE (CAS-SCF(10,10)/6-31G*)', block 'Ogs' = open-ring isomer on the ground state (20 atoms, C10H8S2, matches 1,2-bis(3-thienyl)ethene); closed-ring, TS and T1 points follow in the same section) | angstrom as printed | NOT a generated structure
+C           -.009627          .673316         1.987797
+C            .019239         1.606238          .839120
+C            .807765         1.506272         -.266476
+C           -.780929         2.817522          .809531
+C           -.581243         3.560884         -.305940
+S            .593715         2.836497        -1.366305
+H           -.037302         1.155113         2.951549
+H           1.503756          .726896         -.496880
+H          -1.466861         3.089195         1.590251
+H          -1.051954         4.486076         -.568231
+C            .009627         -.673316         1.987797
+C           -.019239        -1.606238          .839120
+C           -.807765        -1.506272         -.266476
+C            .780929        -2.817522          .809531
+C            .581243        -3.560884         -.305940
+S           -.593715        -2.836497        -1.366305
+H            .037302        -1.155113         2.951549
+H          -1.503756         -.726896         -.496880
+H           1.466861        -3.089195         1.590251
+H           1.051954        -4.486076         -.568231

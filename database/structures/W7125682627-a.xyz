@@ -1,0 +1,5 @@
+3
+HgBr2 | VERBATIM coordinates from W7125682627_si_jp5c05208_si_001.txt line 34 (SI section 1.2 'XHgX', Table S2 (HgBr2 block): CCSD(T)/ma-def2-TZVP(ECP) optimized minimum, Hg-Br 2.393 A. The CASSCF/CASPT2 work on this molecule is a Hg-Br dissociation scan plus single points and frequencies along it (SI Table S35, section 3.0.1), which starts from this CCSD(T) minimum.) | angstrom as printed | NOT a generated structure
+Hg          0.000000         0.000000         0.000000
+Br          0.000000         0.000000        -2.393365
+Br          0.000000         0.000000         2.393365

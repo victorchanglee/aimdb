@@ -1,0 +1,10 @@
+8
+Oxyallyl (OXA) — singlet-triplet gap | VERBATIM coordinates from W2032918704_si_jp807183m_si_001.txt line 245 (SI FIG S6 'Geometries of oxyallyl (optimized at CASSCF(4,4)/6-31G*)', block '3B2' - the triplet ground state only; the 1A1 singlet block of the same figure is unusable in the local text (digit runs split by spaces)) | angstrom as printed | NOT a generated structure
+C         0.00000000       0.00000000       0.07467122
+O         0.00000000       0.00000000       1.32512232
+C        -0.00000000       1.25631838      -0.62749538
+H        -0.00000000       2.16569703      -0.06069210
+H         0.00000000       1.30682477      -1.69883858
+C        -0.00000000      -1.25631838      -0.62749538
+H        -0.00000000      -2.16569703      -0.06069210
+H        -0.00000000      -1.30682477      -1.69883858

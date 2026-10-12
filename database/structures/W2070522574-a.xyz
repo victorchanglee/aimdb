@@ -1,0 +1,17 @@
+15
+Adenine — 1La, 1Lb and 1(n-pi*) excited states and low-energy deactivation chann | VERBATIM coordinates from W2070522574_si_ja902311y_si_001.txt line 13 (SI 'Cartesian coordinates of all the structures discussed in the text', block 'Min S0': CASSCF/6-31+G** optimized ground-state minimum, the Franck-Condon point at which the vertical 1La, 1Lb and 1(n-pi*) excitations are computed) | angstrom as printed | NOT a generated structure
+N           1.928548         0.529428         0.005387
+C           1.273526         1.700540         0.005490
+N          -0.032203         1.905474        -0.000058
+C          -0.716350         0.763166        -0.003110
+C          -0.173262        -0.510457        -0.005523
+C           1.229126        -0.594820        -0.006138
+N          -1.169099        -1.470502         0.001104
+C          -2.269018        -0.783781         0.004138
+N          -2.068584         0.573251         0.000700
+H          -2.763749         1.283629         0.000883
+H          -3.253267        -1.203765         0.009202
+H           1.894425         2.576355         0.013118
+N           1.887821        -1.786706        -0.064245
+H           1.383178        -2.597488         0.216598
+H           2.849912        -1.763234         0.190852

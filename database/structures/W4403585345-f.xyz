@@ -1,0 +1,14 @@
+12
+Li11Cl, gas-phase complex of a chlorine with a cluster of 11 lithium atoms | VERBATIM coordinates from W4403585345_si_jp4c04843_si_001.txt line 890 (SI p. S-12/S-14, block 'Li11Cl': lithium cluster optimized at HF/cc-pVDZ starting from the published structure, chlorine placed on the line through the cluster centre and the outermost lithium at the separation that gives the minimum energy of the cCASSCF(2,2) scan (nearest Li-Cl 4 bohr); SI states 'the following geometries are in units of Bohr', converted to angstrom) | converted from bohr to angstrom with 1 bohr = 0.529177210903 | NOT a generated structure
+Li      4.08454079    -0.00000026    -0.00009118
+Li     -0.00001873     0.00000008    -0.00000241
+Li      1.46315751    -1.62894541    -1.62892438
+Li      1.46323316    -1.62894072     1.62897461
+Li      1.46315758     1.62894554    -1.62892435
+Li      1.46323323     1.62894085     1.62897459
+Li     -1.46321151     2.30364449     0.00008303
+Li     -1.46321148    -2.30364440     0.00008303
+Li     -1.46305307     0.00000003     2.30370214
+Li     -1.46322918     0.00000003    -2.30366351
+Li     -4.08459830    -0.00000023    -0.00021155
+Cl      6.20124963    -0.00000043    -0.00013719

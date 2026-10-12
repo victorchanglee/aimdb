@@ -1,0 +1,9 @@
+7
+formic acid + hydroxyl radical acidic-H abstraction TS1 (PCET) | VERBATIM coordinates from W1981551955_si_ja0481169_si_001.txt line 668 (SI section 'optimized geometries at CASSCF(9x8)/6-311+G(2df,2p) level', block 'TS1': the CASSCF(9,8)/6-311+G(2df,2p) optimized acidic-H abstraction transition state TS1 of HCOOH + OH. TS2 and TS3 at the same level follow (lines 677, 686); the earlier 'TS1' blocks (lines 193, 387, 544) are the B3LYP, MP2 and QCISD geometries.) | angstrom as printed | NOT a generated structure
+C          -0.972127        -0.209734        -0.011501
+O          -0.714886         0.998094         0.010315
+H          -2.002144        -0.545475        -0.037194
+O          -0.101225        -1.101806        -0.001034
+H           1.716831        -0.070750         0.842675
+H           0.562521         0.856870         0.012636
+O           1.523220         0.244810        -0.057008

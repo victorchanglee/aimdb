@@ -1,0 +1,9 @@
+7
+simplest dioxetanone model (R) | VERBATIM coordinates from W1992872121_si_ja8052464_si_001.txt line 471 (SI Table S2, section 'A simple dioxetanone (C2H2O3)', block 'R(S0)': the reactant minimum optimized at SA-CASSCF(14e,12o)/6-31G* (equal weights S0/S1/T1); TS1, INT, TS2 and CC25 structures follow) | angstrom as printed | NOT a generated structure
+C      -0.7087250062     1.0800326555     0.0000639267
+C       0.4884988736     0.1418651648    -0.0000303463
+O      -1.5709818792    -0.1142527435     0.0000576669
+O      -0.2803458000    -1.0033251145    -0.0000376264
+H      -0.8428861478     1.6611777172     0.8984448154
+H      -0.8429711747     1.6612489903    -0.8982581619
+O       1.6638293743     0.2060483403    -0.0000851544

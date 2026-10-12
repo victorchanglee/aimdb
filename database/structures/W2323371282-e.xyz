@@ -1,0 +1,13 @@
+11
+[Fe{N(SiMe3)2}2(PCy3)] (complex 5), modelled as [Fe(NH2)2(PH3)] | VERBATIM coordinates from W2323371282_si_ic401677j_si_002.txt line 1049 (SI Table S16 c) '[Fe(NH2)2(PH3)]', model used in the CASSCF/SOCI calculations, heavy atoms from the X-ray structure of 5, only hydrogen positions optimized (B3LYP/def2-TZVPP, S = 2). Block is FeH7N2P (2 NH2 + PH3 = 7 H); the row's formula FeH8N2P miscounts by one hydrogen, hence the formula-check override.) | angstrom as printed | NOT a generated structure
+Fe          0.000000         0.000000         0.000000
+P           2.619014         0.000000         0.000000
+N          -0.849181         1.729800         0.000000
+N          -0.837513        -1.738659         0.000000
+H          -1.853010        -1.843196        -0.008845
+H          -0.418703        -2.667645         0.042265
+H          -1.865203         1.827743         0.001368
+H          -0.434139         2.661311         0.017752
+H           3.252253         1.267842        -0.154610
+H           3.373130        -0.430808         1.133203
+H           3.381594        -0.698540        -0.983472

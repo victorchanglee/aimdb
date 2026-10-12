@@ -1,0 +1,12 @@
+10
+[Co{N(SiMe3)2}2(THF)] (complex 4), modelled as [Co(NH2)2(OH2)] | VERBATIM coordinates from W2323371282_si_ic401677j_si_002.txt line 1088 (SI Table S17 b) '[Co(NH2)2(OH2)]', model used in the CASSCF/SOCI calculations, heavy atoms from the X-ray structure of 4, only hydrogen positions optimized (B3LYP/def2-TZVPP, S = 3/2).) | angstrom as printed | NOT a generated structure
+Co          0.000000         0.000000         0.000000
+O           2.035702         0.000000         0.000000
+N          -0.621349         1.793429         0.000000
+N          -0.621349        -1.793429         0.000000
+H          -0.628467        -2.410828         0.816197
+H          -1.450529        -2.030803        -0.551905
+H          -1.507327         2.017038        -0.460709
+H          -0.576879         2.375133         0.842933
+H           2.414390        -0.812206        -0.385257
+H           2.427348         0.761812        -0.466978

@@ -1,0 +1,28 @@
+12
+thioamide (thiopeptide bond) photoswitch, trans to cis photoisomerization | VERBATIM coordinates from W2015760510_si_ja049227a_si_001.txt line 408 (trans-NMTAA S0 minimum) | angstrom as printed | NOT a generated structure
+S          -0.219988         1.753277        -0.629632
+C          -0.536747         0.169748        -0.144216
+C          -1.949161        -0.358009        -0.046070
+C           1.849664        -0.423936         0.163114
+N           0.430514        -0.715254         0.184610
+H          -1.986564        -1.393523         0.279697
+H          -2.432123        -0.280763        -1.011314
+H          -2.513279         0.245640         0.652737
+H           0.142518        -1.626903         0.459370
+H           2.380933        -1.313893         0.471838
+H           2.076919         0.389583         0.838002
+H           2.160340        -0.140208        -0.832832
+12
+thioamide (thiopeptide bond) photoswitch, trans to cis photoisomerization | VERBATIM coordinates from W2015760510_si_ja049227a_si_001.txt line 423 (cis-NMTAA S0 minimum) | angstrom as printed | NOT a generated structure
+S          -1.248565         0.714806        -2.231353
+C          -0.629816         0.108286        -0.784053
+C          -1.437885         0.067525         0.489972
+C           1.285317        -0.927242         0.463579
+N           0.636662        -0.369662        -0.706236
+H          -0.970580         0.675145         1.259351
+H          -1.513475        -0.947664         0.867968
+H          -2.430173         0.445252         0.305063
+H           1.146006        -0.334893        -1.561990
+H           2.304557        -1.168197         0.198047
+H           0.794344        -1.833956         0.795696
+H           1.304448        -0.216956         1.280284

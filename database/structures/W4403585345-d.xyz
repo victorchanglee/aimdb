@@ -1,0 +1,10 @@
+8
+Li7Cl, gas-phase complex of a chlorine with a cluster of 7 lithium atoms | VERBATIM coordinates from W4403585345_si_jp4c04843_si_001.txt line 867 (SI p. S-12/S-13, block 'Li7Cl': lithium cluster optimized at HF/cc-pVDZ starting from the published structure, chlorine placed on the line through the cluster centre and the outermost lithium at the separation that gives the minimum energy of the cCASSCF(2,2) scan (nearest Li-Cl 4 bohr); SI states 'the following geometries are in units of Bohr', converted to angstrom) | converted from bohr to angstrom with 1 bohr = 0.529177210903 | NOT a generated structure
+Li      0.00000000     0.00000000     0.00000000
+Li      0.00000000     3.14999985     0.00000000
+Li      2.99582803     4.12340353     0.00000000
+Li      4.84735157     1.57500000     0.00000000
+Li      2.99582803    -0.97340353     0.00000000
+Li      2.16780153     1.57500000    -1.55884943
+Li      2.16780153     1.57500000     1.55884943
+Cl      2.16780153     1.57500000     3.67555828

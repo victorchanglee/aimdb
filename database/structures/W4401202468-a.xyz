@@ -1,0 +1,11 @@
+9
+thiophene | VERBATIM coordinates from W4401202468.txt lines 878-891 (Appendix A, Table III: optimised structure of thiophene using CAS with a (10,9) active space and 6-31G*) | angstrom as printed | NOT a generated structure
+C            0.00000         -1.25219          0.02820
+C            0.00000         -0.71665          1.28096
+C            0.00000          0.71665          1.28096
+C            0.00000          1.25219          0.02820
+S            0.00000          0.00000         -1.22248
+H            0.00000         -2.28656         -0.24758
+H            0.00000         -1.31280          2.17338
+H            0.00000          1.31280          2.17338
+H            0.00000          2.28656         -0.24758

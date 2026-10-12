@@ -1,0 +1,17 @@
+15
+acetylacetone (enolic form), excited-state decay mechanisms | VERBATIM coordinates from W4413110754_si_ja5c06327_si_001.txt line 905 (SI section 9.1 'CASPT2 optimized geometries', block 'S0 minimum'; SI Fig. S5 caption and main text state the S0 minimum was optimized at MP2/cc-pVDZ (gas phase), the other structures in 9.1 at XMS-CASPT2/CASSCF(10e,8o)/cc-pVDZ; the S0 minimum is the Franck-Condon geometry) | angstrom as printed | NOT a generated structure
+C          -0.002772         0.000803         0.056126
+H          -0.623449        -0.483580         0.828528
+H           0.905184         0.382037         0.552864
+H           0.273638        -0.732543        -0.713902
+C          -0.765030         1.145377        -0.576719
+O          -0.986113         1.143568        -1.808490
+C          -1.220992         2.224852         0.284654
+H          -1.014973         2.202170         1.355972
+C          -1.918140         3.283930        -0.255604
+O          -2.196804         3.362511        -1.554255
+C          -2.430676         4.443432         0.543350
+H          -1.791184         2.523692        -1.939043
+H          -2.180430         4.340679         1.608476
+H          -1.998191         5.379456         0.152945
+H          -3.524857         4.514939         0.428228

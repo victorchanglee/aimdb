@@ -1,0 +1,8 @@
+6
+formaldiminium cation | VERBATIM coordinates from W2737243724_si_ct7b00634_si_001.txt line 31 (SI section 1 'Optimized MECI Geometries', block 'MS-CASPT2': the S1/S0 minimum-energy conical intersection of formaldiminium optimized with MS-CASPT2 (SA2-CASSCF(2,2) reference, 6-31G**), the structure at which the paper's MS-CASPT2 branching-plane vectors and PES grids (Figure S1) are evaluated. The SF-ADC(3) MECI (line 24) is the single-reference comparison and is not included; no ground-state minimum is printed in the SI.) | angstrom as printed | NOT a generated structure
+N      -0.1836936768     0.1965191003    -0.6551516027
+C       0.0223735596    -0.1854558274     0.6472534499
+H       1.0291912204    -0.3512839629     1.0364654438
+H       0.0286097799     1.1608087027    -0.9312859307
+H      -0.0619078946    -0.4947139467    -1.4025060316
+H      -0.8345729886    -0.3258740658     1.3052246712

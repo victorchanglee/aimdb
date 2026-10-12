@@ -1,0 +1,18 @@
+16
+Tricyclo[3.3.0.0(2,6)]octa-3,7-diene (TOD) — photochemistry to cyclooctatetraene | VERBATIM coordinates from W2043665326_si_jp067590t_si_001.txt line 51 (SI section 1 'STRUCTURES IN CARTESIAN COORDINATES': 'TOD structure. Geometry optimized at CASSCF(8,8)/6-31G* level of theory.', the TOD S0 equilibrium structure; SBV, COT, BR, the CIs and TSs follow) | angstrom as printed | NOT a generated structure
+C          -0.026120        -0.009144        -0.002747
+C          -0.025812        -0.009538         1.340642
+C           1.453397        -0.018855        -0.358934
+C           1.453870        -0.019370         1.696143
+C           2.101465         1.044255         0.668708
+C           2.085470        -1.013389         0.668219
+C           3.569844        -0.662735         0.667965
+C           3.577070         0.680601         0.668273
+H          -0.852133         0.014226        -0.686594
+H          -0.851511         0.013433         2.024880
+H           1.757373        -0.028332        -1.397546
+H           1.758323        -0.029352         2.734610
+H           1.791603         2.080718         0.669028
+H           1.789502        -2.054987         0.668037
+H           4.391847        -1.351792         0.667608
+H           4.407826         1.359124         0.668248

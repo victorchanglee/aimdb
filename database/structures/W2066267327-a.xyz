@@ -1,0 +1,19 @@
+17
+Bicyclo[4,1,0]hept-2-ene (2-norcarene) — singlet and triplet photoisomerization  | VERBATIM coordinates from W2066267327_si_jp803365u_si_001.txt line 20 (SI p. 2 '(1) bicyclo[4,1,0]hept-2-ene (1)', under the header '(All geometries were calculated CASSCF(8,8)/6-311G*)': the S0 reactant minimum of 2-norcarene; the SI's other 25 blocks are the T1/S1 intermediates, transition states, crossing points and photoproducts of the pathways) | angstrom as printed | NOT a generated structure
+C             0.0413         -0.14385         -0.04631
+C           -0.05129         -0.08443          1.49553
+C            1.28592          0.01596          0.83061
+C           -0.34911         -1.34323          2.23553
+C            0.42174          -2.4345          2.13147
+C            1.64717         -2.47979          1.24974
+C             2.2879         -1.09812           1.0597
+H           -0.15414         -1.09111         -0.51583
+H           -0.28719          0.71444         -0.60557
+H            -0.4729          0.81413          1.91163
+H           -1.23748         -1.36704            2.844
+H            0.14115         -3.33808           2.6473
+H            1.37977          -2.9026          0.28378
+H            2.38191         -3.15863          1.67185
+H            3.00508         -1.13511          0.24463
+H            2.85131         -0.85139          1.95642
+H            1.73212          1.02076          0.80764

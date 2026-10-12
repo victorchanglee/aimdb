@@ -1,0 +1,11 @@
+9
+Malonaldehyde, excited-state intramolecular proton transfer around a three-state | VERBATIM coordinates from W2089595819_si_jp0535339_si_001.txt line 130 (SI p. 6 'Table S7. Geometry of S0 minimum optimized at the 6-31g*, SA3-CAS(4/4) level.' — the CAS-optimized S0 minimum at which the Table 3 SA-3-CAS(4/4) energies were computed; the BLYP S0 minimum used as the Franck-Condon point for the AIMS dynamics (Table 2) is not printed in the SI. Tables S2-S6 are the S0 TS, S1/S2 minima and MECIs) | angstrom as printed | NOT a generated structure
+C             -0.004            0.000            0.012
+C              0.032            0.000            1.367
+C              1.293            0.000            2.094
+O              1.044            0.000           -0.794
+O              2.375            0.000            1.583
+H              1.847            0.000           -0.273
+H             -0.934            0.000           -0.524
+H             -0.888            0.000            1.919
+H              1.209            0.000            3.185

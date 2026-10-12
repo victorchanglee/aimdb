@@ -1,0 +1,6 @@
+4
+NH3 - ammonia - a three-bond test of whether truncating the cluster expansion af | VERBATIM coordinates from W7138943561_si_ct5c01951_si_001.txt line 21 (SI section A 'Coordinates of optimized structures', A.3 'Ammonia'; MP2/6-31G optimization in Gaussian 16 per the row's geometry_source) | angstrom as printed | NOT a generated structure
+N          -0.000000         0.000000         0.074258
+H           0.000000         0.979250        -0.173268
+H          -0.848055        -0.489625        -0.173268
+H           0.848055        -0.489625        -0.173268

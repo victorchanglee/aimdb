@@ -1,0 +1,8 @@
+6
+methyl-diazenyl radical C-N dissociation from trans-azomethane | VERBATIM coordinates from W1982051564_si_ja038198l_si_001.txt line 3766 (SI p. 74, section 'intermediate from trans-azomethane: methyl diazenyl radical', block headed 'CASSCF(3,3)/6-31G(d)' (E= -148.4733564542): the CASSCF(3,3)/6-31G(d) optimized, frequency-characterized methyl-diazenyl minimum on which CASPT2(3,3)//CASSCF(3,3) was run. The CASSCF(5,5) and (9,7) minima follow (lines 3793, 3816); the C-N cleavage TS(C-II) blocks are on p. 76-77.) | angstrom as printed | NOT a generated structure
+N           1.156944         0.468922         0.000000
+N           0.000000         0.566438         0.000000
+C          -0.831739        -0.714866         0.000000
+H          -0.200013        -1.592274         0.000000
+H          -1.454078        -0.683023         0.882365
+H          -1.454078        -0.683023        -0.882365

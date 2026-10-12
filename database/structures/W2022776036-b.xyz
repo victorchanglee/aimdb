@@ -1,0 +1,22 @@
+9
+Secondary fluorozonide (SOZF, 3-fluoro-1,2,4-trioxolane) | VERBATIM coordinates from W2022776036_si_jp044706h_si_001.txt line 781 (SOZFa (O-O half-chair), CASSCF(10,9)/cc-pVTZ) | converted from bohr to angstrom with 1 bohr = 0.529177210903 | NOT a generated structure
+O      -1.13486947     0.02306853    -0.26462479
+O       0.62875927     1.14346337     0.52012680
+O       1.06648481     0.17627849    -0.49408400
+C      -0.01787389    -0.71990712    -0.48330362
+C      -0.73349617     1.29739997     0.12438935
+H      -0.02945329    -1.23274754    -1.42939452
+H      -1.28253825     1.62748599     0.99062904
+H      -0.81548111     1.98792696    -0.70289074
+F       0.11566339    -1.62168157     0.48812838
+9
+Secondary fluorozonide (SOZF, 3-fluoro-1,2,4-trioxolane) | VERBATIM coordinates from W2022776036_si_jp044706h_si_001.txt line 798 (SOZFb (H2C-O half-chair), CASSCF(10,9)/cc-pVTZ) | converted from bohr to angstrom with 1 bohr = 0.529177210903 | NOT a generated structure
+O      -1.05002357    -0.17391708     0.40490121
+O       0.66381360     1.14083465     0.84566931
+O       1.15386078     0.00604037     0.05625852
+C       0.01524911    -0.84860771    -0.07951331
+C      -0.69757393     1.16764337     0.43458872
+H       0.15720642    -1.78520633     0.43093891
+H      -1.26309931     1.68413606     1.19052035
+H      -0.79217555     1.62445475    -0.54077259
+F      -0.11462476    -1.10146684    -1.38183535

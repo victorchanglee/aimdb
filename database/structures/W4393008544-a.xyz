@@ -1,0 +1,14 @@
+12
+4-Thiouracil (with comparison to 2-thiouracil) | VERBATIM coordinates from W4393008544_si_jp3c06310_si_001.txt line 425 (SI p. S14 'Cartesian coordinates', block 'Min S0, Franck Condon'; main text: ground-state geometry optimized with state-specific CASSCF(10,8) (pi/pi* space); excited-state minima and MECPs are printed after it) | angstrom as printed | NOT a generated structure
+H        -2.12375413      -1.10436047      -0.00000000
+C        -2.14434675       2.68166232       0.00000000
+N        -1.00891903       1.91060930       0.00000000
+C        -0.93517683       0.52968247       0.00000000
+N        -2.15094791      -0.10585433       0.00000000
+C        -3.35093089       0.57740690      -0.00000000
+C        -3.39172863       1.92519862       0.00000000
+S        -2.07166381       4.32456061      -0.00000000
+H        -0.12377763       2.38154361       0.00000000
+O         0.11073714      -0.05281739      -0.00000000
+H        -4.23801136      -0.03606977      -0.00000000
+H        -4.32323418       2.46393713       0.00000000

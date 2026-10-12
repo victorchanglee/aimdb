@@ -1,0 +1,24 @@
+22
+Alloxazine chromophore in aqueous solution | VERBATIM coordinates from W2468818613_si_jp6b02669_si_001.txt line 59 (SI section 2 'Cartesian Coordinates of All Optimized Structures and Paths (QM part)', 'CASSCF method', label 'S0': alloxazine ground-state minimum optimized at CASSCF(14,10) within QM/MM in water; QM part only, MM water environment not printed; excited-state minima, crossings and LIIC paths follow in the same section) | angstrom as printed | NOT a generated structure
+C       -3.363964400     -1.750876370      0.013440110
+C       -2.968129650     -0.472224470      0.105136090
+C       -1.573486330     -0.155086600      0.055278550
+C       -0.617454080     -1.199882300     -0.062302620
+C       -1.069120020     -2.539635410     -0.169264010
+C       -2.411715640     -2.801558750     -0.137175370
+C        1.056517480      0.303454450     -0.004639850
+C        0.115322400      1.365712700      0.073615020
+C        0.608109850      2.776369500      0.119082080
+C        2.924683160      1.864345020      0.047135000
+H       -3.666008950      0.333374600      0.221015670
+H       -0.339973070     -3.319300700     -0.276849240
+H       -2.754044060     -3.814880890     -0.227360860
+H        2.370001830      3.791039240      0.121890310
+H       -4.409755140     -1.997944010      0.048697960
+N        0.701965410     -0.931927730     -0.081623990
+N       -1.171102180      1.135999190      0.105850290
+N        2.400962820      0.605852380      0.004416700
+N        1.985368290      2.872406570      0.096269570
+O        4.094905410      2.086128280      0.044040730
+O       -0.086938050      3.734905190      0.166483630
+H        3.051959200     -0.148154070     -0.046203890

@@ -1,0 +1,13 @@
+11
+dimethylphosphinylnitrene - closed-shell singlet | VERBATIM coordinates from W2029165265_si_jo0711687_si_002.txt line 421 (SI structure 17 (dimethylphosphinylnitrene, closed-shell singlet), block headed 'CASSCF(6,4)/6-31G(d,p)': CASSCF(6,4)/6-31G(d,p)-optimized geometry; the same section also prints the B3LYP/6-31G(d) and CASSCF(8,6)/6-31G(d,p) geometries) | angstrom as printed | NOT a generated structure
+P       0.0680189912    -0.0012486495    -0.0162187204
+C      -0.4010569542    -0.9676326059     1.4304651983
+H      -0.2135700499    -0.3703386330     2.3133375315
+H      -1.4510676629    -1.2393259773     1.3917745764
+H       0.1888652745    -1.8772938109     1.4860411948
+C      -0.3962626817    -0.9701340927    -1.4629271851
+H      -1.4505400391    -1.2263497780    -1.4340376967
+H      -0.1908847352    -0.3819819287    -2.3479742008
+H       0.1808121938    -1.8886827822    -1.5054843001
+O      -0.5230063323     1.4263085879    -0.0180867250
+N       1.3856264356     0.8709807803    -0.0134788028

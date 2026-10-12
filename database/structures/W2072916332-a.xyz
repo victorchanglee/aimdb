@@ -1,0 +1,26 @@
+24
+E-Azobenzene — photoisomerization from the n-pi* and pi-pi* singlets | VERBATIM coordinates from W2072916332_si_ja710275e_si_001.txt line 14 (SI 'Cartesian coordinates of all the structures discussed in the text. (data in A)', block 'E-Min S0': the E-azobenzene ground-state minimum from the fully unconstrained CASSCF(14,12)/6-31G* optimisation on which the CASPT2 single points are run.) | angstrom as printed | NOT a generated structure
+N          -0.005261         0.000000         0.621459
+C           1.278202         0.000000         1.234646
+C           1.277845         0.000000         2.626234
+C           2.481643         0.000000         3.325515
+C           3.677654         0.000000         2.641708
+C           3.685192         0.000000         1.244679
+C           2.491799         0.000000         0.535357
+H           0.336614         0.000000         3.143758
+H           2.473288         0.000000         4.400612
+H           4.607707         0.000000         3.181348
+H           4.620082         0.000000         0.713924
+H           2.488893         0.000000        -0.536430
+N           0.005261         0.000000        -0.621459
+C          -1.278202         0.000000        -1.234646
+C          -1.277845         0.000000        -2.626234
+C          -2.481643         0.000000        -3.325515
+C          -3.677654         0.000000        -2.641708
+C          -3.685192         0.000000        -1.244679
+C          -2.491799         0.000000        -0.535357
+H          -0.336614         0.000000        -3.143758
+H          -2.473288         0.000000        -4.400612
+H          -4.607707         0.000000        -3.181348
+H          -4.620082         0.000000        -0.713924
+H          -2.488893         0.000000         0.536430

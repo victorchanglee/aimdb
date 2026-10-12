@@ -1,0 +1,17 @@
+15
+9H-azaguanine single point | VERBATIM coordinates from W2931020913_si_jp9b01397_si_001.txt line 14 (SI Table S1: 9H-8-azaguanine ground state optimized at MS(4)-CASPT2(12,10)/cc-pVDZ; the (16,12) single points of this row are run at the MS-CASPT2 ground-state geometry, which is the only one printed) | angstrom as printed | NOT a generated structure
+N           2.297975        -1.221205         0.000876
+N           3.194840        -0.175207         0.000078
+N           2.514927         0.937454        -0.000292
+C           1.018018        -0.775085         0.000433
+N          -0.121574        -1.531648         0.001235
+C          -1.198399        -0.753587         0.000851
+N          -2.423314        -1.342763         0.002341
+N          -1.174244         0.627764        -0.000282
+C          -0.009586         1.470263        -0.000786
+O          -0.133187         2.679530        -0.001151
+C           1.171792         0.621310        -0.000650
+H           2.636745        -2.178269         0.001618
+H          -2.455372        -2.353285         0.000753
+H          -3.281735        -0.812534        -0.004856
+H          -2.049885         1.148263         0.000831

@@ -1,0 +1,10 @@
+8
+methylenecyclopropene in solvent | VERBATIM coordinates from W2065076851_si_ct500723s_si_001.txt line 388 (SI Table S17: 'optimized VMC/PCM geometry of the π→π* (1 1B2) state of methylenecyclopropene in the C2v conformation', CAS(4,4)-Jastrow expansion, cc-pVTZ' basis; 8 atoms C4H4 = methylenecyclopropene) | angstrom as printed | NOT a generated structure
+C            0.00000          0.00000         -0.13153
+C            0.00000          0.00000          1.32430
+C            0.00000          0.74360         -1.26514
+C            0.00000         -0.74384         -1.26496
+H            0.00000          0.93061          1.85873
+H            0.00000         -0.92994          1.86003
+H            0.00000          1.68089         -1.76982
+H            0.00000         -1.67958         -1.77363

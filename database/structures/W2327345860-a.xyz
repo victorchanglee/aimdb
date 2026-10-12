@@ -1,0 +1,10 @@
+8
+cyclopropanone | VERBATIM coordinates from W2327345860_si_jp5b00302_si_001.txt line 68 (SI Part II 'Cartesian Coordinates of All Optimized Structures (XYZ format and Angstrom)', Cyclopropanone 'S0-MIN': S0 minimum optimized by state-specific CASSCF(10,8)/6-31G* (main text Methods and Figure 1); the S1/S0 conical intersection 'S1S0-MIN' is not included) | angstrom as printed | NOT a generated structure
+C       -0.854347000      0.798447000      0.000033000
+C       -0.855934000     -0.797650000      0.000039000
+C        0.368946000     -0.000727000     -0.000103000
+H       -1.152036000      1.294741000     -0.908340000
+H       -1.151729000      1.294888000      0.908427000
+H       -1.154734000     -1.293123000     -0.908409000
+H       -1.154587000     -1.293424000      0.908366000
+O        1.582638000     -0.000437000      0.000018000

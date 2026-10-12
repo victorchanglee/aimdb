@@ -1,0 +1,40 @@
+8
+Cyclobutadiene (CBD): automerization (D4h square TS) and vertical/adiabatic exci | VERBATIM coordinates from W4223510623_si_jp2c02480_si_001.txt line 10 (D2h 11Ag minimum, CASPT2(12,12)/aug-cc-pVTZ (automerization barrier)) | angstrom as printed | NOT a generated structure
+C       0.0000000000    -0.6769380253    -0.7827569236
+C       0.0000000000    -0.6769380253     0.7827569236
+C       0.0000000000     0.6769380253     0.7827569236
+C       0.0000000000     0.6769380253    -0.7827569236
+H       0.0000000000    -1.4379809006    -1.5441628360
+H       0.0000000000    -1.4379809006     1.5441628360
+H       0.0000000000     1.4379809006     1.5441628360
+H       0.0000000000     1.4379809006    -1.5441628360
+8
+Cyclobutadiene (CBD): automerization (D4h square TS) and vertical/adiabatic exci | VERBATIM coordinates from W4223510623_si_jp2c02480_si_001.txt line 19 (D4h 11B1g square TS, CASPT2(12,12)/aug-cc-pVTZ (automerization barrier)) | angstrom as printed | NOT a generated structure
+C       1.0248323754     0.0000000000     0.0000000000
+C       0.0000000000    -1.0248323754     0.0000000000
+C      -1.0248323754     0.0000000000     0.0000000000
+C       0.0000000000     1.0248323754     0.0000000000
+H       2.1005277359     0.0000000000     0.0000000000
+H       0.0000000000    -2.1005277359     0.0000000000
+H      -2.1005277359     0.0000000000     0.0000000000
+H       0.0000000000     2.1005277359     0.0000000000
+8
+Cyclobutadiene (CBD): automerization (D4h square TS) and vertical/adiabatic exci | VERBATIM coordinates from W4223510623_si_jp2c02480_si_001.txt line 28 (D2h 11Ag minimum, CC3/aug-cc-pVTZ (D2h vertical excitations)) | angstrom as printed | NOT a generated structure
+C        -0.78248546      -0.67208001       0.00000000
+C         0.78248546      -0.67208001       0.00000000
+C        -0.78248546       0.67208001       0.00000000
+C         0.78248546       0.67208001       0.00000000
+H        -1.54227765      -1.43404123      -0.00000000
+H         1.54227765      -1.43404123       0.00000000
+H        -1.54227765       1.43404123       0.00000000
+H         1.54227765       1.43404123      -0.00000000
+8
+Cyclobutadiene (CBD): automerization (D4h square TS) and vertical/adiabatic exci | VERBATIM coordinates from W4223510623_si_jp2c02480_si_001.txt line 37 (D4h 13A2g minimum, RO-CCSD(T)/aug-cc-pVTZ (D4h vertical excitations)) | angstrom as printed | NOT a generated structure
+C           0.000000         1.017702         0.000000
+C           1.017702        -0.000000         0.000000
+C          -1.017702         0.000000         0.000000
+C          -0.000000        -1.017702         0.000000
+H           0.000000         2.092429         0.000000
+H           2.092429        -0.000000         0.000000
+H          -0.000000        -2.092429         0.000000
+H          -2.092429         0.000000         0.000000

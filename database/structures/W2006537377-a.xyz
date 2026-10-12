@@ -1,0 +1,16 @@
+14
+U6OH radical adduct - hydroxyl radical addition to uracil at C6, and its photoch | VERBATIM coordinates from W2006537377_si_jp412347k_si_001.txt line 471 (SI p. S13-S14, section 'CASSCF/ANO-L 431/21', block 'U6OH· (FC)': the ground-state CASSCF/ANO-L (C,N,O[4s3p1d]/H[2s1p]; 7-electron/7-pi-orbital optimization space) optimized U6OH· adduct, the Franck-Condon geometry at which the whole-valence 12-orbital excited-state CASSCF/CASPT2 calculations start. The M06-2X/6-31++G(d,p) (line 318) and MP2/aug-cc-pVDZ (line 403) U6OH· blocks are the initial structures only; the blocks after line 490 are excited-state minima and conical intersections.) | angstrom as printed | NOT a generated structure
+N          -0.816683        -0.721306         0.619104
+C          -1.073820         0.629810         0.744317
+C          -0.044990         1.502897         0.201617
+C           1.065116         0.925431        -0.614977
+N           1.352103        -0.400851        -0.174520
+C           0.360348        -1.289270         0.176436
+O          -2.082560         1.034033         1.259993
+O           0.513367        -2.473388         0.153224
+O           0.707328         0.872428        -2.009767
+H           2.104933        -0.853957        -0.645218
+H          -1.505222        -1.355751         0.958210
+H          -0.205550         2.561046         0.252146
+H           1.963861         1.520038        -0.508793
+H           0.608384         1.753243        -2.346266

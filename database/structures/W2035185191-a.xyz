@@ -1,0 +1,42 @@
+12
+Phenylnitrene (1a) — singlet and triplet states | VERBATIM coordinates from W2035185191_si_ja9635241_si_001.txt lines 18-29 (3A2-1a triplet phenylnitrene, CASSCF(8,8)/6-31G* optimized) | angstrom as printed | NOT a generated structure
+N            .000000          .000000         2.400761
+C            .000000          .000000         1.062529
+C            .000000          .000000        -1.747546
+C            .000000         1.228095          .340107
+C            .000000        -1.228095          .340107
+C            .000000         1.216160        -1.046254
+C            .000000        -1.216160        -1.046254
+H            .000000         2.152496          .887423
+H            .000000        -2.152496          .887423
+H            .000000         2.145094        -1.587134
+H            .000000        -2.145094        -1.587134
+H            .000000          .000000        -2.822037
+12
+Phenylnitrene (1a) — singlet and triplet states | VERBATIM coordinates from W2035185191_si_ja9635241_si_001.txt lines 32-43 (1A2-1a open-shell singlet phenylnitrene, CASSCF(8,8)/6-31G* optimized) | angstrom as printed | NOT a generated structure
+N            .000000          .000000         2.372640
+C            .000000          .000000         1.096209
+C            .000000          .000000        -1.749863
+C            .000000         1.258961          .331260
+C            .000000        -1.258961          .331260
+C            .000000         1.233742        -1.035701
+C            .000000        -1.233742        -1.035701
+H            .000000         2.181120          .880441
+H            .000000        -2.181120          .880441
+H            .000000         2.157547        -1.585546
+H            .000000        -2.157547        -1.585546
+H            .000000          .000000        -2.823056
+12
+Phenylnitrene (1a) — singlet and triplet states | VERBATIM coordinates from W2035185191_si_ja9635241_si_001.txt lines 46-57 (1A1-1a closed-shell singlet phenylnitrene, CASSCF(8,8)/6-31G* optimized) | angstrom as printed | NOT a generated structure
+N            .000000          .000000         2.414209
+C            .000000          .000000         1.055408
+C            .000000          .000000        -1.743682
+C            .000000         1.218311          .339141
+C            .000000        -1.218311          .339141
+C            .000000         1.215629        -1.051653
+C            .000000        -1.215629        -1.051653
+H            .000000         2.137512          .894588
+H            .000000        -2.137512          .894588
+H            .000000         2.142936        -1.594969
+H            .000000        -2.142936        -1.594969
+H            .000000          .000000        -2.818910

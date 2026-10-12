@@ -1,0 +1,19 @@
+17
+Spiro[2,4]hept-1-ene (1), photoisomerization | VERBATIM coordinates from W2093149258_si_jp711022n_si_001.txt line 24 (SI Supplementary Materials, '(All geometries were calculated CASSCF(6,6)/6-311G*)', entry '(1) spiro[2,4]hept-1-ene (1)' - the S0 reactant minimum at CAS(6,6)/6-311G(d) on which the FC-1 vertical excitation and the path energetics are referenced; the Int/TS/CI blocks are the other stationary points of the paths) | angstrom as printed | NOT a generated structure
+C           0.000000         0.000000         0.000000
+C           0.000000         0.000000         1.312066
+C           1.342667         0.000000         0.655122
+C           2.256235         1.238868         0.666567
+C           2.256501        -1.238892         0.645435
+H          -0.523687         0.000763         2.244448
+H          -0.536474        -0.000693        -0.948976
+C           3.652227         0.699184         0.336423
+C           3.654309        -0.698123         0.967416
+H           2.254117        -1.695706        -0.342308
+H           1.924047        -1.998737         1.345143
+H           4.453199        -1.332571         0.598724
+H           3.782880        -0.611419         2.044105
+H           3.774348         0.612538        -0.741052
+H           4.453121         1.333928         0.700212
+H           1.920529         2.001678        -0.028332
+H           2.258364         1.691182         1.656420

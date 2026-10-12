@@ -1,0 +1,28 @@
+12
+Dinitrogen tetroxide with two water molecules, ground-state proton transfer | VERBATIM coordinates from W2326585651_si_jz300336s_si_001.txt line 1069 (trans-ONONO2.(H2O)2 S0 minimum, SI Section 3: CASSCF(12e/9o)/6-31G**//CASPT2/Amber QM/MM in water solvent (start of the O7-H9 proton-transfer MEP)) | angstrom as printed | NOT a generated structure
+O           1.427386        -5.056365         0.606933
+N           0.658584        -4.244630         1.044358
+O           0.958775        -3.510148         1.978131
+O          -0.476456        -4.139220         0.511053
+N          -1.854303        -2.725442         1.203365
+O          -2.599525        -2.756416         0.458089
+O          -1.181247        -4.504833         3.668977
+H          -1.066010        -5.238727         4.265106
+H          -0.299367        -4.143430         3.521222
+O          -3.365493        -2.863297         3.221476
+H          -4.077159        -3.487404         3.190848
+H          -2.642695        -3.327697         3.642282
+12
+Dinitrogen tetroxide with two water molecules, ground-state proton transfer | VERBATIM coordinates from W2326585651_si_jz300336s_si_001.txt line 1323 (trans-ONONO2.(H2O)2 S0 minimum, SI Section 4: CASSCF(12e/9o)/6-31G**//CASPT2 in vacuum (gas-phase MEP reoptimized for comparison)) | angstrom as printed | NOT a generated structure
+O           1.149286        -5.076784         0.381110
+N           0.492722        -4.232655         0.896960
+O           0.739273        -3.665079         1.929171
+O          -0.603106        -3.903844         0.231915
+N          -1.496837        -2.650531         1.031629
+O          -2.263129        -2.329073         0.314929
+O          -1.135225        -4.593479         4.161150
+H          -0.792232        -4.965639         4.957465
+H          -0.375536        -4.253833         3.674622
+O          -3.391351        -3.110577         3.058419
+H          -4.110576        -3.720082         3.054307
+H          -2.730800        -3.496034         3.620163

@@ -1,0 +1,8 @@
+6
+ethylene | VERBATIM coordinates from W4417297565_si_jz5c03195_si_001.txt line 341 (SI section S6 'Cartesian coordinates (A) of key geometries for ethylene, DMABN and fulvene molecular system', 'Ethylene' / 'S0 minimum': the ground-state minimum from which the 300 Wigner samples for the SA-CASSCF/MS-CASPT2 surface-hopping dynamics are drawn; SI S1 states the molecules 'were optimized at the ground state ... at the DFT level by applying the BH&HLYP functional with the def2-SVP basis set'. The 'Pyramidalization' and 'Ethylidene' blocks are CI/hop geometries, not this row's.) | angstrom as printed | NOT a generated structure
+C         0.11809495       0.00459600       0.08620197
+C        -0.09273596       0.02569199       1.39178045
+H         1.12141856      -0.00269800      -0.33008887
+H        -0.70352072      -0.00381900      -0.62436475
+H        -1.09614757       0.03507599       1.80789529
+H         0.72840671       0.03507699       2.10283917

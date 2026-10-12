@@ -1,0 +1,12 @@
+10
+dimethyl sulfoxide (DMSO, compound 2) | VERBATIM coordinates from W1997582321_si_jp026888q_si_001.txt lines 137-148 (SI Table S1 'Cartesian Coordinates for dimethyl sulfoxide (2)': the MP2/6-311+G(3df,2p) optimized minimum on which all CASSCF[14,10] calculations were run (GAMESS-style listing with a nuclear-charge column)) | angstrom as printed | NOT a generated structure
+S       -.0288649301     -.1420786994     -.4215656997
+C      -1.1332502399     1.1148903964      .2281429226
+H      -2.1456769649      .8115511401     -.0274698182
+H       -.9062835627     2.0776905008     -.2282468753
+H      -1.0175996976     1.1524190616     1.3107648154
+H       1.3865299170      .6642767185     1.3106779862
+O       -.2802273230    -1.3802017926      .3674019143
+C       1.4783485034      .5846393001      .2281398324
+H       1.6448358104     1.5596914872     -.2283032911
+H       2.2922844591     -.0895594316     -.0275580622

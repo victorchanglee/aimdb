@@ -1,0 +1,16 @@
+14
+8-azaadenine (8-AA) - mechanisms of triplet excited state population | VERBATIM coordinates from W2327772152_si_jp3091599_si_001.txt line 10 (SI 'Cartesian Coordinantes / Ground State': 8-azaadenine ground-state minimum optimized at the CASSCF level with the reduced CAS(16,12) space (NH2 pi orbital moved to the inactive space) and ANO-L double-zeta plus polarization, C1, MOLCAS-7.4; the CASPT2(18,13) energies of the row are single points on it. The S1-S3, T1, T2 minima and the CI(1/gs) follow in the same SI) | angstrom as printed | NOT a generated structure
+C           -0.16281         -0.36765          0.14373
+C            1.16334         -0.60052         -0.26603
+N            1.84446          0.42301         -0.74914
+C            1.25108          1.62748         -0.82844
+N            0.01991          1.96229         -0.47624
+C           -0.64989          0.91826          0.00768
+N           -1.14948         -1.15922          0.67895
+N           -2.17706         -0.43019          0.86487
+N           -1.91637          0.82534          0.47379
+N            1.75115         -1.81827         -0.18183
+H            1.86561          2.41971         -1.23328
+H           -2.62093          1.52949          0.55275
+H            2.69440         -1.92592         -0.48720
+H            1.24951         -2.59924          0.18040

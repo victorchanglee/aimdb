@@ -1,0 +1,14 @@
+12
+fulvene | VERBATIM coordinates from W4417297565_si_jz5c03195_si_001.txt line 442 (SI section S6 'Cartesian coordinates (A) of key geometries ...', 'Fulvene' / 'S0 minimum': BH&HLYP/def2-SVP ground-state minimum used for Wigner sampling of the SA-CASSCF/MS-CASPT2 dynamics (SI S1). 'CIful' and 'CI' blocks are not this row's.) | angstrom as printed | NOT a generated structure
+C        -2.90356486       3.68375955      -0.03304599
+C        -3.87477247       2.58087498      -0.00966000
+C        -3.18861174       1.42545744       0.00590300
+C        -1.74908531       1.72190832      -0.00668000
+C        -1.57547438       3.05441080      -0.02864899
+C        -3.17353075       4.99078503      -0.05335198
+H        -4.19533935       5.35628389      -0.05399798
+H        -2.38010706       5.73109074      -0.06954997
+H        -4.94898605       2.70928893      -0.00605000
+H        -3.61020858       0.42801683       0.02425199
+H        -0.96755762       0.97247362       0.00173300
+H        -0.63926775       3.59654158      -0.04212198

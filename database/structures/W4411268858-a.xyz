@@ -1,0 +1,19 @@
+17
+9H-2,6-diaminopurine (9H-26DAP), a fluorescent modified adenine nucleobase | VERBATIM coordinates from W4411268858.txt line 2578 (SI Table S7: 9HDAP ground state (GS) optimized at MS(3)-CASPT2(10,9)/cc-pVDZ; Tables S8-S12 hold the excited-state minima and conical intersections) | angstrom as printed | NOT a generated structure
+N            0.00000          0.00000          0.00000
+C            1.36360          0.00000          0.00000
+N            2.22955          0.00000          1.04503
+C            1.54951          0.02244          2.21026
+C            0.15452          0.04401          2.38969
+C           -0.61746          0.03307          1.20041
+N           -0.20224          0.05086          3.73750
+C            0.96284          0.03598          4.35566
+N            2.05337          0.01950          3.49083
+N           -1.97449          0.09039          1.23165
+N            1.93650          0.04614         -1.25014
+H            1.33346         -0.26283         -2.00423
+H            2.90186         -0.26252         -1.28695
+H            3.03623          0.01165          3.74084
+H            1.10092          0.03612          5.43699
+H           -2.42874         -0.11367          2.11408
+H           -2.46310         -0.13059          0.37189

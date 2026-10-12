@@ -1,0 +1,24 @@
+22
+dNaM unnatural nucleobase chromophore, isolated | VERBATIM coordinates from W2766436633_si_jp7b09046_si_001.txt line 249 (SI section 4 'Cartesian Coordinates of All Optimized CASSCF Structures', 'dNaM in vacuo', S0 block: CASSCF-optimized ground-state minimum of the isolated chromophore (sugar replaced by H, i.e. 2-methoxynaphthalene); 22 atoms C11H10O. Excited-state minima are separate blocks) | angstrom as printed | NOT a generated structure
+C        -2.19944312      -2.63638582       5.58007879
+C        -2.70358574      -1.52032075       4.99668763
+C        -1.96875998      -0.29912660       5.00875515
+C        -0.69995562      -0.24937390       5.63596472
+C        -0.19959479      -1.44008578       6.23931845
+C        -0.92588093      -2.60080631       6.21364989
+H        -3.44335762       0.84018182       3.92838081
+H        -3.66253643      -1.52829733       4.51442186
+C        -2.47893260       0.87717166       4.40506738
+C         0.02229278       0.97494748       5.64145272
+H         0.76233349      -1.42107390       6.72041894
+H        -0.56089372      -3.50454835       6.66421428
+C        -0.50292838       2.09780712       5.04589371
+C        -1.77053415       2.03837084       4.42221152
+H         0.98613342       1.01211614       6.11828946
+H         0.04558194       3.02247588       5.05176061
+H        -2.17435825       2.92108448       3.95871814
+O        -2.80661069      -3.84018614       5.62767385
+C        -4.06560130      -3.99779848       5.04012571
+H        -4.34826935      -5.02759616       5.19983959
+H        -4.80210566      -3.34955355       5.50347389
+H        -4.03240330      -3.79816235       3.97412291

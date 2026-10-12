@@ -1,0 +1,14 @@
+12
+Lowest energy degeneracy point (LEDP) on the D1/D0 crossing seam of the maleic/f | VERBATIM coordinates from W2094582918_si_jp064377o_si_001.txt line 239 (SI 'Tables of Cartesian coordinates (xyz in A) of the optimized structures', block 'LEDP' (12 atoms, C4H4O4) = lowest-energy D1/D0 degeneracy point, CASSCF(7,6)/cc-pVDZ (main-text Table 1)) | angstrom as printed | NOT a generated structure
+C           0.000000         0.000000         0.000000
+C           0.000000         0.000000         1.448526
+C           1.186198         0.000000        -0.784957
+C          -0.025400         1.185926         2.233483
+O           2.349318        -0.007886        -0.428798
+O          -0.058190         2.348611         1.877324
+O           0.942787        -0.005523        -2.141163
+O          -0.025709         0.942453         3.589689
+H          -0.926392        -0.015827        -0.569162
+H           0.004013        -0.926519         2.017688
+H           1.803187         0.004131        -2.535781
+H          -0.034481         1.802862         3.984308

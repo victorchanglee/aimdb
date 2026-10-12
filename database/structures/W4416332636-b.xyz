@@ -1,0 +1,24 @@
+22
+4-amino-7-hydroxy-2-methylisoindoline-1,3-dione (AHMD) | VERBATIM coordinates from W4416332636_si_jp5c05370_si_001.txt line 60 (SI section 7 'Cartesian Coordinates of All Optimized CASSCF Structures', structure 'S0-A' (22 atoms C9H8N2O3, normal tautomer with O-H and NH2 intact), the ground-state minimum at CAS(10,8)/6-31G*; SI Figure S2 defines the (14e,12o) OM2/MRCI active space on S0-A; S0-B, S0-C, S1 minima and S1/S0 intersections follow and are not included) | angstrom as printed | NOT a generated structure
+C         2.58715401      -0.84914545       0.00871707
+C         2.67194722       0.53060229      -0.01141644
+C         1.51251750       1.36772095      -0.01959193
+C         0.29846082       0.69848261      -0.00591576
+C         0.21753389      -0.70638521       0.01456785
+C         1.32911971      -1.51080580       0.02243354
+H         3.47973987      -1.44634951       0.01433237
+H         3.64309740       0.99314390      -0.02130901
+C        -1.21766012      -1.07512985       0.02466555
+C        -1.08576371       1.21879731      -0.00877877
+N        -1.92600879       0.10681135       0.01002678
+O        -1.68978138      -2.16995483       0.04199409
+O        -1.45508051       2.35042341      -0.02382660
+C        -3.37415064       0.17072601       0.01393878
+H        -3.76859753      -0.30328416       0.90253842
+H        -3.65993603       1.21048853      -0.00003834
+H        -3.77447195      -0.32856447      -0.85803359
+O         1.30200885      -2.85590838       0.04188031
+H         0.40121757      -3.16278571       0.04930095
+N         1.61760036       2.72631079      -0.03948351
+H         2.50298689       3.17142403      -0.04885342
+H         0.80092812       3.29127283      -0.04489413

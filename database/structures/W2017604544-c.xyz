@@ -1,0 +1,23 @@
+21
+PSB4(1) model (C), C8H10NH2+ | VERBATIM coordinates from W2017604544_si_ct900692y_si_001.txt line 671 (SI Table 21: 'DFT/B3LYP ground-state coordinates (A) of the PSB4(1) model (C) optimized in Cs symmetry'; main text: the vertical excitation energies use 'the ground-state DFT/B3LYP geometries optimized with the cc-pVDZ basis'. Table 27 is the same model optimized in C1 symmetry; Tables 22-25 and 28-30 hold excited-state structures) | angstrom as printed | NOT a generated structure
+H           0.522857         1.934227         0.886085
+H           0.522857         1.934227        -0.886085
+H          -0.967501         2.303803         0.000000
+H           4.900653         1.245497         0.000000
+H           4.713086        -0.610455         0.000000
+H           2.472554         1.517271         0.000000
+H           2.586604        -1.595506         0.000000
+H          -1.818868        -1.381070         0.000000
+H          -2.786854         1.579538         0.000000
+H          -4.883640         0.609431         0.000000
+H          -4.247420        -1.002571         0.000000
+H           0.313876        -1.818793         0.000000
+N          -4.072899        -0.000732         0.000000
+C          -2.843194         0.489111         0.000000
+C          -1.686121        -0.295052         0.000000
+C          -0.376330         0.198767         0.000000
+C           0.669124        -0.784647         0.000000
+C           2.038630        -0.646061         0.000000
+C           2.894585         0.513884         0.000000
+C           4.240284         0.376098         0.000000
+C          -0.074527         1.669668         0.000000

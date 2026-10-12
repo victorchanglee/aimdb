@@ -1,0 +1,18 @@
+16
+cyclohexane-1,4-diyl intermediate from DBO deazetization | VERBATIM coordinates from W1982051564_si_ja038198l_si_001.txt line 900 (SI p. 17, DBO section 'Intermediate: twist boat 1,4-diyl', block headed 'CASSCF(2,2)/6-31G*' (E= -232.9394443237): the fully optimized, frequency-characterized CASSCF(2,2)/6-31G(d) cyclohexane-1,4-diyl. The UB3LYP/6-31G(d) block of the same intermediate (used for the separate CASPT2(6,6)//UB3LYP value) precedes it at line 867.) | angstrom as printed | NOT a generated structure
+H           2.198330         1.171023        -0.285914
+H          -1.409571         1.214981        -1.212035
+C           1.252712        -0.844424        -0.200166
+C          -1.252712        -0.662623        -0.211198
+C          -0.071701        -1.410092         0.340342
+C          -1.252712         0.844424        -0.200166
+C           1.252712         0.662623        -0.211198
+H           1.409571        -1.214981        -1.212035
+H          -2.086041         1.224833         0.389332
+H          -0.066482        -1.344492         1.430553
+H           0.149121         2.466673         0.104198
+C           0.071701         1.410092         0.340342
+H           0.066482         1.344492         1.430553
+H           2.086041        -1.224833         0.389332
+H          -2.198330        -1.171023        -0.285914
+H          -0.149121        -2.466673         0.104198

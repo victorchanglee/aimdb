@@ -1,0 +1,8 @@
+6
+FeO(OH)2 monomer, a model for the [FeO]2+ (hydro)oxide group, and its hydrogen-a | VERBATIM coordinates from W2610381005.txt line 1329 (SI 'XYZ Coordinates', block '5A1 O=Fe(OH)2': the B3LYP quintet ferryl ground-state monomer geometry at which the CASSCF/CASPT2 verification was run; the 5B2 state and the methane reaction-path structures follow) | angstrom as printed | NOT a generated structure
+Fe       0.000000000      0.000000000      0.085335732
+O        0.000000000      0.000000000     -1.514714751
+O        0.000000000      1.672574325      0.613951529
+H        0.000000000      2.440532679      0.037882231
+O        0.000000000     -1.672574325      0.613951529
+H        0.000000000     -2.440532679      0.037882231

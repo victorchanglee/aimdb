@@ -721,10 +721,13 @@
   are welcome via the How to contribute form.</p>
 
   <p class="ds-note">Some of the weak columns above are because the papers
-  do not cover it, not because extraction missed anything. For example, many
-  studies converge states individually rather than state-averaging over a
-  stated number of roots, so <code>nroots_per_mult</code> has nothing to
-  record.</p>
+  do not cover it, not because extraction missed anything. For example, most
+  papers print no Cartesian coordinates, so <code>structure_file</code> is
+  filled only where a geometry could be had: copied verbatim from the paper or
+  its supporting information (labelled <em>Computational</em> or
+  <em>Experimental</em>), or, failing that, a PubChem conformer of the named
+  compound whose formula matches the row (labelled <em>AI-generated</em>, and
+  not the geometry the paper used).</p>
 
   <p>The dataset and mining process is Open Source:</p>
   <ul>
@@ -907,8 +910,8 @@ them. The full text is available as <code>LICENSE</code> in the repository root.
 </div>
 </div><!-- /page -->
 
-<script src="data.js?v=5ee75f92"></script>
-<script src="data_reproduced.js?v=7ea18d95"></script>
+<script src="data.js?v=c994d62f"></script>
+<script src="data_reproduced.js?v=b26e0f5f"></script>
 <script>
 // Two blobs, one dataset: database/aimdb_llm_reproduced.csv is published
 // separately so neither CSV nor its generated blob approaches GitHub's 100 MB
@@ -1798,7 +1801,7 @@ if(!window.LIT){
     ["active_space_protocol",            ["active_space_protocol"]],
     ["multiplicities_studied",           ["multiplicities_studied"]],
     ["software",                         ["software"]],
-    ["nroots_per_mult",                  ["nroots_per_mult"]],
+    ["structure_file",                   ["structure_file"]],
   ];
   const covBody = $("#dsCoverage").querySelector("tbody");
   covBody.innerHTML = COVERAGE.map(([label, cols])=>{
