@@ -705,7 +705,8 @@
   <p>The dataset is comprised a set of multiconfigurational quantum chemistry calculations from available literature mined using large languange models (LLMs).</p>
   <p>Current statistics of the database are:</p>
   <div class="stat-grid">
-    <div class="stat-card"><div class="num" id="dsCompounds">—</div><div class="lbl">compound entries</div></div>
+    <div class="stat-card"><div class="num" id="dsLiterature">—</div><div class="lbl">literature entries</div></div>
+    <div class="stat-card"><div class="num" id="dsComputed">—</div><div class="lbl">computed entries</div></div>
     <div class="stat-card"><div class="num" id="dsPapers">—</div><div class="lbl">source papers</div></div>
     <div class="stat-card"><div class="num" id="dsElements">—</div><div class="lbl">elements covered</div></div>
     <div class="stat-card"><div class="num" id="dsYears">—</div><div class="lbl">year range</div></div>
@@ -1786,7 +1787,11 @@ if(!window.LIT){
   // dataset view stats
   const doiSet = new Set(DATA.map(r=>r.reference_doi).filter(Boolean));
   const years = DATA.map(r=>+r.year).filter(y=>y>0);
-  $("#dsCompounds").textContent = DATA.length;
+  // Literature entries report a published calculation; computed entries are
+  // calculations an LLM actually re-ran (entry_type llm_reproduced).
+  const nComputed = DATA.filter(r => r.entry_type === "llm_reproduced").length;
+  $("#dsLiterature").textContent = DATA.length - nComputed;
+  $("#dsComputed").textContent = nComputed;
   $("#dsPapers").textContent = doiSet.size;
   $("#dsElements").textContent = elOrder.length;
   $("#dsYears").textContent = years.length ? `${Math.min(...years)}–${Math.max(...years)}` : "—";
