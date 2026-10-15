@@ -98,7 +98,17 @@ a spin label that pins the d count (quartet, quartet, sextet for 3d³, 3d³,
 linear combinations of 50 and 175 configurations", and the Weyl–Paldus singlet
 dimension of CAS(6,5) is exactly 50 and of CAS(6,6) exactly 175.
 
-## QUEST-sourced rows: keep here, filter on export
+## QUEST-sourced rows: included, no longer filtered on export
+
+**The QUEST exclusion is lifted (user ruling 2026-10-15: "remove the quest
+exclusion, the papers are now able to be included in the database").**
+QUEST-series rows are exported and returned by `mining_agent.query` like any
+other row: `config.QUEST_EXCLUDE` is `False`, so `tools_export.py` drops
+nothing and `query.find()` withholds nothing. The DOI list below and
+`config.QUEST_DOIS` are kept as a **provenance record** of which rows came
+from the QUEST benchmark papers, so the exclusion can be restored by setting
+`QUEST_EXCLUDE = True`. Keep extending the list when another QUEST paper is
+mined. The rest of this section is the history of the rule while it applied.
 
 QUEST-series papers are **in scope for aimdb** — this is a general database and
 their active spaces are legitimate data (user ruling 2026-08-04). The

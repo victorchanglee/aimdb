@@ -359,7 +359,7 @@ def main():
     p.set_defaults(func=cmd_show)
 
     p = sub.add_parser("query", help="read-only query over aimdb.csv "
-                                     "(QUEST rows withheld by default)")
+                                     "(QUEST rows included; see config.QUEST_EXCLUDE)")
     p.add_argument("--entry-id", action="append")
     p.add_argument("--doi", action="append")
     p.add_argument("--element", action="append",
@@ -388,8 +388,8 @@ def main():
     p.add_argument("--limit", type=int, default=None)
     p.add_argument("--offset", type=int, default=0)
     p.add_argument("--include-quest", action="store_true",
-                   help="include QUEST-sourced rows, which are withheld by "
-                        "default (CLAUDE.md export boundary)")
+                   help="no effect while config.QUEST_EXCLUDE is False (QUEST rows "
+                        "are included since 2026-10-15)")
     p.add_argument("--schema", action="store_true",
                    help="print the schema contract and exit")
     p.add_argument("--format", choices=("json", "tsv"), default="json")

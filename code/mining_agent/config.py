@@ -283,6 +283,14 @@ QUEST_DOIS = {
     "10.48550/arxiv.2602.04420",  # UGA-SSMRPT2 benchmark (QUEST-adjacent: QUEST geometries and TBEs)
 }
 
+# QUEST_EXCLUDE: whether the rows above are withheld. False since the user
+# ruling of 2026-10-15 ("remove the quest exclusion, the papers are now able to
+# be included in the database"): QUEST-series rows are exported and returned by
+# mining_agent.query like any other row. QUEST_DOIS stays as a provenance
+# record of which rows came from the QUEST benchmark papers, so the exclusion
+# can be restored by setting this back to True.
+QUEST_EXCLUDE = False
+
 # A row mentioning QUEST outside the known DOIs is reported, never dropped —
 # a paper mined without being added to the list above shows up this way.
 QUEST_TEXT = re.compile(r"\bquest\b", re.I)

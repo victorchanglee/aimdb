@@ -1,4 +1,8 @@
-"""Export aimdb.csv with QUEST-sourced rows dropped.
+"""Export aimdb.csv, dropping QUEST-sourced rows only if config.QUEST_EXCLUDE is set.
+
+Since the user ruling of 2026-10-15 QUEST_EXCLUDE is False, so every row is
+exported and the QUEST DOI list serves only as provenance. The text below
+describes the boundary as it worked while the exclusion was on.
 
 The QUEST database is held out as a benchmark in claude-casscf/test/questdb/.
 Any row mined from a QUEST-series or QUEST-adjacent paper shadows that
@@ -25,7 +29,7 @@ SCAN_FIELDS = config.QUEST_SCAN_FIELDS
 
 
 def main():
-    out = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "database/aimdb_no_quest.csv"
+    out = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / ("database/aimdb_no_quest.csv" if config.QUEST_EXCLUDE else "database/aimdb_export.csv")
     with open(ROOT / "database/aimdb.csv", newline="") as fh:
         reader = csv.DictReader(fh)
         fields = reader.fieldnames
@@ -33,10 +37,10 @@ def main():
 
     kept, dropped, suspect = [], [], []
     for r in rows:
-        if r["reference_doi"].strip().lower() in QUEST_DOIS:
+        if config.QUEST_EXCLUDE and r["reference_doi"].strip().lower() in QUEST_DOIS:
             dropped.append(r)
             continue
-        if any(QUEST_TEXT.search(r.get(f) or "") for f in SCAN_FIELDS):
+        if config.QUEST_EXCLUDE and any(QUEST_TEXT.search(r.get(f) or "") for f in SCAN_FIELDS):
             suspect.append(r)
         kept.append(r)
 

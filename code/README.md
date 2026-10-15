@@ -83,7 +83,7 @@ query.spaces_for(element="Fe")                  # histogram the spaces used
 
 Three things about it are deliberate.
 
-**QUEST rows are withheld by default.** The export boundary in CLAUDE.md is
+**QUEST rows are included** (user ruling 2026-10-15; `config.QUEST_EXCLUDE = False`). While the exclusion applied, they were withheld by default: The export boundary in CLAUDE.md is
 enforced in code here, not left to whoever remembers to run
 `tools_export.py`; `include_quest=True` (`--include-quest`) is the only way
 past it, and the envelope always says how many rows were withheld. The DOI
@@ -124,4 +124,4 @@ paper for.
 | `tools/tools_check_property_leaks.py` | after any hand edit to `properties`, finds a row whose own note or `Other` quotes a value the same edit stored -- which makes the extractor re-derive hand-curated data from the annotation describing the curation. Reads notes and `Other` ALONE, because a row's mining-era prose legitimately carries values the extractor lifted and comparing against all of it buries the real thing. Baseline is seven pre-existing mining-era restatements; a higher count is new. |
 | `tools/tools_properties.py` | fills the packed `properties` field (`D=-31.5 cm-1 calc; gz=19.86 calc; Ueff=877 cm-1 exp`) from the prose already in each row, so the values stay grounded in the source and `benchmark/check_grounding.py` still covers them. Keys are D, E/D, gz and Ueff; a new observable is a new key, not a new column. `--fill-only` merges per key and never overwrites, which is the safe mode after hand-mining; `--apply` rewrites the whole field and discards hand curation. `--migrate` is the one-off that folded the retired `zfs_*` columns in. |
 | `tools/tools_oa.py` | refreshes the `open_access` column from OpenAlex and keeps the full answer in `logs/oa_status.csv`. |
-| `tools/tools_export.py` | exports `aimdb.csv` with QUEST-sourced rows dropped. This is the export boundary the contamination rule in CLAUDE.md depends on. |
+| `tools/tools_export.py` | exports `aimdb.csv`. Drops QUEST-sourced rows only when `config.QUEST_EXCLUDE` is set, which it is not since 2026-10-15. |

@@ -7,7 +7,9 @@ filter over the structured columns that returns JSON-serialisable rows.
 
 Two properties are deliberate and worth keeping.
 
-**The QUEST boundary is enforced here, not remembered.** CLAUDE.md holds QUEST
+**The QUEST boundary is enforced here, not remembered** (when it is on: since
+the user ruling of 2026-10-15 config.QUEST_EXCLUDE is False and no row is
+withheld; the paragraph below describes the mechanism if it is switched back). CLAUDE.md holds QUEST
 out as a benchmark in claude-casscf/test/questdb/, and a 2026-08-03 bulk
 refresh that forgot the rule carried 14 QUEST rows into literature.csv and had
 to be reverted. `load()` and `find()` therefore drop QUEST-sourced rows by
@@ -73,7 +75,10 @@ def schema():
 
 
 def _is_quest(row):
-    return (row.get("reference_doi") or "").strip().lower() in config.QUEST_DOIS
+    """A row withheld as QUEST-sourced. Nothing is, while config.QUEST_EXCLUDE
+    is False (user ruling 2026-10-15)."""
+    return config.QUEST_EXCLUDE and (
+        (row.get("reference_doi") or "").strip().lower() in config.QUEST_DOIS)
 
 
 def _mentions_quest(row):
