@@ -137,6 +137,13 @@ mined):
   CASPT2/NEVPT2 numbers are its own, but all 265 theoretical best estimates and
   the single-reference comparison statistics are pulled from the QUEST
   database. Drop on export.
+- `10.48550/arxiv.2602.04420` — Chanda, Bhattacharjya, Sen & Sen,
+  *UGA-SSMRPT2: A Multireference Perturbation Theory Predicting Accurate
+  Electronic Excitation Energies in Diverse Molecular Systems* (rows
+  `W7128057212-*`). **QUEST-adjacent**: its UGA-SSMRPT2 numbers are its own,
+  but the geometries of the Loos set, the Rydberg systems, CO and HCl are
+  "obtained from the QUEST database", and it benchmarks against the QUEST
+  theoretical best estimates. Drop on export (added 2026-10-15).
 
 Related, and already `not_usable` so it produces no row: `10.1021/acs.jpclett.0c00014`
 (Loos, Scemama & Jacquemin, *The Quest for Highly Accurate Excitation Energies:

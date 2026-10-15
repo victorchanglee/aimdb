@@ -280,6 +280,7 @@ QUEST_DOIS = {
     "10.1021/acs.jctc.4c00410",   # Double Excitations: Improvement and Extension
     "10.1021/acs.jctc.3c01080",   # Transition metal compounds (QUEST-TM)
     "10.1021/acs.jctc.1c01197",   # CASPT2 vs NEVPT2 assessment (QUEST-adjacent)
+    "10.48550/arxiv.2602.04420",  # UGA-SSMRPT2 benchmark (QUEST-adjacent: QUEST geometries and TBEs)
 }
 
 # A row mentioning QUEST outside the known DOIs is reported, never dropped —
