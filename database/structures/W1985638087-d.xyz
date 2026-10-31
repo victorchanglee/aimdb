@@ -1,7 +1,7 @@
 5
-im1 singlet carbonyl oxide; verbatim SI Cartesian block, CASSCF(8,8)/6-311+G(3df,2p) Basis B
-C -1.13857  0.24263  0.00000
-O -0.07162 -0.45372  0.00000
-O  1.11177 -0.21341  0.00000
-H -1.07079  1.31092  0.00000
-H -2.04597 -0.32310  0.00000
+im4 methylenebis(oxy); verbatim SI Cartesian block, CASSCF(18,14)/6-31G(d,p) Basis A
+C  0.00000  0.00000  0.38363
+O  0.00000  1.18999 -0.28016
+O  0.00000 -1.18999 -0.28016
+H -0.89837  0.00000  1.05786
+H  0.89837  0.00000  1.05786

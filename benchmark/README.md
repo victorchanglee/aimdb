@@ -1,5 +1,16 @@
 # benchmark/
 
+## claim_review/ — the mandatory benchmark and fix pass (CLAUDE.md step 5b)
+
+The briefs that every paper's rows go through before they count as final:
+`common_rules.md` (ground truth, reading limits, field rules), `bench_brief.md`
+(the benchmark agent), `fix_brief.md` (the fix agent), `recheck_brief.md` (an
+independent benchmark of the fixed rows) and `target_brief.md` (the targeted
+pass, which clears only what the recheck flags). The mechanics are in
+`code/tools/tools_benchmark.py`; batches and agent outputs live in the
+gitignored `work/`, and per-paper numbers in `logs/benchmark_status.csv`.
+
+
 Re-runnable checks on the *accuracy* of `database/aimdb.csv`, as opposed to its
 schema. `code/tools/tools_audit_database.py` asks whether a row is
 well-formed; these ask whether it is true.

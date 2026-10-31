@@ -637,6 +637,88 @@ PDFs that were added by hand and aren't in the index).
    Then `status=extracted` (or `extracted_partial` if key fields were
    missing but the row is still useful).
 
+5b. **Claim review. Every newly mined paper goes through it, and its rows are
+   not final until it has (user ruling 2026-10-30).** Run it after step 5 on
+   each intake from 2026-10-31 on. Papers mined before that, the same-day ZFS
+   intake of 2026-10-30 included, are **not** re-reviewed: they
+   were mined and audited already, and re-running about 5,000 of them would
+   cost about 340M tokens (user ruling 2026-10-30). The 200 papers of the
+   2026-10-30 evaluation are the exception, and have been reviewed. There are
+   four agent passes per batch of about 10 papers, then a mechanical apply.
+
+   1. **Benchmark.** A fresh agent that did not write the rows judges them
+      against the paper and SI. It splits every field into atomic claims,
+      labels each one supported, unsupported or bookkeeping, and lists the
+      omissions: what the paper reports that the rows lack, including whole
+      missing rows. Brief: `benchmark/claim_review/bench_brief.md`.
+   2. **Fix.** A second agent verifies every benchmark item in the paper. It
+      corrects or removes the unsupported claims, adds the confirmed
+      omissions, and writes the complete corrected row set with a `fix_log`.
+      Brief: `benchmark/claim_review/fix_brief.md`.
+   3. **Recheck.** A fresh agent benchmarks the *fixed* rows exactly as in
+      step 1. It marks any claim that contradicts the paper as unsupported and
+      quotes the passage it contradicts.
+      Brief: `benchmark/claim_review/recheck_brief.md`.
+   4. **Targeted pass (user ruling 2026-10-30).** An agent acts only on what
+      the recheck flags, so the committed rows carry none of the unsupported
+      claims or contradictions it found:
+      - every unsupported claim is corrected to what the paper states, or
+        removed, citing the passage that settles it;
+      - an omission is added only if the fact is printed in the paper or SI;
+      - nothing else changes: no rephrasing, and entry_ids and `continues`
+        are kept.
+
+      This pass exists because the fix pass makes a few errors of its own
+      while adding content. It is a correction step, not a measured stage: the
+      evaluation figures describe the output of step 2.
+      Brief: `benchmark/claim_review/target_brief.md`.
+   5. **Apply.** `code/tools/tools_benchmark.py apply` replaces the paper's
+      rows with the targeted pass's row set. It refuses a batch that has no
+      `target_NN.json`, and refuses to apply a run twice. It:
+      - quarantines the old rows verbatim to `logs/removed_rows.csv`;
+      - carries `structure_file`, `date_added` and `properties` over to the
+        new row describing the same species;
+      - stamps `mining_model` with `config.CURRENT_MINING_MODEL`, the model
+        that ran the review, and never keeps the original miner's value
+        (user ruling 2026-10-31). The original survives only in the
+        quarantined row;
+      - refuses a non-integer active space;
+      - logs each paper to `logs/extractions.csv` and its numbers to
+        `logs/benchmark_status.csv`.
+
+      Then run `tools_fill_element.py --apply` and
+      `tools_properties.py --fill-only`.
+
+   `prepare` writes the batches and `status` shows what is left. Agents never
+   see the database: the rows under review travel in the batch file. Measured
+   on 200 random papers in two independent samples (2026-10-30,
+   `../extraction-eval/evaluation_report.txt`):
+   - a single extraction pass reached precision 0.968 and recall 0.741 against
+     the paper;
+   - after one benchmark and fix pass, 0.997 and 0.967;
+   - unsupported claims fell from 528 to 68, and contradictions from 199 to 4.
+
+   The targeted pass exists to clear those remaining 68 and 4.
+
+   The 200 papers reviewed on 2026-10-30 predate steps 3 and 4. For sample 1,
+   the evaluation's own second benchmark played the recheck's role before the
+   rows were applied. The 100 archived papers received steps 1, 2 and 5 only.
+
+   The errors a single pass makes are predictable:
+   - formulas built from compound names;
+   - assumed singlet multiplicities and point groups;
+   - the neighbouring table column;
+   - `Other` claims generalised beyond the cases shown;
+   - methods named but never run;
+   - species merged into one row;
+   - half the reported values missing from `electronic_structure_description`.
+
+   The fix pass makes errors of its own when it adds content: a table's "4
+   electrons" rewritten as (2,2), separate calculations presented as a
+   build-up, a series reversed. `common_rules.md` now forbids each of these.
+   This is the one case where the append-only rule below does not
+   apply: a reviewed rewrite replaces rows, with the old ones quarantined.
+
 6. **Log.** Every status change appends to `logs/extractions.csv`:
    `timestamp, key, doi, action, result, reasoning`. The audit trail is the
    review mechanism — write reasoning a chemist can check.
@@ -903,4 +985,6 @@ list unfixed because it needs the paper read, not just a block counted.
 - Never add a row whose DOI already has rows, unless it's a genuinely
   different compound from the same paper.
 - Never edit or delete existing `aimdb.csv` rows without being asked —
-  append-only, corrections go in `notes`.
+  append-only, corrections go in `notes`. The exception is the claim-review
+  apply (step 5b), which replaces a paper's rows after its benchmark and fix
+  passes and quarantines the old ones.

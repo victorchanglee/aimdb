@@ -38,7 +38,7 @@ from anywhere else. `tools/_bootstrap.py` is the one non-tool in there: it puts
 
 ## Writing to the database
 
-Only these ten touch `database/aimdb.csv`, and each refuses to act without
+Only these touch `database/aimdb.csv`, and each refuses to act without
 evidence or without preserving what it replaces. The last two delete text, so
 they are held to a stricter rule: they only ever remove a second copy of
 something the row still says elsewhere, they reword nothing, and both run
@@ -50,6 +50,7 @@ something the row still says elsewhere, they reword nothing, and both run
 | `tools/tools_repoint_duplicate_text.py` | after a duplicate is resolved, gives the surviving key the local text sitting under the discarded one. Prefixes the copy with a banner naming the key and DOI it came from, because preprint and published text are not the same document. Touches no row. |
 | `tools/tools_resolve_duplicate_papers.py` | resolves a paper mined twice, once from its preprint and once from the journal. The peer-reviewed version survives (user ruling 2026-10-11), its loser's rows are quarantined, its index record is marked `not_usable`, and the survivor's `notes` gains the alternate DOI. Acts only when the survivor already covers every `(nel,norb)` the loser holds, which is what stops the ruling from destroying data. |
 | `tools/tools_find_published_version.py` | the case that tool cannot see: a row citing a preprint whose published version is **not in the index at all**, so no title match inside the index can find it (353 rows in 136 groups on 2026-10-11). Asks OpenAlex twice per group -- the preprint record's own `locations` for a journal it links to, then a title search confirmed by whole-title equality. Reports only; a title match is a candidate, not a decision, since a published version retitled in review is invisible to both routes and two papers can share a title. |
+| `tools/tools_benchmark.py` | claim review (CLAUDE.md step 5b: benchmark, fix, recheck, targeted pass, apply). `prepare` writes agent batches of newly mined papers not yet reviewed; `score --stage bench|recheck` reports precision/recall before the fix or before the targeted pass; `apply` replaces each paper's rows with the targeted pass's row set (refusing a batch without one, or a run already applied), quarantining the old rows, carrying structure files, `date_added` and `properties` to the same species, refusing a non-integer active space, and logging every paper; `status` shows what is left. |
 | `tools/tools_strip_rows.py` | removes rows whose `compound_name` names no compound, quarantining each removed row verbatim to `logs/removed_rows.csv` first. |
 | `tools/tools_stampdoi.py` | stamps `reference_doi` into row JSONs from the index, so a DOI is never typed from memory. |
 | `tools/tools_trim_restated_name.py` | removes the row's own `compound_name` where it opens a prose segment. Keeps any qualifier after the name, and never touches a segment naming a different species. |

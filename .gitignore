@@ -22,3 +22,7 @@ database/aimdb_no_quest.csv
 database/contribution.csv
 benchmark/__pycache__/
 logs/.restore_text.lock
+
+# Claim-review batches and agent outputs quote the papers; the per-paper
+# numbers live in logs/benchmark_status.csv
+benchmark/work/
