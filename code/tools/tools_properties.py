@@ -142,7 +142,12 @@ def key_unit(key):
     """Canonical unit for a key, or VARIES when the entry carries its own."""
     if key.startswith(B_PREFIX):
         return "cm-1"
-    return KEYS[key]
+    return KEYS[base_key(key)]
+
+
+def base_key(key):
+    """D[NEVPT2] -> D. A method tag never changes a key's unit or order."""
+    return key.split("[", 1)[0]
 # Entry order within the field, so the same row always serialises identically
 # and a diff shows real changes only.
 KEY_ORDER = ("D", "E/D", "gx", "gy", "gz", "gperp", "giso",
@@ -155,12 +160,13 @@ def key_rank(key):
     B(k,q) keys are generated, so they sort after the fixed ones by (k, q)
     rather than appearing in KEY_ORDER.
     """
-    if key in KEY_ORDER:
-        return (0, KEY_ORDER.index(key), 0)
+    if base_key(key) in KEY_ORDER:
+        tag = key[len(base_key(key)):]
+        return (0, KEY_ORDER.index(base_key(key)), tag)
     if key.startswith(B_PREFIX):
         k, q = key[len(B_PREFIX):-1].split(",")
-        return (1, int(k), int(q))
-    return (2, 0, 0)
+        return (1, int(k), str(int(q)).zfill(3))
+    return (2, 0, "")
 SOURCE_ORDER = ("calc", "exp")
 
 # Clause boundaries. Semicolons and pipes are the row-prose separators used
@@ -193,10 +199,53 @@ CALC = re.compile(
 EXP = re.compile(
     # "expt"/"exptl" is how a table heading writes it, and the
     # unabbreviated "experiment" does not match either.
-    r"experiment|\bexptl?\b|measured|\bEPR\b|\bESR\b|HFEPR|HF-ESR|magnetometr|"
+    r"experiment|\bexptl?\b|\bexp\b(?=\s*[.:)])|measured|\bEPR\b|\bESR\b|HFEPR|HF-ESR|magnetometr|"
     r"\bINS\b|inelastic neutron|susceptibilit|M(?:o|ö)ssbauer|"
     r"fit(?:ted|ting)?\b|from the fit|observed|reported value|"
     r"far[- ]IR|torque magnetometr|Raman", re.I)
+# The level of theory a computed value belongs to, by the nearest method name
+# before it in the same clause. A row often reports D at CASSCF and at
+# NEVPT2 (or CASPT2) side by side, and a single "D" key cannot hold both:
+# such rows used to be refused as "disagrees across clauses" and lost every
+# computed D they stated (414 rows on 2026-10-31). Tagged, each method keeps
+# its own key -- D[NEVPT2], D[CASSCF] -- and only a disagreement WITHIN one
+# method is still refused. Order matters: longer names first, so "SO-CASPT2"
+# is CASPT2 and "CASSCF/NEVPT2" resolves to whichever sits nearest the value.
+METHOD_TAGS = (
+    ("NEVPT2", r"NEVPT2?"),
+    ("CASPT2", r"CASPT2|RASPT2"),
+    ("MRCI", r"\bMRCI|\bSORCI\b|\bDDCI\d?\b|\bMRDDCI"),
+    ("CASCI", r"\bCASCI\b"),
+    ("DMRG", r"\bDMRG"),
+    ("RASSCF", r"\bRASSCF\b"),
+    ("CASSCF", r"CASSCF|\bCAS\s*\("),
+    ("DFT", r"\bDFT\b|B3LYP|PBE0?\b|TPSS|BP86|\bCP-DFT"),
+)
+METHOD_RE = re.compile("|".join("(?P<%s>%s)" % (t, p) for t, p in METHOD_TAGS))
+
+
+def method_at(clause, pos):
+    """Method named nearest before `pos` in the clause, or ''.
+
+    A multireference method wins over a DFT name anywhere before the value:
+    "NEVPT2/TZVP-DKH (PBE0/def2-TZVP geometry): D = -85.50" is a NEVPT2 D on
+    a DFT geometry, and the nearest name alone would call it DFT. DFT is the
+    tag only when the clause names no multireference method before the value.
+    """
+    names = [m.lastgroup for m in METHOD_RE.finditer(clause[:pos])]
+    mr = [n for n in names if n != "DFT"]
+    return mr[-1] if mr else (names[-1] if names else "")
+
+
+def row_method(row):
+    """The single method the row's own `method` field names, or ''."""
+    tags = {m.lastgroup for m in METHOD_RE.finditer(row.get("method") or "")}
+    mr = tags - {"DFT"}
+    if len(mr) == 1:
+        return mr.pop()
+    return tags.pop() if len(tags) == 1 else ""
+
+
 # Distinct measurement techniques. Two or more in one clause means the paper
 # reports several experimental values, so none of them is "the" experiment.
 TECHNIQUES = (r"\bEPR\b", r"\bESR\b", r"HFEPR|HF-ESR", r"magnetometr",
@@ -217,7 +266,7 @@ D_PAT = re.compile(
 E_PAT = re.compile(
     r"\b(?:absE|E)\b\s*(?:=|of|is|:)\s*(%s)(?![A-Za-z])" % NUM)
 ED_PAT = re.compile(
-    r"\bE\s*/\s*D\b\s*(?:=|of|is|:)\s*(%s)(?![A-Za-z])" % NUM)
+    r"\b(?:abs)?E\s*/\s*D\b\s*(?:=|of|is|:)\s*(%s)(?![A-Za-z])" % NUM)
 # A second number right after the first means a range or a list.
 # A number may carry a parenthesised uncertainty -- 11.76(3) -- which sits
 # between the value and whatever separates it from the next one.
@@ -793,6 +842,53 @@ def classify_at(clause, pos):
     return "calc" if last_calc > last_exp else "exp"
 
 
+def decimals(value):
+    text = ("%.6f" % abs(value)).rstrip("0")
+    return len(text.split(".")[1]) if "." in text else 0
+
+
+def collapse_rounding(vals):
+    """Treat values that agree at the coarser precision as one value.
+
+    "D = -7.002 (Table 1: -7.0)" states one number twice; refusing the key as
+    a disagreement lost it. Each value is replaced by the most precise value
+    it rounds to, so genuinely different numbers stay different.
+    """
+    out = []
+    for v, how in vals:
+        best = v
+        for w, _ in vals:
+            d = min(decimals(v), decimals(w))
+            if round(v, d) == round(w, d) and decimals(w) > decimals(best):
+                best = w
+        out.append((best, how))
+    return out
+
+
+def per_method(name, src, vals, tags):
+    """{(name[TAG], src): (value, how)} when every value carries a method tag
+    and the values agree within each method, else None.
+
+    An untagged value among disagreeing ones is unattributable, and two
+    different values under one method are a genuine conflict (several active
+    spaces, geometries or sites) -- both still refuse the whole key.
+    """
+    if not all(tags) or len(set(tags)) < 2:
+        return None
+    by = {}
+    for (value, how), tag in zip(vals, tags):
+        by.setdefault(tag, set()).add((value, how))
+    out = {}
+    for tag, vs in by.items():
+        values = {v for v, _ in vs}
+        if len(values) != 1:
+            return None
+        value = values.pop()
+        how = "derived" if all(h == "derived" for _, h in vs) else "stated"
+        out[("%s[%s]" % (name, tag), src)] = (value, how)
+    return out
+
+
 def extract(row):
     """Return ({column: value}, [notes about what was skipped])."""
     found = {k: [] for k in ("D_calc", "ED_calc", "D_exp", "ED_exp")}
@@ -866,7 +962,8 @@ def extract(row):
                     skipped.append("D = %g exceeds %g cm-1, not a ZFS "
                                    "parameter" % (val, MAX_D))
                 else:
-                    found["D_" + kind].append((round(val, 6), unit))
+                    tag = method_at(clause, m.start()) if kind == "calc" else ""
+                    found["D_" + kind].append((round(val, 6), unit, tag))
                     if not unit:
                         skipped.append("D unit absent, assumed cm-1")
             # E/D as stated wins over E/D derived from a stated E and D.
@@ -876,7 +973,8 @@ def extract(row):
                 if kind == "exp" and n_tech > 1:
                     continue
                 if kind:
-                    found["ED_" + kind].append((abs(float(m.group(1))), "stated"))
+                    tag = method_at(clause, m.start()) if kind == "calc" else ""
+                    found["ED_" + kind].append((abs(float(m.group(1))), "stated", tag))
             if not stated:
                 ds = list(D_PAT.finditer(masked))
                 for me in E_PAT.finditer(clause):
@@ -890,7 +988,8 @@ def extract(row):
                         continue
                     if kind and abs(float(md.group(1))) <= MAX_D:
                         ratio = abs(float(me.group(1)) / float(md.group(1)))
-                        found["ED_" + kind].append((round(ratio, 4), "derived"))
+                        tag = method_at(clause, me.start()) if kind == "calc" else ""
+                        found["ED_" + kind].append((round(ratio, 4), "derived", tag))
 
     mag, mag_skipped = extract_magnetic(row)
     for key, vals in mag.items():
@@ -909,11 +1008,33 @@ def extract(row):
             key = (name, src)
         name, src = key
         canonical = key_unit(name)
+        # D / E/D values carry a method tag (third element). Strip it for the
+        # usual single-key path; use it only when the values disagree.
+        tags = [v[2] if len(v) > 2 else "" for v in vals]
+        if src == "calc" and not all(tags):
+            fallback = row_method(row)
+            tags = [t or fallback for t in tags]
+        vals = [(v[0], v[1]) for v in vals]
+        if canonical is not VARIES:
+            vals = collapse_rounding(vals)
         # A key whose unit VARIES must compare value AND unit: 35.8 G and
         # 35.8 MHz are not the same number stated twice.
         distinct = ({(v, u) for v, u in vals} if canonical is VARIES
                     else {v for v, _ in vals})
         if len(distinct) > 1:
+            split = per_method(name, src, vals, tags) if src == "calc" else None
+            if split:
+                for (tname, tsrc), (value, how) in split.items():
+                    if name == "E/D" and value > ED_MAX:
+                        skipped.append("E/D (%s) = %s exceeds the rhombic limit 1/3"
+                                       % (tname, value))
+                        continue
+                    entries[(tname, tsrc)] = (value, canonical)
+                    if how == "derived":
+                        units.append("E/D (calc) derived as |E/D|")
+                skipped.append("%s (%s) split by method: %s"
+                               % (name, src, ", ".join(sorted(t for t, _ in split))))
+                continue
             skipped.append("%s (%s) disagrees across clauses: %s"
                            % (name, src, sorted(distinct, key=repr)))
             continue

@@ -911,7 +911,7 @@ them. The full text is available as <code>LICENSE</code> in the repository root.
 </div>
 </div><!-- /page -->
 
-<script src="data.js?v=c7a6a443"></script>
+<script src="data.js?v=bcb7809a"></script>
 <script src="data_reproduced.js?v=a6645fa6"></script>
 <script>
 // Two blobs, one dataset: database/aimdb_llm_reproduced.csv is published
@@ -1158,7 +1158,11 @@ const PROPS = [
   // costing a reader two decisions. PROP_NAMES below still labels them
   // separately, because the detail view shows each value on its own line and
   // there D and E/D are different numbers.
-  {key:"D",     label:"ZFS (D, E/D)", keys:["D","E/D"]},
+  // A row reporting D at several levels of theory carries method-tagged keys,
+  // D[NEVPT2], D[CASSCF], E/D[CASSCF] ... (tools_properties.py, 2026-10-31),
+  // because one D key cannot hold two methods' values. They are the same
+  // measurement, so they belong to this chip.
+  {key:"D",     label:"ZFS (D, E/D)", keys:["D","E/D"], prefixes:["D[","E/D["]},
   {key:"g",     label:"g tensor",
    // g1/g2/g3 are principal values in the paper's own order, which this
    // corpus prints both ascending and descending, so they are not mapped
@@ -1176,7 +1180,8 @@ const PROPS = [
 // render, and re-parsing the field each time would be four parses per row.
 DATA.forEach(r => { r._propKeys = new Set(parseProps(r).map(e => e.key)); });
 const hasProp = (r, p) => p.keys.some(k => r._propKeys.has(k)) ||
-  (!!p.prefix && [...r._propKeys].some(k => k.startsWith(p.prefix)));
+  (!!p.prefix && [...r._propKeys].some(k => k.startsWith(p.prefix))) ||
+  (!!p.prefixes && [...r._propKeys].some(k => p.prefixes.some(x => k.startsWith(x))));
 let propCount = {};
 PROPS.forEach(p => { propCount[p.key] = DATA.filter(r => hasProp(r, p)).length; });
 const PROP_TOTAL = Object.assign({}, propCount);
@@ -1287,12 +1292,17 @@ const PROP_NAMES = {"D":"ZFS D", "E/D":"ZFS E/D",
                     "g1":"g\u2081 (principal)", "g2":"g\u2082 (principal)",
                     "g3":"g\u2083 (principal)",
                     "A":"Hyperfine A", "Ueff":"U_eff (barrier)"};
+// "D[NEVPT2]" -> "ZFS D (NEVPT2)": the method tag shown beside the usual name.
+function propName(k){
+  const m = /^(.+?)\[(.+)\]$/.exec(k);
+  return m ? `${PROP_NAMES[m[1]]||m[1]} (${m[2]})` : (PROP_NAMES[k]||k);
+}
 function propsHtml(r){
   const es = parseProps(r);
   if(!es.length) return '<span class="empty">—</span>';
   const unit = u => u === "cm-1" ? " cm\u207b\u00b9" : (u ? " " + esc(u) : "");
   return `<div class="proplist">` + es.map(e =>
-    `<div class="propline"><span class="propkey">${esc(PROP_NAMES[e.key]||e.key)}</span>` +
+    `<div class="propline"><span class="propkey">${esc(propName(e.key))}</span>` +
     `<span class="propval">${esc(String(e.value))}${unit(e.unit)}</span>` +
     `<span class="propsrc ${e.source}">${e.source === "calc" ? "computational" : "experimental"}</span></div>`
   ).join("") + `</div>`;
