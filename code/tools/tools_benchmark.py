@@ -496,6 +496,8 @@ def cmd_apply(a):
             + (f" Not usable: {reason}" if decision != "usable" else ""))
         if decision != "usable" and idx.get(k, {}).get("status") != "not_usable":
             index.set_status(k, "not_usable")
+        elif decision == "usable" and idx.get(k, {}).get("status") not in config.MINED_STATUSES:
+            index.set_status(k, "extracted")  # a newly mined paper: its rows are now final
     print(f"applied; quarantined {len(removed_all)} old rows. Next, from code/: "
           "tools/tools_fill_element.py --apply; tools/tools_properties.py --fill-only")
     return 0

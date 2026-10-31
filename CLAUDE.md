@@ -646,6 +646,9 @@ PDFs that were added by hand and aren't in the index).
    2026-10-30 evaluation are the exception, and have been reviewed. There are
    four agent passes per batch of about 10 papers, then a mechanical apply.
 
+   0. **Extraction.** For a new intake, extraction agents write the first rows
+      blind. Brief: `benchmark/claim_review/extract_brief.md`. Their output
+      becomes the rows under review via `prepare --rows-from`.
    1. **Benchmark.** A fresh agent that did not write the rows judges them
       against the paper and SI. It splits every field into atomic claims,
       labels each one supported, unsupported or bookkeeping, and lists the
