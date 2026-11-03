@@ -281,6 +281,8 @@ QUEST_DOIS = {
     "10.1021/acs.jctc.3c01080",   # Transition metal compounds (QUEST-TM)
     "10.1021/acs.jctc.1c01197",   # CASPT2 vs NEVPT2 assessment (QUEST-adjacent)
     "10.48550/arxiv.2602.04420",  # UGA-SSMRPT2 benchmark (QUEST-adjacent: QUEST geometries and TBEs)
+    "10.1039/d5sc09498d",         # XS-CASSCF (QUEST-adjacent: QUESTDB geometries and reference values)
+    "10.1021/acs.jpca.3c05559",   # Qat diagnostic (QUEST-adjacent: QUESTDB best estimates as reference)
 }
 
 # QUEST_EXCLUDE: whether the rows above are withheld. False since the user

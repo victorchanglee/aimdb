@@ -154,6 +154,15 @@ mined):
   but the geometries of the Loos set, the Rydberg systems, CO and HCl are
   "obtained from the QUEST database", and it benchmarks against the QUEST
   theoretical best estimates. Drop on export (added 2026-10-15).
+- `10.1039/d5sc09498d` — *Accurate energies for ππ\* excited states via
+  exchange scaling: the XS-CASSCF method* (rows `W4416881924-*`).
+  **QUEST-adjacent**: its XS-CASSCF numbers are its own, but the hexatriene
+  and dataset geometries and reference values are taken from QUESTDB (added
+  2026-11-02, found by the claim review).
+- `10.1021/acs.jpca.3c05559` — do Monte et al., *Quantification of the Ionic
+  Character of Multiconfigurational Wave Functions: The Qat Diagnostic* (rows
+  `W4387745042-*`). **QUEST-adjacent**: benchmarks its SA-CASSCF/MR-CI
+  excitations against the QUESTDB best estimates (added 2026-11-02).
 
 Related, and already `not_usable` so it produces no row: `10.1021/acs.jpclett.0c00014`
 (Loos, Scemama & Jacquemin, *The Quest for Highly Accurate Excitation Energies:

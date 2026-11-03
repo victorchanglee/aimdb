@@ -70,7 +70,10 @@ Allowed columns:
 
 The derived and bookkeeping columns (structure_file, element, properties,
 open_access, date_added and the rest) are kept by the apply tool. Never
-output them.
+output them. One sentence in `notes` belongs to them: a row whose structure
+is a PubChem conformer must say that its structure_file is GENERATED and not
+the paper's geometry. That caveat is required by CLAUDE.md, not narration —
+keep it when you rewrite `notes`.
 
 ### Field rules
 
