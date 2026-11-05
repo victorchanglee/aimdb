@@ -1,0 +1,183 @@
+# VERBATIM data block data_CSD_CIF_WEQFON from CCDC deposition 102141 (CCDC Access Structures, downloaded by the user), cited in 10.1002/asia.201901140 CCDC 102141
+# [Co{N(SePiPr2)2}2] (complex 8), CCDC 102141, a cited literature structure; calculations performed on the reported crystal structure.; crystal formula C24 H56 Co1 N2 P4 Se4. Experimental (X-ray) structure, not optimised.
+data_CSD_CIF_WEQFON
+_audit_block_doi                 10.5517/cc3f8wn
+_database_code_depnum_ccdc_archive 'CCDC 102141'
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1016/S0277-5387(98)00397-0 1999
+_audit_update_record             
+;
+2006-10-26 deposited with the CCDC.	2026-11-05 downloaded from the CCDC.
+;
+_audit_creation_date             2000-11-01
+_audit_creation_method           CSD-ConQuest-V1
+_database_code_CSD               WEQFON
+_chemical_formula_sum            'C24 H56 Co1 N2 P4 Se4'
+_chemical_formula_moiety         
+;
+C24 H56 Co1 N2 P4 Se4
+;
+_chemical_name_systematic        
+;
+bis(N,N'-bis(Di-isopropylphosphine selenide)imide-S,S')-cobalt(ii)
+;
+_chemical_melting_point          473.15
+_cell_volume                     1795.512
+_exptl_crystal_colour            green
+_exptl_crystal_density_diffrn    1.612
+_exptl_special_details           
+;
+Melting point range 473.15-476.15K
+
+;
+_exptl_crystal_description       plate
+_exptl_crystal_preparation       'diethyl ether/dichloromethane'
+_diffrn_ambient_temperature      ?
+_diffrn_special_details          
+;
+The study was carried out at room temperature,in the range 283-303K
+
+;
+#These two values have been output from a single CSD field.
+_refine_ls_R_factor_gt           0.0567
+_refine_ls_wR_factor_gt          0.0567
+_symmetry_cell_setting           triclinic
+_symmetry_space_group_name_H-M   'P -1'
+_symmetry_Int_Tables_number      2
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,-y,-z
+_cell_length_a                   9.336(2)
+_cell_length_b                   12.894(3)
+_cell_length_c                   16.380(3)
+_cell_angle_alpha                79.05(3)
+_cell_angle_beta                 78.22(3)
+_cell_angle_gamma                69.74(3)
+_cell_formula_units_Z            2
+loop_
+_atom_type_symbol
+_atom_type_radius_bond
+C 0.68
+H 0.23
+Co 1.33
+N 0.68
+P 1.05
+Se 1.22
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Se1 Se 0.4015(1) 0.3748(1) 0.1828(1)
+Se2 Se 0.6182(1) 0.4847(1) 0.3217(1)
+Se3 Se 0.8544(1) 0.2972(1) 0.1454(1)
+Se4 Se 0.6311(1) 0.1661(1) 0.3543(1)
+Co1 Co 0.6263(2) 0.3313(1) 0.2522(1)
+P1 P 0.2948(3) 0.5556(3) 0.1765(2)
+P2 P 0.3776(4) 0.5895(3) 0.3336(2)
+P3 P 1.0225(3) 0.1490(3) 0.1995(2)
+P4 P 0.8061(3) 0.0295(3) 0.2947(2)
+N1 N 0.2865(10) 0.6120(8) 0.2553(6)
+N2 N 0.9664(11) 0.0473(8) 0.2455(6)
+C1 C 0.0941(13) 0.5902(11) 0.1598(7)
+C2 C 0.0820(14) 0.5407(12) 0.0838(8)
+C3 C 0.0007(14) 0.5467(12) 0.2380(8)
+C4 C 0.3862(14) 0.6208(11) 0.0809(8)
+C5 C 0.5610(13) 0.5957(11) 0.0847(7)
+C6 C 0.3046(15) 0.7443(11) 0.0634(8)
+C7 C 0.2781(14) 0.5335(11) 0.4308(7)
+C8 C 0.2697(13) 0.4188(10) 0.4229(7)
+C9 C 0.1123(14) 0.6145(11) 0.4567(8)
+C10 C 0.3716(13) 0.7247(10) 0.3531(7)
+C11 C 0.4606(15) 0.7804(11) 0.2758(8)
+C12 C 0.4285(16) 0.7227(13) 0.4328(8)
+C13 C 1.1219(13) 0.1914(10) 0.2670(7)
+C14 C 1.0094(13) 0.2438(10) 0.3431(7)
+C15 C 1.2579(13) 0.0971(11) 0.2961(8)
+C16 C 1.1704(13) 0.0944(10) 0.1138(7)
+C17 C 1.2511(15) 0.1830(11) 0.0640(8)
+C18 C 1.1051(16) 0.0504(12) 0.0524(8)
+C19 C 0.7180(14) -0.0198(10) 0.2270(7)
+C20 C 0.6576(13) 0.0697(10) 0.1555(7)
+C21 C 0.8231(14) -0.1291(10) 0.1955(8)
+C22 C 0.8609(14) -0.0877(11) 0.3780(7)
+C23 C 0.7244(15) -0.1283(12) 0.4248(8)
+C24 C 0.9339(15) -0.0548(12) 0.4402(8)
+H1 H 0.0491(13) 0.6715(11) 0.1497(7)
+H2 H 0.1405(14) 0.5675(12) 0.0341(8)
+H3 H -0.0242(14) 0.5630(12) 0.0762(8)
+H4 H 0.1223(14) 0.4608(12) 0.0937(8)
+H5 H 0.0074(14) 0.5770(12) 0.2858(8)
+H6 H 0.0412(14) 0.4669(12) 0.2475(8)
+H7 H -0.1053(14) 0.5690(12) 0.2300(8)
+H8 H 0.3802(14) 0.5865(11) 0.0337(8)
+H9 H 0.6097(13) 0.5167(11) 0.0959(7)
+H10 H 0.5710(13) 0.6313(11) 0.1287(7)
+H11 H 0.6098(13) 0.6237(11) 0.0318(7)
+H12 H 0.1977(15) 0.7570(11) 0.0614(8)
+H13 H 0.3515(15) 0.7735(11) 0.0104(8)
+H14 H 0.3127(15) 0.7810(11) 0.1072(8)
+H15 H 0.3384(14) 0.5234(11) 0.4758(7)
+H16 H 0.3718(13) 0.3697(10) 0.4070(7)
+H17 H 0.2070(13) 0.427(1) 0.3809(7)
+H18 H 0.2249(13) 0.3881(10) 0.4760(7)
+H19 H 0.1186(14) 0.6858(11) 0.4615(8)
+H20 H 0.0672(14) 0.5843(11) 0.5098(8)
+H21 H 0.0493(14) 0.6231(11) 0.4147(8)
+H22 H 0.2631(13) 0.7719(10) 0.3584(7)
+H23 H 0.4224(15) 0.7807(11) 0.2255(8)
+H24 H 0.5688(15) 0.7390(11) 0.2707(8)
+H25 H 0.4452(15) 0.8556(11) 0.2836(8)
+H26 H 0.3724(16) 0.6882(13) 0.4793(8)
+H27 H 0.4129(16) 0.7976(13) 0.4415(8)
+H28 H 0.5365(16) 0.6810(13) 0.4285(8)
+H29 H 1.1623(13) 0.2493(10) 0.2330(7)
+H30 H 0.9238(13) 0.3036(10) 0.3234(7)
+H31 H 1.0627(13) 0.2722(10) 0.3733(7)
+H32 H 0.9722(13) 0.1881(10) 0.3797(7)
+H33 H 1.3260(13) 0.0658(11) 0.2482(8)
+H34 H 1.2219(13) 0.0406(11) 0.3325(8)
+H35 H 1.3123(13) 0.1248(11) 0.3261(8)
+H36 H 1.2502(13) 0.0309(10) 0.1382(7)
+H37 H 1.2909(15) 0.2094(11) 0.1027(8)
+H38 H 1.1769(15) 0.2446(11) 0.0367(8)
+H39 H 1.3343(15) 0.1485(11) 0.0226(8)
+H40 H 1.0568(16) -0.0029(12) 0.0833(8)
+H41 H 1.1877(16) 0.0154(12) 0.0109(8)
+H42 H 1.0303(16) 0.1115(12) 0.0251(8)
+H43 H 0.6276(14) -0.0358(10) 0.2620(7)
+H44 H 0.5922(13) 0.1368(10) 0.1781(7)
+H45 H 0.5995(13) 0.0442(10) 0.1262(7)
+H46 H 0.7430(13) 0.0845(10) 0.1172(7)
+H47 H 0.8583(14) -0.1829(10) 0.2424(8)
+H48 H 0.9103(14) -0.1165(10) 0.1576(8)
+H49 H 0.7668(14) -0.1568(10) 0.1666(8)
+H50 H 0.9393(14) -0.1501(11) 0.3518(7)
+H51 H 0.6795(15) -0.1487(12) 0.3850(8)
+H52 H 0.6479(15) -0.0695(12) 0.4530(8)
+H53 H 0.7611(15) -0.1918(12) 0.4653(8)
+H54 H 1.0183(15) -0.0299(12) 0.4105(8)
+H55 H 0.9712(15) -0.1181(12) 0.4808(8)
+H56 H 0.8580(15) 0.0042(12) 0.4685(8)
+#END
+####################################################################### 
+# 
+# This file contains crystal structure data downloaded from the 
+# Cambridge Structural Database (CSD) hosted by the Cambridge 
+# Crystallographic Data Centre (CCDC).
+# 
+# Full information about CCDC data access policies and citation 
+# guidelines are available at http://www.ccdc.cam.ac.uk/access/V1 
+# 
+# Audit and citation data items may have been added by the CCDC. 
+# Please retain this information to preserve the provenance of 
+# this file and to allow appropriate attribution of the data. 
+# 
+#######################################################################
+

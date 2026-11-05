@@ -1,0 +1,349 @@
+# VERBATIM data block data_ZABIROV25 from CCDC deposition 225507 (CCDC Access Structures, downloaded by the user), cited in 10.1002/asia.201901140 CCDC 225507
+# [Co{PhC(S)NP(O)(OiPr)2}2] (complex 2), CCDC 225507, a cited literature structure; calculations performed on the reported crystal structure.; crystal formula C26H38N2O6P2S2Co. Experimental (X-ray) structure, not optimised.
+data_ZABIROV25
+_audit_block_doi                 10.5517/cc7knfv
+_database_code_depnum_ccdc_archive 'CCDC 225507'
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1070/MC2004v014n02ABEH001874 2004
+2 10.1002/zaac.200700122 2007
+_audit_update_record             
+;
+2003-12-01 deposited with the CCDC.	2026-11-05 downloaded from the CCDC.
+;
+_audit_creation_date             22-10-03
+_audit_creation_method           from_MolEN_master_file_using_cif_in
+
+# 5. CRYSTAL DATA
+
+_chemical_compound_source        ?
+_exptl_crystal_description       prismatic
+_exptl_crystal_colour            violet
+_exptl_crystal_size_max          0.35
+_exptl_crystal_size_mid          0.35
+_exptl_crystal_size_min          0.35
+_chemical_name_systematic        
+; ?
+;
+_exptl_crystal_density_method    ?
+
+_chemical_formula_sum            C26H38N2O6P2S2Co
+_chemical_formula_structural     ?
+_chemical_formula_weight         659.61
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_h-m   'C 1 2/c 1 '
+_cell_length_a                   18.249(3)
+_cell_length_b                   9.769(1)
+_cell_length_c                   18.220(7)
+_cell_angle_alpha                90.00
+_cell_angle_beta                 93.23(2)
+_cell_angle_gamma                90.01
+_cell_volume                     3242.83
+_cell_measurement_reflns_used    0
+_cell_measurement_theta_min      0
+_cell_measurement_theta_max      0
+_cell_formula_units_z            4.00
+_exptl_crystal_density_diffrn    1.35
+_exptl_crystal_density_meas      ?
+_diffrn_radiation_type           Mo-K\a
+_diffrn_radiation_wavelength     0.71073
+_exptl_absorpt_coefficient_mu    0.786
+_cell_measurement_temperature    294
+_exptl_crystal_F_000             1380
+
+# 6. DATA COLLECTION
+
+_diffrn_measurement_device       Enraf_Nonius_CAD4
+_diffrn_measurement_method       \w
+_exptl_absorpt_correction_type   none
+_exptl_absorpt_correction_T_min  0.0000
+_exptl_absorpt_correction_T_max  0.0000
+_diffrn_reflns_number            2537
+_reflns_number_total             1629
+_reflns_number_observed          1629
+_reflns_observed_criteria        >3.0\s(I)
+_diffrn_reflns_av_R_equivalents  0.000
+_diffrn_reflns_theta_max         24.62
+_diffrn_reflns_limit_h_min       -19
+_diffrn_reflns_limit_k_min       -10
+_diffrn_reflns_limit_l_min       -21
+_diffrn_reflns_limit_h_max       0
+_diffrn_reflns_limit_k_max       0
+_diffrn_reflns_limit_l_max       19
+_diffrn_standards_number         3
+_diffrn_standards_interval_count ?
+_diffrn_standards_interval_time  0
+_diffrn_standards_decay_%        0.00
+
+# 7. REFINEMENT DATA
+
+
+_refine_ls_structure_factor_coef F
+_refine_ls_R_factor_obs          0.030
+_refine_ls_wR_factor_obs         0.036
+_refine_ls_hydrogen_treatment    refined_isotropically
+_refine_ls_number_reflns         1629
+_refine_ls_number_parameters     253
+_refine_ls_goodness_of_fit_obs   1.138
+_refine_ls_weighting_scheme      '4Fo^2^/ (\s^2^(Fo^2^) + 0.0016 Fo^4^)'
+_refine_ls_shift/esd_max         0.002
+_refine_diff_density_max         0.3961
+_refine_diff_density_min         0.0000
+_refine_ls_extinction_method     none
+_refine_ls_extinction_coef       0.00E+00
+_atom_type_scat_source           International_Tables_for_Xray_Crystallography
+
+# 8. COMPUTING DATA
+
+
+_computing_data_collection       CAD4_(Enraf-Nonius,_1977)
+_computing_cell_refinement       CAD4_(Enraf-Nonius,_1977)
+_computing_data_reduction        process_MolEN_(Fair,_1990)
+_computing_structure_solution    Direct_methods_(SIR,_Burla_et_al.,_1989)
+_computing_structure_refinement  LSFM_MolEN_(Fair,_1990)
+_computing_molecular_graphics    ORTEP_(Johnson,_1976)
+_computing_publishing_material   BTABLE_PTABLE_CIF_IN_MolEN_(Fair,_1990)
+_refine_ls_abs_structure_details 
+;
+?
+;
+
+# 9. ATOMIC COORDINATES AND THERMAL PARAMETERS
+
+
+
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_calc_flag
+Co1 1.0000 0.07340(7) 0.7500 0.0390(3) Uani ?
+S2 0.89690(5) -0.0546(1) 0.72289(5) 0.0616(6) Uani ?
+P1 1.06009(5) 0.21379(9) 0.89170(4) 0.0373(4) Uani ?
+O1 0.9985(1) 0.1900(2) 0.8361(1) 0.045(1) Uani ?
+O8 1.0988(1) 0.3535(2) 0.8803(1) 0.050(1) Uani ?
+O12 1.0265(1) 0.2292(2) 0.9674(1) 0.042(1) Uani ?
+N1 0.8752(1) 0.1018(2) 0.5998(1) 0.040(1) Uani ?
+C1 0.8552(2) 0.0014(3) 0.6406(2) 0.037(2) Uani ?
+C2 0.7874(2) -0.0734(3) 0.6146(2) 0.039(2) Uani ?
+C3 0.7467(2) -0.0262(4) 0.5534(2) 0.057(2) Uani ?
+C4 0.6833(2) -0.0907(4) 0.5293(2) 0.071(2) Uani ?
+C5 0.6583(2) -0.2028(4) 0.5648(2) 0.062(2) Uani ?
+C6 0.6978(2) -0.2515(4) 0.6252(2) 0.061(2) Uani ?
+C7 0.7623(2) -0.1876(3) 0.6499(2) 0.052(2) Uani ?
+C9 1.1455(2) 0.3711(4) 0.8181(2) 0.059(2) Uani ?
+C10 1.2223(2) 0.3849(5) 0.8484(2) 0.091(3) Uani ?
+C11 1.1177(3) 0.4914(5) 0.7740(2) 0.106(3) Uani ?
+C13 1.0690(2) 0.2421(4) 1.0375(2) 0.051(2) Uani ?
+C14 1.0734(3) 0.1049(5) 1.0724(2) 0.086(3) Uani ?
+C15 1.0291(3) 0.3465(5) 1.0819(2) 0.100(3) Uani ?
+H3 0.764(1) 0.055(2) 0.529(1) 0.048(8) Uiso ?
+H4 0.663(2) -0.060(3) 0.490(2) 0.059(9) Uiso ?
+H5 0.614(2) -0.248(3) 0.548(1) 0.056(9) Uiso ?
+H6 0.682(2) -0.332(3) 0.650(1) 0.07(1) Uiso ?
+H7 0.789(1) -0.222(2) 0.691(1) 0.037(7) Uiso ?
+H9 1.139(1) 0.285(3) 0.786(1) 0.048(8) Uiso ?
+H13 1.118(2) 0.282(3) 1.030(1) 0.056(9) Uiso ?
+H101 1.224(2) 0.463(4) 0.883(2) 0.12(1) Uiso ?
+H102 1.239(2) 0.314(3) 0.872(2) 0.11(1) Uiso ?
+H103 1.253(2) 0.393(4) 0.808(2) 0.11(1) Uiso ?
+H111 1.151(2) 0.504(3) 0.732(2) 0.10(1) Uiso ?
+H112 1.118(2) 0.569(4) 0.807(2) 0.14(2) Uiso ?
+H113 1.071(2) 0.478(4) 0.761(2) 0.13(1) Uiso ?
+H141 1.096(2) 0.105(4) 1.117(2) 0.11(1) Uiso ?
+H142 1.098(2) 0.032(4) 1.041(2) 0.13(1) Uiso ?
+H143 1.024(2) 0.077(4) 1.087(2) 0.12(1) Uiso ?
+H151 1.032(2) 0.430(3) 1.052(2) 0.08(1) Uiso ?
+H152 1.057(2) 0.353(4) 1.127(2) 0.12(1) Uiso ?
+H153 0.976(2) 0.288(4) 1.092(2) 0.16(2) Uiso ?
+
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Co1 0.0351(3) 0.0575(4) 0.0295(3) 0.0000 -0.0071(3) 0.0000
+S2 0.0584(6) 0.0854(6) 0.0467(5) -0.0288(5) -0.0196(5) 0.0249(5)
+P1 0.0342(4) 0.0486(5) 0.0312(4) 0.0055(4) -0.0024(4) -0.0025(4)
+O1 0.040(1) 0.065(1) 0.035(1) 0.012(1) -0.010(1) -0.008(1)
+O8 0.052(1) 0.052(1) 0.045(1) -0.001(1) 0.012(1) -0.004(1)
+O12 0.036(1) 0.067(1) 0.030(1) 0.005(1) -0.003(1) -0.002(1)
+N1 0.035(1) 0.048(2) 0.038(1) -0.007(1) -0.008(1) 0.006(1)
+C1 0.032(2) 0.046(2) 0.035(2) 0.001(2) -0.001(1) -0.005(2)
+C2 0.031(2) 0.045(2) 0.040(2) -0.002(2) 0.004(1) -0.002(2)
+C3 0.045(2) 0.069(2) 0.059(2) -0.017(2) -0.015(2) 0.012(2)
+C4 0.054(2) 0.094(3) 0.071(2) -0.024(2) -0.026(2) 0.017(2)
+C5 0.041(2) 0.073(2) 0.080(3) -0.015(2) -0.011(2) -0.013(2)
+C6 0.052(2) 0.055(2) 0.080(2) -0.018(2) 0.003(2) -0.003(2)
+C7 0.047(2) 0.053(2) 0.055(2) -0.004(2) -0.003(2) 0.005(2)
+C9 0.059(2) 0.068(2) 0.051(2) -0.009(2) 0.009(2) -0.001(2)
+C10 0.068(3) 0.131(4) 0.085(3) -0.024(3) 0.019(2) -0.010(3)
+C11 0.117(4) 0.107(3) 0.096(3) -0.000(3) 0.026(3) 0.043(3)
+C13 0.051(2) 0.081(2) 0.032(2) -0.008(2) -0.004(2) -0.005(2)
+C14 0.103(3) 0.115(3) 0.054(2) 0.004(3) -0.006(2) 0.030(2)
+C15 0.143(4) 0.118(4) 0.059(3) 0.012(4) 0.005(3) -0.028(3)
+
+# 10. MOLECULAR GEOMETRY
+
+
+
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Co1 S2 2.2894(9) ?
+Co1 S2 2.2899(9) ?
+Co1 O1 1.939(2) ?
+Co1 O1 1.939(2) ?
+S2 C1 1.731(3) ?
+P1 O1 1.489(2) ?
+P1 O8 1.556(2) ?
+P1 O12 1.549(2) ?
+P1 N1 1.610(2) ?
+O8 C9 1.466(4) ?
+O12 C13 1.461(4) ?
+N1 C1 1.296(3) ?
+C1 C2 1.491(4) ?
+C2 C3 1.383(4) ?
+C2 C7 1.379(4) ?
+C3 C4 1.367(5) ?
+C3 H3 0.97(3) ?
+C4 C5 1.363(5) ?
+C4 H4 0.84(3) ?
+C5 C6 1.367(5) ?
+C5 H5 0.96(3) ?
+C6 C7 1.385(5) ?
+C6 H6 0.96(3) ?
+C7 H7 0.94(3) ?
+C9 C10 1.483(6) ?
+C9 C11 1.496(7) ?
+C9 H9 1.03(3) ?
+C10 H101 0.99(5) ?
+C10 H102 0.86(4) ?
+C10 H103 0.95(4) ?
+C11 H111 1.02(4) ?
+C11 H112 0.96(5) ?
+C11 H113 0.88(5) ?
+C13 C14 1.484(6) ?
+C13 C15 1.515(6) ?
+C13 H13 0.99(3) ?
+C14 H141 0.90(4) ?
+C14 H142 1.03(5) ?
+C14 H143 1.00(5) ?
+C15 H151 0.99(3) ?
+C15 H152 0.95(4) ?
+C15 H153 1.14(5) ?
+
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+S2 Co1 S2 113.79(6) ?
+S2 Co1 O1 116.49(6) ?
+S2 Co1 O1 101.25(6) ?
+S2 Co1 O1 101.26(6) ?
+S2 Co1 O1 116.50(6) ?
+O1 Co1 O1 108.1(1) ?
+Co1 S2 C1 109.3(1) ?
+O1 P1 O8 112.2(1) ?
+O1 P1 O12 107.5(1) ?
+O1 P1 N1 118.7(1) ?
+O8 P1 O12 103.9(1) ?
+O8 P1 N1 105.8(1) ?
+O12 P1 N1 107.8(1) ?
+Co1 O1 P1 126.7(1) ?
+P1 O8 C9 119.6(2) ?
+P1 O12 C13 124.6(2) ?
+P1 N1 C1 133.5(2) ?
+S2 C1 N1 127.7(2) ?
+S2 C1 C2 115.9(2) ?
+N1 C1 C2 116.4(3) ?
+C1 C2 C3 119.4(3) ?
+C1 C2 C7 122.7(3) ?
+C3 C2 C7 117.9(3) ?
+C2 C3 C4 120.7(4) ?
+C2 C3 H3 117(1) ?
+C4 C3 H3 121(1) ?
+C3 C4 C5 121.2(4) ?
+C3 C4 H4 115(2) ?
+C5 C4 H4 122(2) ?
+C4 C5 C6 119.0(4) ?
+C4 C5 H5 121(1) ?
+C6 C5 H5 119(1) ?
+C5 C6 C7 120.3(4) ?
+C5 C6 H6 120(1) ?
+C7 C6 H6 119(1) ?
+C2 C7 C6 120.8(4) ?
+C2 C7 H7 119(1) ?
+C6 C7 H7 119(1) ?
+O8 C9 C10 107.5(3) ?
+O8 C9 C11 108.2(4) ?
+O8 C9 H9 106(1) ?
+C10 C9 C11 114.5(5) ?
+C10 C9 H9 110(1) ?
+C11 C9 H9 108(1) ?
+C9 C10 H101 107(2) ?
+C9 C10 H102 114(3) ?
+C9 C10 H103 107(2) ?
+H101 C10 H102 108(4) ?
+H101 C10 H103 114(3) ?
+H102 C10 H103 103(4) ?
+C9 C11 H111 107(2) ?
+C9 C11 H112 107(2) ?
+C9 C11 H113 108(3) ?
+H111 C11 H112 113(3) ?
+H111 C11 H113 115(4) ?
+H112 C11 H113 104(4) ?
+O12 C13 C14 108.0(3) ?
+O12 C13 C15 106.0(3) ?
+O12 C13 H13 110(1) ?
+C14 C13 C15 113.2(4) ?
+C14 C13 H13 113(1) ?
+C15 C13 H13 106(1) ?
+C13 C14 H141 113(2) ?
+C13 C14 H142 113(2) ?
+C13 C14 H143 109(2) ?
+H141 C14 H142 109(3) ?
+H141 C14 H143 97(3) ?
+H142 C14 H143 112(3) ?
+C13 C15 H151 102(2) ?
+C13 C15 H152 105(2) ?
+C13 C15 H153 100(2) ?
+H151 C15 H152 112(3) ?
+H151 C15 H153 125(3) ?
+H152 C15 H153 108(3) ?
+
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion
+_geom_torsion_publ_flag
+? ? ? ? ? ?
+####################################################################### 
+# 
+# This file contains crystal structure data downloaded from the 
+# Cambridge Structural Database (CSD) hosted by the Cambridge 
+# Crystallographic Data Centre (CCDC).
+# 
+# Full information about CCDC data access policies and citation 
+# guidelines are available at http://www.ccdc.cam.ac.uk/access/V1 
+# 
+# Audit and citation data items may have been added by the CCDC. 
+# Please retain this information to preserve the provenance of 
+# this file and to allow appropriate attribution of the data. 
+# 
+#######################################################################
+

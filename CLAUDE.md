@@ -902,6 +902,31 @@ sources exist, and `structure_provenance` says which one a file came from:
 - **a PubChem conformer** (`ai_generated`): the compound's generic 3D
   structure, never the paper's geometry. Its file says `GENERATED` on the
   comment line and the row's `notes` say so too.
+- **the paper's CIF** (`experimental`; user ruling 2026-11-05: "include the
+  CIF in the structure file, it is an allow format"). Magnetism and ZFS
+  papers usually compute on the X-ray structure and deposit it only as a
+  CIF, so this is often the only copy of the geometry the calculation used.
+  `code/tools/tools_save_cif_block.py` writes `<entry_id>.cif`: the row's
+  `data_` block copied verbatim under two `#` provenance lines, minus any
+  embedded reflection data (`_shelx_hkl_file`, `_refln_` loops), which is
+  diffraction data rather than structure and inflated one block to 4 MB.
+  Which block is the row's is a reading decision: match the block's
+  `_chemical_formula_sum` and name against the row, and check that the
+  calculation used the crystal structure, not a truncated or optimised
+  model. A CIF holds the whole crystal (counter-ions, solvent, and every
+  independent molecule in the asymmetric unit), and the row's note says
+  so. The apply tool keeps a file's extension when it renames it.
+
+  **COD is a source too** (user, 2026-11-05: do what the spin-phonon project
+  did, "COD, PubChem, then a CCDC list"). The Crystallography Open Database is
+  open; query `https://www.crystallography.net/cod/result?format=json&doi=<doi>`
+  at about one request per second or slower (it refused bursts), download
+  `cod/<id>.cif` into `papers/si/<key>/cod_<id>.cif`, match each block to its
+  row by reading, then save with `tools_save_cif_block.py`, which labels the
+  origin as the COD entry. The CSD is licensed and is never fetched: its
+  deposition numbers go into `logs/structures_needed_zfs.csv` for the user to
+  download. On 2026-11-05 this took the computed-ZFS rows from 44 structures
+  to 126 (22 SI CIFs, 61 COD CIFs); the user then downloaded CCDC deposits from the list, and 109 more rows were matched from them (`papers/ccdc/ccdc_<n>.cif`, one file per deposit), taking the computed-ZFS rows to 235; a second download of the papers' own deposits that the first CCDC-number scan had missed (it ignored ranges and lists) added 81, for 316 of 856 (37%).
 
 **The pipeline, in order** (all re-runnable, from `code/`):
 

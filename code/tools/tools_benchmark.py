@@ -389,7 +389,7 @@ def cmd_apply(a):
                 if o.get("structure_file"):
                     row["structure_file"] = o["structure_file"]
                     row["structure_provenance"] = o.get("structure_provenance", "")
-                    want = f"{row['entry_id']}.xyz"
+                    want = row["entry_id"] + (Path(o["structure_file"]).suffix or ".xyz")
                     if o["structure_file"] != want:
                         renames.append((row, o["structure_file"], want))
             out.append(row)
