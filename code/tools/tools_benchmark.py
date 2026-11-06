@@ -60,6 +60,7 @@ import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
+import tools_properties as _props  # noqa: E402
 from mining_agent import config, csvio, index
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -268,7 +269,12 @@ def match(old, new):
 
 def validate(r):
     errs = []
-    extra = set(r) - set(CONTENT) - {"continues"}
+    extra = set(r) - set(CONTENT) - {"continues", "properties_add"}
+    if r.get("properties_add"):
+        try:
+            _props.parse(r["properties_add"])
+        except ValueError as e:
+            errs.append(f"properties_add: {e}")
     if extra:
         errs.append(f"unknown columns {sorted(extra)}")
     for c in ("active_space_nel", "active_space_norb"):
@@ -371,6 +377,25 @@ def cmd_apply(a):
         for i, r in enumerate(new):
             r["entry_id"] = ids[i] or next(free)
         pairs = match(old, new)
+        # properties_add may not give a key+source the old row already has a
+        # different value for: two D calc values in one row are a conflict to
+        # settle by reading, not to append
+        # An old value that reappears in properties_add under another key is a
+        # re-tag (the old regex extraction filed a GCFT D as "D exp", a
+        # quasi-doublet g as the ground g): the old entry is dropped below.
+        clash, retag = [], {}
+        for i, r in enumerate(new):
+            have = _props.parse(pairs.get(i, {}).get("properties", "") or "")
+            add = _props.parse(r.get("properties_add", "") or "")
+            moved = {ks for ks, (hv, _u) in have.items()
+                     if any(ak != ks and abs(av - hv) < 1e-9 for ak, (av, _x) in add.items())}
+            retag[i] = moved
+            for ks, (v, _u) in add.items():
+                if ks in have and ks not in moved and abs(have[ks][0] - v) > 1e-9:
+                    clash.append(f"{r['entry_id']} {ks[0]} {ks[1]}: {have[ks][0]:g} vs {v:g}")
+        if clash:
+            refused.append((k, "properties_add conflicts: " + "; ".join(clash[:4])))
+            continue
         out = []
         for i, r in enumerate(new):
             o = pairs.get(i, {})
@@ -392,9 +417,34 @@ def cmd_apply(a):
                     want = row["entry_id"] + (Path(o["structure_file"]).suffix or ".xyz")
                     if o["structure_file"] != want:
                         renames.append((row, o["structure_file"], want))
+            # properties the review adds (e.g. excited-state g tensors, keyed gz@KD2):
+            # appended, never replacing what the old row carried
+            have = [e.strip() for e in row["properties"].split(";") if e.strip()]
+            have = [e for e in have if list(_props.parse(e))[0] not in retag.get(i, set())]
+            known = _props.parse("; ".join(have))
+            add = [e.strip() for e in str(r.get("properties_add", "") or "").split(";") if e.strip()]
+            add = [e for e in add if list(_props.parse(e))[0] not in known]
+            row["properties"] = "; ".join(have + add)
             out.append(row)
         paired = {o["entry_id"] for o in pairs.values()}
         orphan = [o["entry_id"] for o in old if o.get("structure_file") and o["entry_id"] not in paired]
+        # A row folded into its compound's production row (an active-space
+        # ladder, CLAUDE.md "One row per compound") leaves its structure
+        # behind. The geometry belongs to the compound, not the space, so it
+        # goes to the one new row naming the same compound, if that row has none.
+        for oid in list(orphan):
+            o = next(x for x in old if x["entry_id"] == oid)
+            same = [row for row in out if not row["structure_file"] and (
+                    (o.get("formula") and row["formula"] == o.get("formula")) or
+                    row["compound_name"] == o.get("compound_name"))]
+            if len(same) == 1:
+                row = same[0]
+                row["structure_file"] = o["structure_file"]
+                row["structure_provenance"] = o.get("structure_provenance", "")
+                want = row["entry_id"] + (Path(o["structure_file"]).suffix or ".xyz")
+                if o["structure_file"] != want:
+                    renames.append((row, o["structure_file"], want))
+                orphan.remove(oid)
         dates = {o["entry_id"]: o.get("date_added", "") for o in old}
         for i, r in enumerate(new):  # a split row keeps the date its species entered the database
             if i not in pairs and dates.get(r.get("continues")):

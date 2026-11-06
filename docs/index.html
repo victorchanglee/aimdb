@@ -1178,7 +1178,9 @@ const PROPS = [
 ];
 // Each row's key set, computed once. hasProp runs for every chip on every
 // render, and re-parsing the field each time would be four parses per row.
-DATA.forEach(r => { r._propKeys = new Set(parseProps(r).map(e => e.key)); });
+// A key may carry a state, gz@KD2 (an excited Kramers doublet's g): the chip
+// is the quantity, so the state tag is dropped for matching.
+DATA.forEach(r => { r._propKeys = new Set(parseProps(r).map(e => e.key.split("@")[0])); });
 const hasProp = (r, p) => p.keys.some(k => r._propKeys.has(k)) ||
   (!!p.prefix && [...r._propKeys].some(k => k.startsWith(p.prefix))) ||
   (!!p.prefixes && [...r._propKeys].some(k => p.prefixes.some(x => k.startsWith(x))));
@@ -1293,9 +1295,12 @@ const PROP_NAMES = {"D":"ZFS D", "E/D":"ZFS E/D",
                     "g3":"g\u2083 (principal)",
                     "A":"Hyperfine A", "Ueff":"U_eff (barrier)"};
 // "D[NEVPT2]" -> "ZFS D (NEVPT2)": the method tag shown beside the usual name.
+// "gz@KD2" -> "g_z, KD2": a value belonging to a state other than the ground one.
 function propName(k){
-  const m = /^(.+?)\[(.+)\]$/.exec(k);
-  return m ? `${PROP_NAMES[m[1]]||m[1]} (${m[2]})` : (PROP_NAMES[k]||k);
+  const [base, state] = k.split("@");
+  const m = /^(.+?)\[(.+)\]$/.exec(base);
+  const name = m ? `${PROP_NAMES[m[1]]||m[1]} (${m[2]})` : (PROP_NAMES[base]||base);
+  return state ? `${name}, ${state}` : name;
 }
 function propsHtml(r){
   const es = parseProps(r);

@@ -163,6 +163,11 @@ mined):
   Character of Multiconfigurational Wave Functions: The Qat Diagnostic* (rows
   `W4387745042-*`). **QUEST-adjacent**: benchmarks its SA-CASSCF/MR-CI
   excitations against the QUESTDB best estimates (added 2026-11-02).
+- `10.1021/acs.jpca.2c02480` — Monino, Boggio-Pasqua, Scemama, Jacquemin &
+  Loos, *Reference Energies for Cyclobutadiene: Automerization and Excited
+  States* (rows `W4223510623-*`). **QUEST-family**: a Loos/Jacquemin/Scemama
+  reference-energy paper of the same series (added 2026-11-06, found by the
+  claim review).
 
 Related, and already `not_usable` so it produces no row: `10.1021/acs.jpclett.0c00014`
 (Loos, Scemama & Jacquemin, *The Quest for Highly Accurate Excitation Energies:
@@ -507,9 +512,18 @@ PDFs that were added by hand and aren't in the index).
      other columns apply as usual (pi/lone-pair active spaces go in
      `active_space_orbital_description`; ground-state term, excitation
      energies, etc. go in `electronic_structure_description` as stated).
-   - `active_space_protocol`: only if the paper describes its buildup
-     sequence; this column is what the decision agent reads — quote it
-     faithfully, format "(nel,norb) step; (nel,norb) step; ...".
+   - `active_space_protocol`: **the steps that led to the production
+     space** (user ruling 2026-11-06), in the paper's order, ending at the
+     space the row's integers hold. Each step gives its (nel,norb), the
+     orbitals it added or removed, and the key results the paper reports at
+     that step, labelled by method and state:
+     `(4,4) Gouterman H-1,H,L,L+1: S2-S1 gap ~0.2 eV too low, rejected;
+     (4,5) +L+2: E(S1)=2.02 eV NEVPT2; (8,7) +H-5,H-6: production`.
+     A space the paper computes only to check the production one (a larger
+     space run afterwards, "to check whether our conclusions are biased")
+     is a step too, written after the production step and marked `check`.
+     Empty only when the paper uses one space and describes no build-up.
+     This column is what the decision agent reads — quote it faithfully.
    - `reference_doi` is mandatory — a row without a DOI is not addable.
    - `correlation_correction`: which post-CASSCF dynamic-correlation
      correction the reported result uses (`NEVPT2`, `CASPT2`, `RASPT2`,
@@ -538,13 +552,46 @@ PDFs that were added by hand and aren't in the index).
      (per-DOI `oa_status` gold/hybrid/green/bronze/diamond/closed plus the
      best OA URL) and restamps the column for every row. It is access
      metadata about the source, not a property of the calculation.
-   - `electronic_structure_description`: **what the states are.** This
-     column merges the ground-state term symbol (if stated — prefix it
-     "Ground term: ...") with the low-lying state energies; paste the
-     relevant numbers compactly, state units; SOC-corrected vs SOC-free
-     matters (`soc_included` flag: `yes` when stated, otherwise empty —
-     the bare `no` used until 2026-08-20 was emptied database-wide, as was
-     `ss_included` `no`).
+   - `electronic_structure_description`: **what the states are, at the
+     production space, in a structured form a site filter can parse** (user
+     ruling 2026-11-06). Entries are separated by `; `, each
+     `key=value[ unit] source[ method]`, `source` being `calc` (this row's
+     calculation) or `exp` (a measured value the paper quotes), exactly as
+     in `properties`:
+
+     | key | meaning | example |
+     |---|---|---|
+     | `ground` | ground state as printed | `ground=4A2 calc NEVPT2` |
+     | `character` | nature of the low-lying states, in words | `character=d-d ligand-field states of 3d7` |
+     | `E(<state>)` | state energy relative to the ground state | `E(S1 1B2 pi-pi*)=3.21 eV calc CASPT2` |
+     | `gap(<A>-<B>)` | difference between two named states | `gap(T1-S1)=0.42 eV calc NEVPT2` |
+     | `barrier(<path>)` | barrier or TS energy | `barrier(S1->CI)=0.88 eV calc MS-CASPT2` |
+     | `f(<state>)` | oscillator strength | `f(S1)=0.31 calc CASSCF` |
+     | `occ(<orbital>)` | natural-orbital occupation | `occ(LUMO)=0.41 calc CASSCF` |
+     | `param(<name>)` | fitted model parameter (AILFT B, C, zeta; J; CFPs) | `param(B)=1056 cm-1 calc AILFT` |
+     | `note` | what no key can hold, in words | `note=S=3/2 spin Hamiltonian valid for 1-5` |
+
+
+     Copy values and state labels as printed; a value the paper gives as a
+     range or with ± keeps it. **D, E/D, g and Ueff go in `properties`**,
+     not here: they are properties, not a description of the states. That
+     includes excited states (user ruling 2026-11-06: "excited state
+     properties are fine, it just need to be clarify in the property box"):
+     a value belonging to a state other than the row's ground doublet or
+     spin Hamiltonian carries the state after `@`, so `gz@KD2=14.537 calc`,
+     `gx@KD2=0.149 calc`; a method tag comes before it,
+     `gz[NEVPT2]@KD2=...`. Use gx/gy/gz only where the paper labels the
+     axes, g1/g2/g3 in the paper's order otherwise, as for the ground
+     doublet. A review writes them in the row's `properties_add` field
+     (entries in the same format), which the apply tool appends to
+     `properties`. Ligand-field and other fitted parameters with no
+     `properties` key (AILFT B, C, zeta; AOM; J) stay here as `param(...)`.
+     A conversion that empties this field or drops a number is wrong
+     (pilot of 2026-11-06: 438 numbers in 35 papers were lost that way). Results at intermediate or check spaces go in
+     `active_space_protocol` with their step, not here. SOC-corrected vs
+     SOC-free matters (`soc_included` flag: `yes` when stated, otherwise
+     empty — the bare `no` used until 2026-08-20 was emptied database-wide,
+     as was `ss_included` `no`).
    - `Other`: **what the active space did to the answer.** A separate
      column from the one above — do not fold them together. This is where
      the *methodological* finding goes: how the choice of active space,
@@ -642,7 +689,16 @@ PDFs that were added by hand and aren't in the index).
      whole column, and left 96 rows with an empty `notes` because narration
      was all they had ever contained. An empty `notes` is the honest result.
      `code/tools/tools_strip_llm_narration.py` does this and is re-runnable.
-   - One row per compound, not per table — condense.
+   - One row per compound, not per table — condense. **A compound gets
+     one row for its production space, not one per space** (user ruling
+     2026-11-06): the build-up rungs and check spaces of a convergence
+     study fold into that row's `active_space_protocol`. Separate rows for
+     one compound are right only when the paper uses different spaces for
+     different jobs — CASSCF(2,2) geometries and MECIs beside CASPT2(12,12)
+     energy profiles, CASSCF(6,6) dynamics beside RASSCF(18,16) spectra,
+     separate ionisation channels — and each such row says which job it is
+     in `method`. A model complex and its parent, or two metal sites, are
+     different species and keep separate rows.
    Then `status=extracted` (or `extracted_partial` if key fields were
    missing but the row is still useful).
 
@@ -901,7 +957,14 @@ sources exist, and `structure_provenance` says which one a file came from:
   kind that is the geometry the row's calculation used.
 - **a PubChem conformer** (`ai_generated`): the compound's generic 3D
   structure, never the paper's geometry. Its file says `GENERATED` on the
-  comment line and the row's `notes` say so too.
+  comment line and the row's `notes` say so too. **Removed from the
+  database on 2026-11-06** (user ruling: "remove for now the ai generated
+  structures, keep only paper extracted"). The 352 attached conformers and
+  1,102 that were generated but never attached (the October `--apply` queue
+  in `logs/pubchem_structure_edits.json` was never run for them) were moved
+  to the gitignored `papers/generated_structures/`; `logs/removed_generated_structures.csv`
+  maps each cleared row to its file, so they can be restored. Do not
+  attach PubChem conformers again until the user reverses this.
 - **the paper's CIF** (`experimental`; user ruling 2026-11-05: "include the
   CIF in the structure file, it is an allow format"). Magnetism and ZFS
   papers usually compute on the X-ray structure and deposit it only as a

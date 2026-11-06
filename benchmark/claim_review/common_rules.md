@@ -71,9 +71,9 @@ Allowed columns:
 The derived and bookkeeping columns (structure_file, element, properties,
 open_access, date_added and the rest) are kept by the apply tool. Never
 output them. One sentence in `notes` belongs to them: a row whose structure
-is a PubChem conformer must say that its structure_file is GENERATED and not
-the paper's geometry. That caveat is required by CLAUDE.md, not narration —
-keep it when you rewrite `notes`.
+file is a CIF says where it came from (SI, COD entry or CCDC deposition) and
+what differs from the row. That is provenance, not narration — keep it when
+you rewrite `notes`.
 
 ### Field rules
 
@@ -86,18 +86,14 @@ keep it when you rewrite `notes`.
   - If the paper's own statements conflict, for example a printed count
     against its listed orbitals, leave the integer empty and quote both in
     `notes`.
-- **active_space_protocol** holds only a build-up sequence the paper
-  describes, in the paper's order. Write it as
-  `(nel,norb) step; (nel,norb) step; ...`.
-  - Separate calculations that the paper does not present as an enlargement
-    sequence do not belong here. Put them in Other or notes.
+- **active_space_protocol**: as CLAUDE.md defines it.
 - **Other** holds what the active space or correlation treatment did to the
   answer, as CLAUDE.md defines it.
   - State only what the paper shows, for this row's species.
   - Do not generalise a "within X eV" statement beyond the cases the paper
     gives.
-- **electronic_structure_description** holds every value the paper reports
-  for the row's species. Give each value with its method and state labels.
+- **electronic_structure_description**: in the structured format CLAUDE.md
+  defines.
 - **notes** holds only caveats a chemist needs. Never write extraction
   narration, file or SI availability, checksums, or history.
 - **system_class** is one of `atom`, `molecule`, `cluster-model` or
@@ -105,10 +101,7 @@ keep it when you rewrite `notes`.
 
 ### Rows
 
-Make one row per species, or one per species and active space where the
-paper reports results at several spaces.
-- A model complex and its parent are different species.
-- So are two metal sites.
+Which rows a paper gets is defined in CLAUDE.md ("One row per compound").
 
 A statement that holds for the whole paper goes only on the rows it is true
 for. Do not copy it onto every row.

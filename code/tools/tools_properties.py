@@ -98,6 +98,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "code"))
 from mining_agent import config  # noqa: E402
+sys.path.insert(0, str(ROOT / "code" / "tools"))
+from tools_esd_format import check as _esd_check  # noqa: E402
 
 # aimdb.csv ONLY, deliberately. database/aimdb_llm_reproduced.csv also has the
 # four ZFS columns, but those hold values a reproducing agent COMPUTED and
@@ -146,8 +148,11 @@ def key_unit(key):
 
 
 def base_key(key):
-    """D[NEVPT2] -> D. A method tag never changes a key's unit or order."""
-    return key.split("[", 1)[0]
+    """D[NEVPT2] -> D, gz@KD2 -> gz. A method or state tag never changes a
+    key's unit or order. `@<state>` names the state a value belongs to when it
+    is not the row's ground doublet / spin Hamiltonian (user ruling 2026-11-06:
+    excited-state properties go here, labelled)."""
+    return key.split("[", 1)[0].split("@", 1)[0]
 # Entry order within the field, so the same row always serialises identically
 # and a diff shows real changes only.
 KEY_ORDER = ("D", "E/D", "gx", "gy", "gz", "gperp", "giso",
@@ -1192,6 +1197,14 @@ def main(argv=None):
     for r, entries, _ in results:
         packed = fmt(entries)
         r.setdefault(COLUMN, "")
+        text = r.get("electronic_structure_description", "")
+        if text.strip() and not _esd_check(text):
+            # Already in the structured format (CLAUDE.md, 2026-11-06): a review
+            # wrote this row's properties deliberately, state- and method-tagged,
+            # and the prose it would lift from now holds active-space rungs and
+            # fitted parameters, not the row's own D/g. Leave it alone.
+            kept += len(parse(r[COLUMN])) if r[COLUMN].strip() else 0
+            continue
         if args.fill_only:
             # Merge per KEY, not per cell. A row already stating a D has a
             # non-empty cell, and a cell-level test would then refuse the gz
