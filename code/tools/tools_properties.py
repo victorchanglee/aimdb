@@ -99,7 +99,6 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "code"))
 from mining_agent import config  # noqa: E402
 sys.path.insert(0, str(ROOT / "code" / "tools"))
-from tools_esd_format import check as _esd_check  # noqa: E402
 
 # aimdb.csv ONLY, deliberately. database/aimdb_llm_reproduced.csv also has the
 # four ZFS columns, but those hold values a reproducing agent COMPUTED and
@@ -132,7 +131,7 @@ LEGACY_KEYS = {"zfs_D_calc": ("D", "calc"), "zfs_ED_calc": ("E/D", "calc"),
 # carries whatever unit the paper used, because no conversion is available --
 # see the module docstring on A.
 VARIES = None
-KEYS = {"D": "cm-1", "E/D": "", "gx": "", "gy": "", "gz": "",
+KEYS = {"D": "cm-1", "E/D": "", "E": "cm-1", "gx": "", "gy": "", "gz": "",
         "giso": "", "gperp": "", "g1": "", "g2": "", "g3": "",
         "Ueff": "cm-1", "A": VARIES}
 # Crystal-field parameters are keyed B(k,q) and generated from the data, so
@@ -155,7 +154,7 @@ def base_key(key):
     return key.split("[", 1)[0].split("@", 1)[0]
 # Entry order within the field, so the same row always serialises identically
 # and a diff shows real changes only.
-KEY_ORDER = ("D", "E/D", "gx", "gy", "gz", "gperp", "giso",
+KEY_ORDER = ("D", "E/D", "E", "gx", "gy", "gz", "gperp", "giso",
              "g1", "g2", "g3", "A", "Ueff")
 
 
@@ -794,6 +793,41 @@ def parse(field):
     return entries
 
 
+STRICT_KEY = re.compile(r"^(?P<base>[A-Za-z][A-Za-z0-9/]*|B\(\d+,-?\d+\))(?:\[(?P<method>[^\]=;@]+)\])?(?:@(?P<state>[^=;@\[\]\s]+))?$")
+
+
+def check_field(field):
+    """Strict check of a packed properties field, for writers (review agents).
+
+    Returns a list of (entry, reason). Accepted: KEY[method]@state=VALUE[ UNIT]
+    SOURCE, KEY one of KEYS or B(k,q), the unit the key's canonical one (D, E
+    and Ueff in cm-1 -- convert K or GHz and say so in notes), no uncertainty
+    or range in the value (put the printed form in notes), state labels
+    without spaces, '=', ';', '@' or brackets.
+    """
+    errs = []
+    for part in [p.strip() for p in (field or "").split(";") if p.strip()]:
+        m = re.match(r"^(.+?)=([-+]?\d+(?:\.\d+)?)(?:\s+(\S+))?\s+(calc|exp)$", part)
+        if not m:
+            errs.append((part, "not KEY=NUMBER[ UNIT] calc|exp (no uncertainty, range or note)"))
+            continue
+        km = STRICT_KEY.match(m.group(1))
+        if not km:
+            errs.append((part, "bad key: KEY[method]@state, state without spaces/=/;/brackets"))
+            continue
+        base, unit = km.group("base"), m.group(3) or ""
+        if base.startswith("B("):
+            want = "cm-1"
+        elif base in KEYS:
+            want = KEYS[base]
+        else:
+            errs.append((part, f"unknown key {base!r} (keys: {', '.join(KEYS)}, B(k,q))"))
+            continue
+        if want is not VARIES and unit != want:
+            errs.append((part, f"unit {unit!r}, expected {want!r}"))
+    return errs
+
+
 def to_cm(value, unit):
     """Value in cm-1, or None when the unit disqualifies it."""
     if unit in ("cm-1", ""):
@@ -1198,6 +1232,7 @@ def main(argv=None):
         packed = fmt(entries)
         r.setdefault(COLUMN, "")
         text = r.get("electronic_structure_description", "")
+        from tools_esd_format import check as _esd_check  # lazy: it imports this module
         if text.strip() and not _esd_check(text):
             # Already in the structured format (CLAUDE.md, 2026-11-06): a review
             # wrote this row's properties deliberately, state- and method-tagged,

@@ -50,6 +50,20 @@ def nums(text):
     return out
 
 
+THOUSANDS = re.compile(r"(?<![\d.])\d{1,3}(?: \d{3})+(?![\d.])")
+
+
+def joined(text):
+    """Numbers with a thousands space read as one ("57 945" -> 57945), and
+    the fragments that reading accounts for. Both readings are tried because a
+    space can also separate two numbers ("2Delta5/2 175")."""
+    whole, frags = set(), set()
+    for m in THOUSANDS.finditer(text or ""):
+        whole.add(m.group(0).replace(" ", ""))
+        frags |= {p for p in m.group(0).split(" ") if len(p) >= 2}
+    return whole, frags
+
+
 def pairs(text):
     return set(PAIR.findall(text or ""))
 
@@ -64,10 +78,14 @@ def main(argv=None):
     ap.add_argument("--rows", required=True)
     a = ap.parse_args(argv)
     old_n, old_p = collections.defaultdict(set), collections.defaultdict(set)
+    old_w, old_f, new_j = (collections.defaultdict(set) for _ in range(3))
     for p in json.load(open(a.batch, encoding="utf-8"))["papers"]:
         for r in p.get("rows", []):
             for f in OLD_FIELDS:
                 old_n[p["key"]] |= nums(r.get(f, ""))
+                w, fr = joined(r.get(f, ""))
+                old_w[p["key"]] |= w
+                old_f[p["key"]] |= fr
                 old_p[p["key"]] |= pairs(r.get(f, ""))
             if r.get("active_space_nel") and r.get("active_space_norb"):
                 old_p[p["key"]].add((r["active_space_nel"], r["active_space_norb"]))
@@ -76,6 +94,7 @@ def main(argv=None):
         k = key(r["entry_id"])
         for f in NEW_FIELDS:
             new_n[k] |= nums(r.get(f, ""))
+            new_j[k] |= joined(r.get(f, ""))[0]
             new_p[k] |= pairs(r.get(f, ""))
         if r.get("active_space_nel") and r.get("active_space_norb"):
             new_p[k].add((r["active_space_nel"], r["active_space_norb"]))
@@ -85,7 +104,8 @@ def main(argv=None):
             new_n[key(r["entry_id"])] |= nums(r.get("properties", ""))
     bad = 0
     for k in sorted(keys):
-        ln = sorted(old_n[k] - new_n[k])
+        ln = sorted(x for x in old_n[k] - new_n[k] - new_j[k]
+                    if not (x in old_f[k] and old_w[k] & (new_n[k] | new_j[k])))
         lp = sorted(old_p[k] - new_p[k])
         if ln or lp:
             bad += 1

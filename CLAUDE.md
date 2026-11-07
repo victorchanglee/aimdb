@@ -580,7 +580,13 @@ PDFs that were added by hand and aren't in the index).
      a value belonging to a state other than the row's ground doublet or
      spin Hamiltonian carries the state after `@`, so `gz@KD2=14.537 calc`,
      `gx@KD2=0.149 calc`; a method tag comes before it,
-     `gz[NEVPT2]@KD2=...`. Use gx/gy/gz only where the paper labels the
+     `gz[NEVPT2]@KD2=...`. Keys are D, E/D, E (cm-1), gx/gy/gz, gperp,
+     giso, g1/g2/g3, Ueff, A and B(k,q); a contribution or variant is a
+     method tag (`D[CASSCF SOC part]`), never a new key. Values are plain
+     numbers in the key's canonical unit (D, E, Ueff in cm-1; a K value is
+     converted and the conversion noted); the printed form with its
+     uncertainty, such as -64(4), goes in `notes`. State labels have no
+     spaces, `=`, `;`, `@` or brackets. Use gx/gy/gz only where the paper labels the
      axes, g1/g2/g3 in the paper's order otherwise, as for the ground
      doublet. A review writes them in the row's `properties_add` field
      (entries in the same format), which the apply tool appends to

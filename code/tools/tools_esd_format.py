@@ -10,6 +10,9 @@ keys must carry a number (a range or ± is kept as printed) and a source.
 D, E/D, g and Ueff are refused: they belong in `properties` only, an
 excited state's value keyed with its state (gz@KD2).
 
+Each row's `properties_add` (what a review adds to `properties`) is checked
+strictly too: known keys, canonical units, no uncertainty in the value.
+
 Usage (from code/, with .venv/bin/python):
   .venv/bin/python tools/tools_esd_format.py                # summary over aimdb.csv
   .venv/bin/python tools/tools_esd_format.py --entry-id W123-a
@@ -24,6 +27,7 @@ import sys
 import _bootstrap  # noqa: F401  (puts code/ on sys.path)
 
 from mining_agent import config
+from tools_properties import check_field as _prop_check  # noqa: E402
 
 WORD_KEYS = {"ground", "character", "note"}
 NUM_KEY = re.compile(r"^(E|gap|barrier|f|occ|param)\((.+)\)$")
@@ -93,10 +97,11 @@ def main(argv=None):
     shown = 0
     for r in rows:
         text = r.get("electronic_structure_description", "")
-        if not text.strip():
+        perrs = [(e, "properties_add: " + why) for e, why in _prop_check(r.get("properties_add", ""))]
+        if not text.strip() and not perrs:
             empty += 1
             continue
-        errs = check(text)
+        errs = check(text) + perrs
         if errs:
             bad += 1
             if shown < a.show:

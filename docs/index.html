@@ -1162,7 +1162,7 @@ const PROPS = [
   // D[NEVPT2], D[CASSCF], E/D[CASSCF] ... (tools_properties.py, 2026-10-31),
   // because one D key cannot hold two methods' values. They are the same
   // measurement, so they belong to this chip.
-  {key:"D",     label:"ZFS (D, E/D)", keys:["D","E/D"], prefixes:["D[","E/D["]},
+  {key:"D",     label:"ZFS (D, E/D)", keys:["D","E/D","E"], prefixes:["D[","E/D[","E["]},
   {key:"g",     label:"g tensor",
    // g1/g2/g3 are principal values in the paper's own order, which this
    // corpus prints both ascending and descending, so they are not mapped
@@ -1288,7 +1288,7 @@ function reportEntry(r){
 // line per entry, naming the quantity and whether it was computed or measured.
 // Display names. A B(k,q) key already reads correctly as itself, so it has
 // no entry here and falls through to the raw key.
-const PROP_NAMES = {"D":"ZFS D", "E/D":"ZFS E/D",
+const PROP_NAMES = {"D":"ZFS D", "E/D":"ZFS E/D", "E":"ZFS E",
                     "gx":"g_x", "gy":"g_y", "gz":"g_z",
                     "gperp":"g_perp", "giso":"g_iso",
                     "g1":"g\u2081 (principal)", "g2":"g\u2082 (principal)",

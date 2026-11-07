@@ -56,6 +56,7 @@ import datetime as _dt
 import glob
 import json
 import re
+import shutil
 import sys
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -495,13 +496,25 @@ def cmd_apply(a):
     # cannot overwrite. A destination that exists and is not itself moving away
     # (an unmatched old row's file, kept with its quarantined row) is never
     # overwritten: the row then keeps pointing at the old filename.
-    moving = {src for _, src, _ in renames}
+    # A file several rows share (a polymorph pair, two spin states of one
+    # geometry) is COPIED for the renamed row when a row that is not being
+    # renamed still points at it -- moving it would leave that row with a
+    # dangling structure_file (seven rows lost theirs that way in r013).
+    renamed_ids = {id(row) for row, _, _ in renames}
+    still_used = {r.get("structure_file") for rows in replaced.values() for r in rows
+                  if id(r) not in renamed_ids}
+    still_used |= {r.get("structure_file") for r in csv.DictReader(open(config.LITERATURE_CSV, newline="", encoding="utf-8"))
+                   if r["entry_id"].rsplit("-", 1)[0] not in replaced}
+    moving = {src for _, src, _ in renames if src not in still_used}
     tmp = []
     for row, src, dst in renames:
         if not (STRUCT / src).exists() or ((STRUCT / dst).exists() and dst not in moving):
             continue
         t = STRUCT / (dst + ".renaming")
-        (STRUCT / src).rename(t)
+        if src in still_used:
+            shutil.copy2(STRUCT / src, t)
+        else:
+            (STRUCT / src).rename(t)
         tmp.append((t, STRUCT / dst))
         row["structure_file"] = dst
     for t, d in tmp:
