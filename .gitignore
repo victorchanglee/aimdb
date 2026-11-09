@@ -26,3 +26,4 @@ logs/.restore_text.lock
 # Claim-review batches and agent outputs quote the papers; the per-paper
 # numbers live in logs/benchmark_status.csv
 benchmark/work/
+logs/removed_rows.csv

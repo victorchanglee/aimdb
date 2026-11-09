@@ -311,7 +311,10 @@ compound.
 an early attempt matched `n ?= ?` and flagged every formula containing `N=O`.
 
 The quarantine file is a log, not a data source — do not load it alongside
-`aimdb.csv`. It lived at `database/removed_rows.csv` until 2026-08-19, so the
+`aimdb.csv`. It is **local only** (user ruling 2026-11-09: "stop tracking
+removed_rows.csv and delete the remote version"): gitignored and removed from
+the repository, because every review run appends whole rows to it (r013 alone
+added 3,097) and it had reached 18 MB. Back it up yourself; git will not. It lived at `database/removed_rows.csv` until 2026-08-19, so the
 54 `strip_row` entries already in `logs/extractions.csv` name that old path;
 they were accurate when written and are left alone, because the log is
 append-only. It is also not the same content as the row's last version in git:
