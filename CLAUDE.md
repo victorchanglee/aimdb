@@ -753,8 +753,13 @@ PDFs that were added by hand and aren't in the index).
       rows with the targeted pass's row set. It refuses a batch that has no
       `target_NN.json`, and refuses to apply a run twice. It:
       - quarantines the old rows verbatim to `logs/removed_rows.csv`;
-      - carries `structure_file`, `date_added` and `properties` over to the
-        new row describing the same species;
+      - carries `structure_file` and `properties` over to the new row
+        describing the same species;
+      - stamps every row of the paper with the review date as `date_added`,
+        which is the date the paper was last mined, not first added (user
+        ruling 2026-11-12). The rows of the 313 papers reviewed on
+        2026-11-12 were restamped to match; papers reviewed before that
+        still carry their first-added date;
       - stamps `mining_model` with `config.CURRENT_MINING_MODEL`, the model
         that ran the review, and never keeps the original miner's value
         (user ruling 2026-10-31). The original survives only in the

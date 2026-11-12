@@ -27,9 +27,10 @@ This tool does the mechanical part around those passes:
             2026-10-30); name them with --keys to review one deliberately.
   score     precision/recall of the reviewed rows, from benchmark files
   apply     replace each paper's rows with the fix output. Old rows are
-            quarantined verbatim to logs/removed_rows.csv; structure files,
-            date_added and properties are carried to the new row describing
-            the same species; every paper is logged to logs/extractions.csv
+            quarantined verbatim to logs/removed_rows.csv; structure files
+            and properties are carried to the new row describing the same
+            species; date_added is set to the review date, the paper's last
+            mining; every paper is logged to logs/extractions.csv
             and logs/benchmark_status.csv
   status    how many papers are reviewed, and what is left
 
@@ -407,7 +408,9 @@ def cmd_apply(a):
             row["entry_type"] = config.DEFAULT_ENTRY_TYPE
             row["mining_model"] = config.CURRENT_MINING_MODEL
             row["open_access"] = old[0].get("open_access", "") if old else ""
-            row["date_added"] = o.get("date_added") or today
+            # date_added is the date the paper was last mined (user ruling
+            # 2026-11-12), so a reviewed paper's rows all carry the review date
+            row["date_added"] = today
             if o:
                 row["properties"] = o.get("properties", "")
                 if o.get("formula", "") == row["formula"] and o.get("metal_center", "") == row["metal_center"]:
@@ -446,10 +449,6 @@ def cmd_apply(a):
                 if o["structure_file"] != want:
                     renames.append((row, o["structure_file"], want))
                 orphan.remove(oid)
-        dates = {o["entry_id"]: o.get("date_added", "") for o in old}
-        for i, r in enumerate(new):  # a split row keeps the date its species entered the database
-            if i not in pairs and dates.get(r.get("continues")):
-                out[i]["date_added"] = dates[r["continues"]]
         replaced[k] = out
         removed_all += old
         b = bench.get(k, {})
