@@ -757,9 +757,11 @@ PDFs that were added by hand and aren't in the index).
         describing the same species;
       - stamps every row of the paper with the review date as `date_added`,
         which is the date the paper was last mined, not first added (user
-        ruling 2026-11-12). The rows of the 313 papers reviewed on
-        2026-11-12 were restamped to match; papers reviewed before that
-        still carry their first-added date;
+        ruling 2026-11-12). Every paper reviewed before the rule was
+        restamped the same day with its latest `applied_at` in
+        `logs/benchmark_status.csv` (8,445 rows in 2,565 papers; r013's
+        format review counts). Only papers never claim-reviewed still carry
+        the date they were first added;
       - stamps `mining_model` with `config.CURRENT_MINING_MODEL`, the model
         that ran the review, and never keeps the original miner's value
         (user ruling 2026-10-31). The original survives only in the
