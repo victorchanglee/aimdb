@@ -926,6 +926,16 @@ all** — 22 diatomics under the preprint key, 6 polyatomics under the journal's
 both molecule sets present in both texts — so the union is the record and
 nothing was deleted.
 
+**A union like this does not stay one.** The claim review of the journal key
+(r007, 2026-11-03) added the diatomics it lacked, so by 2026-11-12 all 23
+preprint rows were duplicates of journal rows under the same DOI and the
+preprint key was resolved (`W4250745118`, quarantined). The XS-CASSCF pair went
+the same way, except that its preprint rows were 2.5x richer in prose: the
+journal key was claim-reviewed with the preprint rows as `previous_rows`
+(run r024-xsmerge) to carry over what the article confirms, and only then
+resolved. So re-run the resolver's dry run after a claim review touches either
+key of a pair, and compare prose before applying, not just spaces.
+
 After that pass, 14 more rows were quarantined and 35 re-attributed, leaving
 one pair unresolved and raised with the user: the An(III) soft-donor study,
 where the journal rows are themselves class-named *and* carry spaces the
