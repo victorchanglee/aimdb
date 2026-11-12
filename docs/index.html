@@ -895,7 +895,7 @@ them. The full text is available as <code>LICENSE</code> in the repository root.
         <select name="entry_type" required>
           <option value="human">Human — I ran/found this myself</option>
           <option value="llm_mining">LLM-mined — extracted from the literature by an LLM</option>
-          <option value="llm_reproduced">LLM-reproduced — an LLM actually re-ran the calculation</option>
+          <option value="llm_reproduced">LLM-computed — an LLM ran the calculation</option>
         </select>
       </div>
       <div class="field-group full"><label>Notes</label><textarea name="notes"></textarea></div>
@@ -1342,7 +1342,7 @@ function elBadges(r){
   return list.map(e=>`<span class="el">${e}</span>`).join("");
 }
 
-const ENTRY_TYPE_LABELS = {llm_mining:"LLM-mined", llm_reproduced:"LLM-reproduced", human:"Human"};
+const ENTRY_TYPE_LABELS = {llm_mining:"LLM-mined", llm_reproduced:"LLM-computed", human:"Human"};
 function sysTag(r){
   const c = sysOf(r);
   if(!c) return "";
