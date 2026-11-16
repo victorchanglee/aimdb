@@ -98,97 +98,14 @@ a spin label that pins the d count (quartet, quartet, sextet for 3d³, 3d³,
 linear combinations of 50 and 175 configurations", and the Weyl–Paldus singlet
 dimension of CAS(6,5) is exactly 50 and of CAS(6,6) exactly 175.
 
-## QUEST-sourced rows: included, no longer filtered on export
+## QUEST-series papers: mined like any other
 
-**The QUEST exclusion is lifted (user ruling 2026-10-15: "remove the quest
-exclusion, the papers are now able to be included in the database").**
-QUEST-series rows are exported and returned by `mining_agent.query` like any
-other row: `config.QUEST_EXCLUDE` is `False`, so `tools_export.py` drops
-nothing and `query.find()` withholds nothing. The DOI list below and
-`config.QUEST_DOIS` are kept as a **provenance record** of which rows came
-from the QUEST benchmark papers, so the exclusion can be restored by setting
-`QUEST_EXCLUDE = True`. Keep extending the list when another QUEST paper is
-mined. The rest of this section is the history of the rule while it applied.
-
-QUEST-series papers are **in scope for aimdb** — this is a general database and
-their active spaces are legitimate data (user ruling 2026-08-04). The
-contamination risk lives entirely at the **export boundary**: `claude-casscf`
-holds QUEST as a held-out benchmark in `test/questdb/`, and its decision agent
-may read `database/literature.csv`. So **any bulk refresh of
-claude-casscf/literature.csv from aimdb.csv must drop rows whose
-`reference_doi` is a QUEST-series paper** — check provenance before writing,
-not after. This was learned the hard way: a 2026-08-03 wholesale refresh
-carried 14 QUEST rows into literature.csv and had to be reverted.
-
-The machine-readable copy of the list is `config.QUEST_DOIS`, and both
-`code/tools/tools_export.py` and `mining_agent.query` import it from there —
-`query.find()` withholds these rows unless a caller passes
-`include_quest=True`. **Extend both this list and `config.QUEST_DOIS`** when
-another QUEST paper is mined; the annotated version below is the one a reader
-checks.
-
-QUEST-sourced DOIs currently in `aimdb.csv` (extend this list when more are
-mined):
-
-- `10.1021/acs.jctc.8b01205` — Loos et al., *Reference Energies for Double
-  Excitations* (rows `W2903558328-a` … `-n`, 14 rows)
-- `10.48550/arxiv.2409.00302` — Song et al., *QUEST#4X* (rows
-  `W4402953348-a` … `-q`, 17 rows)
-- `10.1021/acs.jctc.9b01216` — Loos, Scemama, Jacquemin et al., *A
-  Mountaineering Strategy to Excited States* (QUEST#3, row `W3003925803-a`).
-- `10.1021/acs.jctc.3c01080` — Jacquemin, Boggio-Pasqua & Loos, *Reference
-  Vertical Excitation Energies for Transition Metal Compounds* (row
-  `W4387325820-a`). **QUEST-series**: an explicit extension of the QUEST
-  database to eleven fourth-row transition metal diatomics (CuCl, CuF, CuH,
-  ScF, ScH, ScO, ScS, TiN, ZnH, ZnO, ZnS).
-- `10.1021/acs.jctc.1c01197` — Sarkar, Loos, Boggio-Pasqua & Jacquemin,
-  *Assessing the Performances of CASPT2 and NEVPT2 for Vertical Excitation
-  Energies* (row `W3215360477-a`). **QUEST-adjacent** in the same sense: the
-  CASPT2/NEVPT2 numbers are its own, but all 265 theoretical best estimates and
-  the single-reference comparison statistics are pulled from the QUEST
-  database. Drop on export.
-- `10.48550/arxiv.2602.04420` — Chanda, Bhattacharjya, Sen & Sen,
-  *UGA-SSMRPT2: A Multireference Perturbation Theory Predicting Accurate
-  Electronic Excitation Energies in Diverse Molecular Systems* (rows
-  `W7128057212-*`). **QUEST-adjacent**: its UGA-SSMRPT2 numbers are its own,
-  but the geometries of the Loos set, the Rydberg systems, CO and HCl are
-  "obtained from the QUEST database", and it benchmarks against the QUEST
-  theoretical best estimates. Drop on export (added 2026-10-15).
-- `10.1039/d5sc09498d` — *Accurate energies for ππ\* excited states via
-  exchange scaling: the XS-CASSCF method* (rows `W4416881924-*`).
-  **QUEST-adjacent**: its XS-CASSCF numbers are its own, but the hexatriene
-  and dataset geometries and reference values are taken from QUESTDB (added
-  2026-11-02, found by the claim review).
-- `10.1021/acs.jpca.3c05559` — do Monte et al., *Quantification of the Ionic
-  Character of Multiconfigurational Wave Functions: The Qat Diagnostic* (rows
-  `W4387745042-*`). **QUEST-adjacent**: benchmarks its SA-CASSCF/MR-CI
-  excitations against the QUESTDB best estimates (added 2026-11-02).
-- `10.1021/acs.jpca.2c02480` — Monino, Boggio-Pasqua, Scemama, Jacquemin &
-  Loos, *Reference Energies for Cyclobutadiene: Automerization and Excited
-  States* (rows `W4223510623-*`). **QUEST-family**: a Loos/Jacquemin/Scemama
-  reference-energy paper of the same series (added 2026-11-06, found by the
-  claim review).
-
-Related, and already `not_usable` so it produces no row: `10.1021/acs.jpclett.0c00014`
-(Loos, Scemama & Jacquemin, *The Quest for Highly Accurate Excitation Energies:
-A Computational Perspective*, key `W3009380936`) is the QUEST review itself. If
-a future pass ever finds a way to mine it, it belongs on this list.
-
-**QUEST-sourced DOIs that no longer have rows** (2026-08-17). Their single row
-named a dataset rather than a compound and was stripped under the rule below;
-the rows are preserved in `logs/removed_rows.csv`. They are listed here
-because the contamination risk returns the moment anyone re-mines them:
-
-- `10.1002/wcms.1517` — Véril, Scemama, Caffarel, Loos, Jacquemin et al.,
-  *QUESTDB: a database of highly accurate excitation energies*. The QUEST
-  database paper itself (was row `W3110161356-a`).
-- `10.1021/acs.jctc.4c00410` — Loos, Boggio-Pasqua, Jacquemin et al.,
-  *Reference Energies for Double Excitations: Improvement and Extension*,
-  QUEST-series successor to `10.1021/acs.jctc.8b01205` (was `W4399729459-a`).
-- `10.1063/5.0095887` — Boggio-Pasqua, Jacquemin & Loos, *Benchmarking CASPT3
-  Vertical Excitation Energies*. QUEST-adjacent: its own CASPT2/CASPT3 study,
-  but geometries and reference values taken wholesale from QUEST (was
-  `W4223990773-a`).
+QUEST-series papers (Loos, Jacquemin, Scemama et al. and papers that take
+their geometries or reference values from QUESTDB) are in scope and are
+mined, exported and queried like any other paper (user rulings 2026-10-15
+and 2026-11-16). `config.QUEST_EXCLUDE` is `False`. Do not keep a list of
+them here or label rows as QUEST-sourced; the per-paper list was removed
+on 2026-11-16.
 
 ## The active space must be an integer
 
