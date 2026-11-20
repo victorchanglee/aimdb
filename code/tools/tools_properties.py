@@ -168,8 +168,9 @@ def key_rank(key):
         tag = key[len(base_key(key)):]
         return (0, KEY_ORDER.index(base_key(key)), tag)
     if key.startswith(B_PREFIX):
-        k, q = key[len(B_PREFIX):-1].split(",")
-        return (1, int(k), str(int(q)).zfill(3))
+        base = base_key(key)
+        k, q = base[len(B_PREFIX):-1].split(",")
+        return (1, int(k), str(int(q)).zfill(3), key[len(base):])
     return (2, 0, "")
 SOURCE_ORDER = ("calc", "exp")
 
