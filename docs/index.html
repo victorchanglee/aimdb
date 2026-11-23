@@ -706,7 +706,7 @@
   <p>Current statistics of the database are:</p>
   <div class="stat-grid">
     <div class="stat-card"><div class="num" id="dsLiterature">—</div><div class="lbl">literature entries</div></div>
-    <div class="stat-card"><div class="num" id="dsComputed">—</div><div class="lbl">computed entries</div></div>
+    <div class="stat-card" id="dsComputedCard"><div class="num" id="dsComputed">—</div><div class="lbl">computed entries</div></div>
     <div class="stat-card"><div class="num" id="dsPapers">—</div><div class="lbl">source papers</div></div>
     <div class="stat-card"><div class="num" id="dsElements">—</div><div class="lbl">elements covered</div></div>
     <div class="stat-card"><div class="num" id="dsYears">—</div><div class="lbl">year range</div></div>
@@ -918,9 +918,19 @@ them. The full text is available as <code>LICENSE</code> in the repository root.
 // separately so neither CSV nor its generated blob approaches GitHub's 100 MB
 // per-file limit. Reproduced rows carry entry_type `llm_reproduced`, so the
 // existing "Entry source" facet separates them with no extra filter.
+// SHOW_COMPUTED hides the LLM-computed rows everywhere on the site (table,
+// facets, stats, contribution form) without deleting the blob; user ruling
+// 2026-11-23: "hide for now the LLM-computed from the site". Set it to true
+// to bring them back.
+const SHOW_COMPUTED = false;
 const DATA = []
   .concat((window.LIT && window.LIT.rows) || [])
-  .concat((window.LIT_REPRODUCED && window.LIT_REPRODUCED.rows) || []);
+  .concat(SHOW_COMPUTED ? ((window.LIT_REPRODUCED && window.LIT_REPRODUCED.rows) || []) : []);
+if (!SHOW_COMPUTED) {
+  document.getElementById("dsComputedCard").hidden = true;
+  const opt = document.querySelector('select[name="entry_type"] option[value="llm_reproduced"]');
+  if (opt) opt.remove();
+}
 const $ = s => document.querySelector(s);
 const esc = s => (s||"").replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 
